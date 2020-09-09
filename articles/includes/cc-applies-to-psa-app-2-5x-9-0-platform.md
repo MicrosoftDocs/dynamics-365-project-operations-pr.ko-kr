@@ -1,1 +1,1 @@
-Dynamics 365 (online) 버전 9.x에서 Project Service 앱 버전 2.5.x 이후
+<span data-ttu-id="7983c-101">Dynamics 365 (online) 버전 9.x에서 Project Service 앱 버전 2.5.x 이후</span><span class="sxs-lookup"><span data-stu-id="7983c-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>

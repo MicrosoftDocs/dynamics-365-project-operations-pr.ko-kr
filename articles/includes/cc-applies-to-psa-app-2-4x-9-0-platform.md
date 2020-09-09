@@ -1,1 +1,1 @@
-Dynamics 365 (online) 버전 9.x에서 Project Service 앱 버전 2.4.4.30 이전에 적용
+<span data-ttu-id="409d6-101">Dynamics 365 (online) 버전 9.x에서 Project Service 앱 버전 2.4.4.30 이전에 적용</span><span class="sxs-lookup"><span data-stu-id="409d6-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

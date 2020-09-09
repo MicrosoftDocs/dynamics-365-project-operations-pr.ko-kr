@@ -1,1 +1,1 @@
-Microsoft Project용 Dynamics 365 Project Service Automation 추가 기능
+<span data-ttu-id="c3dc0-101">Microsoft Project용 Dynamics 365 Project Service Automation 추가 기능</span><span class="sxs-lookup"><span data-stu-id="c3dc0-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>

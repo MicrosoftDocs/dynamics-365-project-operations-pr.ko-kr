@@ -1,1 +1,1 @@
-비즈니스용 OneDrive
+<span data-ttu-id="099aa-101">비즈니스용 OneDrive</span><span class="sxs-lookup"><span data-stu-id="099aa-101">OneDrive for Business</span></span>

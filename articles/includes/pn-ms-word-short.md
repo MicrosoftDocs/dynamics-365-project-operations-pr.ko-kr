@@ -1,1 +1,1 @@
-Word
+<span data-ttu-id="17000-101">Word</span><span class="sxs-lookup"><span data-stu-id="17000-101">Word</span></span>

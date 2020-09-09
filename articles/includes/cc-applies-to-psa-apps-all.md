@@ -1,1 +1,1 @@
-Project Service 앱 버전3.x, 2.x 및 1.x에 적용
+<span data-ttu-id="25ec6-101">Project Service 앱 버전3.x, 2.x 및 1.x에 적용</span><span class="sxs-lookup"><span data-stu-id="25ec6-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>

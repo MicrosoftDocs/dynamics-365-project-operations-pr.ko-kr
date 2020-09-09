@@ -1,3 +1,3 @@
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations는 특정 비즈니스 기능을 관리할 수 있도록 특별히 제작된 응용 프로그램으로 발전했습니다. 이러한 변화에 대한 자세한 내용은 [Dynamics 365 라이선싱 가이드](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf)를 참조하십시오.
+> <span data-ttu-id="da4f5-101">Dynamics 365 for Finance and Operations는 특정 비즈니스 기능을 관리할 수 있도록 특별히 제작된 응용 프로그램으로 발전했습니다.</span><span class="sxs-lookup"><span data-stu-id="da4f5-101">Dynamics 365 for Finance and Operations has evolved into purpose-built applications to help you manage specific business functions.</span></span> <span data-ttu-id="da4f5-102">이러한 변화에 대한 자세한 내용은 [Dynamics 365 라이선싱 가이드](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="da4f5-102">For more information about these changes, see [Dynamics 365 Licensing Guide](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).</span></span>
  
