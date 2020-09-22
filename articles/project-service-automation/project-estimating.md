@@ -1,0 +1,99 @@
+---
+title: 프로젝트 원가 및 수익
+description: 이 항목은 프로젝트 원가 및 수익을 추산하는 것에 대한 정보를 제공합니다.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/01/2019
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: e9d82a6c-0164-4177-838b-c34571be041c
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 3eb52d97fbd5df0364bc9a1a1ef11a0a0f7ee127
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3753362"
+---
+# <a name="project-costs-and-revenue"></a><span data-ttu-id="6efe5-103">프로젝트 원가 및 수익</span><span class="sxs-lookup"><span data-stu-id="6efe5-103">Project costs and revenue</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+<span data-ttu-id="6efe5-104">프로젝트 추산은 프로젝트 스케줄에서 추정되고 스케줄이 잡힌 작업에 대한 재무적인 내용을 볼 수 있게 해 줍니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-104">Project estimates provide the financial view for work that is estimated and scheduled in the project schedule.</span></span> <span data-ttu-id="6efe5-105">**프로젝트** 페이지의 **추산** 탭에는 귀하가 계획 중인 작업의 원가 및 수익 영향이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-105">The **Estimates** tab on the **Projects** page shows the cost and revenue impact of the work that you’re planning.</span></span> <span data-ttu-id="6efe5-106">또한 사전 정의된 많은 차원에 대한 정보도 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-106">It also provides information about many predefined dimensions.</span></span> 
+
+> ![추산 탭](media/project-5.png)
+
+## <a name="cost-and-sales-values-of-the-project"></a><span data-ttu-id="6efe5-108">프로젝트 원가 및 매출액의 값</span><span class="sxs-lookup"><span data-stu-id="6efe5-108">Cost and sales values of the project</span></span>
+
+<span data-ttu-id="6efe5-109">가격표는 프로젝트에서 역할을 위한 원가 및 청구 요율을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-109">Price lists define the cost and bill rates for roles in a project.</span></span> <span data-ttu-id="6efe5-110">귀하는 과업에 배정된 직함 및 명명된 리소스와 연계된 역할에 근거하여 작업의 원가 및 수익 영향을 판단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-110">You can determine the cost and revenue impact of the work, based on the roles that are associated with the position name and the named resource that is assigned to a task.</span></span> <span data-ttu-id="6efe5-111">할당(일반 또는 명명된)이 없는 작업이 있는 경우 원가 또는 매출액 추산치를 얻을 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-111">If there are tasks that don't have any assignments (generic or named), you can’t get cost or sales estimates.</span></span> <span data-ttu-id="6efe5-112">원가 및 매출액의 값은 가격표에 정의된 날짜를 고려합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-112">Cost and sales values consider the date that is defined in the price lists.</span></span>
+
+### <a name="default-cost-price"></a><span data-ttu-id="6efe5-113">기본 원가</span><span class="sxs-lookup"><span data-stu-id="6efe5-113">Default cost price</span></span>  
+
+<span data-ttu-id="6efe5-114">모든 프로젝트는 어떤 조직에 속합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-114">Every project belongs to an organization.</span></span> <span data-ttu-id="6efe5-115">이 조직은 프로젝트의 **계약 단위** 필드에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-115">This organization is shown in the **Contracting Unit** field in the project.</span></span> <span data-ttu-id="6efe5-116">계약 단위와 연계된 가격표는 단위 원가를 결정하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-116">The price list that is associated with the contracting unit is used to determine the unit cost price.</span></span> <span data-ttu-id="6efe5-117">추산 행에 정의된 날짜를 위한 역할에서 올바른 원가를 결정하려면 원가 목록에서 역할, 단위, 조직 단위 조합을 검색하십시오.</span><span class="sxs-lookup"><span data-stu-id="6efe5-117">To determine the correct cost prices on roles for the date that is defined on estimate lines, search for the combination of role, unit, and organizational unit in the cost price list.</span></span> 
+
+<span data-ttu-id="6efe5-118">원가를 계산할 수 있도록 모든 과업을 리소스에 할당해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-118">So that their cost prices can be calculated, all tasks must be assigned to a resource.</span></span> <span data-ttu-id="6efe5-119">미할당된 과업의 원가는 0.00입니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-119">Any uwnassigned tasks will have a cost price of 0.00.</span></span>
+
+<span data-ttu-id="6efe5-120">역할, 단위 및 조직 단위의 조합이 계약 단위의 가격표에서 원가를 반환하지 않으면 시스템은 그 단위를 무시합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-120">If the combination of role, unit, and organizational unit doesn't return a cost price from the contracting unit's price list, the system ignores the unit.</span></span> <span data-ttu-id="6efe5-121">대신 역할과 조직 단위의 조합을 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-121">Instead, it searches for the combination of just role and organizational unit.</span></span> <span data-ttu-id="6efe5-122">원가가 발견되면 전환 계수를 통해 귀하가 추산 행에서 선택한 단위로 변환됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-122">If a cost price is found, conversion factors are used to convert it to the unit that you selected on the estimate line.</span></span>
+
+<span data-ttu-id="6efe5-123">역할과 조직 단위의 조합이 원가를 반환하지 않으면 시스템은 그 조직 단위를 무시합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-123">If the combination of role and organizational unit doesn't return a cost price, the system ignores the organizational unit.</span></span> <span data-ttu-id="6efe5-124">대신 역할과 단위의 조합을 검색하여 기본 가격을 설정합니다(변환이 적용된 후).</span><span class="sxs-lookup"><span data-stu-id="6efe5-124">Instead, it searches for the combination of role and unit to set the default price (after any conversion is applied).</span></span>
+
+<span data-ttu-id="6efe5-125">시스템이 역할에 대한 가격을 찾지 못하는 경우에는 추산 행의 원가가 기본값 **0.00**으로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-125">If the system doesn't find a price for the role, the cost price on the estimate line is set to a default value of **0.00**.</span></span> <span data-ttu-id="6efe5-126">프로젝트 원가 추산 행의 모든 원가 액수가 계약 단위 통화로 기록됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-126">All cost amounts on the project cost estimate lines are recorded in the currency of the contracting unit.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6efe5-127">기본적으로 Microsoft Dynamics 365는 원가 액수를 귀하의 기본 통화로 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-127">By default, Microsoft Dynamics 365 stores cost amounts in your base currency.</span></span> <span data-ttu-id="6efe5-128">그러나 **추산** 탭에 표시되는 원가 액수는 계약 단위의 통화로 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-128">However, the cost amounts that are shown on the **Estimates** tab are in the currency of the contracting unit.</span></span>  
+
+### <a name="default-sales-price"></a><span data-ttu-id="6efe5-129">기본 매출액 가격</span><span class="sxs-lookup"><span data-stu-id="6efe5-129">Default sales price</span></span> 
+
+<span data-ttu-id="6efe5-130">판매 가격표는 프로젝트가 연결된 판매 엔터티 또는 프로젝트 고객에 의해 결정됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-130">The sales price list is determined by either the sales entity that the project is attached to or the project customer.</span></span> <span data-ttu-id="6efe5-131">기회, 견적 또는 계약과 같은 판매 엔터티가 프로젝트와 연계되면 판매 엔터티의 판매 가격은 견적 또는 계약과 연계된 가격표에 의해 결정됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-131">When a sales entity, such as opportunity, quote, or contract, is associated with the project, the sales entity's sales price is determined by the price list that is associated with the quote or contract.</span></span> <span data-ttu-id="6efe5-132">견적이나 계약에 맞춤 가격표가 있을 경우, 이것이 프로젝트 추산에 대한 기본 판매 가격표가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-132">If the quote or contract has a custom price list, that price list is used as the default sales price list for project estimates.</span></span> <span data-ttu-id="6efe5-133">판매 엔터티와 연계되지 않은 경우, 파라미터들의 기본 판매 가격표는 프로젝트에 정의된 고객 통화와 일치하는 프로젝트의 기본 판매 가격표로 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-133">If there is no association with sales entities, the default sales price list from the parameters is used as the project's default sales price list matched by the customer currency that is defined on the project.</span></span>
+
+<span data-ttu-id="6efe5-134">각 추산 행에는 연계된 리소싱 단위가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-134">Each estimate line has a resourcing unit that is associated with it.</span></span> <span data-ttu-id="6efe5-135">리소스 단위는 리소스가 과업을 완료하기 위해 예약된 조직 단위를 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-135">The resourcing unit indicates the organizational unit that resources are booked from to complete the task.</span></span> <span data-ttu-id="6efe5-136">연계된 역할의 판매 가격을 확인하려면 판매 가격표에서 역할, 단위 및 리소싱 단위의 조합을 검색하십시오.</span><span class="sxs-lookup"><span data-stu-id="6efe5-136">To determine the sales price for the associated roles, search for the combination of role, unit, and resourcing unit in the sales price list.</span></span> <span data-ttu-id="6efe5-137">과업에 할당이 없는 경우 과업의 판매 가격은 0.00입니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-137">If there are no assignments on the task, the sales price for the task is 0.00.</span></span>
+
+<span data-ttu-id="6efe5-138">역할, 단위 및 리소싱 단위의 조합이 판매 가격표의 판매 가격을 반환하지 않으면 시스템은 그 단위를 무시합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-138">If the combination of role, unit, and resourcing unit doesn't return a sales price from the sales price list, the system ignores the unit.</span></span> <span data-ttu-id="6efe5-139">대신 역할과 리소싱 단위의 조합만 검색합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-139">Instead, it searches for the combination of just role and resourcing unit.</span></span> <span data-ttu-id="6efe5-140">판매 가격이 발견되면 전환 계수를 통해 귀하가 판매 추산 행에서 선택한 단위로 변환됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-140">If a sales price is found, conversion factors are used to convert it to the unit that you selected on the sales estimate line.</span></span> 
+
+<span data-ttu-id="6efe5-141">역할과 리소싱 단위의 조합이 판매 가격표의 판매 가격을 반환하지 않으면 시스템은 그 리소싱 단위를 무시합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-141">If the combination of role and resourcing unit doesn't return a sales price from the sales price list, the system ignores the resourcing unit.</span></span> <span data-ttu-id="6efe5-142">대신 역할과 단위의 조합을 검색하여 기본 가격을 설정합니다(변환이 적용된 후).</span><span class="sxs-lookup"><span data-stu-id="6efe5-142">Instead, it searches for the combination of role and unit to set the default price (after any conversion is applied).</span></span>
+
+<span data-ttu-id="6efe5-143">시스템이 역할에 대한 가격을 찾지 못하는 경우에는 추산 행의 판매 가격이 기본값 **0.00**으로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-143">If the system doesn't find a price for the role, the sales price on the estimate line is set to a default value of **0.00**.</span></span>
+
+<span data-ttu-id="6efe5-144">**추산** 탭에는 추산 행을 보여주는 그리드 보기가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-144">The **Estimates** tab has a grid view that shows estimate lines.</span></span> <span data-ttu-id="6efe5-145">그리드에는 다음 그림과 같이 단위, 총 원가 및 총 판매 가격에 대한 열이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-145">The grid includes columns for the unit, total cost price, and total sales price, as shown in the following illustration.</span></span> 
+
+> ![추산 탭의 그리드 보기](media/project-6.png)
+
+## <a name="time-phased-view-of-project-estimates"></a><span data-ttu-id="6efe5-147">프로젝트 추정 시간대별 보기</span><span class="sxs-lookup"><span data-stu-id="6efe5-147">Time-phased view of project estimates</span></span>
+
+<span data-ttu-id="6efe5-148">프로젝트 추산의 시간 단계별 보기는 선택한 시간 척도에서 타임라인 전체의 그리드 뷰의 추산 데이터를 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-148">The time-phased view of project estimates shows the estimate data from the grid view across the timeline, in a time scale that you select.</span></span> <span data-ttu-id="6efe5-149">기본적으로 추산 데이터는 **역할** 차원에 근거합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-149">By default, the estimate data is pivoted on the **Role** dimension.</span></span>
+
+> ![시간 단계별 프로젝트 추산 보기](media/project-7.png)
+
+## <a name="allocating-estimated-effort-based-on-the-task-mode"></a><span data-ttu-id="6efe5-151">과업 모드에 근거한 추산 노력 할당</span><span class="sxs-lookup"><span data-stu-id="6efe5-151">Allocating estimated effort based on the task mode</span></span>
+
+<span data-ttu-id="6efe5-152">시간 단계별 보기에서 귀하는 과업을 위해 추산된 총 노력을 선택된 시간 척도에서 단위 기간당 노력 시간 수를 할당함으로써 분배합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-152">In the time-phased view, you distribute the total effort that is estimated for the task by allocating effort hours per unit time period in the selected time scale.</span></span> <span data-ttu-id="6efe5-153">과업 모드는 과업 기간 전반에 대한 노력 할당 방식을 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-153">The task mode determines how effort is allocated across the duration of the task.</span></span> <span data-ttu-id="6efe5-154">두 종류의 할당은 **균등** 할당과 **작업 시간 기반** 할당입니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-154">The two kinds of allocation are **Even** and **Work hours–based**.</span></span>
+
+### <a name="work-hours-based-allocation"></a><span data-ttu-id="6efe5-155">작업 시간 기반 할당</span><span class="sxs-lookup"><span data-stu-id="6efe5-155">Work hours-based allocation</span></span>
+ 
+<span data-ttu-id="6efe5-156">자동 스케줄링 과업 모드에서 과업 리소스의 일일 기본 시간은 전체 작업 시간 요율에서 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-156">In auto-scheduling task mode, the daily default hours for task resources are set at the full work hour rate.</span></span> <span data-ttu-id="6efe5-157">이 특성은 시간 단계별 보기에서 노력을 과업 기간에 걸쳐 분할함으로써 할당할 때에도 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-157">This behavior applies when effort is allocated by splitting it across the duration of the task in the time-phased view.</span></span> <span data-ttu-id="6efe5-158">예컨대, 한 리소스가 과업을 **일** 시간 척도에서 완료할 것으로 추산되는 경우, 일당 할당되는 노력이 프로젝트 캘린더에서 정의된 일당 작업 시간을 초과하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-158">For example, if you estimate that a task will be completed by one resource in the **Day** time scale, the effort that is allocated per day won't exceed the work hours per day that are defined in the project calendar.</span></span> <span data-ttu-id="6efe5-159">따라서 작업량 할당은 항상 리소스가 그 날에 대해 완전히 사용된다는 전제가 선행됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-159">Therefore, the effort allocation always makes sure that the resources are estimated to be used for the full day.</span></span>
+
+### <a name="even-allocation"></a><span data-ttu-id="6efe5-160">균등 할당</span><span class="sxs-lookup"><span data-stu-id="6efe5-160">Even allocation</span></span>
+
+<span data-ttu-id="6efe5-161">수동으로 스케줄링된 과업 모드에서는 프로젝트 캘린더의 작업 시간이 사용되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-161">In manually scheduled task mode, the work hours from the project calendar aren't used.</span></span> <span data-ttu-id="6efe5-162">대신 과업 스케줄은 사용자 입력에 근거합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-162">Instead, the task schedule is based on user input.</span></span> <span data-ttu-id="6efe5-163">이러한 과업의 경우, 선택된 시간 척도의 단위 기간당 노력 할당에 제한 요소가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-163">For these tasks, the effort allocation per unit time period in the selected time scale doesn't have any limiting factor.</span></span> <span data-ttu-id="6efe5-164">업무에 대한 총 업무량은 선택한 시간대의 각 단위 기간 동안 균등하게 분할 및 할당됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-164">The total effort on the task is equally split and allocated for each unit time period in the selected time scale.</span></span> <span data-ttu-id="6efe5-165">그러므로 업무에 정의된 업무 모드가 작업량 배분이나 시간대 기준 추정의 단위 기간별 작업량 할당을 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-165">Therefore, the task mode that is defined on the task determines the effort distribution, or the allocation of effort per unit time period in time-phased estimates.</span></span>
+
+## <a name="grouping-and-time-phasing-options"></a><span data-ttu-id="6efe5-166">그룹화 및 시간대 옵션</span><span class="sxs-lookup"><span data-stu-id="6efe5-166">Grouping and time-phasing options</span></span>
+
+<span data-ttu-id="6efe5-167">시간 단계 보기는 일당, 주당, 월당, 년당 작업량과 비용 및 영업 추정치 분배를 이해하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-167">The time-phased view shows the distribution of the effort, cost, and sales estimates on a daily, weekly, monthly, or yearly basis.</span></span> <span data-ttu-id="6efe5-168">기본적으로 추산 데이터는 **역할** 차원에 근거합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-168">By default, the estimate data is pivoted on the **Role** dimension.</span></span> <span data-ttu-id="6efe5-169">그러나 **그룹별** 옵션을 사용하여 **카테고리** 및 **리소스**의 두 가지 다른 차원에 근거하도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-169">However, you can use the **Group By** option to pivot on two other dimensions: **Category** and **Resource**.</span></span>
+
+<span data-ttu-id="6efe5-170">그리드 뷰와 시간 단계별 보기 모두에서 표시할 필드를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-170">In both the grid view and the time-phased view, you can select which fields are shown.</span></span> <span data-ttu-id="6efe5-171">각 시간 블록의 합계는 프로젝트 하단에 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-171">Totals for each time block are shown at the bottom of the project.</span></span> <span data-ttu-id="6efe5-172">일, 주, 월 또는 연도의 총 추산 노력, 원가 및 매출액을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-172">They show the total estimated effort, cost, and sales for the day, week, month, or year.</span></span> <span data-ttu-id="6efe5-173">기본 원가 및 판매 가격은 날짜별입니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-173">The default cost price and sales price are date-effective.</span></span> <span data-ttu-id="6efe5-174">즉, 선택한 시간 단계별 보기에 따라 각 리소스에 대해 변경됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-174">In other words, they change for each resource, based on the time-phased view that you select.</span></span>
+
+## <a name="expense-estimates"></a><span data-ttu-id="6efe5-175">경비 추정</span><span class="sxs-lookup"><span data-stu-id="6efe5-175">Expense estimates</span></span>
+
+<span data-ttu-id="6efe5-176">그리드 뷰에서 **새 경비 추산 추가** 버튼을 사용하면 프로젝트에서 발생하는 모든 경비를 기록할 수 있지만 이는 노동과 직접적인 관련이 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-176">The **Add a New Expense Estimate** button in the grid view lets you record any expenses that are incurred in the project, but that aren't directly related to labor.</span></span> <span data-ttu-id="6efe5-177">귀하는 특정 과업 또는 전체 프로젝트에 대한 경비 추산을 기록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-177">You can record the expense estimates for a specific task or for the entire project.</span></span> <span data-ttu-id="6efe5-178">경비 카테고리와 경비가 발생할 것으로 예상되는 임시 날짜를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-178">Select expense categories and the tentative date when you expect to incur the expense.</span></span> <span data-ttu-id="6efe5-179">연계된 원가 목록과 판매가 목록에 기본 가격이 있는 경우(또는 경비 카테고리를 위한 인상율이 정의되어 있는 경우), 연계가 발생할 때 그것이 자동적으로 입력됩니다.</span><span class="sxs-lookup"><span data-stu-id="6efe5-179">If the associated cost price list and sales price list have default prices (or if markup percentages are defined for expense categories), they are automatically entered on the estimate line when the association occurs.</span></span>

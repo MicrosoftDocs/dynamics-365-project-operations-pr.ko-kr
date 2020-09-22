@@ -1,0 +1,1 @@
+# <a name="welcome-to-dynamics-365-project-operations"></a><span data-ttu-id="e194c-101">Dynamics 365 Project Operations를 사용해 보십시오!</span><span class="sxs-lookup"><span data-stu-id="e194c-101">Welcome to dynamics-365-project-operations!</span></span>

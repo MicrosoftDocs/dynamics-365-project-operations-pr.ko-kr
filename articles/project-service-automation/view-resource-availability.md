@@ -1,0 +1,50 @@
+---
+title: 리소스 사용 가능 시간 보기
+description: 리소스 가용성을 보는 방법(Project Service)
+author: JohnPBurrows
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: a764a166-3aab-4dbf-ad75-05e1c9e2476d
+ms.author: jburrows
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 71a129acba0e61aa12006959693d9d9cfb234f66
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3753283"
+---
+# <a name="view-resource-availability-project-service"></a><span data-ttu-id="4dfb6-103">리소스 사용 가능 여부 보기(Project Service)</span><span class="sxs-lookup"><span data-stu-id="4dfb6-103">View resource availability (Project Service)</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+<span data-ttu-id="4dfb6-104">리소스 사용 가능 여부를 확인하여 예약된 리소스 상태를 전부 보거나, 보기를 기술, 팀, 위치 및 기타 옵션으로 필터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
+  
+> [!NOTE]
+> [!INCLUDE[cc_feature_included_with_2016_update_1](../includes/cc-feature-included-with-2016-update-1.md)]  
+> 
+>  <span data-ttu-id="4dfb6-105">최신 버전을 사용 중인 경우 리소스 사용 가능 시간에 대해 [프로젝트에 리소스 예약(Project Service Automation)](../project-service/schedule-resources-project.md)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-105">If you are using an newer version, for resource availability see, [Schedule resources for a project (Project Service Automation)](../project-service/schedule-resources-project.md).</span></span>  
+
+1. <span data-ttu-id="4dfb6-106">**Project Service > 리소스 사용 가능 여부**로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-106">Go to **Project Service > Resource Availability**.</span></span>  
+
+    <span data-ttu-id="4dfb6-107">모든 리소스 및 리소스 사용 가능 여부의 캘린더 보기가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-107">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="4dfb6-108">화면 위쪽의 보기 또는 정렬 순서를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-108">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="4dfb6-109">또한, **날짜**, **주** 또는 **달**에 대한 사용 가능 여부를 표시할 것인지 선택하고, 화살표를 사용하여 이전 또는 다음 기간을 볼 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-109">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="4dfb6-110">검색 상자를 사용하여 구체적인 리소스를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-110">Use the search box to find a specific resource.</span></span>  
+
+2. <span data-ttu-id="4dfb6-111">**옵션**을 클릭하여 표시되는 내용을 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-111">Click **Options** to change what displays.</span></span> <span data-ttu-id="4dfb6-112">예를 들어, 예약 유형별 색상을 볼 수 있는 기호 설명표를 표시하거나 특정 유형의 예약(예: 완료된 예약, 가예약)만 표시되도록 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-112">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
+
+3. <span data-ttu-id="4dfb6-113">**필터**를 클릭하여 **필터** 패널을 표시하면 조직 단위, 역할, 기술 또는 기타 특성을 기준으로 결과를 필터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4dfb6-113">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
+
+### <a name="see-also"></a><span data-ttu-id="4dfb6-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="4dfb6-114">See Also</span></span>  
+ [<span data-ttu-id="4dfb6-115">리소스 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="4dfb6-115">Resource Manager Guide</span></span>](../project-service/resource-manager-guide.md)

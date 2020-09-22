@@ -1,0 +1,50 @@
+---
+title: 주요 개념
+description: 이 항목은 Project Service Automation에서 리소스 관리를 위한 주요 개념에 대한 정보를 제공합니다.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/28/2019
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.assetid: f5f96f65-c191-493a-aef7-df7deb52a9cb
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: 4a839b828d5e1da1e5a8d8a378197b3d4932e529
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3753331"
+---
+# <a name="key-concepts"></a><span data-ttu-id="fe0fb-103">주요 개념</span><span class="sxs-lookup"><span data-stu-id="fe0fb-103">Key concepts</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+<span data-ttu-id="fe0fb-104">다음 표는 Dynamics 365 Project Service Automation 앱에서 사용되는 주요 개념을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-104">The following table defines key concepts that are used in the Dynamics 365 Project Service Automation app.</span></span>
+
+| <span data-ttu-id="fe0fb-105">개념</span><span class="sxs-lookup"><span data-stu-id="fe0fb-105">Concept</span></span>                    | <span data-ttu-id="fe0fb-106">정의</span><span class="sxs-lookup"><span data-stu-id="fe0fb-106">Definition</span></span> |
+|----------------------------|------------|
+| <span data-ttu-id="fe0fb-107">프로젝트 팀원</span><span class="sxs-lookup"><span data-stu-id="fe0fb-107">Project team member</span></span>        | <span data-ttu-id="fe0fb-108">프로젝트 팀의 일원으로서 프로젝트 팀원은 예약이 있는 명명된 리소스, 예약이 없는 명명된 리소스 또는 일반 리소스일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-108">As part of the project team, a project team member can be a named resource that has bookings, a named resource that doesn't have bookings, or a generic resource.</span></span> <span data-ttu-id="fe0fb-109">일반 리소스는 예약을 갖지 않으며 프로젝트에 로컬이고 프로젝트 전체에 걸친 능력 제약 조건은 없습니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-109">Generic resources don't have bookings, are local to the project, and don't have capacity constraints across projects.</span></span> |
+| <span data-ttu-id="fe0fb-110">프로젝트 일반 리소스</span><span class="sxs-lookup"><span data-stu-id="fe0fb-110">Project generic resource</span></span>   | <span data-ttu-id="fe0fb-111">팀을 형성하고 명명된 리소스를 알 필요 없이 프로젝트 계획에 충원할 수 있는 리소스 자리 표시자입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-111">A resource placeholder that lets you form a team and staff a project plan without having to know the named resource.</span></span> <span data-ttu-id="fe0fb-112">프로젝트 캘린더는 일반 리소스의 캘린더로 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-112">The project calendar is used as the generic resource's calendar.</span></span> <span data-ttu-id="fe0fb-113">일반 리소스를 프로젝트 팀에 추가하고 과업에 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-113">Generic resources can be added to a project team and assigned to tasks.</span></span> |
+| <span data-ttu-id="fe0fb-114">예약된 시간 수</span><span class="sxs-lookup"><span data-stu-id="fe0fb-114">Booked hours</span></span>               | <span data-ttu-id="fe0fb-115">프로젝트 작업이 완료되도록 보장하기 위해 프로젝트에 대해 리소스 시간을 확정 예약합니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-115">Resource hours are hard-booked against a project to help guarantee that the project work is completed.</span></span> <span data-ttu-id="fe0fb-116">예약된 시간 수는 리소스의 전체 능력에서 소비됩니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-116">Booked hours are consumed from the resource's overall capacity.</span></span> <span data-ttu-id="fe0fb-117">예약은 일반 리소스가 아니라 명명된 리소스에만 해당합니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-117">Bookings are against named resources only, not against generic resources.</span></span> |
+| <span data-ttu-id="fe0fb-118">할당된 시간 수</span><span class="sxs-lookup"><span data-stu-id="fe0fb-118">Assigned hours</span></span>             | <span data-ttu-id="fe0fb-119">리소스 시간 수는 프로젝트 스케줄의 과업에 할당됩니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-119">Resource hours are assigned to tasks in the project schedule.</span></span> <span data-ttu-id="fe0fb-120">할당은 명명된 리소스 또는 일반 리소스에 대해 수행될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-120">Assignments can be against either named resources or generic resources.</span></span> <span data-ttu-id="fe0fb-121">할당은 예약과 무관할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-121">Assignments can be independent of bookings.</span></span> |
+| <span data-ttu-id="fe0fb-122">요구되는 시간 수</span><span class="sxs-lookup"><span data-stu-id="fe0fb-122">Required hours</span></span>             | <span data-ttu-id="fe0fb-123">요구되지만 명명된 리소스에 의해 아직 충족되지 않은 능력입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-123">The capacity that is required, but that isn't yet fulfilled by a named resource.</span></span> <span data-ttu-id="fe0fb-124">요구되는 시간 수는 리소스 요건을 생성한 일반 팀원에만 관련이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-124">Required hours are relevant only for generic team members that have generated resource requirements.</span></span> |
+| <span data-ttu-id="fe0fb-125">수요</span><span class="sxs-lookup"><span data-stu-id="fe0fb-125">Demand</span></span>                     | <span data-ttu-id="fe0fb-126">현재 및 들어오는 작업부하입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-126">The current and incoming workload.</span></span> <span data-ttu-id="fe0fb-127">Project Service Automation에서 수요는 리소스 요건 또는 리소스 요청으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-127">In Project Service Automation, demand is shown as resource requirements or resource requests.</span></span> |
+| <span data-ttu-id="fe0fb-128">리소스 요구 사항</span><span class="sxs-lookup"><span data-stu-id="fe0fb-128">Resource requirement</span></span>       | <span data-ttu-id="fe0fb-129">요구되는 리소스를 위해 요구되는 시간 수, 시작 및 종료 날짜, 기능, 지역 및 기타 가격 책정 차원을 포착하는 데 사용되는 엔터티입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-129">An entity that is used to capture required hours, start and end dates, skills, geography, and other pricing dimensions for the required resources.</span></span> <span data-ttu-id="fe0fb-130">리소스 요건은 프로젝트 팀원에서 생성되거나 개별적으로 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-130">Resource requirements are either generated from project team members or individually created.</span></span> |
+| <span data-ttu-id="fe0fb-131">리소스 요청</span><span class="sxs-lookup"><span data-stu-id="fe0fb-131">Resource request</span></span>           | <span data-ttu-id="fe0fb-132">리소스 관리자가 수행해야 하는 리소스 요건을 수행하기 위해 "봉투"로 사용되는 엔터티입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-132">An entity that is used as an "envelope" to carry the resource requirement that must be fulfilled by a resource manager.</span></span> |
+| <span data-ttu-id="fe0fb-133">리소스 기본 역할</span><span class="sxs-lookup"><span data-stu-id="fe0fb-133">Resource default role</span></span>      | <span data-ttu-id="fe0fb-134">활용도 계산을 위해 리소스가 그룹화되는 역할입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-134">The role that a resource is grouped under for utilization calculation.</span></span> <span data-ttu-id="fe0fb-135">리소스는 역할에 요구되는 기능을 가지고 있고 해당 역할에 대한 목표 활용도를 충족하는 것으로 간주됩니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-135">The resource is assumed to have the required skills for the role and to meet the target utilization for that role.</span></span> |
+| <span data-ttu-id="fe0fb-136">리소스 조직 단위</span><span class="sxs-lookup"><span data-stu-id="fe0fb-136">Resource organization unit</span></span> | <span data-ttu-id="fe0fb-137">리소스가 배정된 조직 단위입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-137">The organizational unit that a resource is assigned to.</span></span> |
+| <span data-ttu-id="fe0fb-138">등고선</span><span class="sxs-lookup"><span data-stu-id="fe0fb-138">Contour</span></span>                    | <span data-ttu-id="fe0fb-139">과업, 요건 또는 할당 시간 수가 일일 분포로 세분화됩니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-139">Task, requirement, or assignment hours as they are broken down into a daily distribution.</span></span> <span data-ttu-id="fe0fb-140">예컨대 5일, 40시간 과업은 5일에 걸친 하루 8시간으로 윤곽을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-140">For example, a five-day, 40-hour task can be contoured into eight hours per day over five days.</span></span> |
+| <span data-ttu-id="fe0fb-141">조정 보기</span><span class="sxs-lookup"><span data-stu-id="fe0fb-141">Reconciliation view</span></span>        | <span data-ttu-id="fe0fb-142">각 프로젝트 팀원의 예약 및 할당을 표시하는 보기입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-142">A view that shows the bookings and assignments for each project team member.</span></span> <span data-ttu-id="fe0fb-143">이 보기를 통해 프로젝트 관리자는 예약과 할당 사이의 불일치를 확인하고 불일치가 발생할 경우 시정 조치를 취할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-143">This view lets the project manager look for any mismatch between bookings and assignments, and to take corrective action if any mismatch occurs.</span></span> |
+| <span data-ttu-id="fe0fb-144">근무 시간</span><span class="sxs-lookup"><span data-stu-id="fe0fb-144">Work hours</span></span>                 | <span data-ttu-id="fe0fb-145">리소스 능력과 작업 및 비작업 시간을 식별하는 데 사용되는 엔터티입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-145">An entity that is used to identify resource capacity, and working and non-working hours.</span></span> <span data-ttu-id="fe0fb-146">이 엔터티를 리소스 캘린더라고도 합니다.</span><span class="sxs-lookup"><span data-stu-id="fe0fb-146">This entity is also referred to as the resource calendar.</span></span> |
