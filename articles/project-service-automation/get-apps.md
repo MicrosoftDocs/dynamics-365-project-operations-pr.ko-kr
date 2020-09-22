@@ -1,0 +1,39 @@
+---
+title: Dynamics 365 Project Finder Mobile 앱을 얻는 방법 | MicrosoftDocs
+description: Dynamics 365 Project Finder Mobile 앱을 얻는 방법
+author: ruhercul
+manager: kfend
+ms.service: ''
+ms.custom:
+- dyn365-projectservice
+ms.date: 8/03/2018
+ms.topic: article
+ms.prod: Dynamics 365 Project Service Automation
+ms.technology: ''
+ms.assetid: 33ba0b9c-d76d-4209-8a0c-2cb8f6330c6b
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+ms.openlocfilehash: ef921eb550dc019872406444a62d8bef70e5441d
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3753199"
+---
+# <a name="get-the-apps-project-service"></a>앱 가져오기(Project Service)
+
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+모바일 장치에서 시간과 비용을 입력하려면 [휴대폰 및 Dynamics 365 for tablets를 다운로드](../mobile-app/dynamics-365-phones-tablets-users-guide.md)하여 설치합니다.  
+  
+ 또한 휴대폰의 Project Finder Mobile 앱을 사용하여 작업 및 적용할 새 프로젝트를 찾을 수 있습니다. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Project Finder Mobile 앱으로 다음 프로젝트 찾기](../project-service/find-next-project-finder-mobile-app.md) 
+  
+### <a name="see-also"></a>참고 항목  
+ [시간, 비용 및 공동 작업 가이드](../project-service/time-expense-collaboration-guide.md)
