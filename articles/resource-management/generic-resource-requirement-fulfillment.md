@@ -1,29 +1,19 @@
 ---
 title: 일반 리소스 요구 사항 충족
-description: 이 항목은 일반 리소스 요건을 위해 명명된 리소스를 예약하는 것에 대한 정보를 제공합니다.
+description: 이 항목은 일반 리소스 요건을 위해 명명된 리소스를 예약하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897594"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079997"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>일반 리소스 요구 사항 충족
 
@@ -32,8 +22,8 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 명명된 리소스를 예약하여 리소스 요건이 있는 일반 리소스를 대체할 수 있습니다.
 
 1. **프로젝트** 페이지에서 **팀** 탭을 선택합니다.
-2. 목록에서 리소스 요건이 있는 일반 리소스를 선택한 다음**예약**을 선택합니다. 또는 리소스 요건을 연 다음 **예약**을 선택합니다.
-3. **스케줄 도우미** 페이지에서 프로젝트 팀에 예약할 명명된 리소스를 선택한 다음 **예약**을 선택합니다.
+2. 목록에서 리소스 요건이 있는 일반 리소스를 선택한 다음 **예약** 을 선택합니다. 또는 리소스 요건을 연 다음 **예약** 을 선택합니다.
+3. **스케줄 도우미** 페이지에서 프로젝트 팀에 예약할 명명된 리소스를 선택한 다음 **예약** 을 선택합니다.
 
 명명된 리소스에 의해 예약이 완료되고 이행되면 일반 리소스가 명명된 리소스로 대체됩니다.
 

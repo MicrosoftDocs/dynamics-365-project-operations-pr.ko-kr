@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3570aeb78804e9b267caa55a27e02d6c8df9a5c6
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080120"
 ---
 # <a name="product-price-lists"></a>제품 가격표
 
@@ -43,7 +42,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 가격이 정가, 표준 원가 또는 현재 원가의 함수로 구성된 경우 PSA는 다양한 반올림 옵션을 지원합니다. 여러 가격 책정 방법 및 반올림 옵션을 활용하는 것 외에도 할인 목록을 가격표 항목과 연계할 수 있습니다. 
 
-**프로젝트 견적** 페이지에서 **맞춤 가격 생성**을 선택하여 견적을 위한 새 맞춤 가격표를 만들면 가격표의 복사본을 만들고, 새 가격표의 표제에 있는 **엔터티** 필드가 **매출액 엔터티**에 설정됩니다. 새 가격표의 명칭이 견적의 명칭 및 타임스탬프와 함께 추가됩니다. 귀하는 또한 새 가격표의 명칭과 맞춤 워크플로우에서 견적의 명칭을 사용하여 맞춤 가격 책정을 사용하는 견적에 대한 추가 검토 및 승인을 촉발할 수 있습니다.
+**프로젝트 견적** 페이지에서 **맞춤 가격 생성** 을 선택하여 견적을 위한 새 맞춤 가격표를 만들면 가격표의 복사본을 만들고, 새 가격표의 표제에 있는 **엔터티** 필드가 **매출액 엔터티** 에 설정됩니다. 새 가격표의 명칭이 견적의 명칭 및 타임스탬프와 함께 추가됩니다. 귀하는 또한 새 가격표의 명칭과 맞춤 워크플로우에서 견적의 명칭을 사용하여 맞춤 가격 책정을 사용하는 견적에 대한 추가 검토 및 승인을 촉발할 수 있습니다.
 
  
 ## <a name="default-product-price-list"></a>기본 제품 가격표

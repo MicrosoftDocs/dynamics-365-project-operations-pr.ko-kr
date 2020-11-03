@@ -3,23 +3,23 @@ title: 프로젝트 복사
 description: 이 항목은 Dynamics 365 Project Operations에서 프로젝트 복사에 대한 정보를 제공합니다.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908341"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079993"
 ---
 # <a name="copy-a-project"></a>프로젝트 복사
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations를 사용하면 **프로젝트**에서 **프로젝트 복사** 작업을 사용하여 새 프로젝트를 빠르게 빌드할 수 있습니다. 프로젝트를 복사하려면 프로젝트를 선택한 다음 **복사**를 선택합니다. 작업이 복사됩니다.
+Dynamics 365 Project Operations를 사용하면 **프로젝트** 양식에서 **프로젝트 복사** 를 선택하여 새 프로젝트를 빠르게 빌드할 수 있습니다. 프로젝트를 복사하려면 복사할 프로젝트를 연 다음 **프로젝트 복사** 를 선택합니다. 작업이 복사됩니다.
 
 - 프로젝트 속성
 - 작업 분할 구조
@@ -58,4 +58,6 @@ Dynamics 365 Project Operations를 사용하면 **프로젝트**에서 **프로�
 
 ## <a name="estimates"></a>추정
 
-프로젝트가 복사되면 리소스 및 경비 추정 라인이 모두 원본 프로젝트에서 복사됩니다.
+프로젝트가 복사되면 리소스 및 경비 추정 라인이 모두 원본 프로젝트에서 복사됩니다. 
+
+프로젝트 복사에 프로그래밍 방식으로 액세스하는 방법에 대한 자세한 내용은 [프로젝트 복사로 프로젝트 템플릿 개발](dev-copy-project.md)을 참조하십시오.

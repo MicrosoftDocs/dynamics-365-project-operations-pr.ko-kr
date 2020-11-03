@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961902"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079990"
 ---
 # <a name="manage-time-zones"></a>표준 시간대 관리
 
@@ -22,7 +22,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="projects"></a>프로젝트
 
-프로젝트가 생성될 때 시간대는 적용된 근무 시간 템플릿에 정의된 시간대를 기반으로 합니다. **프로젝트**에서 날짜는 항상 **작업** 탭을 제외하고 각 탭에 로그인한 사용자의 표준 시간대를 기준으로 합니다. 작업 분할 구조를 볼 때 날짜는 항상 프로젝트의 시간대로 표시됩니다.
+프로젝트가 생성될 때 시간대는 적용된 근무 시간 템플릿에 정의된 시간대를 기반으로 합니다. **프로젝트** 에서 날짜는 항상 **작업** 탭을 제외하고 각 탭에 로그인한 사용자의 표준 시간대를 기준으로 합니다. 작업 분할 구조를 볼 때 날짜는 항상 프로젝트의 시간대로 표시됩니다.
 
 ## <a name="tasks"></a>작업
 
@@ -32,7 +32,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 **예약 연장** 사용시 정확하고 예측 가능한 결과를 위해 충족해야 하는 두 가지 주요 전제 조건이 있습니다.  
 
-- 사용자는 시스템의 **개인화 설정**에 정의된 표준 시간대와 일치하도록 장치의 시간대를 구성해야 합니다.
+- 사용자는 시스템의 **개인화 설정** 에 정의된 표준 시간대와 일치하도록 장치의 시간대를 구성해야 합니다.
  
   ![Windows 10의 시간대 설정](media/reconcile-assignments-03.png)
 

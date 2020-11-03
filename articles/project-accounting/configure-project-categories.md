@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895974"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079948"
 ---
 # <a name="configure-project-categories"></a>프로젝트 범주 구성
 
@@ -32,24 +32,24 @@ Project Operations는 프로젝트의 수익과 경비를 분류하는 강력한
 트랜잭션 범주는 프로젝트 트랜잭션에 대한 기본 그룹을 나타내며 회사 또는 트랜잭션 유형과 관련이 없습니다. 예를 들어 Contoso Robotics는 디자인, 여행, 설치 및 서비스 트랜잭션 범주를 사용하여 프로젝트 트랜잭션을 그룹화합니다.
 
 트랜잭션 범주는 Project Operations 모듈에서 정의됩니다. 
-1. **설정** \>**트랜잭션 범주**로 이동하여 양식을 엽니다. 
-2. **새로 만들기**를 선택하거나 **Excel에서 가져오기**를 선택하여 새 트랜잭션 범주를 만듭니다.
+1. **설정** \>**트랜잭션 범주** 로 이동하여 양식을 엽니다. 
+2. **새로 만들기** 를 선택하거나 **Excel에서 가져오기** 를 선택하여 새 트랜잭션 범주를 만듭니다.
 
 ## <a name="shared-categories"></a>공유 범주
 
-Dynamics 365는 공유 범주 개념을 사용하여 Dynamics 365 Finance, Dynamics 365 Supply Chain 및 Dynamics 365 Project Operations 같은 다양한 응용 프로그램의 경비를 분류합니다. 생성된 각 트랜잭션 범주에 대해 Project Operations는 시간, 경비, 요금 및 품목의 네 가지 관련 공유 범주를 자동으로 생성합니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **공유 범주**로 이동하여 공유 범주를 검토하고 조정할 수 있습니다.
+Dynamics 365는 공유 범주 개념을 사용하여 Dynamics 365 Finance, Dynamics 365 Supply Chain 및 Dynamics 365 Project Operations 같은 다양한 응용 프로그램의 경비를 분류합니다. 생성된 각 트랜잭션 범주에 대해 Project Operations는 시간, 경비, 요금 및 품목의 네 가지 관련 공유 범주를 자동으로 생성합니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **공유 범주** 로 이동하여 공유 범주를 검토하고 조정할 수 있습니다.
 
 ## <a name="project-categories"></a>프로젝트 범주
 
 프로젝트 범주는 가장 세분화된 범주 구성 수준을 나타내며 프로젝트 회계사가 각 회사에 대해 별도로 구성해야 합니다.
 
-1. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **프로젝트 범주**로 이동합니다.
-2. **새로 만들기**를 선택합니다.
-3. 이전 섹션에서 만든 공유 범주의 **범주 ID**를 선택합니다. Project Operations에서는 트랜잭션 범주와 연관된 공유 범주만 사용할 수 있습니다.
+1. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **프로젝트 범주** 로 이동합니다.
+2. **새로 만들기** 를 선택합니다.
+3. 이전 섹션에서 만든 공유 범주의 **범주 ID** 를 선택합니다. Project Operations에서는 트랜잭션 범주와 연관된 공유 범주만 사용할 수 있습니다.
 4. 범주 그룹을 선택합니다.
 
 ## <a name="category-groups"></a>범주 그룹
 
 범주 그룹은 관련 프로젝트 범주 간에 속성(주로 프로필 게시)을 공유하는 데 사용됩니다. 각 트랜잭션 유형에 대해 하나 이상의 범주 그룹이 있어야 하며 각 프로젝트 범주에는 그룹이 지정됩니다.
 
-Project Operations의 전기 사양은 프로젝트 비용 및 수익 프로필 규칙, 프로젝트 범주 및 범주 그룹에 의해 정의됩니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **범주 그룹**으로 이동하여 범주 그룹을 설정할 수 있습니다.
+Project Operations의 전기 사양은 프로젝트 비용 및 수익 프로필 규칙, 프로젝트 범주 및 범주 그룹에 의해 정의됩니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **범주 그룹** 으로 이동하여 범주 그룹을 설정할 수 있습니다.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965831"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079984"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리
 
@@ -29,18 +29,18 @@ Project Operations는 숫자 데이터 형식이 있는 숫자 속성 또는 제
 
 예컨대, Dynamics 365 Sales는 다음 속성을 가질 수 있습니다:
 
-- **사용자 수**: 사용자들의 수
-- **월 수**: 가입 월 수
+- **사용자 수** : 사용자들의 수
+- **월 수** : 가입 월 수
 - **제품 SKU**
 
 **사용자 수** 및 **월 수** 속성은 제품 행의 속성을 편집하여 수량 계수로 플래그를 지정할 수 있습니다.
 
 제품 속성에서 수량 계수를 생성하려면 다음 단계를 따르십시오.
 
-1. Project Operations 왼쪽 탐색 창에서 **영업** > **제품**으로 이동합니다.
+1. Project Operations 왼쪽 탐색 창에서 **영업** > **제품** 으로 이동합니다.
 2. 수량 계수를 구성해야 하는 제품을 엽니다. 제품에 이미 구성된 속성이 있는지 확인하십시오.
 3. 제품의 **프로젝트 정보** 페이지에서 **수량 계수** 탭을 선택합니다.
-4. 하위 표에서 **+ 새 필드 계산**을 선택합니다.
+4. 하위 표에서 **+ 새 필드 계산** 을 선택합니다.
 5. 수량 계수의 이름을 입력하고 필드 계산에 매핑되는 속성 값을 선택합니다.
 6. 양식을 저장하고 닫습니다. 제품 기반 견적 라인의 수량을 계산하는 데 사용할 모든 속성에 대해 이 단계를 반복합니다.
 

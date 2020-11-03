@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896289"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079976"
 ---
 # <a name="project-quote-key-concepts"></a>프로젝트 견적 주요 개념
 
@@ -40,7 +40,7 @@ Project Operations의 판매 통화는 예상 및 실제 판매 금액이 기록
 
 ## <a name="billing-method"></a>청구 방법
 
-프로젝트에는 일반적으로 고정 수수료 및 소비 기반 계약 모델이 있습니다. 이것은 Project Operations에서 **청구 방법**으로 표현되며 시간과 재료, 고정 가격의 두 가지 값이 있습니다.
+프로젝트에는 일반적으로 고정 수수료 및 소비 기반 계약 모델이 있습니다. 이것은 Project Operations에서 **청구 방법** 으로 표현되며 시간과 재료, 고정 가격의 두 가지 값이 있습니다.
 
 - **시간 및 재료:** 이는 발생한 각 비용이 해당 수익으로 뒷받침되는 소비 기반 계약 모델입니다. 더 많은 비용을 예상하거나 발생하면 해당 예상 및 실제 판매도 증가합니다. 이 청구 방법이 있는 견적 라인에 초과하지 않는 한도를 지정할 수 있습니다. 이것은 실제 수익을 제한합니다. 예상 수익은 초과하지 않는 한도의 영향을 받지 않습니다.
 - **고정 가격:** 이것은 판매 값이 발생한 비용과 무관함을 나타내는 고정 수수료 계약 모델입니다. 판매 값은 고정되어 있으며 더 많은 비용을 예상하거나 발생해도 변경되지 않습니다.

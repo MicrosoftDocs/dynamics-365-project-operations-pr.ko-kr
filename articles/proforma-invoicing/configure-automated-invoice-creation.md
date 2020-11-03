@@ -1,53 +1,45 @@
 ---
 title: 자동 송장 만들기 구성
-description: 이 항목은 시스템이 송장을 자동으로 생성하도록 구성하기 위해 핫에 대한 정보를 제공합니다.
+description: 이 항목은 시스템이 송장을 자동으로 생성하도록 구성하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 764fd4568619e4f5676ee3cbf7fce14ffb069548
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 4e7572f2bc6201960ac01ce521adf39ac2577dbe
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898134"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079945"
 ---
-# <a name="configure-automated-invoice-creation"></a>자동 송장 만들기 구성
+# <a name="configure-automatic-invoice-creation"></a>자동 송장 만들기 구성
 
-_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-프로젝트 운영에서 자동 송장 실행을 구성하려면 다음 단계를 완료하십시오.
 
-1. **설정** \> **일괄 작업**으로 이동합니다.
-2. 일괄 처리 작업을 만들고 **Project Operations 생성 송장** 이름을 지정합니다. 일괄 처리 작업의 이름에는 "송장 만들기"라는 용어가 포함되어야 합니다.
-3. **작업 유형** 필드에서 **없음**을 선택합니다. 기본적으로 **일일 빈도** 및 **활성** 옵션은 **예**로 설정됩니다.
-4. **워크플로 실행**을 선택합니다. **레코드 보기** 대화 상자에는 세 가지 워크플로가 표시됩니다.
+Dynamics 365 Project Operations에서 자동 송장 실행을 구성하려면 다음 단계를 완료하십시오.
+
+1. **설정** > **일괄 작업** 으로 이동합니다.
+2. 일괄 처리 작업을 만들고 **Project Operations 생성 송장** 이름을 지정합니다. 일괄 처리 작업의 이름에는 "송장 만들기"라는 단어가 포함되어야 합니다.
+3. **작업 유형** 필드에서 **없음** 을 선택합니다. 기본적으로 **일일 빈도** 및 **활성** 옵션은 **예** 로 설정됩니다.
+4. **워크플로 실행** 을 선택합니다. **레코드 보기** 대화 상자에는 세 가지 워크플로가 표시됩니다.
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. **ProcessRunCaller**를 선택한 다음 **추가**를 선택합니다.
-6. 다음 대화 상자에서 **확인**을 선택합니다. **절전** 워크플로 뒤에 **프로세스** 워크플로가 있습니다.
+5. **ProcessRunCaller** 를 선택한 다음 **추가** 를 선택합니다.
+6. 다음 대화 상자에서 **확인** 을 선택합니다. **절전** 워크플로 뒤에 **프로세스** 워크플로가 있습니다.
 
-    5단계에서 **ProcessRunner**를 선택할 수도 있습니다. 그런 다음 **확인**을 선택하면 **프로세스** 워크플로가 **절전** 워크플로를 뒤따릅니다.
+  > [!NOTE]
+  > 5단계에서 **ProcessRunner** 를 선택할 수도 있습니다. 그런 다음 **확인** 을 선택하면 **프로세스** 워크플로가 **절전** 워크플로를 뒤따릅니다.
 
-**ProcessRunCaller** 및 **ProcessRunner** 워크플로는 송장을 만듭니다. **ProcessRunCaller**는 **ProcessRunner**를 호출합니다. **ProcessRunner**는 실제로 송장을 만드는 워크플로입니다. 송장을 만들어야 하는 모든 계약 내용을 통해 해당 라인에 대한 송장을 만듭니다. 송장을 만들어야 하는 계약 내용을 확인하려면 작업 계약 내용에 대한 송장 실행 날짜를 확인합니다. 한 계약에 속한 계약 내용에 동일한 송장 실행 날짜가 있는 경우 트랜잭션은 두 개의 송장 라인이 있는 하나의 송장에 결합됩니다. 송장을 만들 트랜잭션이 없는 경우 작업에서 송장 만들기를 건너뜁니다.
+**ProcessRunCaller** 및 **ProcessRunner** 워크플로는 송장을 만듭니다. **ProcessRunCaller** 는 **ProcessRunner** 를 호출합니다. **ProcessRunner** 는 실제로 송장을 만드는 워크플로입니다. 송장을 만들어야 하는 모든 계약 내용을 통해 해당 라인에 대한 송장을 만듭니다. 송장을 만들어야 하는 계약 내용을 확인하려면 작업 계약 내용에 대한 송장 실행 날짜를 확인합니다. 한 계약에 속한 계약 내용에 동일한 송장 실행 날짜가 있는 경우 트랜잭션은 두 개의 송장 라인이 있는 하나의 송장에 결합됩니다. 송장을 만들 트랜잭션이 없는 경우 작업에서 송장 만들기를 건너뜁니다.
 
-**ProcessRunner**가 완료되면 **ProcessRunCaller**를 호출하고 종료 시간을 제공하면, 닫힙니다. 그런 다음 **ProcessRunCaller**는 지정된 종료 시간에서 24시간 동안 실행되는 타이머를 시작합니다. 타이머가 끝나면 **ProcessRunCaller가** 닫힙니다.
+**ProcessRunner** 가 완료되면 **ProcessRunCaller** 를 호출하고 종료 시간을 제공하면, 닫힙니다. 그런 다음 **ProcessRunCaller** 는 지정된 종료 시간에서 24시간 동안 실행되는 타이머를 시작합니다. 타이머가 끝나면 **ProcessRunCaller가** 닫힙니다.
 
 송장을 만들기 위한 일괄 처리 작업은 되풀이 작업입니다. 이 일괄 처리 프로세스가 여러 번 실행되는 경우 작업의 여러 인스턴스가 만들어지고 오류가 발생합니다. 따라서 일괄 처리 프로세스를 한 번만 시작해야 하며 실행이 중지된 경우에만 다시 시작해야 합니다.
 

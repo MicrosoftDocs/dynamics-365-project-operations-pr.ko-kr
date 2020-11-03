@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 74f8889022e42a7bbd37879df870401c0e103446
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897684"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080002"
 ---
 # <a name="booking-allocation-methods"></a>예약 할당 방법
 
@@ -72,7 +71,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 가용 능력이 고려되기 때문에 리소스에 예약으로 흡수될 수 있는 남은 능력이 없는 경우 오류 메시지가 표시될 수 있습니다. 이 방법에서는 초과 예약할 수 없습니다.
 
 ### <a name="none"></a><a name="none"></a>없음
-없음 방법은 프로젝트 내의 **팀** 탭에서 예약하는 경우에만 사용할 수 있습니다. 이 방법은 리소스를 프로젝트의 팀 구성원으로 추가하지만 리소스의 능력을 흡수하는 예약은 생성하지 않습니다. 이 방법은 프로젝트를 만들 때 기본 프로젝트 관리자 팀 구성원이 추가될 때 사용됩니다. 프로젝트를 생성한 프로젝트 관리자 사용자는 기본적으로 프로젝트에 추가되므로 프로젝트 엔터티 레코드에는 소유자가 있고 프로젝트에는 한 명의 승인자가 있습니다. 이 사용자에게는 예약이 없기 때문에 리소스를 예약하려면 삭제한 다음 다른 할당 방법을 사용하여 다시 추가하거나 작업에 리소스를 추가한 다음 **조정** 탭에서 **예약 연장**을 사용하여 할당을 위한 예약을 만들 수 있습니다.
+없음 방법은 프로젝트 내의 **팀** 탭에서 예약하는 경우에만 사용할 수 있습니다. 이 방법은 리소스를 프로젝트의 팀 구성원으로 추가하지만 리소스의 능력을 흡수하는 예약은 생성하지 않습니다. 이 방법은 프로젝트를 만들 때 기본 프로젝트 관리자 팀 구성원이 추가될 때 사용됩니다. 프로젝트를 생성한 프로젝트 관리자 사용자는 기본적으로 프로젝트에 추가되므로 프로젝트 엔터티 레코드에는 소유자가 있고 프로젝트에는 한 명의 승인자가 있습니다. 이 사용자에게는 예약이 없기 때문에 리소스를 예약하려면 삭제한 다음 다른 할당 방법을 사용하여 다시 추가하거나 작업에 리소스를 추가한 다음 **조정** 탭에서 **예약 연장** 을 사용하여 할당을 위한 예약을 만들 수 있습니다.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>초과 예약으로 이어지는 할당 방법
 요약하면, 다음 할당 방법은 리소스가 이미 다른 프로젝트(또는 다른 작업 주문 또는 예약 가능 엔터티)에서 커밋된 경우 초과 예약으로 이어집니다.

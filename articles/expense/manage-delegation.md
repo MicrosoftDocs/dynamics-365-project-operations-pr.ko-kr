@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c6a721849bfe556fb637f21898c0fa00083760dd
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896874"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080053"
 ---
 # <a name="manage-delegation"></a>위임 관리
 경비 대리인은 다른 직원에 대한 경비 보고서를 만들고 관리할 수 있습니다.
@@ -29,14 +28,14 @@ ms.locfileid: "3896874"
 ## <a name="configuring-expense-delegation"></a>경비 위임 구성
 
 사용자를 경비 대리인으로 설정하려면 다음 단계를 완료하십시오. 
-1. **경비 관리** > **설정** > **일반** > **대리인**으로 이동합니다. 
-2. **대리인** 페이지에서 **새로 만들기**를 선택한 다음 대리인을 정의할 직원을 선택합니다. 
+1. **경비 관리** > **설정** > **일반** > **대리인** 으로 이동합니다. 
+2. **대리인** 페이지에서 **새로 만들기** 를 선택한 다음 대리인을 정의할 직원을 선택합니다. 
 3. 대리인 사용자의 별칭과 위임 기간의 시작 및 종료 날짜를 입력합니다.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>다른 직원을 대신하여 경비 관리
 
-기능 관리 키 **경비 대리인 목록 페이지 활성화**가 활성화되면 **나에게 위임된 경비** 목록 페이지를 사용할 수 있습니다. **경비 관리** > **내 경비** > **나에게 위임된 경비**로 이동합니다.
+기능 관리 키 **경비 대리인 목록 페이지 활성화** 가 활성화되면 **나에게 위임된 경비** 목록 페이지를 사용할 수 있습니다. **경비 관리** > **내 경비** > **나에게 위임된 경비** 로 이동합니다.
 
-대리인은 자신에게 위임된 기존 경비 보고서를 빠르게 필터링하고 검색할 수 있습니다. 대리인은 또한 **새로운 경비 보고서**를 선택하여 다른 사용자에 대한 새 경비 보고서를 빠르게 만들 수 있습니다.
+대리인은 자신에게 위임된 기존 경비 보고서를 빠르게 필터링하고 검색할 수 있습니다. 대리인은 또한 **새로운 경비 보고서** 를 선택하여 다른 사용자에 대한 새 경비 보고서를 빠르게 만들 수 있습니다.
 
-대리인은 **경비 관리** > **내 경비** > **경비 보고서**로 이동하고 **다른 사용자의 경비 열기**를 선택하여 다른 직원의 경비 보고서를 만들고 관리할 수 있습니다.
+대리인은 **경비 관리** > **내 경비** > **경비 보고서** 로 이동하고 **다른 사용자의 경비 열기** 를 선택하여 다른 직원의 경비 보고서를 만들고 관리할 수 있습니다.

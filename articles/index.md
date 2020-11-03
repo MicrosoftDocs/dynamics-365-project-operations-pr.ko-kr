@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,18 +17,18 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4efd5d182b14d8b3b54ddde47176bbdeccfdeb69
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080021"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
 Microsoft Dynamics 365 Project Operations는 단일 애플리케이션에서 영업, 리소싱, 프로젝트 관리 및 재무 팀을 연결하여 더 많은 거래를 성사시키고 프로젝트 제공을 가속화하며 수익성을 극대화합니다.
 
--   **리더는 비즈니스 통찰력을 확보**하여 모든 팀, 데이터 및 프로세스에 대한 가시성을 높이고 더 빠르고 더 나은 비즈니스 의사 결정을 위한 AI 기능을 제공합니다.
+-   **리더는 비즈니스 통찰력을 확보** 하여 모든 팀, 데이터 및 프로세스에 대한 가시성을 높이고 더 빠르고 더 나은 비즈니스 의사 결정을 위한 AI 기능을 제공합니다.
 -   **영업이 활성화되어** 빠르고 정확한 견적, 유연한 가격 책정, 견적에서 실행으로의 원활한 전환을 통해 더 많은 거래를 성사시키고 판매주기를 가속화합니다.
 -   **최적화를 위해 리소싱을 설정하여** 적절한 사람과 적절한 기술을 적절한 프로젝트에 배치하여 리소스 사용을 최적화합니다. 이는 품질을 향상시키고 최고의 성과를 유지하는 데 도움이 됩니다.
 -   **프로젝트 관리자는** 친숙하고 사용하기 쉬운 Microsoft Project 기능을 사용하는 최신 기본 제공 프로젝트 관리를 통해 프로젝트 전달을 촉진할 수 있습니다.

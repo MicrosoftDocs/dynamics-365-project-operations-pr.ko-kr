@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908332"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079908"
 ---
 # <a name="schedule-assistant-overview"></a>일정 도우미 보기
 
@@ -42,7 +42,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="launch-the-schedule-assistant"></a>일정 도우미 시작
 
-일정 도우미를 시작하는 방법에는 두 가지가 있습니다. 하이브리드 모드를 사용하는 경우 팀 구성원 표에서 충족되지 않은 리소스 요구 사항이 있는 팀 구성원을 선택한 다음 **예약**을 선택합니다. 중앙 모드를 사용하는 경우 리소스 관리자가 리소스를 찾아 선택합니다.
+일정 도우미를 시작하는 방법에는 두 가지가 있습니다. 하이브리드 모드를 사용하는 경우 팀 구성원 표에서 충족되지 않은 리소스 요구 사항이 있는 팀 구성원을 선택한 다음 **예약** 을 선택합니다. 중앙 모드를 사용하는 경우 리소스 관리자가 리소스를 찾아 선택합니다.
 
 ## <a name="schedule-assistant-filters"></a>일정 도우미 필터
 

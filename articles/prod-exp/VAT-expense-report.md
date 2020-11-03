@@ -1,0 +1,76 @@
+---
+title: VAT 복구
+description: 이 항목은 부가가치세(VAT) 트랜잭션에 대해 환불을 복구하는 방법을 설명합니다.
+author: saraschi2
+manager: AnnBe
+ms.date: 02/26/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: TrvPerDiems
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: saraschi
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080094"
+---
+# <a name="vat-recovery"></a>VAT 복구 
+
+[!include [banner](../includes/banner.md)]
+
+적격 부가가치세(VAT) 거래에 대한 환불을 받으려면 회사 또는 조직이 정확한 정보를 식별, 수집, 확인 및 제출해야 합니다. 이 프로세스에는 여러 작업이 포함되며 회사 규모에 따라 여러 직원 또는 역할이 포함될 수 있습니다.
+
+경비 관리 모듈을 사용하여 VAT를 회수하려면 다음 전제 조건을 완료해야 합니다.
+
+- 경비 범주에 할당된 국가/지역에 대해 세금 코드를 생성해야 합니다.
+- 각 세금 코드에 대해 판매세 그룹을 생성해야 합니다.
+- 각 판매세 그룹에 대해 품목 판매세 코드를 생성해야 합니다.
+
+필수 구성 요소가 완료된 후 직원이 VAT 트랜잭션에 대한 환불을 요청하려면 다음 단계를 완료합니다.
+
+1. 경비 보고서에 신용 카드 거래에 대한 세금 정보를 입력하여 적격 VAT 환급을 식별합니다.
+2. 모든 세금 정보가 완전한지 확인한 다음 경비 보고서를 전기합니다.
+3. 국제 VAT 회수에 적합한 경비를 처리합니다.
+4. VAT 회수 데이터를 타사 공급업체에 보내 국제 회수 보고서를 제출합니다.
+5. 국내 VAT 회수를 위한 경비를 처리합니다.
+
+다음 섹션에서는 Contoso 직원이 각 단계를 완료하는 방법을 보여주는 예를 제공합니다.
+
+## <a name="on-an-expense-report-enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>경비 보고서에 신용 카드 거래에 대한 세금 정보를 입력하여 적격 VAT 환급을 식별합니다.
+
+미국에 본사를 둔 Contoso 영업 담당자인 Nancy는 최근 영국으로의 영업 출장을 마치고 돌아 왔습니다. 이 여행 동안 Nancy는 식사 비용으로 개인 신용 카드 경비가 발생했습니다. Nancy는 이제 경비를 조정하기 위해 경비 보고서를 작성해야 합니다.
+
+Nancy는 경비 보고서에 정보를 입력할 때 **경비 보고서 편집** 페이지의 **국가/지역** 필드에서 **영국** 을 선택합니다. 그런 다음 판매세 그룹 목록이 필터링되어 영국에 적용되는 그룹만 표시됩니다. Nancy는 **영국 001** 판매세 그룹을 선택한 다음 **식사** 품목 판매세 그룹을 선택합니다. 그런 다음 Nancy는 숙박을 위한 새로운 트랜잭션을 추가합니다. 영국에 숙박하기 위한 판매세 그룹과 품목 판매세 그룹이 하나만 있기 때문에 이 정보는 Nancy의 경비 보고서에 자동으로 입력됩니다.
+
+Contoso 정책에 따라 모든 경비에는 일치하는 영수증이 있어야 합니다. 따라서 Nancy가 경비 보고서를 저장하면 경비 보고서에 나열된 각 거래에 대해 영수증을 첨부해야 한다는 메시지가 표시됩니다. Nancy는 각 거래 영수증의 디지털 이미지를 경비 보고서에 첨부했는지 확인한 다음 승인을 위해 보고서를 제출합니다. 그런 다음 종이 영수증을 백오피스 처리 팀에 보냅니다. 이 팀은 VAT 회수 데이터를 Contoso에 대한 국제 VAT 회수 반환을 제출하는 타사 공급업체에 보냅니다.
+
+## <a name="make-sure-that-all-tax-information-is-complete-and-then-post-the-expense-report"></a>모든 세금 정보가 완전한지 확인한 다음 경비 보고서를 전기합니다.
+
+Contoso의 미지급금 코디네이터인 April은 보고서를 전기하기 전에 경비 보고서에서 누락된 세금 정보를 입력해야 합니다. 그녀는 **경비 보고서 세부 정보** 페이지에서 Nancy의 승인된 경비 보고서를 볼 수 있습니다. 그런 다음 4월은 거래 세부 사항을 보기 위해 경비 보고서를 엽니다. 그녀는 Nancy가 거래 중 하나에 대해 품목 판매세 그룹을 입력하지 않았음을 확인합니다. 이 정보가 제공되지 않았기 때문에 4월은 경비 보고서를 게시할 수 없습니다. 따라서 April은 경비 관리의 **세금 구성** 페이지에서 국가/지역 및 거래 유형에 적합한 품목 판매세 그룹을 찾습니다. April은 이제 총계정 원장에 경비 보고서를 전기할 수 있습니다.
+
+April이 경비 보고서를 게시하면 VAT 회수 가능 작업 항목이 생성됩니다. 이 작업 항목은 백오피스 처리 팀의 구성원에게 할당됩니다. April은 게시가 성공했음을 확인하는 메시지를 받습니다. 이 메시지에는 복구를 위해 식별된 VAT 거래 수도 나열됩니다.
+
+## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>국제 VAT 회수에 적합한 경비를 처리합니다.
+
+Contoso의 백오피스 처리 팀의 구성원인 Arnie는 VAT 복구에 필요한 모든 정보가 경비 보고서에 포함되어 있는지 확인할 책임이 있습니다. 그는 **경비 세금 공제** 페이지에서 Nancy가 제출한 경비 보고서를 선택합니다. 그런 다음 Arnie는 필요한 모든 영수증이 첨부되어 있고 올바른 판매세 그룹 및 품목 판매세 코드가 입력되었는지 확인합니다.
+
+Arnie가 Nancy로부터 종이 영수증을 받으면 종이 영수증을 디지털 영수증과 대조하여 확인한 다음 경비 보고서의 상태를 **회수 준비** 로 변경합니다.
+
+## <a name="send-vat-recovery-data-to-the-third-party-vendor-to-file-international-recovery-returns"></a>VAT 회수 데이터를 타사 공급업체에 보내 국제 회수 보고서를 제출합니다.
+
+Arnie는 VAT 회수 보고서를 제출할 타사 공급업체에 경비 보고서 데이터를 보낼 준비가 되면 **경비 세금 공제** 페이지를 엽니다. 그는 페이지를 필터링하여 **회수 준비** 로 표시된 경비 보고서만 표시합니다. Arnie는 **파일** &gt; **Excel로 내보내기** 를 선택합니다. 경비 보고서의 VAT 정보는 Microsoft Excel 워크시트로 내보냅니다. Arnie는 이 워크시트를 타사 공급업체에 제출하고 종이 영수증이 택배로 발송되었다는 메시지를 포함합니다.
+
+## <a name="process-expenses-for-domestic-vat-recovery"></a>국내 VAT 회수를 위한 경비를 처리합니다.
+
+Arnie는 경비 보고서 트랜잭션이 VAT 공제 대상인지, 디지털 영수증이 보고서에 첨부되어 있는지 확인해야 합니다. 국내 회수를 위한 적격 경비 처리를 시작하려면 Arnie는 **경비 세금 공제** 페이지를 열고 확인이 필요한 경비 보고서를 선택합니다. 그는 영수증이 직원이 아닌 회사 이름으로 되어 있는지 확인합니다. VAT 회수를 위해서는 영수증에 회사 이름이 있어야 합니다. 그런 다음 Arnie는 올바른 판매세 그룹 및 품목 판매세 코드가 적용되었는지 확인합니다.
+
+Arnie가 종이 영수증을 받으면 경비 보고서의 상태를 **회수 준비** 로 변경합니다. 그런 다음 적절한 세무 당국에 신고서를 제출할 수 있습니다. 이 경우 미국의 적절한 세무 당국은 국세청(IRS)입니다.

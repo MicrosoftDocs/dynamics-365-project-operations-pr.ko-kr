@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2a66802adfcadab7b4d34149b146ca3cb27c903e
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1d2c797b72666123eb0a18d2d0c1df9fe3d207f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896469"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080107"
 ---
 # <a name="sales-price-list-setup"></a>판매 가격표 설정
 
@@ -47,7 +46,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 프로젝트 가격표가 영업 엔터티에 첨부되면 다음 정보의 유효성을 검사합니다.
 
-- 가격표에는 **영업**의 컨텍스트가 있습니다. 
+- 가격표에는 **영업** 의 컨텍스트가 있습니다. 
 - 가격표 통화는 고객 통화와 일치해야 합니다. 
 
 프로젝트 계약에서 다음 우선 순위를 사용하여 관련 프로젝트 가격표를 자동으로 설정하는 데 사용됩니다.
@@ -57,6 +56,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 3. 고객 
 4. 전역 설정 
 
-기본적으로 프로젝트 가격표가 입력되면 시스템은 통화가 고객의 통화와 일치하는지, 입력된 기본 가격표에 **영업**의 컨텍스트가 있는지 확인합니다.
+기본적으로 프로젝트 가격표가 입력되면 시스템은 통화가 고객의 통화와 일치하는지, 입력된 기본 가격표에 **영업** 의 컨텍스트가 있는지 확인합니다.
 
 여러 프로젝트 가격표를 고객, 영업 기회, 견적 및 프로젝트 계약 엔터티와 연결할 수 있습니다. 이 기능은 장기 실행 프로젝트 계약에 대한 날짜별 기본 가격을 지원하며, 인플레이션으로 인해 발생하는 가격 업데이트를 설명하기 위해 두 개 이상의 가격표가 필요할 수 있습니다. 그러나 고객, 영업 기회, 견적 또는 프로젝트 계약 엔터티와 연결하는 가격표에 날짜 유효성이 겹치는 경우 기본 가격이 올바르지 않을 수 있습니다. 따라서 날짜 유효성이 겹치는 프로젝트 가격표가 해당 엔터티와 연결되지 않았는지 확인해야 합니다.

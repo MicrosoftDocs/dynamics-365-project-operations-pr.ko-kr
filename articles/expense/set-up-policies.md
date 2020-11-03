@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fbab7fd94fa429876216ee82b716da8d847fb01a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896649"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080122"
 ---
 # <a name="define-expense-policies"></a>경비 정책 정의
 
@@ -37,12 +36,12 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
         
 다음 세 가지 유형의 정책을 정의할 수 있습니다.         
         
-- **경고**: 작업자가 경비 보고서 또는 출장 요청서를 제출할 수 있지만 경비는 모든 승인자와 나중에 보고할 수 있도록         
+- **경고** : 작업자가 경비 보고서 또는 출장 요청서를 제출할 수 있지만 경비는 모든 승인자와 나중에 보고할 수 있도록         
   표시됩니다.        
 
-- **오류**: 경비 보고서 또는 출장 요청서를 제출하기 전에 근로자가 정책을 준수하기 위해 경비를 수정해야 합니다.        
+- **오류** : 경비 보고서 또는 출장 요청서를 제출하기 전에 근로자가 정책을 준수하기 위해 경비를 수정해야 합니다.        
  
- - **정당화**: 경비 보고서 또는 출장 요청서를 제출하기 전에 작업자 또는 관리자가 정책 금액 초과에 대한 사유를 입력해야 합니다.        
+ - **정당화** : 경비 보고서 또는 출장 요청서를 제출하기 전에 작업자 또는 관리자가 정책 금액 초과에 대한 사유를 입력해야 합니다.        
 
 ## <a name="policy-tips"></a>정책 팁
 다음은 경비 관리를 위한 새 정책을 만들 때 도움이 될 수 있는 몇 가지 제안 사항입니다. 

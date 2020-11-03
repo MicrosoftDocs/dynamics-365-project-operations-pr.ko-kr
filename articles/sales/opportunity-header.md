@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079927"
 ---
 # <a name="opportunity-headersummary"></a>영업 기회 헤더/요약
 
@@ -28,7 +28,7 @@ Dynamics 365 Project Operations의 프로젝트 기반 영업 기회는 Dynamics
 
 | **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
 | --- | --- | --- | --- |
-| 종류 | 일반 탭(숨김) | 이 옵션 집합 필드에는 다음 옵션이 있습니다.</br>- 작업 기반(Project Operations가 설치된 경우에만 사용 가능)</br>- 항목 기반(Project Operations 및 Sales가 설치된 경우에만 사용 가능)</br>- 서비스 유지 보수 기반(Field Service가 설치된 경우 사용 가능) | Project Operations를 사용하는 경우 이 필드 값은 영업 기회를 프로젝트 기반으로 분류하는 **작업 기반**으로 자동 설정됩니다. 이 거래에 대한 다운스트림 판매 프로세스에서 모든 프로젝트별 확장 및 기능을 활성화하려면 영업 기회는 프로젝트 기반이어야 합니다. |
+| 종류 | 일반 탭(숨김) | 이 옵션 집합 필드에는 다음 옵션이 있습니다.</br>- 작업 기반(Project Operations가 설치된 경우에만 사용 가능)</br>- 항목 기반(Project Operations 및 Sales가 설치된 경우에만 사용 가능)</br>- 서비스 유지 보수 기반(Field Service가 설치된 경우 사용 가능) | Project Operations를 사용하는 경우 이 필드 값은 영업 기회를 프로젝트 기반으로 분류하는 **작업 기반** 으로 자동 설정됩니다. 이 거래에 대한 다운스트림 판매 프로세스에서 모든 프로젝트별 확장 및 기능을 활성화하려면 영업 기회는 프로젝트 기반이어야 합니다. |
 | 담당 회사 | 일반 탭 | 고객을 위해 프로젝트를 제공할 회사 또는 법인입니다. | 이 필드 정보는 이 영업 기회에서 생성된 프로젝트 견적의 해당 필드에 복사됩니다. |
 | 연락처 | 일반 탭 | 이 거래에 대한 고객의 기본 연락처를 참조합니다. | |
 | 계정 | 일반 탭 | 고객의 회사 또는 거래처 레코드에 대한 참조입니다. | |

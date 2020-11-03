@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea5399368214a293ca7c10fabf21d82407b5c76f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080175"
 ---
 # <a name="units-and-unit-groups"></a>단위 및 단위 그룹
 
@@ -35,15 +34,15 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="create-a-unit-group"></a>단위 그룹 만들기
 
-1. 사이트 맵에서 **단위**를 선택합니다.
-2. **신규**를 선택하고 **단위 그룹 만들기** 대화 상자에 단위 이름을 입력합니다.
+1. 사이트 맵에서 **단위** 를 선택합니다.
+2. **신규** 를 선택하고 **단위 그룹 만들기** 대화 상자에 단위 이름을 입력합니다.
 3. **기본 단위** 필드에 제품이 판매되는 가장 낮은 단위를 입력합니다. 예를 들어 "조각" 또는 "온스"를 입력할 수 있습니다.
-4. **확인**을 선택합니다.
+4. **확인** 을 선택합니다.
 
 ## <a name="add-units-to-a-unit-group"></a>단위 그룹에 단위 추가
 
-1. 단위 그룹을 열고 **관련**탭에서 **단위**를 선택합니다. 기본 단위가 이미 추가되어 있는 것을 확인할 수 있습니다.
-2. **새 단취 추가**를 선택하고 **빠른 만들기: 단위** 페이지에서 **이름** 필드에 단위의 이름을 입력합니다.
+1. 단위 그룹을 열고 **관련** 탭에서 **단위** 를 선택합니다. 기본 단위가 이미 추가되어 있는 것을 확인할 수 있습니다.
+2. **새 단취 추가** 를 선택하고 **빠른 만들기: 단위** 페이지에서 **이름** 필드에 단위의 이름을 입력합니다.
 3. **수량** 필드에 단위에 포함될 수량을 입력합니다. 예를 들어, 한 박스에 2개가 있으면 "2"를 입력합니다. 
 4. **기본 단위** 필드에서 단위에 대한 가장 낮은 측정 단위를 설정할 기본 단위를 선택합니다. 예를 들어 "Piece"를 선택할 수 있습니다.
-5. **저장**을 선택합니다.
+5. **저장** 을 선택합니다.

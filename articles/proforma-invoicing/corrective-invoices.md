@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e14da1c07d5b697de6caf1b9041c30581ecff102
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: b31e702cc15bbb3937e8c4b305064212f63ce919
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898089"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080220"
 ---
 # <a name="corrected-invoices"></a>수정된 송장
 
-_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
 확인된 송장을 편집할 수 있습니다. 확인된 송장을 편집하면 임시 수정된 송장이 만들어집니다. 원래 송장의 모든 트랜잭션 및 수량을 되돌리려는 가정이기 때문에 이 수정된 송장에는 원래 송장의 모든 트랜잭션이 포함되며 모든 수량은 0(제로)입니다.
 

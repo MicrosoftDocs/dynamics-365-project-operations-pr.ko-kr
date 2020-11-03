@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079905"
 ---
 # <a name="edit-a-resource-requirement"></a>리소스 요구 사항 편집
 
@@ -36,4 +36,4 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="edit-resource-assignment-contours"></a>리소스 할당 윤곽 편집
 
-리소스 요구 사항의 세부 사항을 편집하는 것 외에도 프로젝트 관리자는 **패턴 지정** 기능을 사용하여 리소스 요구 사항의 개별 윤곽을 업데이트할 수 있습니다. **패턴 지정**을 선택하면 페이지가 열리고 일, 주 또는 월 시간 단위로 윤곽을 볼 수 있습니다. 각 윤곽은 지정된 기간의 시작 시간, 종료 시간 및 총 작업량에 대해 조정할 수 있습니다.
+리소스 요구 사항의 세부 사항을 편집하는 것 외에도 프로젝트 관리자는 **패턴 지정** 기능을 사용하여 리소스 요구 사항의 개별 윤곽을 업데이트할 수 있습니다. **패턴 지정** 을 선택하면 페이지가 열리고 일, 주 또는 월 시간 단위로 윤곽을 볼 수 있습니다. 각 윤곽은 지정된 기간의 시작 시간, 종료 시간 및 총 작업량에 대해 조정할 수 있습니다.

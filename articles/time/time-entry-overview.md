@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: e2ac26910c55eefd059e3136b7e8821aad411539
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961129"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079967"
 ---
 # <a name="time-overview"></a>시간 개요
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-시간 항목은 리소스가 소비하는 실제 시간을 기록하는 프로세스입니다. Dynamics 365 Project Operations의 시간 항목을 사용하면 작업이 진행됨에 따라 비용 및 판매 가격을 계산할 수 있습니다. 이러한 항목은 프로젝트 관리자가 프로젝트 및 작업을 파악하는 데 도움이 됩니다. 시간 항목은 또한 일정 게시판에 **외출**과 같이 표시되는 잠재적인 휴가 또는 결석을 리소스 관리자에게 알립니다. 이러한 알림을 통해 리소스 관리자는 이러한 이벤트를 계획할 수 있습니다.
+시간 항목은 리소스가 소비하는 실제 시간을 기록하는 프로세스입니다. Dynamics 365 Project Operations의 시간 항목을 사용하면 작업이 진행됨에 따라 비용 및 판매 가격을 계산할 수 있습니다. 이러한 항목은 프로젝트 관리자가 프로젝트 및 작업을 파악하는 데 도움이 됩니다. 시간 항목은 또한 일정 게시판에 **외출** 과 같이 표시되는 잠재적인 휴가 또는 결석을 리소스 관리자에게 알립니다. 이러한 알림을 통해 리소스 관리자는 이러한 이벤트를 계획할 수 있습니다.
 
 Project Operations에서 시간을 기록할 때 사용자는 프로젝트의 모든 수준에 대해 추적할 수 있습니다. 여기에는 작업, 요약 또는 프로젝트 수준이 포함됩니다.
 
