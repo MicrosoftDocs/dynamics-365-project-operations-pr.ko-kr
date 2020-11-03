@@ -9,74 +9,74 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898629"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079910"
 ---
-# <a name="manage-leads"></a>잠재 고객 관리
+# <a name="manage-leads"></a><span data-ttu-id="20763-103">잠재 고객 관리</span><span class="sxs-lookup"><span data-stu-id="20763-103">Manage leads</span></span>
 
-_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
+<span data-ttu-id="20763-104">_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="20763-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-프로젝트 기반 잠재 고객은 Project Operations에서 관리하고 검증할 수 있습니다. 잠재 고객 관리 프로세스에는 작업 기반 잠재 고객을 생성하고 해당 잠재 고객을 검증하는 것이 포함됩니다. 
+<span data-ttu-id="20763-105">프로젝트 기반 잠재 고객은 Project Operations에서 관리하고 검증할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-105">Project-based leads can be managed and qualified in Project Operations.</span></span> <span data-ttu-id="20763-106">잠재 고객 관리 프로세스에는 작업 기반 잠재 고객을 생성하고 해당 잠재 고객을 검증하는 것이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-106">The process of lead management includes creating work-based leads and qualifying those leads.</span></span> 
 
-## <a name="project-sales-leads"></a>프로젝트 잠재 고객
+## <a name="project-sales-leads"></a><span data-ttu-id="20763-107">프로젝트 잠재 고객</span><span class="sxs-lookup"><span data-stu-id="20763-107">Project sales leads</span></span>
 
-**영업** 섹션의 왼쪽 탐색 창에서 **잠재 고객** 목록 페이지를 열어 시스템의 모든 잠재 고객 레코드 목록을 봅니다. 표시된 잠재 고객 목록은 Dynamics 365 Sales 또는 Dynamics 365 Field Service 응용 프로그램도 있는 경우 생성할 수 있는 작업 기반 및 기타 유형의 잠재 고객입니다.
+<span data-ttu-id="20763-108">**영업** 섹션의 왼쪽 탐색 창에서 **잠재 고객** 목록 페이지를 열어 시스템의 모든 잠재 고객 레코드 목록을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="20763-108">In the **Sales** section, in the left navigation pane, open the **Leads** list page to view a list of all lead records in the system.</span></span> <span data-ttu-id="20763-109">표시된 잠재 고객 목록은 Dynamics 365 Sales 또는 Dynamics 365 Field Service 응용 프로그램도 있는 경우 생성할 수 있는 작업 기반 및 기타 유형의 잠재 고객입니다.</span><span class="sxs-lookup"><span data-stu-id="20763-109">The list of leads shown are work-based and other types of leads that can be created if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.</span></span>
 
-**유형** 값에 필터를 만들어 프로젝트 기반 잠재 고객만 표시하도록 필터링된 보기를 만들 수 있습니다. 예를 들어 작업 기반 잠재 고객만 표시하도록 선택할 수 있습니다.
+<span data-ttu-id="20763-110">**유형** 값에 필터를 만들어 프로젝트 기반 잠재 고객만 표시하도록 필터링된 보기를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-110">You can create a filtered view to see only project-based leads by creating a filter on the **Type** value.</span></span> <span data-ttu-id="20763-111">예를 들어 작업 기반 잠재 고객만 표시하도록 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-111">For example, you can select to show only work-based leads.</span></span>
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>프로젝트 기반 거래를 위한 새로운 잠재 고객 생성
+## <a name="create-a-new-lead-for-a-project-based-deal"></a><span data-ttu-id="20763-112">프로젝트 기반 거래를 위한 새로운 잠재 고객 생성</span><span class="sxs-lookup"><span data-stu-id="20763-112">Create a new lead for a project-based deal</span></span>
 
-프로젝트 기반 잠재 고객이 자격을 갖추면 영업 기회와 거래처가 생성됩니다. 프로젝트 기반 영업 기회는 영업 기회 단계에서 영업 추구 활동의 시작점입니다. 프로젝트 기반 영업 기회에는 프로젝트 작업을 판매하는 데 필요한 고유한 기능이 있습니다. 이러한 기능은 다음과 같습니다.
+<span data-ttu-id="20763-113">프로젝트 기반 잠재 고객이 자격을 갖추면 영업 기회와 거래처가 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-113">When a project-based lead is qualified, an opportunity and an account are created.</span></span> <span data-ttu-id="20763-114">프로젝트 기반 영업 기회는 영업 기회 단계에서 영업 추구 활동의 시작점입니다.</span><span class="sxs-lookup"><span data-stu-id="20763-114">A project-based opportunity is the starting point for sales pursuit activities in the Opportunity phase.</span></span> <span data-ttu-id="20763-115">프로젝트 기반 영업 기회에는 프로젝트 작업을 판매하는 데 필요한 고유한 기능이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-115">Project-based opportunities have unique capabilities that are required for selling project work.</span></span> <span data-ttu-id="20763-116">이러한 기능은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-116">These capabilities include:</span></span>
 
-- 시간 및 재료 및 고정 가격 청구 방법
-- 프로젝트에서 발생한 인적 자원, 경비 및 자재에 대한 여러 날짜 유효 가격 목록
+- <span data-ttu-id="20763-117">시간 및 재료 및 고정 가격 청구 방법</span><span class="sxs-lookup"><span data-stu-id="20763-117">Time and material and Fixed Price billing methods</span></span>
+- <span data-ttu-id="20763-118">프로젝트에서 발생한 인적 자원, 경비 및 자재에 대한 여러 날짜 유효 가격 목록</span><span class="sxs-lookup"><span data-stu-id="20763-118">Multiple date effective price lists for human resources, expenses, and material incurred on projects</span></span>
 
-적격 잠재 고객이 자동으로 영업 기회를 생성하려면 잠재 고객을 만들 때 **유형** 특성을 **작업 기반**으로 설정합니다. 다른 유형을 선택하는 경우 잠재 고객은 자격이 있으면 프로젝트 기반 영업 기회를 생성하지 않습니다. 프로젝트 기반 영업 기회가 생성되지 않으면 프로젝트별 기능을 다운스트림 판매 프로세스에서 사용할 수 없습니다.
+<span data-ttu-id="20763-119">적격 잠재 고객이 자동으로 영업 기회를 생성하려면 잠재 고객을 만들 때 **유형** 특성을 **작업 기반** 으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="20763-119">For qualified lead to automatically create an opportunity, set the **Type** attribute to **Work-based** when you create the lead.</span></span> <span data-ttu-id="20763-120">다른 유형을 선택하는 경우 잠재 고객은 자격이 있으면 프로젝트 기반 영업 기회를 생성하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-120">If you choose a different type, the lead won't create a project-based opportunity when it is qualified.</span></span> <span data-ttu-id="20763-121">프로젝트 기반 영업 기회가 생성되지 않으면 프로젝트별 기능을 다운스트림 판매 프로세스에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-121">If the project-based opportunity isn't created, the project-specific capabilities won't be available in the downstream sales processes.</span></span>
 
-다음 표에는 잠재 고객에 대한 중요한 필드 정보와 해당 필드의 다운스트림 영향이 포함되어 있습니다.
+<span data-ttu-id="20763-122">다음 표에는 잠재 고객에 대한 중요한 필드 정보와 해당 필드의 다운스트림 영향이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-122">The following table includes important field information for a lead, and the downstream implications of those fields.</span></span>
  
-| **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
+| <span data-ttu-id="20763-123">**필드**</span><span class="sxs-lookup"><span data-stu-id="20763-123">**Field**</span></span> | <span data-ttu-id="20763-124">**위치**</span><span class="sxs-lookup"><span data-stu-id="20763-124">**Location**</span></span> | <span data-ttu-id="20763-125">**관련성, 목적 및 지침**</span><span class="sxs-lookup"><span data-stu-id="20763-125">**Relevance, purpose, and guidance**</span></span> | <span data-ttu-id="20763-126">**다운스트림 영향**</span><span class="sxs-lookup"><span data-stu-id="20763-126">**Downstream impact**</span></span> |
 | --- | --- | --- | --- |
-| 주제 | 일반 탭 | 이 텍스트 필드에는 거래에 대한 간단한 설명이 포함되어야 합니다. | 잠재 고객 토픽은 기본적으로 영업 기회의 토픽, 견적 및 프로젝트 계약의 이름으로 지정됩니다. |
-| 종류 | 일반 탭 | 이 옵션 집합 필드에는 다음 옵션이 있습니다.</br>- 작업 기반(Project Operations가 설치된 경우에만 사용 가능)</br>- 항목 기반(Project Operations 및 Sales가 설치된 경우에만 사용 가능)</br>- 서비스 유지 보수 기반(Field Service가 설치된 경우 사용 가능) | 이 필드의 값이 잠재 고객에서 **업무 기반**으로 설정된 경우 잠재 고객은 프로젝트 기반 영업 기회를 생성할 자격이 있습니다. 이 거래에 대한 다운스트림 판매 프로세스에서 모든 프로젝트별 확장 및 기능을 활성화하려면 프로젝트 기반 영업 기회가 필요합니다. |
-| 이름 | 일반 탭 | 잠재 기부자 연락처의 이름 | 잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다. 연락처의 이름이 여기에 설정된 값입니다. |
-| 성 | 일반 탭 | 잠재 기부자 연락처의 성 | 잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다. 연락처의 성이 여기에 설정된 값입니다. |
-| 회사 | 일반 탭 | 잠재 기부자 고객의 회사 이름 | 잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다. 생성된 거래처의 이름이 여기에 설정된 값입니다. |
-| 통화 | Details 탭 | 잠재 기부자 고객의 통화 | 잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다. 생성된 거래처의 통화가 여기에 설정된 값입니다. |
+| <span data-ttu-id="20763-127">주제</span><span class="sxs-lookup"><span data-stu-id="20763-127">Topic</span></span> | <span data-ttu-id="20763-128">일반 탭</span><span class="sxs-lookup"><span data-stu-id="20763-128">General tab</span></span> | <span data-ttu-id="20763-129">이 텍스트 필드에는 거래에 대한 간단한 설명이 포함되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="20763-129">This text field should contain a short description of the deal.</span></span> | <span data-ttu-id="20763-130">잠재 고객 토픽은 기본적으로 영업 기회의 토픽, 견적 및 프로젝트 계약의 이름으로 지정됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-130">The topic of the lead will default as the topic of the Opportunity, and the Name of Quote and Project contract.</span></span> |
+| <span data-ttu-id="20763-131">종류</span><span class="sxs-lookup"><span data-stu-id="20763-131">Type</span></span> | <span data-ttu-id="20763-132">일반 탭</span><span class="sxs-lookup"><span data-stu-id="20763-132">General tab</span></span> | <span data-ttu-id="20763-133">이 옵션 집합 필드에는 다음 옵션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-133">This option set field has the following options:</span></span></br><span data-ttu-id="20763-134">- 작업 기반(Project Operations가 설치된 경우에만 사용 가능)</span><span class="sxs-lookup"><span data-stu-id="20763-134">- Work-based (available only when Project Operations is installed)</span></span></br><span data-ttu-id="20763-135">- 항목 기반(Project Operations 및 Sales가 설치된 경우에만 사용 가능)</span><span class="sxs-lookup"><span data-stu-id="20763-135">- Item-based (available only when Project Operations and Sales are installed)</span></span></br><span data-ttu-id="20763-136">- 서비스 유지 보수 기반(Field Service가 설치된 경우 사용 가능)</span><span class="sxs-lookup"><span data-stu-id="20763-136">- Service maintenance-based (available when Field Service is installed)</span></span> | <span data-ttu-id="20763-137">이 필드의 값이 잠재 고객에서 **업무 기반** 으로 설정된 경우 잠재 고객은 프로젝트 기반 영업 기회를 생성할 자격이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-137">When the value of this field is set to **Work-based** on the lead, the lead is qualified to create a Project-based Opportunity.</span></span> <span data-ttu-id="20763-138">이 거래에 대한 다운스트림 판매 프로세스에서 모든 프로젝트별 확장 및 기능을 활성화하려면 프로젝트 기반 영업 기회가 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="20763-138">A project-based opportunity is required to enable all project-specific extensions and functionality in the downstream sales process for this deal.</span></span> |
+| <span data-ttu-id="20763-139">이름</span><span class="sxs-lookup"><span data-stu-id="20763-139">First name</span></span> | <span data-ttu-id="20763-140">일반 탭</span><span class="sxs-lookup"><span data-stu-id="20763-140">General tab</span></span> | <span data-ttu-id="20763-141">잠재 기부자 연락처의 이름</span><span class="sxs-lookup"><span data-stu-id="20763-141">First name of the prospect's contact</span></span> | <span data-ttu-id="20763-142">잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-142">When the lead is qualified, an account, contact, and opportunity are created.</span></span> <span data-ttu-id="20763-143">연락처의 이름이 여기에 설정된 값입니다.</span><span class="sxs-lookup"><span data-stu-id="20763-143">The first name of the contact is the value set here.</span></span> |
+| <span data-ttu-id="20763-144">성</span><span class="sxs-lookup"><span data-stu-id="20763-144">Last name</span></span> | <span data-ttu-id="20763-145">일반 탭</span><span class="sxs-lookup"><span data-stu-id="20763-145">General tab</span></span> | <span data-ttu-id="20763-146">잠재 기부자 연락처의 성</span><span class="sxs-lookup"><span data-stu-id="20763-146">Last name of the prospect's contact</span></span> | <span data-ttu-id="20763-147">잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-147">When the lead is qualified, an account, contact, and opportunity are created.</span></span> <span data-ttu-id="20763-148">연락처의 성이 여기에 설정된 값입니다.</span><span class="sxs-lookup"><span data-stu-id="20763-148">The last name of the contact the value set here.</span></span> |
+| <span data-ttu-id="20763-149">회사</span><span class="sxs-lookup"><span data-stu-id="20763-149">Company</span></span> | <span data-ttu-id="20763-150">일반 탭</span><span class="sxs-lookup"><span data-stu-id="20763-150">General tab</span></span> | <span data-ttu-id="20763-151">잠재 기부자 고객의 회사 이름</span><span class="sxs-lookup"><span data-stu-id="20763-151">Name of the prospect customer's company</span></span> | <span data-ttu-id="20763-152">잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-152">When the lead is qualified, an account, contact, and opportunity are created.</span></span> <span data-ttu-id="20763-153">생성된 거래처의 이름이 여기에 설정된 값입니다.</span><span class="sxs-lookup"><span data-stu-id="20763-153">The name of the account created the value set here.</span></span> |
+| <span data-ttu-id="20763-154">통화</span><span class="sxs-lookup"><span data-stu-id="20763-154">Currency</span></span> | <span data-ttu-id="20763-155">Details 탭</span><span class="sxs-lookup"><span data-stu-id="20763-155">Details tab</span></span> | <span data-ttu-id="20763-156">잠재 기부자 고객의 통화</span><span class="sxs-lookup"><span data-stu-id="20763-156">Prospect customer's currency</span></span> | <span data-ttu-id="20763-157">잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-157">When the lead is qualified, an account, contact, and opportunity are created.</span></span> <span data-ttu-id="20763-158">생성된 거래처의 통화가 여기에 설정된 값입니다.</span><span class="sxs-lookup"><span data-stu-id="20763-158">The currency of the account created is the value set here.</span></span> |
 
-## <a name="qualify-a-new-project-based-lead"></a>새로운 프로젝트 기반 잠재 고객을 우량으로 선별
+## <a name="qualify-a-new-project-based-lead"></a><span data-ttu-id="20763-159">새로운 프로젝트 기반 잠재 고객을 우량으로 선별</span><span class="sxs-lookup"><span data-stu-id="20763-159">Qualify a new project-based lead</span></span>
 
-**유형** 값이 **작업 기반**으로 설정된 잠재 고객을 프로젝트 기반 잠재 고객이라고 합니다. 프로젝트 기반 잠재 고객이 검증되면 다음이 생성됩니다.
+<span data-ttu-id="20763-160">**유형** 값이 **작업 기반** 으로 설정된 잠재 고객을 프로젝트 기반 잠재 고객이라고 합니다.</span><span class="sxs-lookup"><span data-stu-id="20763-160">Leads that have the **Type** value set to **Work-based** are called project-based leads.</span></span> <span data-ttu-id="20763-161">프로젝트 기반 잠재 고객이 검증되면 다음이 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-161">When a project-based lead is qualified, the following is created:</span></span>
 
-- 잠재 고객의 **회사** 필드를 사용하는 거래처.
-- 잠조 고객의 **이름**과 **성**의 값을 기반으로 거래처에 연결된 연락처 레코드.
-- **유형** 필드가 &quot;**작업 기반**으로 설정된 프로젝트 기반 영업 기회.
+- <span data-ttu-id="20763-162">잠재 고객의 **회사** 필드를 사용하는 거래처.</span><span class="sxs-lookup"><span data-stu-id="20763-162">An account that uses the **Company** field from the lead.</span></span>
+- <span data-ttu-id="20763-163">잠조 고객의 **이름** 과 **성** 의 값을 기반으로 거래처에 연결된 연락처 레코드.</span><span class="sxs-lookup"><span data-stu-id="20763-163">A contact record associated to the account based on the values in the **First Name** and **Last Name** fields on the lead.</span></span>
+- <span data-ttu-id="20763-164">**유형** 필드가 &quot;**작업 기반** 으로 설정된 프로젝트 기반 영업 기회.</span><span class="sxs-lookup"><span data-stu-id="20763-164">A project-based opportunity that has the **Type** field set to &quot;**Wwork-based**.</span></span>
 
-적격 잠재 고객에 대한 자세한 내용은 [잠재 고객을 우량으로 선별 또는 전환](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)을 참조하십시오.
+<span data-ttu-id="20763-165">적격 잠재 고객에 대한 자세한 내용은 [잠재 고객을 우량으로 선별 또는 전환](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="20763-165">For more detailed information on qualifying leads, see[Qualify or convert leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).</span></span>
 
-## <a name="lead-qualification-and-legal-entity-information"></a>잠재 고객 선별 및 법인 정보 
+## <a name="lead-qualification-and-legal-entity-information"></a><span data-ttu-id="20763-166">잠재 고객 선별 및 법인 정보</span><span class="sxs-lookup"><span data-stu-id="20763-166">Lead qualification and legal entity information</span></span> 
 
-배포 모드를 사용하여 Project Operations를 실행하는 경우 리소스/비 재고 기반 시나리오에 대한 Project Operations, 각 고객 및 영업 기회는 **담당 회사** 필드 집합이 있어야 합니다. 담당 회사는 프로젝트 제공을 담당하는 조직의 법인입니다. 각 고객 또는 고객 관계 유형이 있는 거래처는 이 고객과 계약하고 협상하는 법인으로 설정된 **담당 회사** 필드 값이 있어야 합니다. 고객은 하나의 법인에만 속할 수 있습니다.
+<span data-ttu-id="20763-167">배포 모드를 사용하여 Project Operations를 실행하는 경우 리소스/비 재고 기반 시나리오에 대한 Project Operations, 각 고객 및 영업 기회는 **담당 회사** 필드 집합이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="20763-167">When you run Project Operations using the deployment mode, Project Operations for resource/non-stocked based scenarios, each customer and opportunity will require having the **Owning Company** field set.</span></span> <span data-ttu-id="20763-168">담당 회사는 프로젝트 제공을 담당하는 조직의 법인입니다.</span><span class="sxs-lookup"><span data-stu-id="20763-168">The Owning company is a legal entity in your organization that owns the delivery of the project.</span></span> <span data-ttu-id="20763-169">각 고객 또는 고객 관계 유형이 있는 거래처는 이 고객과 계약하고 협상하는 법인으로 설정된 **담당 회사** 필드 값이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="20763-169">Each customer, or account with relationship type of customer, must have the **Owning Company** field value set to the legal entity that contracts and negotiates with this customer.</span></span> <span data-ttu-id="20763-170">고객은 하나의 법인에만 속할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20763-170">A customer can only be in one legal entity.</span></span>
 
-잠재 고객이 우량으로 선별되면 생성된 고객 및 영업 기회 레코드에 **담당 회사** 필드가 현재 사용자의 예약 가능한 리소스 레코드 회사로 설정됩니다.
+<span data-ttu-id="20763-171">잠재 고객이 우량으로 선별되면 생성된 고객 및 영업 기회 레코드에 **담당 회사** 필드가 현재 사용자의 예약 가능한 리소스 레코드 회사로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-171">When a lead is qualified, the customer and opportunity records created will have the **Owning Company** field set to the company of the current user's bookable resource record.</span></span>
 
-현재 사용자의 예약 가능한 리소스 레코드가 비어 있으면 사용자 레코드의 **담당 회사** 필드 값은 고객 및 영업 기회 레코드를 기본값으로 설정하는 데 사용됩니다.
+<span data-ttu-id="20763-172">현재 사용자의 예약 가능한 리소스 레코드가 비어 있으면 사용자 레코드의 **담당 회사** 필드 값은 고객 및 영업 기회 레코드를 기본값으로 설정하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-172">If the current user's bookable resource record is empty, then the **Owning Company** field value on the user record is used to default on the customer and the opportunity records.</span></span>
 
-## <a name="business-process-flow-for-project-based-deals"></a>프로젝트 기반 거래의 경우 비즈니스 프로세스 흐름
+## <a name="business-process-flow-for-project-based-deals"></a><span data-ttu-id="20763-173">프로젝트 기반 거래의 경우 비즈니스 프로세스 흐름</span><span class="sxs-lookup"><span data-stu-id="20763-173">Business process flow for project-based deals</span></span>
 
-Project Operations의 프로젝트 기반 거래에 대해 다음 비즈니스 프로세스 흐름이 지원됩니다.
+<span data-ttu-id="20763-174">Project Operations의 프로젝트 기반 거래에 대해 다음 비즈니스 프로세스 흐름이 지원됩니다.</span><span class="sxs-lookup"><span data-stu-id="20763-174">The following business process flows are supported for project-based deals in Project Operations:</span></span>
 
-- 잠재 고객 - 영업 기회 비즈니스 프로세스
-- 영업 기회 영업 프로세스
+- <span data-ttu-id="20763-175">잠재 고객 - 영업 기회 비즈니스 프로세스</span><span class="sxs-lookup"><span data-stu-id="20763-175">Lead to Opportunity business process</span></span>
+- <span data-ttu-id="20763-176">영업 기회 영업 프로세스</span><span class="sxs-lookup"><span data-stu-id="20763-176">Opportunity sales process</span></span>
 
-잠재 고객 - 영업 기회 비즈니스 프로세스는 다음 스테이지를 지원합니다.
+<span data-ttu-id="20763-177">잠재 고객 - 영업 기회 비즈니스 프로세스는 다음 스테이지를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="20763-177">The Lead to Opportunity business process supports the following stages:</span></span>
 
-| 스테이지 이름 | 매핑된 엔티티 | 기능 |
+| <span data-ttu-id="20763-178">스테이지 이름</span><span class="sxs-lookup"><span data-stu-id="20763-178">Stage name</span></span> | <span data-ttu-id="20763-179">매핑된 엔티티</span><span class="sxs-lookup"><span data-stu-id="20763-179">Mapped entity</span></span> | <span data-ttu-id="20763-180">기능</span><span class="sxs-lookup"><span data-stu-id="20763-180">Functionality</span></span> |
 | --- | --- | --- |
-| 우량으로 선별 | 잠재 고객 | 잠재 고객을 우량으로 선별하여 거래처, 연락처 및 영업 기회를 만듭니다. |
-| 전개 | 영업 기회 | 관련된 작업, 주요 이해 관계자 및 경쟁에 대한 더 많은 정보를 추가할 수 있는 영업 기회를 개발하십시오. |
-| 제안 | 영업 기회 | 제안서를 개발하고 내부 검토 팀의 승인을 받으십시오. |
-| 종료 | 영업 기회 | 거래를 성사시킬 수 있는 영업 기회를 얻으십시오. |
+| <span data-ttu-id="20763-181">우량으로 선별</span><span class="sxs-lookup"><span data-stu-id="20763-181">Qualify</span></span> | <span data-ttu-id="20763-182">잠재 고객</span><span class="sxs-lookup"><span data-stu-id="20763-182">Lead</span></span> | <span data-ttu-id="20763-183">잠재 고객을 우량으로 선별하여 거래처, 연락처 및 영업 기회를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="20763-183">Qualify the lead to create an account, contact, and an opportunity.</span></span> |
+| <span data-ttu-id="20763-184">전개</span><span class="sxs-lookup"><span data-stu-id="20763-184">Develop</span></span> | <span data-ttu-id="20763-185">영업 기회</span><span class="sxs-lookup"><span data-stu-id="20763-185">Opportunity</span></span> | <span data-ttu-id="20763-186">관련된 작업, 주요 이해 관계자 및 경쟁에 대한 더 많은 정보를 추가할 수 있는 영업 기회를 개발하십시오.</span><span class="sxs-lookup"><span data-stu-id="20763-186">Develop the opportunity to add more information on the work involved, key stakeholders, and competition.</span></span> |
+| <span data-ttu-id="20763-187">제안</span><span class="sxs-lookup"><span data-stu-id="20763-187">Propose</span></span> | <span data-ttu-id="20763-188">영업 기회</span><span class="sxs-lookup"><span data-stu-id="20763-188">Opportunity</span></span> | <span data-ttu-id="20763-189">제안서를 개발하고 내부 검토 팀의 승인을 받으십시오.</span><span class="sxs-lookup"><span data-stu-id="20763-189">Develop the proposal and get approval from the internal review team.</span></span> |
+| <span data-ttu-id="20763-190">종료</span><span class="sxs-lookup"><span data-stu-id="20763-190">Close</span></span> | <span data-ttu-id="20763-191">영업 기회</span><span class="sxs-lookup"><span data-stu-id="20763-191">Opportunity</span></span> | <span data-ttu-id="20763-192">거래를 성사시킬 수 있는 영업 기회를 얻으십시오.</span><span class="sxs-lookup"><span data-stu-id="20763-192">Win the opportunity to close the deal.</span></span> |

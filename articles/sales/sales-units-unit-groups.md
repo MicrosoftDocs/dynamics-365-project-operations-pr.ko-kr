@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,32 +17,32 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea5399368214a293ca7c10fabf21d82407b5c76f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080175"
 ---
-# <a name="units-and-unit-groups"></a>단위 및 단위 그룹
+# <a name="units-and-unit-groups"></a><span data-ttu-id="accb9-103">단위 및 단위 그룹</span><span class="sxs-lookup"><span data-stu-id="accb9-103">Units and unit groups</span></span>
 
-_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+<span data-ttu-id="accb9-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="accb9-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-단위는 제품 또는 서비스를 판매하는 수량 또는 규격입니다. 예를 들어, 정원 소모품을 판매하는 경우 씨앗을 패킷, 박스 또는 팔레트 단위로 판매할 수 있습니다. 단위 그룹은 일한 여러 단위의 모음입니다.
+<span data-ttu-id="accb9-105">단위는 제품 또는 서비스를 판매하는 수량 또는 규격입니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-105">Units are the quantities or measurements that you sell your products or services in.</span></span> <span data-ttu-id="accb9-106">예를 들어, 정원 소모품을 판매하는 경우 씨앗을 패킷, 박스 또는 팔레트 단위로 판매할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-106">For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets.</span></span> <span data-ttu-id="accb9-107">단위 그룹은 일한 여러 단위의 모음입니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-107">A unit group is a collection of these different units.</span></span>
 
-이 항목의 단계를 완료하려면 시스템 관리자 또는 Sales Professional 관리자 역할에 할당되었거나 동등한 권한이 있는지 확인하십시오.
+<span data-ttu-id="accb9-108">이 항목의 단계를 완료하려면 시스템 관리자 또는 Sales Professional 관리자 역할에 할당되었거나 동등한 권한이 있는지 확인하십시오.</span><span class="sxs-lookup"><span data-stu-id="accb9-108">To complete the steps in this topic, make sure that you have been assigned to the System Administrator or Sales Professional Manager role or have equivalent permissions.</span></span>
 
-## <a name="create-a-unit-group"></a>단위 그룹 만들기
+## <a name="create-a-unit-group"></a><span data-ttu-id="accb9-109">단위 그룹 만들기</span><span class="sxs-lookup"><span data-stu-id="accb9-109">Create a unit group</span></span>
 
-1. 사이트 맵에서 **단위**를 선택합니다.
-2. **신규**를 선택하고 **단위 그룹 만들기** 대화 상자에 단위 이름을 입력합니다.
-3. **기본 단위** 필드에 제품이 판매되는 가장 낮은 단위를 입력합니다. 예를 들어 "조각" 또는 "온스"를 입력할 수 있습니다.
-4. **확인**을 선택합니다.
+1. <span data-ttu-id="accb9-110">사이트 맵에서 **단위** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-110">In the site map, select **Units**.</span></span>
+2. <span data-ttu-id="accb9-111">**신규** 를 선택하고 **단위 그룹 만들기** 대화 상자에 단위 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-111">Select **New** , and in the **Create Unit Group** dialog box, enter the unit name.</span></span>
+3. <span data-ttu-id="accb9-112">**기본 단위** 필드에 제품이 판매되는 가장 낮은 단위를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-112">In the **Primary unit** field, enter the lowest common unit of measure that the product will be sold in.</span></span> <span data-ttu-id="accb9-113">예를 들어 "조각" 또는 "온스"를 입력할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-113">For example, you might enter "piece" or "ounce".</span></span>
+4. <span data-ttu-id="accb9-114">**확인** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-114">Select **OK**.</span></span>
 
-## <a name="add-units-to-a-unit-group"></a>단위 그룹에 단위 추가
+## <a name="add-units-to-a-unit-group"></a><span data-ttu-id="accb9-115">단위 그룹에 단위 추가</span><span class="sxs-lookup"><span data-stu-id="accb9-115">Add units to a unit group</span></span>
 
-1. 단위 그룹을 열고 **관련**탭에서 **단위**를 선택합니다. 기본 단위가 이미 추가되어 있는 것을 확인할 수 있습니다.
-2. **새 단취 추가**를 선택하고 **빠른 만들기: 단위** 페이지에서 **이름** 필드에 단위의 이름을 입력합니다.
-3. **수량** 필드에 단위에 포함될 수량을 입력합니다. 예를 들어, 한 박스에 2개가 있으면 "2"를 입력합니다. 
-4. **기본 단위** 필드에서 단위에 대한 가장 낮은 측정 단위를 설정할 기본 단위를 선택합니다. 예를 들어 "Piece"를 선택할 수 있습니다.
-5. **저장**을 선택합니다.
+1. <span data-ttu-id="accb9-116">단위 그룹을 열고 **관련** 탭에서 **단위** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-116">Open a unit group, and on the **Related** tab, select **Units**.</span></span> <span data-ttu-id="accb9-117">기본 단위가 이미 추가되어 있는 것을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-117">You will see that the primary unit is already added.</span></span>
+2. <span data-ttu-id="accb9-118">**새 단취 추가** 를 선택하고 **빠른 만들기: 단위** 페이지에서 **이름** 필드에 단위의 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-118">Select **Add New Unit** , and on the **Quick Create: Unit** page, in the **Name** field, enter the nanem of the unit.</span></span>
+3. <span data-ttu-id="accb9-119">**수량** 필드에 단위에 포함될 수량을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-119">In the **QUantity** field, enter the quantity that the unit will contain.</span></span> <span data-ttu-id="accb9-120">예를 들어, 한 박스에 2개가 있으면 "2"를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-120">For example, if a box contains two pieces, enter "2".</span></span> 
+4. <span data-ttu-id="accb9-121">**기본 단위** 필드에서 단위에 대한 가장 낮은 측정 단위를 설정할 기본 단위를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-121">In the **Base unit** field, select a base unit to establish the lowest unit of measurement for the unit.</span></span> <span data-ttu-id="accb9-122">예를 들어 "Piece"를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-122">For example, you might select "Piece".</span></span>
+5. <span data-ttu-id="accb9-123">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="accb9-123">Select **Save** :</span></span>

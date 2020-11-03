@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,56 +16,56 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3891718"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080251"
 ---
-# <a name="sales-processes-overview"></a>영업 프로세스 개요
+# <a name="sales-processes-overview"></a><span data-ttu-id="578ea-103">영업 프로세스 개요</span><span class="sxs-lookup"><span data-stu-id="578ea-103">Sales processes overview</span></span>
 
-프로젝트 기반 조직에서 사용되는 영업 프로세스는 제품 기반 조직에서 사용되는 영업 프로세스와 다릅니다. 이러한 차이는 프로젝트 기반 조직의 영업 주기가 더 길고 각 거래에 대한 견적을 분석하고 만드는 사용자 지정된 추정 기술이 필요하기 때문에 발생합니다. Dynamics 365 Project Operations는 영업 프로세스에 사용되는 다음과 같은 몇 가지 기능을 사용합니다.
+<span data-ttu-id="578ea-104">프로젝트 기반 조직에서 사용되는 영업 프로세스는 제품 기반 조직에서 사용되는 영업 프로세스와 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-104">The sales processes that are used in a project-based organization differ from the sales processes that are used in a product-based organization.</span></span> <span data-ttu-id="578ea-105">이러한 차이는 프로젝트 기반 조직의 영업 주기가 더 길고 각 거래에 대한 견적을 분석하고 만드는 사용자 지정된 추정 기술이 필요하기 때문에 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-105">This is because the sales cycles for project-based organizations are longer and require customized estimate techniques to analyze and create quotes for each deal.</span></span> <span data-ttu-id="578ea-106">Dynamics 365 Project Operations는 영업 프로세스에 사용되는 다음과 같은 몇 가지 기능을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-106">Dynamics 365 Project Operations uses some of the following functionality that is used in a sales process:</span></span>
 
-- 잠재 고객 레코드는 영업 프로세스를 추적하는 데 사용됩니다.
-- 적격 잠재 고객은 기회로 추적됩니다.
-- 영업 기회에 대한 모든 관련 아티팩트에 액세스할 수 있습니다. 이러한 아티팩트에는 영업 팀, 이해 관계자, 가능성, 등급, 영업 스테이지 및 비즈니스 프로세스가 포함됩니다.
-- 영업 기회에 대해 여러 견적이 만들어집니다.
-- 견적은 영업 주문을 만들기 위해 **성공으로 종료** 상태로 제공됩니다. Project Operations에서 영업 주문은 사용자 지정되며 프로젝트 계약이라고 합니다.
+- <span data-ttu-id="578ea-107">잠재 고객 레코드는 영업 프로세스를 추적하는 데 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-107">A Lead record is used to track the sales process.</span></span>
+- <span data-ttu-id="578ea-108">적격 잠재 고객은 기회로 추적됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-108">Qualifying leads are tracked as opportunities.</span></span>
+- <span data-ttu-id="578ea-109">영업 기회에 대한 모든 관련 아티팩트에 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-109">All related artifacts for an opportunity are accessible.</span></span> <span data-ttu-id="578ea-110">이러한 아티팩트에는 영업 팀, 이해 관계자, 가능성, 등급, 영업 스테이지 및 비즈니스 프로세스가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-110">These artifacts include the sales team, stakeholders, probability, rating, sales stages, and business processes.</span></span>
+- <span data-ttu-id="578ea-111">영업 기회에 대해 여러 견적이 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-111">Multiple quotes are created for an opportunity.</span></span>
+- <span data-ttu-id="578ea-112">견적은 영업 주문을 만들기 위해 **성공으로 종료** 상태로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-112">A quote is given the status, **Closed as Won** to create a sales order.</span></span> <span data-ttu-id="578ea-113">Project Operations에서 영업 주문은 사용자 지정되며 프로젝트 계약이라고 합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-113">In Project Operations, the sales order is customized and called a project contract.</span></span>
 
-## <a name="estimate-a-sale"></a>영업 예상
-판매 가치는 이전에 전달된 프로젝트와 프로젝트의 복잡성을 기반으로 추정할 수 있습니다. 이전 프로젝트에 대한 확장이 포함된 프로젝트 또는 공급업체의 전문 지식이 높고 잘 알려진 작업 템플릿이 사용되는 프로젝트의 경우 더 간단한 예상 프로세스를 사용할 수 있습니다. 더 복잡한 프로젝트는 일반적으로 구매 프로세스가 더 깁니다. 따라서 영업 예상 프로세스에는 더 많은 단계가 있습니다. 프로세스 초기에 영업 팀은 거래처 관리자와 주제별 전문가(SME)의 입력을 사용하여 견적되는 각 개별 작업 구성 요소에 대한 높은 수준의 견적을 작성합니다. 이러한 작업 구성 요소는 견적 라인으로 표시됩니다. 
+## <a name="estimate-a-sale"></a><span data-ttu-id="578ea-114">영업 예상</span><span class="sxs-lookup"><span data-stu-id="578ea-114">Estimate a sale</span></span>
+<span data-ttu-id="578ea-115">판매 가치는 이전에 전달된 프로젝트와 프로젝트의 복잡성을 기반으로 추정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-115">The value of a sale can be estimated based on projects that have previously been delivered and the complexity of the projects.</span></span> <span data-ttu-id="578ea-116">이전 프로젝트에 대한 확장이 포함된 프로젝트 또는 공급업체의 전문 지식이 높고 잘 알려진 작업 템플릿이 사용되는 프로젝트의 경우 더 간단한 예상 프로세스를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-116">For projects that involve extensions to previous projects, or projects where the vendor's expertise is high and well-known work templates are used, you can use a simpler estimation process.</span></span> <span data-ttu-id="578ea-117">더 복잡한 프로젝트는 일반적으로 구매 프로세스가 더 깁니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-117">More complex projects usually have a longer purchase process.</span></span> <span data-ttu-id="578ea-118">따라서 영업 예상 프로세스에는 더 많은 단계가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-118">Therefore, there are more stages in the sales estimation process.</span></span> <span data-ttu-id="578ea-119">프로세스 초기에 영업 팀은 거래처 관리자와 주제별 전문가(SME)의 입력을 사용하여 견적되는 각 개별 작업 구성 요소에 대한 높은 수준의 견적을 작성합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-119">Early in the process, the sales team uses the input of account managers and subject matter experts (SMEs) to create a high-level estimate for each distinct component of work that is quoted.</span></span> <span data-ttu-id="578ea-120">이러한 작업 구성 요소는 견적 라인으로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-120">These components of work are represented by quote lines.</span></span> 
 
-견적의 높은 수준의 예상을 작성할 수 있습니다. 결국 이 높은 수준의 예상은 표준화된 프로젝트 템플릿을 사용하여 만든 프로젝트 계획을 기반으로 하는 보다 자세한 예상으로 대체됩니다. 이러한 템플릿을 사용하면 견적 및 해당 구성 요소(견적 라인)에서 일정을 작성하고 금액 값을 결정하는 데 도움이 됩니다. 
+<span data-ttu-id="578ea-121">견적의 높은 수준의 예상을 작성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-121">You can create a high-level estimate of the quote.</span></span> <span data-ttu-id="578ea-122">결국 이 높은 수준의 예상은 표준화된 프로젝트 템플릿을 사용하여 만든 프로젝트 계획을 기반으로 하는 보다 자세한 예상으로 대체됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-122">Eventually, this high-level estimate will be replaced by a more detailed estimate that is based on a project plan that you create by using the standardized project templates.</span></span> <span data-ttu-id="578ea-123">이러한 템플릿을 사용하면 견적 및 해당 구성 요소(견적 라인)에서 일정을 작성하고 금액 값을 결정하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-123">These templates help you build a schedule and determine monetary values on the quote and its components (quote lines).</span></span> 
 
-프로젝트에 대해 여러 견적을 만들고 단일 영업 기회 레코드로 그룹화할 수 있습니다. 결국 이러한 견적 중 하나가 **성공으로 종료**로 표시되고, 프로젝트 계약 또는 SOW(작업 명세서)가 만들어집니다. 프로젝트 계약은 배달을 위해 고객이 수락한 각 구성 요소(계약 내용)에 대한 계약 값을 보유합니다. SOW는 일반적으로 Microsoft Word 문서로 만들어집니다. 프로젝트 납품 과정에서 고객에게 전송되는 모든 송장은 프로젝트 계약 또는 SOW를 참조합니다.
+<span data-ttu-id="578ea-124">프로젝트에 대해 여러 견적을 만들고 단일 영업 기회 레코드로 그룹화할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-124">You can create multiple quotes for a project and group them under a single opportunity record.</span></span> <span data-ttu-id="578ea-125">결국 이러한 견적 중 하나가 **성공으로 종료** 로 표시되고, 프로젝트 계약 또는 SOW(작업 명세서)가 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-125">Eventually, one of the quotes is marked **Closed as Won** , and a project contract or statement of work (SOW) is created.</span></span> <span data-ttu-id="578ea-126">프로젝트 계약은 배달을 위해 고객이 수락한 각 구성 요소(계약 내용)에 대한 계약 값을 보유합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-126">A project contract holds the contracted value for each component (contract line) that is accepted by the customer for delivery.</span></span> <span data-ttu-id="578ea-127">SOW는 일반적으로 Microsoft Word 문서로 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-127">An SOW is usually created as a Microsoft Word document.</span></span> <span data-ttu-id="578ea-128">프로젝트 납품 과정에서 고객에게 전송되는 모든 송장은 프로젝트 계약 또는 SOW를 참조합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-128">All invoices that are sent to the customer over the course of the project's delivery reference the project contract or SOW.</span></span>
 
-하나의 영업 기회 레코드에서 대체 견적을 만들거나 견적이 성공할 때 프로젝트 계약이 생성되도록 시스템을 설정할 수도 있습니다. 이 경우 SOW를 나타내는 Word 문서를 프로젝트 계약 레코드에 첨부할 수 있습니다.
+<span data-ttu-id="578ea-129">하나의 영업 기회 레코드에서 대체 견적을 만들거나 견적이 성공할 때 프로젝트 계약이 생성되도록 시스템을 설정할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-129">You can also create alternate quotes under one opportunity record or set up the system so that a project contract is created when a quote is won.</span></span> <span data-ttu-id="578ea-130">이 경우 SOW를 나타내는 Word 문서를 프로젝트 계약 레코드에 첨부할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-130">In this case, you can attach a Word document that represents the SOW to the project contract record.</span></span>
 
-## <a name="configure-the-sales-process"></a>영업 프로세스 구성
-비즈니스 프로세스 흐름을 사용하여 영업 프로세스를 구성할 수 있습니다. 이러한 흐름은 영업 프로세스 단계를 통해 거래를 진행할 수 있도록 안내된 시각적 인터페이스를 제공합니다.
+## <a name="configure-the-sales-process"></a><span data-ttu-id="578ea-131">영업 프로세스 구성</span><span class="sxs-lookup"><span data-stu-id="578ea-131">Configure the sales process</span></span>
+<span data-ttu-id="578ea-132">비즈니스 프로세스 흐름을 사용하여 영업 프로세스를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-132">You can use business process flows to configure your sales process.</span></span> <span data-ttu-id="578ea-133">이러한 흐름은 영업 프로세스 단계를 통해 거래를 진행할 수 있도록 안내된 시각적 인터페이스를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-133">These flows provide a guided visual interface to move deals forward through the stages of the sales process.</span></span>
 
-예를 들어 회사의 영업 프로세스에 다음 6단계의 단계가 있을 수 있습니다.
+<span data-ttu-id="578ea-134">예를 들어 회사의 영업 프로세스에 다음 6단계의 단계가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-134">For example, your company might have the following six stages in the sales process:</span></span>
 
-1. 우량으로 선별
-2. 추정
-3. 내부 검토
-4. 계약
-5. 배송
-6. 종료
+1. <span data-ttu-id="578ea-135">우량으로 선별</span><span class="sxs-lookup"><span data-stu-id="578ea-135">Qualify</span></span>
+2. <span data-ttu-id="578ea-136">추정</span><span class="sxs-lookup"><span data-stu-id="578ea-136">Estimate</span></span>
+3. <span data-ttu-id="578ea-137">내부 검토</span><span class="sxs-lookup"><span data-stu-id="578ea-137">Internal review</span></span>
+4. <span data-ttu-id="578ea-138">계약</span><span class="sxs-lookup"><span data-stu-id="578ea-138">Contract</span></span>
+5. <span data-ttu-id="578ea-139">배송</span><span class="sxs-lookup"><span data-stu-id="578ea-139">Deliver</span></span>
+6. <span data-ttu-id="578ea-140">종료</span><span class="sxs-lookup"><span data-stu-id="578ea-140">Close</span></span>
  
-조직에서는 서로 다른 엔터티를 사용하여 발전하는 것과 동일한 거래를 나타낼 수 있습니다. 영업 프로세스 초기에 거래는 영업 기회 엔터티로 표시됩니다. 시간이 지남에 따라 자세한 내용이 나오면 상위 수준 견적을 사용하여 하나 이상의 견적을 만들 수 있습니다. 이러한 견적 중 하나가 내부 및 고객 이해 관계자에 의해 검토되는 경우 견적 엔터티는 거래를 나타냅니다. 고객이 견적을 수락하면 프로젝트 계약 또는 SOW가 거래를 나타냅니다. 이 동작을 지원하기 위해 BPF는 프로세스의 각 단계가 다른 데이터베이스 테이블에 연결되도록 구조화됩니다.
+<span data-ttu-id="578ea-141">조직에서는 서로 다른 엔터티를 사용하여 발전하는 것과 동일한 거래를 나타낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-141">Your organization might use different entities to represent the same deal as it evolves.</span></span> <span data-ttu-id="578ea-142">영업 프로세스 초기에 거래는 영업 기회 엔터티로 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-142">Early in the sales process, a deal is represented by the Opportunity entity.</span></span> <span data-ttu-id="578ea-143">시간이 지남에 따라 자세한 내용이 나오면 상위 수준 견적을 사용하여 하나 이상의 견적을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-143">As time passes and more details emerge, you might use high-level estimates to create one or more quotes.</span></span> <span data-ttu-id="578ea-144">이러한 견적 중 하나가 내부 및 고객 이해 관계자에 의해 검토되는 경우 견적 엔터티는 거래를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-144">If one of these quotes is reviewed by internal and customer stakeholders, the Quote entity represents the deal.</span></span> <span data-ttu-id="578ea-145">고객이 견적을 수락하면 프로젝트 계약 또는 SOW가 거래를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-145">After the customer accepts the quote, a project contract or SOW represents the deal.</span></span> <span data-ttu-id="578ea-146">이 동작을 지원하기 위해 BPF는 프로세스의 각 단계가 다른 데이터베이스 테이블에 연결되도록 구조화됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-146">To support this behavior, BPFs are structured so that each stage in the process is linked to a different database table.</span></span>
 
-영업 프로세스의 **우량으로 선별 스테이지**는 영업 기회 엔터티에 의해 뒷받침될 수 있습니다. **예상** 및 **내부 검토** 스테이지는 견적 엔터티에 의해 뒷받침될 수 있습니다. **계약**, **배달** 및 **닫기** 스테이지는 프로젝트 계약 엔터티에 의해 뒷받침될 수 있습니다.
+<span data-ttu-id="578ea-147">영업 프로세스의 **우량으로 선별 스테이지** 는 영업 기회 엔터티에 의해 뒷받침될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-147">The **Qualify** stage in the sales process can be backed by an Opportunity entity.</span></span> <span data-ttu-id="578ea-148">**예상** 및 **내부 검토** 스테이지는 견적 엔터티에 의해 뒷받침될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-148">The **Estimate** and **Internal Review** stages can be backed by a Quote entity.</span></span> <span data-ttu-id="578ea-149">**계약** , **배달** 및 **닫기** 스테이지는 프로젝트 계약 엔터티에 의해 뒷받침될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-149">The **Contract** , **Delivery** , and **Close** stages can be backed by a Project Contract entity.</span></span>
 
-스테이지를 통해 거래를 이동하면 프로세스를 안내하고 안내하는 적절한 엔터티 레코드를 만들라는 메시지가 표시됩니다. 스테이지는 조건부일 수 있습니다. 예를 들어 견적에서 사용자 지정 가격표를 사용하는 경우에만 견적에 대한 내부 검토가 필요한 경우 비즈니스 프로세스의 적절한 스테이지에서 해당 조건을 구성할 수 있습니다. 그러면 **내부 검토** 스테이지는 사용자 지정 가격표를 사용하는 견적에 대해서만 표시됩니다. 다른 모든 거래 및 견적의 경우, **예상** 스테이지가 **계약** 스테이지 다음에 옵니다.
+<span data-ttu-id="578ea-150">스테이지를 통해 거래를 이동하면 프로세스를 안내하고 안내하는 적절한 엔터티 레코드를 만들라는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-150">As you move deals through the stages, you're prompted to create the appropriate entity record to help and guide you through the process.</span></span> <span data-ttu-id="578ea-151">스테이지는 조건부일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-151">The stages can be conditional.</span></span> <span data-ttu-id="578ea-152">예를 들어 견적에서 사용자 지정 가격표를 사용하는 경우에만 견적에 대한 내부 검토가 필요한 경우 비즈니스 프로세스의 적절한 스테이지에서 해당 조건을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-152">For example, if you require an internal review of a quote only if the quote uses a custom price list, you can configure that condition in the appropriate stage of the business process.</span></span> <span data-ttu-id="578ea-153">그러면 **내부 검토** 스테이지는 사용자 지정 가격표를 사용하는 견적에 대해서만 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-153">The **Internal Review** stage is then shown only for quotes that use a custom price list.</span></span> <span data-ttu-id="578ea-154">다른 모든 거래 및 견적의 경우, **예상** 스테이지가 **계약** 스테이지 다음에 옵니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-154">For all other deals and quotes, the **Estimate** stage is followed by the **Contract** stage.</span></span>
 
 > [!NOTE]
-> Project Operations에는 영업 기회, 견적, 주문 및 송장 엔터티 레코드에 대한 특정 페이지가 있습니다. 이러한 엔터티에 대한 프로젝트 정보 페이지를 사용하여 이러한 레코드를 만들어야 합니다. 그렇지 않으면 **프로젝트 정보** 페이지에서 레코드를 열 수 없습니다. **프로젝트 정보** 페이지에서 에서 레코드를 열려면 레코드를 삭제하고 **프로젝트 정보** 페이지를 사용하여 다시 만들어야 합니다. 이러한 각 엔터티 유형에 대한 비즈니스 논리가 레코드의 **유형** 필드가 올바르게 설정되고 모든 필수 개념이 올바르게 초기화되었는지 확인합니다.
+> <span data-ttu-id="578ea-155">Project Operations에는 영업 기회, 견적, 주문 및 송장 엔터티 레코드에 대한 특정 페이지가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-155">Project Operations has specific pages for Opportunity, Quote, Order, and Invoice entity records.</span></span> <span data-ttu-id="578ea-156">이러한 엔터티에 대한 프로젝트 정보 페이지를 사용하여 이러한 레코드를 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-156">You must create these records using the project information pages for these entities.</span></span> <span data-ttu-id="578ea-157">그렇지 않으면 **프로젝트 정보** 페이지에서 레코드를 열 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-157">Otherwise, you won't be able to open the records from the **Project information** page.</span></span> <span data-ttu-id="578ea-158">**프로젝트 정보** 페이지에서 에서 레코드를 열려면 레코드를 삭제하고 **프로젝트 정보** 페이지를 사용하여 다시 만들어야 합니다. 이러한 각 엔터티 유형에 대한 비즈니스 논리가 레코드의 **유형** 필드가 올바르게 설정되고 모든 필수 개념이 올바르게 초기화되었는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-158">If you want to open a record from the **Project information** page, you must delete the record and recreate it using the **Project information** page where the business logic for each of these entity types ensures that the **Type** field of the record is set correctly, and all of the mandatory concepts are properly initialized.</span></span>
 
 
-## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>영업 주기에서 견적 및 프로젝트 계획에 대한 수정 정보 추적
-Project Operations에서는 견적에 대한 수정을 추적할 수 없습니다. 대신 기존 견적을 **실패로 종료**로 표시한 다음 새 견적을 만들어야 합니다. 견적을 복사하거나 프로젝트 기반 견적을 복제할 수 있습니다.
+## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a><span data-ttu-id="578ea-159">영업 주기에서 견적 및 프로젝트 계획에 대한 수정 정보 추적</span><span class="sxs-lookup"><span data-stu-id="578ea-159">Track revisions to quotes and project plans in the sales cycle</span></span>
+<span data-ttu-id="578ea-160">Project Operations에서는 견적에 대한 수정을 추적할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-160">In Project Operations, you can't track revisions that are made to a quote.</span></span> <span data-ttu-id="578ea-161">대신 기존 견적을 **실패로 종료** 로 표시한 다음 새 견적을 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-161">Instead, you must mark the existing quote **Closed as Lost** and then create a new quote.</span></span> <span data-ttu-id="578ea-162">견적을 복사하거나 프로젝트 기반 견적을 복제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-162">You can copy a quote or clone a project-based quote.</span></span>
 
-## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>견적 및 프로젝트 계약의 주석 및 승인 추적
-레코드 담벼락과 게시물을 사용하여 견적 및 프로젝트 계약의 검토 및 승인을 관리할 수 있습니다. 조직에서 사용자 지정 워크플로 및 플러그인을 만들어 검토 및 승인 작업 항목의 알림을 할당, 리디렉션, 에스컬레이션 및 관리할 수 있습니다.
+## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a><span data-ttu-id="578ea-163">견적 및 프로젝트 계약의 주석 및 승인 추적</span><span class="sxs-lookup"><span data-stu-id="578ea-163">Track comments and approvals of quotes and project contracts</span></span>
+<span data-ttu-id="578ea-164">레코드 담벼락과 게시물을 사용하여 견적 및 프로젝트 계약의 검토 및 승인을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-164">You can manage the review and approval of quotes and project contracts by using the record wall and posts.</span></span> <span data-ttu-id="578ea-165">조직에서 사용자 지정 워크플로 및 플러그인을 만들어 검토 및 승인 작업 항목의 알림을 할당, 리디렉션, 에스컬레이션 및 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="578ea-165">Your organization can create custom workflows and plug-ins to assign, redirect, escalate, and manage notifications of review and the approval of work items.</span></span>

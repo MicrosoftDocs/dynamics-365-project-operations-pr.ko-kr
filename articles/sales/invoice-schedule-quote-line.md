@@ -8,63 +8,63 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079985"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>프로젝트 기반 견적 라인의 송장 일정
+# <a name="invoice-schedules-on-project-based-quote-lines"></a><span data-ttu-id="56f80-103">프로젝트 기반 견적 라인의 송장 일정</span><span class="sxs-lookup"><span data-stu-id="56f80-103">Invoice schedules on project-based quote lines</span></span>
 
-_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+<span data-ttu-id="56f80-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="56f80-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-프로젝트 기반 견적 라인은 송장 일정을 표현하는 기능을 제공합니다. 견적 라인에 연결되어 있을 때 애플리케이션이 프로젝트 송장 발행을 지원하지 않기 때문에 견적 단계에서 선택 사항입니다. 송장 발행은 견적을 받은 후에만 허용됩니다. 견적 단계 중에 송장 일정을 생성할 때의 유일한 다운스트림 영향은 이 송장 일정이 프로젝트 기반 계약 라인에 복사된다는 것입니다. 견적 단계에서 송장 일정을 생성하지 않으면 프로젝트 기반 계약 라인에서 생성할 수 있습니다.
+<span data-ttu-id="56f80-105">프로젝트 기반 견적 라인은 송장 일정을 표현하는 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-105">A project-based quote line gives the ability to express an invoice schedule.</span></span> <span data-ttu-id="56f80-106">견적 라인에 연결되어 있을 때 애플리케이션이 프로젝트 송장 발행을 지원하지 않기 때문에 견적 단계에서 선택 사항입니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-106">This is optional during the quote phase because the application does not support invoicing a project when it is tied to a Quote line.</span></span> <span data-ttu-id="56f80-107">송장 발행은 견적을 받은 후에만 허용됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-107">Invoicing is only allowed after the quote is won.</span></span> <span data-ttu-id="56f80-108">견적 단계 중에 송장 일정을 생성할 때의 유일한 다운스트림 영향은 이 송장 일정이 프로젝트 기반 계약 라인에 복사된다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-108">The only downstream impact of creating an invoice schedule during the quote phase, is that this invoice schedule is copied over to the project-based contract line.</span></span> <span data-ttu-id="56f80-109">견적 단계에서 송장 일정을 생성하지 않으면 프로젝트 기반 계약 라인에서 생성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-109">If you do not create an invoice schedule during the quote phase, you will be able to do so on the project-based contract line.</span></span>
 
-전반적으로 송장 일정의 목적은 프로젝트 기반 계약 라인에 대한 송장 초안을 자동으로 생성할 수 있도록 하는 것입니다. 
+<span data-ttu-id="56f80-110">전반적으로 송장 일정의 목적은 프로젝트 기반 계약 라인에 대한 송장 초안을 자동으로 생성할 수 있도록 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-110">Overall, the purpose of invoice schedules is to allow for the automatic creation of draft invoices for a project-based contract line.</span></span> 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>프로젝트 기반 견적 라인에 대한 시간 및 자재 송장 일정 생성
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a><span data-ttu-id="56f80-111">프로젝트 기반 견적 라인에 대한 시간 및 자재 송장 일정 생성</span><span class="sxs-lookup"><span data-stu-id="56f80-111">Create a Time and material invoice schedule for a project-based quote line</span></span>
 
-프로젝트 기반 견적 라인에 대한 청구 방법이 시간 및 자재인 경우 시스템은 날짜 기반 송장 일정을 생성합니다. 날짜 기반 송장 일정을 자동으로 생성하려면 다음 단계를 완료하십시오.
+<span data-ttu-id="56f80-112">프로젝트 기반 견적 라인에 대한 청구 방법이 시간 및 자재인 경우 시스템은 날짜 기반 송장 일정을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-112">When the billing method for a project-based quote line is Time and material, the system generates a date-based invoice schedule.</span></span> <span data-ttu-id="56f80-113">날짜 기반 송장 일정을 자동으로 생성하려면 다음 단계를 완료하십시오.</span><span class="sxs-lookup"><span data-stu-id="56f80-113">To automatically generate a date-based invoice schedule, complete the following steps.</span></span>
 
-1. **설정** > **송장 빈도**로 이동하고 송장 빈도를 설정합니다.
-2. **견적** 페이지에서 프로젝트 견적을 열고 **요약** 탭에서 요청된 배송 날짜를 설정합니다.
-3. 날짜 기반 송장 일정을 생성하는 데 필요한 시간 및 자재 견적 라인을 엽니다. 
-4. **송장 일정** 탭에서 **결제 시작** 및 **송장 빈도** 필드에서 값을 선택합니다. 
-5. 하위 표에서 **송장 일정 생성**을 선택합니다.
-6. 애플리케이션은 다음과 같은 방식으로 설정되는 **송장 실행 날짜**,**트랜잭션 마감일** 및 **실행 상태** 필드를 사용하여 송장 일정을 생성합니다.
+1. <span data-ttu-id="56f80-114">**설정** > **송장 빈도** 로 이동하고 송장 빈도를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-114">Go to **Settings** > **invoice frequencies** and set up an invoice frequency.</span></span>
+2. <span data-ttu-id="56f80-115">**견적** 페이지에서 프로젝트 견적을 열고 **요약** 탭에서 요청된 배송 날짜를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-115">On the **Quotes** page, open the Project quote and on the **Summary** tab, set a requested delivery date.</span></span>
+3. <span data-ttu-id="56f80-116">날짜 기반 송장 일정을 생성하는 데 필요한 시간 및 자재 견적 라인을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-116">Open the time and material quote line that you need to create a date-based invoice schedule for.</span></span> 
+4. <span data-ttu-id="56f80-117">**송장 일정** 탭에서 **결제 시작** 및 **송장 빈도** 필드에서 값을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-117">On the **Invoice Schedule** tab, select values in the **Billing start** and **Invoice Frequency** fields.</span></span> 
+5. <span data-ttu-id="56f80-118">하위 표에서 **송장 일정 생성** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-118">On the sub-grid, select **Generate Invoice Schedule**.</span></span>
+6. <span data-ttu-id="56f80-119">애플리케이션은 다음과 같은 방식으로 설정되는 **송장 실행 날짜** , **트랜잭션 마감일** 및 **실행 상태** 필드를 사용하여 송장 일정을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-119">The application generates the invoice schedule with the **Invoice Run Date** , **Transaction Cutoff Date** , and **Run Status** fields set in the following way:</span></span>
 
-    - **송장 실행 날짜**는 송장 빈도에 따라 지정된 날짜로 설정됩니다.
-    - **트랜잭션 마감일**은 **송장 실행 날짜**의 전날로 설정됩니다.
-    - **실행 상태**는 **실행되지 않음**으로 자동 설정됩니다. 자동 송장 생성 작업이 특정 송장 실행 날짜에 실행되면 이 필드를 **성공적으로 실행** 또는 **실행 실패** 중 하나로 업데이트합니다.
+    - <span data-ttu-id="56f80-120">**송장 실행 날짜** 는 송장 빈도에 따라 지정된 날짜로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-120">**Invoice Run Date** is set to the date that is dictated based on the invoice frequency.</span></span>
+    - <span data-ttu-id="56f80-121">**트랜잭션 마감일** 은 **송장 실행 날짜** 의 전날로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-121">**Transaction cut-off date** is set to the day before the **Invoice Run Date**.</span></span>
+    - <span data-ttu-id="56f80-122">**실행 상태** 는 **실행되지 않음** 으로 자동 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-122">**Run Status** is automatically set to **Not Run**.</span></span> <span data-ttu-id="56f80-123">자동 송장 생성 작업이 특정 송장 실행 날짜에 실행되면 이 필드를 **성공적으로 실행** 또는 **실행 실패** 중 하나로 업데이트합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-123">When the automatic invoice creation job runs for a certain invoice run date, it will update this field to either **Run Successful** or **Run Failed**.</span></span>
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>프로젝트 기반 견적 라인에 대한 고정 가격 송장 일정 생성
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a><span data-ttu-id="56f80-124">프로젝트 기반 견적 라인에 대한 고정 가격 송장 일정 생성</span><span class="sxs-lookup"><span data-stu-id="56f80-124">Create a Fixed price invoice schedule for a project-based quote line</span></span>
 
-프로젝트 기반 견적 라인에 **고정** 결제 방법이 있으면 시스템은 중요 시점 기반 송장 일정을 생성합니다. 달력 기간 동안 균등하게 분배되는 고정 중요 시점의 고정 집합에 대해 이 일정을 자동으로 생성하려면 다음 단계를 완료하십시오.
+<span data-ttu-id="56f80-125">프로젝트 기반 견적 라인에 **고정** 결제 방법이 있으면 시스템은 중요 시점 기반 송장 일정을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-125">When the project-based quote line has a **Fixed** billing method, the system creates a milestone-based invoice schedule.</span></span> <span data-ttu-id="56f80-126">달력 기간 동안 균등하게 분배되는 고정 중요 시점의 고정 집합에 대해 이 일정을 자동으로 생성하려면 다음 단계를 완료하십시오.</span><span class="sxs-lookup"><span data-stu-id="56f80-126">Complete the following steps to automatically generate this schedule for a fixed set of milestones that are equally distributed for the calendar period.</span></span>
 
-1. **설정** > **송장 빈도**로 이동하고 송장 빈도를 설정합니다.
-2. **견적** 페이지에서 프로젝트 견적을 열고 **요약** 탭에서 요청된 배송 날짜를 설정합니다.
-3. 중요 시점 일정을 생성해야 하는 고정 가격 견적 라인을 엽니다. 
-4. **송장 일정** 탭에서 **결제 시작** 및 **송장 빈도** 필드에서 값을 선택합니다. 
-5. 하위 표에서 **주기적인 중요 시점 생성**을 선택합니다.
-6. 애플리케이션은 중요 시점 이름, 날짜 및 금액으로 송장 일정을 생성합니다.
+1. <span data-ttu-id="56f80-127">**설정** > **송장 빈도** 로 이동하고 송장 빈도를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-127">Go to **Settings** > **invoice frequencies** and set up an invoice frequency.</span></span>
+2. <span data-ttu-id="56f80-128">**견적** 페이지에서 프로젝트 견적을 열고 **요약** 탭에서 요청된 배송 날짜를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-128">On the **Quotes** page, open the Project quote and on the **Summary** tab, set a requested delivery date.</span></span>
+3. <span data-ttu-id="56f80-129">중요 시점 일정을 생성해야 하는 고정 가격 견적 라인을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-129">Open the fixed price quote line that you need to create a milestone schedule for.</span></span> 
+4. <span data-ttu-id="56f80-130">**송장 일정** 탭에서 **결제 시작** 및 **송장 빈도** 필드에서 값을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-130">On the **Invoice Schedule** tab, select values in the **Billing start** and **Invoice Frequency** fields.</span></span> 
+5. <span data-ttu-id="56f80-131">하위 표에서 **주기적인 중요 시점 생성** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-131">On the sub-grid, select **Generate Periodic Milestones**.</span></span>
+6. <span data-ttu-id="56f80-132">애플리케이션은 중요 시점 이름, 날짜 및 금액으로 송장 일정을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-132">The application generates the invoice schedule with a milestone name, date, and amount.</span></span>
 
-    - 중요 시점 이름은 송장 빈도에 따라 지정된 날짜로 설정됩니다.
-    - 중요 시점 날짜는 송장 빈도에 따라 지정된 날짜로 설정됩니다.
-    - 중요 시점 금액은 프로젝트 기반 견적 라인의 견적 금액을 빈도 및 청구 시작 및 요청된 배송 날짜로 지정된 중요 시점 수로 나누어 계산됩니다.
-    - 견적 라인에도 예상 세액이 있는 경우 이 값은 주기적인 중요 시점을 생성할 때 각 중요 시점 간에 동일하게 분할됩니다.
+    - <span data-ttu-id="56f80-133">중요 시점 이름은 송장 빈도에 따라 지정된 날짜로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-133">The milestone name is set to the date that is dictated based on the invoice frequency.</span></span>
+    - <span data-ttu-id="56f80-134">중요 시점 날짜는 송장 빈도에 따라 지정된 날짜로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-134">The milestone date is set to the date that is dictated based on the invoice frequency.</span></span>
+    - <span data-ttu-id="56f80-135">중요 시점 금액은 프로젝트 기반 견적 라인의 견적 금액을 빈도 및 청구 시작 및 요청된 배송 날짜로 지정된 중요 시점 수로 나누어 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-135">The milestone amount is computed by dividing the quote amount on the project-based quote line by the number of milestones as dictated by the frequency and billing start and requested delivery dates.</span></span>
+    - <span data-ttu-id="56f80-136">견적 라인에도 예상 세액이 있는 경우 이 값은 주기적인 중요 시점을 생성할 때 각 중요 시점 간에 동일하게 분할됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-136">If the Quote line also has as estimated tax amount, this value is split between each milestone equally when generating periodic milestones.</span></span>
 
-### <a name="manually-create-milestones"></a>수동으로 중요 시점 생성
+### <a name="manually-create-milestones"></a><span data-ttu-id="56f80-137">수동으로 중요 시점 생성</span><span class="sxs-lookup"><span data-stu-id="56f80-137">Manually create milestones</span></span>
 
-고정 가격 중요 시점은 주기적으로 분할되지 않는 경우 수동으로 생성할 수도 있습니다. 수동으로 중요 시점을 생성하려면:
+<span data-ttu-id="56f80-138">고정 가격 중요 시점은 주기적으로 분할되지 않는 경우 수동으로 생성할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-138">Fixed price milestones can also be generated manually when they are not periodically split.</span></span> <span data-ttu-id="56f80-139">수동으로 중요 시점을 생성하려면:</span><span class="sxs-lookup"><span data-stu-id="56f80-139">To create a milestone manually:</span></span>
 
-중요 시점을 생성해야 하는 고정 가격 견적 라인을 엽니다. **송장 일정** 탭의 하위 표에서 **+ 새로운 견적 라인 중요 시점 생성**을 선택하고 다음 표에 따라 필요한 정보를 입력합니다.
+<span data-ttu-id="56f80-140">중요 시점을 생성해야 하는 고정 가격 견적 라인을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-140">Open the Fixed price quote line where you need to create a milestone.</span></span> <span data-ttu-id="56f80-141">**송장 일정** 탭의 하위 표에서 **+ 새로운 견적 라인 중요 시점 생성** 을 선택하고 다음 표에 따라 필요한 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-141">On the **Invoice Schedule** tab, on the sub-grid, select **+ Create new quote line milestone** and enter the required information based on the following table.</span></span>
 
-| **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
+| <span data-ttu-id="56f80-142">**필드**</span><span class="sxs-lookup"><span data-stu-id="56f80-142">**Field**</span></span> | <span data-ttu-id="56f80-143">**위치**</span><span class="sxs-lookup"><span data-stu-id="56f80-143">**Location**</span></span> | <span data-ttu-id="56f80-144">**관련성, 목적 및 지침**</span><span class="sxs-lookup"><span data-stu-id="56f80-144">**Relevance, purpose, and guidance**</span></span> | <span data-ttu-id="56f80-145">**다운스트림 영향**</span><span class="sxs-lookup"><span data-stu-id="56f80-145">**Downstream impact**</span></span> |
 | --- | --- | --- | --- |
-| 중요 시점 이름 | 빨리 만들기 | 중요 시점의 이름입니다. | 이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다. |
-| 프로젝트 작업 | 빨리 만들기 | 중요 시점이 프로젝트 작업에 연결되어 있는 경우 이 참조를 사용하여 작업 상태에 따라 중요 시점 상태를 설정하는 사용자 지정 논리를 추가할 수 있습니다. | 애플리케이션은 작업에 대한 이 참조의 다운스트림 영향을 미치지 않습니다. |
-| 중요 시점 날짜 | 빨리 만들기 | 자동 송장 생성 프로세스가 이 중요 시점의 상태를 송장 발행을 위해 고려해야 하는 날짜를 설정합니다. | 이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다. |
-| 송장 상태 | 빨리 만들기 | 중요 시점이 생성되면 이 상태는 항상 **송장 발행 준비 안 됨**으로 설정됩니다. | 이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다. |
-| 라인 금액 | 빨리 만들기 | 고객에게 청구될 중요 시점의 금액 또는 값입니다. | 이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다. |
-| 세금 | 빨리 만들기 | 중요 시점에 적용될 세액입니다. | 이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다. |
+| <span data-ttu-id="56f80-146">중요 시점 이름</span><span class="sxs-lookup"><span data-stu-id="56f80-146">Milestone name</span></span> | <span data-ttu-id="56f80-147">빨리 만들기</span><span class="sxs-lookup"><span data-stu-id="56f80-147">Quick create</span></span> | <span data-ttu-id="56f80-148">중요 시점의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-148">The name of the milestone.</span></span> | <span data-ttu-id="56f80-149">이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-149">This is propagated to the project contract line milestone and to the invoice</span></span> |
+| <span data-ttu-id="56f80-150">프로젝트 작업</span><span class="sxs-lookup"><span data-stu-id="56f80-150">Project Task</span></span> | <span data-ttu-id="56f80-151">빨리 만들기</span><span class="sxs-lookup"><span data-stu-id="56f80-151">Quick create</span></span> | <span data-ttu-id="56f80-152">중요 시점이 프로젝트 작업에 연결되어 있는 경우 이 참조를 사용하여 작업 상태에 따라 중요 시점 상태를 설정하는 사용자 지정 논리를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-152">If the milestone is tied to project task, you can use this reference to add custom logic set the milestone status based on the task status.</span></span> | <span data-ttu-id="56f80-153">애플리케이션은 작업에 대한 이 참조의 다운스트림 영향을 미치지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-153">The application, does not have any downstream impact of this reference to a task.</span></span> |
+| <span data-ttu-id="56f80-154">중요 시점 날짜</span><span class="sxs-lookup"><span data-stu-id="56f80-154">Milestone date</span></span> | <span data-ttu-id="56f80-155">빨리 만들기</span><span class="sxs-lookup"><span data-stu-id="56f80-155">Quick create</span></span> | <span data-ttu-id="56f80-156">자동 송장 생성 프로세스가 이 중요 시점의 상태를 송장 발행을 위해 고려해야 하는 날짜를 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-156">Set the date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing.</span></span> | <span data-ttu-id="56f80-157">이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-157">This is propagated to the project contract line milestone and to the invoice.</span></span> |
+| <span data-ttu-id="56f80-158">송장 상태</span><span class="sxs-lookup"><span data-stu-id="56f80-158">Invoice status</span></span> | <span data-ttu-id="56f80-159">빨리 만들기</span><span class="sxs-lookup"><span data-stu-id="56f80-159">Quick create</span></span> | <span data-ttu-id="56f80-160">중요 시점이 생성되면 이 상태는 항상 **송장 발행 준비 안 됨** 으로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-160">When a milestone is created, this status is always set to **Not ready for invoicing**.</span></span> | <span data-ttu-id="56f80-161">이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-161">This is propagated to the project contract line milestone and to the invoice.</span></span> |
+| <span data-ttu-id="56f80-162">라인 금액</span><span class="sxs-lookup"><span data-stu-id="56f80-162">Line Amount</span></span> | <span data-ttu-id="56f80-163">빨리 만들기</span><span class="sxs-lookup"><span data-stu-id="56f80-163">Quick create</span></span> | <span data-ttu-id="56f80-164">고객에게 청구될 중요 시점의 금액 또는 값입니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-164">Amount or value of the milestone that will be invoiced to the customer.</span></span> | <span data-ttu-id="56f80-165">이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-165">This is propagated to the project contract line milestone and to the invoice.</span></span> |
+| <span data-ttu-id="56f80-166">세금</span><span class="sxs-lookup"><span data-stu-id="56f80-166">Tax</span></span> | <span data-ttu-id="56f80-167">빨리 만들기</span><span class="sxs-lookup"><span data-stu-id="56f80-167">Quick create</span></span> | <span data-ttu-id="56f80-168">중요 시점에 적용될 세액입니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-168">Tax amount that will be applied to the milestone.</span></span> | <span data-ttu-id="56f80-169">이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다.</span><span class="sxs-lookup"><span data-stu-id="56f80-169">This is propagated to the project contract line milestone and to the invoice.</span></span> |

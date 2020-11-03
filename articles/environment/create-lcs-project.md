@@ -9,30 +9,30 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: f42a5e4dbb9e82d8e635d1fbfb17c49c73f25d60
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079909"
 ---
-# <a name="start-a-new-project-in-lcs"></a>LCS에서 새 프로젝트 시작
+# <a name="start-a-new-project-in-lcs"></a><span data-ttu-id="802cd-103">LCS에서 새 프로젝트 시작</span><span class="sxs-lookup"><span data-stu-id="802cd-103">Start a new project in LCS</span></span>
 
-_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
+<span data-ttu-id="802cd-104">_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="802cd-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Lifecycle Services(LCS)를 사용하여 Dynamics 365 Project Operations 환경을 관리합니다. 새 LCS 프로젝트를 생성하려면 다음 단계를 완료하십시오.
+<span data-ttu-id="802cd-105">Lifecycle Services(LCS)를 사용하여 Dynamics 365 Project Operations 환경을 관리합니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-105">Use Lifecycle Services (LCS) to manage you Dynamics 365 Project Operations environments.</span></span> <span data-ttu-id="802cd-106">새 LCS 프로젝트를 생성하려면 다음 단계를 완료하십시오.</span><span class="sxs-lookup"><span data-stu-id="802cd-106">Complete the following steps to create a new LCS project.</span></span>
 
-1. [LCS](https://lcs.dynamics.com/Logon/Index)로 이동하고 구독에 사용한 계정을 사용하여 **로그인**을 선택합니다.
-2. 메시지가 표시되면 법률 및 개인 정보 보호 약관에 동의합니다.
-3. 더하기 기호(**+**)를 선택하여 새 프로젝트를 만듭니다.
-4. 미리 보기를 위해 **마이그레이션, 솔루션 생성 및 학습** 프로젝트 유형을 선택합니다.
+1. <span data-ttu-id="802cd-107">[LCS](https://lcs.dynamics.com/Logon/Index)로 이동하고 구독에 사용한 계정을 사용하여 **로그인** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-107">Go to [LCS](https://lcs.dynamics.com/Logon/Index) and select **Sign in** using the account that you used to subscribe.</span></span>
+2. <span data-ttu-id="802cd-108">메시지가 표시되면 법률 및 개인 정보 보호 약관에 동의합니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-108">If prompted, accept the legal and privacy terms.</span></span>
+3. <span data-ttu-id="802cd-109">더하기 기호( **+** )를 선택하여 새 프로젝트를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-109">Select the plus sign ( **+** ) to create a new project.</span></span>
+4. <span data-ttu-id="802cd-110">미리 보기를 위해 **마이그레이션, 솔루션 생성 및 학습** 프로젝트 유형을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-110">For preview purposes, select **Migrate, create solutions, and learn** project type.</span></span>
 
   ![LCS 프로젝트 유형 선택](./media/create-lcs-1.png)
 
-5. 프로젝트의 이름을 지정합니다. 
-6. **Finance and Operations**를 제품 이름으로 선택하고 산업 및 방법론을 선택합니다. 
-7. **만들기**를 선택합니다.
+5. <span data-ttu-id="802cd-112">프로젝트의 이름을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-112">Name the project.</span></span> 
+6. <span data-ttu-id="802cd-113">**Finance and Operations** 를 제품 이름으로 선택하고 산업 및 방법론을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-113">Select **Finance and Operations** as the product name, and select the industry and methodology.</span></span> 
+7. <span data-ttu-id="802cd-114">**만들기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-114">Select **Create**.</span></span>
 
 ![LCS 프로젝트 만들기](./media/create-lcs-2.png)
 
-이 LCS 프로젝트를 사용하여 Project Operations 환경을 배포합니다.
+<span data-ttu-id="802cd-116">이 LCS 프로젝트를 사용하여 Project Operations 환경을 배포합니다.</span><span class="sxs-lookup"><span data-stu-id="802cd-116">Use this LCS project to deploy your Project Operations environment.</span></span>
 

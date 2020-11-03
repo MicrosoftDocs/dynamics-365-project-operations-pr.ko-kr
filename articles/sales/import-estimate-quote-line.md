@@ -3,67 +3,67 @@ title: 프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 
 description: 이 항목에서는 프로젝트에서 견적 라인으로 추정을 가져오는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908337"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079968"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="99f52-103">프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기</span><span class="sxs-lookup"><span data-stu-id="99f52-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+<span data-ttu-id="99f52-104">_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="99f52-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-사전 영업 스테이지에서 프로젝트가 생성된 경우 프로젝트에서 프로젝트 기반 견적 라인으로 재무 추정을 가져오도록 선택할 수 있습니다.
+<span data-ttu-id="99f52-105">사전 영업 스테이지에서 프로젝트가 생성된 경우 프로젝트에서 프로젝트 기반 견적 라인으로 재무 추정을 가져오도록 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. 프로젝트 기반 견적 라인의 **프로젝트** 필드에 프로젝트 정보가 있는지 확인하십시오.
-2. **견적 라인 세부 정보** 탭에서 **프로젝트 추정에서 가져오기**를 선택합니다.
-3. 대화 상자 페이지가 열리면 다음 요약 옵션 중 하나를 선택하십시오.
+1. <span data-ttu-id="99f52-106">프로젝트 기반 견적 라인의 **프로젝트** 필드에 프로젝트 정보가 있는지 확인하십시오.</span><span class="sxs-lookup"><span data-stu-id="99f52-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="99f52-107">**견적 라인 세부 정보** 탭에서 **프로젝트 추정에서 가져오기** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="99f52-108">대화 상자 페이지가 열리면 다음 요약 옵션 중 하나를 선택하십시오.</span><span class="sxs-lookup"><span data-stu-id="99f52-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **거래 등급**
-  - **범주**
-  - **역할** 
-  - **프로젝트 작업**
+  - <span data-ttu-id="99f52-109">**거래 등급**</span><span class="sxs-lookup"><span data-stu-id="99f52-109">**Transaction class**</span></span>
+  - <span data-ttu-id="99f52-110">**범주**</span><span class="sxs-lookup"><span data-stu-id="99f52-110">**Category**</span></span>
+  - <span data-ttu-id="99f52-111">**역할**</span><span class="sxs-lookup"><span data-stu-id="99f52-111">**Role**</span></span> 
+  - <span data-ttu-id="99f52-112">**프로젝트 작업**</span><span class="sxs-lookup"><span data-stu-id="99f52-112">**Project task**</span></span>
 
-선택 사항에 따라 이 견적 라인에 포함된 모든 거래 분류에 대한 프로젝트의 추정이 복사됩니다. 포함된 트랜잭션 클래스를 확인하려면 프로젝트 기반 견적 라인에서 **일반** 탭을 클릭하고 **시간 포함**, **경비 포함** 및 **요금 포함**에 대한 값을 확인합니다.
+<span data-ttu-id="99f52-113">선택 사항에 따라 이 견적 라인에 포함된 모든 거래 분류에 대한 프로젝트의 추정이 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="99f52-114">포함된 트랜잭션 클래스를 확인하려면 프로젝트 기반 견적 라인에서 **일반** 탭을 클릭하고 **시간 포함** , **경비 포함** 및 **요금 포함** 에 대한 값을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-추정을 가져올 때 시스템은 견적에 첨부 된 프로젝트 가격표와 프로젝트 기반 견적 라인에 설정된 청구 유형을 기반으로 가격을 기본값으로 설정합니다. 역할 또는 범주가 프로젝트 기반 견적 라인에 청구 불가능으로 설정된 경우 가져온 추정 라인은 청구 불가능으로 설정되고 견적 라인의 견적된 값에 합산되지 않습니다.
+<span data-ttu-id="99f52-115">추정을 가져올 때 시스템은 견적에 첨부 된 프로젝트 가격표와 프로젝트 기반 견적 라인에 설정된 청구 유형을 기반으로 가격을 기본값으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="99f52-116">역할 또는 범주가 프로젝트 기반 견적 라인에 청구 불가능으로 설정된 경우 가져온 추정 라인은 청구 불가능으로 설정되고 견적 라인의 견적된 값에 합산되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-견적 라인에 라인 세부 정보가 있는 경우 견적 라인의 **견적 값** 및 **예상 세금** 필드는 요약되며 편집할 수 없습니다.
+<span data-ttu-id="99f52-117">견적 라인에 라인 세부 정보가 있는 경우 견적 라인의 **견적 값** 및 **예상 세금** 필드는 요약되며 편집할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-여러 요약 옵션을 선택한 경우 요약은 선택한 모든 옵션별로 요약을 시도합니다. 이는 가져온 견적 라인의 출력이 요약 옵션을 하나만 선택한 경우보다 더 많음을 의미합니다.
+<span data-ttu-id="99f52-118">여러 요약 옵션을 선택한 경우 시스템은 선택한 모든 옵션별로 요약을 시도합니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="99f52-119">결과적으로 가져온 견적 라인의 출력이 요약 옵션을 하나만 선택한 경우보다 더 많음을 의미합니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-예를 들어, 프로젝트에 다음과 같은 경비 추정 라인이 있는 경우입니다.
+<span data-ttu-id="99f52-120">예를 들어, 프로젝트에 다음과 같은 경비 추정 라인이 있는 경우입니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| 작업 | 카테고리 | Date | 수량 | 단가 | 수량 |
+| <span data-ttu-id="99f52-121">작업</span><span class="sxs-lookup"><span data-stu-id="99f52-121">Task</span></span> | <span data-ttu-id="99f52-122">카테고리</span><span class="sxs-lookup"><span data-stu-id="99f52-122">Category</span></span> | <span data-ttu-id="99f52-123">Date</span><span class="sxs-lookup"><span data-stu-id="99f52-123">Date</span></span> | <span data-ttu-id="99f52-124">수량</span><span class="sxs-lookup"><span data-stu-id="99f52-124">Quantity</span></span> | <span data-ttu-id="99f52-125">단가</span><span class="sxs-lookup"><span data-stu-id="99f52-125">Unit price</span></span> | <span data-ttu-id="99f52-126">수량</span><span class="sxs-lookup"><span data-stu-id="99f52-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| 작업 A | 항공료 | 2020년 10월 1일 | 4 | 400 | 1600 |
-| 작업 B | 호텔 | 2020년 10월 1일 | 4 | 200 | 800 |
-| 작업 C | 호텔 | 2020년 11월 1일 | 2 | 200 | 400 |
+| <span data-ttu-id="99f52-127">작업 A</span><span class="sxs-lookup"><span data-stu-id="99f52-127">Task A</span></span> | <span data-ttu-id="99f52-128">항공료</span><span class="sxs-lookup"><span data-stu-id="99f52-128">Airfare</span></span> | <span data-ttu-id="99f52-129">2020년 10월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-129">10/1/2020</span></span> | <span data-ttu-id="99f52-130">4</span><span class="sxs-lookup"><span data-stu-id="99f52-130">4</span></span> | <span data-ttu-id="99f52-131">400</span><span class="sxs-lookup"><span data-stu-id="99f52-131">400</span></span> | <span data-ttu-id="99f52-132">1600</span><span class="sxs-lookup"><span data-stu-id="99f52-132">1600</span></span> |
+| <span data-ttu-id="99f52-133">작업 B</span><span class="sxs-lookup"><span data-stu-id="99f52-133">Task B</span></span> | <span data-ttu-id="99f52-134">호텔</span><span class="sxs-lookup"><span data-stu-id="99f52-134">Hotel</span></span> | <span data-ttu-id="99f52-135">2020년 10월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-135">10/1/2020</span></span> | <span data-ttu-id="99f52-136">4</span><span class="sxs-lookup"><span data-stu-id="99f52-136">4</span></span> | <span data-ttu-id="99f52-137">200</span><span class="sxs-lookup"><span data-stu-id="99f52-137">200</span></span> | <span data-ttu-id="99f52-138">800</span><span class="sxs-lookup"><span data-stu-id="99f52-138">800</span></span> |
+| <span data-ttu-id="99f52-139">작업 C</span><span class="sxs-lookup"><span data-stu-id="99f52-139">Task C</span></span> | <span data-ttu-id="99f52-140">호텔</span><span class="sxs-lookup"><span data-stu-id="99f52-140">Hotel</span></span> | <span data-ttu-id="99f52-141">2020년 11월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-141">11/1/2020</span></span> | <span data-ttu-id="99f52-142">2</span><span class="sxs-lookup"><span data-stu-id="99f52-142">2</span></span> | <span data-ttu-id="99f52-143">200</span><span class="sxs-lookup"><span data-stu-id="99f52-143">200</span></span> | <span data-ttu-id="99f52-144">400</span><span class="sxs-lookup"><span data-stu-id="99f52-144">400</span></span> |
 
-사용자가 트랜잭션 클래스별로 요약하도록 선택하면 다음 정보를 가져옵니다.
+<span data-ttu-id="99f52-145">사용자가 트랜잭션 클래스별로 요약하도록 선택하면 다음 정보를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| 작업 | 카테고리 | Date | 수량 | 단가 | 수량 |
+| <span data-ttu-id="99f52-146">작업</span><span class="sxs-lookup"><span data-stu-id="99f52-146">Task</span></span> | <span data-ttu-id="99f52-147">카테고리</span><span class="sxs-lookup"><span data-stu-id="99f52-147">Category</span></span> | <span data-ttu-id="99f52-148">Date</span><span class="sxs-lookup"><span data-stu-id="99f52-148">Date</span></span> | <span data-ttu-id="99f52-149">수량</span><span class="sxs-lookup"><span data-stu-id="99f52-149">Quantity</span></span> | <span data-ttu-id="99f52-150">단가</span><span class="sxs-lookup"><span data-stu-id="99f52-150">Unit price</span></span> | <span data-ttu-id="99f52-151">수량</span><span class="sxs-lookup"><span data-stu-id="99f52-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 2020년 10월 1일 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="99f52-152">2020년 10월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-152">10/1/2020</span></span> | <span data-ttu-id="99f52-153">3.34</span><span class="sxs-lookup"><span data-stu-id="99f52-153">3.34</span></span> | <span data-ttu-id="99f52-154">840</span><span class="sxs-lookup"><span data-stu-id="99f52-154">840</span></span> | <span data-ttu-id="99f52-155">2800</span><span class="sxs-lookup"><span data-stu-id="99f52-155">2800</span></span> |
 
-사용자가 트랜잭션 클래스 및 범주별로 요약하도록 선택하면 다음 정보를 가져옵니다.
+<span data-ttu-id="99f52-156">사용자가 트랜잭션 클래스 및 범주별로 요약하도록 선택하면 다음 정보를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| 작업 | 카테고리 | Date | 수량 | 단가 | 수량 |
+| <span data-ttu-id="99f52-157">작업</span><span class="sxs-lookup"><span data-stu-id="99f52-157">Task</span></span> | <span data-ttu-id="99f52-158">카테고리</span><span class="sxs-lookup"><span data-stu-id="99f52-158">Category</span></span> | <span data-ttu-id="99f52-159">Date</span><span class="sxs-lookup"><span data-stu-id="99f52-159">Date</span></span> | <span data-ttu-id="99f52-160">수량</span><span class="sxs-lookup"><span data-stu-id="99f52-160">Quantity</span></span> | <span data-ttu-id="99f52-161">단가</span><span class="sxs-lookup"><span data-stu-id="99f52-161">Unit price</span></span> | <span data-ttu-id="99f52-162">수량</span><span class="sxs-lookup"><span data-stu-id="99f52-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| 작업 A | 항공료 | 2020년 10월 1일 | 4 | 400 | 1600 |
-| | 호텔 | 2020년 10월 1일 | 6 | 200 | 1200 |
+| <span data-ttu-id="99f52-163">작업 A</span><span class="sxs-lookup"><span data-stu-id="99f52-163">Task A</span></span> | <span data-ttu-id="99f52-164">항공료</span><span class="sxs-lookup"><span data-stu-id="99f52-164">Airfare</span></span> | <span data-ttu-id="99f52-165">2020년 10월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-165">10/1/2020</span></span> | <span data-ttu-id="99f52-166">4</span><span class="sxs-lookup"><span data-stu-id="99f52-166">4</span></span> | <span data-ttu-id="99f52-167">400</span><span class="sxs-lookup"><span data-stu-id="99f52-167">400</span></span> | <span data-ttu-id="99f52-168">1600</span><span class="sxs-lookup"><span data-stu-id="99f52-168">1600</span></span> |
+| | <span data-ttu-id="99f52-169">호텔</span><span class="sxs-lookup"><span data-stu-id="99f52-169">Hotel</span></span> | <span data-ttu-id="99f52-170">2020년 10월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-170">10/1/2020</span></span> | <span data-ttu-id="99f52-171">6</span><span class="sxs-lookup"><span data-stu-id="99f52-171">6</span></span> | <span data-ttu-id="99f52-172">200</span><span class="sxs-lookup"><span data-stu-id="99f52-172">200</span></span> | <span data-ttu-id="99f52-173">1200</span><span class="sxs-lookup"><span data-stu-id="99f52-173">1200</span></span> |
 
-사용자가 트랜잭션 클래스, 범주 및 리프 노드 업무별로 요약하도록 선택하면 다음 정보를 가져옵니다. 이 결과는 프로젝트의 결과와 동일합니다.
+<span data-ttu-id="99f52-174">사용자가 트랜잭션 클래스, 범주 및 리프 노드 업무별로 요약하도록 선택하면 다음 정보를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="99f52-175">이 결과는 프로젝트의 결과와 동일합니다.</span><span class="sxs-lookup"><span data-stu-id="99f52-175">Notice that this result is the same as what was on the project.</span></span>
 
-| 작업 | 카테고리 | Date | 수량 | 단가 | 수량 |
+| <span data-ttu-id="99f52-176">작업</span><span class="sxs-lookup"><span data-stu-id="99f52-176">Task</span></span> | <span data-ttu-id="99f52-177">카테고리</span><span class="sxs-lookup"><span data-stu-id="99f52-177">Category</span></span> | <span data-ttu-id="99f52-178">Date</span><span class="sxs-lookup"><span data-stu-id="99f52-178">Date</span></span> | <span data-ttu-id="99f52-179">수량</span><span class="sxs-lookup"><span data-stu-id="99f52-179">Quantity</span></span> | <span data-ttu-id="99f52-180">단가</span><span class="sxs-lookup"><span data-stu-id="99f52-180">Unit price</span></span> | <span data-ttu-id="99f52-181">수량</span><span class="sxs-lookup"><span data-stu-id="99f52-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| 작업 A | 항공료 | 2020년 10월 1일 | 4 | 400 | 1600 |
-| 작업 B | 호텔 | 2020년 10월 1일 | 4 | 200 | 800 |
-| 작업 C | 호텔 | 2020년 11월 1일 | 2 | 200 | 400 |
+| <span data-ttu-id="99f52-182">작업 A</span><span class="sxs-lookup"><span data-stu-id="99f52-182">Task A</span></span> | <span data-ttu-id="99f52-183">항공료</span><span class="sxs-lookup"><span data-stu-id="99f52-183">Airfare</span></span> | <span data-ttu-id="99f52-184">2020년 10월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-184">10/1/2020</span></span> | <span data-ttu-id="99f52-185">4</span><span class="sxs-lookup"><span data-stu-id="99f52-185">4</span></span> | <span data-ttu-id="99f52-186">400</span><span class="sxs-lookup"><span data-stu-id="99f52-186">400</span></span> | <span data-ttu-id="99f52-187">1600</span><span class="sxs-lookup"><span data-stu-id="99f52-187">1600</span></span> |
+| <span data-ttu-id="99f52-188">작업 B</span><span class="sxs-lookup"><span data-stu-id="99f52-188">Task B</span></span> | <span data-ttu-id="99f52-189">호텔</span><span class="sxs-lookup"><span data-stu-id="99f52-189">Hotel</span></span> | <span data-ttu-id="99f52-190">2020년 10월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-190">10/1/2020</span></span> | <span data-ttu-id="99f52-191">4</span><span class="sxs-lookup"><span data-stu-id="99f52-191">4</span></span> | <span data-ttu-id="99f52-192">200</span><span class="sxs-lookup"><span data-stu-id="99f52-192">200</span></span> | <span data-ttu-id="99f52-193">800</span><span class="sxs-lookup"><span data-stu-id="99f52-193">800</span></span> |
+| <span data-ttu-id="99f52-194">작업 C</span><span class="sxs-lookup"><span data-stu-id="99f52-194">Task C</span></span> | <span data-ttu-id="99f52-195">호텔</span><span class="sxs-lookup"><span data-stu-id="99f52-195">Hotel</span></span> | <span data-ttu-id="99f52-196">2020년 11월 1일</span><span class="sxs-lookup"><span data-stu-id="99f52-196">11/1/2020</span></span> | <span data-ttu-id="99f52-197">2</span><span class="sxs-lookup"><span data-stu-id="99f52-197">2</span></span> | <span data-ttu-id="99f52-198">200</span><span class="sxs-lookup"><span data-stu-id="99f52-198">200</span></span> | <span data-ttu-id="99f52-199">400</span><span class="sxs-lookup"><span data-stu-id="99f52-199">400</span></span> |
