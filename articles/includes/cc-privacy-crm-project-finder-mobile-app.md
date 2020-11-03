@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069889"
+---
 Project Finder Mobile 앱을 사용하면 조직의 사용자에게 프로젝트 작업에 대한 가시성 및 작업에 가입할 수 있는 능력을 제공합니다. 사용자는 프로그램 찾기 앱을 사용하여 사용자의 기술을 확인하고 업데이트할 수도 있습니다. Project Finder Mobile 앱은 리소스 요구 사항을 리소스에 표시 및 리소스별 기술 업데이트 허용 특성 값을 예로 설정하여 프로젝트 서비스 매개 변수 설정을 통해 사용할 수 있습니다. 이러한 특성 값을 아니요로 변경하면 이 기능을 사용할 수 없습니다.  
   
  이 기능을 사용할 경우 다음과 같은 주요 사항을 고려하십시오.  
