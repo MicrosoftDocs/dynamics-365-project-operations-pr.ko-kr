@@ -4,12 +4,18 @@
   items:
     - name: 배포 유형 결정
       href: environment/determine-deployment-type.md
+    - name: Project Operations 업데이트
+      href: whats-new/project-operations-updates.md
 - name: 리소스/비 재고 기반 시나리오에 대한 Project Operations
   items:
     - name: 시작
       items:
-        - name: 미리 보기 구독 신청(리소스/비 재고 기반)
+        - name: 리소스/비 재고 기반 시나리오에 대한 Project Operations 배포 개요
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: 미리 보기 구독 신청
           href: environment/resource-sign-up-preview-subscription.md
+        - name: Project Operations 탐색
+          href: environment/navigate-project-operations.md
         - name: 필수 구성 요소 구성
           items:
             - name: 새 LCS 프로젝트 시작
@@ -18,9 +24,9 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: 데모 데이터 적용
           items:
-            - name: Finance Cloud 호스팅 환경에 Project Operations 데모 데이터 적용
+            - name: Finance Cloud 호스팅 환경에 데모 데이터 적용
               href: environment/resource-apply-finance-demo-data.md
-            - name: Project Operations용 Common Data Service에 구성 데이터 적용
+            - name: Common Data Service에서 구성 데이터 적용
               href: environment/resource-apply-pro-setup-config-data.md
         - name: 환경 배포
           items:
@@ -30,9 +36,13 @@
               href: environment/security-model.md
             - name: 법인별 프로젝트 Project Operations 통합 구성
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: 영업 프로세스
+    - name: 새로운 기능
       items:
-        - name: 영업 개요
+        - name: 2020년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: 프로젝트 영업 프로세스
+      items:
+        - name: 프로젝트 영업 프로세스 개요
           href: sales/sales-overview.md
         - name: 설정
           items:
@@ -42,94 +52,104 @@
               href: sales/sales-units-unit-groups.md
             - name: 통화
               href: sales/sales-currency.md
-        - name: 잠재 고객 관리
+        - name: 프로젝트 잠재 고객 관리
           href: sales/manage-leads.md
-        - name: 영업 기회 관리
+        - name: 프로젝트 영업 기회 관리
           items:
-            - name: 프로젝트 기반 영업 기회 관리
+            - name: 프로젝트 영업 기회 관리 개요
               href: sales/manage-project-based-opportunities.md
-            - name: 영업 기회 헤더
+            - name: 프로젝트 기반 영업 기회 설정
               href: sales/opportunity-header.md
-            - name: 프로젝트 기반 라인
+            - name: 프로젝트 기반 영업 기회 라인
               href: sales/project-based-lines.md
-            - name: 프로젝트 기반 영업 기회 복사
-              href: sales/copy-project-based-opportunity.md
             - name: 영업 기회에서 프로젝트 견적 작성
               href: sales/link-quotes-opportunities.md
-            - name: 영업 기회 종료
+            - name: 프로젝트 기반 영업 기회 복사
+              href: sales/copy-project-based-opportunity.md
+            - name: 프로젝트 영업 기회 닫기
               href: sales/close-opportunity.md
-        - name: 견적 관리
+        - name: 프로젝트 견적 관리
           items:
-            - name: 주요 개념
+            - name: 프로젝트 견적 관리 개요
+              href: pro/sales/manage-quotes-sales.md
+            - name: 프로젝트 견적 개념
               href: sales/quotes-key-concepts.md
-            - name: 프로젝트 견적에 대한 요약 정보
+            - name: 프로젝트 견적 설정
               href: sales/quote-values-budget-limits-contract.md
-            - name: 견적에 대한 여러 고객 관리
+            - name: 프로젝트 견적에 대한 여러 고객 관리
               href: sales/manage-multiple-customers-quote.md
-            - name: 제품 기반 견적 라인
-              item:
-                - name: 원가 계산 제품 기반 견적 라인
-                  href: sales/costing-product-based-quote-lines.md
-                - name: 제품 기반 견적 라인의 복잡한 단위 관리
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: 견적에 대한 프로젝트 가격표 관리
+              href: sales/managing-project-price-lists.md
             - name: 프로젝트 기반 견적 라인
               items:
-                - name: 프로젝트 가격표 관리
-                  href: sales/managing-project-price-lists.md
+                - name: 프로젝트 기반 견적 라인 개요
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: 프로젝트 기반 견적 라인에서 여러 고객 관리
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: 프로젝트 견적 라인의 청구 가능 구성 요소 구성
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: 견적 라인에서 견적 만들기
                   href: sales/create-estimate-quote-line.md
-                - name: 프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기
+                - name: 프로젝트에서 프로젝트 기반 견적 라인으로 추정 가져오기
                   href: sales/import-estimate-quote-line.md
-                - name: '견적 금액, 고객 예산 및 초과하지 않는 한도 관리'
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: 프로젝트 기반 견적 라인의 송장 일정
                   href: sales/invoice-schedule-quote-line.md
-            - name: 프로젝트 기반 견적 복사
+            - name: 프로젝트 견적 복사
               href: sales/lose-quote.md
-            - name: 견적 닫기
+            - name: 프로젝트 견적 닫기
               href: sales/win-quote.md
-        - name: 계약 관리
+        - name: 프로젝트 계약 관리
           items:
-            - name: 주요 개념 - 프로젝트 계약
+            - name: 프로젝트 계약 관리 개요
+              href: pro/sales/manage-contracts-sales.md
+            - name: 프로젝트 계약 개념
               href: sales/contracts-key-concepts.md
             - name: 프로젝트 계약 설정
               href: sales/project-contract-settings.md
+            - name: 프로젝트 계약에 대한 프로젝트 가격표 관리
+              href: sales/contracts-manage-project-price-lists.md
+            - name: 프로젝트 계약에 대한 여러 고객 관리
+              href: sales/contracts-manage-project-price-lists.md
             - name: 프로젝트 기반 계약 내용
               items:
+                - name: 프로젝트 기반 계약 내용 개요
+                  href: sales/manage-contract-values-project-based.md
+                - name: 프로젝트 기반 계약 내용에서 여러 고객 관리
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: 프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
                   href: sales/configure-chargeable-contract-line.md
-                - name: 프로젝트 기반 계약 내용으로 추정치 가져오기
+                - name: 프로젝트 기반 계약 내용 추정
+                  href: sales/create-estimate-contract-line.md
+                - name: 프로젝트에서 프로젝트 기반 계약 내용으로 추정 가져오기
                   href: sales/import-estimate-project-contract-line.md
                 - name: 프로젝트 기반 계약 내용에 송장 일정 만들기
                   href: sales/invoice-schedules-contract-line.md
             - name: 프로젝트 계약 확인
               href: pro/sales/confirm-contract-sales.md
+            - name: 프로젝트 계약 복사
+              href: pro/sales/copy-project-contracts-sales.md
     - name: 가격 책정 및 원가 계산
       items:
         - name: 가격표 설정
-          href: pricing-costing/price-list-setup.md
-        - name: 제품 가격표
-          href: pricing-costing/product-price-list.md
-        - name: 프로젝트 가격표
           items:
-            - name: 판매용 가격표 설정
-              items:
-                - name: 판매 가격표 설정
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: 인력 청구 요금 설정
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: 인력 비용 요금 설정
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: 경비에 대한 비용 및 판매율 설정
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: 기본 가격표
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: 추정 및 실제 원가 해결
-                  href: pricing-costing/cost-price-resolution.md
+            - name: 가격표 설정
+              href: pricing-costing/price-list-setup.md
+            - name: 제품 가격표
+              href: pricing-costing/product-price-list.md
+            - name: 인력 청구 요금 설정
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: 인력 비용 요금 설정
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: 경비에 대한 비용 및 판매율 설정
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: 기본값 및 재정의
           items:
+            - name: 기본 가격표
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: 프로젝트 판매 가격표 재정의
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 추정 및 실제 원가 해결
+              href: pricing-costing/cost-price-resolution.md
             - name: 추정 및 실제에 대한 판매 가격 해결
               href: pricing-costing/sales-price-resolution.md
             - name: 원가표
@@ -139,7 +159,9 @@
             - name: 가격 책정 차원 개요
               href: pricing-costing/pricing-dimensions-overview.md
             - name: 기존 필드를 가격 책정 차원으로 사용
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+              items:
+                - name: 가격 책정 차원의 Project Operations 필드
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: 가격 책정 차원의 사용자 지정 필드
               items:
                 - name: 가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기
@@ -156,7 +178,7 @@
           href: project-management/project-management-overview.md
         - name: 프로젝트 스테이지
           href: project-management/project-stages.md
-        - name: UI 탐색
+        - name: 사용자 인터페이스 탐색
           href: project-management/navigate-ui.md
         - name: 프로젝트 상태 이해
           href: project-management/understand-project-status.md
@@ -242,13 +264,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: 표준 시간대 관리
               href: resource-management/manage-multiple-time-zones.md
+        - name: 리소스 사용률
+          items:
+            - name: 리소스 사용률 개요
+              href: resource-management/resource-utilization-overview.md
     - name: 시간
       items:
         - name: 시간 개요
           href: time/time-entry-overview.md
         - name: 시간 항목 만들기
           items:
-            - name: 시간 항목 사용자 인터페이스 동작
+            - name: 시간 항목 사용자 인터페이스
               href: time/ui-behavior-time.md
         - name: 개발자 노트
           items:
@@ -306,6 +332,10 @@
       items:
         - name: 승인 개요
           href: approvals/approvals-overview.md
+        - name: 개발자 노트
+          items:
+            - name: 승인을 위한 개발자 노트
+              href: approvals/dev-notes-approvals.md
     - name: 실제
       items:
         - name: 실제 개요
@@ -316,39 +346,53 @@
               href: actuals/create-confirm-correction-journals.md
     - name: 견적 송장
       items:
-        - name: 청구 백로그 관리
+        - name: 프로젝트 대금 청구 백로그 관리
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: 수동 견적 송장 만들기
+        - name: 초과하지 않는 상태 및 유효성 검사 관리
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: 수동 견적 프로젝트 송장 만들기
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: 견적 송장 확인
+        - name: 견적 프로젝트 송장 관리
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: 견적 프로젝트 송장 확인
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: 수정된 송장
-          href: proforma-invoicing/corrective-invoices.md
-        - name: 자동 송장 만들기 구성
+        - name: 프로젝트 송장 자동화 구성
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: 프로젝트 회계
       items:
+        - name: 재무 차원 기본값
+          href: project-accounting/financial-dimension-defaults.md
         - name: 프로젝트 범주 구성
           href: project-accounting/configure-project-categories.md
         - name: 내부 프로젝트에 대한 회계 구성
           href: project-accounting/configure-accounting-internal-projects.md
         - name: 청구 가능한 프로젝트에 대한 회계 구성
           href: project-accounting/configure-accounting-billable-projects.md
+        - name: Project Operations의 통합 분개장
+          href: project-accounting/project-operations-integration-journal.md
 - name: 라이트 배포 - 견적 송장 거래
   items:
     - name: 시작
       items:
-        - name: 미리 보기 구독 신청(라이트)
+        - name: 라이트 배포 개요
+          href: pro/project-operations-overview-lite.md
+        - name: 미리 보기 구독 신청 - 라이트
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations Lite 배포 - 견적 송장 거래
+        - name: Project Operations 배포 - 라이트
           href: environment/lite-deployment.md
-        - name: 데모 설정 및 구성 데이터 적용
+        - name: 데모 설정 및 구성 데이터 적용 - 라이트
           href: environment/lite-apply-demo-setup-config-data.md
         - name: 보안 모델
           href: environment/security-model.md
-    - name: 영업 프로세스
+    - name: 새로운 기능
       items:
-        - name: 설치
+        - name: 새로운 기능 2020년 11월 - 라이트 배포 - 견적 송장 거래
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: 프로젝트 영업 프로세스
+      items:
+        - name: 프로젝트 영업 프로세스 개요
+          href: sales/sales-overview.md
+        - name: 설정
           items:
             - name: 제품
               href: sales/sales-products.md
@@ -356,118 +400,148 @@
               href: sales/sales-units-unit-groups.md
             - name: 통화
               href: sales/sales-currency.md
-        - name: 잠재 고객 관리
+        - name: 프로젝트 잠재 고객 관리
           href: pro/sales/managing-leads-sales.md
-        - name: 영업 기회 관리
+        - name: 프로젝트 영업 기회 관리
           items:
-            - name: 프로젝트 기반 영업 기회 관리
+            - name: 프로젝트 영업 기회 개요
               href: sales/manage-project-based-opportunities.md
-            - name: 영업 기회 헤더
+            - name: 프로젝트 영업 기회 설정
               href: pro/sales/opportunity-header-sales.md
-            - name: 프로젝트 기반 라인
+            - name: 제품 기반 영업 기회 라인 관리
+              href: pro/sales/product-based-lines-sales.md
+            - name: 프로젝트 기반 영업 기회 라인 관리
               href: pro/sales/project-based-lines-sales.md
+            - name: 프로젝트 영업 기회에서 견적 작성
+              href: sales/link-quotes-opportunities.md
             - name: 프로젝트 기반 영업 기회 복사
               href: sales/copy-project-based-opportunity.md
-            - name: 영업 기회에서 프로젝트 견적 작성
-              href: sales/link-quotes-opportunities.md
-            - name: 제품 기반 영업 기회 라인
-              href: pro/sales/product-based-lines-sales.md
-            - name: 영업 기회 종료
+            - name: 프로젝트 영업 기회 닫기
               href: sales/close-opportunity.md
-        - name: 견적 관리
+        - name: 프로젝트 기반 견적 관리
           items:
-            - name: 프로젝트 견적 주요 개념
+            - name: 프로젝트 기반 견적 개요
+              href: pro/sales/manage-quotes-sales.md
+            - name: 프로젝트 견적 개념
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: 프로젝트 견적에 대한 요약 정보(영업)
+            - name: 프로젝트 견적 설정
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: 프로젝트 견적에서 여러 고객 관리
+            - name: 프로젝트 견적의 여러 고객
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: 프로젝트 견적에 대한 프로젝트 가격표
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: 제품 기반 견적 라인
               items:
+                - name: 제품 기반 견적 라인 개요
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: 원가 계산 제품 기반 견적 라인
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: '제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리'
+                - name: 제품 기반 견적 라인의 복잡한 단위 관리
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: 프로젝트 기반 견적 라인
               items:
-                - name: 프로젝트 견적에 대한 프로젝트 가격표 관리
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: 프로젝트 기반 견적 라인에서 여러 고객 관리
+                - name: 프로젝트 기반 견적 라인 개요
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: 여러 고객 관리
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: 프로젝트 및 작업을 프로젝트 기반 견적 라인에 매핑
+                - name: 프로젝트 및 작업 매핑
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: 청구 가능한 구성 요소 구성
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: 프로젝트 기반 견적 라인 추정
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: 프로젝트 기반 견적 라인(영업)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: 프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기
+                - name: 프로젝트에서 평가 가져오기
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: 프로젝트 기반 견적 라인의 송장 일정
+                - name: 송장 일정 관리
                   href: sales/invoice-schedule-quote-line.md
-                - name: 견적 라인의 청구 가능 구성 요소 구성
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: 프로젝트 기반 견적 복사
-          href: sales/lose-quote.md
-        - name: 견적 닫기
-          href: pro/sales/win-quote-sales.md
-    - name: 계약 관리
-      items:
-        - name: 프로젝트 계약의 주요 개념
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: 프로젝트 계약 필드 및 정보
-          href: pro/sales/project-contract-settings-sales.md
-        - name: 제품 기반 계약 내용
+            - name: 프로젝트 기반 견적 복사
+              href: sales/lose-quote.md
+            - name: 프로젝트 기반 견적 닫기
+              href: pro/sales/win-quote-sales.md
+        - name: 프로젝트 기반 계약 관리
           items:
-            - name: 제품 기반 계약 내용 개요
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: 원가 계산 제품 기반 계약 내용
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: 프로젝트 기반 계약 내용
-          items:
-            - name: 프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: 프로젝트 기반 계약 내용으로 추정치 가져오기
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: 프로젝트 기반 계약 내용에 송장 일정 만들기
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: 프로젝트 계약 복사
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: 프로젝트 계약 확인
-          href: pro/sales/confirm-contract-sales.md
-        - name: 선급금 및 보유자 기반 계약
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+            - name: 프로젝트 기반 계약 개요
+              href: pro/sales/manage-contracts-sales.md
+            - name: 프로젝트 계약 개념
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: 프로젝트 계약 설정
+              href: pro/sales/project-contract-settings-sales.md
+            - name: 프로젝트 계약에 대한 여러 고객
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: 프로젝트 계약에 대한 프로젝트 가격표
+              href: sales/contracts-manage-project-price-lists.md
+            - name: 제품 기반 계약 내용
+              items:
+                - name: 제품 기반 계약 내용 개요
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: 원가 계산 제품 기반 계약 내용
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: 제품 기반 계약 내용의 복잡한 단위 관리
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: 프로젝트 기반 계약 내용
+              items:
+                - name: 프로젝트 기반 계약 내용 개요
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: 여러 계약 고객 관리
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: 프로젝트 및 작업을 프로젝트 계약 내용에 매핑
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: 프로젝트 계약 내용에 청구 가능 구성 요소 구성
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: 프로젝트 기반 계약 내용 추정
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: 프로젝트에서 프로젝트 계약 내용으로 추정치 가져오기
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: 프로젝트 계약 내용에서 송장 일정 관리
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: 프로젝트 계약 복사
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: 프로젝트 계약 확인
+              href: pro/sales/confirm-contract-sales.md
+            - name: 선불금 및 보유자
+              items:
+                - name: 선불금 및 보유자 기반 계약 - 라이트
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: 보유자 일정 설정 - 라이트
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: 계약에 대한 임시 선불금 생성 - 라이트
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 가격 책정 및 원가 계산
       items:
         - name: 가격표 설정
-          href: pricing-costing/price-list-setup.md
-        - name: 프로젝트 가격표
           items:
-            - name: 판매용 가격표 설정
-              items:
-                - name: 판매 가격표 설정
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: 인력 청구 요금 설정
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: 인력 비용 요금 설정
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: 카탈로그 제품에 대한 비용 및 판매율 설정
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: 경비에 대한 비용 및 판매율 설정
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: 기본 가격표
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: 추정 및 실제에서 원가 해결
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: 가격표 설정
+              href: pricing-costing/price-list-setup.md
+            - name: 판매 가격표 설정
+              href: pricing-costing/sales-price-list-setup.md
+            - name: 인력 청구 요금 설정 - 라이트
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: 인력 비용 요금 설정 - 라이트
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: 카탈로그 제품에 대한 비용 및 판매율 설정 - 라이트
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: 경비에 대한 비용 및 판매율 설정
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: 기본값 및 재정의
           items:
-            - name: 추정 및 실제에 대한 판매 가격 해결
+            - name: 기본 가격표
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: 프로젝트 판매 가격표 재정의
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 추정 및 실제에서 원가 해결 - 라이트
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: 추정 및 실제에 대한 판매 가격 해결 - 라이트
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: 원가표
               href: pricing-costing/copy-price-lists.md
         - name: 가격 책정 차원
           items:
+            - name: 가격 책정 차원 개요
+              href: pricing-costing/pricing-dimensions-overview.md
             - name: 기존 필드를 가격 책정 차원으로 사용
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+              items:
+                - name: 기존 필드를 가격 책정 차원으로 사용
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: 가격 책정 차원의 사용자 지정 필드
               items:
                 - name: 가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기
@@ -566,13 +640,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: 표준 시간대 관리
               href: resource-management/manage-multiple-time-zones.md
+        - name: 리소스 사용률
+          items:
+            - name: 리소스 사용률 개요
+              href: resource-management/resource-utilization-overview.md
     - name: 시간
       items:
         - name: 시간 개요
           href: time/time-entry-overview.md
         - name: 시간 항목 만들기
           items:
-            - name: 시간 항목 사용자 인터페이스 동작
+            - name: 시간 항목 사용자 인터페이스
               href: time/ui-behavior-time.md
         - name: 개발자 노트
           items:
@@ -588,6 +666,10 @@
       items:
         - name: 승인 개요
           href: approvals/approvals-overview.md
+        - name: 개발자 노트
+          items:
+            - name: 승인을 위한 개발자 노트
+              href: approvals/dev-notes-approvals.md
     - name: 실제
       items:
         - name: 실제 개요
@@ -596,20 +678,32 @@
           items:
             - name: 수정 분개장 생성 및 확인
               href: actuals/create-confirm-correction-journals.md
-        - name: 견적 송장
-          items:
-            - name: 청구 백로그 관리
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: 수동 견적 송장 만들기
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: 보유자 또는 선불 청구
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: 수정된 송장
-              href: proforma-invoicing/corrective-invoices.md
-            - name: 자동 송장 만들기 구성
-              href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: 견적 송장
+      items:
+        - name: 프로젝트 대금 청구 백로그 관리
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: 초과하지 않는 상태 및 유효성 검사 관리
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: 수동 견적 프로젝트 송장 만들기
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: 견적 프로젝트 송장 관리
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: 보유자 또는 선불 청구
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: 견적 프로젝트 송장 확인
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: 수정 프로젝트 송장 만들기
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: 프로젝트 송장 자동화 구성
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: 리소스/생산 기반 시나리오에 대한 Project Operations
   items:
+    - name: 새로운 기능
+      items:
+        - name: 새로운 기능 2020년 11월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: 리소스/생산 기반 시나리오에 대한 Project Operations 배포 개요
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: 프로젝트 관리 및 회계 개요
       href: prod-pma/overview-project-management-accounting.md
     - name: 회사 간 송장
@@ -734,12 +828,14 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Project Service Automation 개요
+    - name: Project Service Automation
       href: psa/overview.md
     - name: 새로운 기능
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 25, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-25.md
         - name: '업데이트 릴리스 24, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-24.md
         - name: '업데이트 릴리스 23, V3의 새로운 내용 또는 변경된 내용'
@@ -770,76 +866,88 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Project Service Automation V3의 새로운 내용 또는 변경 내용
           href: psa/whats-new-changed-v3.md
-    - name: Project Service Automation 3.x 구현
+    - name: 구현 계획(앱 버전 3.x)
       items:
-        - name: 구현 개요
+        - name: 샘플 데이터 설치
           href: psa/install-sample-data-3-x.md
-    - name: 업그레이드
+        - name: 프로젝트 계획 및 추적 가이드
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: '기본 견적, 가격 책정 및 대금 청구 가이드.'
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: '고급 견적, 가격 책정 및 대금 청구 가이드'
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: 리소스 관리 가이드
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: 보고 가이드
+          href: psa/implementation-guides/reporting-guide.md
+    - name: Project Service Automation 업그레이드(앱 버전 3.x)
       items:
-        - name: Project Service Automation 업그레이드(3.x)
+        - name: Project Service Automation 업그레이드
           href: psa/upgrade-psa-home-page.md
         - name: 업그레이드 고려 사항 - 버전 2.x 또는 1.x에서 버전 3으로 업그레이드
           href: psa/upgrade-v3.md
         - name: 개발(3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: 엔터티 변경
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: 시간 및 경비
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: 리소스 관리
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: Project Service Automation v3.x에서 단종된 웹 리소스
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: 프로젝트 계획
-      items:
-        - name: 프로젝트 계획 개요
-          href: psa/project-planning.md
-        - name: 프로젝트 스케줄
-          href: psa/project-creating.md
-        - name: 프로젝트 비용 및 수익
-          href: psa/project-estimating.md
-        - name: 매출액 추산 및 프로젝트
-          href: psa/project-leveraging.md
-        - name: 프로젝트 진행률 및 비용 소비율
-          href: psa/project-tracking.md
-        - name: 프로젝트 템플릿
-          href: psa/project-templates.md
-        - name: 프로젝트 스테이지
-          href: psa/project-stages.md
-        - name: '프로젝트: 설정'
-          href: psa/project-settings.md
-    - name: 가격 및 원가 차원
-      items:
-        - name: 가격 및 원가 차원 개요
-          href: psa/pricing-costing-dimensions.md
-        - name: 사용자 지정 가격 책정 차원에 대한 솔루션 만들기
-          href: psa/custompricingdimensionssolution.md
-        - name: 맞춤 필드 및 엔터티 만들기
-          href: psa/create-custom-fields-entities.md
-        - name: 가격 설정 및 거래 엔터티에 사용자 지정 필드 추가
-          href: psa/field-references.md
-        - name: 가격 책정 차원의 사용자 지정 필드 설정
-          href: psa/set-up-pricing-dimensions.md
-        - name: 새 가격 책정 차원을 포함하도록 플러그인 속성 업데이트
-          href: psa/update-plug-in-attributes.md
-        - name: 요소를 가격 차원으로 재사용
           items:
-            - name: Project Service의 기존 필드를 가격 책정 차원으로 사용
-              href: psa/use-existing-field.md
-            - name: 가격 책정 차원으로 예약 가능한 리소스 사용
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: 트랜잭션 카테고리를 가격 책정 차원으로 사용
-              href: psa/transaction-category-pricing-dimension.md
-        - name: 프로젝트에서 여러 역할을 있는 예약 가능한 리소스
-          href: psa/bookable-resource-multiple-roles.md
-        - name: 가격 책정 차원 끄기
-          href: psa/turn-off-pricing-dimension.md
-    - name: '견적, 가격 책정 및 대금 청구'
+            - name: 개발(앱 버전 3.x)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: 엔터티 변경
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: 시간 및 경비
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: 리소스 관리
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: Project Service Automation v3.x에서 단종된 웹 리소스
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation(3.x)
       items:
-        - name: '견적, 가격 책정 및 대금 청구 개요'
-          href: psa/quote-bill-price.md
-        - name: 견적
+        - name: 프로젝트 계획
           items:
+            - name: 프로젝트 계획 홈 페이지
+              href: psa/project-planning.md
+            - name: 프로젝트 스케줄
+              href: psa/project-creating.md
+            - name: 프로젝트 비용 및 수익
+              href: psa/project-estimating.md
+            - name: 매출액 추산 및 프로젝트
+              href: psa/project-leveraging.md
+            - name: 프로젝트 진행률 및 비용 소비율
+              href: psa/project-tracking.md
+            - name: 프로젝트 템플릿
+              href: psa/project-templates.md
+            - name: 프로젝트 스테이지
+              href: psa/project-stages.md
+            - name: '프로젝트: 설정'
+              href: psa/project-settings.md
+        - name: 가격 및 원가 차원
+          items:
+            - name: 가격 및 원가 차원 홈 페이지
+              href: psa/pricing-costing-dimensions.md
+            - name: 사용자 지정 가격 책정 차원에 대한 솔루션 만들기
+              href: psa/custompricingdimensionssolution.md
+            - name: 맞춤 필드 및 엔터티 만들기
+              href: psa/create-custom-fields-entities.md
+            - name: 가격 설정 및 거래 엔터티에 사용자 지정 필드 추가
+              href: psa/field-references.md
+            - name: 가격 책정 차원의 사용자 지정 필드 설정
+              href: psa/set-up-pricing-dimensions.md
+            - name: 새 가격 책정 차원을 포함하도록 플러그인 속성 업데이트
+              href: psa/update-plug-in-attributes.md
+            - name: 기존 필드를 가격 책정 차원으로 사용
+              items:
+                - name: Project Service의 기존 필드를 가격 책정 차원으로 사용
+                  href: psa/use-existing-field.md
+                - name: 가격 책정 차원으로 예약 가능한 리소스 사용
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: 트랜잭션 카테고리를 가격 책정 차원으로 사용
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: 프로젝트에서 여러 역할을 있는 예약 가능한 리소스
+              href: psa/bookable-resource-multiple-roles.md
+            - name: 가격 책정 차원 끄기
+              href: psa/turn-off-pricing-dimension.md
+        - name: '견적, 가격 책정 및 대금 청구'
+          items:
+            - name: '견적, 가격 책정 및 대금 청구 홈 페이지'
+              href: psa/quote-bill-price.md
             - name: 영업 프로세스
               href: psa/basic-sales-process.md
             - name: 단위 그룹 및 단위
@@ -850,20 +958,14 @@
               href: psa/basic-quote-lines.md
             - name: 제품 기반 견적 라인
               href: psa/product-based-quote-lines.md
-            - name: 프로젝트 견적 분석
-              href: psa/basic-analyzing-quotes.md
-        - name: 가격 책정
-          items:
             - name: 프로젝트 가격 산정
               href: psa/basic-pricing.md
             - name: 제품 카탈로그 가격
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: 업무 처리
               href: psa/basic-business-transactions.md
             - name: 추정
               href: psa/estimates.md
-        - name: 청구
-          items:
             - name: 프로젝트 견적 분석
               href: psa/basic-analyzing-quotes.md
             - name: 이전에 승인된 시간 또는 경비 항목 철회
@@ -878,73 +980,73 @@
               href: psa/review-invoicing-backlog.md
             - name: 송장 발행
               href: psa/invoicing.md
-            - name: 다통화 시나리오
+            - name: 복수 통화 시나리오
               href: psa/advanced-currency.md
-    - name: 프로젝트 리소싱
-      items:
-        - name: 프로젝트 리소싱 개요
-          href: psa/resource-management.md
-        - name: 작업에 일반 예약 가능한 리소스 할당 및 리소스 요건 생성
-          href: psa/assign-generic-bookable-resource.md
-        - name: 프로젝트 팀에 지정된 예약 가능한 리소스 예약 및 과업 할당
-          href: psa/assign-named-bookable-resource.md
-        - name: 과업에 리소스를 배정
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: 리소스 요건에서 명명된 리소스 예약
-          href: psa/book-named-resource.md
-        - name: 리소스 예약 및 작업 할당과의 관계
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: 리소스 요청 제출
-          href: psa/submit-resource-request.md
-        - name: 제안된 리소스 수락 또는 거부
-          href: psa/accept-reject-proposed-resource.md
-        - name: 청구 가능한 리소스 활용도 보기
-          href: psa/FAQ-utilization-view.md
+        - name: 프로젝트 리소싱
+          items:
+            - name: 프로젝트 리소싱 홈 페이지
+              href: psa/resource-management.md
+            - name: 작업에 일반 예약 가능한 리소스 할당 및 리소스 요건 생성
+              href: psa/assign-generic-bookable-resource.md
+            - name: 프로젝트 팀에 지정된 예약 가능한 리소스 예약 및 작업 할당
+              href: psa/assign-named-bookable-resource.md
+            - name: 작업에 리소스 할당
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: 리소스 요건에서 명명된 리소스 예약
+              href: psa/book-named-resource.md
+            - name: 리소스 예약 및 작업 할당과의 관계
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: 리소스 요청 제출
+              href: psa/submit-resource-request.md
+            - name: 제안된 리소스 수락 또는 거부
+              href: psa/accept-reject-proposed-resource.md
+            - name: 청구 가능한 리소스 활용도 보기
+              href: psa/FAQ-utilization-view.md
         - name: 예약 및 할당 조정
           href: psa/reconcile-booking-assignment.md
-    - name: 리소스 관리
-      items:
-        - name: 리소스 관리 홈 페이지
-          href: psa/resource-management-home-page.md
         - name: 리소스 관리
-          href: psa/manage-resources.md
-        - name: 주요 개념
-          href: psa/reports-key-concepts.md
-        - name: 리소스 요청 이행
-          href: psa/resource-management-fulfill-requests.md
-        - name: 리소스 제안
-          href: psa/resource-management-propose-resources.md
-        - name: 리소스 예약
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: 예약 할당 방법
-          href: psa/FAQ-allocation-methods.md
-        - name: 요건 가예약
-          href: psa/resource-management-softbook-requirements.md
-        - name: 리소스 가예약하기
-          href: psa/FAQ-soft-book.md
-        - name: 일정 게시판에서 프로젝트 예약 만들기
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: 기술 및 숙련도 모델
-          href: psa/resource-management-skills-proficiency.md
-        - name: 리소스 관리 FAQ
-          href: psa/resource-management-faq.md
-    - name: 보고
-      items:
-        - name: 보고서 개요
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: 대시보드
-          href: psa/reports-dashboards.md
-        - name: Project Service Automation 데이터 모델 작업
-          href: psa/reports-working-project-service-data-model.md
-    - name: 시간 항목
-      items:
-        - name: 시간 항목 만들기
-          href: psa/time-entries.md
-        - name: 시간 항목 캘린더
-          href: psa/time-entry-calendar.md
-        - name: 주간 시간 항목 사용자 지정
-          href: psa/time-entry-extensibility-v3.md
-    - name: FAQ 및 문제 해결
+          items:
+            - name: 리소스 관리 홈 페이지
+              href: psa/resource-management-home-page.md
+            - name: 리소스 관리
+              href: psa/manage-resources.md
+            - name: 주요 개념
+              href: psa/reports-key-concepts.md
+            - name: 리소스 요청 이행
+              href: psa/resource-management-fulfill-requests.md
+            - name: 리소스 제안
+              href: psa/resource-management-propose-resources.md
+            - name: 리소스 예약
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: 예약 할당 방법
+              href: psa/FAQ-allocation-methods.md
+            - name: 요건 가예약
+              href: psa/resource-management-softbook-requirements.md
+            - name: 리소스 가예약하기
+              href: psa/FAQ-soft-book.md
+            - name: 일정 게시판에서 프로젝트 예약 만들기
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: 기술 및 숙련도 모델
+              href: psa/resource-management-skills-proficiency.md
+            - name: 리소스 관리 FAQ
+              href: psa/resource-management-faq.md
+        - name: 보고
+          items:
+            - name: 보고 홈 페이지
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: 대시보드
+              href: psa/reports-dashboards.md
+            - name: Project Service Automation 데이터 모듈
+              href: psa/reports-working-project-service-data-model.md
+        - name: 시간 항목
+          items:
+            - name: 시간 항목 만들기
+              href: psa/time-entries.md
+            - name: 시간 항목 캘린더
+              href: psa/time-entry-calendar.md
+            - name: 주간 시간 항목 사용자 지정
+              href: psa/time-entry-extensibility-v3.md
+    - name: FAQ 및 문제 해결(3.x)
       items:
         - name: 경비 비용 실제 값에 대한 가격이 기본적으로 0이 되는 이유는 무엇입니까?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -966,65 +1068,67 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: 프로젝트 스테이지 비즈니스 프로세스 흐름을 사용자 지정하려면 어떻게 해야 합니까?
               href: psa/FAQ-customize-bpf.md
-            - name: 작업 세분화 구조를 위한 업그레이드 고려 사항
+            - name: 작업 분할 구조를 위한 업그레이드 고려 사항
               href: psa/upgrade-considerations-tasks.md
         - name: 백서
           href: psa/white-papers.md
         - name: 관리자 가이드
-          href: psa/admin-guide.md
-        - name: 설치 및 사용자 지정
-          href: psa/install-customize.md
-        - name: 데모 데이터 사용
-          href: psa/use-demo-data.md
-        - name: Project Service Automation 구성
           items:
-            - name: Project Service Automation 응용 프로그램 구성
-              href: psa/configure.md
-            - name: 시간 단위 설정
-              href: psa/set-up-time-units.md
-            - name: 통화 및 환율 설정
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: 조직 구성 단위 만들기
-              href: psa/create-organizational-units.md
-            - name: 송장 빈도 설정
-              href: psa/set-up-invoice-frequencies.md
-            - name: 거래 범주 구성
-              href: psa/configure-transaction-categories.md
-            - name: 경비 범주 구성
-              href: psa/configure-expense-categories.md
-            - name: 제품 카탈로그 항목 만들기
-              href: psa/create-product-catalog-items.md
-            - name: 가격표 만들기
-              href: psa/create-price-list.md
-        - name: 리소스
-          items:
+            - name: 관리자 가이드(Project Service)
+              href: psa/admin-guide.md
+            - name: 설치 및 사용자 지정
+              href: psa/install-customize.md
+            - name: 데모 데이터 사용
+              href: psa/use-demo-data.md
+            - name: Project Service 앱 구성
+              items:
+                - name: Project Service 구성
+                  href: psa/configure.md
+                - name: 시간 단위 설정
+                  href: psa/set-up-time-units.md
+                - name: 통화 및 환율 설정
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: 조직 구성 단위 만들기
+                  href: psa/create-organizational-units.md
+                - name: 송장 빈도 설정
+                  href: psa/set-up-invoice-frequencies.md
+                - name: 거래 범주 구성
+                  href: psa/configure-transaction-categories.md
+                - name: 경비 범주 구성
+                  href: psa/configure-expense-categories.md
+                - name: 제품 카탈로그 항목 만들기
+                  href: psa/create-product-catalog-items.md
+                - name: 가격표 만들기
+                  href: psa/create-price-list.md
             - name: 리소스 설정
-              href: psa/set-up-resources.md
-            - name: 리소스 추가
-              href: psa/add-resources.md
-            - name: 리소스 기술 추가
-              href: psa/add-resource-skills.md
-            - name: 숙련도 모델 설정
-              href: psa/set-up-proficiency-models.md
-            - name: 리소스 역할 추가
-              href: psa/add-resource-roles.md
-            - name: 리소스 역할 구성
-              href: psa/configure-resource-roles.md
-            - name: 리소스를 기술과 연결
-              href: psa/associate-skills-with-resources.md
-            - name: 리소스 역할을 기술과 연결
-              href: psa/associate-skills-with-resource-roles.md
-            - name: 작업 시간 템플릿 만들기
-              href: psa/create-work-hours-template.md
-            - name: 리소스에 일정 적용
-              href: psa/apply-calendar-resource.md
-            - name: 추가 설정 구성
-              href: psa/configure-additional-parameters-settings.md
-            - name: Project Finder Mobile 사용
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: 리소스 관리
+              items:
+                - name: 리소스 설정(Project Service)
+                  href: psa/set-up-resources.md
+                - name: 리소스 추가
+                  href: psa/add-resources.md
+                - name: 리소스 기술 추가
+                  href: psa/add-resource-skills.md
+                - name: 숙련도 모델 설정
+                  href: psa/set-up-proficiency-models.md
+                - name: 리소스 역할 추가
+                  href: psa/add-resource-roles.md
+                - name: 리소스 역할 구성
+                  href: psa/configure-resource-roles.md
+                - name: 리소스를 기술과 연결
+                  href: psa/associate-skills-with-resources.md
+                - name: 리소스 역할을 기술과 연결
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: 작업 시간 템플릿 만들기
+                  href: psa/create-work-hours-template.md
+                - name: 리소스에 일정 적용
+                  href: psa/apply-calendar-resource.md
+                - name: 추가 설정 구성
+                  href: psa/configure-additional-parameters-settings.md
+                - name: Project Finder Mobile 사용
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: 리소스 관리자 가이드
           items:
-            - name: 리소스 관리자 가이드
+            - name: 리소스 관리자 가이드(Project Service)
               href: psa/resource-manager-guide.md
             - name: 리소스 요청 관리
               href: psa/manage-resource-requests.md
@@ -1036,9 +1140,9 @@
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling(URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: 프로젝트 관리
+        - name: 프로젝트 관리자 가이드
           items:
-            - name: 프로젝트 관리자 가이드
+            - name: 프로젝트 관리자 가이드(Project Service)
               href: psa/project-manager-guide.md
             - name: 작업 견적 제공
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,9 +1178,9 @@
               href: psa/view-dashboards-reports.md
             - name: 추가 기능을 사용하여 Microsoft Project의 작업 계획
               href: psa/add-plan-work-microsoft-project.md
-        - name: ' 거래처 관리'
+        - name: 거래처 관리자 가이드
           items:
-            - name: 거래처 관리자 가이드
+            - name: 거래처 관리자 가이드(Project Service)
               href: psa/account-manager-guide.md
             - name: 고객 거래처 만들기
               href: psa/create-customer-account.md
@@ -1086,9 +1190,9 @@
               href: psa/create-project-quote.md
             - name: 프로젝트 계약 만들기
               href: psa/create-project-contract.md
-        - name: 시간 및 경비
+        - name: '시간, 경비 및 공동 작업'
           items:
-            - name: '시간, 경비 및 공동 작업'
+            - name: '시간, 경비 및 공동 작업 가이드(Project Service)'
               href: psa/time-expense-collaboration-guide.md
             - name: 앱 얻기
               href: psa/get-apps.md
@@ -1106,12 +1210,13 @@
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: 휴가 예약
               href: psa/schedule-time-off.md
-            - name: 'Office 365 그룹을 사용하여 공동 작업](collaborate-project-team-members-office-365-groups.md'
+            - name: Office 365 그룹을 사용하여 공동 작업
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: Project Finder Mobile로 프로젝트 찾기
               href: psa/find-next-project-finder-mobile-app.md
             - name: 프로젝트 리소스 허브 가이드
               href: psa/project-resource-hub-users-guide.md
-        - name: 개발자 노트
+        - name: 개발자를 위한 노트 (앱 버전 2.x)
           items:
             - name: 엔터티에 대한 사용자 지정 양식 추가
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
