@@ -3,7 +3,7 @@ title: Project Service Automation 업데이트 릴리스 17.5, 핫픽스 V3의 �
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
 ms.topic: article
@@ -17,28 +17,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 359eb8f8ca41d69d4f30dd44497a4deb6a6c4f8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 235a27d45b3c82303d4ef5434c779b3c11421586
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080007"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118796"
 ---
-# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="7b564-103">Project Service Automation 업데이트 릴리스 17.5, V3</span><span class="sxs-lookup"><span data-stu-id="7b564-103">Project Service Automation Update Release 17.5, V3</span></span>
+# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="8d208-103">Project Service Automation 업데이트 릴리스 17.5, V3</span><span class="sxs-lookup"><span data-stu-id="8d208-103">Project Service Automation Update Release 17.5, V3</span></span>
 
-<span data-ttu-id="7b564-104">Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다.</span><span class="sxs-lookup"><span data-stu-id="7b564-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="7b564-105">이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7b564-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="7b564-106">이 릴리스는 Dynamics 365 9.x와 호환됩니다.</span><span class="sxs-lookup"><span data-stu-id="7b564-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="7b564-107">이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오.</span><span class="sxs-lookup"><span data-stu-id="7b564-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="7b564-108">자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="7b564-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="8d208-104">Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다.</span><span class="sxs-lookup"><span data-stu-id="8d208-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="8d208-105">이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8d208-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="8d208-106">이 릴리스는 Dynamics 365 9.x와 호환됩니다.</span><span class="sxs-lookup"><span data-stu-id="8d208-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="8d208-107">이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오.</span><span class="sxs-lookup"><span data-stu-id="8d208-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="8d208-108">자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="8d208-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="7b564-109">이 항목에는 V3, 업데이트 릴리스 17.5에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7b564-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="7b564-110">이 버전의 빌드 번호는 V3.10.7.32이며 2020년 3월에 자체 업데이트를 통해 일반적으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="7b564-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
-
-
-## <a name="update-release-175"></a><span data-ttu-id="7b564-111">업데이트 릴리스 17.5</span><span class="sxs-lookup"><span data-stu-id="7b564-111">Update Release 17.5</span></span>
-
-### <a name="bug-fixes"></a><span data-ttu-id="7b564-112">버그 수정</span><span class="sxs-lookup"><span data-stu-id="7b564-112">Bug fixes</span></span>
+<span data-ttu-id="8d208-109">이 항목에는 V3, 업데이트 릴리스 17.5에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8d208-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="8d208-110">이 버전의 빌드 번호는 V3.10.7.32이며 2020년 3월에 자체 업데이트를 통해 일반적으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="8d208-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
 
 
-<span data-ttu-id="7b564-113">**프로젝트 관리**</span><span class="sxs-lookup"><span data-stu-id="7b564-113">**Project Management**</span></span>
+## <a name="update-release-175"></a><span data-ttu-id="8d208-111">업데이트 릴리스 17.5</span><span class="sxs-lookup"><span data-stu-id="8d208-111">Update Release 17.5</span></span>
 
-- <span data-ttu-id="7b564-114">해결: 장시간 작업으로 발생하는 서버 측 동기화 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="7b564-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
-- <span data-ttu-id="7b564-115">해결: 24시간 근무 시간 템플릿이 작업에 하루를 잘못 추가하는 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="7b564-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
-- <span data-ttu-id="7b564-116">해결: +13 GMT 작업 시간 템플릿이 작업을 하루 전으로 잘못 이동하는 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="7b564-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="8d208-112">버그 수정</span><span class="sxs-lookup"><span data-stu-id="8d208-112">Bug fixes</span></span>
+
+
+<span data-ttu-id="8d208-113">**프로젝트 관리**</span><span class="sxs-lookup"><span data-stu-id="8d208-113">**Project Management**</span></span>
+
+- <span data-ttu-id="8d208-114">해결: 장시간 작업으로 발생하는 서버 측 동기화 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="8d208-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
+- <span data-ttu-id="8d208-115">해결: 24시간 근무 시간 템플릿이 작업에 하루를 잘못 추가하는 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="8d208-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
+- <span data-ttu-id="8d208-116">해결: +13 GMT 작업 시간 템플릿이 작업을 하루 전으로 잘못 이동하는 문제를 해결했습니다.</span><span class="sxs-lookup"><span data-stu-id="8d208-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
 

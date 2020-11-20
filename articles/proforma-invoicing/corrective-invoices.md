@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,22 +17,22 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b31e702cc15bbb3937e8c4b305064212f63ce919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1ebfec053a59bbadd261d4333f6737cf16292e81
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080220"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122396"
 ---
-# <a name="corrected-invoices"></a><span data-ttu-id="31fe7-103">수정된 송장</span><span class="sxs-lookup"><span data-stu-id="31fe7-103">Corrected invoices</span></span>
+# <a name="corrected-invoices"></a><span data-ttu-id="f38a1-103">수정된 송장</span><span class="sxs-lookup"><span data-stu-id="f38a1-103">Corrected invoices</span></span>
 
-<span data-ttu-id="31fe7-104">_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="31fe7-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="f38a1-104">_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="f38a1-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="31fe7-105">확인된 송장을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="31fe7-106">확인된 송장을 편집하면 임시 수정된 송장이 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="31fe7-107">원래 송장의 모든 트랜잭션 및 수량을 되돌리려는 가정이기 때문에 이 수정된 송장에는 원래 송장의 모든 트랜잭션이 포함되며 모든 수량은 0(제로)입니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
+<span data-ttu-id="f38a1-105">확인된 송장을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="f38a1-106">확인된 송장을 편집하면 임시 수정된 송장이 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="f38a1-107">원래 송장의 모든 트랜잭션 및 수량을 되돌리려는 가정이기 때문에 이 수정된 송장에는 원래 송장의 모든 트랜잭션이 포함되며 모든 수량은 0(제로)입니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
 
-<span data-ttu-id="31fe7-108">트랜잭션에 수정이 필요하지 않은 경우 초안 수정 송장에서 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="31fe7-109">일부 수량만 되돌리거나 반환하려면 라인 세부 사항에서 수량 필드를 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="31fe7-110">송장 라인 세부 정보를 열면 원래 송장 수량을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="31fe7-111">그런 다음 원래 송장 수량보다 적거나 많은 현재 송장 수량을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
+<span data-ttu-id="f38a1-108">트랜잭션에 수정이 필요하지 않은 경우 초안 수정 송장에서 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="f38a1-109">일부 수량만 되돌리거나 반환하려면 라인 세부 사항에서 수량 필드를 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="f38a1-110">송장 라인 세부 정보를 열면 원래 송장 수량을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="f38a1-111">그런 다음 원래 송장 수량보다 적거나 많은 현재 송장 수량을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
 
-<span data-ttu-id="31fe7-112">수정 송장을 확인할 때 원래 청구된 영업 실제가 반대이며, 새 청구된 영업 실제가 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="31fe7-113">수량이 줄어든 경우 그 차이로 인해 실제 청구되지 않은 새 영업도 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="31fe7-114">예를 들어 원래 청구된 영업이 8시간이고 수정된 송장 라인 세부 정보가 6시간으로 줄어든 경우 원래 청구된 영업 라인을 반대로 하고 두 개의 새 실제를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
+<span data-ttu-id="f38a1-112">수정 송장을 확인할 때 원래 청구된 영업 실제가 반대이며, 새 청구된 영업 실제가 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="f38a1-113">수량이 줄어든 경우 그 차이로 인해 실제 청구되지 않은 새 영업도 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="f38a1-114">예를 들어 원래 청구된 영업이 8시간이고 수정된 송장 라인 세부 정보가 6시간으로 줄어든 경우 원래 청구된 영업 라인을 반대로 하고 두 개의 새 실제를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
 
-- <span data-ttu-id="31fe7-115">6시간 동안 실제 청구된 영업.</span><span class="sxs-lookup"><span data-stu-id="31fe7-115">A billed sales actual for six hours.</span></span>
-- <span data-ttu-id="31fe7-116">나머지 2시간 동안 청구되지 않은 영업 실제.</span><span class="sxs-lookup"><span data-stu-id="31fe7-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="31fe7-117">이 거래는 고객과의 협상에 따라 나중에 청구되거나 요금이 부과되지 않는 것으로 표시될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="31fe7-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
+- <span data-ttu-id="f38a1-115">6시간 동안 실제 청구된 영업.</span><span class="sxs-lookup"><span data-stu-id="f38a1-115">A billed sales actual for six hours.</span></span>
+- <span data-ttu-id="f38a1-116">나머지 2시간 동안 청구되지 않은 영업 실제.</span><span class="sxs-lookup"><span data-stu-id="f38a1-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="f38a1-117">이 거래는 고객과의 협상에 따라 나중에 청구되거나 요금이 부과되지 않는 것으로 표시될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f38a1-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
