@@ -2,28 +2,22 @@
 title: 영업 프로세스 개요
 description: 이 주제는 기본 영업 프로세스에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080251"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177609"
 ---
-# <a name="sales-processes-overview"></a>영업 프로세스 개요
+# <a name="sales-process-overview"></a>영업 프로세스 개요
+
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 프로젝트 기반 조직에서 사용되는 영업 프로세스는 제품 기반 조직에서 사용되는 영업 프로세스와 다릅니다. 이러한 차이는 프로젝트 기반 조직의 영업 주기가 더 길고 각 거래에 대한 견적을 분석하고 만드는 사용자 지정된 추정 기술이 필요하기 때문에 발생합니다. Dynamics 365 Project Operations는 영업 프로세스에 사용되는 다음과 같은 몇 가지 기능을 사용합니다.
 
@@ -56,7 +50,7 @@ ms.locfileid: "4080251"
  
 조직에서는 서로 다른 엔터티를 사용하여 발전하는 것과 동일한 거래를 나타낼 수 있습니다. 영업 프로세스 초기에 거래는 영업 기회 엔터티로 표시됩니다. 시간이 지남에 따라 자세한 내용이 나오면 상위 수준 견적을 사용하여 하나 이상의 견적을 만들 수 있습니다. 이러한 견적 중 하나가 내부 및 고객 이해 관계자에 의해 검토되는 경우 견적 엔터티는 거래를 나타냅니다. 고객이 견적을 수락하면 프로젝트 계약 또는 SOW가 거래를 나타냅니다. 이 동작을 지원하기 위해 BPF는 프로세스의 각 단계가 다른 데이터베이스 테이블에 연결되도록 구조화됩니다.
 
-영업 프로세스의 **우량으로 선별 스테이지** 는 영업 기회 엔터티에 의해 뒷받침될 수 있습니다. **예상** 및 **내부 검토** 스테이지는 견적 엔터티에 의해 뒷받침될 수 있습니다. **계약** , **배달** 및 **닫기** 스테이지는 프로젝트 계약 엔터티에 의해 뒷받침될 수 있습니다.
+영업 프로세스의 **우량으로 선별 스테이지** 는 영업 기회 엔터티에 의해 뒷받침될 수 있습니다. **예상** 및 **내부 검토** 스테이지는 견적 엔터티에 의해 뒷받침될 수 있습니다. **계약**, **배달** 및 **닫기** 스테이지는 프로젝트 계약 엔터티에 의해 뒷받침될 수 있습니다.
 
 스테이지를 통해 거래를 이동하면 프로세스를 안내하고 안내하는 적절한 엔터티 레코드를 만들라는 메시지가 표시됩니다. 스테이지는 조건부일 수 있습니다. 예를 들어 견적에서 사용자 지정 가격표를 사용하는 경우에만 견적에 대한 내부 검토가 필요한 경우 비즈니스 프로세스의 적절한 스테이지에서 해당 조건을 구성할 수 있습니다. 그러면 **내부 검토** 스테이지는 사용자 지정 가격표를 사용하는 견적에 대해서만 표시됩니다. 다른 모든 거래 및 견적의 경우, **예상** 스테이지가 **계약** 스테이지 다음에 옵니다.
 

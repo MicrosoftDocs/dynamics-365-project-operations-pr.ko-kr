@@ -1,21 +1,21 @@
 ---
-title: 제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리
+title: 제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리 - 라이트
 description: 이 항목에서는 제품 기반 견적 라인의 복잡한 단위 관리에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079984"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175584"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -29,8 +29,8 @@ Project Operations는 숫자 데이터 형식이 있는 숫자 속성 또는 제
 
 예컨대, Dynamics 365 Sales는 다음 속성을 가질 수 있습니다:
 
-- **사용자 수** : 사용자들의 수
-- **월 수** : 가입 월 수
+- **사용자 수**: 사용자들의 수
+- **월 수**: 가입 월 수
 - **제품 SKU**
 
 **사용자 수** 및 **월 수** 속성은 제품 행의 속성을 편집하여 수량 계수로 플래그를 지정할 수 있습니다.

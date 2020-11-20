@@ -3,7 +3,7 @@ title: 제품 카탈로그 가격
 description: 이 항목은 Dynamics 365 Project Service Automation(PSA)에서 제품 카탈로그 가격이 기능하는 방식에 대한 정보를 제공합니다.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080083"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132296"
 ---
 # <a name="product-catalog-pricing"></a>제품 카탈로그 가격 
 

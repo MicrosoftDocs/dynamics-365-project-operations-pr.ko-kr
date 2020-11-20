@@ -1,25 +1,25 @@
 ---
-title: 추정 및 실제에서 원가 해결
+title: 추정 및 실제에서 원가 해결 - 라이트
 description: 이 항목은 추정 및 실제의 원가를 확인하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bad8f4b95ac5803d3f334e1b306d2a9d27a6645d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079962"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176799"
 ---
-# <a name="resolving-cost-prices-on-estimates-and-actuals"></a>추정 및 실제에서 원가 해결
+# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>추정 및 실제에서 원가 해결 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-추정 및 실제에 대한 원가 및 비용 가격표를 해결하기 위해 시스템은 관련 프로젝트의 **날짜** , **통화** 및 **계약 단위** 필드의 정보를 사용합니다. 비용 가격표가 해결된 후 응용 프로그램은 비용 요금을 해결합니다.
+추정 및 실제에 대한 원가 및 비용 가격표를 해결하기 위해 시스템은 관련 프로젝트의 **날짜**, **통화** 및 **계약 단위** 필드의 정보를 사용합니다. 비용 가격표가 해결된 후 응용 프로그램은 비용 요금을 해결합니다.
 
 ## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>시간에 대한 실제 및 추정 라인의 비용 요금 해결
 

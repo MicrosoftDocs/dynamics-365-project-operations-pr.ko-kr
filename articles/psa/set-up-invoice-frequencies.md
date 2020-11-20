@@ -3,7 +3,7 @@ title: 송장 빈도 설정
 description: 송장 빈도를 설정하는 방법(Project Service)
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080268"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132046"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>송장 빈도 설정(Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4080268"
   
 3.  **일반** 영역에서, **이름** 에 송장 빈도에 대한 이름을 입력합니다.  
   
-4.  **기간** 에서 **월간** , **격주간** 또는 **주간** 을 선택합니다.  
+4.  **기간** 에서 **월간**, **격주간** 또는 **주간** 을 선택합니다.  
   
 5.  월간 또는 격주간으로 기간을 지정한 경우, **실행 일 수** 에서 지정된 기간마다(주중, 주말 상관없음) 청구서를 발행할 **기간 일 수** 를 선택하거나 **기간 일 수(평일)** 을 선택하여 해당 기간 내 정해진 주중 날짜에 맞춰 청구서를 발행합니다.  
   

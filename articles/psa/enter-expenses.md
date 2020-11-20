@@ -3,7 +3,7 @@ title: 비용 입력
 description: 경비를 입력하는 방법(Project Service)
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080256"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132926"
 ---
 # <a name="enter-expenses-project-service"></a>경비 입력(Project Service)
 
@@ -49,7 +49,7 @@ ms.locfileid: "4080256"
   
    모바일 앱 사용자의 경우:  
   
-8. 메뉴에서 **경비** 로 이동합니다.     **일간** , **주간** 또는 **월간** 보기로 전환하거나 이전 또는 다음 기간으로 이동할 수 있습니다.  
+8. 메뉴에서 **경비** 로 이동합니다.     **일간**, **주간** 또는 **월간** 보기로 전환하거나 이전 또는 다음 기간으로 이동할 수 있습니다.  
   
 9. **...** 를 탭하고 **새로 만들기** 를 탭합니다.  
   

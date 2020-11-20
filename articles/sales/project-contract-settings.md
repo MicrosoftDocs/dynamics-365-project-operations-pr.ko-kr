@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088004"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181146"
 ---
 # <a name="project-contract-settings"></a>프로젝트 계약 설정
 
@@ -23,9 +23,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음 표에는 Dynamics 365 Project Operations에 고유하거나 Dynamics 365 Sales 판매 주문의 동작에 몇 가지 중요한 변경 사항이 있는 프로젝트 계약의 요약 정보 필드가 나열되어 있습니다.
 
-| 필드 | 위치 | 관련성, 목적 및 지침 | 다운스트림 영향 |
+| 필드 | 위치 | 설명 | 다운스트림 영향 |
 | --- | --- | --- | --- |
-| 종류 | **요약** 탭(숨김) | 이는 다음 옵션이 있는 옵션 집합 필드입니다.</br>- **작업 기반** (Project Operations가 설치된 경우에만 사용 가능)</br>- **항목 기반** (Project Operations 및 Sales가 설치된 경우에만 사용 가능)</br>- **서비스 유지 보수 기반** (Dynamics 365 Field Service가 설치된 경우 사용 가능) | Project Operations에서 이 필드의 기본값은 **작업 기반** 이며 계약을 프로젝트 기반 계약으로 분류합니다. 모든 프로젝트별 확장 및 기능을 사용하려면 계약이 프로젝트 기반이어야 합니다. |
+| 종류 | **요약** 탭(숨김) | 이는 다음 옵션이 있는 옵션 집합 필드입니다.</br>- **작업 기반**(Project Operations가 설치된 경우에만 사용 가능)</br>- **항목 기반**(Project Operations 및 Sales가 설치된 경우에만 사용 가능)</br>- **서비스 유지 보수 기반**(Dynamics 365 Field Service가 설치된 경우 사용 가능) | Project Operations에서 이 필드의 기본값은 **작업 기반** 이며 계약을 프로젝트 기반 계약으로 분류합니다. 모든 프로젝트별 확장 및 기능을 사용하려면 계약이 프로젝트 기반이어야 합니다. |
 | 담당 회사 | **요약** 탭 | 이 프로젝트 계약과 관련된 프로젝트에서 발생하는 비용 및 수익을 설명할 법인입니다. 견적에서 계약이 생성되면 이 필드는 견적 레코드의 해당 필드에서 복사됩니다. | 담당 회사는 Project Operations의 **프로젝트 관리 및 회계** 모듈에 있는 법인의 개념과 동일합니다. 이 프로젝트에서 발생한 모든 비용과 수익은 소유 회사의 총계정 원장에 반영됩니다. |
 | 고객 | **요약** 탭 | 고객의 회사 또는 거래처 레코드에 대한 참조입니다. 견적에서 계약이 생성되면 이 필드는 견적 레코드의 해당 필드에서 복사됩니다. | 프로젝트 계약의 통화는 고객의 통화를 기준으로 기본값이 설정됩니다. 계약을 저장하기 이전에는 통화를 변경할 수 있습니다. |
 | 거래처 관리자 | **요약** 탭 | 이 거래에 대한 거래처 관리자의 이름입니다. 견적에서 계약이 생성되면 이 필드는 견적 레코드의 해당 필드에서 복사됩니다. | 거래처 관리자는 프로젝트 완료를 통해 고객과의 관계를 관리할 책임이 있습니다. 거래처 관리자와 연결된 예약 가능한 리소스 레코드를 기반으로 계약 단위는 프로젝트 계약을 기본값으로 설정합니다. |
@@ -37,7 +37,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음 KPI는 프로젝트 계약의 **계약 성과** 탭에서 사용할 수 있습니다.
 
-| 필드 | 위치 | 관련성, 목적 및 지침 |
+| 필드 | 위치 | 설명 |
 | --- | --- | --- |
 | 계약 값 | 전체 계약 | 프로젝트 계약의 총 가치입니다. |
 | 청구된 금액 | 전체 계약 | 이 계약에 대한 모든 송장의 금액 합계입니다. |

@@ -1,21 +1,21 @@
 ---
-title: 잠재 고객 관리(Pro)
+title: 잠재 고객 관리 - 라이트
 description: 이 항목은 프로젝트 기반 잠재 고객 관리 설정에 대한 정보를 제공합니다(Pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079981"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180515"
 ---
-# <a name="manage-leads-pro"></a>잠재 고객 관리(Pro)
+# <a name="manage-leads---lite"></a>잠재 고객 관리 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -38,9 +38,9 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 다음 표에는 잠재 고객에 대한 중요한 필드 정보와 해당 필드의 다운스트림 영향이 포함되어 있습니다.
 
-| **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
+| **필드** | **위치** | **설명** | **다운스트림 영향** |
 | --- | --- | --- | --- |
-| 주제 | 일반 탭 | 이 텍스트 필드에는 거래에 대한 간단한 설명이 포함되어야 합니다. | 잠재 고객 토픽은 기본적으로 영업 기회의 토픽, 견적 및 프로젝트 계약의 이름으로 지정됩니다. |
+| 토픽 | 일반 탭 | 이 텍스트 필드에는 거래에 대한 간단한 설명이 포함되어야 합니다. | 잠재 고객 토픽은 기본적으로 영업 기회의 토픽, 견적 및 프로젝트 계약의 이름으로 지정됩니다. |
 | 종류 | 일반 탭 | 이 옵션 집합 필드에는 다음 옵션이 있습니다.</br>- 작업 기반(Project Operations가 설치된 경우에만 사용 가능)</br>- 항목 기반(Project Operations 및 Sales가 설치된 경우에만 사용 가능)</br>- 서비스 유지 보수 기반(Field Service가 설치된 경우 사용 가능) | 이 필드의 값이 잠재 고객에서 **업무 기반** 으로 설정된 경우 잠재 고객은 프로젝트 기반 영업 기회를 생성할 자격이 있습니다. 이 거래에 대한 다운스트림 판매 프로세스에서 모든 프로젝트별 확장 및 기능을 활성화하려면 프로젝트 기반 영업 기회가 필요합니다. |
 | 이름 | 일반 탭 | 잠재 기부자 연락처의 이름 | 잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다. 연락처의 이름이 여기에 설정된 값입니다. |
 | 성 | 일반 탭 | 잠재 기부자 연락처의 성 | 잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다. 연락처의 성이 여기에 설정된 값입니다. |
@@ -53,7 +53,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 - 잠재 고객의 **회사** 필드를 사용하는 거래처.
 - 잠조 고객의 **이름** 과 **성** 의 값을 기반으로 거래처에 연결된 연락처 레코드.
-- **유형** 필드가 &quot;**작업 기반** 으로 설정된 프로젝트 기반 영업 기회.
+- **유형** 필드가 **작업 기반** 으로 설정된 프로젝트 기반 영업 기회.
 
 적격 잠재 고객에 대한 자세한 내용은 [잠재 고객을 우량으로 선별 또는 전환](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)을 참조하십시오.
 

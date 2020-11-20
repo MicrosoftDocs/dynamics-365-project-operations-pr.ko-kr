@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079949"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180605"
 ---
 # <a name="set-up-labor-cost-rates"></a>인력 비용 요금 설정
 
@@ -28,7 +28,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음 표에는 비용 가격표에서 인력 요금을 생성할 때 중요한 일부 필드가 포함되어 있습니다.
 
-| 필드 | 위치 | 관련성, 목적 및 지침 | 다운스트림 영향 |
+| 필드 | 위치 | 설명 | 다운스트림 영향 |
 | --- | --- | --- | --- |
 | 역할 | **일반** 탭 및 **빨리 만들기** 페이지 | 비용 요금을 할당할 역할을 선택합니다. | 들어오는 추정 또는 실제에 대한 역할은 역할 비용을 기본값으로 설정하기 위해 이 라인과 일치시킵니다. |
 | 리소싱 회사 | **일반** 탭 및 **빨리 만들기** 페이지 | 역할이 할당된 법인을 선택합니다. 예를 들어 Fabrikam India의 개발자 또는 Fabrikam USA의 개발자입니다. | 들어오는 추정 또는 실제에 대한 리소싱 회사는 역할 비용 요금을 기본값으로 설정하기 위해 이 라인과 일치시킵니다. |

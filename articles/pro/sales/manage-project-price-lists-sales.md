@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 견적에 대한 프로젝트 가격표 관리
+title: 프로젝트 견적에 대한 프로젝트 가격표 관리 - 라이트
 description: 이 항목은 견적에 대한 프로젝트 가격표 작업에 대한 정보를 제공합니다. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079975"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175989"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>프로젝트 견적에 대한 프로젝트 가격표 관리(영업)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>프로젝트 견적에 대한 프로젝트 가격표 관리 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 

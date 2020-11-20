@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079913"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181955"
 ---
 # <a name="project-based-opportunity-lines"></a>프로젝트 기반 영업 기회 라인
 
@@ -26,7 +26,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음은 프로젝트 기반 영업 기회 라인의 필드입니다.
 
-| **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
+| **필드** | **위치** | **설명** | **다운스트림 영향** |
 | --- | --- | --- | --- |
 | 제품 유형 | 일반 탭(숨김) | 이는 옵션 집합 필드입니다. Dynamics 365 Operations가 설치되어 있는 경우 사용 가능한 옵션 중 하나는 **프로젝트 기반 서비스** 입니다.  | 이 필드의 값은 영업 기회의 프로젝트 기반 라인 그리드에서 프로젝트 기반 영업 기회 라인을 생성할 때 **프로젝트 기반 서비스** 로 설정됩니다. <br> 이 값을 변경하거나 재정의하면 프로젝트 기반 라인 항목에서 프로젝트 기능이 활성화되지 않습니다. |
 | 영업 기회 | 일반 탭 | 이 필드는 읽기 전용이며이 라인 항목이 속한 상위 영업 기회 레코드를 참조합니다. | 이 필드의 다운스트림 영향은 없습니다. |

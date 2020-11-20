@@ -3,7 +3,7 @@ title: 샘플 데이터 설치
 description: 이 항목은 Project Service Automation에서 샘플 데이터를 설치하는 방법에 대한 정보를 제공합니다.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080117"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132431"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 응용 프로그램에 대한 샘플 데이터 설치
 
@@ -49,7 +49,7 @@ ms.locfileid: "4080117"
 
 - Project Service, Field Service 또는 두 응용 프로그램 모두(해당되는 경우)를 사용하기 위한 기본 파라미터를 만들거나 설정합니다.
 
-- 예약 가능한 리소스, 응용 프로그램별 역할, 판매 및 비용 가격표, 조직 구성 단위, 영업 프로세스 레코드 및 기타 엔터티와 같은 응용 프로그램의 샘플 데이터를 가져와 주요 기능을 보여줍니다.  
+- 예약 가능한 리소스, 응용 프로그램별 역할, 판매 및 비용 가격표, 조직 구성 단위, 영업 프로세스 레코드 및 기타 엔터티와 같은 응용 프로그램의 샘플 데이터를 가져와 주요 기능을 보여줍니다.  
 
 **데모 데이터** 패키지를 사용하면 작업 주문 및 프로젝트와 같은 위의 트랜잭션 데이터를 얻을 수 있습니다.
 
@@ -114,7 +114,7 @@ Project Service 및 Field Service 샘플 데이터 설치 관리자는 자동 �
 
 사용자를 만들거나 구성하려면 **설정** > **보안** > **사용자** 로 이동하여 다음을 수행합니다.
 
-1. UserFullname="Spencer Low"를 사용자 이름 "spencerl"( **소문자** )로 설정하여 프로젝트 관리자 및 업무 관리자 역할로 설정합니다.
+1. UserFullname="Spencer Low"를 사용자 이름 "spencerl"(**소문자**)로 설정하여 프로젝트 관리자 및 업무 관리자 역할로 설정합니다.
 
 2. **Spencer Low** 사용자를 선택한 다음 **역할 관리** 를 선택합니다. **시스템 관리자** 역할을 찾아 선택한 다음 **확인** 을 선택하여 전체 관리자 권한을 Spencer Low에 부여합니다. 이 단계는 올바른 사용자 소유권을 사용하여 샘플 레코드를 만들고 보기를 올바르게 채울 수 있도록 하는 데 필요합니다.
 
@@ -145,9 +145,9 @@ Project Service 및 Field Service 샘플 데이터 설치 관리자는 자동 �
 
 4. "Spencer Low" 전체 이름 사용자가 **"spencerl"** 과 다른 사용자 ID를 가지고 있다면 추가 파일을 업데이트해야 합니다. **DemoDataPreImportConfig.xml** 파일을 연 다음 **userstocreateandconfigure** 태그를 찾습니다. **\<login\>** 태그를 loginid(대/소문자 구분)로 업데이트합니다. 
 
-5. 첫 번째 사용자의 일정( **userstocreateandconfigure** 태그에 있음)은 데모 데이터를 가져올 수 있는 모든 예약 가능한 리소스에 대한 근무 시간을 채우는 데 사용됩니다. **설정** > **보안** > **사용자** 로 이동하여 "Spencer Low" 사용자를 찾고 "근무 시간" 옵션을 엽니다. 기존 근무 시간을 편집하여 **되풀이되는 주별 일정의 시작 날짜부터 종료 날짜까지 모두** 선택합니다. **근무 시간이 월요일부터 금요일까지 오전 8시 ~ 오후 5시까지 설정되고 시간대가 태평양 표준시(미국 및 캐나다)로 설정되었는지** 확인합니다. 이는 프로젝트 및 일정 게시판이 예상대로 표시되는지 확인하는 데 필요합니다.
+5. 첫 번째 사용자의 일정(**userstocreateandconfigure** 태그에 있음)은 데모 데이터를 가져올 수 있는 모든 예약 가능한 리소스에 대한 근무 시간을 채우는 데 사용됩니다. **설정** > **보안** > **사용자** 로 이동하여 "Spencer Low" 사용자를 찾고 "근무 시간" 옵션을 엽니다. 기존 근무 시간을 편집하여 **되풀이되는 주별 일정의 시작 날짜부터 종료 날짜까지 모두** 선택합니다. **근무 시간이 월요일부터 금요일까지 오전 8시 ~ 오후 5시까지 설정되고 시간대가 태평양 표준시(미국 및 캐나다)로 설정되었는지** 확인합니다. 이는 프로젝트 및 일정 게시판이 예상대로 표시되는지 확인하는 데 필요합니다.
 
-**권장 사항** : 샘플 데이터를 설치하는 동안 문제가 발생하여 시작 지점으로 되돌려야 하는 경우에 대비해 지금 조직의 백업을 만드는 것이 좋습니다. 자세한 내용은 [인스턴스 백업 및 복원](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)을 참조하십시오.
+**권장 사항**: 샘플 데이터를 설치하는 동안 문제가 발생하여 시작 지점으로 되돌려야 하는 경우에 대비해 지금 조직의 백업을 만드는 것이 좋습니다. 자세한 내용은 [인스턴스 백업 및 복원](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)을 참조하십시오.
 
 ## <a name="run-the-package-deployer"></a>Package Deployer를 실행합니다.
 

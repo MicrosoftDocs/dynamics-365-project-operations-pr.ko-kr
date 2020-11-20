@@ -1,21 +1,21 @@
 ---
-title: 미리 보기 구독 신청
+title: 미리 보기 구독 신청 - 라이트
 description: 이 항목은 Project Operations 라이트 배포 - 견적 송장 거래를 구독하고 배포하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079915"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175899"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>라이트 배포를 위한 미리보기 구독 신청 – 견적 송장 처리
+# <a name="sign-up-for-a-preview-subscription---lite"></a>미리 보기 구독 신청 - 라이트 
 
 이 항목에서는 미리보기 파트너 제안을 구독하고 Dynamics 365 Project Operations 라이트 배포 - 견적 송장 처리를 배포하는 방법에 대해 설명합니다.
 

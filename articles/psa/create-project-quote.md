@@ -3,7 +3,7 @@ title: 프로젝트 견적 만들기
 description: 프로젝트 견적을 만드는 방법(Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080160"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133151"
 ---
 # <a name="create-a-project-quote-project-service"></a>프로젝트 견적 만들기(Project Service )
 
@@ -45,7 +45,7 @@ ms.locfileid: "4080160"
   
 7. 편집을 마쳤으면, 화면 우측 하단의 **저장** 단추를 클릭합니다.  
   
-8. 견적을 고객에게 보낼 준비가 되면, **더 보기** (...)를 클릭하고 **보고서 실행** 을 클릭한 다음 **견적** 을 클릭합니다. [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] 문서로 보고서를 저장하고 필요한 경우 편집한 다음 견적을 고객에게 보냅니다.  
+8. 견적을 고객에게 보낼 준비가 되면, **더 보기**(...)를 클릭하고 **보고서 실행** 을 클릭한 다음 **견적** 을 클릭합니다. [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] 문서로 보고서를 저장하고 필요한 경우 편집한 다음 견적을 고객에게 보냅니다.  
   
 9. 고객이 견적을 수락하면 **견적** 화면 상단의 **성공으로 닫기** 를 클릭합니다. 고객이 일부 항목에 대한 변경을 원할 경우, 전체 프로세스를 다시 수행하여 새 견적을 만듭니다. 고객이 지금 서비스를 사용하지 않기로 결정할 경우, **견적** 화면 상단의 **실패로 닫기** 를 클릭합니다.  
   

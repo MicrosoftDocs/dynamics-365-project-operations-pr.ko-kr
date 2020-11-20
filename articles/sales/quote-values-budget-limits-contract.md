@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 견적에 대한 요약 정보
+title: 프로젝트 견적 설정
 description: 이 항목은 프로젝트 견적에 적용되고 영향을 미치는 정보 및 설정에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079898"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180245"
 ---
-# <a name="summary-information-on-a-project-quote"></a>프로젝트 견적에 대한 요약 정보
+# <a name="project-quote-settings"></a>프로젝트 견적 설정
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
@@ -24,7 +24,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음 표에는 Dynamics 365 Project Operations에 고유하거나 Dynamics 365 Sales 견적의 동작에 몇 가지 중요한 변경 사항이 있는 프로젝트 견적의 요약 정보 필드가 나열되어 있습니다.
 
-| **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
+| **필드** | **위치** | **설명** | **다운스트림 영향** |
 | --- | --- | --- | --- |
 | 종류 | 요약 탭(숨김) | 이 옵션 집합 필드에는 다음 옵션이 있습니다.</br>- 작업 기반(Project Operations가 설치된 경우에만 사용 가능)</br>- 항목 기반(Project Operations 및 Sales가 설치된 경우에만 사용 가능)</br>- 서비스 유지 보수 기반(Dynamics 365 Field Service가 설치된 경우 사용 가능) | Project Operations 애플리케이션을 사용할 때 이 필드의 값은 자동으로 **작업 기반** 으로 설정됩니다. 이는 견적을 프로젝트 기반 견적으로 분류합니다. 모든 프로젝트별 확장 및 기능을 사용하려면 견적이 프로젝트 기반이어야 합니다. |
 | 담당 회사 | 요약 | 이 프로젝트 또는 이 견적과 관련된 프로젝트에서 발생하는 비용 및 수익을 설명할 법인입니다. 영업 기회에서 견적이 생성되면 이 필드는 영업 기회의 해당 필드에서 복사됩니다. | 소유 회사는 Project Operations의 **프로젝트 관리 및 회계** 모듈에 있는 법인의 개념과 동일합니다. 이 프로젝트에서 발생한 모든 비용과 수익은 소유 회사의 총계정 원장에 반영됩니다. |
@@ -38,7 +38,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음은 Project Operations에 고유하거나 판매 견적의 동작에 몇 가지 중요한 변경 사항이 있는 프로젝트 견적에서 사용할 수 있는 탭 및 KPI입니다.
 
-| **필드** | **위치** | **관련성, 목적 및 지침** |
+| **필드** | **위치** | **설명** |
 | --- | --- | --- |
 | 수익성 분석 | 견적의 탭 | 탭은 다음 메트릭을 보여 줍니다.</br>- 총 청구 가능한 비용</br></br>- 총 청구 불가능한 비용</br>- 총 수익</br>- 총 수익(기본)</br>- 매상 총이익</br>- 조정된 매상 총이익|
 | 고객 기대 비교 | 견적의 탭 | 이 탭은 다음 메트릭을 보여 줍니다.</br>- 예상 완료</br>- 요청된 완료</br>- 고객 예산</br>- 견적 값 |

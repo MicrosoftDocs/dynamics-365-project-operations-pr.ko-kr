@@ -3,7 +3,7 @@ title: 프로젝트에 리소스 예약
 description: 프로젝트에 대한 리소스 일정을 예약하는 방법(Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080258"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132152"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>프로젝트에 대한 리소스 일정 예약(Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4080258"
 
 리소스 사용 가능 여부를 확인하여 예약된 리소스 상태를 전부 보거나, 보기를 기술, 팀, 위치 및 기타 옵션으로 필터링할 수 있습니다.  
   
-일정 게시판에는 리소스 및 사용 가능 여부에 대한 목록이 표시됩니다. **시간** , **일** , **주** , 또는 **월** 로 사용 가능성을 표시하도록 보기 모드를 선택합니다.  
+일정 게시판에는 리소스 및 사용 가능 여부에 대한 목록이 표시됩니다. **시간**, **일**, **주**, 또는 **월** 로 사용 가능성을 표시하도록 보기 모드를 선택합니다.  
   
 일정 게시판을 사용하기 전에 설정하는 것이 중요합니다. 자세한 내용은 [일정 보드 구성(Field Service 또는 Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board)을 참조하십시오.
   

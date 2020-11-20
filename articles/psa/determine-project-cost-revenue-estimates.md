@@ -3,7 +3,7 @@ title: 프로젝트 비용 및 수익 추정치 판단
 description: 프로젝트 비용 및 수익 추정치를 판단하는 방법(Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1652b39b6c8a703bf198a990eb9047eff9dc9f4c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080060"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133016"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>프로젝트 비용 및 수익 추정치 판단 
 
@@ -35,7 +35,7 @@ ms.locfileid: "4080060"
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 가격표는 영할 프로젝트용으로 사용할 비용 및 청구 비율을 정의합니다. 프로젝트의 구조에 대 한 작업과 관련 된 역할에 따라, 포함 된 작업의 비용 및 수익 영향을 확인할 수 있습니다.  
   
 ## <a name="cost-price-defaulting"></a>원가 디폴트  
-모든 프로젝트는 조직에 귀속됩니다( **소유 단위** 프로젝트에서 표시됨). 소유 조직 단위와 연결된 가격표는 단위 원가를 결정합니다. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]는 추정 내용을 바탕으로 해당일을 기준으로 올바른 원가를 산출하기 위해 원가 목록의 역할, 단위, 조직 구성 단위 조합을 검색해 원가를 결정합니다.  
+모든 프로젝트는 조직에 귀속됩니다(**소유 단위** 프로젝트에서 표시됨). 소유 조직 단위와 연결된 가격표는 단위 원가를 결정합니다. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)]는 추정 내용을 바탕으로 해당일을 기준으로 올바른 원가를 산출하기 위해 원가 목록의 역할, 단위, 조직 구성 단위 조합을 검색해 원가를 결정합니다.  
   
 역할 조합, 단위, 및 조직 구성 단위에서 소유 단위 가격표의 원가를 도출하지 않을 경우, 역할 및 조직 구성 단위 조합을 위해 해당 단위를 무시합니다. 원가가 있는 경우, 이 가격은 추정 내용에서 선택한 단위로 변환됩니다.  
   

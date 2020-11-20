@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080076"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180709"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>인력 요금 청구에 대한 청구 요금 설정 
+# <a name="set-up-labor-bill-rates"></a>인력 청구 요금 설정
 
 _ **적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -27,7 +27,7 @@ _ **적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project 
 
    다음 표는 판매 가격표에서 역할 가격을 생성할 때 염두에 두어야 하는 역할 가격 라인의 **일반** 탭 및 **빨리 만들기** 창에 필드를 포함합니다.
 
-    | 필드 | 위치 | 관련성, 목적 및 지침 | 다운스트림 영향 |
+    | 필드 | 위치 | 설명 | 다운스트림 영향 |
     | --- | --- | --- | --- |
     | 역할 | **일반** 탭 및 **빨리 만들기** 창 | 청구 요금을 설정할 역할을 선택합니다. | 들어오는 추정 또는 실제에 대한 역할은 역할 청구 요금을 기본값으로 설정하기 위해 이 라인과 일치시킵니다. |
     | 리소싱 회사 | **일반** 탭 및 **빨리 만들기** 창 | 역할이 속한 회사 또는 법인을 선택합니다. 예를 들어 Fabrikam India의 개발자 또는 Fabrikam USA의 개발자입니다. | 들어오는 추정 또는 실제에 대한 리소싱 회사는 역할 청구 요금을 기본값으로 설정하기 위해 이 라인과 일치시킵니다. |

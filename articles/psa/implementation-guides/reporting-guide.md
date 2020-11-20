@@ -3,7 +3,7 @@ title: 보고 가이드
 description: 이 항목은 보고에 대한 정보 링크를 제공합니다.
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 02/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976c06f4b16bd969eba0ae06ccdd735256aeb044
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dba816e32fdbf4fb2988f14022e7fff705ef75e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080152"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132476"
 ---
 # <a name="reporting-guide"></a>보고 가이드
 

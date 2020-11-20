@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 기반 영업 기회 라인(Pro)
+title: 프로젝트 기반 영업 기회 라인 - 라이트
 description: 이 항목은 프로젝트 기반 영업 기회 라인에 대한 정보를 제공합니다. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079977"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181015"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>프로젝트 기반 영업 기회 라인(Pro)
+# <a name="project-based-opportunity-lines---lite"></a>프로젝트 기반 영업 기회 라인 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -25,7 +25,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 다음은 프로젝트 기반 영업 기회 라인의 필드입니다.
 
-| **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
+| **필드** | **위치** | **설명** | **다운스트림 영향** |
 | --- | --- | --- | --- |
 | 제품 유형 | 일반 탭(숨김) | 다음 옵션 중 하나를 선택할 수 있습니다.</br>- 프로젝트 기반 서비스(Dynamics 365 Project Operations가 설치된 경우에만 사용 가능)</br>- 제품(Project Operations 및 Dynamics 365 Sales가 설치된 경우에만 사용 가능) | 이 필드의 값은 영업 기회의 프로젝트 기반 라인 그리드에서 프로젝트 기반 영업 기회 라인을 생성할 때 **프로젝트 기반 서비스** 로 설정됩니다. <br> 이 값을 변경하거나 재정의하면 프로젝트 기반 라인 항목에서 프로젝트 기능이 활성화되지 않습니다. |
 | 영업 기회 | 일반 탭 | 이 필드는 읽기 전용이며이 라인 항목이 속한 상위 영업 기회 레코드를 참조합니다. | 이 필드의 다운스트림 영향은 없습니다. |

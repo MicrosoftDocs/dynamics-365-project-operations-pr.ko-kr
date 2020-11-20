@@ -1,21 +1,21 @@
 ---
-title: 제품 기반 계약 내용 개요
+title: 제품 기반 계약 내용 개요 - 라이트
 description: 이 항목은 제품 기반 계약 라인에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079979"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177879"
 ---
-# <a name="product-based-contract-lines-overview"></a>제품 기반 계약 내용 개요
+# <a name="product-based-contract-lines-overview---lite"></a>제품 기반 계약 내용 개요 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 

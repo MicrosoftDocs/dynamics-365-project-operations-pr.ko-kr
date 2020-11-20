@@ -3,7 +3,7 @@ title: 시간 입력
 description: 시간을 입력하는 방법(Project Service)
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080255"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132881"
 ---
 # <a name="enter-time-project-service"></a>시간 입력(Project Service)
 
@@ -51,7 +51,7 @@ ms.locfileid: "4080255"
   
    모바일 앱 사용자의 경우:  
   
-9. 메뉴에서 **시간 기입** 으로 이동합니다.     **일간** , **주간** 또는 **월간** 보기로 전환하거나 이전 또는 다음 기간으로 이동할 수 있습니다.  
+9. 메뉴에서 **시간 기입** 으로 이동합니다.     **일간**, **주간** 또는 **월간** 보기로 전환하거나 이전 또는 다음 기간으로 이동할 수 있습니다.  
   
 10. **...** 를 탭하고 **새로 만들기** 를 탭합니다.  
   

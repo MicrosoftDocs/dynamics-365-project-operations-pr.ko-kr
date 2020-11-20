@@ -1,21 +1,21 @@
 ---
-title: 프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기
+title: 프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기 - 라이트
 description: 이 항목에서는 프로젝트에서 견적 라인으로 추정을 가져오는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079954"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177744"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -30,7 +30,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
   - **역할** 
   - **프로젝트 작업**
 
-선택 사항에 따라 이 견적 라인에 포함된 모든 거래 분류에 대한 프로젝트의 추정이 복사됩니다. 포함된 트랜잭션 클래스를 확인하려면 프로젝트 기반 견적 라인에서 **일반** 탭을 클릭하고 **시간 포함** , **경비 포함** 및 **요금 포함** 에 대한 값을 확인합니다.  포함된 작업을 확인하려면 견적 라인에서 **청구 가능한 작업** 탭을 선택합니다.
+선택 사항에 따라 이 견적 라인에 포함된 모든 거래 분류에 대한 프로젝트의 추정이 복사됩니다. 포함된 트랜잭션 클래스를 확인하려면 프로젝트 기반 견적 라인에서 **일반** 탭을 클릭하고 **시간 포함**, **경비 포함** 및 **요금 포함** 에 대한 값을 확인합니다.  포함된 작업을 확인하려면 견적 라인에서 **청구 가능한 작업** 탭을 선택합니다.
 
 연관된 작업 및 포함된 트랜잭션 클래스에 따라 해당 작업 및 트랜잭션 클래스 조합에 대한 추정을 견적 라인으로 가져옵니다.
 

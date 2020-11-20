@@ -3,7 +3,7 @@ title: 리소스 관리
 description: 이 항목은 리소스를 관리할 수 있는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080253"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132341"
 ---
 # <a name="manage-resources"></a>리소스 관리
 
@@ -64,7 +64,7 @@ PSA에서는 프로젝트 팀에서 일반 리소스를 예약할 수 있으며 
 
     ![요구 사항 링크](media/Resource-Management-image10.png)
 
-3. **기술** 표에 나타나는 **리소스 요구 사항** 페이지에서 말줄임표( **...** )를 선택하고 **새 요구 사항 특성 추가** 를 선택하여 개발자에게 필요한 기술을 추가합니다.
+3. **기술** 표에 나타나는 **리소스 요구 사항** 페이지에서 말줄임표(**...**)를 선택하고 **새 요구 사항 특성 추가** 를 선택하여 개발자에게 필요한 기술을 추가합니다.
 
     ![신규 요구 사항 특성 명령어 추가](media/Resource-Management-image11.png)
 

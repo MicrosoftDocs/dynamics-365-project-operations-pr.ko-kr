@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 견적 주요 개념
+title: 견적 - 주요 개념 - 라이트
 description: 이 항목은 Project Operations의 프로젝트 견적 사용에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079976"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178014"
 ---
-# <a name="project-quote-key-concepts"></a>프로젝트 견적 주요 개념
+# <a name="quotes---key-concepts---lite"></a>견적 - 주요 개념 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 

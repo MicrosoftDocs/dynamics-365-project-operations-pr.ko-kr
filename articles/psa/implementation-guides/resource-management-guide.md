@@ -3,7 +3,7 @@ title: 리소스 관리 가이드
 description: 이 항목은 Project Service Automation에서 리소스 관리 정보에 대한 링크를 제공합니다.
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 810adf1fc00bf9d111e5da8c0d490b92bc83049a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3b1f195cf712862972e6b52d1529089ccd52c775
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080150"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132521"
 ---
 # <a name="resource-management-guide"></a>리소스 관리 가이드
 

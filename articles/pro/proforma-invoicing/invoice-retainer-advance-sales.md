@@ -1,21 +1,21 @@
 ---
-title: 보유자 또는 선불 청구
+title: 보유자 또는 선불 청구 - 라이트
 description: 이 항목은 Project Operations에서 보유자 또는 선불을 청구하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088000"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180560"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>보유자 또는 선불 청구
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>보유자 또는 선불 청구 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -43,7 +43,7 @@ Dynamics 365 Project Operations는 보유자 기반 계약 및 일회성 선불�
 
 이것은 **송장** 페이지의 **적용된 보유자 및 선불** 그리드에서 볼 수 있습니다. 다음 표는 **프로젝트 송장** 페이지의 **적용된 보유자 및 선불** 그리드에 있는 필드에 대한 정보를 제공합니다.
 
-| 필드 | 위치 | 관련성, 목적 및 지침 | 다운스트림 영향 |
+| 필드 | 위치 | 설명 | 다운스트림 영향 |
 | --- | --- | --- | --- |
 | 설명 | **프로젝트 송장** 페이지의 **적용된 선불 및 보유자** 그리드 |이 읽기 전용 필드는 이 송장에 사용된 보유자 또는 선불에 대한 설명을 제공합니다. 송장에서 이 값을 변경할 수 없습니다. 이 값은 **프로젝트 계약** 페이지의 하위 표에서 업데이트 할 수 있습니다. | 이 필드는 인쇄된 송장에 고객에게 표시되어 송장에 적용되는 보유자 또는 선불을 나타낼 수 있습니다. |
 | 배송된 날짜 | **프로젝트 송장** 페이지의 **적용된 선불 및 보유자** 그리드  | 이 읽기 전용 필드는 이 송장에 사용된 보유자 또는 선불에 대한 송장 발부 날짜를 제공합니다. 송장에서 이 값을 변경할 수 없습니다. 이 값은 **프로젝트 계약** 페이지의 하위 표에서 업데이트 할 수 있습니다. | 이 필드는 인쇄된 송장에 고객에게 표시되어 보유자 또는 선불이 고객에서 처음 송장 발부된 날짜를 나타낼 수 있습니다. |

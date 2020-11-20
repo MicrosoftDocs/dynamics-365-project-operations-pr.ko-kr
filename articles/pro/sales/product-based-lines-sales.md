@@ -1,21 +1,21 @@
 ---
-title: 제품 기반 영업 기회 라인
+title: 제품 기반 영업 기회 라인 - 라이트
 description: 이 항목에서는 Project Operations의 제품 기반 영업 기회 항목에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079978"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176342"
 ---
-# <a name="product-based-opportunity-lines"></a>제품 기반 영업 기회 라인
+# <a name="product-based-opportunity-lines---lite"></a>제품 기반 영업 기회 라인 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 

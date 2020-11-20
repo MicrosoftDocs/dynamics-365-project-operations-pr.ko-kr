@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 기반 견적 라인
+title: 프로젝트 기반 견적 라인 개요
 description: 이 항목은 프로젝트 작업에 프로젝트 기반 견적 라인 사용에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079919"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181865"
 ---
-# <a name="project-based-quote-lines"></a>프로젝트 기반 견적 라인
+# <a name="project-based-quote-lines-overview"></a>프로젝트 기반 견적 라인 개요
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
@@ -31,7 +31,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음 표는 프로젝트 기반 견적 라인의 **일반** 탭의 필드에 대한 정보를 제공합니다. 이 필드는 프로젝트 작업에 대한 상세하고 기초적인 추정을 위한 기초를 설정하는 데 도움이 됩니다.
 
-| **필드** | **관련성, 목적 및 지침** | **다운스트림 영향** |
+| **필드** | **설명** | **다운스트림 영향** |
 | --- | --- | --- |
 | Name | 예상되는 견적의 개별 구성 요소를 식별하는 데 도움이 되는 견적 라인의 이름입니다. | 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다. |
 | 청구 방법 | 영업 기회에서 견적이 생성되면 이 값은 영업 기회 라인의 해당 필드에서 복사됩니다. 이 필드에는 Dynamics 365 Project Operations에서 지원하는 두 가지 주요 계약 모델이 포함됩니다.</br>- 고정 가격</br>- 시간 및 재료.| 이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다. |
@@ -47,11 +47,11 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>프로젝트 기반 견적 라인의 일반 탭에 있는 필드에 대한 유효성 검사 규칙
 
-**규칙 1** : 선택한 프로젝트의 특정 트랜잭션 분류는 견적의 하나의 프로젝트 기반 견적 라인에만 포함될 수 있습니다.
+**규칙 1**: 선택한 프로젝트의 특정 트랜잭션 분류는 견적의 하나의 프로젝트 기반 견적 라인에만 포함될 수 있습니다.
 
-**규칙 2** : 영업 기회에 여러 견적이 있는 경우 모두 동일한 프로젝트를 참조하고 동일한 트랜잭션 클래스를 포함하는 서로 다른 견적의 견적 라인이 있을 수 있습니다.
+**규칙 2**: 영업 기회에 여러 견적이 있는 경우 모두 동일한 프로젝트를 참조하고 동일한 트랜잭션 클래스를 포함하는 서로 다른 견적의 견적 라인이 있을 수 있습니다.
 
-**규칙 3** : 견적이 동일한 영업 기회에 속하지 않는 경우 동일한 프로젝트 및 트랜잭션 클래스를 포함할 수 없습니다.
+**규칙 3**: 견적이 동일한 영업 기회에 속하지 않는 경우 동일한 프로젝트 및 트랜잭션 클래스를 포함할 수 없습니다.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

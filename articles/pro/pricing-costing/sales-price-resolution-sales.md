@@ -1,21 +1,21 @@
 ---
-title: 추정 및 실제에 대한 판매 가격 해결
+title: 추정 및 실제에 대한 판매 가격 해결 - 라이트
 description: 이 항목은 추정 및 실제의 판매 가격 해결에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087998"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176754"
 ---
-# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>추정 및 실제에 대한 판매 가격 해결
+# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>추정 및 실제에 대한 판매 가격 해결 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -27,7 +27,7 @@ Project Operations에서 시간에 대한 추정 라인은 시간에 대한 견�
 
 판매 가격표가 해결되면 시스템은 다음 단계를 완료하여 청구 비율을 기본값으로 설정합니다.
 
-1. 시스템은 시간에 대한 추정 라인의 **역할** 및 **리소스 조달 단위** 필드를 사용하여 해결된 가격표의 역할 가격 라인과 일치시킵니다. 이 일치는 청구 요금에 대해 기본 가격 책정 차원을 사용 중이라고 가정합니다. 대신 또는 추가로 다른 필드를 기반으로 가격을 구성한 경우 **역할** 및 **리소스 조달 단위** , 일치하는 역할 가격 라인을 검색하는 데 사용되는 조합입니다.
+1. 시스템은 시간에 대한 추정 라인의 **역할** 및 **리소스 조달 단위** 필드를 사용하여 해결된 가격표의 역할 가격 라인과 일치시킵니다. 이 일치는 청구 요금에 대해 기본 가격 책정 차원을 사용 중이라고 가정합니다. 대신 또는 추가로 다른 필드를 기반으로 가격을 구성한 경우 **역할** 및 **리소스 조달 단위**, 일치하는 역할 가격 라인을 검색하는 데 사용되는 조합입니다.
 2. 시스템이 **역할** 및 **리소스 조달 단위** 필드 조합에 대한 청구 비율이 있는 역할 가격 라인을 찾은 경우 해당 청구 비율이 기본값이 됩니다.
 3. 시스템이 **역할** 및 **리소스 조달 단위** 필드 값을 일치시킬 수 없는 경우 역할은 일치하지만 **리소스 단위** 값이 널인 역할 가격 라인을 검색합니다. 시스템이 일치하는 역할 가격 레코드를 찾으면 해당 레코드의 청구 요금을 기본값으로 설정합니다. 이 일치는 **역할** 대 **리소스 조달 단위** 의 상대 우선 순위에 대한 기본 구성을 판매 가격 책정 차원으로 가정합니다.
 

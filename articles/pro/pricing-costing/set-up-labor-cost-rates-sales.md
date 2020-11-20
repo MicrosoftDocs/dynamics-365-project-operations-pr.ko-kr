@@ -1,21 +1,21 @@
 ---
-title: 인력 비용 요금 설정
+title: 인력 비용 요금 설정 - 라이트
 description: 이 항목은 Project Operations에서 인력 비용 요금을 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079963"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180730"
 ---
-# <a name="setting-up-labor-cost-rates"></a>인력 비용 요금 설정 
+# <a name="set-up-labor-cost-rates---lite"></a>인력 비용 요금 설정 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -27,7 +27,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 다음 표에는 비용 가격표에서 인력 요금을 생성할 때 중요한 일부 필드가 포함되어 있습니다.
 
-| 필드 | 위치 | 관련성, 목적 및 지침 | 다운스트림 영향 |
+| 필드 | 위치 | 설명 | 다운스트림 영향 |
 | --- | --- | --- | --- |
 | 역할 | **일반** 탭 및 **빨리 만들기** 페이지 | 비용 요금을 할당할 역할을 선택합니다. | 들어오는 추정 또는 실제에 대한 역할은 역할 비용을 기본값으로 설정하기 위해 이 라인과 일치시킵니다. |
 | 리소스 조달 단위 | **일반** 탭 및 **빨리 만들기** 페이지 | 이 역할이 사용될 회사의 조직 단위 또는 부문을 선택합니다. 예를 들어 Fabrikam India의 Robotics 부문의 개발자 또는 Fabrikam USA의 소프트웨어 부문의 개발자입니다. | 들어오는 추정 또는 실제에 대한 리소싱 단위는 역할 비용을 기본값으로 설정하기 위해 이 라인과 일치시킵니다. |

@@ -1,21 +1,21 @@
 ---
-title: Finance Cloud 호스팅 환경에 Project Operations 데모 데이터 적용
+title: Finance Cloud 호스팅 환경에 데모 데이터 적용
 description: 이 항목에서는 Project Operations의 데모 데이터를 Dynamics 365 Finance 클라우드 호스팅 환경에 적용하는 방법을 설명합니다.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096630"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365246"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Finance Cloud 호스팅 환경에 Project Operations 데모 데이터 적용
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Finance Cloud 호스팅 환경에 데모 데이터 적용
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 

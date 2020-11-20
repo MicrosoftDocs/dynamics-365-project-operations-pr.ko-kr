@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079929"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181820"
 ---
 # <a name="copy-project-based-quotes"></a>프로젝트 기반 견적 복사
 
@@ -25,9 +25,9 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 그러면 사본의 매개 변수를 입력할 수 있는 대화 상자 페이지가 열립니다. 다음 표에는 대화 상자 페이지에 포함되어 있는 필드가 나와 있습니다. 선택한 값에 따라 복사 프로세스가 변경될 수 있습니다.
 
-| **필드** | **관련성, 목적 및 지침** | **다운스트림 영향** |
+| **필드** | **설명** | **다운스트림 영향** |
 | --- | --- | --- |
-| 주제 | 대상 견적의 관련 주제 또는 이름을 입력합니다. 대화 상자가 열리면 시스템은 **사본** 이 추가된 상태로 소스 견적의 주제로 설정합니다. | |
+| 토픽 | 대상 견적의 관련 주제 또는 이름을 입력합니다. 대화 상자가 열리면 시스템은 **사본** 이 추가된 상태로 소스 견적의 주제로 설정합니다. | |
 | 잠재 고객 | 고객의 회사 또는 거래처 레코드에 대한 참조입니다. 대화 상자가 열리면 시스템이 이를 소스 견적의 거래처로 설정합니다. | 이 필드는 견적의 기본 고객입니다. |
 | 계약 단위 | 이 거래와 관련된 프로젝트의 제공을 담당하는 조직 구성 단위입니다.
 대화 상자가 열리면 시스템이 이를 소스 견적의 계약 단위로 설정합니다. | 계약 단위는 거래가 완료된 후 프로젝트를 실행할 회사의 부서입니다. 모든 계약 단위에는 통화가 있습니다. 이 통화는 프로젝트 실행 중에 발생한 예상 비용과 실제 비용을 보고하는 데 사용됩니다. |

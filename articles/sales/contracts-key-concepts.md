@@ -1,21 +1,21 @@
 ---
-title: 주요 개념 - 프로젝트 계약
+title: 프로젝트 계약 - 주요 개념
 description: 이 항목은 Project Operations에서 프로젝트 계액의 주요 개념에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079988"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175539"
 ---
-# <a name="key-concepts---project-contracts"></a>주요 개념 - 프로젝트 계약
+# <a name="project-contracts---key-concepts"></a>프로젝트 계약 - 주요 개념
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 

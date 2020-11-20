@@ -3,7 +3,7 @@ title: 추산
 description: 이 주제는 Dynamics 365 Project Service Automation에서의 추산에 대한 정보를 제공합니다.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080254"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132770"
 ---
 # <a name="estimates"></a>추산
 
@@ -90,7 +90,7 @@ PSA는 계약 또는 프로젝트에서의 주문 변경을 지원하지 않습�
 
     ![플러그인에서 단계 선택](media/basic-guide-20.png)
 
-5. **기존 업데이트 단계** 대화 상자의 **속성 필터링** 필드에서 줄임표( **...** ) 버튼을 선택합니다:
+5. **기존 업데이트 단계** 대화 상자의 **속성 필터링** 필드에서 줄임표(**...**) 버튼을 선택합니다:
  
     ![기존 업데이트 단계 대화 상자](media/basic-guide-21.png)
 

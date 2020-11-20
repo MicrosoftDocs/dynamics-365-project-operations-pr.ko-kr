@@ -1,21 +1,21 @@
 ---
-title: 선급금 및 보유자 기반 계약
+title: 선불금 및 보유자 기반 계약 - 라이트
 description: 이 항목은 Project Operations에서 보유자 기반 계약 모델 또는 선불에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087997"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180875"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>선급금 및 보유자 기반 계약 
+# <a name="advances-and-retainer-based-contracts---lite"></a>선불금 및 보유자 기반 계약 - 라이트
 
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
@@ -33,7 +33,7 @@ Project Operations에서 보유자 기반 계약 모델과 고정 가격 계약 
 
 Project Operations의 보유자는 고객에게 청구될 때까지 사용할 수 없습니다. 이는 선불 및 보유자에 대한 하위 표의 다음 필드로 표시됩니다.
 
-| 필드 | 관련성, 목적 및 지침 | 다운스트림 영향 |
+| 필드 | 설명 | 다운스트림 영향 |
 | --- | --- | --- |
 | 사용 가능한 금액 | 보유자 또는 선불 레코드에 사용할 수있는 금액입니다. | 선불 또는 보유자가 청구될 때까지 사용할 수 없으므로 사용 가능한 금액이 0이 됩니다. |
 | 사용된 금액 | 보유자 또는 선불에 이미 사용된 금액입니다. | 선불 또는 보유자는 일부 부분이 이미 사용 또는 소비된 것으로 표시된 실제 비용으로 송장에서 부분적으로 조정될 수 있습니다. 나머지 선불 또는 보유자는 실제 비용과 함께 향후 송장을 조정하는 데 사용할 수 있습니다. |

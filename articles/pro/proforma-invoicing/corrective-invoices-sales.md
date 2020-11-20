@@ -1,21 +1,21 @@
 ---
-title: 크레딧 및 수정된 송장
+title: 수정된 송장 - 라이트
 description: 이 항목은 Project Operations에서 수정된 송장에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080163"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176439"
 ---
-# <a name="credits-and-corrected-invoices"></a>크레딧 및 수정된 송장
+# <a name="corrected-invoices---lite"></a>수정된 송장 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
