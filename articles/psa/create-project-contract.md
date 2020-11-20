@@ -3,7 +3,7 @@ title: 프로젝트 계약 만들기
 description: 프로젝트 계약을 만드는 방법(Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7a626da271a4c4e1751870323b56ce54743bb891
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94dd55559f9eaa71758caba7974b0e3b779c40a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080066"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121946"
 ---
 # <a name="create-a-project-contract-project-service"></a>프로젝트 계약서 만들기(Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "4080066"
   
 4. 편집을 마쳤으면, 화면 우측 하단의 **저장** 단추를 클릭합니다.  
   
-5. 계약서를 고객에게 보낼 준비가 되면 **더 보기** (...)를 클릭하고 **보고서 실행** 을 클릭한 다음 **주문** 을 클릭합니다. [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] 문서로 보고서를 저장하고 필요한 경우 편집한 다음 계약서를 고객에게 보냅니다.  
+5. 계약서를 고객에게 보낼 준비가 되면 **더 보기**(...)를 클릭하고 **보고서 실행** 을 클릭한 다음 **주문** 을 클릭합니다. [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] 문서로 보고서를 저장하고 필요한 경우 편집한 다음 계약서를 고객에게 보냅니다.  
   
 6. 고객이 계약 내용을 승인할 경우, **프로젝트 계약** 화면 상단의 **승인** 을 클릭합니다. 고객이 항목 변경을 원할 경우 새 계약서를 만듭니다. 고객이 지금 서비스를 사용하지 않기로 결정할 경우, **프로젝트 계약** 화면 상단의 **실패로 종료** 를 클릭합니다.  
   

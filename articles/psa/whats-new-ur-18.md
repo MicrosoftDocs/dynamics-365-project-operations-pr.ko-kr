@@ -3,7 +3,7 @@ title: Project Service Automation 업데이트 릴리스 18, V3의 새로운 기
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 18, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080006"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119876"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation 업데이트 릴리스 18, V3
 
@@ -36,7 +36,7 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 
 **시간 및 경비**
 
-- 수정됨: **리콜** , **요청** 및 **승인 취소** 플로우에서 명확하지 않은 오류 메시지와 함께 예외가 발생합니다.
+- 수정됨: **리콜**, **요청** 및 **승인 취소** 플로우에서 명확하지 않은 오류 메시지와 함께 예외가 발생합니다.
 - 수정됨: 비용 때문에 **승인 취소** 가 실패하면 관련 예외 오류가 발생하지 않습니다.
 - 수정됨: 10월 일광 절약 시간제(DST) 전환 후 호주의 시간 입력 그리드가 휴무일을 잘못 처리합니다.
 - 수정됨: 기본 논리가 잘못되면 경비 제출이 금지됩니다.

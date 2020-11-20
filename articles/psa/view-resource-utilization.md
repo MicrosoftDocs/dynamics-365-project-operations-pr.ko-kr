@@ -3,7 +3,7 @@ title: 리소스 사용률 보기
 description: 리소스 사용률을 보는 방법(Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e2c76ed1d1c14e1bdadfe919770c4625e2f98840
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5cab86cd6ce797d912ae17178c34bdcb2c87d1e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080125"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124916"
 ---
 # <a name="view-resource-utilization-project-service"></a>리소스 사용율 보기(Project Service)
 
@@ -33,7 +33,7 @@ ms.locfileid: "4080125"
   
 1. **Project Service > 리소스 사용률** 로 이동합니다. 
 
-     모든 리소스 및 리소스 사용 가능 여부의 캘린더 보기가 표시됩니다. 화면 위쪽의 보기 또는 정렬 순서를 선택 합니다. 또한, **날짜** , **주** 또는 **달** 에 대한 사용 가능 여부를 표시할 것인지 선택하고, 화살표를 사용하여 이전 또는 다음 기간을 볼 수도 있습니다. 검색 상자를 사용하여 구체적인 리소스를 찾을 수 있습니다.      
+     모든 리소스 및 리소스 사용 가능 여부의 캘린더 보기가 표시됩니다. 화면 위쪽의 보기 또는 정렬 순서를 선택 합니다. 또한, **날짜**, **주** 또는 **달** 에 대한 사용 가능 여부를 표시할 것인지 선택하고, 화살표를 사용하여 이전 또는 다음 기간을 볼 수도 있습니다. 검색 상자를 사용하여 구체적인 리소스를 찾을 수 있습니다.      
   
 2. **옵션** 을 클릭하여 표시되는 내용을 변경합니다. 예를 들어, 예약 유형별 색상을 볼 수 있는 기호 설명표를 표시하거나 특정 유형의 예약(예: 완료된 예약, 가예약)만 표시되도록 선택할 수 있습니다.  
 

@@ -3,7 +3,7 @@ title: Project Service Automation 업데이트 릴리스 12, V3의 새로운 기
 description: 이 항목에서는 Project Service Automation 업데이트 릴리스 12, V3의 새로운 기능에 대한 정보를 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080013"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119966"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation 업데이트 릴리스 12, V3
 Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
@@ -39,7 +39,7 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
     - 수정: 필요할 때 시간 항목 표 및 일정이 세로 스크롤 막대를 올바르게 표시합니다.
     - 수정: 제출된 비용 및 시간 항목을 승인할 수 있습니다.
     - 수정: 승인 상태가 **승인됨** 에서 **제출됨** 으로 변경될 때 승인 확인 취소 대화 상자 메시지가 승인 상태를 반영하도록 수정되었습니다.
-    - 수정: **가격** , **단위** , **수량** 필드는 승인된 후에 비용 레코드에서 잠깁니다.
+    - 수정: **가격**, **단위**, **수량** 필드는 승인된 후에 비용 레코드에서 잠깁니다.
 
 - 프로젝트 관리
 

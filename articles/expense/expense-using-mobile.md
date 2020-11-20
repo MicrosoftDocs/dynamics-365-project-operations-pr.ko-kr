@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080054"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120911"
 ---
 # <a name="expense-using-mobile"></a>모바일을 사용하여 경비 산정
 
@@ -197,7 +197,7 @@ Dynamics 365 Unified Ops 모바일 앱 다운로드 및 설치:
 
 18. 회사 정책에 경비 게스트가 필요한 경우 **게스트** 를 선택하고 다음 단계를 수행하십시오.
 
-    1. **게스트** , **이전 게스트** 또는 **동료** 를 선택합니다.
+    1. **게스트**, **이전 게스트** 또는 **동료** 를 선택합니다.
     2. 다음 단계 중 하나를 수행합니다.
 
         - **게스트** 를 선택한 경우 다음 단계를 수행하십시오.

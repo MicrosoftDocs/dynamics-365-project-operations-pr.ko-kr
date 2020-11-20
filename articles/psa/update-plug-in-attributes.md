@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080135"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121856"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>새 가격 책정 차원을 포함하도록 플러그인 속성 업데이트
 
@@ -50,7 +50,7 @@ ms.locfileid: "4080135"
 
  ![업데이트할 플러그인의 스크린샷](media/PRT-2.png)
  
-5. 업데이트 창에서 필터링 속성의 타원( **...** )을 클릭합니다.
+5. 업데이트 창에서 필터링 속성의 타원(**...**)을 클릭합니다.
 
  ![기존 단계 구성 정보 업데이트의 스크린샷](media/PRT-3.png)
  

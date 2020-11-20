@@ -3,17 +3,17 @@ title: 새 환경 프로비전
 description: 이 항목은 새 Project Operations 환경을 프로비전하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079939"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121181"
 ---
 # <a name="provision-a-new-environment"></a>새 환경 프로비전
 
@@ -185,4 +185,10 @@ Project Operations에는 애플리케이션 버전이 **10.0.13(10.0.569.20009)*
 
 ![모든 맵 실행 중](./media/22AllMapsRunning.png)
 
-이제 Project Operations 환경이 프로비전 및 구성되었습니다.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Project Operations용 CDS 에 구성 데이터 적용(선택 사항)
+
+Finance 환경에 데모 데이터를 적용한 경우 [Project Operations에 대해 Common Data Service에서 구성 데이터 설정 및 적용](resource-apply-pro-setup-config-data.md)을 참조하여 CDS 환경에 데모 데이터를 적용합니다.
+
+
+이제 Project Operations 환경이 프로비전 및 구성되었습니다. 

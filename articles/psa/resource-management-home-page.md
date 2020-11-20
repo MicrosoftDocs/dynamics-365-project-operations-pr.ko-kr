@@ -3,7 +3,7 @@ title: 리소스 관리 홈 페이지
 description: 이 항목은 리소스를 관리하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1a48dc3c814cfaaa08ba8c00834b0b37d6fbc5a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f4289d838c087f81e221ef736cd8ff24846009fa
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080273"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124151"
 ---
 # <a name="resource-management-home-page"></a>리소스 관리 홈 페이지
 

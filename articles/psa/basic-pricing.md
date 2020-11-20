@@ -3,7 +3,7 @@ title: 프로젝트 가격 책정
 description: 이 항목은 Dynamics 365 Project Service Automation의 가격 책정 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080249"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120776"
 ---
 # <a name="project-pricing"></a>프로젝트 가격 책정 
 

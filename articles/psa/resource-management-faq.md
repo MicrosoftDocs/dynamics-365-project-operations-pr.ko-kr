@@ -3,7 +3,7 @@ title: 리소스 관리 FAQ
 description: 이 항목은 리소스 관리에 대해 자주 묻는 질문에 대한 답변을 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080263"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120146"
 ---
 # <a name="resource-management-faq"></a>리소스 관리 FAQ
 
@@ -47,7 +47,7 @@ ms.locfileid: "4080263"
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Project Service Automation은 어떤 리소스 타입을 지원합니까?
 
-**사용자** 및 **연락처** 가 Dynamics 365 Project Service Automation에서 지원되는 유일한 리소스 타입입니다. 다른 타입의 리소스(예: **장비** 및 **그룹** )를 만들 수 있지만 종단 간 사용 사례는 지원되지 않습니다.
+**사용자** 및 **연락처** 가 Dynamics 365 Project Service Automation에서 지원되는 유일한 리소스 타입입니다. 다른 타입의 리소스(예: **장비** 및 **그룹**)를 만들 수 있지만 종단 간 사용 사례는 지원되지 않습니다.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>할당과 예약 사이의 차이는 무엇입니까?
 

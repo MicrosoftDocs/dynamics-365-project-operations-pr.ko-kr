@@ -3,7 +3,7 @@ title: 프로젝트 진행률 및 비용 소비율
 description: 이 주제는 프로젝트 진행 상황과 비용 소비 추적에 대한 정보를 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b60f72b371a76a59216b0b528d8e63513b06e0d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0793ee0c75bcbdde0fd92a16634457f73f872b5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080213"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120641"
 ---
 # <a name="project-progress-and-cost-consumption"></a>프로젝트 진행률 및 비용 소비율
 

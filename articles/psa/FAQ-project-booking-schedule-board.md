@@ -3,7 +3,7 @@ title: 스케줄 게시판에서 프로젝트 예약을 만들기
 description: 이 항목은 스케줄 게시판에서 프로젝트 예약을 만드는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080069"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122306"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>스케줄 게시판에서 프로젝트 예약을 만들기
 
@@ -33,7 +33,7 @@ ms.locfileid: "4080069"
 
 - **생성된 리소스 요건에서 예약:** 일반 리소스를 만들고 프로젝트 내에서 작업을 할당한 후 리소스 요건을 생성할 수 있습니다.
 
-- **기본 요건에서 예약** : 기본 요건은 **프로젝트** 탭의 스케줄 게시판에 표시됩니다. 
+- **기본 요건에서 예약**: 기본 요건은 **프로젝트** 탭의 스케줄 게시판에 표시됩니다. 
 
 - **새 리소스 요건에서 예약:** 리소스 요건을 처음부터 만들어 프로젝트와 연계할 수 있습니다. 스케줄 게시판에서 리소스 요건은 **요건 열기** 탭에 표시됩니다.
 

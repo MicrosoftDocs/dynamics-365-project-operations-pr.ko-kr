@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080080"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122936"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>견적 라인에서 견적 만들기
 
@@ -83,7 +83,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 2. **검색** 을 선택하고 업데이트할 플러그인을 검색합니다.
 3. 플러그인을 선택한 다음 기본 페이지에서 **선택** 을 선택합니다.
 4. 업데이트할 플러그인의 단계를 선택하고 마우스 오른쪽 버튼으로 클릭한 다음, **업데이트** 를 선택합니다.
-5. **기존 업데이트 단계** 대화 상자의 **속성 필터링** 필드에서 줄임표( **...** ) 버튼을 선택합니다:
+5. **기존 업데이트 단계** 대화 상자의 **속성 필터링** 필드에서 줄임표(**...**) 버튼을 선택합니다:
 6. **속성 선택** 대화 상자에서 맞춤 속성에 대한 확인란을 선택합니다.
 7. **OK** 를 선택하여 대화 상자를 닫은 다음 **업데이트 단계** 를 선택합니다.
 8. 두 번째 플러그인에 대해 1~7 단계를 반복합니다.

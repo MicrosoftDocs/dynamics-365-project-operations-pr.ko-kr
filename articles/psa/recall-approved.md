@@ -3,7 +3,7 @@ title: 승인된 시간 또는 경비 항목 철회
 description: 이 주제는 이전에 승인된 프로젝트 시간 또는 경비 처리를 철회하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080099"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120551"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>승인된 시간 또는 경비 항목 철회
 

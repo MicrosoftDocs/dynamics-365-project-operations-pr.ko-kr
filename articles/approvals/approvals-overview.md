@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079912"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123836"
 ---
 # <a name="approvals-overview"></a>승인 개요
 
@@ -27,7 +27,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 ## <a name="approve-an-entry"></a>항목 승인
 **승인** 양식을 사용하면 다른 유형의 승인을 볼 수 있도록 다른 보기 간에 전환할 수 있습니다.
   
-1. **승인** 양식으로 이동하고 **경비** , **시간** 또는 **리콜** 을 선택합니다.
+1. **승인** 양식으로 이동하고 **경비**, **시간** 또는 **리콜** 을 선택합니다.
 2. 각 승인을 검토하고 승인할 항목을 선택합니다.
 3. **승인** 을 선택하여 선택한 항목을 승인합니다.
 시스템은 이러한 항목을 처리하고 실제 또는 예약을 생성합니다.

@@ -3,7 +3,7 @@ title: 영업 프로세스 중에 프로젝트에 대한 작업 추정 제공
 description: 영업 프로세스 중에 프로젝트에 대한 추정을 제공하는 방법(Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ddb7f8c0ff8c7fd7e51edb42f9d227f2b91a811b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bd83b6872d437f1d074d6ea2336c751bdfdd9e6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080102"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120596"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>영업 프로세스 중에 프로젝트에 대한 작업 추정 제공(Project Service)
 

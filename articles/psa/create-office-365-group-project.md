@@ -3,7 +3,7 @@ title: 프로젝트용 Office 365 그룹 만들기
 description: Project Service에서 Office 365 그룹을 만드는 방법
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 080b00e03597b0e81f09926fcac0093136a4565b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c3f2be4f68fc492dc867cdbbac6f1401eede629d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080057"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118841"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>프로젝트용 Office 365 그룹 만들기 (Project Service)
 

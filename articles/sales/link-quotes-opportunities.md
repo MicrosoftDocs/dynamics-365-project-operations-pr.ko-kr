@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079964"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118121"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>영업 기회에서 프로젝트 견적 작성
 
@@ -30,7 +30,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 영업 기회에서 프로젝트 견적을 작성하려면 다음 단계를 완료하십시오.
 
 1. **프로젝트 영업 기회** 페이지를 열고 **견적** 탭을 선택합니다. 
-2. **견적** 하위 표에서 **+** 영업 기회에 따라 새 프로젝트 견적을 작성합니다. 모든 영업 기회 라인 및 관련 프로젝트 가격표가 영업 기회의 새 견적으로 복사됩니다.
+2. **견적** 하위 표에서 **+** 를 선택하여 영업 기회에 따라 새 프로젝트 견적을 작성합니다. 모든 영업 기회 라인 및 관련 프로젝트 가격표가 영업 기회의 새 견적으로 복사됩니다.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>영업 기회 영업 프로세스 흐름에서
 

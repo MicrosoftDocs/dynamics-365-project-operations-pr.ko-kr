@@ -3,7 +3,7 @@ title: 프로젝트 리소싱 홈 페이지
 description: 이 항목은 Dynamics 365용 Project Service Automation(PSA)에서 리소스 관리 능력에 대한 정보를 제공합니다.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d6a499ca8b143b549e0457fb967e4795e608050
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ca49c29f079f04dad127cfe56f262577ea8cc4a1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080264"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124061"
 ---
 # <a name="resourcing-projects-home-page"></a>프로젝트 리소싱 홈 페이지
 

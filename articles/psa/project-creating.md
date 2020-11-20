@@ -3,7 +3,7 @@ title: 프로젝트 일정
 description: 이 주제는 일정을 만드는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080087"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123250"
 ---
 # <a name="project-schedules"></a>프로젝트 일정 
 
@@ -83,12 +83,12 @@ ms.locfileid: "4080087"
 
 **일정** 표는 완전히 액세스할 수 있으며 내레이터, JAWS 또는 NVDA와 같은 화면 판독기에서 사용할 수 있습니다. 화살표 키(Microsoft Excel에서와 같이)를 사용하여 표 영역을 이동할 수 있으며 탭 키를 사용하여 대화형 UI 요소를 진행할 수 있으며 아래쪽 화살표 키, Enter 키 또는 스페이스바를 사용하여 드롭다운 메뉴를 선택하고 호출할 수 있습니다. 열 헤더도 대화형입니다. 열을 숨기고 표시하고, 탭 키와 화살표 키를 사용하여 열 머리글을 이동하고, 도구 모음의 작업 단추를 사용할 수 있습니다. 또한, 다음 바로 가기 키를 사용할 수 있습니다.
 
-- **새로 고침** : ALT+SHIFT+F5
-- **추가** : ALT+SHIFT+Insert
-- **삭제** : ALT+SHIFT+Delete
-- **위/아래로 이동** : ALT+SHIFT+위/아래 화살표
-- **들여쓰기/내어쓰기** : ALT_SHIFT+왼쪽/오른쪽 화살표
-- **계층 확장/축소** : ALT+SHIFT+더하기/빼기 키
+- **새로 고침**: ALT+SHIFT+F5
+- **추가**: ALT+SHIFT+Insert
+- **삭제**: ALT+SHIFT+Delete
+- **위/아래로 이동**: ALT+SHIFT+위/아래 화살표
+- **들여쓰기/내어쓰기**: ALT_SHIFT+왼쪽/오른쪽 화살표
+- **계층 확장/축소**: ALT+SHIFT+더하기/빼기 키
 
 ## <a name="task-attributes"></a>업무 특성
 
@@ -98,19 +98,19 @@ ms.locfileid: "4080087"
  
 ### <a name="schedule-attributes"></a>일정 특성
 
-**작업량** , **시작 날짜** , **종료 날짜** 및 **기간** 특성은 작업에 대한 일정을 정의합니다.
+**작업량**, **시작 날짜**, **종료 날짜** 및 **기간** 특성은 작업에 대한 일정을 정의합니다.
 
 추가 일정 특성은 다음과 같습니다.
 
-- **작업 시간** : 작업을 완료하는 데 필요한 예상 시간을 입력합니다. 
-- **기간** : 작업을 완료하는 데 필요한 근무일 수를 지정합니다.
-- **일정 ID** : 이 자동으로 생성된 ID는 계층 구조에서 작업을 주문하는 데 사용됩니다. 작업 간의 종속성은 작업이 수행되는 실제 순서를 관리합니다.
+- **작업 시간**: 작업을 완료하는 데 필요한 예상 시간을 입력합니다. 
+- **기간**: 작업을 완료하는 데 필요한 근무일 수를 지정합니다.
+- **일정 ID**: 이 자동으로 생성된 ID는 계층 구조에서 작업을 주문하는 데 사용됩니다. 작업 간의 종속성은 작업이 수행되는 실제 순서를 관리합니다.
  
 ### <a name="staffing-attributes"></a>직원 구성 특성
 
 인력 배치 특성은 일정의 **리소스** 필드를 통해 액세스됩니다. 기존 리소스를 검색하거나 **만들기** 를 클릭하고 **빠른 만들기** 창에서 프로젝트 팀 구성원을 새 리소스로 추가할 수 있습니다.
 
-**역할** , **리소스 단위** 및 **위치 이름** 필드는 작업에 대한 인력 지정 요구 사항을 설명하는 데 사용됩니다. 작업 일정과 함께 이러한 인력 특성은 이 작업을 수행하는 데 사용할 수 있는 리소스를 찾는 데 사용됩니다.
+**역할**, **리소스 단위** 및 **위치 이름** 필드는 작업에 대한 인력 지정 요구 사항을 설명하는 데 사용됩니다. 작업 일정과 함께 이러한 인력 특성은 이 작업을 수행하는 데 사용할 수 있는 리소스를 찾는 데 사용됩니다.
 
 **역할** - 작업을 수행하는 데 필요한 리소스 유형을 지정합니다.
 

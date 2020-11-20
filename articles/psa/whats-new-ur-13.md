@@ -3,7 +3,7 @@ title: Project Service Automation 업데이트 릴리스 13, V3의 새로운 기
 description: 이 항목에서는 Project Service Automation 업데이트 릴리스 13, V3의 새로운 기능에 대한 정보를 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 435b70255dd0053a496362c9ced9e742cfcca843
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080012"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121631"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation 업데이트 릴리스 13, V3
 Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
@@ -53,6 +53,6 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
 - Sales
 
      - 수정: 역할 가격 레코드가 작성되면 중복 거래 유형 레코드가 오류를 반환합니다.
-     - 수정: **새 영업 기회** , **견적** , **주문 라인** , **제품 추가** 에 대한 추가 버튼이 영업 기회, 견적, 주문 제품에 대한 명령과 프로젝트 기반 라인 하위 표에 표시됩니다.
+     - 수정: **새 영업 기회**, **견적**, **주문 라인** 및 **제품 추가** 를 위한 추가 단추는 영업 기회, 견적, 제품 주문 및 프로젝트 기반 라인 하위 그리드에 대한 명령에서 볼 수 있습니다.
 
 

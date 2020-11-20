@@ -3,7 +3,7 @@ title: 가격표 만들기
 description: 가격표를 만드는 방법(Project Service)
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080088"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122036"
 ---
 # <a name="create-a-price-list-project-service"></a>가격표 만들기(Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "4080088"
   
 2.  **새로 만들기** 를 클릭합니다.  
   
-3.  **컨텍스트** 에서 **비용** , **구매** 또는 **영업** 중 이 가격표의 용도를 선택합니다.  
+3.  **컨텍스트** 에서 **비용**, **구매** 또는 **영업** 중 이 가격표의 용도를 선택합니다.  
   
 4.  **이름** 에서 가격표에 대한 이름을 입력합니다.  
   
@@ -47,7 +47,7 @@ ms.locfileid: "4080088"
   
 6.  **시간 단위** 에서 날짜, 시간 등과 같이 가격을 적용할 기간을 지정합니다.  
   
-7.  필요에 따라 **시작일** , **종료일** , **설명** 을 입력합니다.  
+7.  필요에 따라 **시작일**, **종료일**, **설명** 을 입력합니다.  
   
 8.  **저장** 을 클릭하여 레코드를 만들면 계속 편집할 수 있습니다.  
   

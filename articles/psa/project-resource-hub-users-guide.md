@@ -3,7 +3,7 @@ title: 프로젝트 리소스 허브를 위한 사용자 가이드
 description: 프로젝트 리소스 허브의 최종 사용자 가이드(Dynamics 365 for Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080043"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123161"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>프로젝트 리소스 허브의 사용자 가이드
 
@@ -88,7 +88,7 @@ ms.locfileid: "4080043"
 
 1. ![메뉴 단추](media/MenuButton.png "메뉴 단추") 단추 단추를 누른 다음 **경비** 를 탭합니다. 그러면 일정이 나타납니다.
 
-2. **일간** , **주간** 또는 **월간** 보기로 전환하거나 이전 또는 다음 기간으로 이동할 수 있습니다. 
+2. **일간**, **주간** 또는 **월간** 보기로 전환하거나 이전 또는 다음 기간으로 이동할 수 있습니다. 
 
 3. 경비를 입력하려면 명령 모음에서 **새로 만들기** 를 누릅니다. 
 

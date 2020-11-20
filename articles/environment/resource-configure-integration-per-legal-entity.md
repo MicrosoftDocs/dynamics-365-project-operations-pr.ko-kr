@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096760"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122891"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>법인별 프로젝트 Project Operations 통합 구성 
 
@@ -48,6 +48,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 Dynamics 365 Customer Engagement에서 Project Operations를 사용하는 각 법인은 기본 매개 변수 집합이 필요합니다. 이러한 매개 변수는 **프로젝트 관리 및 회계 매개 변수** 페이지의 **Project Operations** 탭에 구성됩니다. 매개 변수는 다음과 같습니다.
 
-  - **결제 유형 기본값** : Project Operations는 라인 속성 Finance에 매핑되어야 하는 고정된 청구 유형 기본값 세트를 사용합니다. 각 청구 유형 **지정하지 않음** , **청구 가능** , **청구 불가능** , **무료** 및 **사용할 수 없음** 에 대한 레코드를 만듭니다.
-  - **프로젝트 범주 기본값** : 각 트랜잭션 유형에 사용할 기본 프로젝트 범주를 선택합니다. 이러한 기본값은 **Project Operations 통합 분개장** 및 실제 프로젝트에 대해 트랜잭션 범주가 지정되지 않은 추정에 사용됩니다.
-  - **예측** : 시간 및 비용 추정에 사용할 예측 모델을 선택합니다.
+  - **결제 유형 기본값**: Project Operations는 라인 속성 Finance에 매핑되어야 하는 고정된 청구 유형 기본값 세트를 사용합니다. 각 청구 유형 **지정하지 않음**, **청구 가능**, **청구 불가능**, **무료** 및 **사용할 수 없음** 에 대한 레코드를 만듭니다.
+  - **프로젝트 범주 기본값**: 각 트랜잭션 유형에 사용할 기본 프로젝트 범주를 선택합니다. 이러한 기본값은 **Project Operations 통합 분개장** 및 실제 프로젝트에 대해 트랜잭션 범주가 지정되지 않은 추정에 사용됩니다.
+  - **예측**: 시간 및 비용 추정에 사용할 예측 모델을 선택합니다.

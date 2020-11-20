@@ -3,7 +3,7 @@ title: 예약 및 할당 조정
 description: 이 항목은 실제값에 대한 정보를 제공합니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080098"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120461"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>예약 및 할당 조정
 
@@ -35,7 +35,7 @@ ms.locfileid: "4080098"
 
 거명된 각 팀원에 대해 **조정** 탭에는 개별 과업 할당에 대한 예약 및 할당이 표시됩니다. 그것은 셀에 수 개월~수 일의 기간을 나타낼 수있는 시간을 보여줍니다.
 
-**시간 척도** 필드에서 **월** , **주** 또는 **일** 을 선택할 수 있습니다. 기본적으로 **주** 가 선택됩니다. 그러나 **설정** 버튼을 선택하여 기본값을 변경할 수 있습니다. **조정** 탭이 열리면 현재 날짜가 표시되지만 캘린더 컨트롤을 사용하여 시간의 앞뒤로 이동할 수 있습니다. 프로젝트에 미래의 시작 날짜가 있으면 탭에 해당 날짜가 열립니다. 캘린더 컨트롤에는 프로젝트 시작 및 종료 날짜로 이동할 수 있는 옵션도 있습니다.
+**시간 척도** 필드에서 **월**, **주** 또는 **일** 을 선택할 수 있습니다. 기본적으로 **주** 가 선택됩니다. 그러나 **설정** 버튼을 선택하여 기본값을 변경할 수 있습니다. **조정** 탭이 열리면 현재 날짜가 표시되지만 캘린더 컨트롤을 사용하여 시간의 앞뒤로 이동할 수 있습니다. 프로젝트에 미래의 시작 날짜가 있으면 탭에 해당 날짜가 열립니다. 캘린더 컨트롤에는 프로젝트 시작 및 종료 날짜로 이동할 수 있는 옵션도 있습니다.
 
 각 리소스에서 확장기 컨트롤을 사용하여 해당 리소스의 예약 내역을 표시할 수 있습니다. 각 리소스의 할당을 개별 과업의 수준으로 확장할 수도 있습니다.
 
