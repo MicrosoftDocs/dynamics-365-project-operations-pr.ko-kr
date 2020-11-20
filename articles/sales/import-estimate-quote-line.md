@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079968"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125591"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기
 
@@ -31,7 +31,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
   - **역할** 
   - **프로젝트 작업**
 
-선택 사항에 따라 이 견적 라인에 포함된 모든 거래 분류에 대한 프로젝트의 추정이 복사됩니다. 포함된 트랜잭션 클래스를 확인하려면 프로젝트 기반 견적 라인에서 **일반** 탭을 클릭하고 **시간 포함** , **경비 포함** 및 **요금 포함** 에 대한 값을 확인합니다.
+선택 사항에 따라 이 견적 라인에 포함된 모든 거래 분류에 대한 프로젝트의 추정이 복사됩니다. 포함된 트랜잭션 클래스를 확인하려면 프로젝트 기반 견적 라인에서 **일반** 탭을 클릭하고 **시간 포함**, **경비 포함** 및 **요금 포함** 에 대한 값을 확인합니다.
 
 추정을 가져올 때 시스템은 견적에 첨부 된 프로젝트 가격표와 프로젝트 기반 견적 라인에 설정된 청구 유형을 기반으로 가격을 기본값으로 설정합니다. 역할 또는 범주가 프로젝트 기반 견적 라인에 청구 불가능으로 설정된 경우 가져온 추정 라인은 청구 불가능으로 설정되고 견적 라인의 견적된 값에 합산되지 않습니다.
 

@@ -3,7 +3,7 @@ title: Project Service Automation 업데이트 릴리스 17, V3의 새로운 기
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 17, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080008"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126807"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation 업데이트 릴리스 17, V3
 
@@ -52,6 +52,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 **Sales**
 
 - 해결: **Invoice.PreValidateInvoiceUpdate** 는 이제 레코드 소유자를 올바르게 재할당하는 시나리오를 처리합니다.
-- 해결: 트랜잭션 클래스가 **시간** 이면 **QuoteLineDetails** , **JournalLine** , **InvoiceLineDetail** 및 **ContractLineDetails** 를 포함하여 모든 엔터티에 대해 **UnitGroup** 을 편집할 수 없습니다.. 그러나 **단위** 는 **JournalLine** 과 **InvoiceLineDetails** 의 경우에만 편집할 수 없습니다 .
+- 해결: 트랜잭션 클래스가 **시간** 이면 **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** 및 **ContractLineDetails** 를 포함하여 모든 엔터티에 대해 **UnitGroup** 을 편집할 수 없습니다.. 그러나 **단위** 는 **JournalLine** 과 **InvoiceLineDetails** 의 경우에만 편집할 수 없습니다 .
 
 

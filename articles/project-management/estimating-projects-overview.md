@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079941"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131576"
 ---
 # <a name="estimate-projects-overview"></a>프로젝트 추정 개요
 
@@ -74,7 +74,7 @@ Project Operations는 계약 또는 프로젝트에서의 주문 변경을 지�
 2. **검색** 을 선택하고 업데이트할 플러그인을 검색합니다.
 3. 플러그인을 선택한 다음 기본 페이지에서 **선택** 을 클릭합니다.
 4. 업데이트할 플러그인의 단계를 선택하고 마우스 오른쪽 버튼으로 클릭한 다음, **업데이트** 를 선택합니다.
-5. **기존 업데이트 단계** 대화 상자의 **속성 필터링** 필드에서 줄임표( **...** ) 버튼을 선택합니다:
+5. **기존 업데이트 단계** 대화 상자의 **속성 필터링** 필드에서 줄임표(**...**) 버튼을 선택합니다:
 6. **속성 선택** 대화 상자에서 맞춤 속성에 대한 확인란을 선택합니다.
 7. **OK** 를 선택하여 대화 상자를 닫은 다음 **업데이트 단계** 를 선택합니다.
 8. 두 번째 플러그인에 대해 1~7 단계를 반복합니다.

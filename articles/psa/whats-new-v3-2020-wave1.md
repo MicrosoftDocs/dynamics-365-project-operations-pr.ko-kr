@@ -2,7 +2,7 @@
 title: Project Service Automation 버전 3.x 웨이브 1 2020의 새로운 내용 또는 변경 내용
 description: 이 항목에서는 Project Service Automation 버전 3 웨이브 1 2020의 새로운 사항과 변경된 내용에 대한 정보를 제공합니다.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 16b51995f863d9ee54172625dacbf081c51c8556
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2308f83e09c25059b6a36599b04b5b00f66c704f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079998"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126491"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Project Service Automation 버전 3 웨이브 1 2020의 새로운 내용 또는 변경 내용
 이 항목에서는 PSA(Project Service Automation) 버전 3.x wave 1 2020의 최신 릴리스로 이동할 때 주요 업그레이드 고려 사항을 강조합니다.

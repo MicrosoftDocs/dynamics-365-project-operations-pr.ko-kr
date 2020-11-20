@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079974"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131711"
 ---
 # <a name="expense-estimates"></a>경비 추정
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
@@ -32,9 +32,9 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 각 경비 라인 항목에 대해 다음 속성이 정의됩니다.
 
-- **범주** : 프로젝트에서 발생한 모든 경비를 설명하는 데 사용되는 공통 그룹입니다.
-- **시작 날짜** : 경비 발생이 예상되는 날짜입니다.
-- **수량** : 특정 범주에 대한 예상 경비 항목 수입니다.
-- **단가 가격** : 경비의 비용을 계산하는 데 사용되는 단가입니다.
-- **단위 판매 가격** : 경비의 판매 가격을 계산하는 데 사용되는 단가입니다.
+- **범주**: 프로젝트에서 발생한 모든 경비를 설명하는 데 사용되는 공통 그룹입니다.
+- **시작 날짜**: 경비 발생이 예상되는 날짜입니다.
+- **수량**: 특정 범주에 대한 예상 경비 항목 수입니다.
+- **단가 가격**: 경비의 비용을 계산하는 데 사용되는 단가입니다.
+- **단위 판매 가격**: 경비의 판매 가격을 계산하는 데 사용되는 단가입니다.
 

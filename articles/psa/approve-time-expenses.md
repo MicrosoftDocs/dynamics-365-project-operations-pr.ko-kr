@@ -3,7 +3,7 @@ title: 시간 및 비용 승인
 description: 시간 및 비용을 승인하는 방법(Project Service)
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080230"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127121"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>시간 및 비용 승인(Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4080230"
   
 2.  승인할 항목을 클릭합니다.  
   
-3.  **시간 항목** , **경비 항목** , **휴무/휴가** 탭에서 각 항목을 검토하고 필요에 따라 변경합니다.  
+3.  **시간 항목**, **경비 항목**, **휴무/휴가** 탭에서 각 항목을 검토하고 필요에 따라 변경합니다.  
   
 4.  항목을 승인하려면 이를 선택하고 **승인** 을 클릭합니다. 한 번에 여러 항목을 선택하여 승인할 수 있습니다.  
   

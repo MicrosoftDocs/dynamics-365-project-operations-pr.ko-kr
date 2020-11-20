@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079989"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128698"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
 
@@ -35,13 +35,13 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 역할은 특정 프로젝트 기반 계약 내용에서 청구 가능하거나 청구 불가능할 수 있습니다.
 
-프로젝트 기반 계약 내용의 **청구 가능 역할** 탭에 있는 **청구 가능 범주** 하위 표의 **청구 유형** 필드에서 역할에 대한 청구 유형을 업데이트합니다.
+프로젝트 기반 계약 내용의 **청구 가능한 역할** 탭에 있는 **청구 가능한 범주** 하위 그리드의 **청구 유형** 필드에서 역할에 대한 청구 유형을 업데이트합니다.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>트랜잭션 범주를 청구 가능 또는 청구 불가능으로 업데이트
 
 트랜잭션 범주는 특정 프로젝트 기반 계약 내용에서 청구 가능하거나 청구 불가능할 수 있습니다.
 
-프로젝트 기반 계약 내용의 **청구 가능 범주** 탭에 있는 **청구 가능 범주** 하위 표의 **청구 유형** 필드에서 트랜잭션에 대한 청구 유형을 업데이트합니다.
+프로젝트 기반 계약 내용의 **청구 가능한 범주** 탭에 있는 **청구 가능한 범주** 하위 그리드의 **청구 유형** 필드에서 트랜잭션에 대한 청구 유형을 업데이트합니다.
 
 ### <a name="resolve-chargeability"></a>청구 가능성 해결
 

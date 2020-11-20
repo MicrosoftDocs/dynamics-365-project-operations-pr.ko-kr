@@ -3,7 +3,7 @@ title: 작업 분할 구조로 프로젝트 일정 짜기
 description: 작업 분할 구조로 프로젝트 일정을 짜는 방법(Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080234"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127886"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>작업 분할 구조로 프로젝트 일정 짜기(Project Service)
 
@@ -86,14 +86,14 @@ ms.locfileid: "4080234"
   
 ### <a name="schedule-attributes"></a>일정 특성
 
- - **작업량(시간)** , **리소스 수** , **시작 날짜** , **종료 날짜** , **기간** 에 값을 할당하여 업무에 대한 일정을 정합니다. 
+ - **작업량(시간)**, **리소스 수**, **시작 날짜**, **종료 날짜**, **기간** 에 값을 할당하여 업무에 대한 일정을 정합니다. 
  - **작업량** 은 업무 완료에 걸리는 시간의 추정치입니다.
  - **리소스 수** 는 프로젝트 관리자가 업무에 투입할 리소스의 추정치로 가능한 최상의 일정을 만드는 데 도움이 됩니다. 
- - **기간** (일별)은 업무 완료에 걸리는 작업일 수를 나타냅니다.  
+ - **기간**(일별)은 업무 완료에 걸리는 작업일 수를 나타냅니다.  
   
 ### <a name="staffing-attributes"></a>직원 구성 특성
 
- - **역할** , **리소스 조직 단위** , **리소스 수** 및 **리소스** 는 업무에 필요한 직원 구성을 설명합니다. 
+ - **역할**, **리소스 조직 단위**, **리소스 수** 및 **리소스** 는 업무에 필요한 직원 구성을 설명합니다. 
  - **역할** 은 업무 수행에 필요한 리소스 유형을 설명합니다. 
  - **리소스 조직 단위** 는 해당 업무에 구성할 리소스의 조직 단위를 나타내며, 리소스에 대한 단위 판매 가격을 결정할 때 고려하는 사항이므로 업무의 비용 및 판매 추정치에 영향을 미칩니다. 
  - **리소스** 에는 포괄적 리소스 또는 명명된 리소스가 있습니다.  

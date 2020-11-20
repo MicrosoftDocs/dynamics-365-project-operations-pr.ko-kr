@@ -3,7 +3,7 @@ title: Project Service Automation 업데이트 릴리스 21, V3의 새로운 기
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 21, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080003"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126716"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation 업데이트 릴리스 21, V3
 
@@ -54,7 +54,7 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 
 다음과 같은 문제가 해결되었습니다.
 
-- **프로젝트** 양식 그리드( **리소스 할당** , **작업** , **조정** 보기, **경비 추정** )은 프로젝트가 활성이 아닐 때도 편집 가능한 상태로 유지됩니다.
+- **프로젝트** 양식 그리드(**리소스 할당**, **작업**, **조정** 보기, **경비 추정**)은 프로젝트가 활성이 아닐 때도 편집 가능한 상태로 유지됩니다.
 - 중복 고객은 확인된 프로젝트 계약에 연결된 고객과 병합할 수 없습니다.
 - 유효한 달력이 없는 리소스가 추가되면 시스템은 사용자에게 친숙한 오류 메시지를 반환하지 않습니다.
 - 프로젝트가 **Microsoft Project 추가 기능** 에 연결되면 작업 그리드의 **작업 추가** 버튼이 활성화됩니다.
@@ -71,7 +71,7 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - **역할** 이 0이 아닌 총 판매 가격을 갖더라도 **범주** 에 대한 **총 판매 가격** 이 영(0)입니다.
 - 고객은 다른 사용자 지정 프로세스가 추가 필드를 업데이트할 때 **송장 상태** 필드의 값을 **송장 발부 준비 완료** 로 변경할 수 없습니다.
 - **송장 라인 새로 고침** 버튼을 반복적으로 선택하면 여러 개의 중복된 라인을 만들 수 있습니다.
-- **빠른 보기** 양식의 **역할 가격** 하위 그리드에서 **가격 업데이트** 버튼이 작동하지 않습니다.
+- **빠른 보기** 양식의 **역할 가격** 하위 그리드에서 **가격 업데이트** 단추가 작동하지 않습니다.
 - **판매 가격 목록 해결** 논리가 시간대를 부적절하게 처리하여 가격 목록을 잘못 선택하게 됩니다.
 - 프로젝트의 **총 실제 비용** 은 한 번의 입력이 승인된 후 소수의 금액으로 해제될 수 있습니다.
 - **가격 해결** 논리는 **검색된 역할 가격** 에서 **'기본 단위'** 및 **'기본 단위의 가격'** 필드에 값이 없는 경우 사용자에게 친숙한 오류 메시지를 제공하지 않습니다.

@@ -3,7 +3,7 @@ title: 데모 데이터 실험
 description: Project Service Automation에 대한 데모 데이터를 다운로드하고 실험하는 방법.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d0bc6d171f2f3080b7b1c34222de49e93415a139
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 91cf4150c651794fe38ebf5a406cad936aa5105d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080131"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130506"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>데모 데이터 실험(Project Service)
 

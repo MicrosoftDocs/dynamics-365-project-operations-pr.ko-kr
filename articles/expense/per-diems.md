@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079926"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128516"
 ---
 # <a name="per-diems"></a>일비
 
@@ -30,4 +30,4 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 4. 아침, 점심 또는 저녁 식사에 대한 식사 비율 감소를 지정하려면 **일비** 탭의 **경비 관리 매개 변수** 페이지에서 필드를 업데이트합니다. 
     
 ## <a name="submit-expenses-using-per-diem"></a>일비를 사용하여 경비 제출
-일비를 활용한 경비를 제출하려면 **일비** 경비 보고서를 생성할 때 경비 범주를 사용합니다. **일비 시작 날짜** , **일비 종료 날짜** 및 **일비 위치** 를 입력합니다. 금액은 선택한 위치의 일비 요율을 기준으로 계산되며, 식비 감소는 일비 요율 등급에 따라 계산됩니다.
+일비를 활용한 경비를 제출하려면 **일비** 경비 보고서를 생성할 때 경비 범주를 사용합니다. **일비 시작 날짜**,**일비 종료 날짜** 및 **일비 위치** 를 입력합니다. 금액은 선택한 위치의 일비 요율을 기준으로 계산되며, 식비 감소는 일비 요율 등급에 따라 계산됩니다.

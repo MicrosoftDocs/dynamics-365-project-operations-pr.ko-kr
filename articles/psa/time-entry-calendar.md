@@ -3,7 +3,7 @@ title: 시간 항목 캘린더
 description: 이 주제는 시간 항목 캘린더를 사용하드는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afc31609c51f48db61ce359c18707b5a92211082
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 413aba735a5011a9b40c1d5b0bf43c6771db0f7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080142"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131203"
 ---
 # <a name="time-entry-calendar"></a>시간 항목 캘린더
 

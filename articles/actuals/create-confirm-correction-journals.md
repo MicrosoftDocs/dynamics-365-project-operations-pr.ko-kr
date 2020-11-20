@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080049"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127767"
 ---
 # <a name="create-and-confirm-correction-journals"></a>수정 분개장 생성 및 확인
 
@@ -73,7 +73,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 2. **승인된 경비** 목록에서 수정하려는 프로젝트를 선택한 다음 **올바른 항목** 을 선택합니다. 지정된 유형 **경비 수정** 으로 새로 수정된 분개장이 자동으로 작성됩니다. 
 
-3. **새 분개장** 페이지에 수정에 대한 **설명** 을 입력하고 **경비 수정** 탭의 **경비에 대한 새 값** 섹션에서 선택한 경비 항목에 대해 수정할 데이터 필드를 선택합니다. 예를 들어, 경비를 다른 **프로젝트** 에 할당하거나 **경비 범주** , **경비 날짜** 또는 **예약 가능 리소스** 를 수정할 수 있습니다.
+3. **새 분개장** 페이지에 수정에 대한 **설명** 을 입력하고 **경비 수정** 탭의 **경비에 대한 새 값** 섹션에서 선택한 경비 항목에 대해 수정할 데이터 필드를 선택합니다. 예를 들어, 경비를 다른 **프로젝트** 에 할당하거나 **경비 범주**, **경비 날짜** 또는 **예약 가능 리소스** 를 수정할 수 있습니다.
 
 4. **미리 보기** 를 선택합니다. 대화 상자에서 **확인** 을 선택합니다. 
 

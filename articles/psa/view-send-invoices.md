@@ -3,7 +3,7 @@ title: 송장 보기 및 보내기
 description: 송장 보기 및 보내는 방법(Project Service)
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 27994c4a14b25d769a0919514906a7be1804dae2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080124"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125771"
 ---
 # <a name="view-and-send-invoices-project-service"></a>송장 보기 및 보내기(Project Service)
 

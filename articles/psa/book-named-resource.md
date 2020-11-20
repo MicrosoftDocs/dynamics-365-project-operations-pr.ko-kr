@@ -3,7 +3,7 @@ title: 리소스 요건에서 명명된 리소스 예약
 description: 이 항목은 일반 리소스 요건을 위해 명명된 리소스를 예약하는 것에 대한 정보를 제공합니다.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080257"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125906"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>리소스 요건에서 명명된 리소스 예약
 

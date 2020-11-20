@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079920"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126131"
 ---
 # <a name="vat-recovery-in-expense-management"></a>경비 관리의 VAT 회수
 
@@ -47,9 +47,9 @@ Contoso 정책에 따라 모든 경비에는 일치하는 영수증이 있어야
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>세금 정보 확인 및 경비 보고서 게시
 
-4월 이전에 Contoso의 미지급금 코디네이터는 경비 보고서를 게시할 수 있으며 여기에서 누락된 세금 정보를 입력해야 합니다. 그녀는 **경비 보고서 세부 정보** 페이지에서 Nancy의 승인된 경비 보고서를 볼 수 있습니다. 그런 다음 4월은 거래 세부 사항을 보기 위해 경비 보고서를 엽니다. 그녀는 Nancy가 거래 중 하나에 대해 품목 판매세 그룹을 입력하지 않았음을 확인합니다. 이 정보가 제공되지 않았기 때문에 4월은 경비 보고서를 게시할 수 없습니다. 따라서 그녀는 경비 관리의 **세금 구성** 페이지에서 국가/지역 및 거래 유형에 적합한 품목 판매세 그룹을 찾습니다. 4월은 이제 총계정 원장에 경비 보고서를 전기할 수 있습니다.
+4월 이전에 Contoso의 미지급금 코디네이터는 경비 보고서를 게시할 수 있으며 여기에서 누락된 세금 정보를 입력해야 합니다. 그녀는 **경비 보고서 세부 정보** 페이지에서 Nancy의 승인된 경비 보고서를 볼 수 있습니다. 그런 다음 4월은 거래 세부 사항을 보기 위해 경비 보고서를 엽니다. 그녀는 Nancy가 거래 중 하나에 대해 품목 판매세 그룹을 입력하지 않았음을 확인합니다. 이 정보가 제공되지 않았기 때문에 4월은 경비 보고서를 게시할 수 없습니다. 따라서 그녀는 경비 관리의 **세금 구성** 페이지에서 국가/지역 및 거래 유형에 적합한 품목 판매세 그룹을 찾습니다. April은 이제 총계정 원장에 경비 보고서를 전기할 수 있습니다.
 
-4월이 경비 보고서를 게시하면 VAT 회수 가능 작업 항목이 생성됩니다. 이 작업 항목은 백오피스 처리 팀의 구성원에게 할당됩니다. 4월은 게시가 성공했음을 확인하는 메시지를 받습니다. 이 메시지에는 복구를 위해 식별된 VAT 거래 수도 나열됩니다.
+April이 경비 보고서를 게시하면 VAT 회수 가능 작업 항목이 생성됩니다. 이 작업 항목은 백오피스 처리 팀의 구성원에게 할당됩니다. April은 게시가 성공했음을 확인하는 메시지를 받습니다. 이 메시지에는 복구를 위해 식별된 VAT 거래 수도 나열됩니다.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>국제 VAT 회수에 적합한 경비를 처리합니다.
 

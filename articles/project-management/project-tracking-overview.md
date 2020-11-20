@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079903"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127365"
 ---
 # <a name="project-tracking-overview"></a>프로젝트 추적 개요
 
@@ -25,10 +25,10 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 **작업량 추적** 보기는 작업에 소요된 실제 작업 시간을 작업의 계획된 작업 시간과 비교하여 일정의 작업 진행 상황을 추적합니다. Dynamics 365 Project Operations는 다음 수식을 사용하여 추적 메트릭을 계산합니다.
 
-- **진행률 비율** : 현재까지 사용된 실제 작업량 ÷ 작업 완료 시 추정 비용(EAC) 
-- **완료 예상(ETC)** : 계획된 작업량 – 현재까지 사용된 실제 작업량 
-- **EAC** : 남은 작업량 + 현재까지 사용된 실제 작업량 
-- **예상 노력 분산** : 계획된 작업량 – EAC
+- **진행률 비율**: 현재까지 사용된 실제 작업량 ÷ 작업 완료 시 추정 비용(EAC) 
+- **완료 예상(ETC)**: 계획된 작업량 – 현재까지 사용된 실제 작업량 
+- **EAC**: 남은 작업량 + 현재까지 사용된 실제 작업량 
+- **예상 노력 분산**: 계획된 작업량 – EAC
 
 Project Operations는 작업에 대한 작업량 차이를 보여 줍니다. EAC가 계획된 작업량보다 더 많은 경우 작업이 원래 계획한 것보다 더 많은 시간이 소요되고 일정이 늦어질 것으로 예상됩니다. EAC가 계획된 작업량보다 더 적은 경우 작업이 원래 계획한 것보다 더 적은 시간이 소요되고 일정이 앞당겨질 것으로 예상됩니다.
 
@@ -60,10 +60,10 @@ Project Operations는 작업에 대한 작업량 차이를 보여 줍니다. EAC
 > [!NOTE]
 > 이 보기는 인건비만 표시하며 경비 예상의 비용은 포함하지 않습니다. Project Operations는 다음 수식을 사용하여 추적 메트릭을 계산합니다.
 
-- **사용된 비용의 백분율** : 현재까지 사용된 실제 비용 ÷ 완료시 예상 비용
-- **완료 비용(CTC)** : 계획된 비용 – 현재까지 사용된 실제 비용
-- **EAC** : 남은 비용 + 현재까지 사용된 실제 비용
-- **예상 비용 차이** : 계획된 비용 – EAC
+- **사용된 비용의 백분율**: 현재까지 사용된 실제 비용 ÷ 완료시 예상 비용
+- **완료 비용(CTC)**: 계획된 비용 – 현재까지 사용된 실제 비용
+- **EAC**: 남은 비용 + 현재까지 사용된 실제 비용
+- **예상 비용 차이**: 계획된 비용 – EAC
 
 비용 차이의 추정이 작업에 표시됩니다. EAC가 계획된 비용보다 더 많은 경우 작업이 원래 계획한 것보다 더 많이 소요될 것으로 예상됩니다. 따라서 예산을 초과하는 추세입니다. EAC가 계획된 비용보다 더 적은 경우 작업이 원래 계획한 것보다 더 적게 소요될 것으로 예상됩니다. 따라서 예산을 초과하지 않는 추세입니다.
 

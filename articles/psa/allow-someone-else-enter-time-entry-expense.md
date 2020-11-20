@@ -3,7 +3,7 @@ title: 다른 사람이 시간 항목 또는 경비를 입력할 수 있도록 �
 description: 다른 사용자가 자신의 시간 항목 또는 경비를 입력하도록 허용하는 방법(Project Service)
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080025"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130384"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>다른 사용자가 자신의 시간 항목 또는 경비를 입력하도록 허용(Project Service)
 
@@ -37,13 +37,13 @@ ms.locfileid: "4080025"
   
 2.  명령 모음에서 **새로 만들기** 를 클릭합니다.  
   
-3. **이름** : 레코드의 이름을 입력합니다.  
+3. **이름**: 레코드의 이름을 입력합니다.  
   
-4. **유형** : 사용자 대신 대리인이 시간 또는 경비 항목을 입력할 수 있는지 여부를 선택합니다.  
+4. **유형**: 사용자 대신 대리인이 시간 또는 경비 항목을 입력할 수 있는지 여부를 선택합니다.  
   
-5. **대리인** : 대리인으로 지정하려는 사람의 이름을 선택합니다.  
+5. **대리인**: 대리인으로 지정하려는 사람의 이름을 선택합니다.  
   
-6. **시작 및 종료 날짜** : 위임 시작 및 종료 날짜를 선택합니다.  
+6. **시작 및 종료 날짜**: 위임 시작 및 종료 날짜를 선택합니다.  
   
 7.  완료되면 **저장 후 닫기** 를 클릭합니다.  
   

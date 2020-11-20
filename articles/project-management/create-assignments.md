@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079965"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131756"
 ---
 # <a name="create-resource-assignments"></a>리소스 할당 만들기
 
@@ -37,7 +37,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>예약 가능한 모든 리소스 목록에서 명명된 리소스 할당
 
-**리소스 선택기** 의 검색 상자를 사용하여 예약 가능한 모든 활성 리소스를 검색하고 리프 노드 작업에 할당할 수 있습니다. 이 방법으로 할당된 리소스는 예약 없이 팀에 추가됩니다. 이는 팀원을 추가하고 **없음** 을 할당 방법으로 선택하는 것과 유사합니다. 리소스는 **팀** , **리소스 할당** 및 **조정** 탭에 할당 및 예약 부족만 있는 리소스로 표시됩니다. 가용성을 사용하려면 예약합니다.
+**리소스 선택기** 의 검색 상자를 사용하여 예약 가능한 모든 활성 리소스를 검색하고 리프 노드 작업에 할당할 수 있습니다. 이 방법으로 할당된 리소스는 예약 없이 팀에 추가됩니다. 이는 팀원을 추가하고 **없음** 을 할당 방법으로 선택하는 것과 유사합니다. 리소스는 **팀**, **리소스 할당** 및 **조정** 탭에 할당 및 예약 부족만 있는 리소스로 표시됩니다. 가용성을 사용하려면 예약합니다.
 
 1. 작업 그리드, 게시판 또는 시간 표시줄에서 **할당 대상** 셀로 이동합니다.
 2. 검색 상자에 이름을 입력합니다. 이름에 대한 검색 결과는 **리소스 선택기** 의 **기타 리소스** 에 표시됩니다.
