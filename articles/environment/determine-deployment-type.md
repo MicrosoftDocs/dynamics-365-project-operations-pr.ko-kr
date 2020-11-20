@@ -3,17 +3,17 @@ title: 배포 유형 결정
 description: 이 항목에서는 회사에 적합한 Project Operations 배포 유형을 결정하는 데 도움이 되는 정보를 제공합니다.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080056"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401226"
 ---
 # <a name="determine-your-deployment-type"></a>배포 유형 결정
 
@@ -25,11 +25,11 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation을 사용하는 Dynamics의 기존 고객
-Project Operations에는 Project Service Automation과 함께 제공되는 기능이 포함됩니다. 향후 이러한 고객을 위한 업그레이드 경로가 릴리스될 예정입니다.
+Project Operations에는 Project Service Automation과 함께 제공되는 기능이 포함됩니다. 2021년 릴리스 웨이브 1에서 이러한 고객을 위한 업그레이드 경로가 릴리스됩니다.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>프로젝트 관리 및 회계를 사용하는 Dynamics 365 Finance의 기존 고객 
 
-프로젝트 관리 및 회계 기능을 사용하는 기존 재무 고객은 그대로 계속 사용할 수 있습니다. [리소스/생산 주문 시나리오에 대한 Project Operations](#pma)를 참조하십시오.
+프로젝트 관리 및 회계 기능을 사용하는 기존 Finance 고객은 그대로 계속 사용할 수 있습니다. [리소스/생산 주문 시나리오에 대한 Project Operations](#pma)를 참조하십시오.
 
 
 ## <a name="deployment-types"></a>배포 유형
@@ -47,12 +47,13 @@ Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재�
 
 라이트 배포에는 다음 기능이 포함됩니다.
 
+- Dynamics 365 Sales 애플리케이션 경험을 확장하는 프로젝트의 영업 프로세스
 - 웹용 Microsoft Project를 사용한 프로젝트 계획
 - 다차원 가격 책정
 - 통합 리소스 관리
 - 시간 추적
 - 기본 경비
-- 송장 제안
+- 견적 및 고객 대면 송장 발행 
 
 #### <a name="deployment-steps"></a>배포 단계
 [배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.
@@ -62,7 +63,8 @@ Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재�
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>리소스/비 재고 시나리오에 대한 Project Operations
 리소스/비재고 시나리오에 대한 Project Operations에는 다음 기능이 포함됩니다.
-  
+ 
+- Dynamics 365 Sales 애플리케이션을 확장하는 프로젝트의 영업 프로세스
 - 웹용 Microsoft Project를 사용한 프로젝트 계획
 - 다차원 가격 책정
 - 통합 리소스 관리
@@ -70,8 +72,8 @@ Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재�
 - 기본 경비
 - 전체 경비
 - OCR 영수증
-- 전체 송장 발행
-- 수익 인식
+- 견적 및 고객 대면 송장 발행 
+- 프로젝트의 수익 인식
 
 #### <a name="deployment-steps"></a>배포 단계
 [배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.
