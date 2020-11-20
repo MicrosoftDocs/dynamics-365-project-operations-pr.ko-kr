@@ -3,7 +3,7 @@ title: 다른 사람이 시간 항목 또는 경비를 입력할 수 있도록 �
 description: 다른 사용자가 자신의 시간 항목 또는 경비를 입력하도록 허용하는 방법(Project Service)
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,76 +18,76 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080025"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130384"
 ---
-# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="08870-103">다른 사용자가 자신의 시간 항목 또는 경비를 입력하도록 허용(Project Service)</span><span class="sxs-lookup"><span data-stu-id="08870-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
+# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="70572-103">다른 사용자가 자신의 시간 항목 또는 경비를 입력하도록 허용(Project Service)</span><span class="sxs-lookup"><span data-stu-id="70572-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="08870-104">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 에서 자신을 대신해서 다른 사람이 시간 또는 경비 항목을 입력하도록 대리인을 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+<span data-ttu-id="70572-104">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 에서 자신을 대신해서 다른 사람이 시간 또는 경비 항목을 입력하도록 대리인을 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
   
-## <a name="create-a-delegate"></a><span data-ttu-id="08870-105">대리인 만들기</span><span class="sxs-lookup"><span data-stu-id="08870-105">Create a delegate</span></span>  
+## <a name="create-a-delegate"></a><span data-ttu-id="70572-105">대리인 만들기</span><span class="sxs-lookup"><span data-stu-id="70572-105">Create a delegate</span></span>  
   
-1.  <span data-ttu-id="08870-106">메인 메뉴에서 **Project Service** > **위임** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="70572-106">메인 메뉴에서 **Project Service** > **위임** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="08870-107">명령 모음에서 **새로 만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-107">On the command bar, click **New**.</span></span>  
+2.  <span data-ttu-id="70572-107">명령 모음에서 **새로 만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-107">On the command bar, click **New**.</span></span>  
   
-3. <span data-ttu-id="08870-108">**이름** : 레코드의 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-108">**Name** : Enter a name for the record.</span></span>  
+3. <span data-ttu-id="70572-108">**이름**: 레코드의 이름을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-108">**Name**: Enter a name for the record.</span></span>  
   
-4. <span data-ttu-id="08870-109">**유형** : 사용자 대신 대리인이 시간 또는 경비 항목을 입력할 수 있는지 여부를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-109">**Type** : Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
+4. <span data-ttu-id="70572-109">**유형**: 사용자 대신 대리인이 시간 또는 경비 항목을 입력할 수 있는지 여부를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
   
-5. <span data-ttu-id="08870-110">**대리인** : 대리인으로 지정하려는 사람의 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-110">**Delegate** : Select the name of the person you want to be the delegate.</span></span>  
+5. <span data-ttu-id="70572-110">**대리인**: 대리인으로 지정하려는 사람의 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
   
-6. <span data-ttu-id="08870-111">**시작 및 종료 날짜** : 위임 시작 및 종료 날짜를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-111">**Start and end dates** : Choose dates when delegation starts and ends.</span></span>  
+6. <span data-ttu-id="70572-111">**시작 및 종료 날짜**: 위임 시작 및 종료 날짜를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
   
-7.  <span data-ttu-id="08870-112">완료되면 **저장 후 닫기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-112">When you're done, click **Save & Close**.</span></span>  
+7.  <span data-ttu-id="70572-112">완료되면 **저장 후 닫기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-112">When you're done, click **Save & Close**.</span></span>  
   
-## <a name="turn-off-delegation"></a><span data-ttu-id="08870-113">위임 안 함</span><span class="sxs-lookup"><span data-stu-id="08870-113">Turn off delegation</span></span>  
+## <a name="turn-off-delegation"></a><span data-ttu-id="70572-113">위임 안 함</span><span class="sxs-lookup"><span data-stu-id="70572-113">Turn off delegation</span></span>  
   
-1.  <span data-ttu-id="08870-114">메인 메뉴에서 **Project Service** > **위임** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="70572-114">메인 메뉴에서 **Project Service** > **위임** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="08870-115">위임을 중단할 위임 레코드를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-115">Select the delegation record you want to turn off.</span></span>  
+2.  <span data-ttu-id="70572-115">위임을 중단할 위임 레코드를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-115">Select the delegation record you want to turn off.</span></span>  
   
-3.  <span data-ttu-id="08870-116">명령 모음에서 **비활성화** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-116">On the command bar, click **Deactivate**.</span></span>  
+3.  <span data-ttu-id="70572-116">명령 모음에서 **비활성화** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-116">On the command bar, click **Deactivate**.</span></span>  
   
-4.  <span data-ttu-id="08870-117">**비활성화 확인** 대화 상자에서 **비활성화** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
+4.  <span data-ttu-id="70572-117">**비활성화 확인** 대화 상자에서 **비활성화** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
   
-## <a name="enter-time-for-someone-else"></a><span data-ttu-id="08870-118">다른 사람을 대신해 시간 입력</span><span class="sxs-lookup"><span data-stu-id="08870-118">Enter time for someone else</span></span>  
+## <a name="enter-time-for-someone-else"></a><span data-ttu-id="70572-118">다른 사람을 대신해 시간 입력</span><span class="sxs-lookup"><span data-stu-id="70572-118">Enter time for someone else</span></span>  
   
-1.  <span data-ttu-id="08870-119">메인 메뉴에서 **Project Service** > **시간 항목** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
+1.  <span data-ttu-id="70572-119">메인 메뉴에서 **Project Service** > **시간 항목** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
   
-2.  <span data-ttu-id="08870-120">명령 모음에서 **리소스 이름** 드롭다운 메뉴를 선택하고 시간을 입력하도록 할 사람의 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
+2.  <span data-ttu-id="70572-120">명령 모음에서 **리소스 이름** 드롭다운 메뉴를 선택하고 시간을 입력하도록 할 사람의 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
   
-3.  <span data-ttu-id="08870-121">**확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-121">Click **OK**.</span></span>  
+3.  <span data-ttu-id="70572-121">**확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-121">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="08870-122">그러면 일정이 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="08870-122">This brings up the calendar.</span></span> <span data-ttu-id="08870-123">이전 또는 다음 주에 대한 일정을 확인하려면 **이전** 또는 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="08870-124">이번 주로 돌아가려면 **오늘** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-124">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="70572-122">그러면 일정이 나타납니다.</span><span class="sxs-lookup"><span data-stu-id="70572-122">This brings up the calendar.</span></span> <span data-ttu-id="70572-123">이전 또는 다음 주에 대한 일정을 확인하려면 **이전** 또는 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="70572-124">이번 주로 돌아가려면 **오늘** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-124">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="08870-125">시간을 입력하려면 **새로 만들기** 를 클릭하거나 시간을 입력하려는 날짜 아래의 일정을 두 번 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+5.  <span data-ttu-id="70572-125">시간을 입력하려면 **새로 만들기** 를 클릭하거나 시간을 입력하려는 날짜 아래의 일정을 두 번 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-6.  <span data-ttu-id="08870-126">**시간 항목** 양식의 필드를 입력한 다음 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
+6.  <span data-ttu-id="70572-126">**시간 항목** 양식의 필드를 입력한 다음 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
   
-7.  <span data-ttu-id="08870-127">계속해서 해당 주에 대한 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-127">Continue entering time for the week.</span></span> <span data-ttu-id="08870-128">입력을 완료하고 입력 내용에 대해 확인한 후 이상이 없으면 **전송** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
+7.  <span data-ttu-id="70572-127">계속해서 해당 주에 대한 시간을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-127">Continue entering time for the week.</span></span> <span data-ttu-id="70572-128">입력을 완료하고 입력 내용에 대해 확인한 후 이상이 없으면 **전송** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
   
-## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="08870-129">다른 사람을 대신해 경비 입력</span><span class="sxs-lookup"><span data-stu-id="08870-129">Enter expenses for someone else</span></span>  
+## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="70572-129">다른 사람을 대신해 경비 입력</span><span class="sxs-lookup"><span data-stu-id="70572-129">Enter expenses for someone else</span></span>  
   
-1.  <span data-ttu-id="08870-130">메인 메뉴에서 **Project Service** > **경비** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
+1.  <span data-ttu-id="70572-130">메인 메뉴에서 **Project Service** > **경비** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
   
-2.  <span data-ttu-id="08870-131">명령 모음에서 **리소스 이름** 드롭다운 메뉴를 선택하고 경비를 입력하도록 할 사람의 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
+2.  <span data-ttu-id="70572-131">명령 모음에서 **리소스 이름** 드롭다운 메뉴를 선택하고 경비를 입력하도록 할 사람의 이름을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
   
-3.  <span data-ttu-id="08870-132">**확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-132">Click **OK**.</span></span>  
+3.  <span data-ttu-id="70572-132">**확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-132">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="08870-133">이전 또는 다음 주에 대한 일정을 확인하려면 **이전** 또는 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="08870-134">이번 주로 돌아가려면 **오늘** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-134">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="70572-133">이전 또는 다음 주에 대한 일정을 확인하려면 **이전** 또는 **다음** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="70572-134">이번 주로 돌아가려면 **오늘** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-134">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="08870-135">경비를 입력하려면 **새로 만들기** 를 클릭하거나</span><span class="sxs-lookup"><span data-stu-id="08870-135">To enter an expense, either click **New**</span></span>  
+5.  <span data-ttu-id="70572-135">경비를 입력하려면 **새로 만들기** 를 클릭하거나</span><span class="sxs-lookup"><span data-stu-id="70572-135">To enter an expense, either click **New**</span></span>  
   
-6.  <span data-ttu-id="08870-136">**새 경비** 양식을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="08870-137">영수증을 추가할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="08870-137">You can also add receipts.</span></span>  
+6.  <span data-ttu-id="70572-136">**새 경비** 양식을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="70572-137">영수증을 추가할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="70572-137">You can also add receipts.</span></span>  
   
-7.  <span data-ttu-id="08870-138">완료되면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="08870-138">When you’re done, click **Save**.</span></span>  
+7.  <span data-ttu-id="70572-138">완료되면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="70572-138">When you’re done, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="08870-139">참고 항목</span><span class="sxs-lookup"><span data-stu-id="08870-139">See Also</span></span>  
- [<span data-ttu-id="08870-140">시간, 비용 및 공동 작업 가이드</span><span class="sxs-lookup"><span data-stu-id="08870-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="70572-139">참고 항목</span><span class="sxs-lookup"><span data-stu-id="70572-139">See Also</span></span>  
+ [<span data-ttu-id="70572-140">시간, 비용 및 공동 작업 가이드</span><span class="sxs-lookup"><span data-stu-id="70572-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)

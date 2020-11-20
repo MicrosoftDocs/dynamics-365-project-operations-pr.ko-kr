@@ -3,7 +3,7 @@ title: 리소스 요건에서 명명된 리소스 예약
 description: 이 항목은 일반 리소스 요건을 위해 명명된 리소스를 예약하는 것에 대한 정보를 제공합니다.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080257"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125906"
 ---
-# <a name="book-named-resources-from-resource-requirements"></a><span data-ttu-id="32ef1-103">리소스 요건에서 명명된 리소스 예약</span><span class="sxs-lookup"><span data-stu-id="32ef1-103">Book named resources from resource requirements</span></span>
+# <a name="book-named-resources-from-resource-requirements"></a><span data-ttu-id="40fe8-103">리소스 요건에서 명명된 리소스 예약</span><span class="sxs-lookup"><span data-stu-id="40fe8-103">Book named resources from resource requirements</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="32ef1-104">명명된 리소스를 예약하여 리소스 요건이 있는 일반 리소스를 대체할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-104">You can book a named resource to replace generic resource that has a resource requirement.</span></span>
+<span data-ttu-id="40fe8-104">명명된 리소스를 예약하여 리소스 요건이 있는 일반 리소스를 대체할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-104">You can book a named resource to replace generic resource that has a resource requirement.</span></span>
 
-1. <span data-ttu-id="32ef1-105">Project Service Automation(PSA)의 경우 **프로젝트** 페이지에서 **팀** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-105">In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.</span></span>
-2. <span data-ttu-id="32ef1-106">목록에서 리소스 요건이 있는 일반 리소스를 선택한 다음 **예약** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-106">Select the generic resource that has a resource requirement from the list and then click **Book**.</span></span> <span data-ttu-id="32ef1-107">또는 리소스 요건을 연 다음 **예약** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-107">Or, open the resource requirement and then click **Book**.</span></span>
+1. <span data-ttu-id="40fe8-105">Project Service Automation(PSA)의 경우 **프로젝트** 페이지에서 **팀** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-105">In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.</span></span>
+2. <span data-ttu-id="40fe8-106">목록에서 리소스 요건이 있는 일반 리소스를 선택한 다음 **예약** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-106">Select the generic resource that has a resource requirement from the list and then click **Book**.</span></span> <span data-ttu-id="40fe8-107">또는 리소스 요건을 연 다음 **예약** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-107">Or, open the resource requirement and then click **Book**.</span></span>
 
 
 ![일반 팀원 예약](media/RM-how-to-14.png)
 
 
-3. <span data-ttu-id="32ef1-109">**스케줄 도우미** 페이지에서 프로젝트 팀에 예약할 명명된 리소스를 선택한 다음 **예약** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-109">On the **Schedule Assistant** page, select a named resource to book onto your project team and then click **Book**.</span></span>
+3. <span data-ttu-id="40fe8-109">**스케줄 도우미** 페이지에서 프로젝트 팀에 예약할 명명된 리소스를 선택한 다음 **예약** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-109">On the **Schedule Assistant** page, select a named resource to book onto your project team and then click **Book**.</span></span>
 
 ![스케줄 도우미를 사용하여 일반 팀원 예약](media/RM-how-to-15.png)
 
-<span data-ttu-id="32ef1-111">명명된 리소스에 의해 예약이 완료되고 이행되면 일반 리소스가 명명된 리소스로 대체됩니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-111">When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.</span></span>
+<span data-ttu-id="40fe8-111">명명된 리소스에 의해 예약이 완료되고 이행되면 일반 리소스가 명명된 리소스로 대체됩니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-111">When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.</span></span>
 
 ![일반 팀원을 대체하는 명명된 팀원](media/RM-how-to-16.png)
 
-<span data-ttu-id="32ef1-113">스케줄에서의 배정도 명명된 리소스로 업데이트됩니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-113">The assignments on the schedule are updated with the named resource as well.</span></span>
+<span data-ttu-id="40fe8-113">스케줄에서의 배정도 명명된 리소스로 업데이트됩니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-113">The assignments on the schedule are updated with the named resource as well.</span></span>
 
 ![프로젝트 작업에 배정된 명명된 팀원](media/RM-how-to-17.png)
 
-## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a><span data-ttu-id="32ef1-115">명명된 여러 리소스로 일반 리소스 이행</span><span class="sxs-lookup"><span data-stu-id="32ef1-115">Fulfill a generic resource with multiple named resources</span></span>
-<span data-ttu-id="32ef1-116">일반 리소스를 위한 요건을 여러 명명된 리소스로 충족하는 것은 명명된 단일 리소스를 배정하는 것과 유사합니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-116">Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource.</span></span> <span data-ttu-id="32ef1-117">예컨대, 5일의 기간과 120시간의 노력이 드는 과업이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-117">For example, there is a task with a duration of five days and 120 hours of effort.</span></span> <span data-ttu-id="32ef1-118">이 과업은 주 5일에 걸쳐 일반적인 하루 8시간 일하는 하나의 리소스로 완료할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-118">This task can't be completed by one resource that works a typical eight-hour day over a five day week.</span></span> 
+## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a><span data-ttu-id="40fe8-115">명명된 여러 리소스로 일반 리소스 이행</span><span class="sxs-lookup"><span data-stu-id="40fe8-115">Fulfill a generic resource with multiple named resources</span></span>
+<span data-ttu-id="40fe8-116">일반 리소스를 위한 요건을 여러 명명된 리소스로 충족하는 것은 명명된 단일 리소스를 배정하는 것과 유사합니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-116">Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource.</span></span> <span data-ttu-id="40fe8-117">예컨대, 5일의 기간과 120시간의 노력이 드는 과업이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-117">For example, there is a task with a duration of five days and 120 hours of effort.</span></span> <span data-ttu-id="40fe8-118">이 과업은 주 5일에 걸쳐 일반적인 하루 8시간 일하는 하나의 리소스로 완료할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-118">This task can't be completed by one resource that works a typical eight-hour day over a five day week.</span></span> 
 
 ![5일에 걸쳐 120시간의 노력이 필요한 과업](media/RM-how-to-21.png)
 
-<span data-ttu-id="32ef1-120">이 요건은 120시간의 로봇 공학을 위한 것으로서 하루 24시간에 해당됩니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-120">The requirement is for 120 hours of robotics engineering over five days, which is 24 hours per day.</span></span>
+<span data-ttu-id="40fe8-120">이 요건은 120시간의 로봇 공학을 위한 것으로서 하루 24시간에 해당됩니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-120">The requirement is for 120 hours of robotics engineering over five days, which is 24 hours per day.</span></span>
 
 ![일당 요건](media/RM-how-to-22.png)
 
-<span data-ttu-id="32ef1-122">이는 일반 리소스 요청을 이행하기 위해 여러 개의 명명된 리소스가 필요한 경우의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-122">This is an example of when multiple named resources are needed to fulfill a generic resource request.</span></span> <span data-ttu-id="32ef1-123">요건을 충족하려면 여러 리소스를 예약해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-123">You will need to book multiple resources to fulfill the requirement.</span></span>
+<span data-ttu-id="40fe8-122">이는 일반 리소스 요청을 이행하기 위해 여러 개의 명명된 리소스가 필요한 경우의 예입니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-122">This is an example of when multiple named resources are needed to fulfill a generic resource request.</span></span> <span data-ttu-id="40fe8-123">요건을 충족하려면 여러 리소스를 예약해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-123">You will need to book multiple resources to fulfill the requirement.</span></span>
 
 ![요건을 충족하기 위한 여러 리소스 예약](media/RM-how-to-23.png)
 
-<span data-ttu-id="32ef1-125">이 시나리오의 주요 차이점은 일반 리소스가 과업에 배정된 팀에 남아 있고 예약된 명명된 리소스 팀원이 직위의 일부로 배정되지 않는다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-125">The main difference in this scenario is that the generic resource remains on the team assigned to the task, and the booked named resource team members are not assigned as part of the position.</span></span> <span data-ttu-id="32ef1-126">프로젝트 관리자는 명명된 리소스에 적합한 과업을 배정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-126">The project manager can assign the work as appropriate to the named resources.</span></span> <span data-ttu-id="32ef1-127">**조정** 보기는 프로젝트 관리자가 여러 리소스에 걸쳐 작업 배정에 대한 예약을 나누는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-127">The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments.</span></span> <span data-ttu-id="32ef1-128">요건을 구성하는 작업 번들이 있는 경우와 같이 위의 간단한 예보다 더 복잡한 시나리오에서는 프로젝트 관리자가 배정하려는 방식의 의도를 시스템에서 가정해야 하기 때문에 이 작업은 자동으로 수행되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-128">This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system.</span></span> <span data-ttu-id="32ef1-129">시스템이 의도를 이해할 수 없기 때문에 가정이 의도한 것과 다를 수 있으며 올바르지 않거나 예측할 수 없는 결과가 발생할 가능성이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-129">Because the system can't understand intent, chances are that the assumptions will be different than intended and an incorrect or unpredictable result will happen.</span></span> <span data-ttu-id="32ef1-130">프로젝트 관리자가 **조정** 보기의 도움을 받아 의도적으로 배정을 만들 때까지 예측 가능한 결과는 일반 리소스가 배정된 상태로 유지된다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="32ef1-130">The predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.</span></span>
+<span data-ttu-id="40fe8-125">이 시나리오의 주요 차이점은 일반 리소스가 과업에 배정된 팀에 남아 있고 예약된 명명된 리소스 팀원이 직위의 일부로 배정되지 않는다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-125">The main difference in this scenario is that the generic resource remains on the team assigned to the task, and the booked named resource team members are not assigned as part of the position.</span></span> <span data-ttu-id="40fe8-126">프로젝트 관리자는 명명된 리소스에 적합한 과업을 배정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-126">The project manager can assign the work as appropriate to the named resources.</span></span> <span data-ttu-id="40fe8-127">**조정** 보기는 프로젝트 관리자가 여러 리소스에 걸쳐 작업 배정에 대한 예약을 나누는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-127">The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments.</span></span> <span data-ttu-id="40fe8-128">요건을 구성하는 작업 번들이 있는 경우와 같이 위의 간단한 예보다 더 복잡한 시나리오에서는 프로젝트 관리자가 배정하려는 방식의 의도를 시스템에서 가정해야 하기 때문에 이 작업은 자동으로 수행되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-128">This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system.</span></span> <span data-ttu-id="40fe8-129">시스템이 의도를 이해할 수 없기 때문에 가정이 의도한 것과 다를 수 있으며 올바르지 않거나 예측할 수 없는 결과가 발생할 가능성이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-129">Because the system can't understand intent, chances are that the assumptions will be different than intended and an incorrect or unpredictable result will happen.</span></span> <span data-ttu-id="40fe8-130">프로젝트 관리자가 **조정** 보기의 도움을 받아 의도적으로 배정을 만들 때까지 예측 가능한 결과는 일반 리소스가 배정된 상태로 유지된다는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="40fe8-130">The predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.</span></span>
 
 

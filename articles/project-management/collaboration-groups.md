@@ -5,22 +5,22 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 58868694987688e279e717d1f7acaf3fd9514770
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e0a31e71dd1e184e2e9539ecfd5f82f718a5f159
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079911"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131846"
 ---
-# <a name="collaboration-with-office-groups"></a><span data-ttu-id="0a45f-103">Office 그룹과 공동 작업</span><span class="sxs-lookup"><span data-stu-id="0a45f-103">Collaboration with Office Groups</span></span>
+# <a name="collaboration-with-office-groups"></a><span data-ttu-id="c032a-103">Office 그룹과 공동 작업</span><span class="sxs-lookup"><span data-stu-id="c032a-103">Collaboration with Office Groups</span></span>
 
-<span data-ttu-id="0a45f-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="0a45f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="c032a-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="c032a-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="0a45f-105">Office 그룹을 사용하면 Common Data Service에서 다른 팀 구성원과 프로젝트를 공유할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0a45f-105">Office Groups allow you to share a project with other team members in the Common Data Service.</span></span> <span data-ttu-id="0a45f-106">그룹에 사용자를 추가하면 프로젝트 소유권이 그룹으로 이전됩니다.</span><span class="sxs-lookup"><span data-stu-id="0a45f-106">When you add users to the group, project ownership transfers to the group.</span></span> <span data-ttu-id="0a45f-107">모든 사용자는 프로젝트에 대한 편집 권한을 갖습니다.</span><span class="sxs-lookup"><span data-stu-id="0a45f-107">All users will have edit permission on the project.</span></span> <span data-ttu-id="0a45f-108">관리자가 권한을 부여한 경우 사용자는 프로젝트를 볼 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0a45f-108">Users may also see the project if privileges have been granted by the administrator.</span></span> <span data-ttu-id="0a45f-109">이러한 사용자는 그룹에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0a45f-109">These users won't be displayed in the group.</span></span>
+<span data-ttu-id="c032a-105">Office 그룹을 사용하면 Common Data Service에서 다른 팀 구성원과 프로젝트를 공유할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c032a-105">Office Groups allow you to share a project with other team members in the Common Data Service.</span></span> <span data-ttu-id="c032a-106">그룹에 사용자를 추가하면 프로젝트 소유권이 그룹으로 이전됩니다.</span><span class="sxs-lookup"><span data-stu-id="c032a-106">When you add users to the group, project ownership transfers to the group.</span></span> <span data-ttu-id="c032a-107">모든 사용자는 프로젝트에 대한 편집 권한을 갖습니다.</span><span class="sxs-lookup"><span data-stu-id="c032a-107">All users will have edit permission on the project.</span></span> <span data-ttu-id="c032a-108">관리자가 권한을 부여한 경우 사용자는 프로젝트를 볼 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c032a-108">Users may also see the project if privileges have been granted by the administrator.</span></span> <span data-ttu-id="c032a-109">이러한 사용자는 그룹에 표시되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c032a-109">These users won't be displayed in the group.</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="0a45f-110">**그룹** 을 누르고 추가하면 사용자가 그룹에만 추가됩니다.</span><span class="sxs-lookup"><span data-stu-id="0a45f-110">Users are only added to the group if you press **Groups** and add them.</span></span> <span data-ttu-id="0a45f-111">이것은 웹용 프로젝트의 동작과 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="0a45f-111">This is different to the behaviour of Project for the Web.</span></span> 
+> <span data-ttu-id="c032a-110">**그룹** 을 누르고 추가하면 사용자가 그룹에만 추가됩니다.</span><span class="sxs-lookup"><span data-stu-id="c032a-110">Users are only added to the group if you press **Groups** and add them.</span></span> <span data-ttu-id="c032a-111">이것은 웹용 프로젝트의 동작과 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="c032a-111">This is different to the behaviour of Project for the Web.</span></span> 
 
