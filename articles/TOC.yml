@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: 새로운 기능
       items:
+        - name: 2020년 12월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 2020년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: 프로젝트 영업 프로세스
@@ -87,7 +89,7 @@
                 - name: 프로젝트 기반 견적 라인에서 여러 고객 관리
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: 프로젝트 견적 라인의 청구 가능 구성 요소 구성
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: 견적 라인에서 견적 만들기
                   href: sales/create-estimate-quote-line.md
                 - name: 프로젝트에서 프로젝트 기반 견적 라인으로 추정 가져오기
@@ -109,7 +111,7 @@
             - name: 프로젝트 계약에 대한 프로젝트 가격표 관리
               href: sales/contracts-manage-project-price-lists.md
             - name: 프로젝트 계약에 대한 여러 고객 관리
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: 프로젝트 기반 계약 내용
               items:
                 - name: 프로젝트 기반 계약 내용 개요
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: 프로젝트 계약 복사
               href: pro/sales/copy-project-contracts-sales.md
+            - name: 선불금 및 보유자
+              items:
+                - name: 선불금 및 보유자 기반 계약 - 라이트
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: 보유자 일정 설정 - 라이트
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: 계약에 대한 임시 선불금 생성 - 라이트
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 가격 책정 및 원가 계산
       items:
         - name: 가격표 설정
@@ -152,16 +162,24 @@
               href: pricing-costing/cost-price-resolution.md
             - name: 추정 및 실제에 대한 판매 가격 해결
               href: pricing-costing/sales-price-resolution.md
-            - name: 원가표
+            - name: 가격표 복사
               href: pricing-costing/copy-price-lists.md
         - name: 가격 책정 차원
           items:
             - name: 가격 책정 차원 개요
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: 사용자 지정 가격 책정 차원에 대한 솔루션 만들기
+              href: sales/create-solution-custompd.md
             - name: 기존 필드를 가격 책정 차원으로 사용
               items:
                 - name: 가격 책정 차원의 Project Operations 필드
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 가격 책정 차원으로 예약 가능한 리소스 사용
+                  href: sales/use-br-as-pd.md
+                - name: 트랜잭션 범주를 가격 책정 차원으로 사용
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 프로젝트에서 여러 역할을 있는 예약 가능한 리소스
+                  href: sales/br-playing-multiple-roles.md
             - name: 가격 책정 차원의 사용자 지정 필드
               items:
                 - name: 가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: 가격 책정 차원의 사용자 지정 필드 설정
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 새 가격 책정 차원을 포함하도록 플러그인 특성 업데이트
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: 가격 책정 차원 끄기
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: 프로젝트 관리
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: 리소스 관리
           items:
+            - name: 리소스 만들기
+              href: resource-management/create-resources.md
             - name: 기술 및 숙련도 정의
               href: resource-management/define-skills-proficiencies.md
+            - name: 역할 정의
+              href: resource-management/define-roles.md
             - name: 리소스 일정 정의
               href: resource-management/define-resource-calendars.md
         - name: 예약 할당 방법
           href: resource-management/booking-allocation-methods.md
+        - name: 예약 상태
+          href: resource-management/booking-status.md
         - name: 기술 및 숙련도 모델
           href: resource-management/skills-proficiency-models.md
         - name: 리소스 조정
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: 견적 프로젝트 송장 관리
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: 보유자 또는 선불 청구
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: 견적 프로젝트 송장 확인
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: 프로젝트 송장 자동화 구성
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations의 통합 분개장
           href: project-accounting/project-operations-integration-journal.md
+        - name: 회사 간 송장
+          items:
+            - name: 회사 간 송장 개요
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 회사 간 송장 구성
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 회사 간 고객 및 공급업체 송장 만들기
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: 회사 간 트랜잭션 만들기
+              href: project-accounting/create-intercompany-transactions.md
+    - name: 수익 인식
+      items:
+        - name: 수익 인식 개요
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: 수익 인식 설정
+          items:
+            - name: 기간 유형 설정
+              href: project-accounting/period-types.md
+            - name: 비용 템플릿 설정
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: 수익 추정치 관리
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: 고정 가격 수익 프로젝트 추정
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: 방법을 완료하는 데 드는 비용
+          href: revenue-recognition/cost-complete-methods.md
 - name: 라이트 배포 - 견적 송장 거래
   items:
     - name: 시작
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: 새로운 기능
       items:
+        - name: 새로운 기능 2020년 12월 - 라이트 배포 - 견적 송장 거래
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: 새로운 기능 2020년 11월 - 라이트 배포 - 견적 송장 거래
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: 프로젝트 영업 프로세스
@@ -532,16 +588,24 @@
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: 추정 및 실제에 대한 판매 가격 해결 - 라이트
               href: pro/pricing-costing/sales-price-resolution-sales.md
-            - name: 원가표
+            - name: 가격표 복사
               href: pricing-costing/copy-price-lists.md
         - name: 가격 책정 차원
           items:
             - name: 가격 책정 차원 개요
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: 사용자 지정 가격 책정 차원에 대한 솔루션 만들기
+              href: sales/create-solution-custompd.md
             - name: 기존 필드를 가격 책정 차원으로 사용
               items:
-                - name: 기존 필드를 가격 책정 차원으로 사용
+                - name: 가격 책정 차원의 Project Operations 필드
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 가격 책정 차원으로 예약 가능한 리소스 사용
+                  href: sales/use-br-as-pd.md
+                - name: 트랜잭션 범주를 가격 책정 차원으로 사용
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 프로젝트에서 여러 역할을 있는 예약 가능한 리소스
+                  href: sales/br-playing-multiple-roles.md
             - name: 가격 책정 차원의 사용자 지정 필드
               items:
                 - name: 가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: 가격 책정 차원의 사용자 지정 필드 설정
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 새 가격 책정 차원을 포함하도록 플러그인 특성 업데이트
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: 가격 책정 차원 끄기
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: 프로젝트 관리
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: 리소스 관리
           items:
+            - name: 리소스 만들기
+              href: resource-management/create-resources.md
             - name: 기술 및 숙련도 정의
               href: resource-management/define-skills-proficiencies.md
+            - name: 역할 정의
+              href: resource-management/define-roles.md
             - name: 리소스 일정 정의
               href: resource-management/define-resource-calendars.md
         - name: 예약 할당 방법
           href: resource-management/booking-allocation-methods.md
+        - name: 예약 상태
+          href: resource-management/booking-status.md
         - name: 기술 및 숙련도 모델
           href: resource-management/skills-proficiency-models.md
         - name: 리소스 조정
@@ -834,6 +906,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 26, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-26.md
         - name: '업데이트 릴리스 25, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-25.md
         - name: '업데이트 릴리스 24, V3의 새로운 내용 또는 변경된 내용'
