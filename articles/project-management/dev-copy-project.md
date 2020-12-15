@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131621"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642416"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>프로젝트 복사로 프로젝트 템플릿 개발
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Operations는 프로젝트를 복사하고 할당을 역할을 나타내는 일반 리소스로 되돌리는 기능을 지원합니다. 고객은 이 기능을 사용하여 기본 프로젝트 템플릿을 만들 수 있습니다.
 

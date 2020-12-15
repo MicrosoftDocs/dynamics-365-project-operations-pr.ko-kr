@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121181"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642987"
 ---
 # <a name="provision-a-new-environment"></a>새 환경 프로비전
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목은 리소스/비 재고 기반 시나리오를 위해 새로운 Dynamics 365 Project Operations 환경을 프로비전하는 방법에 대한 정보를 제공합니다.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+이 토픽은 리소스/비 재고 기반 시나리오를 위한 새 Dynamics 365 Project Operations 환경을 프로비전하는 방법에 대한 정보를 제공합니다.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>LCS 프로젝트에서 Project Operations 자동화 프로비전 활성화
 
@@ -158,8 +160,9 @@ Project Operations에는 애플리케이션 버전이 **10.0.13(10.0.569.20009)*
 
 | **엔터티 맵** | **엔터티 새로 고침** | **초기 동기화** | **초기 동기화용 마스터** | **필수 구성 요소 실행** | **필수 구성 요소 초기 동기화** |
 | --- | --- | --- | --- | --- | --- |
-| **모든 회사에 대한 프로젝트 리소스 역할(bookableresourcecategories)** | 없음 | 예 | Common Data Service | 없음 | 해당 없음 |
-| **법인(cdm\_companies)** | 없음 | 예 | Finance and Operations 앱 | 없음 | 해당 없음 |
+| **모든 회사에 대한 프로젝트 리소스 역할(bookableresourcecategories)** | 없음 | 있음 | Common Data Service | 없음 | 해당 없음 |
+| **법인(cdm\_companies)** | 없음 | 있음 | Finance and Operations 앱 | 없음 | 해당 없음 |
+| **원장(msdyn_ledgers)** | 없음 | 있음 | Finance and Operations 앱 | 있음 | 예, Finance and Operations 앱 |
 | **Project Operations 통합 실제(msdyn\_actuals)** | 없음 | 없음 | 해당 없음 | 예 | 없음 |
 | **프로젝트 계약 내용(salesorderdetails)** | 없음 | 없음 | 해당 없음 | 없음 | 없음 |
 | **프로젝트 트랜잭션 관계를 위한 통합 엔터티(msdyn\_transactionconnections)** | 없음 | 없음 | 해당 없음 | 없음 | 해당 없음 |

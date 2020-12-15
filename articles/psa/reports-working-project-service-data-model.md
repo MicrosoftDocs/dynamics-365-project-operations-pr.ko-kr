@@ -18,16 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9bceb96153f0e9f5c0d40478baf691220de95f27
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120281"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642686"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation 데이터 모델 작업
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation은 다른 앱 엔터티를 확장하고 Common Data Service 데이터 모델에서 자체 엔터티를 소개합니다. 이 주제는 일반적인 PSA 보고 시나리오에서 발생할 엔터티 중 일부에 대해 설명합니다.
 

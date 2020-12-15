@@ -3,17 +3,17 @@ title: 경비 항목(라이트)
 description: 이 항목은 라이트 배포에서 경비 항목 작업 방법에 대한 정보를 제공합니다.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121091"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590954"
 ---
 # <a name="expense-entry-lite"></a>경비 항목(라이트)
 
@@ -21,7 +21,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 기본 또는 라이트 경비 관리는 간단한 경비를 기록하는 기능입니다. 프로젝트에 대한 경비를 기록할 수 있으며 프로젝트 승인자가 이를 검토하고 승인합니다.
 
-Dynamics 365 Project Operations의 경비 기능에 대한 자세한 내용은 [경비 개요](expense-overview.md)를 참조하십시오.
+Dynamics 365 Project Operations에서 경비 기능에 대한 자세한 내용은[경비 개요](expense-overview.md)를 참조하십시오.
 
 ## <a name="capture-a-basic-expense"></a>기본 경비 캡처
 
@@ -36,6 +36,10 @@ Dynamics 365 Project Operations의 경비 기능에 대한 자세한 내용은 [
 
 1. **경비** 로 이동하고 경비를 선택합니다. 또는 헤더의 확인란을 사용하여 모든 경비를 선택합니다.
 2. **제출** 을 선택합니다. 시스템은 선택한 항목을 처리한 다음 경비 승인 요청을 생성합니다.
+
+## <a name="add-an-attachment"></a>첨부 파일 추가
+
+승인자에게 경비에 대한 추가 문서를 제공해야 할 수 있습니다. 경비 항목의 타임라인에 영수증을 첨부할 수 있습니다. **편집** 을 선택하고 **타임라인** 섹션을 선택한 다음 종이 클립 아이콘을 선택하여 영수증을 첨부합니다.
 
 ## <a name="recall-a-basic-expense"></a>기본 경비 회수
 

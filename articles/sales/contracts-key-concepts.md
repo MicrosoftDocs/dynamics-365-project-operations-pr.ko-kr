@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175539"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642146"
 ---
 # <a name="project-contracts---key-concepts"></a>프로젝트 계약 - 주요 개념
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목에서는 Dynamics 365 Project Operations에서 프로젝트 계약 사용을 시작하기 전에 알아야 할 주요 개념을 제공합니다.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+이 토픽은 Dynamics 365 Project Operations에서 프로젝트 계약 사용을 시작하기 전에 알아야 할 주요 개념을 제공합니다.
 
 ## <a name="owning-company"></a>담당 회사
 

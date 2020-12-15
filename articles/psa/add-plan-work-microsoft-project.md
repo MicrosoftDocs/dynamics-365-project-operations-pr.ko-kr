@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129686"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642776"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Project Service Automation 추가 기능을 사용하여 Microsoft Project의 작업 계획
 
@@ -173,6 +173,59 @@ ms.locfileid: "4129686"
 4. **게시** 를 클릭합니다.  
 
 Project 파일을 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]에 연결하면 Project 파일이 마스터 파일이 되고 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 템플릿에서 작업 분할 구조가 읽기 전용으로 설정됩니다.  프로젝트 계획을 수정하려면 이를 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]에서 만들고 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]에 업데이트로 게시해야 합니다.
+
+## <a name="read-a-resource-loaded-schedule"></a>리소스 로드 일정 읽기
+
+Project Service Automation에서 프로젝트를 읽을 때 리소스의 일정이 데스크톱 클라이언트에 동기화되지 않습니다. 작업 기간, 노력 또는 종료에 차이가 있는 경우 리소스와 데스크톱 클라이언트에 동일한 작업 시간 템플릿 달력이 프로젝트에 적용되지 않았기 때문일 수 있습니다.
+
+
+## <a name="data-synchronization"></a>데이터 동기화
+
+다음 표에는 Project Service Automation과 Microsoft Project 데스크톱 추가 기능 간에 데이터가 동기화되는 방법이 나와 있습니다.
+
+| **엔터티** | **필드** | **Microsoft Project - Project Service Automation** | **Project Service Automation - Microsoft Project** |
+| --- | --- | --- | --- |
+| 프로젝트 작업 | 기한 | ● | - |
+| 프로젝트 작업 | 예상 작업량 | ● | - |
+| 프로젝트 작업 | MS Project 클라이언트 ID | ● | - |
+| 프로젝트 작업 | 상위 작업 | ● | - |
+| 프로젝트 작업 | Project | ● | - |
+| 프로젝트 작업 | 프로젝트 작업 | ● | - |
+| 프로젝트 작업 | 프로젝트 작업 이름 | ● | - |
+| 프로젝트 작업 | 리소스 조달 단위(v3.0에서 더 이상 사용되지 않음) | ● | - |
+| 프로젝트 작업 | 예정 기간 | ● | - |
+| 프로젝트 작업 | 시작 날짜 | ● | - |
+| 프로젝트 작업 | WBS ID | ● | - |
+
+| **엔터티** | **필드** | **Microsoft Project - Project Service Automation** | **Project Service Automation - Microsoft Project** |
+| --- | --- | --- | --- |
+| 팀 멤버 | MS Project 클라이언트 ID | ● | - |
+| 팀 멤버 | 위치 이름 | ● | - |
+| 팀 멤버 | 프로젝트 | ● | ● |
+| 팀 멤버 | 프로젝트 팀 | ● | ● |
+| 팀 멤버 | 리소스 조달 단위 | - | ● |
+| 팀 멤버 | 역할 | - | ● |
+| 팀 멤버 | 근무 시간 | 동기화되지 않음 | 동기화되지 않음 |
+
+| **엔터티** | **필드** | **Microsoft Project - Project Service Automation** | **Project Service Automation - Microsoft Project** |
+| --- | --- | --- | --- |
+| 리소스 할당 | 시작 날짜 | ● | - |
+| 리소스 할당 | 시간 | ● | - |
+| 리소스 할당 | MS Project 클라이언트 ID | ● | - |
+| 리소스 할당 | 계획된 작업 | ● | - |
+| 리소스 할당 | Project | ● | - |
+| 리소스 할당 | 프로젝트 팀 | ● | - |
+| 리소스 할당 | 리소스 할당 | ● | - |
+| 리소스 할당 | 작업 | ● | - |
+| 리소스 할당 | 종료 날짜 | ● | - |
+
+| **엔터티** | **필드** | **Microsoft Project - Project Service Automation** | **Project Service Automation - Microsoft Project** |
+| --- | --- | --- | --- |
+| 프로젝트 작업 종속성 | 프로젝트 작업 종속성 | ● | - |
+| 프로젝트 작업 종속성 | 링크 유형 | ● | - |
+| 프로젝트 작업 종속성 | 선행 업무 작업 | ● | - |
+| 프로젝트 작업 종속성 | Project | ● | - |
+| 프로젝트 작업 종속성 | 후속 업무 작업 | ● | - |
 
 ### <a name="see-also"></a>참고 항목  
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)

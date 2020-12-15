@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180515"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513797"
 ---
 # <a name="manage-leads---lite"></a>잠재 고객 관리 - 라이트
 
@@ -23,7 +23,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 ## <a name="list-of-project-sales-leads"></a>프로젝트 영업 잠재 고객 목록
 
-**영업** 섹션의 왼쪽 탐색 창에서 **잠재 고객** 목록 페이지를 열어 시스템의 모든 잠재 고객 레코드 목록을 봅니다. 표시된 잠재 고객 목록은 Dynamics 365 Sales 또는 Dynamics 365 Field Service 응용 프로그램도 있는 경우 생성할 수 있는 작업 기반 및 기타 유형의 잠재 고객입니다.
+**영업** 섹션의 왼쪽 탐색 창에서 **잠재 고객** 목록 페이지를 열어 시스템의 모든 잠재 고객 레코드 목록을 봅니다. 목록의 잠재 고객은 작업 기반이며 Dynamics 365 Sales 또는 Dynamics 365 Field Service 응용 프로그램이 있는 경우 만들 수 있는 기타 유형의 잠재 고객입니다.
 
 **유형** 값에 필터를 만들어 프로젝트 기반 잠재 고객만 표시하도록 필터링된 보기를 만들 수 있습니다. 예를 들어 작업 기반 잠재 고객만 표시하도록 선택할 수 있습니다.
 

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119426"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650226"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>가격 책정 차원의 사용자 지정 필드 설정
 
@@ -41,9 +41,15 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 필드가 가격 책정 차원이 되려면 다음이어야 합니다:
 
 - **역할 가격** 및 **역할 가격 인상** 엔터티의 필드로 만들어져야 합니다. 이렇게 하는 방법에 대한 상세 설명은 [가격 설정 및 트랜잭션 엔터티에 맞춤 필드 추가](add-custom-fields-price-setup-transactional-entities.md)를 참조하십시오.
+
 - **가격 책정 차원** 표의 행으로 만들어져야 합니다. 예컨대 다음 그래픽과 같이 가격 책정 차원 행을 추가합니다. 
 
+![금액 기반 가격 책정 차원 행](media/Amt-based-PD.png)
+
 리소스 작업 시간(**msdyn_resourceworkhours**)이 가격 인상 기반 차원으로 추가되었으며 **인상 기반 가격 책정 차원** 탭의 그리드에 추가되었습니다.
+
+![인상 기반 가격 책정 차원 행](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > 이 표에서 기존이든 신규이든 가격 책정 차원 데이터의 변경은 캐시를 새로 고친 후에만 가격 책정 비즈니스 논리에 전파됩니다. 캐시 새로 고침 시간은 최대 10분이 걸릴 수 있습니다. 이 기간을 허용하여 가격 책정 차원 데이터의 변경으로 인해 발생해야 하는 가격 기본 논리의 변경을 확인할 수 있습니다.

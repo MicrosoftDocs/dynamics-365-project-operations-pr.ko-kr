@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121226"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642281"
 ---
 # <a name="currency"></a>통화
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 제품 카탈로그에 있는 제품의 가격과 판매 주문 등의 트랜잭션 비용은 통화에 의해 결정됩니다. 고객이 여러 지역에 분산되어 있다면 그 지역의 통화를 추가하여 트랜잭션을 관리할 수 있습니다. 현재와 미래의 비즈니스 요구에 가장 적합한 통화를 추가합니다.  
 

@@ -8,20 +8,22 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401271"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642101"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operations의 데모 설정 및 구성 데이터 적용 - 라이트 
 
 _**Lite 배포 - 견적 송장 거래_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 ## <a name="prerequisites"></a>필수 구성 요소
 
-구성을 시작하기 전에 Dynamics 365 Project Operations 용으로 프로비저닝된 Common Data Service(CDS) 환경이 있어야 합니다.
+구성을 시작하기 전에 Dynamics 365 Project Operations용으로 프로비저닝된 Common Data Service(CDS) 환경이 있어야 합니다.
 
 
 ## <a name="instructions"></a>설명

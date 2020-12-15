@@ -1,5 +1,5 @@
 ---
-title: 선불금 및 보유자 기반 계약 - 라이트
+title: 선급금 및 보유자 기반 계약
 description: 이 항목은 Project Operations에서 보유자 기반 계약 모델 또는 선불에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180875"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596110"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>선불금 및 보유자 기반 계약 - 라이트
+# <a name="advances-and-retainer-based-contracts"></a>선급금 및 보유자 기반 계약
 
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations는 보유자 기반 계약을 지원합니다. 보유자 기반 계약은 고객에게 프로젝트 기간 동안 청구될 균등하게 분배된 협상된 지불 집합입니다. 이러한 유형의 계약은 일반적으로 고객에게 예측 가능한 송장 및 지불 일정을 제공해야 하는 시간 및 재료 또는 소비 기반 청구 모델에 사용됩니다. 각 기간에 발생한 실제 수익은 기간이 시작될 때 고객으로부터 받은 지급에 대해 조정됩니다. 시간 및 재료 청구 모델의 개념에 따라 각 기간에 발생하는 수익 값은 발생하는 비용에 따라 달라질 수 있습니다. 발생한 수익이 기간 초에 받은 금액보다 많은 경우 프로젝트 제공 회사는 다음을 수행할 수 있습니다.
+Dynamics 365 Project Operations는 선불금 및 보유자 기반 계약을 지원합니다. 보유자 기반 계약은 고객에게 프로젝트 기간 동안 청구될 균등하게 분배된 협상된 지불 집합입니다. 이러한 유형의 계약은 일반적으로 고객에게 예측 가능한 송장 및 지불 일정을 제공해야 하는 시간 및 재료 또는 소비 기반 청구 모델에 사용됩니다. 각 기간에 발생한 실제 수익은 기간이 시작될 때 고객으로부터 받은 지급에 대해 조정됩니다. 시간 및 재료 청구 모델의 개념에 따라 각 기간에 발생하는 수익 값은 발생하는 비용에 따라 달라질 수 있습니다. 발생한 수익이 기간 초에 받은 금액보다 많은 경우 프로젝트 제공 회사는 다음을 수행할 수 있습니다.
 
 - 초과분에 대해서만 고객에게 청구 
 - 수익 조정을 다음 송장 발행 기간으로 연기하고 나머지 미 조정 수익에 대해 프로젝트가 끝날 때 하나의 최종 청구를 수행합니다.

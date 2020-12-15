@@ -1,28 +1,20 @@
 ---
 title: 가격 책정 차원 개요
-description: 이 항목은 Dynamics 365 Project Operations에서 가격 책정 차원에 대한 정보를 제공합니다.
+description: 이 토픽은 Dynamics 365 Project Operations의 가격 책정 차원에 대한 정보를 제공합니다.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128471"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650207"
 ---
 # <a name="pricing-dimensions-overview"></a>가격 책정 차원 개요
 
@@ -40,9 +32,21 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="pricing-dimensions"></a>가격 책정 차원
 
-Dynamics 365 Project Operations는 기본 가격 책정 차원 집합과 함께 제공됩니다. **프로젝트 작업** > **매개 변수** 로 이동하여 이러한 가격 책정 차원을 볼 수 있습니다. 파라미터 레코드에서 **금액 기반 가격 책정 차원** 탭에서 역할, **msdyn_resourcecategory** 및 리소싱 조직 단위, **msdyn_organizationalunit** 의 필드 **매출액에 해당** 및 **원가에 해당** 이 **예** 로 설정되어 있는지 확인하십시오. 이러한 필드를 활성화하면 각 역할 및 조직 단위 조합에 대한 가격과 원가를 설정할 수 있습니다.
+Dynamics 365 Project Operations는 기본 가격 책정 차원 집합으로 배송됩니다. **프로젝트 작업** > **매개 변수** 로 이동하여 이러한 가격 책정 차원을 볼 수 있습니다. 파라미터 레코드에서 **금액 기반 가격 책정 차원** 탭에서 역할, **msdyn_resourcecategory** 및 리소싱 조직 단위, **msdyn_organizationalunit** 의 필드 **매출액에 해당** 및 **원가에 해당** 이 **예** 로 설정되어 있는지 확인하십시오. 이러한 필드를 활성화하면 각 역할 및 조직 단위 조합에 대한 가격과 원가를 설정할 수 있습니다.
 
-추가 속성을 사용하는 리소스에 대한 가격 또는 원가가 필요한 경우 맞춤화된 필드, 엔터티 및 차원을 만들 수 있습니다.
+!["매출액에 해당"이 강조 표시된 Project Service 파라미터의 스크린샷](media/PS-OOB-parameters.png)
+
+추가 속성을 사용하는 리소스에 대한 가격 또는 원가가 필요한 경우 맞춤화된 필드, 엔터티 및 차원을 만들 수 있습니다. 자세한 내용은 다음 항목을 참조하십시오. 
+  
+  > [!NOTE]
+  > 절차는 나열된 순서대로 완료해야 합니다.
+
+1. [사용자 지정 가격 책정 차원에 대한 솔루션 만들기](../sales/create-solution-custompd.md)
+2. [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities-pricing-dimensions.md)
+3. [가격 설정 및 거래 엔터티에 사용자 지정 필드 추가](add-custom-fields-price-setup-transactional-entities.md)
+4. [가격 책정 차원의 사용자 지정 필드 설정](set-up-custom-fields-pricing-dimensions.md)
+5. [새 가격 책정 차원을 포함하도록 플러그인 속성 업데이트](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>인적 자원 시간 가격 책정
 조직이 인적 자원 시간을 어떻게 책정하는지는 종종 조직의 수익성에 직접적인 영향을 미치는 중요한 전략적 고려 사항입니다. 귀하의 조직이 인적 자원 시간을 위한 청구서 및 원가 요율을 설정하는 방법을 파악할 준비가 되면 재무팀 및 실무 책임자들과 협력하십시오.

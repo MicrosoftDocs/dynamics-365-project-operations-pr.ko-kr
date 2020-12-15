@@ -1,5 +1,5 @@
 ---
-title: 보유자 일정 설정 - 라이트
+title: 보유자 일정 설정
 description: 이 항목은 Project Operations에서 보유자 일정을 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181280"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596380"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>보유자 일정 설정 - 라이트
+# <a name="set-up-a-retainer-schedule"></a>보유자 일정 설정
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 보유자 일정은 Dynamics 365 Project Operations의 **프로젝트 계약** 페이지에서 설정됩니다.
 

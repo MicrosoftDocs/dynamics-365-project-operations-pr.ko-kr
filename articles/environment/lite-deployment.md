@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175674"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642191"
 ---
 # <a name="deploy-project-operations---lite"></a>Project Operations 배포 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Operations는 여러 배포 모델을 지원합니다. 최상의 배포 모델을 결정하려면 [배포 유형](determine-deployment-type.md)을 참조하십시오.
 

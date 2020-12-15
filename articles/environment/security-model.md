@@ -1,6 +1,6 @@
 ---
 title: 보안 모델
-description: 이 항목은 Dynamics 365 Project Operations에서 보안 모델에 대한 정보를 제공합니다.
+description: 이 토픽은 Dynamics 365 Project Operations의 보안 모델에 대한 정보를 제공합니다.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124376"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642911"
 ---
 # <a name="security-model"></a>보안 모델
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Microsoft Dynamics 365 Project Operations에는 Microsoft Office 그룹과 협력하는 역할 기반 비즈니스 보안 모델을 허용하는 고유한 보안 모델이 포함되어 있습니다. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations는 Microsoft Office 그룹과 협업하는 역할 기반 비즈니스 보안 모델을 허용하는 고유한 보안 모델을 포함합니다. 
 
 
 ## <a name="security-roles"></a>보안 역할

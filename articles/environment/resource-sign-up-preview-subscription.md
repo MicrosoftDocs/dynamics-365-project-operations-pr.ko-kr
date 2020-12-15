@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121136"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642974"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>리소스/비 재고 시나리오에 대한 Project Operations 미리 보기 구독에 등록
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 이 항목은 미리 보기/파트너 제안을 구독하고 리소스/비 재고 시나리오를 위한 Project Operations 환경을 배포하는 방법을 설명합니다.
 
@@ -31,18 +33,18 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 [미리 보기 요청](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u)이 승인되면 이메일로 Microsoft로부터 세 가지 제안을 받게 됩니다. 이러한 제안을 통해 Project Operations 미리 보기를 배포할 수 있습니다.
 
-- Dynamics 365 Project Operations(CRM) – 평가판 미리 보기
+- Dynamics 365 Project Operations (CRM) - 평가판 미리 보기
 - Office 365 Project Operations - 평가판 미리 보기
 - Dynamics 365 Finance - 평가판 미리 보기
 
 > [!IMPORTANT]
 > 조직의 테넌트 관리자인 한 사람만이 작업을 수행하면 됩니다. 이 릴리스의 구독자가 아닌 경우 조직이 등록되고 사용자 자격 증명을 받을 때까지 기다리십시오.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations(CRM) – 평가판 미리 보기 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - 평가판 미리 보기 
 
 시작하기 전에 프로젝트 작업 미리 보기를 원하는 테넌트의 사용자 작업 계정으로 브라우저에 로그인했는지 확인합니다.
 
-1. 브라우저 URL에 붙여 넣어 첫 번째 제안 코드 **Dynamics 365 Project Operations(CRM) - 평가판 미리 보기** 를 사용합니다.
+1. 브라우저 URL에 붙여 넣어 첫 번째 제안 코드 **Dynamics 365 Project Operations(CRM) - 평가판 미리보기** 를 사용합니다.
 
 ![초대 제안](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ![라이선스 할당](./media/15AssignLicenses.png)
 
-3. **Dynamics 365 Project Operations(CRM) 미리 보기** 및 **Office 365 Project Operations - 미리 보기** 라이선스가 선택되었는지 확인하고 **변경 내용 저장** 을 선택합니다.
+3. **Dynamics 365 Project Operations(CRM) 미리 보기** 및 **Office 365 Project Operations - 미리보기** 라이선스가 선택되었는지 확인하고 **변경 사항 저장** 을 선택합니다.
 
 > [!NOTE]
 > Finance 평가판 제안은 사용자에게 할당할 필요가 없습니다.

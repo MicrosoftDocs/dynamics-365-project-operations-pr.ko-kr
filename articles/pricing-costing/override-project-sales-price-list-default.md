@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130856"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672239"
 ---
 # <a name="override-project-sales-price-lists"></a>프로젝트 판매 가격표 재정의
 
@@ -27,7 +28,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 1. **거래처** 목록 페이지를 엽니다.
 2. 고객 레코드를 찾아 두 번 클릭하여 **거래처** 세부 정보 페이지를 엽니다.
-3. **프로젝트 가격표** 탭에서 **+ 새 프로젝트 가격표^^를 선택합니다.
+3. **프로젝트 가격표** 탭에서 **+ + 새 프로젝트 가격표** 를 선택합니다.
 4. **새 프로젝트 가격표** 페이지의 드롭다운에서 가격표를 선택합니다. 컨텍스트가 **영업** 으로 설정된 가격표만 거래처 통화와 일치하는 통화가 포함됩니다.
 5. 연결 이름을 입력하고 **저장** 을 선택합니다. 고객별 프로젝트 가격표가 생성됩니다. 이 가격표는 견적 또는 프로젝트 계약의 생성 날짜가 가격표의 날짜 유효 기간 내에 있는 이 고객에 대해 생성된 프로젝트 견적 또는 계약의 기본 프로젝트 가격에 사용됩니다.
 

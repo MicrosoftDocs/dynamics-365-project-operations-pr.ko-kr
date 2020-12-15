@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aa6771ba5346fd4133b82c3e670badfa7655299f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131891"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642371"
 ---
 # <a name="financial-dimension-defaults"></a>재무 차원 기본값
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Operations는 Dynamics 365 Finance의 [재무 차원](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) 프레임 워크를 사용하여 프로젝트 보조 원장 및 총계정 원장 트랜잭션에 대한 추가 통찰력을 제공합니다.
 

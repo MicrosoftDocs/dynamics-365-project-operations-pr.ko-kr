@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e0a31e71dd1e184e2e9539ecfd5f82f718a5f159
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131846"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642506"
 ---
 # <a name="collaboration-with-office-groups"></a>Office 그룹과 공동 작업
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Office 그룹을 사용하면 Common Data Service에서 다른 팀 구성원과 프로젝트를 공유할 수 있습니다. 그룹에 사용자를 추가하면 프로젝트 소유권이 그룹으로 이전됩니다. 모든 사용자는 프로젝트에 대한 편집 권한을 갖습니다. 관리자가 권한을 부여한 경우 사용자는 프로젝트를 볼 수도 있습니다. 이러한 사용자는 그룹에 표시되지 않습니다.
 

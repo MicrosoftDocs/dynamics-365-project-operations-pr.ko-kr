@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080186"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642641"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation에서 Finance and Operations로 직접 프로젝트 계약 및 프로젝트 동기화
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
 
@@ -133,9 +135,9 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 ## <a name="template-mapping-in-data-integration"></a>데이터 통합의 템플릿 매핑
 
 > [!NOTE] 
-> **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** 및 **AddressZipCode** 필드는 프로젝트 계약의 기본 매핑에 포함되지 않습니다. 프로젝트 계약에 대해 이 데이터를 동기화해야 하는 경우 매핑을 추가할 수 있습니다.
+> **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** 및 **AddressZipCode** 필드는 프로젝트 계약의 기본 매핑에 포함되지 않습니다. 프로젝트 계약에 대해 이 데이터를 동기화해야 하는 경우 매핑을 추가할 수 있습니다.
 >
-> **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** 및 **ProjectType** 필드는 프로젝트의 기본 매핑에 포함되지 않습니다. 프로젝트에 대해 이 데이터를 동기화해야 하는 경우 매핑을 추가할 수 있습니다.
+> **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** 및 **ProjectType** 필드는 프로젝트의 기본 매핑에 포함되지 않습니다. 프로젝트에 대해 이 데이터를 동기화해야 하는 경우 매핑을 추가할 수 있습니다.
 
 다음 그림은 데이터 통합에서 템플릿 작업 매핑의 예를 보여줍니다. 매핑은 Project Service Automation에서 Finance로 동기화될 필드 정보를 보여줍니다.
 

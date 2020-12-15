@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177069"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643046"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>프로젝트 계약 - 주요 개념 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-이 항목에서는 Dynamics 365 Project Operations에서 프로젝트 계약 사용을 시작하기 전에 알아야 할 주요 개념을 제공합니다.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+이 토픽은 Dynamics 365 Project Operations에서 프로젝트 계약 사용을 시작하기 전에 알아야 할 주요 개념을 제공합니다.
 
 ## <a name="contracting-unit"></a>계약 단위
 

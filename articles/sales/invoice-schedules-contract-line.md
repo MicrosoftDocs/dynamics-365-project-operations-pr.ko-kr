@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180785"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513932"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>프로젝트 기반 계약 내용에 송장 일정 만들기 
 
@@ -49,7 +49,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 3. 중요 시점 일정을 생성 중인 **고정 가격** 계약 내용을 엽니다. **청구 중요 시점** 탭에서 결제 시작 날짜 및 송장 빈도를 선택합니다. 
 4. 하위 표에서 **주기적인 중요 시점 생성** 을 선택합니다. 송장 일정은 **중요 시점 이름**,**중요 시점 날짜** 및 **중요 시점 금액** 필드는 다음과 같이 생성됩니다.
 
-    - **중요 시점 이름**: 이 날짜는 송장 빈도에 따라 지정됩니다.
+    - **중요 시점 이름**: 이 이름은 송장 빈도에 따라 지정됩니다.
     - **중요 시점 날짜**: 이 날짜는 송장 빈도에 따라 지정됩니다.
     - **중요 시점 금액**: 이 금액은 계약 내용의 계약 금액을 빈도, 청구 시작 및 요청된 배송 날짜로 지정된 중요 시점 수로 나누어 계산됩니다.
 

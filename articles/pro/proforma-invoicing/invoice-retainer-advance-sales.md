@@ -1,5 +1,5 @@
 ---
-title: 보유자 또는 선불 청구 - 라이트
+title: 보유자 또는 선불 청구
 description: 이 항목은 Project Operations에서 보유자 또는 선불을 청구하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180560"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596200"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>보유자 또는 선불 청구 - 라이트
+# <a name="invoice-a-retainer-or-an-advance"></a>보유자 또는 선불 청구
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations는 보유자 기반 계약 및 일회성 선불을 지원합니다. 프로젝트 계약에서 보유자 일정 또는 일회성 선불을 기록할 수 있습니다. 그러나 프로젝트 계약 수준에서 기록한다고해서 보유자나 선불을 즉시 사용할 수 있는 것은 아닙니다. 실제로 고객에게 청구하는 송장에 보유자 또는 선불을 사용하려면 먼저 보유자 또는 선불에 대해 송장을 발행해야 합니다.
+Dynamics 365 Project Operations는 보유자 기반 계약 및 일회성 선불금을 지원합니다. 프로젝트 계약에서 보유자 일정 또는 일회성 선불을 기록할 수 있습니다. 그러나 프로젝트 계약 수준에서 기록한다고해서 보유자나 선불을 즉시 사용할 수 있는 것은 아닙니다. 실제로 고객에게 청구하는 송장에 보유자 또는 선불을 사용하려면 먼저 보유자 또는 선불에 대해 송장을 발행해야 합니다.
 
 다음 단계를 완료하여 보유자 또는 선불의 송장을 발행하십시오.
 

@@ -1,5 +1,5 @@
 ---
-title: 계약에 대한 임시 선불금 생성 - 라이트
+title: 계약에 대한 임시 선불금 생성
 description: 이 항목은 필요에 따라 계약에 대한 선불금을 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181370"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596006"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>계약에 대한 임시 선불금 생성 - 라이트
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>계약에 대한 임시 선불금 생성
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 Microsoft Dynamics 365 Project Operations는 선결제 및 선불금을 포함하는 송장 발행 시나리오를 지원합니다. **Project Operations** 에서 **선불금** 을 사용하는 과정은 **보유자** 계약과 유사합니다. 
 

@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080193"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642461"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 개요
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 기능을 사용하여 Common Data Service를 통해 Dynamics 365 Finance 및 Dynamics 365 Project Service Automation의 인스턴스간에 데이터를 동기화합니다. 데이터 통합 기능과 함께 사용할 수 있는 통합 템플릿을 사용하면 프로젝트, 프로젝트 계약, 프로젝트 계약 내용, 프로젝트 계약 내용 중요 시점, 프로젝트 작업, 경비 트랜잭션 범주, 시간 추정치 및 Project Service Automation에서 Finance에 이르는 경비 추정치의 흐름을 사용할 수 있습니다.
 
