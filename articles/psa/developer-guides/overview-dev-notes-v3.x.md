@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68eb9d4334bed7562ffe0de7951a2d364bbf9a5d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a7548f588b492cd4c8cf19c0c88ce5ea1b34cc76
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080245"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148696"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>개발 홈 페이지 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Dynamics 365 Project Service Automation 3.x는 새로운 기능, 새로운 플랫폼 기능 구현 및 다양한 영역의 기존 기능 개선을 제공합니다. 다음 항목은 PSA의 최신 버전에서 변경된 사항에 대한 자세한 정보를 제공합니다.
 

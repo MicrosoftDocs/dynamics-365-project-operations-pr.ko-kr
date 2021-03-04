@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121811"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149551"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>작업 세분화 구조를 위한 업그레이드 고려 사항
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 이 항목은 작업 세분화 구조를 Project Service Automation 2.x에서 3.x로 업그레이드하는 방법을 설명합니다. 이 항목은 Project Service Automation(PSA)에서 성공적인 업그레이드를 위해 요구되는 건전한 프로젝트의 상태를 정의합니다. 업그레이드를 실패하게 만드는 일반적인 차단 조건에 대한 정보도 있습니다. 프로젝트 스케줄 내에서 프로젝트 과업 및 그 기능을 정의하는 데 대한 자세한 설명은 [프로젝트 스케줄](project-creating.md)을 참조하십시오.
 
 ## <a name="key-entities"></a>주요 엔터티

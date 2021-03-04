@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080063"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148561"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Project Service Automation 3.x에서 단종된 웹 리소스
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 새 클라이언트 인터페이스 및 Dynamics 365 Project Service Automation 솔루션에 대한 기타 변경 사항으로 인해 솔루션에 대한 일부 웹 리소스가 더 오래 사용됩니다. 따라서 버전 3.0에서는 더 이상 사용되지 않습니다.
 

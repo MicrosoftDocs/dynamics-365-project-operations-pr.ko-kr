@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a47a5bb588df83a958acedd830c53d4c5a7122f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 433cd05746423d5e654a999b80aee594c1fd1455
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080242"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148606"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>시간 및 경비 변경 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Dynamics 365 Project Service Automation 버전 3.0에서는 맞춤 컨트롤에 대한 새로운 플랫폼 프레임워크를 활용할 수 있도록 시간 및 경비 보기가 업데이트되었습니다.
 

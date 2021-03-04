@@ -18,18 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 93958f8e7654ebc4cb038ba7ca0c5e4e02f39937
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133106"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148876"
 ---
 # <a name="create-a-project-project-service"></a>프로젝트 만들기(Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-프로젝트 기반 서비스에 대한 영업 기회, 견적 또는 계약을 만들고자 할 경우 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]의 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 기능을 사용하여 프로젝트를 만듭니다. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 기능은 영업 기회에서 완료까지 프로젝트 관리를 돕습니다. 프로젝트를 만들 때 견적, 예상 비용 및 리소스 관리에 영향을 미치는 작업 분할 구조를 만들기도 합니다.  
+프로젝트 기반 서비스에 대한 영업 기회, 견적 또는 계약을 만들려고 할 경우 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]의 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 기능을 사용하여 프로젝트를 만듭니다. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 기능은 영업 기회에서 완료까지 프로젝트 관리를 돕습니다. 프로젝트를 만들 때 견적, 예상 비용 및 리소스 관리에 영향을 미치는 작업 분할 구조를 만들기도 합니다.  
   
 1.  **Project Service > 프로젝트** 로 이동합니다.  
   

@@ -2,6 +2,7 @@
 title: 홈 페이지 업그레이드
 description: 이 항목은 Dynamics 365 Project Service Automation에서 새 기능 및 변경된 기능에 대한 중요한 정보와 최신 버전으로 업그레이드하는 프로세스를 확인할 수 있는 위치를 보여줍니다.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121766"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150091"
 ---
 # <a name="upgrade-home-page"></a>홈 페이지 업그레이드
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ ms.locfileid: "4121766"
 
 ### <a name="existing-instances"></a>기존 인스턴스
 
-이전에는 PSA 버전 2.x의 인스턴스를 가지고 있고 PSA의 통합 클라이언트 인터페이스 기반(UCI) 버전인 버전 3.x로 업그레이드해야 했던 고객은 Microsoft 지원팀에 연락하여 인스턴스의 세부 정보를 제공해야 했습니다. 그러면 지원팀이 버전 3.x로 업그레이드하기 위한 인스턴스를 활성화할 수 있었습니다. 2020년 3월 1일부터는 PSA 버전 2.x 인스턴스를 가지고 있고 버전 3.x로 업그레이드해야 하는 고객은 Microsoft 지원팀에 문의하지 않고도 관리 포털에서 직접 인스턴스를 업그레이드할 수 있습니다.  
+이전에는 PSA 버전 2.x의 인스턴스를 가지고 있고 PSA의 통합 클라이언트 인터페이스 기반(UCI) 버전인 버전 3.x로 업그레이드해야 하는 고객은 Microsoft 지원팀에 연락하여 인스턴스의 세부 정보를 제공해야 했습니다. 그러면 지원팀이 버전 3.x로 업그레이드하기 위한 인스턴스를 활성화할 수 있었습니다. 2020년 3월 1일부터 PSA 버전 2.x 인스턴스가 있고 버전 3.x로 업그레이드해야 하는 고객은 Microsoft 지원팀에 문의하지 않고도 관리 포털에서 직접 인스턴스를 업그레이드할 수 있습니다.  
 
 > [!NOTE]
 > PSA 버전 3.x에는 중요한 변경 사항이 포함되어 있습니다. 향상된 사용자 환경을 제공하기 위해 통합 인터페이스 프레임워크를 기반으로 구축되었습니다. 재설계된 이 앱은 일관되고 균일한 사용자 인터페이스(UI)를 제공하며, 어떤 화면 크기 또는 기기에서도 최적의 보기를 위한 반응형 디자인 원칙을 따릅니다. 애플리케이션 전체에 다른 변경 사항이 있습니다. 변경된 영역 중 일부는 가격 책정, 예약 및 리소스, 시간, 경비 및 결재를 포함합니다.

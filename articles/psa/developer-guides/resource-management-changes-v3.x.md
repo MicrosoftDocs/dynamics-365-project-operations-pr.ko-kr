@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080243"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148651"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>리소스 관리 변경 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 이 주제의 섹션들은 Dynamics 365 Project Service Automation 버전 3.x의 리소스 관리 영역에 대한 변경에 대한 정보를 제공합니다.
 
 ## <a name="project-estimates"></a>프로젝트 추산
 
-프로젝트 추산은 **msdyn\_projecttask** 엔터티( **프로젝트 과업** )을 기반으로 하는 대신, **msdyn\_resourceassignment** 엔터티( **리소스 할당** )에 근거합니다. 리소스 할당은 과업 스케줄링 및 가격 책정을 위한 "진실의 원천"이 되었습니다.
+프로젝트 추산은 **msdyn\_projecttask** 엔터티(**프로젝트 과업**)을 기반으로 하는 대신, **msdyn\_resourceassignment** 엔터티(**리소스 할당**)에 근거합니다. 리소스 할당은 과업 스케줄링 및 가격 책정을 위한 "진실의 원천"이 되었습니다.
 
 ## <a name="line-tasks"></a>행 과업
 
@@ -65,7 +67,7 @@ PSA 3.x에서 할당되지 않은 과제는 **NULL** 팀원과 **NULL** 리소�
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>프로젝트 과업 엔터티에서의 스케줄링 필드
 
-**msdyn\_projecttask** 엔터티의 필드가 더 이상 사용되지 않거나 **msdyn\_resourceassignment** 엔터티로 이동되었거나, 이제는 **msdyn\_projectteam** 엔터티( **프로젝트 팀원** )에서 참조됩니다.
+**msdyn\_projecttask** 엔터티의 필드가 더 이상 사용되지 않거나 **msdyn\_resourceassignment** 엔터티로 이동되었거나, 이제는 **msdyn\_projectteam** 엔터티(**프로젝트 팀원**)에서 참조됩니다.
 
 | msdyn\_projecttask(프로젝트 과업)에서 더 이상 사용되지 않는 필드 | msdyn\_resourceassignment(리소스 할당)에서의 새 필드 | 설명 |
 |---|---|---|
@@ -77,7 +79,7 @@ PSA 3.x에서 할당되지 않은 과제는 **NULL** 팀원과 **NULL** 리소�
 
 ## <a name="schedule-contour"></a>스케줄 등고선
 
-스케줄 등고선은 각 **리소스 할당** 엔터티( **msdyn\_resourceassignment** )의 **계획된 작업** 필드( **msdyn\_plannedwork** )에 저장됩니다.
+스케줄 등고선은 각 **리소스 할당** 엔터티(**msdyn\_resourceassignment**)의 **계획된 작업** 필드(**msdyn\_plannedwork**)에 저장됩니다.
 
 ### <a name="structure"></a>구조
 
@@ -139,7 +141,7 @@ PSA 3.x에서 할당되지 않은 과제는 **NULL** 팀원과 **NULL** 리소�
 
 ## <a name="pricing-dimensions"></a>가격 차원
 
-PSA 3.x에서 리소스별 가격 책정 차원 필드(예: **역할** 및 **조직 단위** )가 **msdyn\_projecttask** 엔터티에서 제거되었습니다. 이제 프로젝트 추산이 생성될 때 리소스 할당( **msdyn\_resourceassignment** )의 해당 프로젝트 팀원( **msdyn\_projectteam** )에서 이러한 필드를 검색할 수 있습니다. **msdyn\_organizationalunit** 라는 새 필드가 **msdyn\_projectteam** 엔터티에 추가되었습니다.
+PSA 3.x에서 리소스별 가격 책정 차원 필드(예: **역할** 및 **조직 단위**)가 **msdyn\_projecttask** 엔터티에서 제거되었습니다. 이제 프로젝트 추산이 생성될 때 리소스 할당(**msdyn\_resourceassignment**)의 해당 프로젝트 팀원(**msdyn\_projectteam**)에서 이러한 필드를 검색할 수 있습니다. **msdyn\_organizationalunit** 라는 새 필드가 **msdyn\_projectteam** 엔터티에 추가되었습니다.
 
 | msdyn\_projecttask(프로젝트 과업)에서 더 이상 사용되지 않는 필드 | 대신 사용되는 msdyn\_projectteam(프로젝트 팀원)의 필드 |
 |---|---|
