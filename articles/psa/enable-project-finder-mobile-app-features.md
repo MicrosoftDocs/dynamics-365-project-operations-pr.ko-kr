@@ -3,6 +3,7 @@ title: Project Finder Mobile 앱 기능 활성화
 description: Project Finder Mobile 앱 기능 활성화(Project Service)
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132971"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144556"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Project Finder Mobile 앱 기능 활성화(Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 리소스가 휴대폰의 Project Finder Mobile 앱을 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]와 사용하여 작업할 새 프로젝트를 찾고 기술 집합을 업데이트할 수 있습니다.  
   
  이 앱은 [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] 모바일 및 [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)]에서 사용할 수 있습니다.  
-  
- 사용자가 프로젝트의 리소스 요구 사항을 확인하고 자신의 기술을 업데이트할 수 있도록 조직 구성 단위에 대한 파라미터 설정에서 몇 가지 옵션을 설정해야 합니다.  
+    
+ 사용자가 프로젝트 리소스 요구 사항 및 업데이트 기술을 볼 수 있도록 하려면 조직 단위의 매개 변수 설정에서 옵션을 선택해야 합니다.
   
 > [!NOTE]
 >  Project Finder Mobile 앱은 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]에서만 작동합니다(온-프레미스 설치에서는 작동하지 않음).  
@@ -57,10 +60,10 @@ ms.locfileid: "4132971"
   
 |받는 사람|이벤트|  
 |---------------|-----------|  
-|프로젝트 관리자|- 리소스가 Project Finder Mobile 앱을 사용하여 프로젝트에 등록하는 경우.|  
-|리소스|- 리소스가 등록한 프로젝트 작업이 이미 다른 리소스에 의해 수행된 경우.<br />- 기술 승인 요청이 승인 또는 거부된 경우.<br />- 프로젝트 등록 요청이 승인 또는 거부된 경우.|  
+|프로젝트 관리자|- 리소스가 Project Finder Mobile 앱을 사용하여 프로젝트에 등록합니다.|  
+|리소스|- 리소스가 등록한 프로젝트 작업이 이미 다른 리소스에 의해 수행되었습니다.<br />- 기술 승인 요청이 승인 또는 거부되었습니다.<br />- 프로젝트 등록 요청이 승인 또는 거부되었습니다.|  
   
-## <a name="privacy-notice"></a>개인 정보 취급 방침  
+## <a name="privacy-notice"></a>개인정보보호 통지  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>참고 항목  

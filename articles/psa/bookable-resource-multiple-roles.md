@@ -1,6 +1,6 @@
 ---
 title: 예약 가능한 리소스가 프로젝트에서 여러 역할을 수행할 때 프로젝트 판매 및 비용을 추정합니다.
-description: 이 항목은 프로젝트에서 여러 역할을 수행하는 리소스에 대한 가격 책정 및 비용을 지원하기 위해 가격 책정 차원을 사용하는 방법에 대한 정보를 제공합니다.
+description: 이 항목에서는 프로젝트에서 여러 역할을 수행하는 리소스의 가격 책정 및 비용을 지원하기 위해 가격 책정 차원을 사용하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: kfend
 ms.custom:
@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8ddc827a4170c5576c0a4350b51e6a119094ac50
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080104"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145051"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-mulitple-roles-on-a-project"></a>예약 가능한 리소스가 프로젝트에서 여러 역할을 수행할 때 프로젝트 판매 및 비용을 추정합니다. 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>예약 가능한 리소스가 프로젝트에서 여러 역할을 수행할 때 프로젝트 판매 및 비용을 추정합니다. 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 프로젝트 기반 회사는 종종 프로젝트에서 여러 역할을 수행하기 위해 하나의 리소스가 필요합니다. 이러한 각 역할은 가격이 책정되고 비용이 다르게 책정될 수 있습니다. 즉, 프로젝트에서 동일한 리소스의 시간이 각 역할의 청구서 및 비용 요율에 따라 다른 재무 추정치를 얻을 수 있음을 의미합니다. Project Service Automation을 사용하면 명명된 리소스에 대한 팀 구성원 레코드의 값을 설정할 수 있으며 팀 구성원이 할당된 각 작업에 대해 다른 재정의가 허용됩니다.
 
@@ -51,16 +53,16 @@ ms.locfileid: "4080104"
   > Project Service Automation 데모 데이터를 사용하여 이 시나리오를 완료하는 경우 **컨설팅 리드** 역할 및 **Fabrikam US** 를 조직 구성 단위로 선택합니다.
 
 3. 작업 B를 선택한 다음, **작업 편집** 을 선택합니다.
-4. **작업 세부 정보** 페이지에서 **역할** 및 **조직 구성 단위** 필드에 이 작업을 수행할 리소스에 필요한 값을 추가합니다. **역할** 과 **조직 구성 단위** 에 있는 값이 작업 A와 작업 B의 값이 다른지 확인하십시오. 
+4. **작업 세부 정보** 페이지에서 **역할** 및 **조직 구성 단위** 필드에 이 작업을 수행할 리소스에 필요한 값을 추가합니다. **역할** 과 **조직 구성 단위** 필드의 값이 작업 A의 값과 작업 B의 값이 다른지 확인합니다. 
 
   > [!NOTE]
   > Project Service Automation 데모 데이터를 사용하여 이 시나리오를 완료하는 경우 **네트워크 기술자** 역할 및 **Fabrikam US** 를 조직 구성 단위로 선택합니다.
 
 5. 저장 후 **작업 세부 정보** 페이지를 닫습니다. 
 
-## <a name="team-member-and-estimates-behaviour"></a>팀 구성원 및 행동 추정 
+## <a name="team-member-and-estimates-behavior"></a>팀 구성원 및 추정 행동 
 
-1. **작업 세부 정보** 페이지의 **팀 구성원** 에서 두 개의 일반 팀 구성원을 선택한 다음 **요구 사항 생성** 을 선택합니다. 그러면 리소스 요구 사항이 생성됩니다. 
+1. **작업 세부 정보** 페이지의 **팀 구성원** 에서 두 개의 일반 팀 구성원을 선택한 다음 **요구 사항 생성** 을 선택합니다. 
 2. **컨설팅 리드** 에 대한 팀 구성원 행을 선택한 다음 **예약** 을 선택합니다. 일정 게시판이 열리고 해당 요구 사항에 대한 리소스가 예약됩니다.
 3. **네트워크 기술자** 에 대한 팀 구성원 행을 선택한 다음 **예약** 을 선택합니다. 일정 게시판이 열리고 해당 요구 사항에 대한 동일한 리소스가 예약됩니다.
 
@@ -71,8 +73,4 @@ ms.locfileid: "4080104"
 ### <a name="estimates-grid"></a>추정 그리드 
 **추정** 그리드로 이동할 때 동일한 리소스에 대한 두 할당의 가격이 다르게 책정됨을 알 수 있습니다.
 작업 A의 리소스 할당은 **컨설팅 리드** 의 **역할** 속성 값을 사용하여 가격이 책정됩니다. 작업 B의 동일한 리소스 할당은 **네트워크 기술자** 의 **역할** 속성 값을 사용하여 가격이 책정됩니다.
-
-
-
-
 

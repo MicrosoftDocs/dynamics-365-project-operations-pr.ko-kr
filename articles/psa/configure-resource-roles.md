@@ -18,18 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: deaff0977ebb50382a28494fba2a1c34ed5cc9b4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129146"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144916"
 ---
 # <a name="configure-resource-roles-project-service"></a>리소스 역할 구성(Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-역할은 프로젝트 계획 리소스 요구 사항이나 프로젝트 비용을 결정할 때 중요한 역할을 합니다. 프로젝트에 필요한 각 역할에 대한 리소스 역할을 만들고 역할에 대한 기술 및 숙련도를 연결해야 합니다. 예를 들어, 개발자, 프로젝트 관리자 또는 게임 테스터 역할을 만들고자 할 수 있습니다. 이 경우 그 역할에 필요한 기술과 숙련도 레벨 또한 설정하게 됩니다.  
+역할은 프로젝트 계획 리소스 요구 사항이나 프로젝트 비용을 결정할 때 중요한 역할을 합니다. 프로젝트에 필요한 각 역할에 대한 리소스 역할을 만들고 역할에 대한 기술 및 숙련도를 연결해야 합니다. 예를 들어, 개발자, 프로젝트 관리자 또는 게임 테스터 역할을 만들려고 할 수 있습니다. 이 경우 그 역할에 필요한 기술과 숙련도 레벨 또한 설정하게 됩니다.  
   
  조직에 효율적인 프로젝트 평가가 되도록 리소스 역할을 구성합니다.  이와 더불어 결제 유형 역시 정확하게 설정해야 합니다. 비청구 지불 유형으로 설정된 항목은 계약 또는 견적 줄에 표시되지 않습니다.  
   

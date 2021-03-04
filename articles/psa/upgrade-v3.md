@@ -2,6 +2,7 @@
 title: 업그레이드 고려 사항 - Microsoft Dynamics 365 Project Service Automation 버전 2.x or 1.x에서 버전 3
 description: 이 항목은 Project Service Automation 버전 2.x 또는 1.x에서 버전 3으로 업그레이드할 때 고려해야 할 사항에 대한 정보를 제공합니다.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121721"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144178"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>업그레이드 고려 사항 - PSA 버전 2.x 또는 1.x에서 버전 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation 및 Field Service
-Dynamics 365 Project Service Automation과 Dynamics 365 Field Service 모두 리소스 스케줄링에 URS(Universal Resourcing Scheduling) 솔루션을 사용합니다. 인스턴스에 Project Service Automation과 Field Service가 모두 있는 경우 두 솔루션을 모두 최신 버전(Project Service Automation의 경우 버전 3.x, Field Service의 경우 버전 8.x)으로 업그레이드해야 합니다. Project Service Automation 또는 Field Service를 업그레이드하면 최신 버전의 URS가 설치되므로 동일한 인스턴스의 Project Service Automation 및 Field Service 솔루션이 모두 최신 버전으로 업그레이드되지 않으면 일관성 없는 동작이 발생할 수 있습니다.
+Dynamics 365 Project Service Automation과 Dynamics 365 Field Service 모두 리소스 스케줄링에 URS(Universal Resourcing Scheduling) 솔루션을 사용합니다. 인스턴스에 Project Service Automation 및 Field Service가 있는 경우 두 솔루션을 모두 최신 버전으로 업그레이드합니다. Project Service Automation의 경우 버전 3.x입니다. Field Service의 경우 버전 8.x입니다. Project Service Automation 또는 Field Service를 업그레이드하면 최신 버전의 URS가 설치됩니다. 동일한 인스턴스의 Project Service Automation 및 Field Service 솔루션이 모두 최신 버전으로 업그레이드되지 않으면 일부 일관되지 않은 동작이 있을 수 있습니다.
 
 ## <a name="resource-assignments"></a>리소스 할당
 Project Service Automation 버전 2 및 버전 1에서 작업 할당은 **작업 엔터티** 의 하위 작업(라인 작업이라고도 함)으로 저장되고 **리소스 할당** 엔터티와 간접적으로 관련되었습니다. WBS(작업 분할 구조)의 할당 팝업 창에서 라인 작업이 표시되었습니다.
@@ -42,7 +46,7 @@ Project Service Automation 버전 3에서는 예약 가능한 리소스를 작�
 ### <a name="tasks-assigned-to-named-resources"></a>명명된 리소스에 할당된 작업
 기본 작업 엔터티를 사용하여 버전 2 및 버전 1의 작업을 통해 팀 구성원은 기본 정의된 역할 이외의 역할을 묘사할 수 있었습니다. 예를 들어 기본적으로 프로그램 관리자의 역할을 할당 받은 박지민 씨는 개발자 역할을 수행하는 작업에 할당될 수 있습니다. 버전 3에서 명명된 팀 멤버의 역할은 항상 기본값이므로 박지민 씨가 할당된 모든 작업은 프로그램 관리자의 기본 역할을 사용합니다.
 
-버전 2 및 버전 1의 기본 역할 이외의 작업에 리소스를 할당한 경우 업그레이드할 때 명명된 리소스는 버전 2의 역할 할당에 관계없이 모든 작업 할당에 대한 기본 역할이 할당됩니다. 이렇게 하면 라인 작업 할당이 아닌 리소스의 역할에 따라 예측이 계산되므로 버전 2 또는 버전 1에서 버전 3까지 계산된 예상이 달라집니다. 예를 들어 버전 2에서는 김은주 씨에게 두 가지 작업이 할당되었습니다. 작업 1의 라인 작업에 대한 역할은 개발자이며 작업 2의 경우 프로그램 관리자입니다. 김은주 씨는 프로그램 관리자의 기본 역할이 있습니다.
+버전 2 및 버전 1의 기본 역할 이외의 작업에 리소스를 할당한 경우 업그레이드할 때 명명된 리소스는 버전 2의 역할 할당에 관계없이 모든 작업 할당에 대한 기본 역할이 할당됩니다. 이 할당은 라인 작업 할당이 아닌 리소스의 역할에 따라 예측이 계산되므로 버전 2 또는 버전 1에서 버전 3까지 계산된 예상이 달라집니다. 예를 들어 버전 2에서는 김은주 씨에게 두 가지 작업이 할당되었습니다. 작업 1의 라인 작업에 대한 역할은 개발자이며 작업 2의 경우 프로그램 관리자입니다. 김은주 씨는 프로그램 관리자의 기본 역할이 있습니다.
 
 ![하나의 리소스에 할당된 여러 역할](media/upgrade-multiple-roles-02.png)
 
@@ -61,7 +65,7 @@ Project Service Automation 버전 3에서는 예약 가능한 리소스를 작�
 ![기본 역할에 대한 비용 예상](media/resource-assignment-cost-estimate-06.png)
 ![기본 역할에 대한 영업 예상](media/resource-assignment-sales-estimate-07.png)
 
-업그레이드가 완료된 후에 팀 구성원의 역할을 할당된 기본값이 아닌 다른 역할로 편집할 수 있습니다. 그러나 팀 구성원 역할을 변경하면 팀 구성원이 버전 3에서 여러 역할을 더 이상 할당할 수 없기 때문에 할당된 모든 작업에서 변경됩니다.
+업그레이드가 완료된 후에 팀 구성원의 역할을 할당된 기본값이 아닌 다른 역할로 편집할 수 있습니다. 그러나 팀 구성원 역할을 변경하면 팀 구성원이 버전 3에서 여러 역할을 할당할 수 없기 때문에 할당된 모든 작업에서 변경됩니다.
 
 ![리소스 역할 업데이트](media/resource-role-assignment-08.png)
 

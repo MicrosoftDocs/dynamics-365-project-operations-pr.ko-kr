@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080246"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144601"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>새 맞춤 엔터티 양식 추가 (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>타입 필드 
 
-Dynamics 365 Project Service Automation은 기회, 견적, 주문 또는 청구서 엔터티의 **타입** ( **msdyn\_ordertype** ) 필드에 의존하여 이러한 엔터티의 **작업 기반** 버전을 **품목 기반** 및 **서비스 기반** 버전과 구분합니다. 이러한 엔터티의 작업 기반 버전은 PSA가 취급합니다. 클라이언트측 및 서버측 솔루션의 많은 비즈니스 논리가 **타입** 필드에 의존합니다. 따라서 엔터티를 만들 때 필드를 올바른 값으로 초기화하는 것이 중요합니다. 값이 잘못되면 잘못된 동작이 발생할 수 있으며 일부 비즈니스 논리가 올바르게 실행되지 않을 수 있습니다.
+Dynamics 365 Project Service Automation은 기회, 견적, 주문 또는 청구서 엔터티의 **타입**(**msdyn\_ordertype**) 필드에 의존하여 이러한 엔터티의 **작업 기반** 버전을 **품목 기반** 및 **서비스 기반** 버전과 구분합니다. 이러한 엔터티의 작업 기반 버전은 PSA가 취급합니다. 클라이언트측 및 서버측 솔루션의 많은 비즈니스 논리가 **타입** 필드에 의존합니다. 따라서 엔터티를 만들 때 필드를 올바른 값으로 초기화하는 것이 중요합니다. 값이 잘못되면 잘못된 동작이 발생할 수 있으며 일부 비즈니스 논리가 올바르게 실행되지 않을 수 있습니다.
 
 ## <a name="automatic-form-switching"></a>자동 양식 전환
 
@@ -47,7 +49,7 @@ Dynamics 365 Project Service Automation은 기회, 견적, 주문 또는 청구�
     > [!IMPORTANT]
     > 스크립트를 제거하지 마십시오. 제거하면 일부 데이터가 잘못 초기화될 수 있습니다.
 
-3. 양식에 **타입** ( **msdyn\_ordertype** ) 필드가 있는지 확인합니다. 
+3. 양식에 **타입**(**msdyn\_ordertype**) 필드가 있는지 확인합니다. 
 
     > [!IMPORTANT]
     > 이 필드를 제거하지 마십시오. 제거하면 초기화 스크립트가 실패합니다.

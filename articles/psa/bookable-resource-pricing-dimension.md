@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080151"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145006"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>가격 책정 차원으로 예약 가능한 리소스 사용
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 이 항목은 예약 가능한 리소스를 가격 책정 차원으로 사용하는 것에 대한 정보를 제공합니다. 시작하기 전에 가격 책정 차원 솔루션을 아직 만들지 않은 경우 새 솔루션을 만들어야 합니다. 가격 차원 솔루션이 이미 있는 경우 해당 솔루션을 변경할 수 있습니다. 조직에 대한 새 가격 책정 차원 솔루션을 만들지 않은 경우 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md) 항목의 절차를 완료하십시오.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>양식 및 보기에 예약 가능한 리소스 추가
@@ -52,12 +55,12 @@ ms.locfileid: "4080151"
 2. **예약 가능한 리소스** 를 이 가격 책정 차원 목록에 **msdyn_bookableresource** 로 추가합니다. 
 3. 예약 가능한 리소스가 가격 책정 차원으로 기능하는 상황을 표시하고 **원가에 적용** 및 **매출액에 적용** 값을 설정합니다.
 4. **차원 타입** 필드에서 **금액 기반** 을 선택합니다. 
-5. 예약 가능한 리소스의 원가 및 매출액 우선 순위를 선택합니다. 일반적으로, 가격 책정 차원으로 포함된 경우 예약 가능한 리소스의 우선 순위가 가장 높으므로 이를 **1** (또는 우선 순위를 계수하는 방법에 따라 **0** )로 설정하면 해당 특성이 보장됩니다.
+5. 예약 가능한 리소스의 원가 및 매출액 우선 순위를 선택합니다. 일반적으로, 가격 책정 차원으로 포함된 경우 예약 가능한 리소스의 우선 순위가 가장 높으므로 이를 **1**(또는 우선 순위를 계수하는 방법에 따라 **0**)로 설정하면 해당 특성이 보장됩니다.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>가격 책정 차원 필드 명칭 설정
 
 **역할 가격** 표에서 가격 책정 차원의 필드 명칭이 가격 기본값이 작동해야 하는 다른 엔터티의 필드 명칭과 다른 경우 가격 책정 차원 레코드는 그 다른 이름을 인식하도록 만들어야 합니다.    
-예약 가능한 리소스의 경우, **프로젝트 팀원** 엔터티는 **역할 가격** 엔터티에서 불리는 명칭 ( **msdyn_bookableresource** )과 약간 다른 필드 명칭( **msdyn_bookableresourceid** )을 갖습니다. **msydn_bookableresource** 를 위한 가격 책정 차원 레코드가 이를 인식하도록 만들어야 합니다. 
+예약 가능한 리소스의 경우, **프로젝트 팀원** 엔터티는 **역할 가격** 엔터티에서 불리는 명칭 (**msdyn_bookableresource**)과 약간 다른 필드 명칭(**msdyn_bookableresourceid**)을 갖습니다. **msydn_bookableresource** 를 위한 가격 책정 차원 레코드가 이를 인식하도록 만들어야 합니다. 
 1. 이렇게 하려면 **가격 책정 차원** 그리드의 행을 더블클릭하여 **msdyn_bookableresource** 의 차원 페이지를 여십시오.
 2. 차원 페이지의 **관련** 탭에서 **가격 책정 차원 필드 명칭** 을 클릭합니다.
 

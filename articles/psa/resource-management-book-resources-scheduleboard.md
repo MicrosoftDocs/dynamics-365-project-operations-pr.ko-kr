@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120236"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144421"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>스케줄 게시판을 사용하여 프로젝트 리소스를 예약
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 프로젝트 내에서 프로젝트의 리소스를 예약하는 것 외에도 스케줄 게시판에서 리소스를 확정 예약하거나 가예약할 수 있습니다.
 

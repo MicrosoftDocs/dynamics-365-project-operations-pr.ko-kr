@@ -18,14 +18,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080228"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144961"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>승인된 시간 및 비용 입력으로 생성된 실제의 대량 수정
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 때때로 시간 또는 비용 입력이 잘못 입력될 수 있습니다. 예를 들어, 컨설턴트는 시간 항목을 작성할 때 잘못된 날짜를 선택하거나 비용을 입력할 때 숫자를 바꿉니다. 컨설턴트가 제출된 항목을 업데이트할 수 없는 경우 관리자는 프로젝트의 항목을 직접 수정할 수 있습니다.
 
@@ -72,7 +74,7 @@ ms.locfileid: "4080228"
 
 2. **승인된 경비** 목록에서 수정하려는 프로젝트를 선택한 다음 **올바른 항목** 을 선택합니다. 지정된 유형 **경비 수정** 으로 새로 수정된 분개장이 자동으로 작성됩니다. 
 
-3. **새 분개장** 페이지에 수정에 대한 **설명** 을 입력하고 **경비 수정** 탭의 **경비에 대한 새 값** 섹션에서 선택한 경비 항목에 대해 수정할 데이터 필드를 선택합니다. 예를 들어, 경비를 다른 **프로젝트** 에 할당하거나 **경비 범주** , **경비 날짜** 또는 **예약 가능 리소스** 를 수정할 수 있습니다.
+3. **새 분개장** 페이지에 수정에 대한 **설명** 을 입력하고 **경비 수정** 탭의 **경비에 대한 새 값** 섹션에서 선택한 경비 항목에 대해 수정할 데이터 필드를 선택합니다. 예를 들어, 경비를 다른 **프로젝트** 에 할당하거나 **경비 범주**, **경비 날짜** 또는 **예약 가능 리소스** 를 수정할 수 있습니다.
 
 4. **미리 보기** 를 선택합니다. 대화 상자에서 **확인** 을 선택합니다. 
 

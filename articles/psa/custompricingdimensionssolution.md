@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080061"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144647"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>가격 책정 차원에 대한 맞춤 솔루션 만들기
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > 모든 맞춤 가격 책정 차원 변경은 별도의 솔루션에 있어야 합니다. 이 중요한 모범 사례는 나중에 필요에 따라 변경 내용을 업데이트하거나 제거할 수 있는 유연성을 제공하고, 작업을 다시 사용하는 데 도움이 되며, 이러한 변경 내용을 다른 인스턴스로 쉽게 나를 수 있도록 합니다. 요구되는 모든 변경을 한 후, 이 솔루션을 **관리형 솔루션** 으로 내보내고 다른 인스턴스로 가져와 가격 책정 설정을 다시 사용하십시오.
 
 1. **설정** > **솔루션** 을 선택한 다음 **새로 만들기** 를 선택합니다. 
-2. 솔루션을 명명하고( **\<your organization name>가격 책정 차원** ), 나머지 필수 정보를 입력한 다음, **저장** 을 선택합니다.
+2. 솔루션을 명명하고(**\<your organization name>가격 책정 차원**), 나머지 필수 정보를 입력한 다음, **저장** 을 선택합니다.
 
 > ![가격 책정 차원에 대한 맞춤 솔루션 만들기](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
