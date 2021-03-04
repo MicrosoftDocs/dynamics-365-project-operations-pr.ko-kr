@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131372"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151621"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation의 예약 할당 방법
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 팀원을 **팀** 탭의 프로젝트에 직접 추가하거나 스케줄 게시판의 프로젝트나 요건에 대한 리소스를 예약하는 경우에는 몇 가지 다른 예약 할당 방법을 사용할 수 있습니다. 이 항목은 각 방법의 작동 방식 및 리소스 초과 예약으로 이어질 수 있는 방법을 설명합니다.
 

@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 91cf4150c651794fe38ebf5a406cad936aa5105d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130506"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151126"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>데모 데이터 실험(Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Dynamics 365 Project Service Automation에 익숙해지려면 미리 구성된 환경을 탐색하는 것이 유용합니다. 이를 위해 이러한 솔루션에 대해 보다 쉽게 배울 수 있도록 별도의 샘플 데이터 설치 패키지(현재 영어만 지원됨)를 만들었습니다. 
 

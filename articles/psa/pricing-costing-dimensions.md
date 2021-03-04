@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080093"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151306"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>가격 및 원가 차원 홈 페이지
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 프로젝트 기반 조직에서 인건비 가격 및 비용을 설정하는 데 사용되는 차원은 다음 속성의 영향을 받습니다.
 
@@ -55,7 +57,7 @@ PSA는 기본 가격 차원 집합으로 배송됩니다. 이러한 것을 **Pro
 ## <a name="pricing-human-resource-time"></a>인적 자원 시간 가격 책정
 조직이 인적 자원 시간을 어떻게 책정하는지는 종종 조직의 수익성에 직접적인 영향을 미치는 중요한 전략적 고려 사항입니다. 귀하의 조직이 인적 자원 시간을 위한 청구서 및 원가 요율을 설정하는 방법을 파악할 준비가 되면 재무팀 및 실무 책임자들과 협력하십시오.
 
-가격 책정에 대한 다른 고려 사항으로는 현재 가격 책정 차원이 아니지만 조직의 가격 책정 차원으로 적용되는 필드 또는 엔터티를 다시 사용할지 여부가 있습니다. **처리 카테고리** ( **msdyn_transactioncategory** ) 및 **예약 가능한 리소스** ( **bookableresource** ) 같은 필드는 후보 차원의 예입니다. 
+가격 책정에 대한 다른 고려 사항으로는 현재 가격 책정 차원이 아니지만 조직의 가격 책정 차원으로 적용되는 필드 또는 엔터티를 다시 사용할지 여부가 있습니다. **처리 카테고리**(**msdyn_transactioncategory**) 및 **예약 가능한 리소스**(**bookableresource**) 같은 필드는 후보 차원의 예입니다. 
 
 가격 책정 차원이 표여야 하는지 옵션 집합이어야 하는지도 고려합니다. 10 또는 12를 초과하는 차원값의 변경을 예측하고 이러한 값에 추가 속성이 필요한 경우 옵션 집합보다는 엔터티를 만듭니다. 값 추가 또는 제거와 같은 옵션 집합을 유지하려면 관리자 또는 개발자가 요구되지만 표에 새 행을 추가하는 것은 대부분의 비즈니스 사용자가 할 수 있습니다.
 
