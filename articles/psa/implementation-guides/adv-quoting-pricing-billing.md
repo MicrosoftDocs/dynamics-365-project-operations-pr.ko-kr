@@ -18,35 +18,37 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a40eb80f2e46c1c976e27320cfa30116d19426b5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ef2698b52bd5a89a10ff0be6aff3d98e6917e95c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132774"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149191"
 ---
-# <a name="advanced-quoting-pricing-and-billing-guide"></a><span data-ttu-id="623c7-103">고급 견적, 가격 책정 및 대금 청구 가이드</span><span class="sxs-lookup"><span data-stu-id="623c7-103">Advanced quoting, pricing, and billing guide</span></span>
+# <a name="advanced-quoting-pricing-and-billing-guide"></a><span data-ttu-id="1e740-103">고급 견적, 가격 책정 및 대금 청구 가이드</span><span class="sxs-lookup"><span data-stu-id="1e740-103">Advanced quoting, pricing, and billing guide</span></span>
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="623c7-104">올바른 리소스를 적시에 찾아, 프로젝트에 해당 리소스를 예약하고, 리소스를 활용하는 능력은 조직이 수익 목표와 고객 만족 목표를 달성하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="623c7-104">The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.</span></span> 
+<span data-ttu-id="1e740-104">올바른 리소스를 적시에 찾아, 프로젝트에 해당 리소스를 예약하고, 리소스를 활용하는 능력은 조직이 수익 목표와 고객 만족 목표를 달성하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="1e740-104">The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.</span></span> 
 
-<span data-ttu-id="623c7-105">이 항목에 이전에 있었던 PDF 링크가 제거되었으며 콘텐츠가 다음 항목으로 이동되었습니다:</span><span class="sxs-lookup"><span data-stu-id="623c7-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="1e740-105">이 항목에 이전에 있었던 PDF 링크가 제거되었으며 콘텐츠가 다음 항목으로 이동되었습니다:</span><span class="sxs-lookup"><span data-stu-id="1e740-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="623c7-106">견적, 가격 책정 및 대금 청구</span><span class="sxs-lookup"><span data-stu-id="623c7-106">Quoting, pricing, and billing</span></span>](../quote-bill-price.md)
-- [<span data-ttu-id="623c7-107">영업 프로세스</span><span class="sxs-lookup"><span data-stu-id="623c7-107">Sales processes</span></span>](../basic-sales-process.md)
-- [<span data-ttu-id="623c7-108">견적 및 견적 행</span><span class="sxs-lookup"><span data-stu-id="623c7-108">Quotes and quote lines</span></span>](../basic-quote-lines.md)
-- [<span data-ttu-id="623c7-109">제품 기반 견적 행</span><span class="sxs-lookup"><span data-stu-id="623c7-109">Product-based quote lines</span></span>](../product-based-quote-lines.md)
-- [<span data-ttu-id="623c7-110">가격 산정</span><span class="sxs-lookup"><span data-stu-id="623c7-110">Pricing</span></span>](../basic-pricing.md)
-- [<span data-ttu-id="623c7-111">제품 카탈로그 가격</span><span class="sxs-lookup"><span data-stu-id="623c7-111">Product catalog pricing</span></span>](../product-catalog-pricing.md)
-- [<span data-ttu-id="623c7-112">업무 처리</span><span class="sxs-lookup"><span data-stu-id="623c7-112">Business transactions</span></span>](../basic-business-transactions.md)
-- [<span data-ttu-id="623c7-113">추산</span><span class="sxs-lookup"><span data-stu-id="623c7-113">Estimates</span></span>](../estimates.md)
-- [<span data-ttu-id="623c7-114">실제</span><span class="sxs-lookup"><span data-stu-id="623c7-114">Actuals</span></span>](../actuals.md)
-- [<span data-ttu-id="623c7-115">프로젝트 견적 분석</span><span class="sxs-lookup"><span data-stu-id="623c7-115">Analyzing project quotes</span></span>](../basic-analyzing-quotes.md)
-- [<span data-ttu-id="623c7-116">조직 단위</span><span class="sxs-lookup"><span data-stu-id="623c7-116">Organizational units</span></span>](../advanced-organizational.md)
-- [<span data-ttu-id="623c7-117">단위 그룹 및 단위</span><span class="sxs-lookup"><span data-stu-id="623c7-117">Unit groups and units</span></span>](../advanced-units.md)
-- [<span data-ttu-id="623c7-118">다통화 시나리오</span><span class="sxs-lookup"><span data-stu-id="623c7-118">Multi-currency scenarios</span></span>](../advanced-currency.md)
-- [<span data-ttu-id="623c7-119">실제값 기록</span><span class="sxs-lookup"><span data-stu-id="623c7-119">Recording actuals</span></span>](../advanced-actuals.md)
+- [<span data-ttu-id="1e740-106">견적, 가격 책정 및 대금 청구</span><span class="sxs-lookup"><span data-stu-id="1e740-106">Quoting, pricing, and billing</span></span>](../quote-bill-price.md)
+- [<span data-ttu-id="1e740-107">영업 프로세스</span><span class="sxs-lookup"><span data-stu-id="1e740-107">Sales processes</span></span>](../basic-sales-process.md)
+- [<span data-ttu-id="1e740-108">견적 및 견적 행</span><span class="sxs-lookup"><span data-stu-id="1e740-108">Quotes and quote lines</span></span>](../basic-quote-lines.md)
+- [<span data-ttu-id="1e740-109">제품 기반 견적 행</span><span class="sxs-lookup"><span data-stu-id="1e740-109">Product-based quote lines</span></span>](../product-based-quote-lines.md)
+- [<span data-ttu-id="1e740-110">가격 산정</span><span class="sxs-lookup"><span data-stu-id="1e740-110">Pricing</span></span>](../basic-pricing.md)
+- [<span data-ttu-id="1e740-111">제품 카탈로그 가격</span><span class="sxs-lookup"><span data-stu-id="1e740-111">Product catalog pricing</span></span>](../product-catalog-pricing.md)
+- [<span data-ttu-id="1e740-112">업무 처리</span><span class="sxs-lookup"><span data-stu-id="1e740-112">Business transactions</span></span>](../basic-business-transactions.md)
+- [<span data-ttu-id="1e740-113">추산</span><span class="sxs-lookup"><span data-stu-id="1e740-113">Estimates</span></span>](../estimates.md)
+- [<span data-ttu-id="1e740-114">실제</span><span class="sxs-lookup"><span data-stu-id="1e740-114">Actuals</span></span>](../actuals.md)
+- [<span data-ttu-id="1e740-115">프로젝트 견적 분석</span><span class="sxs-lookup"><span data-stu-id="1e740-115">Analyzing project quotes</span></span>](../basic-analyzing-quotes.md)
+- [<span data-ttu-id="1e740-116">조직 단위</span><span class="sxs-lookup"><span data-stu-id="1e740-116">Organizational units</span></span>](../advanced-organizational.md)
+- [<span data-ttu-id="1e740-117">단위 그룹 및 단위</span><span class="sxs-lookup"><span data-stu-id="1e740-117">Unit groups and units</span></span>](../advanced-units.md)
+- [<span data-ttu-id="1e740-118">다통화 시나리오</span><span class="sxs-lookup"><span data-stu-id="1e740-118">Multi-currency scenarios</span></span>](../advanced-currency.md)
+- [<span data-ttu-id="1e740-119">실제값 기록</span><span class="sxs-lookup"><span data-stu-id="1e740-119">Recording actuals</span></span>](../advanced-actuals.md)
 
 > [!NOTE]
-> <span data-ttu-id="623c7-120">향후 설명서 업데이트에서 이 항목은 제거될 것입니다.</span><span class="sxs-lookup"><span data-stu-id="623c7-120">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="1e740-120">향후 설명서 업데이트에서 이 항목은 제거될 것입니다.</span><span class="sxs-lookup"><span data-stu-id="1e740-120">This topic will be removed in a future documentation update.</span></span> 
