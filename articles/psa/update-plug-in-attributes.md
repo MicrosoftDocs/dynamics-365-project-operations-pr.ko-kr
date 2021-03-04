@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121856"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147076"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>새 가격 책정 차원을 포함하도록 플러그인 속성 업데이트
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
 > Project Service Automation(PSA)의 견적 및 계약 기능을 사용하지 않는 경우에는 이 주제를 건너뛸 수 있습니다.

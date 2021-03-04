@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124106"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147391"
 ---
 # <a name="soft-book-requirements"></a>요건 가예약
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 리소스 요건은 확정 예약할 수 있습니다. 확정 예약은 리소스의 능력을 소비하는 제안을 만듭니다. 그런 다음 제안서가 승인을 위해 요청자에게 다시 발송됩니다. 가예약은 프로젝트 팀에 리소스를 임시로 추가하고 스케줄 게시판에 다른 상태를 가지지만 리소스의 능력을 소비하지는 않습니다. 스케줄 보드에서 리소스를 가예약하려면 **예약 상태** 필드를 **가예약** 으로 설정합니다.
 

@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 124719410f89dea506d43a1b64cb91c85d4f3968
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 635fe6dfb547e8b9f96ca1786912309a770e24c2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131379"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146266"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>시간 비용 실제 값에 대한 가격이 기본적으로 0이 되는 이유는 무엇입니까?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122306"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146536"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>스케줄 게시판에서 프로젝트 예약을 만들기
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 프로젝트의 **팀** 탭에서 직접 리소스를 예약하거나 일반 팀원 할당에서 리소스 요건을 생성한 다음 프로젝트 팀원과 함께 생성된 요건을 이행하는 방법으로 리소스를 프로젝트에 예약할 수 있습니다.
 

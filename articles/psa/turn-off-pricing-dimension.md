@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1ae95430c368370145c7081a5d94d6161a7700b4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080137"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147301"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>가격 책정 차원 끄기
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 몇 년마다 가격 책정 전략을 검토하고 업데이트해야 할 수 있습니다. 업데이트를 통해 기존 가격 책정 차원을 해제하고 새 것을 만들어야 할 수 있습니다. 예컨대, 이전에는 **역할** 별로 가격이 책정되었을 수 있지만 이제 귀하는 **작업 경험** 별로 가격을 책정하기로 결정했습니다. 이렇게 하려면 가격 책정 차원으로서의 **역할** 을 해제하고 새로운 가격 책정 차원으로서 **작업 경험** 을 만들어야 할 수 있습니다. 
 

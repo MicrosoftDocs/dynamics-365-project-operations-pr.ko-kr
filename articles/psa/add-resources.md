@@ -18,18 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e7b088ce2718901ab5af953f5fa1094188a4c954
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 5d957f793b7909893a7fa311e6572a8ace9fde0f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129507"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145816"
 ---
 # <a name="add-resources-project-service"></a>리소스 추가(Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-리소스를 추가하여 프로젝트에 예약할 수 있습니다. 사용자, 연락처, 거래처, 그룹, 장비 등 프로젝트 일정 및 송장에 포함시키고자 하는 대상 모두 리소스가 될 수 있습니다.  
+리소스를 추가하여 프로젝트에 예약할 수 있습니다. 사용자, 연락처, 거래처, 그룹, 장비 등 프로젝트 일정 및 송장에 포함시키려고 하는 대상 모두 리소스가 될 수 있습니다.  
   
 회사의 부서별로 리소스에 대한 비용 및 가격이 상이한 경우, 부서 단위로 리소스를 할당할 수 있습니다.  
   
