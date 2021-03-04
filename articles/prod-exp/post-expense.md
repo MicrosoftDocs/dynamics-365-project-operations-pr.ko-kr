@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d008ef8dd55550431fbb9e329cd7d9428a08831
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 982b7621c35547448b5d756f77f3873b9fbbcb9d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080198"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960120"
 ---
 # <a name="post-an-expense-report"></a>경비 보고서 전기
-
-[!include [banner](../includes/banner.md)]
 
 경비 보고서가 승인되고 일반 분개장으로 이전된 후 총계정 원장에 전기할 수 있습니다. 경비 보고서를 전시하면 부가가치세(VAT) 공제 대상 경비가 식별됩니다. VAT 지불 확인 및 복구 작업은 경비 보고서 확인을 담당하는 직원에게 할당됩니다.
 

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700688"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727888"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020년 12월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -24,6 +24,8 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 - Dataverse 환경 버전 4.5.0.134의 Project Operations
 - Dynamics 365 Finance 환경 버전 10.0.15의 프로젝트 관리 및 회계
+
+이 릴리스로 업데이트하는 방법에 대한 정보는 [재무 환경에서 Project Operations 업데이트](ur5-nonstocked-installation.md)를 참조하십시오
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
 이 릴리스에는 다음과 같은 기능이 포함되어 있습니다.

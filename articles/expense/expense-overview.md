@@ -5,15 +5,16 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122845"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764917"
 ---
 # <a name="expense-home-page"></a>경비 홈 페이지
 
@@ -28,7 +29,7 @@ Project Operations에는 경비에 대해 지원되는 두 가지 배포 모델�
 - **기본** : 기본 배포는 **리소스/비 재고 기반 시나리오의 경우 Project Operations** 및 **라이트 배포 – 견적 송장 처리** 에 사용할 수 있습니다.
 
 ## <a name="full"></a>전체 
-전체 경비 배포는 다음과 같은 정책 생성 기능을 포함하는 완전한 정책 시행을 제공합니다.
+전체 경비 배포는 다음과 같은 정책을 생성하는 기능을 포함하는 완전한 정책 시행을 제공합니다.
 
   - 경비 범주 제한
   - 여행

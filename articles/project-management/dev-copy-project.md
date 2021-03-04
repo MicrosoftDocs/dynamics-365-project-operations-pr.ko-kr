@@ -3,17 +3,17 @@ title: 프로젝트 복사로 프로젝트 템플릿 개발
 description: 이 항목은 프로젝트 복사 사용자 지정 작업을 사용하여 프로젝트 템플릿을 만드는 방법에 대한 정보를 제공합니다.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642416"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045017"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>프로젝트 복사로 프로젝트 템플릿 개발
 
@@ -48,3 +48,67 @@ Dynamics 365 Project Operations는 프로젝트를 복사하고 할당을 역할
 
 ## <a name="specify-fields-to-copy"></a>복사할 필드 지정 
 작업이 호출되면 **프로젝트 복사** 는 프로젝트 보기 **프로젝트 열 복사** 를 조회하여 프로젝트를 복사할 때 복사할 필드를 결정합니다.
+
+
+### <a name="example"></a>예제
+다음 예는 **removeNamedResources** 매개 변수 집합이 있는 **CopyProject** 사용자 지정 작업을 호출하는 방법을 보여줍니다.
+```C#
+{
+    using System;
+    using System.Runtime.Serialization;
+    using Microsoft.Xrm.Sdk;
+    using Newtonsoft.Json;
+
+    [DataContract]
+    public class ProjectCopyOption
+    {
+        /// <summary>
+        /// Clear teams and assignments.
+        /// </summary>
+        [DataMember(Name = "clearTeamsAndAssignments")]
+        public bool ClearTeamsAndAssignments { get; set; }
+
+        /// <summary>
+        /// Replace named resource with generic resource.
+        /// </summary>
+        [DataMember(Name = "removeNamedResources")]
+        public bool ReplaceNamedResources { get; set; }
+    }
+
+    public class CopyProjectSample
+    {
+        private IOrganizationService organizationService;
+
+        public CopyProjectSample(IOrganizationService organizationService)
+        {
+            this.organizationService = organizationService;
+        }
+
+        public void SampleRun()
+        {
+            // Example source project GUID
+            Guid sourceProjectId = new Guid("11111111-1111-1111-1111-111111111111");
+            var sourceProject = new Entity("msdyn_project", sourceProjectId);
+
+            Entity targetProject = new Entity("msdyn_project");
+            targetProject["msdyn_subject"] = "Example Project";
+            targetProject.Id = organizationService.Create(targetProject);
+
+            ProjectCopyOption copyOption = new ProjectCopyOption();
+            copyOption.ReplaceNamedResources = true;
+
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            Console.WriteLine("Done ...");
+        }
+
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        {
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            req["SourceProject"] = sourceProject;
+            req["Target"] = TargetProject;
+            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+            OrganizationResponse response = organizationService.Execute(req);
+        }
+    }
+}
+```

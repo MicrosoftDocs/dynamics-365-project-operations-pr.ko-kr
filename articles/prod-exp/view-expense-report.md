@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080197"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960075"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>총계정 원장 또는 조달 및 소싱에서 경비 보고서 보기
-
-[!include [banner](../includes/banner.md)]
 
 총계정 원장 또는 조달 및 소싱에서 트랜잭션을 보기 위해 쿼리를 실행하면 쿼리가 너무 많은 정보를 반환할 수 있습니다. 따라서 검색 범위를 좁힐 수 있습니다. 필요한 정보를 얻으려면 트랜잭션을 드릴다운하여 표시된 경비 보고서를 볼 수 있습니다.
 

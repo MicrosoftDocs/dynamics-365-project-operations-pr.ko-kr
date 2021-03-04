@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080208"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960615"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>경비 보고서에 대한 여러 승인자
-
-[!include [banner](../includes/banner.md)]
 
 조직의 경비 승인 정책에 따라 두 명 이상의 사람이 직원이 제출한 경비 보고서를 승인해야 할 수 있습니다. 경비 보고서 승인을 위한 워크플로 프로세스를 설정할 때 하나 이상의 경비 보고서 승인자에 대한 작업 또는 단계를 포함하는 워크플로 요소를 추가할 수 있습니다. 예를 들어, 모든 경비 보고서는 보고서를 제출한 직원의 관리자가 먼저 승인한 다음 채무 코디네이터가 승인하도록 요구할 수 있습니다.
 

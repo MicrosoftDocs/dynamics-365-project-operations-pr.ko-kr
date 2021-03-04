@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 825b6c131c8a65b99d5b7ebdadcd6389886f2d11
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d6b9d4fa0f69b4b0fe4bd1786958d22e5580a321
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080201"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960885"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>경비 보고서의 개인 경비
-
-[!include [banner](../includes/banner.md)]
 
 여행 중에 작업자는 때때로 회사 신용 카드로 개인 경비를 청구할 수 있습니다. 개인 경비 처리 프로세스를 정의하지 않으면 작업자가 항목별 경비 보고서를 제출할 때 경비 보고서에 대한 승인 프로세스가 중단될 수 있습니다. 
 

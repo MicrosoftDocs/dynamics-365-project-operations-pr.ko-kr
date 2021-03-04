@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bbee90450749c89f643d96e4d41a387c45e9abc5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080207"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960570"
 ---
 # <a name="expense-management-workflow"></a>경비 관리 워크플로
-
-[!include [banner](../includes/banner.md)]
 
 경비 관리에서 경비 보고서에 대한 검토 프로세스를 설정하기 위해 워크플로 시스템을 사용할 수 있습니다. 다음 기준을 사용하여 경비 보고서를 승인하는 사람을 결정하는 워크플로를 설정할 수 있습니다.
 

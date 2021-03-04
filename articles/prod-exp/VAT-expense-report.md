@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49397592ea002b9da872ac1aa455719b6ca2292e
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080094"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960210"
 ---
 # <a name="vat-recovery"></a>VAT 복구 
-
-[!include [banner](../includes/banner.md)]
 
 적격 부가가치세(VAT) 거래에 대한 환불을 받으려면 회사 또는 조직이 정확한 정보를 식별, 수집, 확인 및 제출해야 합니다. 이 프로세스에는 여러 작업이 포함되며 회사 규모에 따라 여러 직원 또는 역할이 포함될 수 있습니다.
 

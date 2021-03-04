@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080206"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960525"
 ---
 # <a name="set-up-expense-management-workflows"></a>경비 관리 워크플로 설정
-
-[!include [banner](../includes/banner.md)]
 
 출장 및 경비 문서를 검토하고 승인하는 데 사용되는 워크플로 프로세스를 설정할 수 있습니다. 워크플로를 정의할 수 있는 문서에는 경비 보고서, 여행 요청 및 현금 서비스 요청이 포함됩니다.
 

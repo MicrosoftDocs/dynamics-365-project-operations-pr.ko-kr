@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080211"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960480"
 ---
 # <a name="expense-management-mobile-workspace"></a>경비 관리 모바일 작업 영역
-
-[!include [banner](../includes/banner.md)]
 
 이 주제는 **경비 관리** 모바일 작업 영역에 대한 정보를 제공합니다. 이 작업 영역에서는 사용자가 영수증을 캡처하고 업로드할 수 있으므로 나중에 경비 보고서에 첨부할 수 있습니다. 또한 사용자는 첨부된 영수증을 사용하여 비용 라인을 신속하게 생성하고 비용 보고서를 생성 및 관리할 수 있습니다. 또한 승인자는 **경비 관리** 모바일 작업 영역을 사용하여 할당된 경비 보고서를 보고 해당 경비 보고서를 승인하거나 거부할 수 있습니다.
 
@@ -203,7 +201,7 @@ Dynamics 365 Unified Ops 모바일 앱 다운로드 및 설치:
 
 18. 회사 정책에 경비 게스트가 필요한 경우 **게스트** 를 선택하고 다음 단계를 수행하십시오.
 
-    1. **게스트** , **이전 게스트** 또는 **동료** 를 선택합니다.
+    1. **게스트**, **이전 게스트** 또는 **동료** 를 선택합니다.
     2. 다음 단계 중 하나를 수행합니다.
 
         - **게스트** 를 선택한 경우 다음 단계를 수행하십시오.

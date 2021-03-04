@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2291515cc154fb5b34ca5802135791958bea1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080200"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960345"
 ---
 # <a name="configure-expense-management"></a>경비 관리 구성
-
-[!include [banner](../includes/banner.md)]
 
 이 항목에서는 경비 관리를 구성하기 전에 계획 프로세스 중에 고려해야 할 사항과 결정 사항에 대해 설명합니다. 경비 관리에서 결제 방법, 여행 요청, 경비 보고서, 정책 등에 대한 정보를 저장할 수 있습니다.
 

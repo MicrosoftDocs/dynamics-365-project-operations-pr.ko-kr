@@ -1,9 +1,9 @@
 ---
-title: Project Service Automation에서 Finance and Operations로 직접 프로젝트 계약 및 프로젝트 동기화
+title: Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화
 description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642641"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764827"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation에서 Finance and Operations로 직접 프로젝트 계약 및 프로젝트 동기화
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 다음 템플릿 및 기본 작업은 Project Service Automation에서 Finance로 프로젝트 계약 및 프로젝트를 동기화하는 데 사용됩니다.
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Dynamics 365 Project Service Automation v2.x와 통합
-- **데이터 통합의 템플릿 이름:** 프로젝트 및 계약(PSA에서 Fin 및 Ops까지)
+- **데이터 통합의 템플릿 이름:** 프로젝트 및 계약(Project Service Automation에서 Finance로)
 - **프로젝트에서 작업의 이름:**
 
-    - 프로젝트 계약 PSA에서 Fin 및 Ops까지
-    - 프로젝트 PSA에서 Fin 및 Ops까지
-    - 프로젝트 계약 내용 PSA에서 Fin 및 Ops까지
-    - 프로젝트 계약 내용 중요 시점 PSA에서 Fin 및 Ops까지
+    - 프로젝트 계약 Project Service Automation에서 Finance로
+    - 프로젝트 Project Service Automation에서 Finance로
+    - 프로젝트 계약 내용 Project Service Automation에서 Finance로
+    - 프로젝트 계약 내용 중요 시점 Project Service Automation에서 Finance로
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Dynamics 365 Project Service Automation v3.x와 통합
 프로젝트 계약 내용 중요 시점 템플릿에 영향을 미치는 Project Service Automation의 스키마 변경이 있으며 Project Service Automation v3.x를 Dynamics 365과 통합하려면 v2 버전의 템플릿을 사용해야 합니다.
 
-- **데이터 통합의 템플릿 이름:** 프로젝트 및 계약(PSA 3.x에서 Fin 및 Ops까지) - v2
+- **데이터 통합의 템플릿 이름:** 프로젝트 및 계약(Project Service Automation 3.x에서 Finance로) - v2
 - **프로젝트에서 작업의 이름:**
 
-    - 프로젝트 계약 PSA에서 Fin 및 Ops까지
-    - 프로젝트 PSA에서 Fin 및 Ops까지
-    - 프로젝트 계약 내용 PSA에서 Fin 및 Ops까지
-    - 프로젝트 계약 내용 중요 시점 PSA에서 Fin 및 Ops까지
+    - 프로젝트 계약 Project Service Automation에서 Finance로
+    - 프로젝트 Project Service Automation에서 Finance로
+    - 프로젝트 계약 내용 Project Service Automation에서 Finance로
+    - 프로젝트 계약 내용 중요 시점 Project Service Automation에서 Finance로
 
 프로젝트 계약 및 프로젝트의 동기화가 발생하기 전에 계정을 동기화해야 합니다.
 
@@ -87,7 +87,8 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 프로젝트 계약은 Project Service Automation에서 관리되며 프로젝트 계약으로 Finance에 동기화됩니다. 통합 템플릿의 일부로 Finance에서 프로젝트 계약에 대한 통합 소스를 설정할 수 있습니다.
 
-시간 및 재료 프로젝트 및 고정 가격 프로젝트는 Project Service Automation에서 관리되며 프로젝트로 Finance에 동기화됩니다. 템플릿 통합의 일부로 Finance에서 프로젝트에 대한 통합 소스를 설정할 수 있습니다.
+시간과 재료 및 고정 가격 프로젝트는 Project Service Automation에서 관리되고 프로젝트로서 Finance에 동기화됩니다. 템플릿 통합의 일부로 Finance에서 프로젝트의 통합 소스를 설정할 수 있습니다. 현재 시간과 재료 및 고정 가격 프로젝트만 지원됩니다.
+
 
 프로젝트 계약 내용은 Project Service Automation에서 관리되며 프로젝트 계약 청구 규칙으로 Finance에 동기화됩니다. 청구 방법이 기본 프로젝트 유형과 다른 경우 동기화는 계약 항목 프로젝트 및 프로젝트 그룹에 대한 프로젝트 유형을 업데이트합니다.
 
@@ -122,7 +123,7 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 
 ## <a name="power-query"></a>파워 쿼리
 
-다음 조건이 충족되는 경우 데이터를 필터링하려면 Microsoft Excel용 파워 쿼리를 사용해야 합니다.
+다음 조건이 충족되는 경우 Excel용 Microsoft 파워 쿼리를 사용하여 데이터를 필터링합니다.
 
 - Dynamics 365 Sales에 판매 주문이 있습니다.
 - Project Service Automation에 여러 조직 단위가 있으며 이러한 조직 단위는 Finance의 여러 법인에 매핑됩니다.
@@ -130,7 +131,7 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 파워 쿼리를 사용해야 하는 경우 다음 지침을 따르십시오.
 
 - 프로젝트 및 계약(PSA에서 Fin 및 Ops까지) 템플릿에는 **작업 항목(msdyn\_ordertype = 192350001)** 유형의 판매 주문만 포함하는 기본 필터가 있습니다. 이 필터는 Finance에서 판매 주문에 대해 프로젝트 계약이 생성되지 않도록 보장합니다. 고유한 템플릿을 만드는 경우 이 필터를 추가해야 합니다.
-- 통합 연결 세트의 법인에 동기화되어야 하는 계약 조직만 포함하는 파워 쿼리 필터를 작성해야 합니다. 예를 들어 Contoso US의 계약 조직 구성 단위와 보유한 프로젝트 계약은 USSI 법인과 동기화되어야 하지만 Contoso Global의 계약 조직 구성 단위와 보유한 프로젝트 계약은 USMF 법인과 동기화되어야 합니다. 이 필터를 작업 매핑에 추가하지 않으면 모든 프로젝트 계약이 계약 조직 단위에 관계없이 연결 집합에 대해 정의된 법인에 동기화됩니다.
+- 통합 연결 집합의 법인에 동기화되어야 하는 계약 조직만 포함하는 파워 쿼리 필터를 만듭니다. 예를 들어 Contoso US의 계약 조직 구성 단위와 보유한 프로젝트 계약은 USSI 법인과 동기화되어야 하지만 Contoso Global의 계약 조직 구성 단위와 보유한 프로젝트 계약은 USMF 법인과 동기화되어야 합니다. 이 필터를 작업 매핑에 추가하지 않으면 모든 프로젝트 계약이 계약 조직 단위에 관계없이 연결 집합에 대해 정의된 법인에 동기화됩니다.
 
 ## <a name="template-mapping-in-data-integration"></a>데이터 통합의 템플릿 매핑
 

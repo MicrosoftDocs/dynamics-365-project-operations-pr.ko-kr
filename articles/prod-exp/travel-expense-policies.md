@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6240a7be175800ce6f3b066de9e935ab370629ef
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: ab99c0ec769eb2e0914fc7d993f83d20e2c327f6
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650102"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960705"
 ---
 # <a name="set-up-expense-policies"></a>경비 정책 설정
-
-[!include [banner](../includes/banner.md)]
 
 작업자가 경비 보고서 및 출장 요청을 입력하고 제출할 때 따라야 하는 정책을 정의할 수 있습니다.         
 경비 정책을 구현하면 경비를 효과적으로 관리할 수 있습니다.         
