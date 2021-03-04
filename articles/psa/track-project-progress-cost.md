@@ -18,23 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ede8902a29bed224d7934a79e30f8c7e7fb9023b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4dccf7c9b3e994e5d39f50b38e50a6c423c412f6
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121901"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144241"
 ---
-# <a name="track-project-progress-and-cost-project-service"></a><span data-ttu-id="fce76-103">프로젝트 프로세스 및 비용 추적(Project Service)</span><span class="sxs-lookup"><span data-stu-id="fce76-103">Track project progress and cost (Project Service)</span></span>
+# <a name="track-project-progress-and-cost-project-service"></a><span data-ttu-id="f31e5-103">프로젝트 프로세스 및 비용 추적(Project Service)</span><span class="sxs-lookup"><span data-stu-id="f31e5-103">Track project progress and cost (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="fce76-104">작업 분할 구조에 대한 진행률 추적에 대한 요구는 여러 산업 분야에 따라 다양합니다.</span><span class="sxs-lookup"><span data-stu-id="fce76-104">The need for tracking progress against a work breakdown structure varies across industry verticals.</span></span> <span data-ttu-id="fce76-105">작업 분할 구조의 조금 더 세부적인 수준에서 추적하는 산업이 있는 반면, 작업 분할 구조의 높은 수준에서 추적하는 산업도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fce76-105">Some industries do it more diligently at a very granular level of the work breakdown structure, while others might track at a higher level of the work breakdown structure.</span></span>  
+<span data-ttu-id="f31e5-104">작업 분할 구조에 대한 진행률 추적에 대한 요구는 여러 산업 분야에 따라 다양합니다.</span><span class="sxs-lookup"><span data-stu-id="f31e5-104">The need for tracking progress against a work breakdown structure varies across industry verticals.</span></span> <span data-ttu-id="f31e5-105">작업 분할 구조의 조금 더 세부적인 수준에서 추적하는 산업이 있는 반면, 작업 분할 구조의 높은 수준에서 추적하는 산업도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f31e5-105">Some industries do it more diligently at a very granular level of the work breakdown structure, while others might track at a higher level of the work breakdown structure.</span></span>  
   
-## <a name="effort-tracking-view"></a><span data-ttu-id="fce76-106">작업량 추적 보기</span><span class="sxs-lookup"><span data-stu-id="fce76-106">Effort tracking view</span></span>  
-<span data-ttu-id="fce76-107">작업량 추적 보기는 작업 분할 구조에서 작업의 진행 상황에 대한 추적을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="fce76-107">The effort tracking view shows the tracking of progress for tasks in the work breakdown structure.</span></span> <span data-ttu-id="fce76-108">해당 날짜까지 작업에 들인 실제 작업 시간을 작업에 대해 계획된 작업 시간과 비교합니다.</span><span class="sxs-lookup"><span data-stu-id="fce76-108">It compares the actual effort hours spent against a task till date to the planned effort hours on a task.</span></span>  
+## <a name="effort-tracking-view"></a><span data-ttu-id="f31e5-106">작업량 추적 보기</span><span class="sxs-lookup"><span data-stu-id="f31e5-106">Effort tracking view</span></span>  
+<span data-ttu-id="f31e5-107">작업량 추적 보기는 작업 분할 구조에서 작업의 진행 상황에 대한 추적을 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="f31e5-107">The effort tracking view shows the tracking of progress for tasks in the work breakdown structure.</span></span> <span data-ttu-id="f31e5-108">해당 날짜까지 작업에 들인 실제 작업 시간을 작업에 대해 계획된 작업 시간과 비교합니다.</span><span class="sxs-lookup"><span data-stu-id="f31e5-108">It compares the actual effort hours spent against a task till date to the planned effort hours on a task.</span></span>  
   
-<span data-ttu-id="fce76-109">경우에 따라 원래 예상했던 작업량을 수정해야 할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fce76-109">Sometimes you might need to revise the original estimates on a task.</span></span> <span data-ttu-id="fce76-110">작업 범위가 변경된다든가 원래 계획보다 작업자의 숙련도가 떨어질 수 있기 때문에 작업 속도는 원래 예상보다 빠르게 또는 느리게 진행될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fce76-110">The task might be moving faster or slower than originally anticipated because of changes in scope or having less experienced people than originally planned for.</span></span> <span data-ttu-id="fce76-111">기본 번호를 변경하지 않는 것이 좋습니다.프로젝트 기준이 모든 이해 관계자가 동의한 프로젝트 일정 및 예상 비용에 대해 게시된 원본이기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="fce76-111">We don't recommend changing your baseline numbers, because the project baseline is the published source for the project’s schedule and cost estimates that all stakeholders on the project have agreed to.</span></span>  
+<span data-ttu-id="f31e5-109">경우에 따라 원래 예상했던 작업량을 수정해야 할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f31e5-109">Sometimes you might need to revise the original estimates on a task.</span></span> <span data-ttu-id="f31e5-110">작업 범위가 변경된다든가 원래 계획보다 작업자의 숙련도가 떨어질 수 있기 때문에 작업 속도는 원래 예상보다 빠르게 또는 느리게 진행될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f31e5-110">The task might be moving faster or slower than originally anticipated because of changes in scope or having less experienced people than originally planned for.</span></span> <span data-ttu-id="f31e5-111">기본 번호를 변경하지 않는 것이 좋습니다.프로젝트 기준이 모든 이해 관계자가 동의한 프로젝트 일정 및 예상 비용에 대해 게시된 원본이기 때문입니다.</span><span class="sxs-lookup"><span data-stu-id="f31e5-111">We don't recommend changing your baseline numbers, because the project baseline is the published source for the project’s schedule and cost estimates that all stakeholders on the project have agreed to.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="fce76-112">참고 항목</span><span class="sxs-lookup"><span data-stu-id="fce76-112">See Also</span></span>  
- [<span data-ttu-id="fce76-113">프로젝트 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="fce76-113">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="f31e5-112">참고 항목</span><span class="sxs-lookup"><span data-stu-id="f31e5-112">See Also</span></span>  
+ [<span data-ttu-id="f31e5-113">프로젝트 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="f31e5-113">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
