@@ -18,23 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f3a667823ac2b789bb106a1831cb7b6a56baf4c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120416"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147796"
 ---
-# <a name="dashboards"></a><span data-ttu-id="38e98-103">대시보드</span><span class="sxs-lookup"><span data-stu-id="38e98-103">Dashboards</span></span>
+# <a name="dashboards"></a><span data-ttu-id="49b5b-103">대시보드</span><span class="sxs-lookup"><span data-stu-id="49b5b-103">Dashboards</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="38e98-104">Dynamics 365 Project Service Automation에는 두 개의 시스템 대시보드, 즉, **연습 관리자** 및 **리소스 관리자** 가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="38e98-104">Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.</span></span>
+<span data-ttu-id="49b5b-104">Dynamics 365 Project Service Automation에는 두 개의 시스템 대시보드, 즉, **연습 관리자** 및 **리소스 관리자** 가 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="49b5b-104">Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.</span></span>
 
-## <a name="practice-manager"></a><span data-ttu-id="38e98-105">연습 관리자</span><span class="sxs-lookup"><span data-stu-id="38e98-105">Practice Manager</span></span> 
+## <a name="practice-manager"></a><span data-ttu-id="49b5b-105">연습 관리자</span><span class="sxs-lookup"><span data-stu-id="49b5b-105">Practice Manager</span></span> 
 
-<span data-ttu-id="38e98-106">**연습 관리자** 대시보드는 연습 관리자에게 원가, 매출액, 총 마진 및 사용률을 추적하기 위한 그래픽 대시보드 환경을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="38e98-106">The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization.</span></span> <span data-ttu-id="38e98-107">또한 연습 관리자가 정보를 고객, 프로젝트 또는 리소스 역할과 같은 다양한 차원으로 분할할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="38e98-107">It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role.</span></span> <span data-ttu-id="38e98-108">대시보드를 만들고 맞춤화하는 방법에 대한 자세한 설명은 [대시보드 생성 또는 편집](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="38e98-108">For more information about how to create and customize dashboards, see [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span></span>
+<span data-ttu-id="49b5b-106">**연습 관리자** 대시보드는 연습 관리자에게 원가, 매출액, 총 마진 및 사용률을 추적하기 위한 그래픽 대시보드 환경을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="49b5b-106">The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization.</span></span> <span data-ttu-id="49b5b-107">또한 연습 관리자가 정보를 고객, 프로젝트 또는 리소스 역할과 같은 다양한 차원으로 분할할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="49b5b-107">It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role.</span></span> <span data-ttu-id="49b5b-108">대시보드를 만들고 맞춤화하는 방법에 대한 자세한 설명은 [대시보드 생성 또는 편집](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="49b5b-108">For more information about how to create and customize dashboards, see [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span></span>
 
-## <a name="resource-manager"></a><span data-ttu-id="38e98-109">리소스 관리자</span><span class="sxs-lookup"><span data-stu-id="38e98-109">Resource Manager</span></span> 
+## <a name="resource-manager"></a><span data-ttu-id="49b5b-109">리소스 관리자</span><span class="sxs-lookup"><span data-stu-id="49b5b-109">Resource Manager</span></span> 
 
-<span data-ttu-id="38e98-110">**리소스 관리자** 대시보드는 리소스 관리자에게 리소스 요청과 리소스 수요 및 활용도를 모니터링하기 위한 그래픽 대시보드 환경을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="38e98-110">The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization.</span></span> <span data-ttu-id="38e98-111">또한 리소스 관리자가 모니터링된 정보를 다양한 차원으로 분할할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="38e98-111">It also lets resource managers slice the monitored information by various dimensions.</span></span>
+<span data-ttu-id="49b5b-110">**리소스 관리자** 대시보드는 리소스 관리자에게 리소스 요청과 리소스 수요 및 활용도를 모니터링하기 위한 그래픽 대시보드 환경을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="49b5b-110">The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization.</span></span> <span data-ttu-id="49b5b-111">또한 리소스 관리자가 모니터링된 정보를 다양한 차원으로 분할할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="49b5b-111">It also lets resource managers slice the monitored information by various dimensions.</span></span>
