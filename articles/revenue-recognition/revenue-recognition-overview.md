@@ -60,3 +60,6 @@ Dynamics 365 Project Operations에서 수익 인식 원칙은 프로젝트 또�
 [수익 추정치 관리](rev-rec-completed-contract-method.md)
 
 [방법을 완료하는 데 드는 비용](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "5150946"
 
 ### <a name="currently-extended-time-entry-changes"></a>현재 확장된 시간 항목 변경 사항
 현재 시간 항목 사용자에게 미치는 영향을 최소화하기 위해 이 역할 변경은 시간 항목을 계속 사용하는 데 필요한 유일한 핵심 요구 사항입니다. 사용자 지정 보기나 별도의 시간 항목 경험을 를 작성한 경우 **시간 항목 설정** 필드를 올바른 PSA 값으로 설정해야 합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

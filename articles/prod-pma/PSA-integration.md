@@ -75,3 +75,6 @@ Project Service Automation과 Finance 통합 솔루션을 사용하려면 다음
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Project Service Automation 인스턴스에 Project Service Automation to Finance 통합 솔루션 설치
 
 [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=57016)에서 Project Service Automation to Finance 통합 솔루션을 다운로드하고 솔루션에 포함된 지침을 따릅니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

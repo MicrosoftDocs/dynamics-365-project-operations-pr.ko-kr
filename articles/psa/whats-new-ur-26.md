@@ -74,3 +74,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - 견적 또는 계약에서 프로젝트 기반 라인을 선택할 때 **제안** 단추는 기존 제품과 연관된 제품 기반 라인을 선택할 때만 표시되어야합니다.
 - **Create_Product** 권한을 **Create_ProjectContract** 권한에서 분할합니다.
 - 송장 라인을 삭제하면 **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** 에서 Null 참조 실패가 발생합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

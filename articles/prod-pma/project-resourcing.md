@@ -55,3 +55,6 @@ ms.locfileid: "4080038"
 - [프로젝트 자원 예약 성능](project-scheduling-performance.md)
 - [작업 분할 구조 템플릿에서 역할 설정](set-up-roles-wbs-template.md)
 - [계획된 리소스에 대한 리소스 이행](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

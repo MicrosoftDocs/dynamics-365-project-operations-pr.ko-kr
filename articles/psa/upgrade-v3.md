@@ -110,3 +110,6 @@ Project Service Automation 버전 3에서는 예약 가능한 리소스를 작�
  
 생성되지 않은 팀 구성원에 대한 다른 소싱 조직 단위의 기본값을 변경하는 이유는 조직 구성 단위 할당이 수행되지 않도록 업그레이드 전에 일반 리소스가 포함된 각 프로젝트에서 팀을 생성하거나 다시 생성하는 것이 좋습니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

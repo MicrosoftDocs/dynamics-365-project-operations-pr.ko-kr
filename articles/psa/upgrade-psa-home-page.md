@@ -65,3 +65,6 @@ ms.locfileid: "5150091"
 
 > [!NOTE]
 > 이전 버전의 Field Service 및 PSA 애플리케이션을 사용할 때 최상의 경험을 위해서는 **시스템 설정** 페이지로 이동하여, **새 통합 인터페이스만 사용(권장)** 필드를 위해 **아니요** 를 선택하십시오. 이러한 버전은 UCI에서 올바르게 로드되도록 설계되지 않았기 때문입니다. UCI를 끄면 이전 웹 클라이언트를 사용하여 이러한 버전의 Field Service 및 PSA를 열고 실행할 수 있습니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

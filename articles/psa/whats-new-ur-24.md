@@ -81,3 +81,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - **실적 새로 고침** 단추가 요약 작업을 잘못 계산합니다.
 - Microsoft Project 추가 기능: 팀 구성원이 빈 리소스 단위를 가진 경우 null 참조 오류를 수정합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

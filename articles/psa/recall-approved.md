@@ -107,3 +107,6 @@ ms.locfileid: "5147850"
 다음 그림은 승인된 경비 항목에 대해 철회될 때 발생하는 변경 사항을 보여줍니다.
 
 ![경비 항목 상태 전환](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

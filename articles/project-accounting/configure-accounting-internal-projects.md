@@ -32,3 +32,6 @@ Dynamics 365 Project Operations의 계약과 연결되지 않은 모든 프로�
 트랜잭션이 프로젝트에 전기된 후 프로젝트가 프로젝트 계약과 연관된 경우 시스템은 누적된 모든 트랜잭션을 취소하고 새로운 청구 가능 트랜잭션을 생성합니다. 청구 가능 트랜잭션은 각 프로젝트 비용 및 수익 프로필에 정의된 회계 규칙을 따릅니다.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

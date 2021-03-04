@@ -35,3 +35,6 @@ Dynamics 365 Project Operations의 프로젝트 계약은 이유가 **확인됨*
 
 > [!NOTE]
 > Dynamics 365 Project Operations에서 프로젝트 계약을 손실로 마감해도 관련 영업 기회의 상태에 영향을 주지 않습니다. 영업 기회는 열린 상태로 유지되며 수동으로 닫아야 합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

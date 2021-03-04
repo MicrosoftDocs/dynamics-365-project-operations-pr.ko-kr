@@ -42,3 +42,6 @@ Dynamics 365 Project Service Automation은 새롭고 확장 가능한 시간 항
 ## <a name="extensibility"></a>확장성
 
 시간 항목 그리드가 있는 **시간 항목** 페이지에서 맞춤 필드를 추가하고 조회 필드를 설정하고 맞춤 보기를 만들 수 있습니다. 맞춤 필드에 선택되거나 입력된 값을 기반으로 하는 맞춤 비즈니스 논리를 설정할 수도 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

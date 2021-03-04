@@ -83,3 +83,6 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 다음 그림은 데이터 통합에서 템플릿 작업 매핑의 예를 보여줍니다. 매핑은 Project Service Automation에서 Finance로 동기화될 필드 정보를 보여줍니다.
 
 [![템플릿 매핑](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

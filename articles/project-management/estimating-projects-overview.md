@@ -79,3 +79,6 @@ Project Operations는 계약 또는 프로젝트에서의 주문 변경을 지�
 7. **OK** 를 선택하여 대화 상자를 닫은 다음 **업데이트 단계** 를 선택합니다.
 8. 두 번째 플러그인에 대해 1~7 단계를 반복합니다.
 9. **PluginRegistrationTool** 을 닫습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

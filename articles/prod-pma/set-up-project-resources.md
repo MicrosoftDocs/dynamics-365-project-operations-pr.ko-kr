@@ -75,3 +75,6 @@ ms.locfileid: "4080224"
 - 리소스 요청을 이행합니다.
 - WBS에 인력이 있는 리소스를 요청합니다.
 - 직원이 있는 리소스를 요청하지 않고 프로젝트에 리소스를 예약합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

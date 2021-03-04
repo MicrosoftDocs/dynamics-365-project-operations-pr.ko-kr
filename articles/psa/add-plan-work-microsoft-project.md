@@ -231,3 +231,6 @@ Project Service Automation에서 프로젝트를 읽을 때 리소스의 일정�
 
 ### <a name="see-also"></a>참고 항목  
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재�
 
 이 배포의 경우 [미리 보기 구독 신청](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) 및 [새로운 환경 제공](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json)을 참조하십시오. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

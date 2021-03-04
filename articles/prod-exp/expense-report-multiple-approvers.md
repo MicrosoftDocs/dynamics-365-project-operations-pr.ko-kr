@@ -40,3 +40,6 @@ ms.locfileid: "4960615"
 
     1. 직원의 관리자가 경비 보고서를 승인합니다.
     2. 예산 소유자가 경비 보고서를 승인합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Dynamics 365 프로젝트 작업 표 모바일 앱을 사용하면 사용자가 
 - [프로젝트 시간 항목]( project-time-entry-mobile-workspace.md)
 - [모바일 장치의 프로젝트 작업 표](Mobile-timesheets.md)
 - [iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

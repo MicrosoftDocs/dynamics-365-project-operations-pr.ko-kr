@@ -35,3 +35,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 
 Project Operations에서 일반 또는 명명된 리소스 팀으로 프로젝트를 충원할 수 있습니다. 다양한 방법을 사용하여 팀원을 추가 및 할당하고 예약 및 할당을 관리할 수 있습니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

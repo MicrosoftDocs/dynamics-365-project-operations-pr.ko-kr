@@ -62,3 +62,6 @@ Dynamics 365 Project Operations는 Dynamics 365 Finance의 [재무 차원](https
 4. 재무 차원 기본값을 설정합니다. 재무 차원의 기본값은 고객 계정에서 설정됩니다. 프로젝트가 여러 프로젝트 계약 고객이 있는 계약 내용과 연결된 경우 기본 고객이 재무 차원의 기본값에 사용됩니다.
 
 프로젝트 기본 재무 차원은 **Project Operations 통합 분개장** 및 관련 프로젝트 송장 라인에서 시간, 경비 및 요금 트랜잭션에 대한 분개장 항목 기본값을 설정하는 데 사용됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

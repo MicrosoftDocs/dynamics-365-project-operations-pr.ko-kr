@@ -57,3 +57,6 @@ ms.locfileid: "4080190"
 
 > [!NOTE]
 > 상태가 **보냄** 으로 변경된 후에는 프로젝트 견적을 수정할 수 없습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

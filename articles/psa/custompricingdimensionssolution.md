@@ -68,3 +68,6 @@ ms.locfileid: "5144647"
 > ![모든 관련 구성 요소를 포함하지 마십시오](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

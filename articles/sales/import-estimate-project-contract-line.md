@@ -59,3 +59,6 @@ Dynamics 365 Project Operations에서 프로젝트에서 프로젝트 기반 계
 | 작업 A | 항공료 | 2020년 10월 1일 | 4 | 400 | 1600 |
 | 작업 B | 호텔 | 2020년 10월 1일 | 4 | 200 | 800 |
 | 작업 C | 호텔 | 2020년 11월 1일 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

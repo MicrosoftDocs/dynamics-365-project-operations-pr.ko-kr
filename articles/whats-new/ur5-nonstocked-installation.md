@@ -125,3 +125,6 @@ UR5 업데이트의 일부로 엔티티의 보안 권한에 대한 다음 업데
  
  ![원장 맵 동기화](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

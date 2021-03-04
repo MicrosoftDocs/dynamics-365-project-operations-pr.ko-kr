@@ -43,3 +43,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 
 - 기간이 null인 경우 시간 항목이 생성될 때 종료 날짜가 자동으로 채워집니다.
 - 사용자는 승인 또는 제출된 시간 항목에서 작업을 변경할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

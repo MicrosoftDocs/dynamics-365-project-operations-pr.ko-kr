@@ -70,3 +70,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 Azure 구독을 성공적으로 연결했습니다. 이제 Dynamics 365 Finance 클라우드 호스팅 환경을 배포할 수 있습니다.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

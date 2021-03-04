@@ -44,3 +44,6 @@ ms.locfileid: "4080110"
 10. 할당이 원하는 방식이면 프로젝트 예산 페이지에서 제출을 클릭하여 예산 또는 예산 개정을 승인 워크플로로 보냅니다.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

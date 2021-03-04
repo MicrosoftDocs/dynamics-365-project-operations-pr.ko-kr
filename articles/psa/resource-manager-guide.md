@@ -73,3 +73,6 @@ ms.locfileid: "5147346"
  [거래처 관리자 가이드](../psa/account-manager-guide.md)   
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)   
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

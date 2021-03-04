@@ -73,3 +73,6 @@ Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 
 > ![표준 직함 엔터티를 위한 샘플 데이터 ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

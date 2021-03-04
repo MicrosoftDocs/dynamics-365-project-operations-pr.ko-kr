@@ -62,3 +62,6 @@ ms.locfileid: "4080217"
 ## <a name="monitor-project-teams"></a>프로젝트 팀 모니터링
 1. **모든 프로젝트** 페이지에서 **XYZ 업그레이드 2단계** 프로젝트에 대한 **프로젝트 ID** 링크를 선택합니다.
 2. **프로젝트 팀 및 일정** 빠른 탭에서 나열된 프로젝트 리소스가 올바른지 확인하십시오.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

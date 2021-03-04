@@ -89,3 +89,6 @@ Project Operations 견적은 Dynamics 365 Sales 견적을 기반으로 합니다
 - Project Operations 견적에는 고유한 양식 및 UI 요소, 비즈니스 규칙, 플러그인의 비즈니스 논리, 판매 견적에서 고유하게 만드는 클라이언트 측 스크립트가 있습니다.
 
 이러한 이유로 판매 견적과 Project Operations 견적을 서로 바꿔서 사용하지 않는 것이 좋습니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

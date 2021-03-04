@@ -82,3 +82,6 @@ Microsoft Dynamics 365 Project Service Automation에서 과업에 리소스를 �
 
 3. 과업에 배정하기 원하는 리소스를 선택합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

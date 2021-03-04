@@ -58,3 +58,6 @@ ms.locfileid: "4080212"
 ### <a name="videos"></a>비디오
 
 현재 [Microsoft Dynamics 365 YouTube 채널](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)에서 사용 가능한 방법 비디오를 확인하십시오..
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

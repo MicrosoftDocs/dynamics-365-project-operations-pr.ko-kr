@@ -84,3 +84,6 @@ UCI 앱 모듈에는 양식의 PSA 버전만 포함되므로 영업 기회, 견�
 > 단종된 리소스의 전체 목록은 [Project Service Automation v3.x에서 단종된 웹 리소스](../developer-guides/web-resources-deprecated-v3.x.md)를 참조하십시오.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

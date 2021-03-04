@@ -78,3 +78,6 @@ ms.locfileid: "4960255"
 - 라인 수준 워크플로
 - 임시 승인자 지원
 - 고급 항목화
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

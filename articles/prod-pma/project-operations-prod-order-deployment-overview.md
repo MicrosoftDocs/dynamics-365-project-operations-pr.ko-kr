@@ -43,3 +43,6 @@ _**적용 대상:** 리소스/생산 기반 시나리오에 대한 Project Opera
 - 프로젝트에 대한 고객 대면 송장을 생성하는 엔터프라이즈급 판매세 및 환율 엔진입니다.
 - IFRS(International Financial Reporting Standards)를 준수하는 프로젝트 회계 및 수익 인식 시스템.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

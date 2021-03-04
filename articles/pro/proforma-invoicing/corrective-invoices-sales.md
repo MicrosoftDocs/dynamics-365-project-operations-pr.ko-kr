@@ -288,3 +288,6 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Finance 환경에 데모 데이터를 적용한 경우 [Project Operations에 �
 
 
 이제 Project Operations 환경이 프로비전 및 구성되었습니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

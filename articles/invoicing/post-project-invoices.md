@@ -30,3 +30,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 [수동으로 견적 프로젝트 송장을 만들거나](../proforma-invoicing/create-manual-proforma-invoice.md) 또는 [정기적 프로세스](../proforma-invoicing/configure-automated-invoice-creation.md)를 사용할 수 있습니다. 프로젝트 관리자는 필요에 따라 [견적 송장 초안을 조정](../proforma-invoicing/manage-proforma-invoice.md)한 다음 확인할 수 있습니다.
 
 확인된 견적 송장은 Finance에서 **프로젝트 관리 및 회계** 모듈로 보냅니다. 프로젝트 회계사는 프로젝트 송장 제안서의 서식을 지정하고 업데이트한 다음 문서를 전기하고 인쇄합니다. 전기된 프로젝트 송장은 총계정 원장과 고객 및 프로젝트 보조 원장에 기록됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

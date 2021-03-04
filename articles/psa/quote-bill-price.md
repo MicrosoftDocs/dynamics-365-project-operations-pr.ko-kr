@@ -44,3 +44,6 @@ ms.locfileid: "5147883"
 - [단위 그룹 및 단위](advanced-units.md)
 - [다단위 통화](advanced-currency.md)
 - [실제값 기록](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

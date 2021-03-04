@@ -63,3 +63,6 @@ ms.locfileid: "5147391"
 가예약된 리소스를 프로젝트의 **팀** 탭에서 확정 예약으로 전환하려면 리소스를 선택한 다음 **확인** 을 선택합니다.
 
 ![확인 명령](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

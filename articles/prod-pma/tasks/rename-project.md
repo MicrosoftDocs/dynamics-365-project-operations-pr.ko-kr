@@ -35,3 +35,6 @@ ms.locfileid: "4080231"
 4. 목록에서 수정할 사전 정의 또는 사용자 정의 스테이지를 선택합니다. 
 5. 프로젝트 스테이지 필드에 새 이름을 입력합니다.
 6. '저장'을 클릭합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

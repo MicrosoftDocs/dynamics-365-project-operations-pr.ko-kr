@@ -113,3 +113,6 @@ ms.locfileid: "4080078"
 자세한 내용은 [회사 간 프로젝트 송장 구성](tasks/configure-intercompany-project-invoicing.md)을 참조하십시오.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

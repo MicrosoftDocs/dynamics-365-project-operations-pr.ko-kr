@@ -61,3 +61,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
     - 세금 공제에서 제외되는 하위 범주가 있습니까?
     - 하위 범주의 품목 판매세 그룹은 무엇입니까?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

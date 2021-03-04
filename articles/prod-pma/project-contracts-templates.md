@@ -153,3 +153,6 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>프로젝트 및 계약(PSA 3.x에서 Dynamics로) - v2 템플릿의 프로젝트 계약 내용 중요 시점 매핑:
 
 [![두 템플릿 버전이 있는 프로젝트 계약 내용 중요 시점 매핑](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

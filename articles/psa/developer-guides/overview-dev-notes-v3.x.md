@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x는 새로운 기능, 새로운 플�
 - [시간 및 경비 변경 (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [리소스 관리 변경 (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Project Service Automation 3.x에서 단종된 웹 리소스](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

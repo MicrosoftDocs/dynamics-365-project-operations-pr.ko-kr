@@ -52,3 +52,6 @@ PSA의 프로젝트 관리 도구를 사용하면 프로젝트를 쉽게 실행�
 - [프로젝트 템플릿](project-templates.md)
 - [프로젝트 단계](project-stages.md)
 - [프로젝트 설정](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

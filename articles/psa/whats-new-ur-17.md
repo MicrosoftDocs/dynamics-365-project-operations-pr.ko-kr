@@ -57,3 +57,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - 해결: 트랜잭션 클래스가 **시간** 이면 **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** 및 **ContractLineDetails** 를 포함하여 모든 엔터티에 대해 **UnitGroup** 을 편집할 수 없습니다.. 그러나 **단위** 는 **JournalLine** 과 **InvoiceLineDetails** 의 경우에만 편집할 수 없습니다 .
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

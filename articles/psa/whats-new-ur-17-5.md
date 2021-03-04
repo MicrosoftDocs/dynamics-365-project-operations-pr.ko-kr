@@ -44,3 +44,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - 해결: 24시간 근무 시간 템플릿이 작업에 하루를 잘못 추가하는 문제를 해결했습니다.
 - 해결: +13 GMT 작업 시간 템플릿이 작업을 하루 전으로 잘못 이동하는 문제를 해결했습니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

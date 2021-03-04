@@ -127,3 +127,6 @@ Microsoft Project Client를 사용하여 새 작업 분할 구조를 만들고 �
 8.  리소스 조달에 사용할 **일정** 을 선택합니다.
 
 11. **확인** 을 클릭합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

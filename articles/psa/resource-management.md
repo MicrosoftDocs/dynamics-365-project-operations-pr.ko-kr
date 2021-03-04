@@ -53,3 +53,6 @@ PSA에서 일반 또는 명명된 리소스 팀으로 프로젝트를 충원할 
 - [리소스 요건에서 명명된 리소스 예약](book-named-resource.md)
 - [리소스 요청 제출](submit-resource-request.md)
 - [리소스 요청에서 제안된 프로젝트 리소스를 수락 또는 거부](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

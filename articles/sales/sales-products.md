@@ -124,3 +124,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 - **제품 SKU** 
 
 **사용자 수** 및 **월 수** 속성은 제품 행의 속성을 편집하여 수량 계수로 플래그를 지정할 수 있습니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

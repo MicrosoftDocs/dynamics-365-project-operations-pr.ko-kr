@@ -68,3 +68,6 @@ Project Service Automation (PSA)의 버전 3에서는 리소스 예약과 작업
 ![리소스 조정 탭에서 팀원에 대한 예약 연장](media/RM-how-to-7.png)
 
 프로젝트에 팀원을 예약한 후 예약 정비를 사용하거나 스케줄 게시판을 사용하여 예약을 직접 관리할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

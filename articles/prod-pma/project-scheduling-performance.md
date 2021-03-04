@@ -69,3 +69,6 @@ ms.locfileid: "4080035"
 
 > [!NOTE]
 > 이것은 일반 데이터를 사용자 환경에 있는 모든 회사의 **ResRollup** 테이블로 배포하며 하나의 법인에서만 실행하면 됩니다. 이 일괄 처리 작업은 모든 **리소스 가용성** 보기에 필요합니다. 이 일괄 처리 작업이 실행되지 않으면 **ResRollup** 데이터는 즉석에서 생성되므로 시간이 걸릴 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

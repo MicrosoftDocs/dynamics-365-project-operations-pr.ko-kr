@@ -96,3 +96,6 @@ ms.locfileid: "5149551"
 
 - 모든 프로젝트 과업 종속성은 동일한 프로젝트에 관련되어야 합니다.
 - 과업은 두 번 이상 참조된 동일한 종속성을 가질 수 없습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

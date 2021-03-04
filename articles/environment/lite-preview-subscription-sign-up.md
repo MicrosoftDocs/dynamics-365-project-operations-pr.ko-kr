@@ -91,3 +91,6 @@ ms.locfileid: "4175899"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS 구성 설치 및 데모 데이터 설정
 
 항목 [데모 설정 및 구성 데이터 적용](lite-apply-demo-setup-config-data.md)의 지침에 따라 CDS 구성을 설치하고 데모 데이터를 설정합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ ms.locfileid: "4080187"
 
 3. **저장** 을 선택한 다음 페이지를 닫습니다.
 4. **역량** 탭에서 **ProjectMgmt** 기술 및 **PMP** 인증서를 추가합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

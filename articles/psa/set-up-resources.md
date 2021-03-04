@@ -55,3 +55,6 @@ ms.locfileid: "5150316"
   
 ### <a name="see-also"></a>참고 항목  
  [Project Service 구성](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

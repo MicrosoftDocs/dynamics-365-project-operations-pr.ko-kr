@@ -79,3 +79,6 @@ AXDB 복원이 성공했다는 확인 메시지가 표시됩니다. 이 확인�
 18. 원격 데스크톱 세션을 닫고 LCS **환경 세부 정보** 페이지를 사용하여 환경에 로그인하여 예상대로 작동하는지 확인합니다.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

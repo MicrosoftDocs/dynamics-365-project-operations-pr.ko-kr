@@ -59,3 +59,6 @@ ms.locfileid: "5145411"
 
 ![리소스 요구 사항](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

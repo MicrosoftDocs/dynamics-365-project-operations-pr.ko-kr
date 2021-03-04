@@ -64,3 +64,6 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
      - 수정: 사용자가 프로젝트의 비용 견적에 대한 비용 가격을 입력할 때까지 총 판매 가격이 계산되지 않습니다.
      - 수정: 관련 프로젝트 계약이 **초안** 상태가 아닌 경우 견적을 **성공** 으로 종료하는 것에 실패합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

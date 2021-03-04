@@ -140,3 +140,6 @@ Project Service Automation에서 Finance로 실제 데이터를 동기화한 후
 [![템플릿 매핑 - 실제 업데이트](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![템플릿 매핑 - 트랜잭션 업데이트](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

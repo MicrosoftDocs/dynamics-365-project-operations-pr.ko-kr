@@ -48,3 +48,6 @@ Project Service Automation에서 기능 리포지토리를 정비하려면 **리
 > ![정의된 최소 및 최대 등급](media/Resource-Management-image85.png)
 
 이러한 등급 값은 **리소스 요건**, **스케줄 게시판** 및 **스케줄 도우미** 필터에 표시됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

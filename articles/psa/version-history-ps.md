@@ -73,3 +73,6 @@ Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamic
 >[!Note]
 > - GCC(Government Community Cloud)를 제외한 모든 지역의 날짜는 다음 자동 업데이트 시기를 나타냅니다. GCC의 날짜는 버전 가용성을 나타냅니다. 현재 이러한 지역에 대한 자동 업데이트는 없습니다.
 > - 다른 모든 지역의 경우 대부분의 업데이트는 예정된 밤에 완료되어야 하지만 주말에 어두운 시간 동안 **예약 날짜** 열에 표시된 추가 시간이 필요한 업데이트가 완료될 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

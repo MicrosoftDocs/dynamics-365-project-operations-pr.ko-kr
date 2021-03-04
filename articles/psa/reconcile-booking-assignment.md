@@ -101,3 +101,6 @@ ms.locfileid: "5147931"
 
 그러나 예약 세부 정보를 자세히 보면 예약 시작 시간의 차이가 표시됩니다. 예약은 할당 배분의 시작 시간보다 빠르지 않으며 리소스의 사용 가능한 시작 시간보다 빠르지 않습니다.
  ![일정 게시판에서 리소스의 새로운 예약](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

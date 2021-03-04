@@ -69,3 +69,6 @@ ms.locfileid: "5148066"
 ### <a name="copying-a-project-team"></a>프로젝트 팀 복사
 
 프로젝트 템플릿에서 프로젝트 팀을 어떤 프로젝트에 복사할 때, 일반 리소스가 템플릿에 정의된 기능 및 숙련도와 함께 복사됩니다. 일반 리소스 배정은 프로젝트 템플릿에서와 같이 관리됩니다. 명명된 리소스는 프로젝트 템플릿에서 지원되지 않습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

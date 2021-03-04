@@ -61,3 +61,6 @@ Dynamics 365 Project Operations를 사용하면 **프로젝트** 양식에서 **
 프로젝트가 복사되면 리소스 및 경비 추정 라인이 모두 원본 프로젝트에서 복사됩니다. 
 
 프로젝트 복사에 프로그래밍 방식으로 액세스하는 방법에 대한 자세한 내용은 [프로젝트 복사로 프로젝트 템플릿 개발](dev-copy-project.md)을 참조하십시오.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

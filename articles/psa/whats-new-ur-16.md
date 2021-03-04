@@ -64,3 +64,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 
     -   해결: 사용자가 2.X에서 3.X로 업그레이드할 때 프로젝트 이름에 NULL 값을 가진 프로젝트가 허용됩니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ Nancy는 프랑크푸르트에 있는 동안 두 개의 개별 프로젝트에�
 | 기차 요금   | DKK 578              | DKK 405                         | DKK 173                         |
 | 호텔        | EUR 725              | EUR 557                         | EUR 168                         |
 | 식사        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

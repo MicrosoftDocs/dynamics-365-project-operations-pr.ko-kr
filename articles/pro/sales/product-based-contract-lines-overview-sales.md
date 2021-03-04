@@ -46,3 +46,6 @@ Dynamics 365 Project Operations에서 제품 기반 계약 라인을 생성할 �
 **가격 책정** 필드를 **가격 재정의** 로 설정하면 기본 가격이 설정됩니다. 계약 내용의 제품에 대한 가격을 입력합니다. 필드를 **기본값 사용** 으로 설정하는 경우 기본 판매 가격이 사용되며 필드를 편집할 수 없습니다.
 
 Project Operations를 설치하면 계약의 제품 기반 라인에 기본 판매 가격이 입력됩니다. 계약 내용에서 기본 가격을 편집할 수 있도록 **가격 책정** 필드를 **가격 재정의** 로 설정합니다. 이는 Dynamics 365 Sales의 제품 기반 라인 동작에 대한 Project Operations 관련 재정의입니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

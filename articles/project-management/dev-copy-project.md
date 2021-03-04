@@ -112,3 +112,6 @@ Dynamics 365 Project Operations는 프로젝트를 복사하고 할당을 역할
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

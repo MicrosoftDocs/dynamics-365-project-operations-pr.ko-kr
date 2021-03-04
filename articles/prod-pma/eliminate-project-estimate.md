@@ -51,3 +51,6 @@ ms.locfileid: "4080105"
 5. 제거 프로세스가 완료되면 제거된 추정 프로젝트가 음수 값으로 표시됩니다. 
 
 추정을 제거하지 않으려는 경우 제거된 추정을 선택하고 **역 제거** 를 선택합니다.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

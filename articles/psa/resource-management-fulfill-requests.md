@@ -46,3 +46,6 @@ ms.locfileid: "5147616"
 > ![선택된 리소스](media/Resource-Management-image61.png)
 
 일반 팀원은 프로젝트 팀의 확정 예약된 명명된 리소스로 대체되고 프로젝트 스케줄에서 과업 할당으로 바뀝니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

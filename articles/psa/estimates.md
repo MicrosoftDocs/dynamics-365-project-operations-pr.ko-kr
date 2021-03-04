@@ -106,3 +106,6 @@ PSA는 계약 또는 프로젝트에서의 주문 변경을 지원하지 않습�
 
 8. 두 번째 플러그인에 대해 1~7 단계를 반복합니다.
 9. 플러그인 등록 도구를 닫습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4080219"
 21. **제품 수령** 필드에 값을 입력합니다.
 22. **확인** 을 선택합니다.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

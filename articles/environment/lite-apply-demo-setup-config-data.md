@@ -74,3 +74,6 @@ _**Lite 배포 - 견적 송장 거래_
     -   예약 가능한 리소스 특징
 
     ![가져오기 완료](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

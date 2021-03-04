@@ -102,3 +102,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 **열 추가**: 사용자가 그리드에서 보이는 열을 정의할 수 있습니다. **프로젝트 계획** 양식에서 기본 열만 그리드에 추가할 수 있습니다.
 
 ![열 추가 단추](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

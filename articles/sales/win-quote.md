@@ -43,3 +43,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 > [!NOTE]
 > Project Operations에서 견적을 성공 또는 실패로 종료해도 영업 기회의 해당 상태에 영향을 주지 않으며 수동으로 종료할 때까지 계속 열려 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Project Operations 계약은 Dynamics 365 Sales 계약을 기반으로 합니다
 - Project Operations 계약에는 고유한 양식 및 UI 요소, 비즈니스 규칙, 플러그인의 비즈니스 논리, 판매 계약에서 고유하게 만드는 클라이언트 측 스크립트가 있습니다.
 
 이러한 이유로 판매 계약과 프로젝트 계약을 서로 바꿔서 사용해서는 안됩니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
     - 수정: 중복 개체 ID가 **계약 기본** 양식에 표시됩니다.
     - 수정: **견적 분석** 탭이 표시되어 탭의 메타데이터 설정이 표시되도록 논리가 업데이트되었습니다.
     - 수정: 실제 레코드의 회계 날짜는 이제 승인 날짜가 아닌 시간/비용 항목 날짜로 표시됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

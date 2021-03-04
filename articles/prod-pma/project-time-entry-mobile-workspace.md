@@ -113,3 +113,6 @@ Finance and Operations 모바일 앱을 다운로드하여 설치합니다.
 11. 라인 속성을 선택합니다.
 12. 선택적으로 외부 및 내부 설명을 입력합니다.
 13. **완료** 를 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

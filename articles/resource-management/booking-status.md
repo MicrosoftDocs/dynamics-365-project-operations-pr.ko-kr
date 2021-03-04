@@ -20,3 +20,6 @@ ms.locfileid: "4514552"
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 Dynamics 365 Field Service를 위해 Universal Resource Scheduling에 제공되는 기능을 사용하여 조직의 예약 상태를 설정할 수 있습니다. 이 설정을 완료하는 방법에 대한 자세한 내용은 [예약 상태 설정](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses)을 참조하십시오.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

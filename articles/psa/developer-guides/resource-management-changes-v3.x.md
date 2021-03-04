@@ -170,3 +170,6 @@ PSA 3.x에서 리소스별 가격 책정 차원 필드(예: **역할** 및 **조
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

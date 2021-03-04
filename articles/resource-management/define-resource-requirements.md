@@ -26,3 +26,5 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 3.  **팀 구성원** 탭에서 팀 구성원을 선택한 다음 **요구 사항 생성** 을 선택합니다.
 
 리소스 요구 사항을 수정하는 방법에 대한 자세한 내용은 리소스 요구 사항을 수정하기 위한 [리소스 요구 사항 세부 정보 업데이트](define-resource-requirements.md)를 참조하십시오.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

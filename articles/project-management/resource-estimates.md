@@ -34,3 +34,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 1. 조직
 2. 고객
 3. 견적/계약
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

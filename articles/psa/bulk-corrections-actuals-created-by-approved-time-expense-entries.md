@@ -90,3 +90,6 @@ ms.locfileid: "5144961"
 8. 프로젝트 페이지의 **실제** 탭에서 **실제 관련 보기** 를 검토합니다. 원래 항목과 수정 항목이 나열됩니다. 다음 그래픽은 원래 경비 항목 금액과 해당 수정 경비 항목 금액을 보여줍니다. 
 
 ![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

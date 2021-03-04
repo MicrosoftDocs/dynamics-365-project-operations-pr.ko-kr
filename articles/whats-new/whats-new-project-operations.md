@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4132128"
 ---
 # <a name="whats-new-in-project-operations"></a>Project Operations의 새로운 기능
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

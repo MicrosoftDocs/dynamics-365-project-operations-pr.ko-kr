@@ -101,3 +101,6 @@ ms.locfileid: "5146401"
   - 프로젝트를 백업하는 프로젝트 계약 내용에 대한 역할이 청구 가능 아님으로 설정되었습니다.
   - 프로젝트에 연결된 계약 라인이 없습니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

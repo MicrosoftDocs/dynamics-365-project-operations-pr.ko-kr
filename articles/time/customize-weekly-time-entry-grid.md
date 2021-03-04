@@ -144,3 +144,6 @@ Dynamics 365 Project Operations에는 확장 가능한 시간 항목 사용자 �
 
 ### <a name="copying-time-entries"></a>시간 항목 복사
 보기 **시간 항목 열 복사** 를 사용하여 시간 입력 중에 복사할 필드 목록을 정의합니다. **날짜** 및 **기간** 은 필수 필드이며 보기에서 제거하면 안됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

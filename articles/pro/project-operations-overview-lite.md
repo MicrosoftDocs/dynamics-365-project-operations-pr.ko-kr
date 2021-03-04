@@ -37,3 +37,6 @@ Project Operations에서 다음 요구 사항을 포함하여 전체 프로젝�
 - 프로젝트 영업에서 송장 발행에 이르기까지 일정 및 재무에 대한 내부 및 청구 가능한 프로젝트를 관리하는 통합 시스템입니다.
 - 제3자 기업 자원 계획(ERP) 재무 회계 시스템은 Project Operations과 통합됩니다.
 - 판매세, 환율, 경비 상환 및 비 프로젝트 경비를 처리하는 타사 시스템입니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Dynamics 365 Project Operations에서 경비 기능에 대한 자세한 내용�
 ## <a name="see-also"></a>참조
 
 - [승인 개요](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

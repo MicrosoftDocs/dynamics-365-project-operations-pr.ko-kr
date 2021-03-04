@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119786"
 ---
 # <a name="resource-management-overview"></a>리소스 관리 개요
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

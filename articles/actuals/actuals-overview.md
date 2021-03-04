@@ -342,3 +342,6 @@ Project Operations는 프로젝트 중에 발생하는 재무 트랜잭션을 �
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

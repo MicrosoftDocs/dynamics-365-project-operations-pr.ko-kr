@@ -43,3 +43,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 - 프로젝트에 대한 고객 대면 송장을 생성하는 풍부한 엔터프라이즈급 판매세 및 환율 엔진이 필요합니다.
 - IFRS(International Financial Reporting Standards)를 준수하는 프로젝트 회계 및 수익 인식 시스템.
 - Finance 또는 Supply Chain Management 애플리케이션 및 프로젝트 기반 거래 통합.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

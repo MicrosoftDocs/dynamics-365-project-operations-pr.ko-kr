@@ -23,3 +23,6 @@ Dynamics 365 Project Operations에는 승인 단계를 통해 올바른 레코�
 
   - 모든 지원 행은 분개장 및 실제와 같은 관련 테이블에 생성됩니다.
   - 승인자는 진행하기 전에 프로젝트에서 **프로젝트 승인자** 로 표시됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

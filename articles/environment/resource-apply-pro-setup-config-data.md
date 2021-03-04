@@ -134,3 +134,6 @@ Common Data Service(CDS)에서 데이터를 구성하기 전에 다음 전제 �
 13. **저장** 을 선택합니다. 
 
 ![업데이트된 프로젝트 매개 변수](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "5150856"
   
 ### <a name="see-also"></a>참고 항목  
  [거래처 관리자 가이드](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

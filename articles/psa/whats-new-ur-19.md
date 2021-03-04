@@ -66,3 +66,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - **GetBookableResourceIdFromUser** 는 기본 ID 대신 예약 가능한 리소스의 모든 열을 검색하기 때문에 프로젝트를 만들 때 고객이 성능 저하를 경험할 수 있습니다.
 - **TransactionType** 엔터티에 사용자가 트랜잭션 유형에 유효하지 않은 **단위** 및 **단위 그룹** 을 입력하지 못하도록 사전 유효성 검사 업데이트 플러그인이 누락되었습니다.
 - 시간 항목 가져오기에 **제거** 단계가 작동하지 않습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

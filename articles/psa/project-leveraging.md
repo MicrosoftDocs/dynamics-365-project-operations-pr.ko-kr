@@ -54,3 +54,6 @@ ms.locfileid: "5148381"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>프로젝트에서 견적으로 추산 가져오기
 
 프로젝트 견적을 정의한 후 견적 행으로 가져올 수 있습니다. **견적 행 내역** 페이지에서 리본에 있는 **추산에서 가져오기** 를 선택하여 프로젝트 추산을 처리 타입, 역할 또는 과업 수준별로 요약합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

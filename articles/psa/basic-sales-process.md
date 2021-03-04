@@ -93,3 +93,6 @@ PSA에서는 견적에 대한 수정을 추적할 수 없습니다. 대신 기�
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>견적 및 프로젝트 계약의 주석 및 승인 추적
 레코드 담벼락과 게시물을 사용하여 견적 및 프로젝트 계약의 검토 및 승인을 관리할 수 있습니다. 조직에서 사용자 지정 워크플로 및 플러그인을 만들어 검토 및 승인 작업 항목의 알림을 할당, 리디렉션, 에스컬레이션 및 관리할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

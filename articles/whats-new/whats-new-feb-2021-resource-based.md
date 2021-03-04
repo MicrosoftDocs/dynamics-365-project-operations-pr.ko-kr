@@ -54,3 +54,6 @@ Dynamics 365 Finance에서 프로젝트 관리 및 회계에 대한 자세한 �
 ## <a name="regulatory-updates"></a>규제 업데이트
 
 Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. 규제 업데이트에 대해 배우는 또 다른 방법은 LCS(Lifecycle Services)에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 보는 것입니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

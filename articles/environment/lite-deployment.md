@@ -44,3 +44,6 @@ Project Operations는 여러 배포 모델을 지원합니다. 최상의 배포 
 2. Dynamics 365 앱의 배포 목록에서 **Microsoft Dynamics 365 Project Operations** 를 설치합니다. 자세한 내용은 [Dynamics 365 앱 관리](https://docs.microsoft.com/power-platform/admin/manage-apps)를 참조하십시오.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 항목 [Common Data Service에서 구성 데이터 설정 및 적용](resource-apply-pro-setup-config-data.md)에 설명된 대로 CDS 설정 및 구성 데이터를 설치합니다.
 Finance 데모 환경이 배포되고 FO의 데모 데이터가 준비된 후에만 이 단계를 완료합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

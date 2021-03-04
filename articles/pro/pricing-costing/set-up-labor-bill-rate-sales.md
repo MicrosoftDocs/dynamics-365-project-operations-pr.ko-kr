@@ -55,3 +55,6 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
     | 디벨로퍼 | Fabrikam US | $150 |
 
 3. 판매 가격표 **Fabrikam US 청구 요금** 을 프로젝트 계약의 프로젝트 가격표 또는 특정 계정에 첨부합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

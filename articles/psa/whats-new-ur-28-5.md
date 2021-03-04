@@ -42,3 +42,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 
 - 일정 지원 검색 성능 저하
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

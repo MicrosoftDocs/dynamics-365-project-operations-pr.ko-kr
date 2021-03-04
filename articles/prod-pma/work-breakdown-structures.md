@@ -316,3 +316,6 @@ WBS 템플릿에는 날짜가 없기 때문에 선행 작업의 종료 날짜를
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

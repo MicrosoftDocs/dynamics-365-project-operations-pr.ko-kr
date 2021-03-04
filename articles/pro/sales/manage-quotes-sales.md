@@ -33,3 +33,6 @@ Dynamics 365 Project Operations에서 프로젝트 견적은 프로젝트 작업
 2. **보기 전환기** 를 사용하여 견적의 다른 필터링된 보기를 선택합니다. 사용자 지정 필터 기준을 사용하여 고유한 보기 및 탐색 옵션을 구성할 수 있습니다.
 
 이 목록 페이지 또는 세부 사항 페이지에서 견적을 작성하거나 삭제할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

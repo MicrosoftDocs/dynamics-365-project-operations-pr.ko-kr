@@ -72,3 +72,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - 견적에 첨부된 BPF가 최종 단계에 있는 경우 견적을 성공으로 마감해도 생성된 계약으로 이동하지 않습니다.
 - **미청구 판매** 를 반전하면 시간 항목이 리콜될 때 원래 비용에 연결됩니다.
 - **확인** 버튼을 선택한 후 송장이 새로 고쳐지지 않는 한 인보이스 상태가 **확인됨** 으로 변경되지 않습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

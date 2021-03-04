@@ -81,3 +81,6 @@ Project Operations에는 다음 역할이 포함됩니다.
 Finance의 보안에 대한 자세한 내용은 [역할 기반 보안](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)을 참조하십시오.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

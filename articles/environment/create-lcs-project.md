@@ -36,3 +36,6 @@ Lifecycle Services(LCS)를 사용하여 Dynamics 365 Project Operations 환경�
 
 이 LCS 프로젝트를 사용하여 Project Operations 환경을 배포합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

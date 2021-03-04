@@ -55,3 +55,6 @@ ms.locfileid: "4960570"
 이러한 요구 사항이 확인되면 경비 보고서가 게시됩니다.
 
 경비 보고서가 전기된 후 경비 보고서에 대한 지불이 승인되고 직원이 상환됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

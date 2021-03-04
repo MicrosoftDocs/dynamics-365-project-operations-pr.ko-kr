@@ -64,3 +64,6 @@ ms.locfileid: "4080111"
 32. **가격 책정** 필드에 숫자를 입력합니다.
 33. **저장** 을 선택합니다.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

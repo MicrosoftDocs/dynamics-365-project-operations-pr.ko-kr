@@ -55,3 +55,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - **GetEstimatesForProject** 플러그인이 호출되면 null 참조 예외가 생성됩니다.
 - 중요 시점 그리드의 **송장 발부 준비 완료로 표시** 는 업데이트된 **InvoiceStatus** 특성을 제외하고 특성을 부분적으로만 업데이트합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

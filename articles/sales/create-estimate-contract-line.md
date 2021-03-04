@@ -69,3 +69,6 @@ Dynamics 365 Project Operations에서 프로젝트 기반 계약 내용에는 �
 
 > [!NOTE]
 > 날짜 유효 환율이 없기 때문에 통화 반올림 오류 및 변경된 마진이 발생할 수 있습니다. 프로젝트 계약에서 이러한 계산을 근사치로만 사용하고, 더 높은 반올림 정밀도와 환율에 대한 날짜 유효성에 대한 인식이 필요한 실제 법정 또는 기타 보고에는 사용하지 마십시오.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

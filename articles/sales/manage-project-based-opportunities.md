@@ -65,3 +65,6 @@ Project Operations의 영업 기회 영업 프로세스는 Sales 응용 프로�
 > 프로젝트 기반 거래가 영업 기회로 시작된 경우 영업 기회 영업 프로세스가 우선합니다.
 
 비즈니스 프로세스 흐름 제품을 편집하거나 필요에 따라 영업 프로세스를 추적하는 고유한 비즈니스 프로세스 흐름을 만들 수 있습니다. 비즈니스 프로세스 흐름에 대한 자세한 내용은 [비즈니스 프로세스 흐름 개요](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview)를 참조하십시오.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

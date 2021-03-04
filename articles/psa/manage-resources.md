@@ -344,3 +344,6 @@ PSA에는 프로젝트 관리자가 프로젝트 팀을 위한 팀원 예약과 
 ![예약 연장 대화 상자](media/Resource-Management-image58.png)
 
 그런 다음 프로젝트 관리자 또는 리소스 관리자는 일정 게시판을 사용해서 리소스가 생산 능력을 초과해서 예약된 모든 상황을 관리할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

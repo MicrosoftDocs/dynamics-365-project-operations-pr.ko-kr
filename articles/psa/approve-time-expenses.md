@@ -47,3 +47,6 @@ ms.locfileid: "5145456"
   
 ### <a name="see-also"></a>참고 항목  
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

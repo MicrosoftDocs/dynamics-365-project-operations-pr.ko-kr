@@ -67,3 +67,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 다음과 같은 문제가 해결되었습니다.
 
 - **모든 트랜잭션 범주 가져 오기** 를 두 번 클릭하면 여러 줄이 생성됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

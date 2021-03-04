@@ -52,3 +52,6 @@ PSA에서의 보고에 대한 자세한 설명은 다음 항목들을 참조하�
 - [Project Service 데이터 모델 작업](reports-working-project-service-data-model.md)
 - [대시보드](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

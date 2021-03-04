@@ -57,3 +57,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 -   리소싱 회사
 -   리소스 유형
 -   선호 리소스
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - Dynamics 365 Field Service 및 Project Service Automation이 모두 설치된 경우 **가격 산정 잠금** 및 **현재 가격 산정 사용** 옵션이 **송장** 페이지에 동시에 표시되지 않습니다.
 - 일본어의 경우 다른 달력 기반 페이지와 일치하지 않는 번역이 있습니다.
 - **활성화** 및 **비활성화** 가 Project Service Automation에 있는 **가격표 연결** 엔터티에서 제거되었습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

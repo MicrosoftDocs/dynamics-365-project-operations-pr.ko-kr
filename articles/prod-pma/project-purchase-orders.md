@@ -76,3 +76,6 @@ ms.locfileid: "4080040"
 
 자세한 내용은 [품목 요구 사항에서 구매 주문에 대한 품목 수령](tasks/receive-items-purchase-order-item-requirement.md)을 참조하십시오.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

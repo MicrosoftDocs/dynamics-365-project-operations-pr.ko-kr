@@ -26,3 +26,6 @@ Office 그룹을 사용하면 Common Data Service에서 다른 팀 구성원과 
 > [!NOTE] 
 > **그룹** 을 누르고 추가하면 사용자가 그룹에만 추가됩니다. 이것은 웹용 프로젝트의 동작과 다릅니다. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

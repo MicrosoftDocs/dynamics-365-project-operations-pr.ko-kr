@@ -98,3 +98,6 @@ ms.locfileid: "4080185"
 5. 처리할 각 프로젝트에 대해 프로젝트 줄의 시작 부분에 있는 옵션을 선택합니다. 
 6. **프로세스** 를 선택하여 선택한 프로젝트의 나머지 예산 금액을 선택한 회계 연도로 이전합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

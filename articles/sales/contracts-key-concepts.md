@@ -88,3 +88,6 @@ Project Operations는 네 가지 유형의 트랜잭션 클래스를 지원합�
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Dynamics 365 Sales 주문의 변경 사항:
 
 Project Operations의 계약은 Dynamics 365 Sales 주문을 기반으로 합니다. 그러나 몇 가지 중요한 편차와 차이점이 있습니다. 계약에는 고유한 양식 및 UI 요소, 비즈니스 규칙, 플러그인의 비즈니스 논리, 주문에서 고유하게 만드는 클라이언트 측 스크립트가 있습니다. 이러한 이유로 판매 계약과 Project Operations 프로젝트 계약을 서로 바꿔서 사용하지 마십시오.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
      - 수정: **새 영업 기회**, **견적**, **주문 라인** 및 **제품 추가** 를 위한 추가 단추는 영업 기회, 견적, 제품 주문 및 프로젝트 기반 라인 하위 그리드에 대한 명령에서 볼 수 있습니다.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

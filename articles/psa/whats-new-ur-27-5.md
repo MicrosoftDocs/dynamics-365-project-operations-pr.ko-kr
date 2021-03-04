@@ -42,3 +42,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 다음과 같은 문제가 해결되었습니다.
 
 - 일정 지원 검색 성능 저하
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

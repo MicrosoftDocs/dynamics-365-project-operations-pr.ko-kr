@@ -52,3 +52,6 @@ ms.locfileid: "5149191"
 
 > [!NOTE]
 > 향후 설명서 업데이트에서 이 항목은 제거될 것입니다. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

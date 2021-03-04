@@ -198,3 +198,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

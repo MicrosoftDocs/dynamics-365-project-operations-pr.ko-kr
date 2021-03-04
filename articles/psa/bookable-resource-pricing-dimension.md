@@ -76,3 +76,6 @@ ms.locfileid: "5145006"
 5. **msdyn_projectteam** 을 **엔터티 논리 명칭** 필드에 추가하고 **msdyn_bookableresourceid** 를 **필드 명칭** 필드에 추가합니다. 레코드를 저장합니다.
 
  ![새 가격 책정 차원 필드 명칭 양식](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

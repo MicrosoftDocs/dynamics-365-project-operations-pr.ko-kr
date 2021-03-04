@@ -57,3 +57,6 @@ Project Service에서 기본 가격에 대한 가격표를 고려하려면 해�
 
 위의 세 가지 확인을 수행한 후에도 시간 판매 실제 값에 유효한 가격이 표시되지 않으면 지원 티켓을 기록해 주십시오. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

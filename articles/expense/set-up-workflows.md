@@ -48,3 +48,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 |       <strong>여행 요청</strong>       |          여행 요청에 대한 승인 워크플로를 만듭니다.           |
 |      <strong>현금 서비스 요청</strong>      |         현금 서비스 요청에 대한 승인 워크플로를 만듭니다.          |
 |        <strong>VAT 세금 회수</strong>        | 부가가치세(VAT) 회수를 위한 승인 워크플로를 만듭니다.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 일반적으로 리소스 예약 합계는 하나 이상의 작업에 대한 리소스 할당 합계와 같습니다. 그러나 Project Operations는 이 계약을 강제하지 않습니다. **조정** 보기에는 리소스의 예약 및 할당이 일치하지 않는 프로젝트 관리자가 표시됩니다.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

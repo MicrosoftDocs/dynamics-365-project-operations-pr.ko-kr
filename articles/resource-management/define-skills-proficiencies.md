@@ -42,3 +42,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 
 이러한 등급 값은 **리소스 요건**, **스케줄 게시판** 및 **스케줄 도우미** 필터에 표시됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

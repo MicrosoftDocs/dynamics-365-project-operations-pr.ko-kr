@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4124601"
 ---
 # <a name="sample-data-home-page"></a>샘플 데이터 홈 페이지
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ ms.locfileid: "4643091"
 5. **msdyn_bookableresourceid** 를 **필드 이름** 에 추가합니다.
 
  ![새 가격 책정 차원 필드 명칭 양식](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

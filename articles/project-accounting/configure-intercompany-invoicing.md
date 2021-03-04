@@ -101,3 +101,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
           - **리소싱 회사** = **Contoso Robotics UK**
           - **청구 요금** = **200 USD**
       9. **판매** > **프로젝트 계약** 으로 이동하고 **Adventure Works 청구 요금** 가격표를 프로젝트 계약의 Adventure Works 프로젝트 가격표에 첨부합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Project Operations는 외부 일정 서비스에 의존합니다. 이 서비스�
   - Project Operations 시스템
   - 프로젝트 시스템
   - Project Operations 이중 쓰기 시스템(이 역할은 Project Operations의 리소스/비 재고 기반 시나리오를 배포하는 경우 필요합니다.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

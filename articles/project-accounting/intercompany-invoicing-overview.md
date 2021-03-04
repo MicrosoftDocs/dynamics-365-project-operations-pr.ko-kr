@@ -43,3 +43,6 @@ Dynamics 365 Project Operations는 다음 흐름을 사용하여 회사 간 트�
 - [회사 간 송장 구성](configure-intercompany-invoicing.md)
 - [회사 간 트랜잭션 기록](create-intercompany-transactions.md)
 - [회사 간 고객 및 공급업체 송장 만들기](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

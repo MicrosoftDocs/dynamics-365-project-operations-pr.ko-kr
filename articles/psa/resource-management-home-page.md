@@ -41,3 +41,6 @@ ms.locfileid: "5147571"
 - [요건 가예약](resource-management-softbook-requirements.md)
 - [기능 및 숙련도 모델](resource-management-skills-proficiency.md)
 - [리소스 관리 FAQ](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

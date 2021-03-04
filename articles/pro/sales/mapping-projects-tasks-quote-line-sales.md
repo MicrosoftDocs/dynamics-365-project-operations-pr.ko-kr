@@ -90,3 +90,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 >[!NOTE]
 > 이 절차는 프로젝트에서 작업을 삭제하지 않습니다. 프로젝트 기반 견적 라인에서 작업 연결만 제거합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ ms.locfileid: "4080029"
 10. 확인을 클릭합니다. 
 
 이 단계가 끝나면 송장 제안에 신용 메모를 사용할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

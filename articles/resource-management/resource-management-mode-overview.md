@@ -48,3 +48,6 @@ Dynamics 365 Project Operations는 전체 예약 흐름을 실행하기 위해 �
 리소스 요구 사항에서 리소스 예약:
 - [작업에 일반 예약 가능한 리소스 할당 및 리소스 요건 생성](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [리소스 요건에서 명명된 리소스 예약](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Dynamics 365 Project Service Automation 버전 3.0에서는 맞춤 컨트롤에 
 이전에는 시간 및 경비에 대한 캘린더 및 그리드 보기가 DHTMLX 컨트롤로 구현되었습니다. 캘린더 및 그리드 뷰의 구현과 관련된 아티팩트는 이제 더 이상 사용되지 않습니다(단종됨).
 
 단종된 리소스의 전체 목록은 [Project Service Automation 3.x에서 단종된 웹 리소스](web-resources-deprecated-v3.x.md)를 참조하십시오.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

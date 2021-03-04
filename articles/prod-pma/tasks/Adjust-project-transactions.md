@@ -44,3 +44,6 @@ ms.locfileid: "4080112"
 13. 목록에서 선택한 행을 표시합니다. 
 14. 원가 필드에 숫자를 입력합니다. 
 15. 전기를 클릭합니다. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

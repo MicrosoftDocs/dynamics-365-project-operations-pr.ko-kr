@@ -89,3 +89,6 @@ ms.locfileid: "4960390"
 | <strong>제출자를 위한 반부패 메시지</strong> |                                                                                             새 경비 보고서를 생성할 때 직원에게 표시될 텍스트를 입력합니다. 사용자 언어에 따라 표시될 언어별 텍스트를 입력하려면 <strong>번역</strong> 단추를 클릭합니다.                                                                                             |
 | <strong>승인자를 위한 반부패 메시지</strong>  |                                                                                             새 경비 보고서를 생성할 때 승인자에게 표시될 텍스트를 입력합니다. 사용자 언어에 따라 표시될 언어별 텍스트를 입력하려면 <strong>번역</strong> 단추를 클릭합니다.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ Dynamics 365 Project Operations의 제품 기반 계약 내용은 다운스트�
 제품 기반 계약 내용에 단가가 있으면 단가 판매마다 다른 제품 비용이 허용됩니다. 항상 필요한 것은 아니지만 공급자가 고객을 위해 제품 비용을 할인할 수 있는 특정 시나리오가 있습니다. 다음 시나리오를 살펴 보십시오.
 
 Fabrikam Robotics는 Adatum Corporation의 조립 라인에 로봇 팔을 설치하고 있습니다. Fabrikam은 설치 서비스를 제공하지만 로봇 팔은 Trey Research에서 제공합니다. Adatum Corporation의 로봇 팔 설치로 Trey Research를 위한 새로운 산업 분야가 열리면 Trey는 Fabrikam에 이 거래에 대해 특별 할인을 제공할 수 있습니다. 이 경우 Fabrikam은 로봇 팔에 대한 제품 기반 계약 내용을 만듭니다. 이 계약에 대해 단가가 입력됩니다. 비용은 Trey Research의 로봇 팔 비용과 다릅니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ ms.locfileid: "5151621"
 - 균등 분배 시간
 
 이러한 세 가지 할당 방법 중 하나를 사용하면 리소스가 초과 예약되었다는 메시지가 표시되지 않습니다. 초과 예약을 수정하려면 스케줄 게시판을 사용해야 합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

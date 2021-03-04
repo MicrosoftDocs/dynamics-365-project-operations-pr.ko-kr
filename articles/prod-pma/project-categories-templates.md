@@ -124,3 +124,6 @@ Project Service Automation에 동기화할 때 Microsoft Excel용 파워 쿼리�
 > 매핑은 Project Service Automation에서 Finance로 동기화될 필드 정보를 보여줍니다.
 
 [![Project Service Automation과 Finance 템플릿 매핑](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

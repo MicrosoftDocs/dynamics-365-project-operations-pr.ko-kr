@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation에는 두 개의 시스템 대시보드,
 ## <a name="resource-manager"></a>리소스 관리자 
 
 **리소스 관리자** 대시보드는 리소스 관리자에게 리소스 요청과 리소스 수요 및 활용도를 모니터링하기 위한 그래픽 대시보드 환경을 제공합니다. 또한 리소스 관리자가 모니터링된 정보를 다양한 차원으로 분할할 수 있도록 합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

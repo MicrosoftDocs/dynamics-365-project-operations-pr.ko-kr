@@ -95,3 +95,6 @@ ms.locfileid: "4960300"
 재무 부서는 Cognitive Services에 연락하여 필드 데이터를 추출합니다. Cognitive Services는 처리가 진행되는 동안 최대 24시간 동안 영수증 사본을 보관합니다. 처리가 완료되면 Cognitive Services에서 영수증을 제거합니다. 영수증은 여전히 Finance에 저장됩니다.
 
 자세한 내용은 [Form Recognizer의 새로운 기능으로 영수증 이해 가능](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/)을 참조하십시오.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Project Operations에서 시간을 기록할 때 사용자는 프로젝트의 �
 
 항목을 생성, 제출 또는 회수하는 방법과 보고를 완료하는 데 도움이 되는 기타 도구에 대한 정보는 [시간 입력 사용자 동작](ui-behavior-time.md)을 참조하십시오.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

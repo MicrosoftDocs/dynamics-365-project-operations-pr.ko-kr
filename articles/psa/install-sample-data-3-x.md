@@ -297,3 +297,6 @@ Field Service 작업은 미국 중심부, 주로 시애틀 지역에서 이루�
 
 > [!div class="mx-imgBorder"]
 > ![예약 가능한 활성 리소스의 스크린샷](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

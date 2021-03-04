@@ -107,3 +107,6 @@ ms.locfileid: "4080032"
     > 리소스 수가 1로 남아 있으므로 지정된 리소스가 이제 2라는 경고를 받지 않습니다.
 
 14. **작업 분할 구조** 페이지에서 WBS에서 리소스 할당을 확인한 다음 **저장** 을 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

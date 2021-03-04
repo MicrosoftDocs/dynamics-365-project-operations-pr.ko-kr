@@ -38,3 +38,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 > [!NOTE]
 > Common Data Service 및 해당 URL을 사용하여 직접 **프로젝트 관리 및 회계** 모듈에서 Project Operations에 액세스할 수 있습니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

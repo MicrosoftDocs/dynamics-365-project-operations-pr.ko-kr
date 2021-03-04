@@ -59,3 +59,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 3. **저장** 을 선택합니다.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

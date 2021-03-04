@@ -73,3 +73,6 @@ ms.locfileid: "5150136"
  [거래처 관리자 가이드](../psa/account-manager-guide.md)   
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)   
  [리소스 관리자 가이드](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

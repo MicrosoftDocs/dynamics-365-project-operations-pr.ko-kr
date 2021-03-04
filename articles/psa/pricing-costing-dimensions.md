@@ -77,3 +77,6 @@ PSA는 기본 가격 차원 집합으로 배송됩니다. 이러한 것을 **Pro
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

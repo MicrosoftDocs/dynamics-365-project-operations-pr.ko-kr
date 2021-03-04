@@ -68,3 +68,6 @@ ms.locfileid: "5147076"
 
 9. 플러그인 등록 도구를 닫습니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

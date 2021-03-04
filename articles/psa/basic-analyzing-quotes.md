@@ -60,3 +60,6 @@ Project Service Automation은 총 마진과 조정된 총 마진을 사용하여
 스케줄에 대한 고객 기대 분석은 견적 행 내역의 가장 늦은 종료 날짜와 요청된 인도일을 비교하여 수행됩니다.
 
 예산에 대한 고객 기대 분석은 총 고객 예산의 합과 모든 견적 행의 견적 금액을 비교하여 수행됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

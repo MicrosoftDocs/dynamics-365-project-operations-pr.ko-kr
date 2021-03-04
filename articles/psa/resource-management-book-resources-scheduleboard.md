@@ -53,3 +53,6 @@ ms.locfileid: "5144421"
 요건은 선택된 리소스를 사용하여 충족됩니다. **예약 요건** 창에서 요건이 업데이트되었으며 리소스가 프로젝트에 예약됨으로 표시됩니다.
 
 ![프로젝트에 예약된 리소스](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

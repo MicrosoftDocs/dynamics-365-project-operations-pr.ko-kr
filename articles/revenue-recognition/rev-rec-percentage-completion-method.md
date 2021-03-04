@@ -35,3 +35,6 @@ Microsoft Dataverse의 Dynamics 365 Project Operations에서 다음 특성을 �
 
   프로젝트 비용, 수익 프로필, 비용 템플릿 및 기간 코드는 수동으로 설정할 수 있습니다. 수동으로 설정하지 않은 경우 프로젝트 비용 및 수익 프로필에 대해 구성된 규칙을 사용하여 프로젝트에 대한 첫 번째 추정 계산 중에 값이 기본값으로 설정됩니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 > [!NOTE]
 > 경비 보고서를 승인된 여행 요청에 매핑할 때 트랜잭션 금액은 승인된 금액보다 클 수 없습니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

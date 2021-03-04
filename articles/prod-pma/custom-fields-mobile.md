@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. 앱은 프로젝트 리소스에서 기본 범주를 넣으려고 합니다. 이 기본 범주는 **TSTimesheetSettingsService** 클래스에서 **getCurrentUserResource** 및 **getDelegatedResourcesForCurrentUser** 메서드에서 설정됩니다.
 2. 프로젝트 리소스 수준에서 기본 범주가 제공되지 않으면 앱은 프로젝트 활동에서 이를 가져오려고 합니다. 이 기본 범주는 **TSTimesheetProjectService** 클래스에서 **getActivitiesForProject** 메서드에 설정됩니다.
 3. 프로젝트 활동 수준에서 기본 범주가 제공되지 않으면 기본 범주는 프로젝트 매개 변수에서 가져옵니다. 이 기본 범주는 **TSTimesheetProjectService** 클래스에서 **getProjectDetailsbyRule** 메서드에 설정됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

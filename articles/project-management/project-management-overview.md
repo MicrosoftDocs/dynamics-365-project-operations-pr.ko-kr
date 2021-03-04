@@ -26,3 +26,6 @@ Dynamics 365 Project Operations의 프로젝트 관리 도구를 사용하면 �
 - 판매 프로세스 중에 프로젝트 추산을 사용합니다.
 - 파이프라인에 있는 프로젝트를 위한 리소스 요건을 예측합니다.
 - 진행 상황과 비용 소비를 추적하여 프로젝트를 성공적으로 인도합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

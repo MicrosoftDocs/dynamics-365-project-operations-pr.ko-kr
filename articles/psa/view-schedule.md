@@ -45,3 +45,6 @@ ms.locfileid: "5151036"
   
 ### <a name="see-also"></a>참고 항목  
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

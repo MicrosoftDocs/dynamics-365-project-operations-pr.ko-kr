@@ -44,3 +44,6 @@ Project Operations에는 경비에 대해 지원되는 두 가지 배포 모델�
 
 ## <a name="determine-your-expense-deployment"></a>경비 배포 결정
 기본 경비 관리 배포를 실행 중인지 확인하려면 주소 URL이 **.crm.dynamics.com** 으로 끝나는 지 확인합니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

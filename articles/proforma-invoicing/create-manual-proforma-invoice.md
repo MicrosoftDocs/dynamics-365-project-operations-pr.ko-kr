@@ -111,3 +111,6 @@ Dynamics 365 Project Operations는 다음과 같은 이유로 고객 관련 송�
 
 - 6시간 동안 실제 청구된 영업.
 - 나머지 2시간 동안 청구되지 않은 영업 실제. 이 거래는 고객과의 협상에 따라 나중에 청구되거나 요금이 부과되지 않는 것으로 표시될 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

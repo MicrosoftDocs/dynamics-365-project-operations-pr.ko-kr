@@ -242,3 +242,6 @@ Project Service Automation에서 프로젝트를 읽을 때 리소스의 일정�
 
 ### <a name="additional-resources"></a>추가 리소스
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

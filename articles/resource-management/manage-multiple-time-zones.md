@@ -68,3 +68,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 예약 세부 정보를 자세히 살펴보면 예약 시작 시간에 차이가 있음을 알 수 있습니다. 예약은 할당 윤곽의 시작 시간 이전에 시작되지 않고 리소스의 사용 가능한 시작 시간 이전에 시작되지 않습니다.
 
 ![일정 게시판에서 리소스의 새로운 예약](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

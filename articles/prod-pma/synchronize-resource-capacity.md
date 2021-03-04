@@ -49,3 +49,6 @@ ms.locfileid: "4080030"
     | 종료 날짜    | 리소스 용량 롤업을 위한 동기화 프로세스의 종료 날짜를 입력합니다. |
 
 [![동기화 프로세스](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

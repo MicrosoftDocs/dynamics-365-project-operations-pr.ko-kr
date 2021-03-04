@@ -132,3 +132,6 @@ Microsoft Dynamics 365 Project Service Automation 버전 3.3에서 Microsoft는 
 
 > [!IMPORTANT] 
 > 현재 TBX 페이지의 알려진 문제로 인해 사용자가 정보를 수정하고 업데이트가 플러그 인 유효성 검사에 실패할 때 완료를 다시 선택할 수 없습니다. 해결 방법으로 비즈니스 규칙 유효성 검사를 설정하여 이러한 상황을 최대한 방지합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Dynamics 365 Project Operations에서 자동 송장 생성을 구성할 수 있�
 
 > [!NOTE]
 > Project Operations에서 일괄 처리 송장 발행은 송장 스케줄에 의해 구성된 프로젝트 계약 내용에 대해서만 실행됩니다. 고정 가격 청구 방법이 있는 계약 내용에는 이정표가 구성되어 있어야 합니다. 시간 및 자재 청구 방법이 있는 프로젝트 계약 내용에는 날짜 기반 송장 일정을 설정해야 합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

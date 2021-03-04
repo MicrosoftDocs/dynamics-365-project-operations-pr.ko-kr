@@ -240,3 +240,6 @@ Dynamics 365 Unified Ops 모바일 앱 다운로드 및 설치:
 22. **제출** 을 선택합니다.
 23. 승인자에 대한 설명을 입력합니다.
 24. **완료** 를 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

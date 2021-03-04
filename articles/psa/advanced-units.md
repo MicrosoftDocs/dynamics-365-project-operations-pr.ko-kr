@@ -112,3 +112,6 @@ Dynamics 365 Project Service Automation은 단위 및 단위 그룹을 사용하
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>단위 및 단위 그룹을 편집, 삭제 및 추가할 수 있습니까?
 예. **시간** 단위 그룹 및 **시간** 단위를 예외로 하고, 모든 단위를 삭제하거나 편집할 수 있으며 새 단위를 추가할 수 있습니다. PSA에서는 **시간** 단위 그룹과 **시간** 단위를 삭제할 수 없습니다. 그러나 **이름** 필드에 대한 번역된 텍스트로 업데이트할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

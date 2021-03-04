@@ -149,3 +149,6 @@ PSA는 이러한 5개 엔터티의 레코드를 업무 처리로 취급합니다
 | 청구서 초안 수정       | 청구서 행 처리 GUID | 교체          | msdyn_invoicelinetransaction | 청구 매출액 GUID            | 원본           | msdyn_actual       |
 | 청구서 수정 확인     | 청구 매출액 반전 GUID    | 반전          | msdyn_actual                 | 청구 매출액 GUID            | 원본           | msdyn_actual       |
 | 신 미청구 매출액 실제값 GUID | 교체                     | msdyn_actual       | 청구 매출액 GUID            | 원본                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

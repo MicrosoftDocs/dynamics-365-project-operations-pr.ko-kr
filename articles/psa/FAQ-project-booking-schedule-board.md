@@ -91,3 +91,6 @@ Project Service에서 프로젝트를 만들면 기본 요구 사항이라는 �
 
 4. 이제 리소스를 예약했으므로 과업을 수동으로 할당해야 합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

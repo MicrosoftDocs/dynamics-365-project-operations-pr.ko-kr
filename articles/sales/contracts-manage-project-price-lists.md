@@ -72,3 +72,6 @@ Dynamics 365 Project Operations의 프로젝트 계약은 계약에서 여러 �
 ## <a name="custom-pricing-on-a-project-contract"></a>프로젝트 계약에 대한 사용자 지정 가격
 
 조직 및 고객별 기본 프로젝트 가격표가 있으면 이러한 프로젝트 가격표 연결을 사용하여 프로젝트 계약이 자동으로 생성됩니다. 그러나 프로젝트 계약의 프로젝트 가격표는 항상 날짜와 계약 이름이 추가된 상태로 복사됩니다. 그런 다음 거래처 및 프로젝트 관리자는 이러한 사본의 가격을 편집할 수 있습니다. 변경된 가격은 이 프로젝트 계약에만 적용됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

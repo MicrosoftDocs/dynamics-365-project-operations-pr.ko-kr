@@ -160,3 +160,6 @@ ms.locfileid: "4960345"
 - 정책은 언제 만료됩니까?
 - 정책 규칙은 무엇입니까?
 - 정책 규칙의 결과는 무엇입니까?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Dynamics 365 Project Service Automation은 기회, 견적, 주문 또는 청구�
     ```
 
 6. 맞춤화를 저장한 다음 게시합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

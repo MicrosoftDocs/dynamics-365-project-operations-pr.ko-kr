@@ -71,3 +71,6 @@ Dynamics 365 Project Operations는 기본 가격 책정 차원 집합으로 배�
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

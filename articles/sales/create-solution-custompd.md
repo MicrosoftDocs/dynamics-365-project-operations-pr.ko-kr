@@ -64,3 +64,6 @@ ms.locfileid: "4514001"
 5.  선택한 엔터티에 대한 종속 엔터티를 포함할지 묻는 메시지가 표시되면 **아니요, 필수 구성 요소를 포함하지 마십시오.** 를 선택합니다.
 
     ![종속 엔터티 포함](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

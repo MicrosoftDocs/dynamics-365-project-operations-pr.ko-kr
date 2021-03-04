@@ -77,3 +77,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 5. 1-3 단계를 반복하여 "선임 시스템 엔지니어"를 위한 다른 표준 직함을 만듭니다.
 
 > ![표준 직함 엔터티를 위한 샘플 데이터](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

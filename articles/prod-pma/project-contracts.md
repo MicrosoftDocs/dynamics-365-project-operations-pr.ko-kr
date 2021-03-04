@@ -344,3 +344,6 @@ Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 �
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

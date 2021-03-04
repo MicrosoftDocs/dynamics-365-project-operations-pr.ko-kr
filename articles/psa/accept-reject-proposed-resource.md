@@ -45,3 +45,6 @@ ms.locfileid: "5146176"
 ![리소스 제안 수락](media/RM-how-to-20.png) 
 
 일반 리소스 요청을 명명된 리소스로 직접 이행하는 것과 마찬가지로 일반 리소스가 대체되고 할당된 작업이 지정된 팀원으로 업데이트됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
