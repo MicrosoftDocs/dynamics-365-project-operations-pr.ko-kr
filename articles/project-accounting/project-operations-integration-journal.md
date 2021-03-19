@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133386"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287246"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations의 통합 분개장
 
@@ -28,9 +28,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 Project Operations 통합 분개장의 레코드는 주기적인 프로세스 **준비 테이블에서 가져오기** 를 사용하여 생성됩니다. **Dynamics 365 Finance** > **프로젝트 관리 및 회계** > **주기적** > **Project Operations 통합** > **준비 테이블에서 가져오기** 로 이동하여 이 프로세스를 실행할 수 있습니다. 프로세스를 대화식으로 실행하거나 필요에 따라 백그라운드에서 실행되도록 프로세스를 구성할 수 있습니다.
 
 주기적 프로세스가 실행되면 아직 Project Operations 통합 분개장에 추가되지 않은 실제 데이터가 발견됩니다. 각 실제 트랜잭션에 대한 분개장 항목이 생성됩니다.
-시스템은 **Project Operations 통합 분개장의 기간 단위** 필드(**재무** > **프로젝트 관리 및 회계** > **설정** > **프로젝트 관리 및 회계 매개 변수**,**Dynamics 365 Customer Engagement의 Project Operations** 탭)에서 선택한 값에 따라 분개장 항목을 별도의 분개장으로 그룹화합니다. 이 필드에 가능한 값은 다음과 같습니다.
+시스템은 **Project Operations 통합 분개장의 기간 단위** 필드(**재무** > **프로젝트 관리 및 회계** > **설정** > **프로젝트 관리 및 회계 매개 변수**,**Dynamics 365 Customer Engagement의 Project Operations*** 탭)에서 선택한 값에 따라 분개장 항목을 별도의 분개장으로 그룹화합니다. 이 필드에 가능한 값은 다음과 같습니다.
 
-  - _*일**: 실제는 트랜잭션 날짜별로 그룹화됩니다. 매일 별도의 분개장이 생성됩니다.
+  - **일**: 실제는 트랜잭션 날짜별로 그룹화됩니다. 매일 별도의 분개장이 생성됩니다.
   - **월**: 실제는 월별로 그룹화됩니다. 매월 별도의 분개장이 생성됩니다.
   - **년**: 실제는 연별로 그룹화됩니다. 매년 별도의 분개장이 생성됩니다.
   - **모두**: 모든 실제 트랜잭션은 동일한 통합 분개장에 포함됩니다. 정기 프로세스가 실행될 때 분개장을 사용할 수 없는 경우(예: 분개장이 트랜잭션 전기 프로세스에 있는 경우) 새 분개장이 생성됩니다.

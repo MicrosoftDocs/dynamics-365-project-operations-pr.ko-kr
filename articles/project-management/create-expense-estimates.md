@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131711"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287066"
 ---
 # <a name="expense-estimates"></a>경비 추정
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-리소스 기반 추정을 정의하는 것과 함께 Dynamics 365 Project Operations를 통해 프로젝트 관리자는 각 프로젝트에 대한 프로젝트 기반 경비를 정의할 수 있습니다. 각 경비 항목은 특정 프로젝트 작업 또는 경비 범주와 연관될 수 있습니다. 경비 범주는 일반적으로 조직 수준에서 정의됩니다. 각 경비 범주의 가격은 일반적으로 다음 계층 구조로 정의됩니다.
+리소스 기반 추정을 정의하는 것과 함께 Dynamics 365 Project Operations에서 프로젝트 관리자는 각 프로젝트에 대한 프로젝트 기반 비용을 정의할 수 있습니다. 각 경비 항목은 특정 프로젝트 작업 또는 경비 범주와 연관될 수 있습니다. 경비 범주는 일반적으로 조직 수준에서 정의됩니다. 각 경비 범주의 가격은 일반적으로 다음 계층 구조로 정의됩니다.
 
 - 조직
 - 고객

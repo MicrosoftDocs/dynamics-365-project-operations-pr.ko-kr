@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d0168f187e6b0880713aac04bd87dbc2209197d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0f95677c56b745bf7900ad503596c93f1e722281
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149011"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286166"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>프로젝트 스테이지 비즈니스 프로세스 흐름을 사용자 지정하려면 어떻게 해야 합니까?
 

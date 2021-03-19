@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131531"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286841"
 ---
 # <a name="maintain-team-members"></a>팀 구성원 유지
 
@@ -21,7 +21,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 명명된 리소스를 팀에 직접 예약하여 프로젝트 팀에 추가할 수 있습니다.
 
-1. Dynamics 365 Project Operations에서 **프로젝트** 로 이동하고 예약할 프로젝트 열기를 선택합니다.
+1. Dynamics 365 Project Operations에서 **프로젝트** 로 가서, 예약할 프로젝트 열기를 선택합니다.
 2. **프로젝트** 페이지의 **팀** 탭에서 **신규** 를 선택합니다. 
 3. **프로젝트 팀원 빠른 생성** 대화 상자에서 예약 가능한 리소스를 선택합니다. **역할** 필드가 배정된 경우 리소스의 기본 역할로 채워집니다. 역할은 변경할 수 있습니다. 
 4. 리소스가 필요한 시작 날짜와 끝 날짜를 선택하고 리소스 능력의 배정 방법을 선택합니다. 

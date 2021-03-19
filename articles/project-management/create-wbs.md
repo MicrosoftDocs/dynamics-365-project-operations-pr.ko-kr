@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287021"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>작업 분할 구조(WBS) 만들기
 
@@ -92,6 +92,8 @@ ms.locfileid: "4841367"
 | 시작 | 시작 날짜 및 시간입니다. |
 | 이름 | 프로젝트 작업의 이름입니다. |
 | ID | 작업 분할 구조에서 작업의 ID입니다. |
+
+관리자는 작업 엔터티에서 사용자 지정 필드를 정의할 수 있습니다. 그러나 일정 눈금에 필드를 표시할 수 없습니다. 사용자 정의 필드를 보려면 해당 필드를 **프로젝트 작업** 세부 정보 페이지에 추가합니다.
 
 ## <a name="staffing-attributes"></a>직원 구성 특성
 

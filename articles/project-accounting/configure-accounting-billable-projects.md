@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131981"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287651"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>청구 가능한 프로젝트에 대한 회계 구성
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations는 시간 및 자재 및 고정 가격 거래를 포함하는 청구 가능한 프로젝트에 대한 다양한 회계 옵션을 지원합니다.
+Dynamics 365 Project Operations는 시간과 자재 및 고정 가격 트랜잭션을 포함하는 청구 가능 프로젝트에 대한 다양한 회계 옵션을 지원합니다.
 
 - **시간 및 자재 트랜잭션**: 이러한 트랜잭션은 프로젝트에 대한 시간, 비용, 항목 또는 수수료의 소비에 따라 작업이 진행됨에 따라 송장이 발행됩니다. 이러한 트랜잭션 비용은 각 트랜잭션의 수익과 일치시킬 수 있으며 작업이 진행됨에 따라 프로젝트에 송장이 발행됩니다. 프로젝트 수익은 트랜잭션이 발생하는 시점에 발생할 수도 있습니다. 송장을 발행하는 동안 수익이 인식되고 해당되는 경우 미지급 수익이 취소됩니다.
 - **고정 가격 트랜잭션**: 이러한 트랜잭션은 프로젝트 계약을 기반으로 하는 청구 일정에 따라 청구됩니다. 고정 가격 트랜잭션에 대한 수익은 **완료된 계약** 또는 **완료율** 방법에 따라 송장 발행시 인식되거나 정기적으로 계산 및 전기될 수 있습니다.

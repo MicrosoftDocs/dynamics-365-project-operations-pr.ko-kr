@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 상태 이해
-description: 이 항목은 Dynamics 365 Project Operations에서 프로젝트에 할당된 상태에 대한 정보를 제공합니다.
+description: 이 토픽은 Dynamics 365 Project Operations의 프로젝트에 할당된 상태에 대한 정보를 제공합니다.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bc5bc174518e46b32cf88ea7231bb2df10fde292
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc9b107507008fd2381d3669552d754d2c867a7f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127301"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286481"
 ---
 # <a name="understand-project-status"></a>프로젝트 상태 이해
 

@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1ad011b2d78dd85023be7cf380ce19c3b2b8441
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 486371df2de8b400f200dbf38e66cb5e2dec7ae7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150001"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286256"
 ---
-# <a name="assign-a-resource-to-a-task"></a>과업에 리소스를 배정
+# <a name="assign-a-resource-to-a-task"></a>작업에 리소스 할당
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Microsoft Dynamics 365 Project Service Automation에서 과업에 리소스를 배정하는 방법에는 세 가지가 있습니다.
+Microsoft Dynamics 365 Project Service Automation에서 작업에 리소스를 할당하는 방법에는 세 가지가 있습니다.
 
 ## <a name="book-a-resource-as-a-team-member-and-then-assign-the-resource-to-a-task"></a>리소스를 팀원으로 예약한 다음 과업에 리소스를 배정
 
