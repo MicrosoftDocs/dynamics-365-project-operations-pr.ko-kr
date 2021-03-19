@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121316"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277526"
 ---
 # <a name="quotes---key-concepts"></a>견적 - 주요 개념
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations에는 두 가지 유형의 견적, 프로젝트 및 판매가 있습니다. 두 가지 유형의 견적은 다음과 같은 방식으로 다릅니다.
+Dynamics 365 Project Operations에는 견적, 프로젝트 및 영업의 두 가지 유형이 있습니다. 두 가지 유형의 견적은 다음과 같은 방식으로 다릅니다.
 
 - **라인 항목에 대한 그리드**: 영업 견적에는 라인 항목에 대한 그리드가 하나만 있습니다. 프로젝트 견적에는 라인 항목에 대한 두 개의 그리드가 있습니다. 한 그리드는 프로젝트 라인용이고 다른 그리드는 제품 라인용입니다.
 - **활성화 및 수정**: 판매 견적은 활성화 및 수정을 지원합니다. 이러한 프로세스는 프로젝트 견적에서 지원되지 않습니다.

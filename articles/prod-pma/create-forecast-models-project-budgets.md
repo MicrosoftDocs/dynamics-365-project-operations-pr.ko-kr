@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080188"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271046"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>프로젝트 예산에 대한 예측 모델 만들기 
 
@@ -41,9 +41,9 @@ ms.locfileid: "4080188"
 5. 프로젝트 날짜를 송장 날짜로 사용하려면 **예측 송장 날짜** 를 **예** 로 설정합니다. 
 6. **예산 유형** 필드에서 다음 모델 유형 중 하나를 선택합니다.
 
-   - **원래 예산** : 초기 예산 생성 및 승인시 약정된 최초 예산 금액을 사용합니다.
-   - **남은 예산** : 프로젝트 기간 동안 남은 예산 금액을 사용합니다. 이 예측 모델의 잔액은 실제 거래에 의해 감소되고 예산 수정에 의해 증가 또는 감소합니다.
-   - **이월** : 프로젝트에 대한 이월 예산 금액을 사용합니다. 이월은 사용되지 않은 예산 금액을 회계 연도에서 다른 회계 연도로 이전하기 위해 실행할 수 있는 선택적 프로세스입니다.
+   - **원래 예산**: 초기 예산 생성 및 승인시 약정된 최초 예산 금액을 사용합니다.
+   - **남은 예산**: 프로젝트 기간 동안 남은 예산 금액을 사용합니다. 이 예측 모델의 잔액은 실제 거래에 의해 감소되고 예산 수정에 의해 증가 또는 감소합니다.
+   - **이월**: 프로젝트에 대한 이월 예산 금액을 사용합니다. 이월은 사용되지 않은 예산 금액을 회계 연도에서 다른 회계 연도로 이전하기 위해 실행할 수 있는 선택적 프로세스입니다.
 
 7. 다음 옵션을 필수로 설정합니다.
 

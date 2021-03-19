@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181054"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272711"
 ---
 # <a name="opportunity-header---lite"></a>영업 기회 헤더 - 라이트
 
@@ -21,7 +21,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 영업 기회 헤더는 프로젝트 기반 영업 기회의 모든 라인에 적용되는 프로젝트 기반 트랜잭션에 대한 전체 정보를 캡처합니다.
 
-Dynamics 365 Project Operations의 프로젝트 기반 영업 기회는 Dynamics 365 Sales의 영업 기회의 확장입니다. 이러한 확장은 프로젝트 기반 영업 기회에 고유하고 필요한 추가 기능을 제공합니다. 이러한 확장에는 프로젝트 기반 영업 기회에서 사용할 수 있는 새 필드 및 리본 작업이 포함될 수 있습니다. 영업에서 사용할 수 있는 일부 필드, 기능 및 기본값 설정 논리는 Project Operations에서 사용할 수 없습니다.
+Dynamics 365 Project Operations의 프로젝트 기반 영업 기회는 Dynamics 365 Sales의 영업 기회에 대한 확장입니다. 이러한 확장은 프로젝트 기반 영업 기회에 고유하고 필요한 추가 기능을 제공합니다. 이러한 확장에는 프로젝트 기반 영업 기회에서 사용할 수 있는 새 필드 및 리본 작업이 포함될 수 있습니다. 영업에서 사용할 수 있는 일부 필드, 기능 및 기본값 설정 논리는 Project Operations에서 사용할 수 없습니다.
 
 다음 표에는 Project Operations에 고유하거나 영업 기회의 동작에 몇 가지 중요한 변경 사항이 있는 프로젝트 기반 영업 기회의 필드가 포함되어 있습니다.
 

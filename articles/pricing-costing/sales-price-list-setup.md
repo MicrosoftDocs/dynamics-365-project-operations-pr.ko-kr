@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 05b1c13540e902975eee7379276cf394d9fc5743
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176259"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275456"
 ---
 # <a name="set-up-a-sales-price-list"></a>판매 가격표 설정
 

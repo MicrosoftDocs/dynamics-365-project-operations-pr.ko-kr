@@ -1,6 +1,6 @@
 ---
 title: 시간 개요
-description: 이 항목은 Dynamics 365 Project Operations에서 시간 기능에 대한 정보를 제공합니다.
+description: 이 토픽은 Dynamics 365 Project Operations의 시간 기능에 대한 정보를 제공합니다.
 author: stsporen
 manager: AnnBe
 ms.date: 10/02/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124556"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277121"
 ---
 # <a name="time-overview"></a>시간 개요
 

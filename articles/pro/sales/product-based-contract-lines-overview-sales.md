@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177879"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272666"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>제품 기반 계약 내용 개요 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-Dynamics 365 Project Operations에서 제품 기반 계약 라인을 생성할 수 있습니다. 제품 기반 계약 라인은 수동으로 생성된 라인이거나 제품 카탈로그의 항목일 수 있습니다.
+Dynamics 365 Project Operations에서 제품 기반 계약 내용을 만들 수 있습니다. 제품 기반 계약 라인은 수동으로 생성된 라인이거나 제품 카탈로그의 항목일 수 있습니다.
 
 ## <a name="product-catalog"></a>제품 카탈로그
 

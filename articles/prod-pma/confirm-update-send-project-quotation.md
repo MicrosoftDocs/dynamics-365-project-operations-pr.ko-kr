@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080190"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270821"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>프로젝트 견적 확인, 업데이트 및 보내기
 
@@ -39,7 +39,7 @@ ms.locfileid: "4080190"
 2. **프로젝트 견적** 페이지에서 확인을 위해 보낼 견적을 선택합니다. 
 3. **후속작업** 탭의 **생성** 그룹에서 **확인** 을 선택합니다. 
 4. **견적 확인** 페이지에서 필요한 매개 변수를 설정합니다. 예를 들어 확인을 인쇄하려면 **인쇄** 옵션에서 **인쇄 확인** 을 켠 다음 **확인** 을 선택합니다.
-5. **견적 보내기** 페이지에서 **옵션** 을 선택하고 **인쇄 대상 설정** 페이지에서 견적을 **화면** , **전자 메일** , **파일** , **아카이브 인쇄** 또는 **프린터** 로 보낼지 여부를 선택한 다음 **사양** 영역에서 원하는 조정을 수행하여 견적으로 라우팅합니다.
+5. **견적 보내기** 페이지에서 **옵션** 을 선택하고 **인쇄 대상 설정** 페이지에서 견적을 **화면**, **전자 메일**, **파일**, **아카이브 인쇄** 또는 **프린터** 로 보낼지 여부를 선택한 다음 **사양** 영역에서 원하는 조정을 수행하여 견적으로 라우팅합니다.
 6. **인쇄 대상 설정** 페이지에서 **확인** 을 선택합니다.  
 
 ## <a name="update-a-project-quotation"></a>프로젝트 견적 업데이트

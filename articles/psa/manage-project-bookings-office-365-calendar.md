@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144466"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275051"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>귀하의 캘린더에서 프로젝트 및 예약 관리 (Project Service)
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180964"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272441"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>프로젝트 견적에 대한 요약 정보 - 라이트
 
@@ -21,7 +21,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 이 문서에서는 프로젝트 견적에 적용되는 정보를 설명합니다. 여기에는 모든 견적 라인에 영향을 미치는 설정과 프로젝트 견적의 KPI를 구동하기 위해 모든 라인 항목에 요약된 견적에 대한 정보가 포함됩니다.
 
-다음 표에는 Dynamics 365 Project Operations에 고유하거나 Dynamics 365 Sales 견적의 동작에 몇 가지 중요한 변경 사항이 있는 프로젝트 견적의 요약 정보 필드가 나열되어 있습니다.
+다음 표에는 Dynamics 365 Project Operations에 고유한 프로젝트 견적의 요약 정보 필드가 나열되어 있습니다. 또는 Dynamics 365 Sales에서 동작에 몇 가지 중요한 변경 사항이 있습니다.
 
 | **필드** | **위치** | **설명** | **다운스트림 영향** |
 | --- | --- | --- | --- |

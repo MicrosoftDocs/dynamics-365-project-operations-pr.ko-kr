@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180245"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277571"
 ---
 # <a name="project-quote-settings"></a>프로젝트 견적 설정
 
@@ -22,7 +22,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 이 문서에서는 프로젝트 견적에 적용되는 정보를 설명합니다. 여기에는 모든 견적 라인에 영향을 미치는 설정과 프로젝트 견적의 KPI를 구동하기 위해 모든 라인 항목에 요약된 견적에 대한 정보가 포함됩니다.
 
-다음 표에는 Dynamics 365 Project Operations에 고유하거나 Dynamics 365 Sales 견적의 동작에 몇 가지 중요한 변경 사항이 있는 프로젝트 견적의 요약 정보 필드가 나열되어 있습니다.
+다음 표에는 Dynamics 365 Project Operations에 고유한 프로젝트 견적의 요약 정보 필드가 나열되어 있습니다. 또는 Dynamics 365 Sales에서 동작에 몇 가지 중요한 변경 사항이 있습니다.
 
 | **필드** | **위치** | **설명** | **다운스트림 영향** |
 | --- | --- | --- | --- |

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176574"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274331"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>자동 송장 만들기 구성 - 라이트
  
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-Dynamics 365 Project Operations에서 자동 송장 생성을 구성할 수 있습니다. 시스템은 각 프로젝트 계약 및 계약 내용에 대한 송장 일정을 기반으로 견적 송장 초안을 생성합니다. 송장 일정은 계약 내용 수준에서 구성됩니다. 계약의 각 라인에는 고유한 송장 일정이 있거나 동일한 송장 일정이 계약의 모든 라인에 포함될 수 있습니다.
+Dynamics 365 Project Operations에서 자동 송장 만들기를 구성할 수 있습니다. 시스템은 각 프로젝트 계약 및 계약 내용에 대한 송장 일정을 기반으로 견적 송장 초안을 생성합니다. 송장 일정은 계약 내용 수준에서 구성됩니다. 계약의 각 라인에는 고유한 송장 일정이 있거나 동일한 송장 일정이 계약의 모든 라인에 포함될 수 있습니다.
 
 송장을 생성할 때 시스템은 항상 프로젝트 계약당 하나 이상의 송장을 생성합니다. 경우에 따라 여러 개의 송장이 생성될 수 있습니다.
 

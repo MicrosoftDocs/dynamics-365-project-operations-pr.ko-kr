@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122891"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276986"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>법인별 프로젝트 Project Operations 통합 구성 
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목은 법인별로 Dynamics 365 Project Operations를 구성하는 데 필요한 단계를 안내합니다.
+이 토픽은 법인 당 Dynamics 365 Project Operations 구성에 필요한 단계를 안내합니다.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 기능 키 활성화
 

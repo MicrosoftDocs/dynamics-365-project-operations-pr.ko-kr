@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181015"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272531"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>프로젝트 기반 영업 기회 라인 - 라이트
 

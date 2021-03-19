@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181190"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274421"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>인력 청구 요금 설정 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-각 가격표에는 가격표 헤더에 포함된 컨텍스트 및 날짜 유효성에 유효한 역할 가격 또는 인력 요금 집합이 있습니다. Dynamics 365 Project Operations의 시간에 대한 청구 요금은 가격표 헤더의 통화인 하나의 통화로만 설정할 수 있습니다.
+각 가격표에는 가격표 헤더에 포함된 컨텍스트 및 날짜 유효성에 유효한 역할 가격 또는 인력 요금 집합이 있습니다. Dynamics 365 Project Operations에서 시간에 대한 요금 청구는 가격표 헤더의 통화인 하나의 통화로만 설정할 수 있습니다.
 
 1. 판매 가격표에 대한 인력 청구 요금을 설정하려면 가격표 헤더를 기반으로 가격표를 생성합니다. 
 2. **역할 가격** 탭의 하위 표에서 **+ 새 역할 가격** 을 선택합니다. 

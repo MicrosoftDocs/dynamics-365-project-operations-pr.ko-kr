@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120821"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275906"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations는 단일 애플리케이션에서 영업, 리소싱, 프로젝트 관리 및 재무 팀을 연결하여 더 많은 거래를 성사시키고 프로젝트 제공을 가속화하며 수익성을 극대화합니다.
+Microsoft Dynamics 365 Project Operations는 단일 애플리케이션에서 영업, 리소스 조달, 프로젝트 관리 및 재무 팀을 연결하여 더 많은 거래를 성사시키고 프로젝트 배달을 가속화하며 수익성을 극대화합니다.
 
 -   **리더는 비즈니스 통찰력을 확보** 하여 모든 팀, 데이터 및 프로세스에 대한 가시성을 높이고 더 빠르고 더 나은 비즈니스 의사 결정을 위한 AI 기능을 제공합니다.
 -   **영업이 활성화되어** 빠르고 정확한 견적, 유연한 가격 책정, 견적에서 실행으로의 원활한 전환을 통해 더 많은 거래를 성사시키고 판매주기를 가속화합니다.

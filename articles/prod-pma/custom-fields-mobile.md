@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080106"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271001"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
 
@@ -181,7 +181,7 @@ ms.locfileid: "4080106"
 
 다음 예제는 시간 항목에 대한 문자열 필드를 보여줍니다. 이 필드에는 옵션 단추(라디오 단추)를 통해 사용할 수 있는 **첫 번째 옵션** 및 **두 번째 옵션** 의 두 가지 옵션이 있습니다. 앱의 필드는 TSTimesheetLine 테이블에 추가되는 **TestLineString** 필드와 연결됩니다.
 
-**TSTimesheetCustomField::newFromMetatdata()** 메서드를 사용하여 사용자 지정 필드 속성 **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** 및 **numberOfDecimals** 의 초기화를 단순화합니다. 원하는 대로 이러한 매개 변수를 수동으로 설정할 수도 있습니다.
+**TSTimesheetCustomField::newFromMetatdata()** 메서드를 사용하여 사용자 지정 필드 속성 **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** 및 **numberOfDecimals** 의 초기화를 단순화합니다. 원하는 대로 이러한 매개 변수를 수동으로 설정할 수도 있습니다.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ final class TSTimesheetDetails_Extension
 
 - 작업 표 라인에 대한 저장 작업 중에 TSTimesheetLine 테이블의 **validateWrite** 이 **false** 를 반환하는 경우 모바일 앱에 오류 메시지가 표시됩니다.
 - 앱에서 작업 표 제출 중에 TSTimesheetTable 테이블의 **validateSubmit** 이 **false** 를 반환하는 경우 사용자에게 오류 메시지가 표시됩니다.
-- TSTimesheetLine 테이블에서 **삽입** 메서드 동안 필드를 채우는 논리(예: **라인 속성** )는 계속 실행됩니다.
+- TSTimesheetLine 테이블에서 **삽입** 메서드 동안 필드를 채우는 논리(예: **라인 속성**)는 계속 실행됩니다.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>구성을 통해 기본 제공 필드 숨기기 및 읽기 전용으로 표시
 

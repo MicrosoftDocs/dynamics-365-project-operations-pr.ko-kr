@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130946"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275591"
 ---
 # <a name="default-price-lists"></a>기본 가격표
 
@@ -21,7 +21,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="sales-price-lists"></a>판매 가격표
 
-Dynamics 365 Project Operations의 모든 프로젝트 견적 및 계약에는 기본 판매 가격표가 포함되어 있습니다. 
+Dynamics 365 Project Operations의 모든 프로젝트 견적 및 계약은 기본 판매 가격표를 포함합니다. 
 
 ### <a name="price-list-default-on-project-quotes"></a>프로젝트 견적에 대한 기본 가격표
 시스템은 다음 프로세스를 완료하여 프로젝트 견적에서 기본값으로 사용할 가격표를 결정합니다.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181146"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277616"
 ---
 # <a name="project-contract-settings"></a>프로젝트 계약 설정
 
@@ -21,7 +21,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 이 항목은 모든 계약 내용에 영향을 미치는 설정을 포함하여 전체 프로젝트 계약에 적용되는 필드에 대한 정보를 제공합니다. 프로젝트 계약의 KPI를 구동하기 위해 모든 라인 항목에서 요약된 계약에 대한 정보도 포함됩니다.
 
-다음 표에는 Dynamics 365 Project Operations에 고유하거나 Dynamics 365 Sales 판매 주문의 동작에 몇 가지 중요한 변경 사항이 있는 프로젝트 계약의 요약 정보 필드가 나열되어 있습니다.
+다음 표에는 Dynamics 365 Project Operations에 고유한 프로젝트 계약의 필드가 나열되어 있습니다. 또는 Dynamics 365 Sales에서 판매 주문의 동작에 몇 가지 중요한 변경 사항이 있습니다.
 
 | 필드 | 위치 | 설명 | 다운스트림 영향 |
 | --- | --- | --- | --- |

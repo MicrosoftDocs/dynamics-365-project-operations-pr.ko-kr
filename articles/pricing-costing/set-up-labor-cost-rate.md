@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180605"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274781"
 ---
 # <a name="set-up-labor-cost-rates"></a>인력 비용 요금 설정
 
@@ -40,7 +40,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>부문 또는 법인 외부의 리소스에 대한 이전 가격 책정 및 비용
 
-프로젝트 기반 회사에서는 프로젝트에 다른 법인 또는 부문의 직원을 사용하는 것이 일반적입니다. 프로젝트는 하나의 법인에 의해 실행될 수 있지만, 프로젝트에 참여하는 직원 또는 컨설턴트는 동일한 법인 또는 다른 법인에서 올 수 있거나 둘 다의 조합이 있을 수 있습니다. Dynamics 365 Project Operations에서 프로젝트 제공을 담당하는 법인은 **담당 회사** 이고 제공을 담당하는 부문은 **계약 단위** 입니다. 리소스를 제공하는 다른 법인은 **리소싱 회사** 이고 리소스를 제공하는 부문은 **리소싱 단위** 입니다. 대부분의 국가에서 기업은 리소스를 조달하는 법인 또는 부문이 리소스 사용에 대해 담당 회사와 계약 단위에 비용을 청구하도록 해야 합니다.
+프로젝트 기반 회사에서는 프로젝트에 다른 법인 또는 부문의 직원을 사용하는 것이 일반적입니다. 프로젝트는 하나의 법인에 의해 실행될 수 있지만, 프로젝트에 참여하는 직원 또는 컨설턴트는 동일한 법인 또는 다른 법인에서 올 수 있거나 둘 다의 조합이 있을 수 있습니다. Dynamics 365 Project Operations에서 프로젝트 배달을 담당하는 법인은 **담당 회사** 이고 배달을 담당하는 부서는 **계약 단위** 입니다. 리소스를 제공하는 다른 법인은 **리소싱 회사** 이고 리소스를 제공하는 부문은 **리소싱 단위** 입니다. 대부분의 국가에서 기업은 리소스를 조달하는 법인 또는 부문이 리소스 사용에 대해 담당 회사와 계약 단위에 비용을 청구하도록 해야 합니다.
 
 예를 들어 Fabrikam 회사는 Fabrikam India-Robotics가 Fabrikam US-Robotics 또는 Fabrikam UK-Robotics와 비용 요금 카드를 협상했는지 확인해야 합니다.
 

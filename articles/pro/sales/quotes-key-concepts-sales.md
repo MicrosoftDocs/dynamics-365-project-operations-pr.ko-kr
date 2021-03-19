@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178014"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272396"
 ---
 # <a name="quotes---key-concepts---lite"></a>견적 - 주요 개념 - 라이트
 

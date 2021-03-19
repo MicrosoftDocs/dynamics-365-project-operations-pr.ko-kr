@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176754"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274511"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>추정 및 실제에 대한 판매 가격 해결 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-Dynamics 365 Project Operations에서 추정 및 실제 판매 가격이 해결되면 시스템은 먼저 관련 프로젝트 견적 또는 계약의 날짜와 통화를 사용하여 판매 가격표를 해결합니다. 판매 가격표가 해결되면 시스템이 판매 또는 청구 비율을 해결합니다.
+추정 및 실제의 판매 가격이 Dynamics 365 Project Operations에서 해결되면 시스템은 먼저 관련 프로젝트 견적 또는 계약의 날짜 및 통화를 사용하여 판매 가격표를 해결합니다. 판매 가격표가 해결되면 시스템이 판매 또는 청구 비율을 해결합니다.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>시간에 대한 실제 및 추정 라인의 판매율 해결
 

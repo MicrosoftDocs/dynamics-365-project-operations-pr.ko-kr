@@ -1,6 +1,6 @@
 ---
 title: 재구상된 경비 보고서
-description: 이 항목은 Microsoft Dynamics 365 Finance에서 경비 보고서 항목을 위해 재설계되고 재구상된 환경에 대한 정보를 제공합니다. 새로운 경험은 경비 보고서 작성 프로세스를 단순화하고 필요한 시간을 줄여줍니다.
+description: 이 항목은 경비 보고서 항목을 위해 재설계되고 재구상된 환경에 대한 정보를 제공합니다.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960255"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271991"
 ---
 # <a name="redesigned-expense-reports"></a>재구상된 경비 보고서
 
@@ -40,12 +40,6 @@ ms.locfileid: "4960255"
 - 경비 필드 가시성을 위한 새 메뉴 항목이 추가되었습니다.
 - 경비 보고서(기존 페이지) 또는 경비 보고서 필드에 대한 기존 메뉴 항목이 제거되지 않습니다.
 - 워크플로 및 모든 승인은 여전히 기존 비용 보고서 페이지로 이동합니다.
-
-## <a name="getting-started-video-for-new-users"></a>새 사용자를 위한 시작 비디오
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Dynamics 365 for Finance and Operations의 경비 경험](https://youtu.be/Ocy-MsTvEE0) 비디오(위에 표시됨)는 YouTube에서 사용할 수 있는 [Finance and Operations 재생 목록](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)에 포함되어 있습니다.
 
 ## <a name="new-features"></a>새로운 기능
 

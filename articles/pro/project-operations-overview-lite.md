@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365544"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273971"
 ---
 # <a name="lite-deployment-overview"></a>라이트 배포 개요
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-Dynamics 365 Project Operations의 라이트 배포 유형에는 프로젝트 기반 회사를 위한 다음과 같은 기능이 있습니다.
+Dynamics 365 Project Operations의 라이트 배포 유형에는 프로젝트 기반 회사에 대해 다음과 같은 기능이 있습니다.
 
 - 웹용 Microsoft Project를 사용한 프로젝트 계획
 - 인건비에 대한 다차원적 가격 책정 및 비용

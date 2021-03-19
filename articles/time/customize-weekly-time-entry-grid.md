@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124646"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277166"
 ---
 # <a name="extending-time-entries"></a>시간 항목 연장
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations에는 확장 가능한 시간 항목 사용자 지정 컨트롤이 포함되어 있습니다. 이 컨트롤에는 다음과 같은 기능이 있습니다.
+Dynamics 365 Project Operations는 확장 가능한 시간 입력 사용자 지정 컨트롤이 포함됩니다. 이 컨트롤에는 다음과 같은 기능이 있습니다.
 
 - 1주일 동안 가로로 시간 입력
 - 일, 행 또는 주별 합계

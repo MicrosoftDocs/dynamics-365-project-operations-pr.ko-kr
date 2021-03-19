@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c08ac3b0f24dda19489bad6e667a50b67b8ce3ec
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273656"
 ---
 # <a name="costing-product-based-quote-lines"></a>원가 계산 제품 기반 견적 라인
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 
-Dynamics 365 Project Operations의 제품 기반 견적 라인에는 **원가** 필드도 있습니다. 이 필드는 견적 라인에서 제품의 원가를 추적하고 다운스트림 수익성 계산을 위해 사용됩니다.
+Dynamics 365 Project Operations의 제품 기반 견적 라인에는 **가격표** 필드도 있습니다. 이 필드는 견적 라인에서 제품의 원가를 추적하고 다운스트림 수익성 계산을 위해 사용됩니다.
 
 카탈로그 제품에 대한 제품 기반 견적 라인이 생성되면 제품 기반 견적 라인의 비용은 기본적으로 제품 카탈로그의 **표준 비용** 필드에서 가져옵니다. 제품 카탈로그의 표준 비용 필드는 조직의 기본 통화로 설정됩니다. 제품 기반 견적 라인의 기본 단가는 견적의 판매 통화로 변환됩니다.
 

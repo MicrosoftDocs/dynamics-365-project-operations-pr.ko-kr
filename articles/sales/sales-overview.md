@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177609"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277391"
 ---
 # <a name="sales-process-overview"></a>영업 프로세스 개요
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-프로젝트 기반 조직에서 사용되는 영업 프로세스는 제품 기반 조직에서 사용되는 영업 프로세스와 다릅니다. 이러한 차이는 프로젝트 기반 조직의 영업 주기가 더 길고 각 거래에 대한 견적을 분석하고 만드는 사용자 지정된 추정 기술이 필요하기 때문에 발생합니다. Dynamics 365 Project Operations는 영업 프로세스에 사용되는 다음과 같은 몇 가지 기능을 사용합니다.
+프로젝트 기반 조직에서 사용되는 영업 프로세스는 제품 기반 조직에서 사용되는 영업 프로세스와 다릅니다. 이러한 차이는 프로젝트 기반 조직의 영업 주기가 더 길고 각 거래에 대한 견적을 분석하고 만드는 사용자 지정된 추정 기술이 필요하기 때문에 발생합니다. Dynamics 365 Project Operations는 영업 프로세스에서 사용되는 다음 기능 중 일부를 사용합니다.
 
 - 잠재 고객 레코드는 영업 프로세스를 추적하는 데 사용됩니다.
 - 적격 잠재 고객은 기회로 추적됩니다.

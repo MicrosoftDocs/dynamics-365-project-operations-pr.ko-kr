@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175989"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273026"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>프로젝트 견적에 대한 프로젝트 가격표 관리 - 라이트
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-프로젝트 견적은 여러 날짜의 유효 판매 가격표를 지원하도록 설계되었습니다. Dynamics 365 Project Operations를 사용하면 **프로젝트 가격표** 라는 새로운 관련 엔터티가 추가됩니다. 이 엔터티는 프로젝트 견적과 일대 다 관계를 갖습니다.
+프로젝트 견적은 여러 날짜의 유효 판매 가격표를 지원하도록 설계되었습니다. Dynamics 365 Project Operations에서 **프로젝트 가격표** 라는 새 관련 엔티티가 추가됩니다. 이 엔터티는 프로젝트 견적과 일대 다 관계를 갖습니다.
 
 프로젝트 가격표는 프로젝트에 대한 시간 및 비용 트랜잭션의 가격을 책정하는 데 사용됩니다. 견적에 하나 이상의 프로젝트 가격표가 있는 경우 이러한 가격표는 견적 라인을 통해 견적과 연관된 프로젝트의 시간 및 비용 추정 및 실제 가격을 책정하는 데 사용됩니다.
 
