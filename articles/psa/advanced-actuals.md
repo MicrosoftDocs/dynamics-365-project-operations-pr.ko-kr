@@ -18,19 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5dd853bfb41c6f2cd20965733a78eafdbbeb794b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145726"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291762"
 ---
-# <a name="recording-actuals"></a><span data-ttu-id="39e4a-103">실제값 기록</span><span class="sxs-lookup"><span data-stu-id="39e4a-103">Recording actuals</span></span> 
+# <a name="recording-actuals"></a><span data-ttu-id="2a111-103">실제값 기록</span><span class="sxs-lookup"><span data-stu-id="2a111-103">Recording actuals</span></span> 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="39e4a-104">프로젝트 중에 발생하는 모든 재무 처리가 기록됩니다.</span><span class="sxs-lookup"><span data-stu-id="39e4a-104">All financial transactions that occur during a project are recorded.</span></span> <span data-ttu-id="39e4a-105">이러한 처리는 **실제값** 으로 기록됩니다.</span><span class="sxs-lookup"><span data-stu-id="39e4a-105">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="39e4a-106">다음 표는 프로젝트가 시간 및 자재, 고정 가격 또는 내부 프로젝트인지, 또는 판매전 단계에 있는지에 따라 생성되는 다양한 타입의 실제값을 보여줍니다.</span><span class="sxs-lookup"><span data-stu-id="39e4a-106">The following table shows the different types of actuals that are created, depending on whether the project is a time-and-material, fixed-price, or internal project, or whether it's in the presales stage.</span></span>
+<span data-ttu-id="2a111-104">프로젝트 중에 발생하는 모든 재무 처리가 기록됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a111-104">All financial transactions that occur during a project are recorded.</span></span> <span data-ttu-id="2a111-105">이러한 처리는 **실제값** 으로 기록됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a111-105">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="2a111-106">다음 표는 프로젝트가 시간 및 자재, 고정 가격 또는 내부 프로젝트인지, 또는 판매전 단계에 있는지에 따라 생성되는 다양한 타입의 실제값을 보여줍니다.</span><span class="sxs-lookup"><span data-stu-id="2a111-106">The following table shows the different types of actuals that are created, depending on whether the project is a time-and-material, fixed-price, or internal project, or whether it's in the presales stage.</span></span>
 
 > ![실제값 기록 방법을 보여주는 표](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
