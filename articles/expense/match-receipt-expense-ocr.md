@@ -1,5 +1,5 @@
 ---
-title: OCR을 사용하여 영수증을 경비에 일치
+title: OCR을 사용하여 영수증 캡처
 description: 이 항목은 영수증에 대한 광학 문자 인식(OCR) 처리에 대한 정보를 제공합니다.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124331"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499859"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>OCR을 사용하여 영수증을 경비에 일치
+# <a name="capture-a-receipt-using-ocr"></a>OCR을 사용하여 영수증 캡처
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 

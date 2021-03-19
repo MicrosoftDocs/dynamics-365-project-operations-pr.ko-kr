@@ -3,17 +3,17 @@ title: 프로젝트 복사
 description: 이 항목은 Dynamics 365 Project Operations에서 프로젝트 복사에 대한 정보를 제공합니다.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131801"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479527"
 ---
 # <a name="copy-a-project"></a>프로젝트 복사
 
@@ -21,7 +21,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 Dynamics 365 Project Operations를 사용하면 **프로젝트** 양식에서 **프로젝트 복사** 를 선택하여 새 프로젝트를 빠르게 빌드할 수 있습니다. 프로젝트를 복사하려면 복사할 프로젝트를 연 다음 **프로젝트 복사** 를 선택합니다. 작업이 복사됩니다.
 
-- 프로젝트 속성
+- 프로젝트 속성(예상 시작 날짜는 소스 프로젝트에서 복사됨)
 - 작업 분할 구조
 - 프로젝트 팀 구성원
 - 프로젝트 추정

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401226"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479572"
 ---
 # <a name="determine-your-deployment-type"></a>배포 유형 결정
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 > [!IMPORTANT]
-> 라이선스를 구매한 후 여기에서 시작하여 [안내식 설치 흐름](https://aka.ms/provisionprojectoperations)을 사용하여 Dynamics 365 Project Operations의 최적 배포 모델을 결정합니다.
+> 라이선스를 구입한 후 여기에서 시작하여 [안내 설치 흐름](https://aka.ms/provisionprojectoperations)을 사용하여 Dynamics 365 Project Operations의 최적의 배포 모델을 결정하십시오.
 > 안내식 설치 흐름을 완료한 후 올바른 관리 포털로 이동하여 설치를 완료합니다. 설치를 완료하려면 배포 세부 정보를 참조하십시오.
 
 
@@ -31,6 +31,9 @@ Project Operations에는 Project Service Automation과 함께 제공되는 기�
 
 프로젝트 관리 및 회계 기능을 사용하는 기존 Finance 고객은 그대로 계속 사용할 수 있습니다. [리소스/생산 주문 시나리오에 대한 Project Operations](#pma)를 참조하십시오.
 
+
+## <a name="deployment-regions"></a>배포 지역
+Project Operations 배포를 지원하는 지역을 확인하려면 [Dynamics 365 및 Power Platform의 지리적 가용성 보고서](https://dynamics.microsoft.com/en-us/geographic-availability/)를 참조하십시오. **보고서 보기** 를 선택하고 **Dynamics 365 > 운영 앱 > Dynamics 365 Project Operations** 를 확장하고 지원되는 지역을 봅니다.
 
 ## <a name="deployment-types"></a>배포 유형
 Project Operations는 요구 사항에 맞는 여러 배포 옵션을 지원합니다. 신규 또는 기존 Dynamics 365 고객에 관계 없이 Project Operations는 귀사의 요구를 지원할 수 있습니다.

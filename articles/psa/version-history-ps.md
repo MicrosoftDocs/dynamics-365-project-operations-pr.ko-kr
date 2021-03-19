@@ -24,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e8ec1b5f7760b21ca3f0a85952820bdf6d0a5da
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a8e1c7233de5705c928308431738060cca454e89
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144286"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556631"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 릴리스 일정 업데이트
 
@@ -39,7 +39,7 @@ ms.locfileid: "5144286"
 
 | 솔루션  | 최신 버전 |
 |-------|----|
-| Project Service Automation    | 3.10.46.87 |
+| Project Service Automation    | 3.10.47.7 |
 | Project Service Automation 데스크톱 추가 기능                | 3.15          |
 
 Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamics 365 릴리스 계획](https://docs.microsoft.com/dynamics365/release-plans/)을 참조하십시오. 
@@ -47,28 +47,28 @@ Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamic
 | 스테이션  | 영역 | 현재 버전 | 다음 버전 |  예약된 날짜
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>스테이션 1</strong> | |  |  | |
-| | <i>최초 릴리스</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 19일
+| | <i>최초 릴리스</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
 |<strong>스테이션 2</strong> | |  |  | |
-| | <i>남아메리카</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 26일
-| | <i>캐나다</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 26일
-| | <i>인도</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 26일
-| | <i>프랑스</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 26일
-| | <i>아랍에미리트</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 26일
-| | <i>남아프리카 공화국</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 26일
-| | <i>독일</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 26일
-| | <i>스위스</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 2월 26일
+| | <i>남아메리카</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
+| | <i>캐나다</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
+| | <i>인도</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
+| | <i>프랑스</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
+| | <i>아랍에미리트연합국</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
+| | <i>남아프리카 공화국</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
+| | <i>독일</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
+| | <i>스위스</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 2일
 |<strong>스테이션 3</strong> | |  |  | |
-| | <i>일본</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 3월 5일
-| | <i>아시아 태평양</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 3월 5일
-| | <i>영국</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 3월 5일
-| | <i>오세아니아</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 2021년 3월 5일
+| | <i>일본</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 9일
+| | <i>아시아 태평양</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 9일
+| | <i>영국</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 9일
+| | <i>오세아니아</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2021년 4월 9일
 |<strong>스테이션 4</strong> | |  |  | |
-| | <i>유럽</i> | [3.10.45.119](whats-new-ur-27-5.md) | [3.10.46.87](whats-new-ur-28-5.md) | 2021년 2월 19일
+| | <i>유럽</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 2021년 3월 12일
 |<strong>스테이션 5</strong> | |  |  | |
-| | <i>북아메리카</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 2021년 2월 12일
+| | <i>북아메리카</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 2021년 3월 19일
 |<strong>스테이션 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 2021년 2월 12일
-| | <i>전용 규모 그룹</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 2021년 2월 19일
+| | <i>Government Community Cloud</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 2021년 3월 19일
+| | <i>전용 규모 그룹</i> | [3.10.45.120](whats-new-ur-27-6.md) | [3.10.46.147](whats-new-ur-28-6.md) | 2021년 3월 5일
 
 >[!Note]
 > - GCC(Government Community Cloud)를 제외한 모든 지역의 날짜는 다음 자동 업데이트 시기를 나타냅니다. GCC의 날짜는 버전 가용성을 나타냅니다. 현재 이러한 지역에 대한 자동 업데이트는 없습니다.

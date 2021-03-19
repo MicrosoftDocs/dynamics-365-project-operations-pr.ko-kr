@@ -3,17 +3,17 @@ title: 시간 항목 UI 동작
 description: 이 항목은 시간 항목의 UI 동작에 대한 정보를 제공합니다.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124511"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499622"
 ---
 # <a name="time-entry-ui-behavior"></a>시간 항목 UI 동작
 
@@ -21,6 +21,19 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 
 **주간 시간 항목** 그리드는 두 개의 주요 섹션인 **크기** 및 **기간** 이 있는 사용자 지정 컨트롤입니다.
+
+## <a name="keyboard-shortcuts"></a>바로 가기 키
+| 작업        | 바로 가기                  |
+|------------   |------------------------   |
+| 새 알림           | Alt + Shift + n           |
+| 행 복사      | Alt + Shift + c           |
+| 항목 편집    | Alt + Shift + e           |
+| 행 편집      | Alt + Shift + Ctrl + e    |
+| 항목 열기    | Alt + Shift + o           |
+| 제출        | Alt + Shift + s           |
+| 리콜        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| 주 복사     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>차원
 **크기** 섹션에는 시간을 입력할 수 있는 크기가 표시됩니다. 다음과 같은 크기가 기본 지원됩니다.

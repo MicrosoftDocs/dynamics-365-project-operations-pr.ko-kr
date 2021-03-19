@@ -1,5 +1,5 @@
 ---
-title: 모바일을 사용하여 경비 산정
+title: 모바일 경비 앱
 description: 이 주제는 경비 관리 모바일 작업 영역에 대한 정보를 제공합니다.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120911"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499904"
 ---
-# <a name="expense-using-mobile"></a>모바일을 사용하여 경비 산정
+# <a name="mobile-expense-app"></a>모바일 경비 앱
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
