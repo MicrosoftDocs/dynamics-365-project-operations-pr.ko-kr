@@ -18,40 +18,43 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57f85549154455f538cbdf3cde11989064968334
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146896"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285221"
 ---
-# <a name="create-a-project-opportunity-project-service"></a><span data-ttu-id="816a5-103">프로젝트 영업 기회 만들기(Project Service)</span><span class="sxs-lookup"><span data-stu-id="816a5-103">Create a project opportunity (Project Service)</span></span>
+# <a name="create-a-project-opportunity-project-service"></a><span data-ttu-id="8e62f-103">프로젝트 영업 기회 만들기(Project Service)</span><span class="sxs-lookup"><span data-stu-id="8e62f-103">Create a project opportunity (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="816a5-104">영업 기회는 서비스 계약에 관심이 있는 고객에게서 문의를 받는 것을 말합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-104">Opportunities are warm leads from customers who are interested in contracting your services.</span></span> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]<span data-ttu-id="816a5-105">의 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 기능이 거래처에 대한 영업 기회를 열고 프로젝트 견적을 준비하며 고객과의 프로젝트 계약을 맺는 모든 단계를 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-105">capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer.</span></span> <span data-ttu-id="816a5-106">가장 먼저 영업 기회를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-106">Start by adding an opportunity.</span></span> <span data-ttu-id="816a5-107">영업 기회에 대한 추정 서비스 및 제품도 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-107">You can add estimates for services and products to the opportunity, as well.</span></span> <span data-ttu-id="816a5-108">영업 기회 추가는 **우량으로 선별** 프로젝트 구간에서 이루어집니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-108">When you add an opportunity, you’re in the **Qualify** phase of your project.</span></span>  
+<span data-ttu-id="8e62f-104">영업 기회는 서비스 계약에 관심이 있는 고객에게서 문의를 받는 것을 말합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-104">Opportunities are warm leads from customers who are interested in contracting your services.</span></span> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]<span data-ttu-id="8e62f-105">의 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 기능이 거래처에 대한 영업 기회를 열고 프로젝트 견적을 준비하며 고객과의 프로젝트 계약을 맺는 모든 단계를 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-105">capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer.</span></span> <span data-ttu-id="8e62f-106">가장 먼저 영업 기회를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-106">Start by adding an opportunity.</span></span> <span data-ttu-id="8e62f-107">영업 기회에 대한 추정 서비스 및 제품도 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-107">You can add estimates for services and products to the opportunity, as well.</span></span> <span data-ttu-id="8e62f-108">영업 기회 추가는 **우량으로 선별** 프로젝트 구간에서 이루어집니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-108">When you add an opportunity, you’re in the **Qualify** phase of your project.</span></span>  
   
-1.  <span data-ttu-id="816a5-109">**Project Service > 영업 기회** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-109">Go to **Project Service > Opportunities**.</span></span>  
+1.  <span data-ttu-id="8e62f-109">**Project Service > 영업 기회** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-109">Go to **Project Service > Opportunities**.</span></span>  
   
-2.  <span data-ttu-id="816a5-110">**새로 만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-110">Click **New**.</span></span>  
+2.  <span data-ttu-id="8e62f-110">**새로 만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-110">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="816a5-111">**요약** 영역에 영업 기회가 주어진 회사와 기타 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-111">In the **Summary** area, enter your opportunity's company and other information.</span></span>  
+3.  <span data-ttu-id="8e62f-111">**요약** 영역에 영업 기회가 주어진 회사와 기타 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-111">In the **Summary** area, enter your opportunity's company and other information.</span></span>  
   
-4.  <span data-ttu-id="816a5-112">이 잠재 고객과 관련된 메모와 활동(예: 전화 통화 또는 전자 메일)을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-112">Add any notes and activities (for example, phone calls or emails) related to this lead.</span></span> <span data-ttu-id="816a5-113">메모 및 활동 추가에 대한 자세한 내용은 [메모, 작업, 전화 또는 전자 메일 활동 추적](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="816a5-113">To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span></span>  
+4.  <span data-ttu-id="8e62f-112">이 잠재 고객과 관련된 메모와 활동(예: 전화 통화 또는 전자 메일)을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-112">Add any notes and activities (for example, phone calls or emails) related to this lead.</span></span> <span data-ttu-id="8e62f-113">메모 및 활동 추가에 대한 자세한 내용은 [메모, 작업, 전화 또는 전자 메일 활동 추적](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="8e62f-113">To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).</span></span>  
   
-5.  <span data-ttu-id="816a5-114">이해 관계자를 추가하려면 **이해 관계자** 영역에서 **+** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-114">To add stakeholders, in the **Stakeholders** area, click **+**.</span></span>  
+5.  <span data-ttu-id="8e62f-114">이해 관계자를 추가하려면 **이해 관계자** 영역에서 **+** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-114">To add stakeholders, in the **Stakeholders** area, click **+**.</span></span>  
   
-6.  <span data-ttu-id="816a5-115">영업 팀 구성원을 추가하려면 **영업 팀** 영역에서 **+** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-115">To add sales team members, in the **Sales Team** area, click **+**.</span></span>  
+6.  <span data-ttu-id="8e62f-115">영업 팀 구성원을 추가하려면 **영업 팀** 영역에서 **+** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-115">To add sales team members, in the **Sales Team** area, click **+**.</span></span>  
   
-7.  <span data-ttu-id="816a5-116">경쟁 업체를 추가하려면 **경쟁 업체** 영역에서 **+** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-116">To add competitors, in the **Competitors** area, click **+**.</span></span>  
+7.  <span data-ttu-id="8e62f-116">경쟁 업체를 추가하려면 **경쟁 업체** 영역에서 **+** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-116">To add competitors, in the **Competitors** area, click **+**.</span></span>  
   
-8.  <span data-ttu-id="816a5-117">영업 기회 대상 제품을 추가하려면 **영업 기회 내용** 영역의 **제품 기반 내용** 아래에 있는 **새로 만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-117">To add a product to the opportunity, click **New** under **Product-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="816a5-118">**제품 이름** 아래 항목을 선택한 다음 수량, 영업 가격 및 고객 예산을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-118">Select an item under **Product Name**, and then specify the quantity, sales price, and customer budget.</span></span>  
+8.  <span data-ttu-id="8e62f-117">영업 기회 대상 제품을 추가하려면 **영업 기회 내용** 영역의 **제품 기반 내용** 아래에 있는 **새로 만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-117">To add a product to the opportunity, click **New** under **Product-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="8e62f-118">**제품 이름** 아래 항목을 선택한 다음 수량, 영업 가격 및 고객 예산을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-118">Select an item under **Product Name**, and then specify the quantity, sales price, and customer budget.</span></span>  
   
-9. <span data-ttu-id="816a5-119">영업 기회에 대한 프로젝트 예상을 추가하려면 **영업 기회 내용** 영역의 **제품 기반 내용** 아래에 있는 **+** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-119">To add a project estimate to the opportunity, click **+** under **Project-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="816a5-120">가능한 경우 이름, 예산 총액 및 프로젝트를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-120">Enter the name, budget amount, and project, if available.</span></span> <span data-ttu-id="816a5-121">작업 분할 구조로 프로젝트를 만들어 예상을 생성해야 할 경우 [프로젝트 만들기](../psa/create-project.md)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="816a5-121">If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).</span></span>  
+9. <span data-ttu-id="8e62f-119">영업 기회에 대한 프로젝트 예상을 추가하려면 **영업 기회 내용** 영역의 **제품 기반 내용** 아래에 있는 **+** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-119">To add a project estimate to the opportunity, click **+** under **Project-based Lines** in the **Opportunity Lines** area.</span></span> <span data-ttu-id="8e62f-120">가능한 경우 이름, 예산 총액 및 프로젝트를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-120">Enter the name, budget amount, and project, if available.</span></span> <span data-ttu-id="8e62f-121">작업 분할 구조로 프로젝트를 만들어 예상을 생성해야 할 경우 [프로젝트 만들기](../psa/create-project.md)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="8e62f-121">If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).</span></span>  
   
-10. <span data-ttu-id="816a5-122">편집을 마쳤으면, 화면 우측 하단의 **저장** 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="816a5-122">When you’re done editing, click the **Save** button at the bottom right of the screen.</span></span>  
+10. <span data-ttu-id="8e62f-122">편집을 마쳤으면, 화면 우측 하단의 **저장** 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8e62f-122">When you’re done editing, click the **Save** button at the bottom right of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="816a5-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="816a5-123">See Also</span></span>  
- [<span data-ttu-id="816a5-124">거래처 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="816a5-124">Account Manager Guide</span></span>](../psa/account-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="8e62f-123">참고 항목</span><span class="sxs-lookup"><span data-stu-id="8e62f-123">See Also</span></span>  
+ [<span data-ttu-id="8e62f-124">거래처 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="8e62f-124">Account Manager Guide</span></span>](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
