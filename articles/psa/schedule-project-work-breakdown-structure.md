@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cf12cc3bcf061e1daffafb248cfd76809c6444ec
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a00e39f78890426721a49cd569ba8ce4accb30a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149821"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282701"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>작업 분할 구조로 프로젝트 일정 짜기(Project Service)
 
