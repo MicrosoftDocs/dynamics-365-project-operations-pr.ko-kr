@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080191"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289647"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Finance and Operations 및 Project Service Automation 간에 프로젝트 비용 범주 동기화
 
@@ -88,7 +88,7 @@ Project Service Automation에 동기화할 때 Microsoft Excel용 파워 쿼리�
 1. 화살표를 클릭하여 프로젝트 경비 트랜잭션 범주(Fin 및 Ops에서 PSA로) 템플릿에서 프로젝트 경비 범주 작업의 매핑을 엽니다.
 2. **고급 쿼리 및 필터링** 링크를 클릭하여 파워 쿼리를 엽니다.
 2. **조건부 열 추가** 를 선택합니다.
-3. 새 열의 이름( **BillingType** )을 입력합니다.
+3. 새 열의 이름(**BillingType**)을 입력합니다.
 4. 다음 조건을 입력합니다. **if CATEGORYID not equal to null then 19235001, Otherwise null**.
 5. 열에서 **확인** 을 클릭합니다.
 6. 매핑 페이지에서 이 새 열을 매핑해야 합니다.

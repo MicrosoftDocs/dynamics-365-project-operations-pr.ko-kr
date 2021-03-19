@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122351"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287741"
 ---
 # <a name="manage-the-billing-backlog"></a>청구 백로그 관리
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations에는 청구 백 로그를 사용하고 관리하는 데 도움이 되는 두 개의 전용 보기가 있습니다. 이들은 **고정 가격 중요 시점** 및 **시간 및 재료 청구 백 로그** 입니다. 보기를 선택하려면 Project Operations의 **Sales** 영역의 왼쪽 탐색 페이지에서 **청구** 를 선택합니다. 청구 백 로그 링크가 여기에 저장됩니다.
+Dynamics 365 Project Operations에는 청구 백 로그로 작업하고 관리하는 데 도움이 되는 두 가지 전용 보기가 있습니다. 이들은 **고정 가격 중요 시점** 및 **시간 및 재료 청구 백 로그** 입니다. 보기를 선택하려면 Project Operations의 **Sales** 영역의 왼쪽 탐색 페이지에서 **청구** 를 선택합니다. 청구 백 로그 링크가 여기에 저장됩니다.
 
 ## <a name="fixed-price-milestones"></a>고정 가격 이정표
 

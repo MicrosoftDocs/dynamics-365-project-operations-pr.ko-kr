@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080184"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289692"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations에 전기를 위해 Project Service Automation에서 프로젝트 통합 저널로 프로젝트 실제 데이터를 직접 동기화
 
@@ -89,7 +89,7 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 템플릿에서 삽입된 조건부 열을 업데이트하려면 **매핑** 화살표를 클릭하여 매핑을 엽니다. **고급 쿼리 및 필터링** 링크를 선택하여 파워 쿼리를 엽니다.
 
 - 기본 프로젝트 실제(PSA에서 Fin 및 Ops까지) 템플릿을 사용하는 경우 파워 쿼리의 **적용 단계** 섹션에서 마지막 **삽입된 조건** 을 선택합니다. **함수** 항목에서 **USSI** 를 통합과 함께 사용해야 하는 법인의 이름으로 바꿉니다. 필요에 따라 추가 조건을 **함수** 항목에 추가하고 **USMF** 의 **else** 조건을 올바른 법인으로 업데이트합니다.
-- 새 템플릿을 만드는 경우 회사 간 시간 및 경비를 지원하기 위해 열을 추가해야 합니다. **조건 열 추가** 를 선택하고 열의 이름(예: **LegalEntity** )을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 **msdyn\_contractorganizationalunitid.msdyn\_name** 이 \<organizational unit\>인 경우 \<enter the legal entity\>, 그렇지 않으면 null입니다.
+- 새 템플릿을 만드는 경우 회사 간 시간 및 경비를 지원하기 위해 열을 추가해야 합니다. **조건 열 추가** 를 선택하고 열의 이름(예: **LegalEntity**)을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 **msdyn\_contractorganizationalunitid.msdyn\_name** 이 \<organizational unit\>인 경우 \<enter the legal entity\>, 그렇지 않으면 null입니다.
 
 ### <a name="template-mapping-in-data-integration"></a>데이터 통합의 템플릿 매핑
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080035"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289017"
 ---
 # <a name="project-resource-scheduling-performance"></a>프로젝트 자원 예약 성능
 
@@ -54,7 +54,7 @@ ms.locfileid: "4080035"
  > [!NOTE]
  > 이것은 일반 데이터를 사용자 환경에 있는 모든 회사의 **ResCalendarCapacity** 테이블로 배포하며 하나의 법인에서만 실행하면 됩니다. 이 일괄 처리 작업의 데이터는 연관된 달력을 통해 리소스 용량을 계산하는 데 필요합니다.
 
-8. **프로젝트 관리 및 회계** > **주기적** > **프로젝트 리소스** > **모든 회사의 프로젝트 리소스 채우기** 로 이동한 다음 **확인** 을 선택합니다. 이는 **ResProjectResource** , **ResCalendarDateTimeRange** 및 **ResEffectiveDateTimeRange** 테이블에 있는 일반 데이터를 위한 데이터 업그레이드 스크립트입니다. **PSAPRojSchedRole.RootActivity** 필드의 값도 업데이트됩니다. 이것이 실행되지 않으면 리소스 스케줄링 작업을 실행하려고 할 때 경고를 받게 됩니다.
+8. **프로젝트 관리 및 회계** > **주기적** > **프로젝트 리소스** > **모든 회사의 프로젝트 리소스 채우기** 로 이동한 다음 **확인** 을 선택합니다. 이는 **ResProjectResource**, **ResCalendarDateTimeRange** 및 **ResEffectiveDateTimeRange** 테이블에 있는 일반 데이터를 위한 데이터 업그레이드 스크립트입니다. **PSAPRojSchedRole.RootActivity** 필드의 값도 업데이트됩니다. 이것이 실행되지 않으면 리소스 스케줄링 작업을 실행하려고 할 때 경고를 받게 됩니다.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>리소스 스케줄링 성능 향상 끄기
 

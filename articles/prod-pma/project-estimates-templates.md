@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080180"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289467"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation에서 Finance and Operations로 직접 프로젝트 추정치 동기화
 
@@ -83,7 +83,7 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 템플릿에서 기본 예측 모델 ID를 업데이트하려면 **매핑** 화살표를 클릭하여 매핑을 엽니다. 그런 다음 **고급 쿼리 및 필터링** 링크를 선택합니다.
 
 - 기본 프로젝트 시간 추정치(PSA에서 Fin 및 Ops까지) 템플릿을 사용하는 경우 **적용 단계** 목록에서 **삽입된 조건** 을 선택합니다. **함수** 항목에서 **O\_forecast** 를 통합과 함께 사용해야 하는 예측 모델 ID의 이름으로 바꿉니다. 기본 템플릿에는 데모 데이터의 예측 모델 ID가 있습니다.
-- 새 템플릿을 만드는 경우 이 열을 추가해야 합니다. 파워 쿼리에서 **조건 열 추가** 를 클릭하고 새 열의 이름(예: **ModelID** )을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 프로젝트 작업이 null이 아닌 경우 \<enter the forecast model ID\>, 그렇지 않으면 null입니다.
+- 새 템플릿을 만드는 경우 이 열을 추가해야 합니다. 파워 쿼리에서 **조건 열 추가** 를 클릭하고 새 열의 이름(예: **ModelID**)을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 프로젝트 작업이 null이 아닌 경우 \<enter the forecast model ID\>, 그렇지 않으면 null입니다.
 
 #### <a name="filter-out-resource-specific-records"></a>리소스별 레코드 필터링
 
@@ -144,11 +144,11 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 템플릿에서 기본 예측 모델 ID를 업데이트하려면 **경비 추정** 작업을 선택한 다음 **매핑** 화살표를 클릭하여 매핑을 엽니다. **고급 쿼리 및 필터링** 링크를 선택합니다.
 
 - 기본 프로젝트 경비 추정치(PSA에서 Fin 및 Ops까지) 템플릿을 사용하는 경우 파워 쿼리의 **적용 단계** 섹션에서 첫 번째 **삽입된 조건** 을 선택합니다. **함수** 항목에서 **O\_forecast** 를 통합과 함께 사용해야 하는 예측 모델 ID의 이름으로 바꿉니다. 기본 템플릿에는 데모 데이터의 예측 모델 ID가 있습니다.
-- 새 템플릿을 만드는 경우 이 열을 추가해야 합니다. 파워 쿼리에서 **조건 열 추가** 를 클릭하고 새 열의 이름(예: **ModelID** )을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 추정 라인 ID가 null이 아닌 경우 \<enter the forecast model ID\>, 그렇지 않으면 null입니다.
+- 새 템플릿을 만드는 경우 이 열을 추가해야 합니다. 파워 쿼리에서 **조건 열 추가** 를 클릭하고 새 열의 이름(예: **ModelID**)을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 추정 라인 ID가 null이 아닌 경우 \<enter the forecast model ID\>, 그렇지 않으면 null입니다.
 
 #### <a name="transform-the-billing-types"></a>청구 유형을 변환합니다
 
-프로젝트 경비 추정치(PSA에서 Fin 및 Ops까지) 템플릿에는 통합 중에 Project Service Automation에서 받은 청구 유형을 변환하는 데 사용되는 조건부 열이 포함되어 있습니다. 고유한 템플릿을 만드는 경우 이 조건부 열을 추가해야 합니다. **고급 쿼리 및 필터링** 링크를 선택한 다음 **조건부 열 추가** 를 선택합니다. 새 열의 이름( **BillingType** )을 입력합니다. 그런 후에, 다음 조건을 입력합니다.
+프로젝트 경비 추정치(PSA에서 Fin 및 Ops까지) 템플릿에는 통합 중에 Project Service Automation에서 받은 청구 유형을 변환하는 데 사용되는 조건부 열이 포함되어 있습니다. 고유한 템플릿을 만드는 경우 이 조건부 열을 추가해야 합니다. **고급 쿼리 및 필터링** 링크를 선택한 다음 **조건부 열 추가** 를 선택합니다. 새 열의 이름(**BillingType**)을 입력합니다. 그런 후에, 다음 조건을 입력합니다.
 
 If **msdyn\_billingtype** = 192350000, then **NonChargeable**  
 else if **msdyn\_billingtype** = 192350001, then **Chargeable**  
@@ -157,7 +157,7 @@ else **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>트랜잭션 유형을 변환합니다
 
-프로젝트 경비 추정치(PSA에서 Fin 및 Ops까지) 템플릿에는 통합 중에 Project Service Automation에서 받은 트랜잭션 유형을 변환하는 데 사용되는 조건부 열이 포함되어 있습니다. 고유한 템플릿을 만드는 경우 이 조건부 열을 추가해야 합니다. **고급 쿼리 및 필터링** 링크를 선택한 다음 **조건부 열 추가** 를 선택합니다. 새 열의 이름( **TransactionType** )을 입력합니다. 그런 후에, 다음 조건을 입력합니다.
+프로젝트 경비 추정치(PSA에서 Fin 및 Ops까지) 템플릿에는 통합 중에 Project Service Automation에서 받은 트랜잭션 유형을 변환하는 데 사용되는 조건부 열이 포함되어 있습니다. 고유한 템플릿을 만드는 경우 이 조건부 열을 추가해야 합니다. **고급 쿼리 및 필터링** 링크를 선택한 다음 **조건부 열 추가** 를 선택합니다. 새 열의 이름(**TransactionType**)을 입력합니다. 그런 후에, 다음 조건을 입력합니다.
 
 If **msdyn\_transactiontypecode** = 192350000, then **Cost**  
 else if **msdyn\_transactiontypecode** = 192350005, then **Sales**  

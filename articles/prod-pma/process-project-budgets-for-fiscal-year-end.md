@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289737"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>회계 연도 끝에서 프로젝트 예산 이전
 
@@ -59,10 +59,10 @@ ms.locfileid: "4080185"
 2. **프로젝트 예산 이월 프로세스** 페이지에서 **연말** 을 선택한 다음 **남은 프로젝트 예산 금액 이월** 과 **총계정 원장에 예산 등록 항목 생성** 을 활성화합니다. 
 3. **매개 변수** 탭의 **프로젝트 매개 변수** 필드 그룹에서 다음을 선택합니다.
 
-   - **프로젝트 회계 연도** : 남은 예산 금액을 보려는 회계 연도의 시작을 선택합니다. 
-   - **이익과 손실** : 총계정 원장에서 손익 트랜잭션을 생성합니다. 
-   -  **WIP** : 총계정 원장에서 진행 중인 작업(WIP) 트랜잭션을 생성합니다.
-   -  **급여** : 총계정 원장에서 급여 할당 트랜잭션을 생성합니다. 
+   - **프로젝트 회계 연도**: 남은 예산 금액을 보려는 회계 연도의 시작을 선택합니다. 
+   - **이익과 손실**: 총계정 원장에서 손익 트랜잭션을 생성합니다. 
+   -  **WIP**: 총계정 원장에서 진행 중인 작업(WIP) 트랜잭션을 생성합니다.
+   -  **급여**: 총계정 원장에서 급여 할당 트랜잭션을 생성합니다. 
 
 5. **총계정 원장** 필드 그룹에 다음 정보를 입력합니다. 
 
