@@ -1,6 +1,6 @@
 ---
 title: 실제
-description: 이 항목은 Microsoft Dynamics 365 Project Operations에서 실제 작업 방법에 대한 정보를 제공합니다.
+description: 이 토픽은 Microsoft Dynamics 365 Project Operations에서 실제 값으로 작업하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126316"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291807"
 ---
-# <a name="actuals"></a>실제 
+# <a name="actuals"></a>실제 값 
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
@@ -70,7 +70,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 항목 분개장을 사용하여 비용 또는 수익을 자재, 수수료, 시간, 경비 또는 세금 처리 등급에 기록할 수 있습니다. 분개장은 다음과 같은 목적으로 사용할 수 있습니다.
 
 - 프로젝트의 실제 재료비 및 판매 비용을 기록합니다.
-- 다른 시스템에서 Microsoft Dynamics 365 Project Operations로 실제 트랜잭션을 이동합니다.
+- 다른 시스템의 트랜잭션 실제를 Microsoft Dynamics 365 Project Operations로 이동합니다.
 - 다른 시스템에서 발생한 비용을 기록합니다. 이러한 비용에는 조달 또는 하도급 비용이 포함될 수 있습니다.
 
 > [!IMPORTANT]
