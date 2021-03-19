@@ -9,22 +9,25 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b826bf3a1320eee2758af7a094e9f1c2eac6a119
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764962"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272621"
 ---
-# <a name="product-based-opportunity-lines---lite"></a><span data-ttu-id="3e37b-103">제품 기반 영업 기회 라인 - 라이트</span><span class="sxs-lookup"><span data-stu-id="3e37b-103">Product-based opportunity lines - lite</span></span>
+# <a name="product-based-opportunity-lines---lite"></a><span data-ttu-id="50393-103">제품 기반 영업 기회 라인 - 라이트</span><span class="sxs-lookup"><span data-stu-id="50393-103">Product-based opportunity lines - lite</span></span>
 
-<span data-ttu-id="3e37b-104">_**적용 대상:** 라이트 배포 - 견적 송장 거래_</span><span class="sxs-lookup"><span data-stu-id="3e37b-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="50393-104">_**적용 대상:** 라이트 배포 - 견적 송장 거래_</span><span class="sxs-lookup"><span data-stu-id="50393-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="3e37b-105">제품 기반 영업 기회 라인은 영업 기회의 라인 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-105">Product-based opportunity lines are line items on the Opportunity.</span></span> <span data-ttu-id="3e37b-106">이러한 개별 항목은 고객에게 제공되는 최종 송장에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-106">These distinct line items are on the eventual invoice that is provided to the customer.</span></span> <span data-ttu-id="3e37b-107">청구서에는 다른 추가 서비스가 포함되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-107">The invoice doesn't include any other additional services.</span></span> <span data-ttu-id="3e37b-108">관련 지출 및 소비는 관련 프로젝트의 작업에서 추적되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-108">The associated spend and consumption isn't tracked on tasks of any related projects.</span></span>
+<span data-ttu-id="50393-105">제품 기반 영업 기회 라인은 영업 기회의 라인 항목입니다.</span><span class="sxs-lookup"><span data-stu-id="50393-105">Product-based opportunity lines are line items on the Opportunity.</span></span> <span data-ttu-id="50393-106">이러한 개별 항목은 고객에게 제공되는 최종 송장에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="50393-106">These distinct line items are on the eventual invoice that is provided to the customer.</span></span> <span data-ttu-id="50393-107">청구서에는 다른 추가 서비스가 포함되어 있지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="50393-107">The invoice doesn't include any other additional services.</span></span> <span data-ttu-id="50393-108">관련 지출 및 소비는 관련 프로젝트의 작업에서 추적되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="50393-108">The associated spend and consumption isn't tracked on tasks of any related projects.</span></span>
 
-<span data-ttu-id="3e37b-109">제품 기반 라인은 카탈로그 항목 또는 기록 제품일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-109">Product-based lines can be catalog items or write-in products.</span></span> <span data-ttu-id="3e37b-110">영업 기회의 제품 기반 라인에 있는 대부분의 기능은 Dynamics 365 Sales 응용 프로그램에서 제공하는 기능을 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-110">Most of the functionality on an Opportunity's product-based lines follows the functionality provided by the Dynamics 365 Sales application.</span></span> <span data-ttu-id="3e37b-111">제품 기반 영업 기회 라인에 대한 자세한 내용은 [영업 기회에 제품 추가](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="3e37b-111">For more information about product-based opportunity lines, see [Add products to an opportunity](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).</span></span>
+<span data-ttu-id="50393-109">제품 기반 라인은 카탈로그 항목 또는 기록 제품일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="50393-109">Product-based lines can be catalog items or write-in products.</span></span> <span data-ttu-id="50393-110">영업 기회의 제품 기반 라인에 있는 대부분의 기능은 Dynamics 365 Sales 응용 프로그램에서 제공하는 기능을 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="50393-110">Most of the functionality on an Opportunity's product-based lines follows the functionality provided by the Dynamics 365 Sales application.</span></span> <span data-ttu-id="50393-111">제품 기반 영업 기회 라인에 대한 자세한 내용은 [영업 기회에 제품 추가](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="50393-111">For more information about product-based opportunity lines, see [Add products to an opportunity](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).</span></span>
 
-<span data-ttu-id="3e37b-112">**고객 예산** 은 프로젝트 기반 영업 기회 라인에 특정한 개념입니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-112">**Customer budget** is a concept that is specific to project-based opportunity lines.</span></span> <span data-ttu-id="3e37b-113">**고객 예산** 필드는 고객이 항목에 대해 지불할 금액을 추적합니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-113">The **Customer budget** field tracks the amount the customer is willing to pay for the item.</span></span>
+<span data-ttu-id="50393-112">**고객 예산** 은 프로젝트 기반 영업 기회 라인에 특정한 개념입니다.</span><span class="sxs-lookup"><span data-stu-id="50393-112">**Customer budget** is a concept that is specific to project-based opportunity lines.</span></span> <span data-ttu-id="50393-113">**고객 예산** 필드는 고객이 항목에 대해 지불할 금액을 추적합니다.</span><span class="sxs-lookup"><span data-stu-id="50393-113">The **Customer budget** field tracks the amount the customer is willing to pay for the item.</span></span>
 
-<span data-ttu-id="3e37b-114">영업 기회 요약의 수익 방법이 **시스템에서 계산** 이면 영업 기회 라인 전체의 고객 예산 값이 요약되어 예상 수익을 계산합니다.</span><span class="sxs-lookup"><span data-stu-id="3e37b-114">When the revenue method of the Opportunity summary is **System Calculated**, the customer budget values across the opportunity lines are summarized to calculate the estimated revenue.</span></span> 
+<span data-ttu-id="50393-114">영업 기회 요약의 수익 방법이 **시스템에서 계산** 이면 영업 기회 라인 전체의 고객 예산 값이 요약되어 예상 수익을 계산합니다.</span><span class="sxs-lookup"><span data-stu-id="50393-114">When the revenue method of the Opportunity summary is **System Calculated**, the customer budget values across the opportunity lines are summarized to calculate the estimated revenue.</span></span> 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

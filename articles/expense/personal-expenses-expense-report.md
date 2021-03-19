@@ -9,22 +9,25 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727985"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276232"
 ---
-# <a name="work-with-personal-expenses-on-an-expense-report"></a><span data-ttu-id="cec33-103">경비 보고서의 개인 경비에 대한 작업</span><span class="sxs-lookup"><span data-stu-id="cec33-103">Work with personal expenses on an expense report</span></span>
+# <a name="work-with-personal-expenses-on-an-expense-report"></a><span data-ttu-id="7c57b-103">경비 보고서의 개인 경비에 대한 작업</span><span class="sxs-lookup"><span data-stu-id="7c57b-103">Work with personal expenses on an expense report</span></span>
 
-<span data-ttu-id="cec33-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="cec33-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="7c57b-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="7c57b-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="cec33-105">출장 중 직원은 회사 신용 카드로 개인 경비를 청구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cec33-105">During business travel, an employee might charge personal expenses to their corporate credit card.</span></span> <span data-ttu-id="cec33-106">개인 경비 처리를 위한 프로세스가 정의되지 않은 경우 직원이 항목별 경비 보고서를 제출할 때 경비 보고서 승인 프로세스가 중단될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cec33-106">If a process hasn't been defined for handling personal expenses, the expense report approval process might be disrupted when an employee submits their itemized expense report.</span></span>
+<span data-ttu-id="7c57b-105">출장 중 직원은 회사 신용 카드로 개인 경비를 청구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-105">During business travel, an employee might charge personal expenses to their corporate credit card.</span></span> <span data-ttu-id="7c57b-106">개인 경비 처리를 위한 프로세스가 정의되지 않은 경우 직원이 항목별 경비 보고서를 제출할 때 경비 보고서 승인 프로세스가 중단될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-106">If a process hasn't been defined for handling personal expenses, the expense report approval process might be disrupted when an employee submits their itemized expense report.</span></span>
 
-<span data-ttu-id="cec33-107">직원의 개인 경비를 처리하는 데 사용할 수 있는 두 가지 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cec33-107">There are two methods you can use to work with an employee's personal expenses:</span></span>
+<span data-ttu-id="7c57b-107">직원의 개인 경비를 처리하는 데 사용할 수 있는 두 가지 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-107">There are two methods you can use to work with an employee's personal expenses:</span></span>
 
-  - <span data-ttu-id="cec33-108">**직원이 지불**: 조직이 기업 신용 카드 청구서에 표시된 개인 경비를 지불하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="cec33-108">**Paid by employee**: Your organization doesn't pay personal expenses that appear on the bill for the corporate credit card.</span></span> <span data-ttu-id="cec33-109">대신 직원이 경비를 신용 카드 공급업체에 직접 지불합니다.</span><span class="sxs-lookup"><span data-stu-id="cec33-109">Instead, the employee pays the credit card vendor directly for the expenses.</span></span> 
-  - <span data-ttu-id="cec33-110">**회사에서 지불**: 조직에서 회사 신용 카드에 대한 전체 청구액을 지불한 다음 개인 경비로 근로자의 계좌에서 인출합니다.</span><span class="sxs-lookup"><span data-stu-id="cec33-110">**Paid by company**: Your organization pays the full bill for the corporate credit card, and then debits the worker's account for the personal expenses.</span></span>
+  - <span data-ttu-id="7c57b-108">**직원이 지불**: 조직이 기업 신용 카드 청구서에 표시된 개인 경비를 지불하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-108">**Paid by employee**: Your organization doesn't pay personal expenses that appear on the bill for the corporate credit card.</span></span> <span data-ttu-id="7c57b-109">대신 직원이 경비를 신용 카드 공급업체에 직접 지불합니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-109">Instead, the employee pays the credit card vendor directly for the expenses.</span></span> 
+  - <span data-ttu-id="7c57b-110">**회사에서 지불**: 조직에서 회사 신용 카드에 대한 전체 청구액을 지불한 다음 개인 경비로 근로자의 계좌에서 인출합니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-110">**Paid by company**: Your organization pays the full bill for the corporate credit card, and then debits the worker's account for the personal expenses.</span></span>
 
-<span data-ttu-id="cec33-111">**경비 관리 매개 변수** 페이지에서 조직에서 사용하는 방법을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cec33-111">You can select the method that your organization uses on the **Expense management parameters** page.</span></span>
+<span data-ttu-id="7c57b-111">**경비 관리 매개 변수** 페이지에서 조직에서 사용하는 방법을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-111">You can select the method that your organization uses on the **Expense management parameters** page.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

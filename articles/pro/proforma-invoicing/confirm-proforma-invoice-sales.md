@@ -8,36 +8,36 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176529"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274286"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a><span data-ttu-id="3cf97-103">견적 송장 확인 - 라이트</span><span class="sxs-lookup"><span data-stu-id="3cf97-103">Confirm a proforma invoice - lite</span></span>
+# <a name="confirm-a-proforma-invoice---lite"></a><span data-ttu-id="cd473-103">견적 송장 확인 - 라이트</span><span class="sxs-lookup"><span data-stu-id="cd473-103">Confirm a proforma invoice - lite</span></span>
 
-<span data-ttu-id="3cf97-104">_**적용 대상:** 라이트 배포 - 견적 송장 거래_</span><span class="sxs-lookup"><span data-stu-id="3cf97-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="cd473-104">_**적용 대상:** 라이트 배포 - 견적 송장 거래_</span><span class="sxs-lookup"><span data-stu-id="cd473-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
 
-<span data-ttu-id="3cf97-105">견적 송장이 확인되면 프로젝트 송장의 상태가 **확인됨** 으로 업데이트됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cf97-105">After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**.</span></span> <span data-ttu-id="3cf97-106">송장이 확인되면 읽기 전용이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cf97-106">When an invoice is confirmed, it becomes read-only.</span></span> <span data-ttu-id="3cf97-107">앞으로 송장이 지불된 것으로 표시된 경우 고객이 시작한 수정 또는 크레딧이 있는 경우에만 송장을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3cf97-107">Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits, of if the invoice is marked as paid.</span></span>
+<span data-ttu-id="cd473-105">견적 송장이 확인되면 프로젝트 송장의 상태가 **확인됨** 으로 업데이트됩니다.</span><span class="sxs-lookup"><span data-stu-id="cd473-105">After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**.</span></span> <span data-ttu-id="cd473-106">송장이 확인되면 읽기 전용이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cd473-106">When an invoice is confirmed, it becomes read-only.</span></span> <span data-ttu-id="cd473-107">앞으로 송장이 지불된 것으로 표시된 경우 고객이 시작한 수정 또는 크레딧이 있는 경우에만 송장을 수정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cd473-107">Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits, of if the invoice is marked as paid.</span></span>
 
-<span data-ttu-id="3cf97-108">다음 표는 시스템에서 작성된 실제 값을 나열합니다.</span><span class="sxs-lookup"><span data-stu-id="3cf97-108">The following table lists the actuals created by the system.</span></span> <span data-ttu-id="3cf97-109">이러한 실제는 확정되기 전에 프로젝트 송장 초안에 대해 특정 작업이 수행될 때 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cf97-109">These actuals are created when certain operations are performed on the draft project invoice before it is confirmed.</span></span>
+<span data-ttu-id="cd473-108">다음 표는 시스템에서 작성된 실제 값을 나열합니다.</span><span class="sxs-lookup"><span data-stu-id="cd473-108">The following table lists the actuals created by the system.</span></span> <span data-ttu-id="cd473-109">이러한 실제는 확정되기 전에 프로젝트 송장 초안에 대해 특정 작업이 수행될 때 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="cd473-109">These actuals are created when certain operations are performed on the draft project invoice before it is confirmed.</span></span>
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="216" valign="top">
-                <p><span data-ttu-id="3cf97-110">
+                <p><span data-ttu-id="cd473-110">
                     <strong>시나리오</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="3cf97-110">
+                </span><span class="sxs-lookup"><span data-stu-id="cd473-110">
                     <strong>Scenario</strong>
                 </span></span></p>
             </td>
             <td width="808" valign="top">
-                <p><span data-ttu-id="3cf97-111">
+                <p><span data-ttu-id="cd473-111">
                     <strong>확정시 생성된 실제</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="3cf97-111">
+                </span><span class="sxs-lookup"><span data-stu-id="cd473-111">
                     <strong>Actuals created on confirmation</strong>
                 </span></span></p>
             </td>
@@ -45,235 +45,238 @@ ms.locfileid: "4176529"
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="3cf97-112">선불 또는 보유자 송장 발행</span><span class="sxs-lookup"><span data-stu-id="3cf97-112">Invoicing an advance or retainer</span></span> </p>
+<span data-ttu-id="cd473-112">선불 또는 보유자 송장 발행</span><span class="sxs-lookup"><span data-stu-id="cd473-112">Invoicing an advance or retainer</span></span> </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-113">청구된 실제 판매 유형인 <strong>보유자</strong>는 선불 또는 보유자의 금액에 대해 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="3cf97-113">A billed sales actual of type, <strong>Retainer</strong> is created for the amount on the advance or retainer.</span></span>
+<span data-ttu-id="cd473-113">청구된 실제 판매 유형인 <strong>보유자</strong>는 선불 또는 보유자의 금액에 대해 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="cd473-113">A billed sales actual of type, <strong>Retainer</strong> is created for the amount on the advance or retainer.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-114">조정에 사용할 보유자 또는 선불의 음수 금액의 청구되지 않은 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-114">An unbilled sales actual of a negative amount of the retainer or advance to be used for reconciliation.</span></span>
+<span data-ttu-id="cd473-114">조정에 사용할 보유자 또는 선불의 음수 금액의 청구되지 않은 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-114">An unbilled sales actual of a negative amount of the retainer or advance to be used for reconciliation.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="3cf97-115">송장의 보유자 또는 선불을 완전히 조정한 후.</span><span class="sxs-lookup"><span data-stu-id="3cf97-115">After fully reconciling a retainer or advance on an invoice.</span></span>
+<span data-ttu-id="cd473-115">송장의 보유자 또는 선불을 완전히 조정한 후.</span><span class="sxs-lookup"><span data-stu-id="cd473-115">After fully reconciling a retainer or advance on an invoice.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-116">조정을 위해 생성된 보유자 또는 선불의 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-116">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="3cf97-117">이 금액은 보유자 또는 선불이 청구될 때 생성된 음수를 취소하기 위한 것이므로 양수입니다.</span><span class="sxs-lookup"><span data-stu-id="3cf97-117">This amount is positive as it's meant to cancel out the negative that was created when the retainer or advance was invoiced.</span></span>
+<span data-ttu-id="cd473-116">조정을 위해 생성된 보유자 또는 선불의 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-116">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="cd473-117">이 금액은 보유자 또는 선불이 청구될 때 생성된 음수를 취소하기 위한 것이므로 양수입니다.</span><span class="sxs-lookup"><span data-stu-id="cd473-117">This amount is positive as it's meant to cancel out the negative that was created when the retainer or advance was invoiced.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-118">이 송장의 금액에 대한 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-118">A billed sales actual for the amount on this invoice.</span></span>
+<span data-ttu-id="cd473-118">이 송장의 금액에 대한 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-118">A billed sales actual for the amount on this invoice.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-<span data-ttu-id="3cf97-119">송장의 보유자 또는 선불을 부분 조정한 후.</span><span class="sxs-lookup"><span data-stu-id="3cf97-119">After partially reconciling a retainer or advance on an invoice.</span></span>
+<span data-ttu-id="cd473-119">송장의 보유자 또는 선불을 부분 조정한 후.</span><span class="sxs-lookup"><span data-stu-id="cd473-119">After partially reconciling a retainer or advance on an invoice.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-120">조정을 위해 생성된 보유자 또는 선불의 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-120">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="3cf97-121">이 금액은 보유자 또는 선불이 청구될 때 생성된 음수를 취소하기 위한 것이므로 양수입니다.</span><span class="sxs-lookup"><span data-stu-id="3cf97-121">This amount is positive as it's meant to cancel out the negative that was created when the retainer or advance was invoiced.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="3cf97-122">이 송장의 금액에 대한 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-122">A billed sales actual for the amount on this invoice.</span></span>
+<span data-ttu-id="cd473-120">조정을 위해 생성된 보유자 또는 선불의 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-120">An unbilled sales reversal of the retainer or advance that was created for reconciliation.</span></span> <span data-ttu-id="cd473-121">이 금액은 보유자 또는 선불이 청구될 때 생성된 음수를 취소하기 위한 것이므로 양수입니다.</span><span class="sxs-lookup"><span data-stu-id="cd473-121">This amount is positive as it's meant to cancel out the negative that was created when the retainer or advance was invoiced.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-123">향후 송장의 조정에 사용할 나머지 보유자 또는 선불 금액의 음수 청구되지 않은 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-123">A negative unbilled sales actual of the remaining retainer or advance amount to be used for reconciliation on future invoices.</span></span>
+<span data-ttu-id="cd473-122">이 송장의 금액에 대한 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-122">A billed sales actual for the amount on this invoice.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="cd473-123">향후 송장의 조정에 사용할 나머지 보유자 또는 선불 금액의 음수 청구되지 않은 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-123">A negative unbilled sales actual of the remaining retainer or advance amount to be used for reconciliation on future invoices.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="3cf97-124">초안 송장을 편집하지 않고 시간 트랜잭션을 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="3cf97-124">Invoicing a time transaction without any edits on the draft invoice.</span></span>
+<span data-ttu-id="cd473-124">초안 송장을 편집하지 않고 시간 트랜잭션을 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="cd473-124">Invoicing a time transaction without any edits on the draft invoice.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-125">최초 시간 승인의 시간 및 금액에 대한 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-125">An unbilled sales reversal for the hours and amount on the original time approval.</span></span>
+<span data-ttu-id="cd473-125">최초 시간 승인의 시간 및 금액에 대한 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-125">An unbilled sales reversal for the hours and amount on the original time approval.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-126">최초 시간 승인의 시간 및 금액에 대해 청구된 실제 판매</span><span class="sxs-lookup"><span data-stu-id="3cf97-126">A billed sales actual for the hours and amount on the original time approval.</span></span>
+<span data-ttu-id="cd473-126">최초 시간 승인의 시간 및 금액에 대해 청구된 실제 판매</span><span class="sxs-lookup"><span data-stu-id="cd473-126">A billed sales actual for the hours and amount on the original time approval.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-<span data-ttu-id="3cf97-127">수량을 줄이기 위해 편집된 시간 트랜잭션 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="3cf97-127">Invoicing a time transaction that was edited to reduce the quantity.</span></span>
+<span data-ttu-id="cd473-127">수량을 줄이기 위해 편집된 시간 트랜잭션 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="cd473-127">Invoicing a time transaction that was edited to reduce the quantity.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-128">최초 시간 승인의 시간 및 금액에 대한 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-128">An unbilled sales reversal for the hours and amount on the original time approval.</span></span>
+<span data-ttu-id="cd473-128">최초 시간 승인의 시간 및 금액에 대한 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-128">An unbilled sales reversal for the hours and amount on the original time approval.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-129">편집된 송장 라인 상세 내역의 시간 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-129">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="cd473-129">편집된 송장 라인 상세 내역의 시간 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-129">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-130">편집된 송장 라인 상세 내역의 수정된 수치를 공제한 후 남은 시간 및 금액에 대해 청구 불가능한 신규 청구되지 않은 실제 판매, 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-130">A new unbilled sales actual that is non-chargeable for the remaining hours and amount after deducting the corrected figures on edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="3cf97-131">수량을 늘리기 위해 편집된 시간 트랜잭션 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="3cf97-131">Invoicing a time transaction that was edited to increase the quantity.</span></span>
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="3cf97-132">최초 시간 승인의 시간 및 금액에 대한 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-132">An unbilled sales reversal for the hours and amount on the original time approval.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="3cf97-133">편집된 송장 라인 상세 내역의 시간 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-133">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="cd473-130">편집된 송장 라인 상세 내역의 수정된 수치를 공제한 후 남은 시간 및 금액에 대해 청구 불가능한 신규 청구되지 않은 실제 판매, 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-130">A new unbilled sales actual that is non-chargeable for the remaining hours and amount after deducting the corrected figures on edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="3cf97-134">초안 송장을 편집하지 않고 경비 트랜잭션을 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="3cf97-134">Invoicing an expense transaction without any edits on draft invoice.</span></span>
+<span data-ttu-id="cd473-131">수량을 늘리기 위해 편집된 시간 트랜잭션 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="cd473-131">Invoicing a time transaction that was edited to increase the quantity.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-135">최초 경비 승인의 수량 및 금액에 대해 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-135">An unbilled sales reversal for the quantity and amount on the original expense approval.</span></span>
+<span data-ttu-id="cd473-132">최초 시간 승인의 시간 및 금액에 대한 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-132">An unbilled sales reversal for the hours and amount on the original time approval.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-136">최초 경비 승인의 수량 및 금액에 대해 청구된 실제 판매</span><span class="sxs-lookup"><span data-stu-id="3cf97-136">A billed sales actual for the quantity and amount on the original expense approval</span></span> </p>
+<span data-ttu-id="cd473-133">편집된 송장 라인 상세 내역의 시간 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-133">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="cd473-134">초안 송장을 편집하지 않고 경비 트랜잭션을 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="cd473-134">Invoicing an expense transaction without any edits on draft invoice.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="cd473-135">최초 경비 승인의 수량 및 금액에 대해 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-135">An unbilled sales reversal for the quantity and amount on the original expense approval.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="cd473-136">최초 경비 승인의 수량 및 금액에 대해 청구된 실제 판매</span><span class="sxs-lookup"><span data-stu-id="cd473-136">A billed sales actual for the quantity and amount on the original expense approval</span></span> </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-<span data-ttu-id="3cf97-137">수량을 줄이기 위해 편집된 경비 트랜잭션 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="3cf97-137">Invoicing an expense transaction that was edited to reduce the quantity.</span></span>
+<span data-ttu-id="cd473-137">수량을 줄이기 위해 편집된 경비 트랜잭션 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="cd473-137">Invoicing an expense transaction that was edited to reduce the quantity.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-138">최초 경비 승인의 수량 및 금액에 대해 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-138">An unbilled sales reversal for the quantity and amount on the original expense approval.</span></span>
+<span data-ttu-id="cd473-138">최초 경비 승인의 수량 및 금액에 대해 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-138">An unbilled sales reversal for the quantity and amount on the original expense approval.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-139">편집된 송장 라인 상세 내역의 수량 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-139">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.</span></span>
+<span data-ttu-id="cd473-139">편집된 송장 라인 상세 내역의 수량 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-139">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-140">편집된 송장 라인 상세 내역의 수정된 수치를 공제한 후 남은 수량 및 금액에 대해 청구 불가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-140">A new unbilled sales actual that is non-chargeable for the remaining quantity and amount after deducting the corrected figures on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="3cf97-141">수량을 늘리기 위해 편집된 경비 트랜잭션 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="3cf97-141">Invoicing an expense transaction that was edited to increase the quantity.</span></span>
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="3cf97-142">최초 경비 승인의 수량 및 금액에 대해 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-142">An unbilled sales reversal for the quantity and amount on the original expense approval.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-<span data-ttu-id="3cf97-143">편집된 송장 라인 상세 내역의 수량 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-143">A new unbilled sales actual that is chargeable for quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.</span></span> 
+<span data-ttu-id="cd473-140">편집된 송장 라인 상세 내역의 수정된 수치를 공제한 후 남은 수량 및 금액에 대해 청구 불가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-140">A new unbilled sales actual that is non-chargeable for the remaining quantity and amount after deducting the corrected figures on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="3cf97-144">수수료 청구.</span><span class="sxs-lookup"><span data-stu-id="3cf97-144">Invoicing a fee.</span></span>
+<span data-ttu-id="cd473-141">수량을 늘리기 위해 편집된 경비 트랜잭션 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="cd473-141">Invoicing an expense transaction that was edited to increase the quantity.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-145">최초 분개장 항목의 수수료 금액에 대한 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="3cf97-145">An unbilled sales reversal for the fee amount on the original journal line.</span></span>
+<span data-ttu-id="cd473-142">최초 경비 승인의 수량 및 금액에 대해 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-142">An unbilled sales reversal for the quantity and amount on the original expense approval.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-146">최초 수수료 분개장 항목의 수량 및 금액에 대해 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-146">A billed sales actual for the quantity and amount on the original fee journal line.</span></span>
+<span data-ttu-id="cd473-143">편집된 송장 라인 상세 내역의 수량 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-143">A new unbilled sales actual that is chargeable for quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.</span></span> 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="cd473-144">수수료 청구.</span><span class="sxs-lookup"><span data-stu-id="cd473-144">Invoicing a fee.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="cd473-145">최초 분개장 항목의 수수료 금액에 대한 청구되지 않은 매출액 전환.</span><span class="sxs-lookup"><span data-stu-id="cd473-145">An unbilled sales reversal for the fee amount on the original journal line.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="cd473-146">최초 수수료 분개장 항목의 수량 및 금액에 대해 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-146">A billed sales actual for the quantity and amount on the original fee journal line.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" valign="top">
                 <p>
-<span data-ttu-id="3cf97-147">중요 시점 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="3cf97-147">Invoicing a milestone.</span></span>
+<span data-ttu-id="cd473-147">중요 시점 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="cd473-147">Invoicing a milestone.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-148">프로젝트 계약 내용의 원래 중요 시점에 있는 중요 시점 금액에 대해 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-148">A billed sales actual for the milestone amount on the original milestone on the project contract line.</span></span>
+<span data-ttu-id="cd473-148">프로젝트 계약 내용의 원래 중요 시점에 있는 중요 시점 금액에 대해 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-148">A billed sales actual for the milestone amount on the original milestone on the project contract line.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
             <td width="216" valign="top">
                 <p>
-<span data-ttu-id="3cf97-149">제품 기반 계약 내용 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="3cf97-149">Invoicing a product-based contract line.</span></span>
+<span data-ttu-id="cd473-149">제품 기반 계약 내용 송장 발행.</span><span class="sxs-lookup"><span data-stu-id="cd473-149">Invoicing a product-based contract line.</span></span>
                 </p>
             </td>
             <td width="408" valign="top">
                 <p>
-<span data-ttu-id="3cf97-150">제품 기반 계약 내용에서 나오는 수량 및 금액으로 제품 라인에 대해 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="3cf97-150">A billed sales actual for the product line with the quantity and amount coming from the product-based contract line.</span></span>
+<span data-ttu-id="cd473-150">제품 기반 계약 내용에서 나오는 수량 및 금액으로 제품 라인에 대해 청구된 실제 판매.</span><span class="sxs-lookup"><span data-stu-id="cd473-150">A billed sales actual for the product line with the quantity and amount coming from the product-based contract line.</span></span>
                 </p>
             </td>
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
