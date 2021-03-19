@@ -8,30 +8,33 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123881"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279506"
 ---
-# <a name="resource-management-key-concepts"></a><span data-ttu-id="973f8-103">리소스 관리 주요 개념</span><span class="sxs-lookup"><span data-stu-id="973f8-103">Resource management key concepts</span></span>
+# <a name="resource-management-key-concepts"></a><span data-ttu-id="408b1-103">리소스 관리 주요 개념</span><span class="sxs-lookup"><span data-stu-id="408b1-103">Resource management key concepts</span></span>
 
-<span data-ttu-id="973f8-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="973f8-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="408b1-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="408b1-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="973f8-105">리소스는 서비스 기반 조직의 가장 중요한 자산입니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-105">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="973f8-106">올바른 리소스를 적시에 찾아, 프로젝트에 해당 리소스를 예약하고, 리소스를 활용하는 능력은 조직이 수익 목표와 고객 만족 목표를 달성하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-106">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="973f8-107">Dynamics 365 Project Operations의 프로젝트 리소싱 기능을 사용하여 다음 작업을 수행할 수 있습니다:</span><span class="sxs-lookup"><span data-stu-id="973f8-107">You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:</span></span>
+<span data-ttu-id="408b1-105">리소스는 서비스 기반 조직의 가장 중요한 자산입니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-105">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="408b1-106">올바른 리소스를 적시에 찾아, 프로젝트에 해당 리소스를 예약하고, 리소스를 활용하는 능력은 조직이 수익 목표와 고객 만족 목표를 달성하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-106">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="408b1-107">Dynamics 365 Project Operations의 프로젝트 리소싱 기능을 사용하여 다음 작업을 수행할 수 있습니다:</span><span class="sxs-lookup"><span data-stu-id="408b1-107">You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:</span></span>
 
-- <span data-ttu-id="973f8-108">사용 가능하고 자격을 갖춘 리소스를 예약하여 프로젝트 팀을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-108">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="973f8-109">일반 팀원 레코드를 만들고 해당 역할 및 리소스 구성 단위를 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-109">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="973f8-110">과업 할당에서 일반 팀원에 대한 리소스 요건을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-110">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="973f8-111">사용 가능한 리소스 기능에 대해 리소스 수요에 정의된 기능을 식별하여 기능들을 짝맞춥니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-111">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="973f8-112">대체 리소스.</span><span class="sxs-lookup"><span data-stu-id="973f8-112">Substitute resources.</span></span>
-- <span data-ttu-id="973f8-113">프로젝트 스케줄 할당과 리소스 예약을 정렬합니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-113">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="973f8-114">예약과 할당의 차이를 조정합니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-114">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="973f8-115">사무실 외 상태에 대응하여 리소스 예약을 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-115">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="973f8-116">프로젝트 관리자와 리소스 관리자 사이에서 공동 작업합니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-116">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="973f8-117">리소스의 시간이 어떻게 활용되었는가를 세분화하는 것을 포함하여 목표 대비 리소스 활용 이력을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-117">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="973f8-118">기능과 숙련도 리포지토리를 유지합니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-118">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="408b1-108">사용 가능하고 자격을 갖춘 리소스를 예약하여 프로젝트 팀을 구성합니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-108">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="408b1-109">일반 팀원 레코드를 만들고 해당 역할 및 리소스 구성 단위를 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-109">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="408b1-110">과업 할당에서 일반 팀원에 대한 리소스 요건을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-110">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="408b1-111">사용 가능한 리소스 기능에 대해 리소스 수요에 정의된 기능을 식별하여 기능들을 짝맞춥니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-111">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="408b1-112">대체 리소스.</span><span class="sxs-lookup"><span data-stu-id="408b1-112">Substitute resources.</span></span>
+- <span data-ttu-id="408b1-113">프로젝트 스케줄 할당과 리소스 예약을 정렬합니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-113">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="408b1-114">예약과 할당의 차이를 조정합니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-114">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="408b1-115">사무실 외 상태에 대응하여 리소스 예약을 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-115">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="408b1-116">프로젝트 관리자와 리소스 관리자 사이에서 공동 작업합니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-116">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="408b1-117">리소스의 시간이 어떻게 활용되었는가를 세분화하는 것을 포함하여 목표 대비 리소스 활용 이력을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-117">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="408b1-118">기능과 숙련도 리포지토리를 유지합니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-118">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="973f8-119">Project Operations에서 일반 또는 명명된 리소스 팀으로 프로젝트를 충원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-119">You can staff your project with a team of generic or named resources in Project Operations.</span></span> <span data-ttu-id="973f8-120">다양한 방법을 사용하여 팀원을 추가 및 할당하고 예약 및 할당을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="973f8-120">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> 
+<span data-ttu-id="408b1-119">Project Operations에서 일반 또는 명명된 리소스 팀으로 프로젝트를 충원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-119">You can staff your project with a team of generic or named resources in Project Operations.</span></span> <span data-ttu-id="408b1-120">다양한 방법을 사용하여 팀원을 추가 및 할당하고 예약 및 할당을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="408b1-120">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
