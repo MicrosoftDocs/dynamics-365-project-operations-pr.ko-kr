@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118481"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277841"
 ---
 # <a name="manage-project-based-opportunities"></a>프로젝트 기반 영업 기회 관리
 
@@ -21,7 +21,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 프로젝트 기반 회사는 일반적으로 여러 국가 및 지역에 걸쳐 배포를 위해 운영됩니다. 프로젝트 실행 및 제공 비용은 제공을 관리하는 지역 또는 부문에 따라 달라질 수 있습니다. 결과적으로 이것은 거래의 마진에 영향을 미칠 수 있습니다. 프로젝트 기반 서비스 제공에는 일반적으로 많은 인적 자원 시간, 상당한 출장 비용, 재료비 및 기타 비용이 포함됩니다.
 
-Dynamics 365 Project Operations의 프로젝트 기반 영업 기회는 Dynamics 365 Sales의 확장으로 설계되었습니다. 이 항목은 프로젝트 기반 기업이 프로젝트 기반 영업 기회를 관리하는 데 필요한 추가 기능에 포함된 다양한 필드 및 비즈니스 로직에 대한 세부 정보를 제공합니다.
+Dynamics 365 Project Operations의 프로젝트 기반 영업 기회는 Dynamics 365 Sales에 대한 확장으로 설계되었습니다. 이 항목은 프로젝트 기반 기업이 프로젝트 기반 영업 기회를 관리하는 데 필요한 추가 기능에 포함된 다양한 필드 및 비즈니스 로직에 대한 세부 정보를 제공합니다.
 
 ## <a name="view-all-project-based-opportunities"></a>모든 프로젝트 기반 영업 기회 보기
 

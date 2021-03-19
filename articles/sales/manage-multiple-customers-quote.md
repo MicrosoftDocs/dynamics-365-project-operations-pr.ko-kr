@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4182000"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277886"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>프로젝트 견적에 대한 여러 고객 관리
 
@@ -23,7 +23,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 프로젝트 견적의 **고객** 탭에 있는 모든 견적 고객은 견적에 대해 작성된 **새로운** 프로젝트 기반 견적 라인의 견적 라인 고객으로 기본적으로 지정됩니다. 기존 프로젝트 기반 견적 라인은 그 이후에 생성된 새 견적 고객 레코드를 상속하지 않습니다.
 
-견적 고객 및 견적 라인 고객은 견적을 받기 전에 언제든지 추가, 업데이트 또는 삭제할 수 있습니다. 견적의 유효한 고객은 **고객** 페이지의 소유 회사 또는 법인에서 고객으로 설정되어야 합니다. 법인은 Dynamics 365 Project Operations의 **프로젝트 관리 및 회계** 모듈에서 설정되며 Project Operations의 **프로젝트 판매 및 납품** 모듈에서 회사로 사용할 수 있게 됩니다.
+견적 고객 및 견적 라인 고객은 견적을 받기 전에 언제든지 추가, 업데이트 또는 삭제할 수 있습니다. 견적의 유효한 고객은 **고객** 페이지의 소유 회사 또는 법인에서 고객으로 설정되어야 합니다. 법인은 Dynamics 365 Project Operations의 **프로젝트 관리 및 회계** 모듈에서 설정되며 Project Operations의 **프로젝트 판매 및 배달** 모듈에서 회사로 사용할 수 있습니다.
 
 ## <a name="concept-of-a-primary-customer"></a>기본 고객의 개념
 

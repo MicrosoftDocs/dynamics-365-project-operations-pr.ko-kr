@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125636"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279236"
 ---
 # <a name="schedule-assistant-overview"></a>일정 도우미 보기
 
@@ -25,7 +25,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-일정 도우미는 Universal Resource Scheduling 솔루션의 일부입니다. 이 솔루션은 Dynamics 365 Project Operations, Dynamics 365 Field Service, Dynamics 365 Customer Service에 포함되어 설치됩니다.
+일정 도우미는 Universal Resource Scheduling 솔루션의 일부입니다. 이 솔루션은 Dynamics 365 Project Operations, Dynamics 365 Field Service 및 Dynamics 365 Customer Service에 포함되며 함께 설치됩니다.
 
 ## <a name="matching-requirements-and-resources"></a>일치하는 요구 사항 및 리소스
 

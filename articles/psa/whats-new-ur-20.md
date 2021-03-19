@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147121"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280676"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation 업데이트 릴리스 20, V3
 
@@ -42,7 +42,7 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 
 - 시간이 필요한 할당 방법으로 프로젝트 팀 구성원을 가져오면 지정된 시간이 0일 때 오류 메시지가 명확하지 않습니다.
 - 프로젝트 작업의 **설명** 필드에 최대 문자 수를 입력하면 사용자에게 잘못된 오류가 표시됩니다.
-- 사용자의 언어 설정이 일본어로 설정되어 있으면 **Microsoft Dynamics 365 Project Service Automation 추가 기능 다운로드** 페이지가 영어 다운로드 페이지로 리디렉션됩니다.
+- **Microsoft Dynamics 365 Project Service Automation 추가 기능 다운로드** 페이지는 사용자의 언어 설정이 일본어로 설정된 경우 영어 다운로드 페이지로 리디렉션됩니다.
 - 서버 오류가 발생하면 **프로젝트** 양식의 **일정** 탭에 있는 동기화 레이블이 때때로 유지됩니다.
 - 작업이 수정되면 중복 작업 업데이트가 서버로 전송됩니다.
 

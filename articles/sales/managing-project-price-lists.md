@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277751"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>견적에 대한 프로젝트 가격표 관리
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations는 Dynamics 365 Sales의 가격표 엔터티를 확장합니다. 
+Dynamics 365 Project Operations은 Dynamics 365 Sales에서 가격표 엔터티를 확장합니다. 
 
 ## <a name="key-entities"></a>주요 엔터티
 

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401181"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279281"
 ---
 # <a name="review-proposed-resources"></a>제안된 리소스 검토
 
@@ -58,7 +58,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 스케줄 게시판의 개별 예약 가능 리소스 옆에 오른쪽을 가리키는 화살표가 나타나면 리소스를 확장하여 리소스가 예약된 작업의 내역을 표시할 수 있습니다.
 
-Dynamics 365 Project Operations는 Universal Resource Scheduling 엔진을 사용하기 때문에, Dynamics 365 Field Service도 설치된 경우, 프로젝트, 작업 명령 및 기타 귀하가 스케줄링을 확장한 엔터티를 위한 리소스 예약 내역을 볼 수 있습니다.
+Dynamics 365 Project Operations은 Universal Resource Scheduling 엔진을 사용하기 때문에, Dynamics 365 Field Service도 설치된 경우, 프로젝트, 작업 명령 및 기타 귀하가 스케줄링을 확장한 엔터티를 위한 리소스 예약 내역을 볼 수 있습니다.
 
 개별 리소스에 대한 자세한 내용을 보려면 마우스 오른쪽 버튼을 클릭하여 리소스 카드를 엽니다.
 
