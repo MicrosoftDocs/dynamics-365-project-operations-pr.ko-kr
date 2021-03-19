@@ -17,29 +17,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3895f06c6a401f200cf832940ef85eaa8d66fbb2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151171"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281171"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="647a8-103">Project Service Automation 조기 액세스 1 2021, V3의 새로운 내용 또는 변경 내용</span><span class="sxs-lookup"><span data-stu-id="647a8-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="6ce04-103">Project Service Automation 조기 액세스 1 2021, V3의 새로운 내용 또는 변경 내용</span><span class="sxs-lookup"><span data-stu-id="6ce04-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="647a8-104">Project Service Automation 조기 액세스 웨이브 1 2021, V3</span><span class="sxs-lookup"><span data-stu-id="647a8-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
+## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="6ce04-104">Project Service Automation 조기 액세스 웨이브 1 2021, V3</span><span class="sxs-lookup"><span data-stu-id="6ce04-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
-<span data-ttu-id="647a8-105">Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다.</span><span class="sxs-lookup"><span data-stu-id="647a8-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="647a8-106">이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="647a8-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="647a8-107">이 릴리스는 Dynamics 365 9.x와 호환됩니다.</span><span class="sxs-lookup"><span data-stu-id="647a8-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="647a8-108">이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오.</span><span class="sxs-lookup"><span data-stu-id="647a8-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="647a8-109">자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="647a8-109">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="6ce04-105">Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다.</span><span class="sxs-lookup"><span data-stu-id="6ce04-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="6ce04-106">이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ce04-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="6ce04-107">이 릴리스는 Dynamics 365 9.x와 호환됩니다.</span><span class="sxs-lookup"><span data-stu-id="6ce04-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="6ce04-108">이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오.</span><span class="sxs-lookup"><span data-stu-id="6ce04-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="6ce04-109">자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6ce04-109">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="647a8-110">이 항목에는 Project Service Automation 조기 액세스 웨이브 1 2021에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="647a8-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="647a8-111">이 버전의 빌드 번호는 V3.10.49.3이며 2021년 2월에 자체 업데이트를 통해 일반적으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="647a8-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
+<span data-ttu-id="6ce04-110">이 항목에는 Project Service Automation 조기 액세스 웨이브 1 2021에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ce04-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="6ce04-111">이 버전의 빌드 번호는 V3.10.49.3이며 2021년 2월에 자체 업데이트를 통해 일반적으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="6ce04-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
 
 
-### <a name="bug-fixes"></a><span data-ttu-id="647a8-112">버그 수정</span><span class="sxs-lookup"><span data-stu-id="647a8-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="6ce04-112">버그 수정</span><span class="sxs-lookup"><span data-stu-id="6ce04-112">Bug fixes</span></span>
 
-<span data-ttu-id="647a8-113">**시간 및 경비**</span><span class="sxs-lookup"><span data-stu-id="647a8-113">**Time and Expense**</span></span>
+<span data-ttu-id="6ce04-113">**시간 및 경비**</span><span class="sxs-lookup"><span data-stu-id="6ce04-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="647a8-114">다음과 같은 문제가 해결되었습니다.</span><span class="sxs-lookup"><span data-stu-id="647a8-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="6ce04-114">다음과 같은 문제가 해결되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6ce04-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="647a8-115">기간이 null인 경우 시간 항목이 생성될 때 종료 날짜가 자동으로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="647a8-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
-- <span data-ttu-id="647a8-116">사용자는 승인 또는 제출된 시간 항목에서 작업을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="647a8-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
+- <span data-ttu-id="6ce04-115">기간이 null인 경우 시간 항목이 생성될 때 종료 날짜가 자동으로 채워집니다.</span><span class="sxs-lookup"><span data-stu-id="6ce04-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
+- <span data-ttu-id="6ce04-116">사용자는 승인 또는 제출된 시간 항목에서 작업을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6ce04-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

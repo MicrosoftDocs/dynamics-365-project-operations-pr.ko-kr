@@ -17,45 +17,48 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7287054c470a44ed1fdc243018ec935fe21a6c4f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dbdcb811bfeacf17e841d679f097c591c16cd4c0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147256"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281036"
 ---
-# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="315f2-103">Project Service Automation 업데이트 릴리스 13, V3</span><span class="sxs-lookup"><span data-stu-id="315f2-103">Project Service Automation Update Release 13, V3</span></span>
+# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="59b9d-103">Project Service Automation 업데이트 릴리스 13, V3</span><span class="sxs-lookup"><span data-stu-id="59b9d-103">Project Service Automation Update Release 13, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="315f2-104">Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="315f2-105">이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="315f2-106">이 릴리스는 Dynamics 365 9.x와 호환됩니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="315f2-107">이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오.</span><span class="sxs-lookup"><span data-stu-id="315f2-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="315f2-108">자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="315f2-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="59b9d-104">Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="59b9d-105">이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="59b9d-106">이 릴리스는 Dynamics 365 9.x와 호환됩니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="59b9d-107">이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오.</span><span class="sxs-lookup"><span data-stu-id="59b9d-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="59b9d-108">자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="59b9d-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="315f2-109">이 항목에는 Project Service Automation V3, 업데이트 릴리스 13에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="315f2-110">이 버전의 빌드 번호는 V3.10.3.18이며 다음 일정으로 일반적으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+<span data-ttu-id="59b9d-109">이 항목에는 Project Service Automation V3, 업데이트 릴리스 13에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="59b9d-110">이 버전의 빌드 번호는 V3.10.3.18이며 다음 일정으로 일반적으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
 
-- <span data-ttu-id="315f2-111">**일반 가용성(자체 업데이트):** 2019년 11월</span><span class="sxs-lookup"><span data-stu-id="315f2-111">**General availability (self-update):** November 2019</span></span>
-- <span data-ttu-id="315f2-112">**자동 업데이트:** 2019년 12월</span><span class="sxs-lookup"><span data-stu-id="315f2-112">**Auto-update:** December 2019</span></span>
-
-
-## <a name="update-release-13"></a><span data-ttu-id="315f2-113">업데이트 릴리스 13</span><span class="sxs-lookup"><span data-stu-id="315f2-113">Update Release 13</span></span> 
-
-### <a name="bug-fixes"></a><span data-ttu-id="315f2-114">버그 수정</span><span class="sxs-lookup"><span data-stu-id="315f2-114">Bug fixes</span></span>
-
-- <span data-ttu-id="315f2-115">시간 및 경비</span><span class="sxs-lookup"><span data-stu-id="315f2-115">Time and Expense</span></span>
-
-     - <span data-ttu-id="315f2-116">수정: 비용 목적으로 검색할 때 **비용 승인** 페이지의 검색 기능이 작동하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
-
-- <span data-ttu-id="315f2-117">리소스 관리</span><span class="sxs-lookup"><span data-stu-id="315f2-117">Resource Management</span></span>
-
-     - <span data-ttu-id="315f2-118">수정: 조정의 숫자가 올바르게 정렬되도록 업데이트되었습니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
-     - <span data-ttu-id="315f2-119">수정: 명명된 리소스를 **일정** 탭을 통해 작업에 할당할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
-
-- <span data-ttu-id="315f2-120">프로젝트 관리</span><span class="sxs-lookup"><span data-stu-id="315f2-120">Project Management</span></span>
-
-     - <span data-ttu-id="315f2-121">수정: 팀 구성원을 할당할 때 **TransactionType** 에 **단위** 및 **기본 그룹** 에 대한 설정 정보가 누락된 경우 Null 참조 예외.</span><span class="sxs-lookup"><span data-stu-id="315f2-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
-
-- <span data-ttu-id="315f2-122">Sales</span><span class="sxs-lookup"><span data-stu-id="315f2-122">Sales</span></span>
-
-     - <span data-ttu-id="315f2-123">수정: 역할 가격 레코드가 작성되면 중복 거래 유형 레코드가 오류를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
-     - <span data-ttu-id="315f2-124">수정: **새 영업 기회**, **견적**, **주문 라인** 및 **제품 추가** 를 위한 추가 단추는 영업 기회, 견적, 제품 주문 및 프로젝트 기반 라인 하위 그리드에 대한 명령에서 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="315f2-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
+- <span data-ttu-id="59b9d-111">**일반 가용성(자체 업데이트):** 2019년 11월</span><span class="sxs-lookup"><span data-stu-id="59b9d-111">**General availability (self-update):** November 2019</span></span>
+- <span data-ttu-id="59b9d-112">**자동 업데이트:** 2019년 12월</span><span class="sxs-lookup"><span data-stu-id="59b9d-112">**Auto-update:** December 2019</span></span>
 
 
+## <a name="update-release-13"></a><span data-ttu-id="59b9d-113">업데이트 릴리스 13</span><span class="sxs-lookup"><span data-stu-id="59b9d-113">Update Release 13</span></span> 
+
+### <a name="bug-fixes"></a><span data-ttu-id="59b9d-114">버그 수정</span><span class="sxs-lookup"><span data-stu-id="59b9d-114">Bug fixes</span></span>
+
+- <span data-ttu-id="59b9d-115">시간 및 경비</span><span class="sxs-lookup"><span data-stu-id="59b9d-115">Time and Expense</span></span>
+
+     - <span data-ttu-id="59b9d-116">수정: 비용 목적으로 검색할 때 **비용 승인** 페이지의 검색 기능이 작동하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
+
+- <span data-ttu-id="59b9d-117">리소스 관리</span><span class="sxs-lookup"><span data-stu-id="59b9d-117">Resource Management</span></span>
+
+     - <span data-ttu-id="59b9d-118">수정: 조정의 숫자가 올바르게 정렬되도록 업데이트되었습니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
+     - <span data-ttu-id="59b9d-119">수정: 명명된 리소스를 **일정** 탭을 통해 작업에 할당할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
+
+- <span data-ttu-id="59b9d-120">프로젝트 관리</span><span class="sxs-lookup"><span data-stu-id="59b9d-120">Project Management</span></span>
+
+     - <span data-ttu-id="59b9d-121">수정: 팀 구성원을 할당할 때 **TransactionType** 에 **단위** 및 **기본 그룹** 에 대한 설정 정보가 누락된 경우 Null 참조 예외.</span><span class="sxs-lookup"><span data-stu-id="59b9d-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
+
+- <span data-ttu-id="59b9d-122">Sales</span><span class="sxs-lookup"><span data-stu-id="59b9d-122">Sales</span></span>
+
+     - <span data-ttu-id="59b9d-123">수정: 역할 가격 레코드가 작성되면 중복 거래 유형 레코드가 오류를 반환합니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
+     - <span data-ttu-id="59b9d-124">수정: **새 영업 기회**, **견적**, **주문 라인** 및 **제품 추가** 를 위한 추가 단추는 영업 기회, 견적, 제품 주문 및 프로젝트 기반 라인 하위 그리드에 대한 명령에서 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="59b9d-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
+
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,50 +17,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e19c8ffe7d92ab7ec9eb46aff8f944c62b0bb4bc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280991"
 ---
-# <a name="project-service-automation-update-release-14-v3"></a><span data-ttu-id="5c859-103">Project Service Automation 업데이트 릴리스 14, V3</span><span class="sxs-lookup"><span data-stu-id="5c859-103">Project Service Automation Update Release 14, V3</span></span>
+# <a name="project-service-automation-update-release-14-v3"></a><span data-ttu-id="740d5-103">Project Service Automation 업데이트 릴리스 14, V3</span><span class="sxs-lookup"><span data-stu-id="740d5-103">Project Service Automation Update Release 14, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="5c859-104">Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="5c859-105">이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="5c859-106">이 릴리스는 Dynamics 365 9.x와 호환됩니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="5c859-107">이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오.</span><span class="sxs-lookup"><span data-stu-id="5c859-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="5c859-108">자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="5c859-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="740d5-104">Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="740d5-105">이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="740d5-106">이 릴리스는 Dynamics 365 9.x와 호환됩니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="740d5-107">이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오.</span><span class="sxs-lookup"><span data-stu-id="740d5-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="740d5-108">자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="740d5-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="5c859-109">이 항목에는 PSA V3, 업데이트 릴리스 14에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 14.</span></span> <span data-ttu-id="5c859-110">이 버전의 빌드 번호는 V3.10.4.21이며 다음 일정으로 일반적으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-110">This version has a build number of V3.10.4.21 and is available on the following schedule:</span></span>
+<span data-ttu-id="740d5-109">이 항목에는 PSA V3, 업데이트 릴리스 14에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 14.</span></span> <span data-ttu-id="740d5-110">이 버전의 빌드 번호는 V3.10.4.21이며 다음 일정으로 일반적으로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-110">This version has a build number of V3.10.4.21 and is available on the following schedule:</span></span>
 
-- <span data-ttu-id="5c859-111">**일반 가용성(자체 업데이트):** 2020년 1월</span><span class="sxs-lookup"><span data-stu-id="5c859-111">**General availability (self-update):** January 2020</span></span>
-- <span data-ttu-id="5c859-112">**자동 업데이트:** 2020년 2월</span><span class="sxs-lookup"><span data-stu-id="5c859-112">**Auto-update:** February 2020</span></span>
+- <span data-ttu-id="740d5-111">**일반 가용성(자체 업데이트):** 2020년 1월</span><span class="sxs-lookup"><span data-stu-id="740d5-111">**General availability (self-update):** January 2020</span></span>
+- <span data-ttu-id="740d5-112">**자동 업데이트:** 2020년 2월</span><span class="sxs-lookup"><span data-stu-id="740d5-112">**Auto-update:** February 2020</span></span>
 
-## <a name="update-release-14"></a><span data-ttu-id="5c859-113">업데이트 릴리스 14</span><span class="sxs-lookup"><span data-stu-id="5c859-113">Update Release 14</span></span>
+## <a name="update-release-14"></a><span data-ttu-id="740d5-113">업데이트 릴리스 14</span><span class="sxs-lookup"><span data-stu-id="740d5-113">Update Release 14</span></span>
 
-### <a name="enhancements"></a><span data-ttu-id="5c859-114">향상된 기능</span><span class="sxs-lookup"><span data-stu-id="5c859-114">Enhancements</span></span>
+### <a name="enhancements"></a><span data-ttu-id="740d5-114">향상된 기능</span><span class="sxs-lookup"><span data-stu-id="740d5-114">Enhancements</span></span>
 
-- <span data-ttu-id="5c859-115">Sales</span><span class="sxs-lookup"><span data-stu-id="5c859-115">Sales</span></span>
+- <span data-ttu-id="740d5-115">Sales</span><span class="sxs-lookup"><span data-stu-id="740d5-115">Sales</span></span>
 
-     - <span data-ttu-id="5c859-116">견적이 **성공으로 종료** 로 업데이트될 때 **견적 라인 세부 정보** 의 사용자 지정 필드 값이 **프로젝트 계약 내용 세부 정보** 에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-116">Custom field values from **Quote Line Details** are copied to **Project Contract Line Details** when a quote is updated to **Closed as won**.</span></span>
-     - <span data-ttu-id="5c859-117">확인된 프로젝트가 **실패로 종료** 일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-117">Confirmed projects can be **Closed as lost**.</span></span>
+     - <span data-ttu-id="740d5-116">견적이 **성공으로 종료** 로 업데이트될 때 **견적 라인 세부 정보** 의 사용자 지정 필드 값이 **프로젝트 계약 내용 세부 정보** 에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-116">Custom field values from **Quote Line Details** are copied to **Project Contract Line Details** when a quote is updated to **Closed as won**.</span></span>
+     - <span data-ttu-id="740d5-117">확인된 프로젝트가 **실패로 종료** 일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-117">Confirmed projects can be **Closed as lost**.</span></span>
 
-- <span data-ttu-id="5c859-118">리소스 관리</span><span class="sxs-lookup"><span data-stu-id="5c859-118">Resource Management</span></span>
+- <span data-ttu-id="740d5-118">리소스 관리</span><span class="sxs-lookup"><span data-stu-id="740d5-118">Resource Management</span></span>
 
-     - <span data-ttu-id="5c859-119">예약을 확장하면 예약 결과를 요약하고 예약 유지 링크를 제공하는 확인 대화 상자가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-119">When extending bookings, users will be prompted with a confirmation dialog box to summarize booking results and provide a link to Maintain Bookings.</span></span>
+     - <span data-ttu-id="740d5-119">예약을 확장하면 예약 결과를 요약하고 예약 유지 링크를 제공하는 확인 대화 상자가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-119">When extending bookings, users will be prompted with a confirmation dialog box to summarize booking results and provide a link to Maintain Bookings.</span></span>
 
 
-### <a name="bug-fixes"></a><span data-ttu-id="5c859-120">버그 수정</span><span class="sxs-lookup"><span data-stu-id="5c859-120">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="740d5-120">버그 수정</span><span class="sxs-lookup"><span data-stu-id="740d5-120">Bug fixes</span></span>
 
-- <span data-ttu-id="5c859-121">시간 및 경비</span><span class="sxs-lookup"><span data-stu-id="5c859-121">Time and Expense</span></span>
+- <span data-ttu-id="740d5-121">시간 및 경비</span><span class="sxs-lookup"><span data-stu-id="740d5-121">Time and Expense</span></span>
 
-     - <span data-ttu-id="5c859-122">수정: 사용자가 수정할 항목을 선택하지 않은 경우 사용자 환경이 향상되었습니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-122">Fixed: Improved the user experience when the user has not selected any entries to be corrected.</span></span>
+     - <span data-ttu-id="740d5-122">수정: 사용자가 수정할 항목을 선택하지 않은 경우 사용자 환경이 향상되었습니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-122">Fixed: Improved the user experience when the user has not selected any entries to be corrected.</span></span>
 
-- <span data-ttu-id="5c859-123">리소스 관리</span><span class="sxs-lookup"><span data-stu-id="5c859-123">Resource Management</span></span>
+- <span data-ttu-id="740d5-123">리소스 관리</span><span class="sxs-lookup"><span data-stu-id="740d5-123">Resource Management</span></span>
 
-     - <span data-ttu-id="5c859-124">수정: 리소스를 여러 번 예약하면 예약 가능한 리소스 이름이 오버플로됩니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-124">Fixed: Booking a resource multiple times overflows the name of the bookable resource.</span></span>
+     - <span data-ttu-id="740d5-124">수정: 리소스를 여러 번 예약하면 예약 가능한 리소스 이름이 오버플로됩니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-124">Fixed: Booking a resource multiple times overflows the name of the bookable resource.</span></span>
 
-- <span data-ttu-id="5c859-125">Sales</span><span class="sxs-lookup"><span data-stu-id="5c859-125">Sales</span></span>
+- <span data-ttu-id="740d5-125">Sales</span><span class="sxs-lookup"><span data-stu-id="740d5-125">Sales</span></span>
 
-     - <span data-ttu-id="5c859-126">수정: 사용자가 프로젝트의 비용 견적에 대한 비용 가격을 입력할 때까지 총 판매 가격이 계산되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-126">Fixed: The total sales price is not calculated until the user also inputs a cost price for expense estimates on a project.</span></span>
-     - <span data-ttu-id="5c859-127">수정: 관련 프로젝트 계약이 **초안** 상태가 아닌 경우 견적을 **성공** 으로 종료하는 것에 실패합니다.</span><span class="sxs-lookup"><span data-stu-id="5c859-127">Fixed: Closing a quote as **Won** fails if the associated project contract is not in a **Draft** state.</span></span>
+     - <span data-ttu-id="740d5-126">수정: 사용자가 프로젝트의 비용 견적에 대한 비용 가격을 입력할 때까지 총 판매 가격이 계산되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-126">Fixed: The total sales price is not calculated until the user also inputs a cost price for expense estimates on a project.</span></span>
+     - <span data-ttu-id="740d5-127">수정: 관련 프로젝트 계약이 **초안** 상태가 아닌 경우 견적을 **성공** 으로 종료하는 것에 실패합니다.</span><span class="sxs-lookup"><span data-stu-id="740d5-127">Fixed: Closing a quote as **Won** fails if the associated project contract is not in a **Draft** state.</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

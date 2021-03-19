@@ -18,34 +18,37 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efc03adf2bad942386731a6189828802aa468d42
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 294fb2bf81aaf07f62937e69ad07f6ddbc72dc80
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144106"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281486"
 ---
-# <a name="view-dashboards-and-reports-project-service"></a><span data-ttu-id="5d80e-103">대시보드 및 보고서 보기(Project Service)</span><span class="sxs-lookup"><span data-stu-id="5d80e-103">View dashboards and reports (Project Service)</span></span>
+# <a name="view-dashboards-and-reports-project-service"></a><span data-ttu-id="90f06-103">대시보드 및 보고서 보기(Project Service)</span><span class="sxs-lookup"><span data-stu-id="90f06-103">View dashboards and reports (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="5d80e-104">대시보드 및 보고서를 사용하면 비즈니스의 상태를 이해할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5d80e-104">Dashboards and reports give you an understanding of where your business stands.</span></span> <span data-ttu-id="5d80e-105">연습 관리 대시보드는 모든 최신 비용, 매상 총이익 및 역할 활용을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="5d80e-105">The Practice Management dashboard gives you an all-up view of your costs, gross margin, and role utilization.</span></span> <span data-ttu-id="5d80e-106">영업 활동 소셜 대시보드를 사용하여 영업 숫자 또한 추적할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5d80e-106">You can also track your sales numbers with the Sales Activity Social dashboard.</span></span>  
+<span data-ttu-id="90f06-104">대시보드 및 보고서를 사용하면 비즈니스의 상태를 이해할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="90f06-104">Dashboards and reports give you an understanding of where your business stands.</span></span> <span data-ttu-id="90f06-105">연습 관리 대시보드는 모든 최신 비용, 매상 총이익 및 역할 활용을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="90f06-105">The Practice Management dashboard gives you an all-up view of your costs, gross margin, and role utilization.</span></span> <span data-ttu-id="90f06-106">영업 활동 소셜 대시보드를 사용하여 영업 숫자 또한 추적할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="90f06-106">You can also track your sales numbers with the Sales Activity Social dashboard.</span></span>  
   
- <span data-ttu-id="5d80e-107">프로젝트 영업 및 리소스 사용을 모두 볼 수 있는 대시보드를 표시하려면:</span><span class="sxs-lookup"><span data-stu-id="5d80e-107">To view dashboards that provide an all-up view of your project sales and resource utilization:</span></span>  
+ <span data-ttu-id="90f06-107">프로젝트 영업 및 리소스 사용을 모두 볼 수 있는 대시보드를 표시하려면:</span><span class="sxs-lookup"><span data-stu-id="90f06-107">To view dashboards that provide an all-up view of your project sales and resource utilization:</span></span>  
   
-1. <span data-ttu-id="5d80e-108">**Project Service > 대시보드** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="5d80e-108">Go to **Project Service > Dashboards**.</span></span>  
+1. <span data-ttu-id="90f06-108">**Project Service > 대시보드** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="90f06-108">Go to **Project Service > Dashboards**.</span></span>  
   
-2. <span data-ttu-id="5d80e-109">화면 상단 표시줄에서 **대시보드** 옆의 아래로 향하는 화살표를 선택한 다음 확인하고자 하는 대시보드를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5d80e-109">In the bar across the top of the screen, select the down arrow next to **Dashboards** and select the dashboard you want to see.</span></span>  
+2. <span data-ttu-id="90f06-109">화면 상단 표시줄에서 **대시보드** 옆의 아래로 향하는 화살표를 선택한 다음 확인하고자 하는 대시보드를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="90f06-109">In the bar across the top of the screen, select the down arrow next to **Dashboards** and select the dashboard you want to see.</span></span>  
   
-   <span data-ttu-id="5d80e-110">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 보고서를 표시하려면:</span><span class="sxs-lookup"><span data-stu-id="5d80e-110">To view [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] reports:</span></span>  
+   <span data-ttu-id="90f06-110">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 보고서를 표시하려면:</span><span class="sxs-lookup"><span data-stu-id="90f06-110">To view [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] reports:</span></span>  
   
-3. <span data-ttu-id="5d80e-111">**Project Service > 보고서** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="5d80e-111">Go to **Project Service > Reports**.</span></span>  
+3. <span data-ttu-id="90f06-111">**Project Service > 보고서** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="90f06-111">Go to **Project Service > Reports**.</span></span>  
   
-4. <span data-ttu-id="5d80e-112">보고자 하는 보고서를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5d80e-112">Click the report you want to see.</span></span>  
+4. <span data-ttu-id="90f06-112">보고자 하는 보고서를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="90f06-112">Click the report you want to see.</span></span>  
   
-5. <span data-ttu-id="5d80e-113">날짜 범위를 선택한 다음 **보고서 보기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5d80e-113">Select a date range and click **View Report**.</span></span>  
+5. <span data-ttu-id="90f06-113">날짜 범위를 선택한 다음 **보고서 보기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="90f06-113">Select a date range and click **View Report**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="5d80e-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="5d80e-114">See Also</span></span>  
- [<span data-ttu-id="5d80e-115">프로젝트 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="5d80e-115">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="90f06-114">참고 항목</span><span class="sxs-lookup"><span data-stu-id="90f06-114">See Also</span></span>  
+ [<span data-ttu-id="90f06-115">프로젝트 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="90f06-115">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
