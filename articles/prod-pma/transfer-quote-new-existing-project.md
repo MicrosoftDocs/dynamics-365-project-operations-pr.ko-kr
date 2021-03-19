@@ -18,21 +18,24 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080028"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288101"
 ---
-# <a name="transfer-a-quotation-to-a-project"></a><span data-ttu-id="26101-103">프로젝트로 견적 전송</span><span class="sxs-lookup"><span data-stu-id="26101-103">Transfer a quotation to a project</span></span>
+# <a name="transfer-a-quotation-to-a-project"></a><span data-ttu-id="87443-103">프로젝트로 견적 전송</span><span class="sxs-lookup"><span data-stu-id="87443-103">Transfer a quotation to a project</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="26101-104">프로젝트 견적의 상태가 **확인됨** 이면 **프로젝트로 전송** 마법사를 사용하여 일부 또는 모든 견적 라인을 신규 또는 기존 프로젝트로 전송할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="26101-104">When a project quotation has a status of **Confirmed** , you can transfer some or all the quotation lines to a new or existing project by using the **Transfer to project** wizard.</span></span> 
+<span data-ttu-id="87443-104">프로젝트 견적의 상태가 **확인됨** 이면 **프로젝트로 전송** 마법사를 사용하여 일부 또는 모든 견적 라인을 신규 또는 기존 프로젝트로 전송할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="87443-104">When a project quotation has a status of **Confirmed**, you can transfer some or all the quotation lines to a new or existing project by using the **Transfer to project** wizard.</span></span> 
 
-<span data-ttu-id="26101-105">마법사를 사용하려면 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="26101-105">To use the wizard, follow these steps.</span></span>
+<span data-ttu-id="87443-105">마법사를 사용하려면 다음 단계를 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="87443-105">To use the wizard, follow these steps.</span></span>
 
-1. <span data-ttu-id="26101-106">**프로젝트 관리 및 회계** > **견적** > **프로젝트 견적** 으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="26101-106">Go to **Project management and accounting** > **Quotations** > **Project quotations**.</span></span>
-2. <span data-ttu-id="26101-107">전송할 견적을 선택하고 **후속작업** 탭의 **수정** 그룹에서 **프로젝트로 전송** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="26101-107">Select the quotation you want to transfer and on the **Follow up** tab, in the **Modify** group, select **Transfer to project**.</span></span>
-3. <span data-ttu-id="26101-108">**프로젝트로 견적 전송** 마법사에 따라 견적을 프로젝트와 연결하고 전송합니다.</span><span class="sxs-lookup"><span data-stu-id="26101-108">Follow the **Transfer quotation to project** wizard to associate and transfer the quotation with a project.</span></span>
+1. <span data-ttu-id="87443-106">**프로젝트 관리 및 회계** > **견적** > **프로젝트 견적** 으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="87443-106">Go to **Project management and accounting** > **Quotations** > **Project quotations**.</span></span>
+2. <span data-ttu-id="87443-107">전송할 견적을 선택하고 **후속작업** 탭의 **수정** 그룹에서 **프로젝트로 전송** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="87443-107">Select the quotation you want to transfer and on the **Follow up** tab, in the **Modify** group, select **Transfer to project**.</span></span>
+3. <span data-ttu-id="87443-108">**프로젝트로 견적 전송** 마법사에 따라 견적을 프로젝트와 연결하고 전송합니다.</span><span class="sxs-lookup"><span data-stu-id="87443-108">Follow the **Transfer quotation to project** wizard to associate and transfer the quotation with a project.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
