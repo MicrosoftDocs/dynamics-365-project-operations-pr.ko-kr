@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: 새로운 기능
       items:
+        - name: 2021년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021년 3월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: 2021년 2월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -64,7 +66,7 @@
           items:
             - name: 프로젝트 영업 기회 관리 개요
               href: sales/manage-project-based-opportunities.md
-            - name: 프로젝트 기반 영업 기회 설정
+            - name: 프로젝트 기반 영업 기회에 대한 헤더 세부 사항
               href: sales/opportunity-header.md
             - name: 프로젝트 기반 영업 기회 라인
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: 프로젝트 견적 관리 개요
               href: pro/sales/manage-quotes-sales.md
-            - name: 프로젝트 견적 개념
+            - name: 프로젝트 기반 견적에 고유한 개념
               href: sales/quotes-key-concepts.md
-            - name: 프로젝트 견적 설정
+            - name: 프로젝트 기반 견적에 대한 헤더 세부 사항
               href: sales/quote-values-budget-limits-contract.md
             - name: 프로젝트 견적에 대한 여러 고객 관리
               href: sales/manage-multiple-customers-quote.md
             - name: 견적에 대한 프로젝트 가격표 관리
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: 프로젝트 기반 견적 라인
               items:
                 - name: 프로젝트 기반 견적 라인 개요
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: 프로젝트 기반 견적 라인에서 여러 고객 관리
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: 프로젝트 및 작업을 프로젝트 기반 견적 라인에 매핑
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: 프로젝트 견적 라인에 대한 청구 가능 구성 요소 구성
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: 프로젝트 견적 라인의 청구 가능 구성 요소 구성
                   href: sales/configure-chargeable-quoteline.md
-                - name: 견적 라인에서 견적 만들기
+                - name: 프로젝트 견적 라인 추정
                   href: sales/create-estimate-quote-line.md
                 - name: 프로젝트에서 프로젝트 기반 견적 라인으로 추정 가져오기
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: 프로젝트 계약 관리 개요
               href: pro/sales/manage-contracts-sales.md
-            - name: 프로젝트 계약 개념
+            - name: 프로젝트 기반 계약에 고유한 개념
               href: sales/contracts-key-concepts.md
-            - name: 프로젝트 계약 설정
+            - name: 프로젝트 기반 계약에 대한 헤더 세부 사항
               href: sales/project-contract-settings.md
             - name: 프로젝트 계약에 대한 프로젝트 가격표 관리
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: 프로젝트 기반 계약 내용
               items:
                 - name: 프로젝트 기반 계약 내용 개요
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: 프로젝트 기반 계약 내용에서 여러 고객 관리
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: 프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
-                  href: sales/configure-chargeable-contract-line.md
-                - name: 프로젝트 기반 계약 내용 추정
+                - name: 프로젝트 및 작업을 프로젝트 계약 내용에 매핑
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: 프로젝트 계약 내용에 대해 청구 가능 구성 요소 구성
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: 프로젝트 계약 내용 추정
                   href: sales/create-estimate-contract-line.md
                 - name: 프로젝트에서 프로젝트 기반 계약 내용으로 추정 가져오기
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: 프로젝트 계약 확인
               href: pro/sales/confirm-contract-sales.md
-            - name: 프로젝트 계약 복사
-              href: pro/sales/copy-project-contracts-sales.md
             - name: 선불금 및 보유자
               items:
                 - name: 선급금 및 보유자 기반 계약
@@ -146,16 +152,16 @@
       items:
         - name: 가격표 설정
           items:
-            - name: 가격표 설정
+            - name: 가격표 정의
               href: pricing-costing/price-list-setup.md
-            - name: 제품 가격표
-              href: pricing-costing/product-price-list.md
             - name: 인력 청구 요금 설정
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: 인력 비용 요금 설정
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: 경비에 대한 비용 및 판매율 설정
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: 재료에 대한 비용 및 판매율 설정
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: 기본값 및 재정의
           items:
             - name: 기본 가격표
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: 가격표 복사
               href: pricing-costing/copy-price-lists.md
+            - name: 가격표 비활성화
+              href: pricing-costing/deactivatepricelists.md
         - name: 가격 책정 차원
           items:
             - name: 가격 책정 차원 개요
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: 할당 만들기
               href: project-management/create-assignments.md
-        - name: 프로젝트 추정
+        - name: 프로젝트에 대한 재무 추정
           items:
-            - name: 프로젝트 추정 개요
+            - name: 재무 추정 개념
               href: project-management/estimating-projects-overview.md
-            - name: 리소스 추정
+            - name: 프로젝트의 리소스 시간에 대한 재무 추정
               href: project-management/resource-estimates.md
-            - name: 경비 추정 만들기
+            - name: 프로젝트의 경비에 대한 재무 추정
               href: project-management/create-expense-estimates.md
+            - name: 프로젝트의 재료에 대한 재무 추정
+              href: project-management/create-material-estimate.md
         - name: 프로젝트 추적
           items:
-            - name: 프로젝트 추적 개요
+            - name: 프로젝트 작업량 추적
               href: project-management/project-tracking-overview.md
+            - name: 프로젝트에 대한 인건비 추적
+              href: project-management/project-cost-tracking.md
+            - name: 프로젝트에 대한 노동 수익 추적
+              href: project-management/project-sales-tracking.md
             - name: 완료 시 추정 비용 업데이트
               href: project-management/update-completed-estimate.md
         - name: 프로젝트 팀 구성원
@@ -248,6 +262,8 @@
           items:
             - name: 프로젝트 복사로 프로젝트 템플릿 개발
               href: project-management/dev-copy-project.md
+            - name: 일정 API 사용(공개 미리 보기)
+              href: project-management/schedule-api-preview.md
     - name: 리소스 관리
       items:
         - name: 주요 개념
@@ -366,6 +382,10 @@
           items:
             - name: VAT 복구
               href: expense/vat-recovery.md
+    - name: 재료 사용량
+      items:
+        - name: 프로젝트 및 프로젝트 작업에 대한 재료 사용량 기록
+          href: material/material-usage-log.md
     - name: 승인
       items:
         - name: 승인 개요
@@ -378,6 +398,8 @@
       items:
         - name: 실제 개요
           href: actuals/actuals-overview.md
+        - name: 실제를 원본 레코드에 연결
+          href: actuals/linkingactuals.md
         - name: 수정 분개장
           items:
             - name: 수정 분개장 생성 및 확인
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: 견적 송장
           items:
-            - name: 프로젝트 대금 청구 백로그 관리
+            - name: 프로젝트 기반 대금 청구 백로그 관리
               href: proforma-invoicing/manage-billing-backlog.md
             - name: 초과하지 않는 상태 및 유효성 검사 관리
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: 수동 견적 프로젝트 송장 만들기
+            - name: 견적 프로젝트 기반 송장
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: 견적 프로젝트 송장 관리
+            - name: 견적 프로젝트 기반 송장 관리
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: 보유자 또는 선불 청구
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: 견적 프로젝트 송장 확인
+            - name: 견적 프로젝트 기반 송장 확인
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: 프로젝트 송장 자동화 구성
+            - name: 수정 프로젝트 기반 송장 만들기
+              href: proforma-invoicing/corrective-invoices.md
+            - name: 프로젝트 기반 송장 자동화 구성
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: 프로젝트 회계
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: 새로운 기능
       items:
+        - name: 2021년 4월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021년 3월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: 2021년 2월의 새로운 기능 - 라이트 배포
@@ -486,7 +512,7 @@
           items:
             - name: 프로젝트 영업 기회 개요
               href: sales/manage-project-based-opportunities.md
-            - name: 프로젝트 영업 기회 설정
+            - name: 프로젝트 영업 기회에 대한 헤더 세부 사항
               href: pro/sales/opportunity-header-sales.md
             - name: 제품 기반 영업 기회 라인 관리
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: 프로젝트 기반 견적 개요
               href: pro/sales/manage-quotes-sales.md
-            - name: 프로젝트 견적 개념
+            - name: 프로젝트 견적에 고유한 개념
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: 프로젝트 견적 설정
+            - name: 프로젝트 견적에 대한 헤더 세부 사항
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: 프로젝트 견적의 여러 고객
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: 프로젝트 기반 계약 개요
               href: pro/sales/manage-contracts-sales.md
-            - name: 프로젝트 계약 개념
+            - name: 프로젝트 계약에 고유한 개념
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: 프로젝트 계약 설정
+            - name: 프로젝트 계약에 대한 헤더 세부 사항
               href: pro/sales/project-contract-settings-sales.md
             - name: 프로젝트 계약에 대한 여러 고객
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: 가격표 설정
           items:
-            - name: 가격표 설정
+            - name: 가격표 정의
               href: pricing-costing/price-list-setup.md
-            - name: 판매 가격표 설정
-              href: pricing-costing/sales-price-list-setup.md
-            - name: 인력 청구 요금 설정 - 라이트
+            - name: 제품 가격표 설정
+              href: pricing-costing/product-price-list.md
+            - name: 인력에 대한 청구 요금 설정
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: 인력 비용 요금 설정 - 라이트
+            - name: 인력에 대한 비용 요금 설정
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: 카탈로그 제품에 대한 비용 및 판매율 설정 - 라이트
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: 경비에 대한 비용 및 판매율 설정
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: 재료에 대한 비용 및 판매율 설정
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: 기본값 및 재정의
           items:
             - name: 기본 가격표
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 프로젝트 판매 가격표 재정의
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 추정 및 실제에서 원가 해결 - 라이트
+            - name: 프로젝트 추정 및 실제에서 원가 해결
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: 추정 및 실제에 대한 판매 가격 해결 - 라이트
+            - name: 프로젝트 추정 및 실제에 대한 판매 가격 해결
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: 가격표 복사
               href: pricing-costing/copy-price-lists.md
+            - name: 프로젝트 가격표 비활성화
+              href: pricing-costing/deactivatepricelists.md
         - name: 가격 책정 차원
           items:
             - name: 가격 책정 차원 개요
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: 할당 만들기
               href: project-management/create-assignments.md
-        - name: 프로젝트 추정
+        - name: 프로젝트에 대한 재무 추정
           items:
-            - name: 프로젝트 추정 개요
+            - name: 재무 추정 개념
               href: project-management/estimating-projects-overview.md
-            - name: 리소스 추정
+            - name: 프로젝트의 리소스 시간에 대한 재무 추정
               href: project-management/resource-estimates.md
-            - name: 경비 추정 만들기
+            - name: 프로젝트의 경비에 대한 재무 추정
               href: project-management/create-expense-estimates.md
+            - name: 프로젝트의 재료에 대한 재무 추정
+              href: project-management/create-material-estimate.md
         - name: 프로젝트 추적
           items:
-            - name: 프로젝트 추적 개요
+            - name: 프로젝트 작업량 추적
               href: project-management/project-tracking-overview.md
+            - name: 프로젝트에 대한 인건비 추적
+              href: project-management/project-cost-tracking.md
+            - name: 프로젝트에 대한 노동 수익 추적
+              href: project-management/project-sales-tracking.md
             - name: 완료 시 추정 비용 업데이트
               href: project-management/update-completed-estimate.md
         - name: 프로젝트 팀 구성원
@@ -694,6 +728,8 @@
           items:
             - name: 프로젝트 복사로 프로젝트 템플릿 개발
               href: project-management/dev-copy-project.md
+            - name: 일정 API 사용(공개 미리 보기)
+              href: project-management/schedule-api-preview.md
     - name: 리소스 관리
       items:
         - name: 주요 개념
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: 경비 항목(라이트)
           href: expense/basic-expense.md
+    - name: 재료 사용량
+      items:
+        - name: 프로젝트 및 프로젝트 작업에 대한 재료 사용량 기록
+          href: material/material-usage-log.md
     - name: 승인
       items:
         - name: 승인 개요
@@ -780,6 +820,8 @@
       items:
         - name: 실제 개요
           href: actuals/actuals-overview.md
+        - name: 실제를 원본 레코드에 연결
+          href: actuals/linkingactuals.md
         - name: 수정 분개장
           items:
             - name: 수정 분개장 생성 및 확인
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: 초과하지 않는 상태 및 유효성 검사 관리
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: 수동 견적 프로젝트 송장 만들기
+        - name: 견적 프로젝트 송장
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: 견적 프로젝트 송장 관리
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: 새로운 기능
       items:
+        - name: 새로운 기능 2021년 3월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 새로운 기능 2021년 1월 - 리소스/생산 기반 시나리오에 대한 Project Operations
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: 새로운 기능 2020년 12월 - 리소스/생산 기반 시나리오에 대한 Project Operations
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: 프로젝트 송장 발부
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: 프로젝트 송장 제안서 성능
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: 프로젝트 계약
       href: prod-pma/project-contracts.md
     - name: 진행 상황에 따라 청구를 위한 고급 계약 만들기
@@ -952,6 +998,10 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 30, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-30.md
+        - name: '업데이트 릴리스 29.5 핫픽스, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-29-5.md
         - name: '업데이트 릴리스 29, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-29.md
         - name: '업데이트 릴리스 28.6 핫픽스, V3의 새로운 내용 또는 변경된 내용'
