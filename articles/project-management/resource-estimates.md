@@ -1,39 +1,52 @@
 ---
-title: 리소스 추정
-description: 이 항목에서는 Project Operations에서 리소스 추정을 계산하는 방법에 대한 정보를 제공합니다.
-author: ruhercul
+title: 프로젝트의 리소스 시간에 대한 재무 추정
+description: 이 항목은 시간에 대한 재무 추정을 계산하는 방법에 대한 정보를 제공합니다.
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286526"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701834"
 ---
-# <a name="resource-estimates"></a><span data-ttu-id="71e1e-103">리소스 추정</span><span class="sxs-lookup"><span data-stu-id="71e1e-103">Resource estimates</span></span>
+# <a name="financial-estimates-for-resource-time-on-projects"></a><span data-ttu-id="33eff-103">프로젝트의 리소스 시간에 대한 재무 추정</span><span class="sxs-lookup"><span data-stu-id="33eff-103">Financial estimates for resource time on projects</span></span>
 
-<span data-ttu-id="71e1e-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="71e1e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="33eff-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="33eff-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="71e1e-105">리소스 추정은 적용 가능한 가격 책정 차원과 함께 작업 분할 구조에 정의된 시간별 작업량에서 비롯됩니다.</span><span class="sxs-lookup"><span data-stu-id="71e1e-105">Resource estimates come from time-phased effort that is defined in the work breakdown structure along with applicable pricing dimensions.</span></span> <span data-ttu-id="71e1e-106">일반적으로 계산은 **역할 x 시간에 대한 속도/시간** 입니다.</span><span class="sxs-lookup"><span data-stu-id="71e1e-106">Typically, the calculation is **rate/hr for each role x hours.**</span></span> <span data-ttu-id="71e1e-107">각 리소스에 대한 시간대별 작업량은 리소스 할당 레코드에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="71e1e-107">The time-phased effort for each resource is stored in the resource assignment record.</span></span> <span data-ttu-id="71e1e-108">가격은 미리 정의된 가격표에 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="71e1e-108">The pricing is stored in a pre-defined price list.</span></span> <span data-ttu-id="71e1e-109">적용 가능한 가격표를 기준으로 단위 변환이 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="71e1e-109">Unit conversion is applied based on the applicable price list.</span></span>
+<span data-ttu-id="33eff-105">시간에 대한 재무 추정은 다음 세 가지 요소를 기반으로 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-105">Financial estimates for time are calculated based on three factors:</span></span> 
+
+- <span data-ttu-id="33eff-106">프로젝트 계획의 각 리프 노드 작업에 할당된 일반 또는 명명된 팀 구성원의 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-106">The type of generic or named team member assigned to each leaf node task on the project plan.</span></span> 
+- <span data-ttu-id="33eff-107">작업의 유형 또는 복잡성.</span><span class="sxs-lookup"><span data-stu-id="33eff-107">The type or complexity of work.</span></span>
+- <span data-ttu-id="33eff-108">작업에 대한 리소스 할당에 대한 작업량의 확산.</span><span class="sxs-lookup"><span data-stu-id="33eff-108">The spread of effort for the resource's assignment on the task.</span></span> 
+
+<span data-ttu-id="33eff-109">처음 두 가지 요소는 리소스 할당의 단가 또는 청구 요금에 영향을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-109">The first two factors influence the unit cost or bill rate of a resource's assignment.</span></span> <span data-ttu-id="33eff-110">리소스 할당의 단가 또는 청구 요금은 배정된 리소스의 특성에 따라 결정됩니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-110">The unit cost or bill rate of a resource assignment is determined by the attributes of the resource assigned.</span></span> <span data-ttu-id="33eff-111">이러한 특성에는 리소스가 속한 조직 단위와 리소스의 표준 역할이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-111">These attributes include the organizational unit to which the resource belongs and the standard role of the resource.</span></span> <span data-ttu-id="33eff-112">또한 표준 직함 또는 경험 수준과 같이 리소스에 대한 비즈니스와 관련된 사용자 지정 특성을 추가하고 할당의 단위 비용 또는 청구 비율에 영향을 미치도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-112">You can also add custom attributes relevant to your business for the resource, like standard title or experience level, and have them influence the unit cost or bill rate of the assignment.</span></span>
+<span data-ttu-id="33eff-113">리소스의 특성 외에도 작업과 같은 작업 특성은 할당의 단위 청구 비율 또는 비용 비율에 영향을 미칠 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-113">In addition to the attributes of the resource, attributes of work, such as the task, can also influence the unit bill rate or cost rate of the assignment.</span></span> <span data-ttu-id="33eff-114">예를 들어 특정 작업이 더 복잡한 경우 해당 특정 작업에 리소스를 할당하면 덜 복잡한 작업보다 단위 비용 또는 청구 요금이 높아집니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-114">For example, when certain tasks are more complex, the resource's assignment to those specific tasks result in a higher unit cost or bill rate than tasks that are less complex.</span></span>   
+
+<span data-ttu-id="33eff-115">세 번째 요소는 해당 비율의 시간을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-115">The third factor provides the quantity of hours at that rate.</span></span> <span data-ttu-id="33eff-116">작업이 두 가지 가격 기간을 포함하는 경우 해당 작업에 대한 리소스 할당의 첫 번째 부분은 작업의 두 번째 부분과 다르게 비용이 책정되고 가격이 책정될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-116">In cases where a task covers two price periods, it is likely that the first part of the resource assignment for that task is costed and priced differently than the second portion of the task.</span></span> <span data-ttu-id="33eff-117">각 리소스 할당에 대한 추정 작업량은 일일 작업량 분포와 함께 저장된 복잡한 값입니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-117">The effort estimate on each resource assignment is a complex value stored with the daily distribution of effort per day.</span></span>
+
+<span data-ttu-id="33eff-118">작업 및 리소스의 사용자 지정 특성을 가격 및 비용 차원으로 설정하는 방법에 대한 자세한 지침은 [가격 책정 차원 개요](../pricing-costing/pricing-dimensions-overview.md)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="33eff-118">For detailed instructions about how to set up custom attributes of work and resources as pricing and costing dimensions, see [Pricing Dimensions overview](../pricing-costing/pricing-dimensions-overview.md).</span></span>
+
+<span data-ttu-id="33eff-119">각 리소스 할당에 대한 재무 추정은 **할당 속도/시간 x 시간** 으로 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-119">The financial estimate on each resource assignment is calculated as **rate/hr for the assignment multiplied by the number of hours.**</span></span>  <span data-ttu-id="33eff-120">작업량 추정과 유사하게, 각 리소스 할당의 비용 및 매출에 대한 재무 추정은 일일 금액의 일일 분배와 함께 저장된 복잡한 값입니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-120">Similar to the effort estimate, the financial estimate for cost and revenue for each resource assignment is a complex value stored with the daily distribution of monetary amount per day.</span></span> 
+
+## <a name="summarizing-financial-estimates-for-time"></a><span data-ttu-id="33eff-121">시간에 대한 재무 추정 요약</span><span class="sxs-lookup"><span data-stu-id="33eff-121">Summarizing financial estimates for time</span></span>
+<span data-ttu-id="33eff-122">리프 노드 작업 시간에 대한 재무 추정은 해당 작업에 대한 모든 리소스 할당에 대한 재무 추정의 합계입니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-122">A financial estimate for time on a leaf node task is the sum of the financial estimates on all resource assignments for that task.</span></span>
+
+<span data-ttu-id="33eff-123">요약 또는 상위 작업의 시간에 대한 재무 추정은 모든 하위 작업에 대한 재무 추정의 합계입니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-123">A financial estimate for time on a summary or parent task is the sum of the financial estimates on all of its child tasks.</span></span> <span data-ttu-id="33eff-124">이것은 프로젝트의 추정 인건비입니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-124">This is the estimated labor cost on the project.</span></span> 
 
 ![리소스 추정](./media/navigation12.png)
 
-## <a name="default-cost-price-and-cost-currency"></a><span data-ttu-id="71e1e-111">기본 원가 및 비용 통화</span><span class="sxs-lookup"><span data-stu-id="71e1e-111">Default cost price and cost currency</span></span>
+## <a name="default-cost-price-and-cost-currency"></a><span data-ttu-id="33eff-126">기본 원가 및 비용 통화</span><span class="sxs-lookup"><span data-stu-id="33eff-126">Default cost price and cost currency</span></span>
 
-<span data-ttu-id="71e1e-112">원가는 조직 구성 단위에서 기본값으로 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="71e1e-112">Cost prices are defaulted from the Organizational Unit.</span></span>
+<span data-ttu-id="33eff-127">기본 원가는 프로젝트 계약 단위에 첨부된 가격표에서 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-127">The default cost price comes from the price lists attached to the contracting unit of the project.</span></span> <span data-ttu-id="33eff-128">프로젝트의 원가 통화는 항상 프로젝트 계약 단위의 통화입니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-128">The cost currency of a project is always the currency of the contracting unit of the project.</span></span> <span data-ttu-id="33eff-129">리소스 할당에서 비용에 대한 재무 추정은 프로젝트의 비용 통화로 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-129">On a resource assignment, the financial estimate for cost is stored in the cost currency of the project.</span></span> <span data-ttu-id="33eff-130">가격표에서 원가율이 설정된 통화가 프로젝트의 원가 통화와 다른 경우가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-130">Sometimes, the currency in which the cost rate is set up in the price list is different from the project's cost currency.</span></span> <span data-ttu-id="33eff-131">이 경우 응용 프로그램은 원가가 설정된 통화를 프로젝트 통화로 변환합니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-131">In these cases, the application converts the currency in which the cost price is set up for the currency of the project.</span></span> <span data-ttu-id="33eff-132">**추정** 그리드에서 모든 비용 추정은 프로젝트의 비용 통화로 표시되고 요약됩니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-132">On the **Estimates** grid, all cost estimates are displayed and summarized in the project's cost currency.</span></span> 
 
-## <a name="default-bill-rate-and-sales-currency"></a><span data-ttu-id="71e1e-113">기본 청구 요금 및 판매 통화</span><span class="sxs-lookup"><span data-stu-id="71e1e-113">Default bill rate and sales currency</span></span>
+## <a name="default-bill-rate-and-sales-currency"></a><span data-ttu-id="33eff-133">기본 청구 요금 및 판매 통화</span><span class="sxs-lookup"><span data-stu-id="33eff-133">Default bill rate and sales currency</span></span>
 
-<span data-ttu-id="71e1e-114">판매 가격은 거래당 한 번 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="71e1e-114">Sales prices are applied once per deal.</span></span> <span data-ttu-id="71e1e-115">판매 가격표 기본값을 위한 계층 구조는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="71e1e-115">The hierarchy for sale price list defaulting is as follows:</span></span>
-
-1. <span data-ttu-id="71e1e-116">조직</span><span class="sxs-lookup"><span data-stu-id="71e1e-116">Organization</span></span>
-2. <span data-ttu-id="71e1e-117">고객</span><span class="sxs-lookup"><span data-stu-id="71e1e-117">Customer</span></span>
-3. <span data-ttu-id="71e1e-118">견적/계약</span><span class="sxs-lookup"><span data-stu-id="71e1e-118">Quote/contract</span></span>
-
+<span data-ttu-id="33eff-134">기본 판매 가격은 트랜잭션이 성사된 경우 관련 프로젝트 계약에 첨부된 프로젝트 가격표에서 가져오고, 트랜잭션이 아직 판매 전 단계에있는 경우 관련 프로젝트 견적에서 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-134">The default sales price comes from the project price lists attached to the related project contract if the deal is won, or from the related project quote if the deal is still in the pre-sales stage.</span></span> <span data-ttu-id="33eff-135">프로젝트의 판매 통화는 항상 프로젝트 견적 또는 프로젝트 계약의 통화입니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-135">The sales currency of the project is always the currency of the project quote or the project contract.</span></span> <span data-ttu-id="33eff-136">리소스 할당에서 판매에 대한 재무 추정은 프로젝트의 판매 통화로 저장됩니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-136">On a resource assignment, the financial estimate for sales is stored in the sales currency of the project.</span></span> <span data-ttu-id="33eff-137">비용과 달리 가격표에 설정된 판매 가격은 프로젝트의 판매 통화와 절대 다를 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-137">Unlike cost, the sales price that is set up in the price list can never be different from the project's sales currency.</span></span> <span data-ttu-id="33eff-138">통화 변환이 필요한 시나리오는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-138">There is no scenario where currency conversion is needed.</span></span> <span data-ttu-id="33eff-139">**추정** 그리드에서 모든 판매 추정은 프로젝트의 판매 통화로 표시되고 요약됩니다.</span><span class="sxs-lookup"><span data-stu-id="33eff-139">On the **Estimates** grid, all sales estimates are displayed and summarized in the project's sales currency.</span></span> 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

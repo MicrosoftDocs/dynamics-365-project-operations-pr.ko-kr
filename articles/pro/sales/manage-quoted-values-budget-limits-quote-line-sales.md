@@ -1,838 +1,904 @@
 ---
-title: 프로젝트 기반 견적 라인 개요 - 라이트
-description: 이 항목은 프로젝트 작업에 프로젝트 기반 견적 라인 사용에 대한 정보를 제공합니다. (Pro)
+title: 프로젝트 기반 견적 라인 개요
+description: 이 항목은 프로젝트 작업에 프로젝트 기반 견적 라인 사용에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272981"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858706"
 ---
-# <a name="project-based-quote-lines-overview---lite"></a><span data-ttu-id="282ce-104">프로젝트 기반 견적 라인 개요 - 라이트</span><span class="sxs-lookup"><span data-stu-id="282ce-104">Project-based quote lines overview - lite</span></span>
+# <a name="project-based-quote-lines-overview"></a><span data-ttu-id="ee48f-103">프로젝트 기반 견적 라인 개요</span><span class="sxs-lookup"><span data-stu-id="ee48f-103">Project-based quote lines overview</span></span> 
 
-<span data-ttu-id="282ce-105">_**적용 대상:** 라이트 배포 - 견적 송장 거래_</span><span class="sxs-lookup"><span data-stu-id="282ce-105">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="ee48f-104">_**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재고 기반 시나리오를 위한 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="ee48f-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="282ce-106">프로젝트 기반 견적 라인은 계약에 대한 프로젝트 작업을 추정하는 데 도움이 되도록 설계되었습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-106">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="282ce-107">프로젝트 기반 견적 라인의 구조는 다음 개념으로 프로젝트 견적을 위해 확장됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-107">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
+<span data-ttu-id="ee48f-105">프로젝트 기반 견적 라인은 계약에 대한 프로젝트 작업을 추정하는 데 도움이 되도록 설계되었습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="ee48f-106">프로젝트 기반 견적 라인의 구조는 다음 개념으로 프로젝트 견적을 위해 확장됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
 
-- <span data-ttu-id="282ce-108">청구 방법</span><span class="sxs-lookup"><span data-stu-id="282ce-108">Billing Method</span></span>
-- <span data-ttu-id="282ce-109">프로젝트 및 작업 매핑</span><span class="sxs-lookup"><span data-stu-id="282ce-109">Project and Task Mapping</span></span>
-- <span data-ttu-id="282ce-110">포함된 트랜잭션 클래스</span><span class="sxs-lookup"><span data-stu-id="282ce-110">Included Transaction classes</span></span>
-- <span data-ttu-id="282ce-111">초과 안 함 한도</span><span class="sxs-lookup"><span data-stu-id="282ce-111">Not-to-Exceed Limit</span></span>
-- <span data-ttu-id="282ce-112">청구 가능성 설정</span><span class="sxs-lookup"><span data-stu-id="282ce-112">Chargeability setup</span></span>
-- <span data-ttu-id="282ce-113">견적 라인 세부 정보를 사용한 추정</span><span class="sxs-lookup"><span data-stu-id="282ce-113">Estimation using Quote Line Details</span></span>
-- <span data-ttu-id="282ce-114">견적 라인 고객</span><span class="sxs-lookup"><span data-stu-id="282ce-114">Quote line Customers</span></span>
+- <span data-ttu-id="ee48f-107">청구 방법</span><span class="sxs-lookup"><span data-stu-id="ee48f-107">Billing Method</span></span>
+- <span data-ttu-id="ee48f-108">프로젝트 및 작업 매핑</span><span class="sxs-lookup"><span data-stu-id="ee48f-108">Project and Task Mapping</span></span>
+- <span data-ttu-id="ee48f-109">포함된 트랜잭션 클래스</span><span class="sxs-lookup"><span data-stu-id="ee48f-109">Included Transaction classes</span></span>
+- <span data-ttu-id="ee48f-110">초과 안 함 한도</span><span class="sxs-lookup"><span data-stu-id="ee48f-110">Not-to-Exceed Limit</span></span>
+- <span data-ttu-id="ee48f-111">청구 가능성 설정</span><span class="sxs-lookup"><span data-stu-id="ee48f-111">Chargeability setup</span></span>
+- <span data-ttu-id="ee48f-112">견적 라인 세부 정보를 사용한 추정</span><span class="sxs-lookup"><span data-stu-id="ee48f-112">Estimation using Quote Line Details</span></span>
+- <span data-ttu-id="ee48f-113">견적 라인 고객</span><span class="sxs-lookup"><span data-stu-id="ee48f-113">Quote line Customers</span></span>
 
-<span data-ttu-id="282ce-115">다음 표는 프로젝트 기반 견적 라인의 **일반** 탭의 필드에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-115">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="282ce-116">이 필드는 프로젝트 작업에 대한 상세하고 기초적인 추정을 위한 기초를 설정하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-116">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
+<span data-ttu-id="ee48f-114">다음 표는 프로젝트 기반 견적 라인의 **일반** 탭의 필드에 대한 정보를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="ee48f-115">이 필드는 프로젝트 작업에 대한 상세하고 기초적인 추정을 위한 기초를 설정하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
 
-| <span data-ttu-id="282ce-117">**필드**</span><span class="sxs-lookup"><span data-stu-id="282ce-117">**Field**</span></span> | <span data-ttu-id="282ce-118">**설명**</span><span class="sxs-lookup"><span data-stu-id="282ce-118">**Description**</span></span> | <span data-ttu-id="282ce-119">**다운스트림 영향**</span><span class="sxs-lookup"><span data-stu-id="282ce-119">**Downstream impact**</span></span> |
+| <span data-ttu-id="ee48f-116">**필드**</span><span class="sxs-lookup"><span data-stu-id="ee48f-116">**Field**</span></span> | <span data-ttu-id="ee48f-117">**설명**</span><span class="sxs-lookup"><span data-stu-id="ee48f-117">**Description**</span></span> | <span data-ttu-id="ee48f-118">**다운스트림 영향**</span><span class="sxs-lookup"><span data-stu-id="ee48f-118">**Downstream impact**</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="282ce-120">Name</span><span class="sxs-lookup"><span data-stu-id="282ce-120">Name</span></span> | <span data-ttu-id="282ce-121">예상되는 견적의 개별 구성 요소를 식별하는 데 도움이 되는 견적 라인의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-121">The name of quote line which should help you identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="282ce-122">견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-122">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-123">청구 방법</span><span class="sxs-lookup"><span data-stu-id="282ce-123">Billing Method</span></span> | <span data-ttu-id="282ce-124">영업 기회에서 견적이 생성되면 이 값은 영업 기회 라인의 해당 필드에서 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-124">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="282ce-125">이 필드에는 Dynamics 365 Project Operations에서 지원하는 두 가지 주요 계약 모델이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-125">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="282ce-126">- 고정 가격</span><span class="sxs-lookup"><span data-stu-id="282ce-126">- Fixed price</span></span></br><span data-ttu-id="282ce-127">- 시간 및 재료.</span><span class="sxs-lookup"><span data-stu-id="282ce-127">- Time and material.</span></span>| <span data-ttu-id="282ce-128">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-128">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-129">Project</span><span class="sxs-lookup"><span data-stu-id="282ce-129">Project</span></span> | <span data-ttu-id="282ce-130">이 옵션 필드를 사용하여이 계약에 대한 작업을 제공하는 데 사용할 프로젝트를 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-130">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="282ce-131">프로젝트가 견적 라인에 매핑되면 청구 가능한 작업을 설정하고 견적 라인 세부 정보로 견적 라인에 프로젝트 기반 견적을 가져오는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-131">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="282ce-132">프로젝트가 프로젝트 기반 견적 라인에 매핑되지 않은 경우 각 견적 라인 세부 정보를 생성하여 견적을 수동으로 생성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-132">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="282ce-133">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-133">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
-| <span data-ttu-id="282ce-134">포함된 작업</span><span class="sxs-lookup"><span data-stu-id="282ce-134">Included Tasks</span></span> | <span data-ttu-id="282ce-135">이 견적 라인이 선택한 프로젝트의 프로젝트 작업 전체 또는 일부에 사용되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-135">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="282ce-136">이 필드에는 다음 가능한 값이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-136">This field has the following possible values:</span></span></br><span data-ttu-id="282ce-137">- 모든 프로젝트 작업</span><span class="sxs-lookup"><span data-stu-id="282ce-137">- All project tasks</span></span></br><span data-ttu-id="282ce-138">- 선택한 프로젝트 작업만</span><span class="sxs-lookup"><span data-stu-id="282ce-138">- Selected project tasks only</span></span></br><span data-ttu-id="282ce-139">이 필드의 공백 값은 **모든 프로젝트 작업** 옵션과 동일합니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-139">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="282ce-140">프로젝트 페이지에서 **선택한 프로젝트 작업만** 이 선택되면 **작업 청구 설정** 탭을 사용하여 특정 작업을 선택하여 이 견적 라인에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-140">When **Selected project tasks only** is selected then on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="282ce-141">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-141">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-142">시간 포함</span><span class="sxs-lookup"><span data-stu-id="282ce-142">Include Time</span></span> | <span data-ttu-id="282ce-143">**예**/**아니요** 플래그는 선택한 프로젝트의 시간 트랜잭션 또는 인건비가 이 견적 라인의 추정에 포함되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-143">A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="282ce-144">**아니요** 값은 시간 트랜잭션 또는 인건비가 이 견적 라인의 추정에 포함되는 않음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-144">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="282ce-145">**예** 값은 시간 트랜잭션 또는 인건비가 이 견적 라인의 추정에 포함됨을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-145">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="282ce-146">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-146">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-147">경비 포함</span><span class="sxs-lookup"><span data-stu-id="282ce-147">Include Expense</span></span> | <span data-ttu-id="282ce-148">**예**/**아니요** 플래그는 선택한 프로젝트의 경비 비용이 이 견적 라인의 추정에 포함되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-148">A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="282ce-149">**아니요** 값은 경비 비용이 이 견적 라인의 추정에 포함되는 않음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-149">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="282ce-150">**예** 값은 경비 비용이 이 견적 라인의 추정에 포함됨을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-150">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="282ce-151">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-151">This field value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-152">요금 포함</span><span class="sxs-lookup"><span data-stu-id="282ce-152">Include Fee</span></span> | <span data-ttu-id="282ce-153">**예**/**아니요** 플래그는 선택한 프로젝트의 수수료가 이 견적 라인의 추정에 포함되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-153">A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="282ce-154">**아니요** 값은 수수료가 이 견적 라인의 추정에 포함되는 않음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-154">A **No** value indicates that the Fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="282ce-155">**예** 값은 수수료가 이 견적 라인의 추정에 포함됨을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-155">A **Yes** value indicates that the Fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="282ce-156">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-156">This field value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-157">견적 금액</span><span class="sxs-lookup"><span data-stu-id="282ce-157">Quoted Amount</span></span> | <span data-ttu-id="282ce-158">이 프로젝트 기반 견적 라인에서 예측된 모든 작업에 대해 고객에게 견적될 금액입니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-158">This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="282ce-159">영업 기회에서 견적이 생성되면 이 값은 영업 기회 라인의 **고객 예산** 필드에서 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-159">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="282ce-160">프로젝트 기반 견적 라인에 라인 상세 내역이 있는 경우 이 필드는 편집을 위해 잠기고 견적 라인 상세 내역의 금액에서 요약됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-160">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="282ce-161">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-161">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-162">예상 세금</span><span class="sxs-lookup"><span data-stu-id="282ce-162">Estimated Tax</span></span> | <span data-ttu-id="282ce-163">사용자가 견적 라인에 예상 세액을 추가할 수 있는 편집 가능한 필드입니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-163">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="282ce-164">프로젝트 기반 견적 라인에 라인 상세 내역이 있는 경우 이 필드는 편집을 위해 잠기고 견적 라인 상세 내역의 세액에서 요약됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-164">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="282ce-165">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-165">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-166">세금 공제 후 견적 금액</span><span class="sxs-lookup"><span data-stu-id="282ce-166">Quoted Amount after Tax</span></span> | <span data-ttu-id="282ce-167">이 필드는 세금 공제 후 견적 라인 금액이며 읽기 전용입니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-167">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="282ce-168">이 필드의 금액은 *견적 금액 + 세금* 으로 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-168">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="282ce-169">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-169">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-170">초과 안 함 한도</span><span class="sxs-lookup"><span data-stu-id="282ce-170">Not-to-exceed Limit</span></span> | <span data-ttu-id="282ce-171">이 필드는 편집 가능하며 **시간 및 재료** 청구 방법이 있는 프로젝트 기반 견적 라인에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-171">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="282ce-172">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-172">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="282ce-173">고객 예산</span><span class="sxs-lookup"><span data-stu-id="282ce-173">Customer Budget</span></span> | <span data-ttu-id="282ce-174">이 필드는 편집 가능하며 영업 기회에서 견적이 생성된 경우 영업 기회 라인의 해당 필드에서 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-174">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="282ce-175">이 필드 값은 견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-175">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-119">이름</span><span class="sxs-lookup"><span data-stu-id="ee48f-119">Name</span></span> | <span data-ttu-id="ee48f-120">추정되는 견적의 개별 구성 요소를 식별하는 데 도움이 되는 견적 라인의 이름입니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-120">The name of quote line that helps you to identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="ee48f-121">견적이 성공하면 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-122">청구 방법</span><span class="sxs-lookup"><span data-stu-id="ee48f-122">Billing Method</span></span> | <span data-ttu-id="ee48f-123">영업 기회에서 견적이 생성되면 이 값은 영업 기회 라인의 해당 필드에서 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="ee48f-124">이 필드에는 Dynamics 365 Project Operations에서 지원하는 두 가지 주요 계약 모델이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="ee48f-125">- 고정 가격</span><span class="sxs-lookup"><span data-stu-id="ee48f-125">- Fixed price</span></span></br><span data-ttu-id="ee48f-126">- 시간 및 재료.</span><span class="sxs-lookup"><span data-stu-id="ee48f-126">- Time and material.</span></span>| <span data-ttu-id="ee48f-127">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-127">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-128">Project</span><span class="sxs-lookup"><span data-stu-id="ee48f-128">Project</span></span> | <span data-ttu-id="ee48f-129">이 옵션 필드를 사용하여이 계약에 대한 작업을 제공하는 데 사용할 프로젝트를 식별합니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="ee48f-130">프로젝트가 견적 라인에 매핑되면 청구 가능한 작업을 설정하고 견적 라인 세부 정보로 견적 라인에 프로젝트 기반 견적을 가져오는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="ee48f-131">프로젝트가 프로젝트 기반 견적 라인에 매핑되지 않은 경우 각 견적 라인 세부 정보를 생성하여 견적을 수동으로 생성해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="ee48f-132">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-132">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
+| <span data-ttu-id="ee48f-133">포함된 작업</span><span class="sxs-lookup"><span data-stu-id="ee48f-133">Included Tasks</span></span> | <span data-ttu-id="ee48f-134">이 견적 라인이 선택한 프로젝트의 프로젝트 작업 전체 또는 일부에 사용되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-134">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="ee48f-135">이 필드에는 다음 가능한 값이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-135">This field has the following possible values:</span></span></br><span data-ttu-id="ee48f-136">- 모든 프로젝트 작업</span><span class="sxs-lookup"><span data-stu-id="ee48f-136">- All project tasks</span></span></br><span data-ttu-id="ee48f-137">- 선택한 프로젝트 작업만</span><span class="sxs-lookup"><span data-stu-id="ee48f-137">- Selected project tasks only</span></span></br><span data-ttu-id="ee48f-138">이 필드의 공백 값은 **모든 프로젝트 작업** 옵션과 동일합니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-138">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="ee48f-139">프로젝트 페이지에서 **선택한 프로젝트 작업만** 선택하면 **작업 청구 설정** 탭을 사용하면 특정 작업을 선택하여 이 견적 라인에 연결할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-139">When **Selected project tasks only** is selected on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="ee48f-140">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-140">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-141">시간 포함</span><span class="sxs-lookup"><span data-stu-id="ee48f-141">Include Time</span></span> | <span data-ttu-id="ee48f-142">**예**/**아니요** 값은 선택한 프로젝트의 시간 트랜잭션 또는 인건비가 이 견적 라인의 견적에 포함되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-142">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="ee48f-143">**아니요** 값은 시간 트랜잭션 또는 인건비가 이 견적 라인의 추정에 포함되는 않음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-143">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="ee48f-144">**예** 값은 시간 트랜잭션 또는 인건비가 이 견적 라인의 추정에 포함됨을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-144">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="ee48f-145">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-145">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-146">경비 포함</span><span class="sxs-lookup"><span data-stu-id="ee48f-146">Include Expense</span></span> | <span data-ttu-id="ee48f-147">**예**/**아니요** 값은 선택한 프로젝트의 경비가 이 견적 라인의 견적에 포함되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-147">A **Yes**/**No** value indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="ee48f-148">**아니요** 값은 경비 비용이 이 견적 라인의 추정에 포함되는 않음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-148">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="ee48f-149">**예** 값은 경비 비용이 이 견적 라인의 추정에 포함됨을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-149">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="ee48f-150">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-150">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-151">재료 포함</span><span class="sxs-lookup"><span data-stu-id="ee48f-151">Include Material</span></span> | <span data-ttu-id="ee48f-152">**예**/**아니요** 값은 선택한 프로젝트의 재료 비용이 이 견적 라인의 견적에 포함되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-152">A **Yes**/**No** value indicates if material costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="ee48f-153">**아니요** 값은 재료 비용이 이 견적 라인의 견적에 포함되지 않음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-153">A **No** value indicates that the material costs will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="ee48f-154">**예** 값은 재료 비용이 이 견적 라인의 견적에 포함됨을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-154">A **Yes** value indicates that the material costs will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="ee48f-155">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-155">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-156">요금 포함</span><span class="sxs-lookup"><span data-stu-id="ee48f-156">Include Fee</span></span> | <span data-ttu-id="ee48f-157">**예**/**아니요** 값은 선택한 프로젝트의 수수료가 이 견적 라인의 견적에 포함되는지 여부를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-157">A **Yes**/**No** value indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="ee48f-158">**아니요** 값은 수수료가 이 견적 라인의 추정에 포함되는 않음을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-158">A **No** value indicates that the fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="ee48f-159">**예** 값은 수수료가 이 견적 라인의 추정에 포함됨을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-159">A **Yes** value indicates that the fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="ee48f-160">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-160">This value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-161">견적 금액</span><span class="sxs-lookup"><span data-stu-id="ee48f-161">Quoted Amount</span></span> | <span data-ttu-id="ee48f-162">이 프로젝트 기반 견적 라인에서 예측된 모든 작업에 대해 고객에게 견적될 금액입니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-162">This is the amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="ee48f-163">영업 기회에서 견적이 생성되면 이 값은 영업 기회 라인의 **고객 예산** 필드에서 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-163">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="ee48f-164">프로젝트 기반 견적 라인에 라인 상세 내역이 있는 경우 이 필드는 편집을 위해 잠기고 견적 라인 상세 내역의 금액에서 요약됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-164">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="ee48f-165">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-165">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-166">예상 세금</span><span class="sxs-lookup"><span data-stu-id="ee48f-166">Estimated Tax</span></span> | <span data-ttu-id="ee48f-167">사용자가 견적 라인에 예상 세액을 추가할 수 있는 편집 가능한 필드입니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-167">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="ee48f-168">프로젝트 기반 견적 라인에 라인 상세 내역이 있는 경우 이 필드는 편집을 위해 잠기고 견적 라인 상세 내역의 세액에서 요약됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-168">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="ee48f-169">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-169">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-170">세금 공제 후 견적 금액</span><span class="sxs-lookup"><span data-stu-id="ee48f-170">Quoted Amount after Tax</span></span> | <span data-ttu-id="ee48f-171">이 필드는 세금 공제 후 견적 라인 금액이며 읽기 전용입니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-171">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="ee48f-172">이 필드의 금액은 *견적 금액 + 세금* 으로 계산됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-172">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="ee48f-173">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-173">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-174">초과 안 함 한도</span><span class="sxs-lookup"><span data-stu-id="ee48f-174">Not-to-exceed Limit</span></span> | <span data-ttu-id="ee48f-175">이 필드는 편집 가능하며 **시간 및 재료** 청구 방법이 있는 프로젝트 기반 견적 라인에서만 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-175">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="ee48f-176">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-176">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="ee48f-177">고객 예산</span><span class="sxs-lookup"><span data-stu-id="ee48f-177">Customer Budget</span></span> | <span data-ttu-id="ee48f-178">이 필드는 편집 가능하며 영업 기회에서 견적이 생성된 경우 영업 기회 라인의 해당 필드에서 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-178">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="ee48f-179">이 값은 견적이 성사될 때 이 견적 라인에서 생성된 프로젝트 계약 내용에 복사됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-179">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
 
 
-## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="282ce-176">프로젝트 기반 견적 라인의 일반 탭에 있는 필드에 대한 유효성 검사 규칙</span><span class="sxs-lookup"><span data-stu-id="282ce-176">Validation rules for fields on the General tab of project-based quote lines</span></span>
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="ee48f-180">프로젝트 기반 견적 라인의 일반 탭에 있는 필드에 대한 유효성 검사 규칙</span><span class="sxs-lookup"><span data-stu-id="ee48f-180">Validation rules for fields on the General tab of project-based quote lines</span></span>
 
-<span data-ttu-id="282ce-177">**규칙 1**: **포함된 작업** 필드가 비어 있거나 **모든 프로젝트 작업** 으로 설정된 경우 프로젝트가 견적 라인에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-177">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
+<span data-ttu-id="ee48f-181">**규칙 1**: **포함된 작업** 필드가 비어 있거나 **모든 프로젝트 작업** 으로 설정된 경우 프로젝트가 견적 라인에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-181">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
 
-<span data-ttu-id="282ce-178">**규칙 2**: **포함된 작업** 필드가 비어 있거나 **모든 프로젝트 작업** 으로 설정된 경우 프로젝트 및 특정 트랜잭션 클래스는 견적의 프로젝트 기반 견적 라인 하나에만 포함될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-178">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
+<span data-ttu-id="ee48f-182">**규칙 2**: **포함된 작업** 필드가 비어 있거나 **모든 프로젝트 작업** 으로 설정된 경우 프로젝트 및 특정 트랜잭션 클래스는 견적의 프로젝트 기반 견적 라인 하나에만 포함될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-182">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
 
-<span data-ttu-id="282ce-179">**규칙 3**: **포함된 작업** 필드가 **선택한 프로젝트 작업만** 으로 설정된 경우 프로젝트 및 특정 트랜잭션 클래스는 견적의 여러 프로젝트 기반 견적 라인에 포함될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-179">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
+<span data-ttu-id="ee48f-183">**규칙 3**: **포함된 작업** 필드가 **선택한 프로젝트 작업만** 으로 설정된 경우 프로젝트 및 특정 트랜잭션 클래스는 견적의 여러 프로젝트 기반 견적 라인에 포함될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-183">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
 
-<span data-ttu-id="282ce-180">**규칙 4**: 영업 기회에 여러 견적이 있는 경우 모두 동일한 프로젝트를 참조하고 동일한 트랜잭션 클래스를 포함하는 서로 다른 견적의 견적 라인이 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-180">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
+<span data-ttu-id="ee48f-184">**규칙 4**: 영업 기회에 여러 견적이 있는 경우 모두 동일한 프로젝트를 참조하고 동일한 트랜잭션 클래스를 포함하는 서로 다른 견적의 견적 라인이 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-184">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
 
-<span data-ttu-id="282ce-181">**규칙 5**: 견적이 동일한 영업 기회에 속하지 않는 경우 동일한 프로젝트 및 트랜잭션 클래스를 포함할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-181">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
+<span data-ttu-id="ee48f-185">**규칙 5**: 견적이 동일한 영업 기회에 속하지 않는 경우 동일한 프로젝트 및 트랜잭션 클래스를 포함할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-185">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
-                <p><span data-ttu-id="282ce-182">
+            <td width="59" valign="top">
+                <p><span data-ttu-id="ee48f-186">
                     <strong>영업 기회</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-182">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-186">
                     <strong>Opportunity</strong>
                 </span></span></p>
             </td>
-            <td width="41" valign="top">
-                <p><span data-ttu-id="282ce-183">
+            <td width="39" valign="top">
+                <p><span data-ttu-id="ee48f-187">
                     <strong>견적</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-183">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-187">
                     <strong>Quote</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="282ce-184">
+            <td width="40" valign="top">
+                <p><span data-ttu-id="ee48f-188">
                     <strong>견적 라인</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-184">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-188">
                     <strong>Quote line</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="282ce-185">
+            <td width="41" valign="top">
+                <p><span data-ttu-id="ee48f-189">
                     <strong>Project</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-185">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-189">
                     <strong>Project</strong>
                 </span></span></p>
             </td>
-            <td width="90" valign="top">
-                <p><span data-ttu-id="282ce-186">
+            <td width="77" valign="top">
+                <p><span data-ttu-id="ee48f-190">
                     <strong>포함된 작업</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-186">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-190">
                     <strong>Included tasks</strong>
                 </span></span></p>
             </td>
-            <td width="48" valign="top">
-                <p><span data-ttu-id="282ce-187">
+            <td width="45" valign="top">
+                <p><span data-ttu-id="ee48f-191">
                     <strong>시간 포함</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-187">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-191">
                     <strong>Include Time</strong>
                 </span></span></p>
             </td>
-            <td width="48" valign="top">
-                <p><span data-ttu-id="282ce-188">
+            <td width="46" valign="top">
+                <p><span data-ttu-id="ee48f-192">
                     <strong>경비 포함</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-188">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-192">
                     <strong>Include Expense</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="282ce-189">
+            <td width="43" valign="top">
+                <p><span data-ttu-id="ee48f-193">
+                    <strong>재료 포함</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-193">
+                    <strong>Include Material</strong>
+                </span></span></p>
+            </td>
+            <td width="41" valign="top">
+                <p><span data-ttu-id="ee48f-194">
                     <strong>포함</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-189">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-194">
                     <strong>Include</strong>
                 </span></span></p>
-                <p><span data-ttu-id="282ce-190">
+                <p><span data-ttu-id="ee48f-195">
                     <strong>금액</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-190">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-195">
                     <strong>Fee</strong>
                 </span></span></p>
             </td>
-            <td width="54" valign="top">
-                <p><span data-ttu-id="282ce-191">
+            <td width="49" valign="top">
+                <p><span data-ttu-id="ee48f-196">
                     <strong>유효/유효하지 않음</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-191">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-196">
                     <strong>Valid/ Not valid</strong>
                 </span></span></p>
             </td>
-            <td width="308" valign="top">
-                <p><span data-ttu-id="282ce-192">
+            <td width="200" valign="top">
+                <p><span data-ttu-id="ee48f-197">
                     <strong>원인</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="282ce-192">
+                </span><span class="sxs-lookup"><span data-stu-id="ee48f-197">
                     <strong>Reason</strong>
                 </span></span></p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-193">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-193">O1</span></span> </p>
+<span data-ttu-id="ee48f-198">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-198">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-199">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-199">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-200">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-200">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-194">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-194">Q1</span></span> </p>
+<span data-ttu-id="ee48f-201">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-201">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-195">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-195">QL1</span></span> </p>
+<span data-ttu-id="ee48f-202">빈 템플릿</span><span class="sxs-lookup"><span data-stu-id="ee48f-202">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-196">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-196">P1</span></span> </p>
+<span data-ttu-id="ee48f-203">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-203">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-197">비어 있음</span><span class="sxs-lookup"><span data-stu-id="282ce-197">Blank</span></span> </p>
+<span data-ttu-id="ee48f-204">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-204">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-198">예</span><span class="sxs-lookup"><span data-stu-id="282ce-198">Yes</span></span> </p>
+<span data-ttu-id="ee48f-205">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-205">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-199">예</span><span class="sxs-lookup"><span data-stu-id="282ce-199">Yes</span></span> </p>
+<span data-ttu-id="ee48f-206">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-206">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-200">예</span><span class="sxs-lookup"><span data-stu-id="282ce-200">Yes</span></span> </p>
+<span data-ttu-id="ee48f-207">유효하지 않음</span><span class="sxs-lookup"><span data-stu-id="ee48f-207">Not valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-201">유효하지 않음</span><span class="sxs-lookup"><span data-stu-id="282ce-201">Not valid</span></span> </p>
+<span data-ttu-id="ee48f-208">규칙 #2의 위반.</span><span class="sxs-lookup"><span data-stu-id="ee48f-208">Violation of Rule #2.</span></span> <span data-ttu-id="ee48f-209">P1 프로젝트의 시간, 경비 및 요금은 견적 라인 QL1 및 QL2에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-209">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+        </tr>
+        <tr>
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-202">규칙 #2의 위반.</span><span class="sxs-lookup"><span data-stu-id="282ce-202">Violation of Rule #2.</span></span> <span data-ttu-id="282ce-203">P1 프로젝트의 시간, 경비 및 요금은 견적 라인 QL1 및 QL2에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-203">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2.</span></span>
+<span data-ttu-id="ee48f-210">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-210">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-211">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-211">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-212">QL2</span><span class="sxs-lookup"><span data-stu-id="ee48f-212">QL2</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="ee48f-213">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-213">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="ee48f-214">빈 템플릿</span><span class="sxs-lookup"><span data-stu-id="ee48f-214">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="ee48f-215">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-215">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="ee48f-216">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-216">Yes</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ee48f-217">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-217">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="ee48f-218">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-218">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="77" valign="top">
+            </td>
+            <td width="45" valign="top">
+            </td>
+            <td width="46" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="49" valign="top">
+            </td>
+            <td width="200" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="ee48f-219">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-219">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-220">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-220">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-221">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-221">QL1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="ee48f-222">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-222">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="ee48f-223">빈 템플릿</span><span class="sxs-lookup"><span data-stu-id="ee48f-223">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="ee48f-224">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-224">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="ee48f-225">없음</span><span class="sxs-lookup"><span data-stu-id="ee48f-225">No</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ee48f-226">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-226">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="ee48f-227">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-227">Yes</span></span> </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ee48f-228">유효하지 않음</span><span class="sxs-lookup"><span data-stu-id="ee48f-228">Not valid</span></span> </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ee48f-229">규칙 #2의 위반.</span><span class="sxs-lookup"><span data-stu-id="ee48f-229">Violation of Rule #2.</span></span> <span data-ttu-id="ee48f-230">P1 프로젝트의 시간, 재료 및 요금은 견적 라인 QL1 및 QL2에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-230">Time, Material, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="ee48f-231">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-231">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-232">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-232">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-233">QL2</span><span class="sxs-lookup"><span data-stu-id="ee48f-233">QL2</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="ee48f-234">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-234">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="ee48f-235">빈 템플릿</span><span class="sxs-lookup"><span data-stu-id="ee48f-235">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="ee48f-236">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-236">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="ee48f-237">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-237">Yes</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ee48f-238">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-238">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="ee48f-239">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-239">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="77" valign="top">
+            </td>
+            <td width="45" valign="top">
+            </td>
+            <td width="46" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="49" valign="top">
+            </td>
+            <td width="200" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="ee48f-240">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-240">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-241">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-241">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-242">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-242">QL1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="ee48f-243">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-243">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="ee48f-244">빈 템플릿</span><span class="sxs-lookup"><span data-stu-id="ee48f-244">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="ee48f-245">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-245">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="ee48f-246">없음</span><span class="sxs-lookup"><span data-stu-id="ee48f-246">No</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="ee48f-247">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-247">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="ee48f-248">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-248">Yes</span></span> </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ee48f-249">유효함</span><span class="sxs-lookup"><span data-stu-id="ee48f-249">Valid</span></span> </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="ee48f-250">P1 프로젝트의 시간, 재료 및 요금은 QL1에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-250">Time, Material, and Fees on P1 project are included on QL1</span></span> <br>
+<span data-ttu-id="ee48f-251">P1 프로젝트의 경비는 QL2에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-251">Expense on P1 project is included on QL2</span></span> <br>
+<span data-ttu-id="ee48f-252">각 견적 라인에 포함되는 내용이 중복되지 않으므로 유효합니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-252">No overlap in what is being included on each quote line and therefore valid.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-204">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-204">O1</span></span> </p>
+<span data-ttu-id="ee48f-253">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-253">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-254">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-254">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-255">QL2</span><span class="sxs-lookup"><span data-stu-id="ee48f-255">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-205">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-205">Q1</span></span> </p>
+<span data-ttu-id="ee48f-256">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-256">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-206">QL2</span><span class="sxs-lookup"><span data-stu-id="282ce-206">QL2</span></span> </p>
+<span data-ttu-id="ee48f-257">빈 템플릿</span><span class="sxs-lookup"><span data-stu-id="ee48f-257">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-207">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-207">P1</span></span> </p>
+<span data-ttu-id="ee48f-258">없음</span><span class="sxs-lookup"><span data-stu-id="ee48f-258">No</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-208">비어 있음</span><span class="sxs-lookup"><span data-stu-id="282ce-208">Blank</span></span> </p>
+<span data-ttu-id="ee48f-259">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-259">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-209">예</span><span class="sxs-lookup"><span data-stu-id="282ce-209">Yes</span></span> </p>
+<span data-ttu-id="ee48f-260">없음</span><span class="sxs-lookup"><span data-stu-id="ee48f-260">No</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-210">예</span><span class="sxs-lookup"><span data-stu-id="282ce-210">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-211">예</span><span class="sxs-lookup"><span data-stu-id="282ce-211">Yes</span></span> </p>
+<span data-ttu-id="ee48f-261">없음</span><span class="sxs-lookup"><span data-stu-id="ee48f-261">No</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-212">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-212">O1</span></span> </p>
+<span data-ttu-id="ee48f-262">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-262">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-263">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-263">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-264">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-264">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-213">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-213">Q1</span></span> </p>
+<span data-ttu-id="ee48f-265">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-265">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-214">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-214">QL1</span></span> </p>
+<span data-ttu-id="ee48f-266">선택한 작업만</span><span class="sxs-lookup"><span data-stu-id="ee48f-266">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-215">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-215">P1</span></span> </p>
+<span data-ttu-id="ee48f-267">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-267">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-216">비어 있음</span><span class="sxs-lookup"><span data-stu-id="282ce-216">Blank</span></span> </p>
+<span data-ttu-id="ee48f-268">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-268">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-217">예</span><span class="sxs-lookup"><span data-stu-id="282ce-217">Yes</span></span> </p>
+<span data-ttu-id="ee48f-269">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-269">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-218">없음</span><span class="sxs-lookup"><span data-stu-id="282ce-218">No</span></span> </p>
+<span data-ttu-id="ee48f-270">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-270">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-219">예</span><span class="sxs-lookup"><span data-stu-id="282ce-219">Yes</span></span> </p>
+<span data-ttu-id="ee48f-271">유효하지 않음</span><span class="sxs-lookup"><span data-stu-id="ee48f-271">Not valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-220">유효하지 않음</span><span class="sxs-lookup"><span data-stu-id="282ce-220">Not valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
+<span data-ttu-id="ee48f-272">규칙 #2의 위반</span><span class="sxs-lookup"><span data-stu-id="ee48f-272">Violation of Rule #2</span></span> </p>
                 <p>
-<span data-ttu-id="282ce-221">규칙 #2의 위반.</span><span class="sxs-lookup"><span data-stu-id="282ce-221">Violation of Rule #2.</span></span> <span data-ttu-id="282ce-222">P1 프로젝트의 시간 및 요금은 견적 라인 QL1 및 QL2에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-222">Time and Fees on P1 project are included on quote lines QL1 and QL2.</span></span>
+<span data-ttu-id="ee48f-273">Q1에는 프로젝트 P1의 작업 하위 집합에 대한 시간, 재료, 경비 및 요금이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-273">Q1 includes Time, Material, Expenses and Fees on a subset of tasks on project P1</span></span> </p>
+                <p>
+<span data-ttu-id="ee48f-274">CL2에는 전체 프로젝트 P1에 대한 시간, 경비 및 요금이 포함되므로 C1에 포함된 내용과 겹칩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-274">QL2 includes Time, Expenses, and Fees for the whole project P1 and therefore overlaps with what is included on Q1.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-223">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-223">O1</span></span> </p>
+<span data-ttu-id="ee48f-275">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-275">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-276">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-276">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-277">QL2</span><span class="sxs-lookup"><span data-stu-id="ee48f-277">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-224">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-224">Q1</span></span> </p>
+<span data-ttu-id="ee48f-278">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-278">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-225">QL2</span><span class="sxs-lookup"><span data-stu-id="282ce-225">QL2</span></span> </p>
+<span data-ttu-id="ee48f-279">빈 템플릿</span><span class="sxs-lookup"><span data-stu-id="ee48f-279">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-226">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-226">P1</span></span> </p>
+<span data-ttu-id="ee48f-280">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-280">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-227">비어 있음</span><span class="sxs-lookup"><span data-stu-id="282ce-227">Blank</span></span> </p>
+<span data-ttu-id="ee48f-281">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-281">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-228">예</span><span class="sxs-lookup"><span data-stu-id="282ce-228">Yes</span></span> </p>
+<span data-ttu-id="ee48f-282">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-282">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-229">예</span><span class="sxs-lookup"><span data-stu-id="282ce-229">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-230">예</span><span class="sxs-lookup"><span data-stu-id="282ce-230">Yes</span></span> </p>
+<span data-ttu-id="ee48f-283">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-283">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-231">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-231">O1</span></span> </p>
+<span data-ttu-id="ee48f-284">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-284">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-285">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-285">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-286">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-286">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-232">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-232">Q1</span></span> </p>
+<span data-ttu-id="ee48f-287">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-287">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-233">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-233">QL1</span></span> </p>
+<span data-ttu-id="ee48f-288">선택한 작업만</span><span class="sxs-lookup"><span data-stu-id="ee48f-288">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-234">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-234">P1</span></span> </p>
+<span data-ttu-id="ee48f-289">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-289">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-235">비어 있음</span><span class="sxs-lookup"><span data-stu-id="282ce-235">Blank</span></span> </p>
+<span data-ttu-id="ee48f-290">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-290">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-236">예</span><span class="sxs-lookup"><span data-stu-id="282ce-236">Yes</span></span> </p>
+<span data-ttu-id="ee48f-291">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-291">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-237">없음</span><span class="sxs-lookup"><span data-stu-id="282ce-237">No</span></span> </p>
+<span data-ttu-id="ee48f-292">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-292">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-238">예</span><span class="sxs-lookup"><span data-stu-id="282ce-238">Yes</span></span> </p>
+<span data-ttu-id="ee48f-293">유효함</span><span class="sxs-lookup"><span data-stu-id="ee48f-293">Valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-239">유효</span><span class="sxs-lookup"><span data-stu-id="282ce-239">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-<span data-ttu-id="282ce-240">P1 프로젝트의 시간 및 요금은 QL1에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-240">Time and Fees on P1 project are included on QL1.</span></span>
-<span data-ttu-id="282ce-241">P1 프로젝트의 경비는 QL2에 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-241">Expense on P1 project is included on QL2.</span></span>
-<span data-ttu-id="282ce-242">각 견적 라인에 포함되는 내용이 겹치지 않으며 유효합니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-242">There is no overlap in what is being included on each quote line and is valid.</span></span>
+<span data-ttu-id="ee48f-294">규칙 3번에 따라</span><span class="sxs-lookup"><span data-stu-id="ee48f-294">Per Rule #3,</span></span> </p>
+                <p>
+<span data-ttu-id="ee48f-295">Q1에는 프로젝트 P1의 작업 하위 집합에 대한 시간, 재료, 경비 및 요금이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-295">Q1 includes Time, Material, Expenses, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="ee48f-296">Q2에는 프로젝트 P1의 작업 하위 집합에 대한 시간, 재료, 경비 및 요금이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-296">QL2 includes Time, Material, Expenses, and Fees for a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="ee48f-297">유일한 추가 유효성 검사는 QL2의 작업 하위 집합과 다른 QL1 작업의 하위 집합을 중심으로 중복이 없는지 확인하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-297">The only additional validation is around the subset of tasks on QL1 which is different from the subset of tasks on QL2 to ensure that there is no overlap.</span></span> <span data-ttu-id="ee48f-298">이것은 작업이 연관될 때 시스템에 의해 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-298">This is done by the system when tasks are associated.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-243">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-243">O1</span></span> </p>
+<span data-ttu-id="ee48f-299">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-299">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-300">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-300">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-301">QL2</span><span class="sxs-lookup"><span data-stu-id="ee48f-301">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-244">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-244">Q1</span></span> </p>
+<span data-ttu-id="ee48f-302">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-302">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-245">QL2</span><span class="sxs-lookup"><span data-stu-id="282ce-245">QL2</span></span> </p>
+<span data-ttu-id="ee48f-303">선택한 작업만</span><span class="sxs-lookup"><span data-stu-id="ee48f-303">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-246">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-246">P1</span></span> </p>
+<span data-ttu-id="ee48f-304">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-304">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-247">비어 있음</span><span class="sxs-lookup"><span data-stu-id="282ce-247">Blank</span></span> </p>
+<span data-ttu-id="ee48f-305">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-305">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-248">없음</span><span class="sxs-lookup"><span data-stu-id="282ce-248">No</span></span> </p>
+<span data-ttu-id="ee48f-306">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-306">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-249">예</span><span class="sxs-lookup"><span data-stu-id="282ce-249">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-250">없음</span><span class="sxs-lookup"><span data-stu-id="282ce-250">No</span></span> </p>
+<span data-ttu-id="ee48f-307">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-307">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-251">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-251">O1</span></span> </p>
+<span data-ttu-id="ee48f-308">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-308">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-309">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-309">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-310">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-310">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-252">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-252">Q1</span></span> </p>
+<span data-ttu-id="ee48f-311">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-311">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-253">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-253">QL1</span></span> </p>
+<span data-ttu-id="ee48f-312">모든 프로젝트 작업 또는 공백</span><span class="sxs-lookup"><span data-stu-id="ee48f-312">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-254">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-254">P1</span></span> </p>
+<span data-ttu-id="ee48f-313">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-313">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-255">선택한 작업만</span><span class="sxs-lookup"><span data-stu-id="282ce-255">Selected tasks only</span></span> </p>
+<span data-ttu-id="ee48f-314">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-314">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-256">예</span><span class="sxs-lookup"><span data-stu-id="282ce-256">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-257">예</span><span class="sxs-lookup"><span data-stu-id="282ce-257">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-258">예</span><span class="sxs-lookup"><span data-stu-id="282ce-258">Yes</span></span> </p>
-            </td>
-            <td width="54" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="282ce-259">유효하지 않음</span><span class="sxs-lookup"><span data-stu-id="282ce-259">Not valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="282ce-260">위 규칙 #2의 위반.</span><span class="sxs-lookup"><span data-stu-id="282ce-260">Violation of Rule #2 above</span></span> </p>
-                <p>
-<span data-ttu-id="282ce-261">Q1에는 프로젝트 P1의 작업 하위 집합에 대한 시간, 경비 및 요금이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-261">Q1 includes Time, Expenses, and Fees on a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="282ce-262">QL2에는 전체 프로젝트 P1에 대한 시간, 경비 및 요금이 포함되며 Q1에 포함된 내용과 중복됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-262">QL2 includes Time, Expenses, and Fees for the whole project P1 and overlaps with what is included on Q1.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="282ce-263">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-263">O1</span></span> </p>
+<span data-ttu-id="ee48f-315">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-315">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-264">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-264">Q1</span></span> </p>
+<span data-ttu-id="ee48f-316">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-316">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-265">QL2</span><span class="sxs-lookup"><span data-stu-id="282ce-265">QL2</span></span> </p>
+<span data-ttu-id="ee48f-317">유효함</span><span class="sxs-lookup"><span data-stu-id="ee48f-317">Valid</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-266">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-266">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="282ce-267">비어 있음</span><span class="sxs-lookup"><span data-stu-id="282ce-267">Blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-268">예</span><span class="sxs-lookup"><span data-stu-id="282ce-268">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-269">예</span><span class="sxs-lookup"><span data-stu-id="282ce-269">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-270">예</span><span class="sxs-lookup"><span data-stu-id="282ce-270">Yes</span></span> </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-            </td>
-            <td width="41" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="90" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="282ce-271">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-271">O1</span></span> </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-<span data-ttu-id="282ce-272">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-272">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-273">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-273">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-274">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-274">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="282ce-275">선택한 작업만</span><span class="sxs-lookup"><span data-stu-id="282ce-275">Selected tasks only</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-276">예</span><span class="sxs-lookup"><span data-stu-id="282ce-276">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-277">예</span><span class="sxs-lookup"><span data-stu-id="282ce-277">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-278">예</span><span class="sxs-lookup"><span data-stu-id="282ce-278">Yes</span></span> </p>
-            </td>
-            <td width="54" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="282ce-279">유효</span><span class="sxs-lookup"><span data-stu-id="282ce-279">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="282ce-280">위 규칙 #3에 따라</span><span class="sxs-lookup"><span data-stu-id="282ce-280">Per Rule #3 above,</span></span> </p>
-                <p>
-<span data-ttu-id="282ce-281">Q1에는 프로젝트 P1의 작업 하위 집합에 대한 시간, 경비 및 요금이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-281">Q1 includes Time, Expenses, and Fees on a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="282ce-282">Q1에는 프로젝트 P1의 작업 하위 집합에 대한 시간, 경비 및 요금이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-282">QL2 includes Time, Expenses, and Fees for a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="282ce-283">유일한 추가 유효성 검사는 QL2의 작업 하위 집합과 다른 QL1의 작업 하위 집합에 대한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-283">The only additional validation is around the subset of tasks on QL1 which are different from the subset of tasks on QL2.</span></span> <span data-ttu-id="282ce-284">이렇게 하면 겹치는 부분이 없습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-284">This ensures that there are no overlaps.</span></span> <span data-ttu-id="282ce-285">이것은 작업이 연관될 때 시스템에 의해 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-285">This is done by the system when tasks are associated.</span></span>
+<span data-ttu-id="ee48f-318">규칙 5번에 따라 Q1 및 Q2는 동일한 영업 기회에 대한 두 개의 견적이므로 둘 다 프로젝트의 동일한 구성 요소를 추정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-318">Per Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-286">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-286">O1</span></span> </p>
+<span data-ttu-id="ee48f-319">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-319">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-320">2분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-320">Q2</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-321">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-321">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-287">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-287">Q1</span></span> </p>
+<span data-ttu-id="ee48f-322">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-322">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-288">QL2</span><span class="sxs-lookup"><span data-stu-id="282ce-288">QL2</span></span> </p>
+<span data-ttu-id="ee48f-323">모든 프로젝트 작업 또는 공백</span><span class="sxs-lookup"><span data-stu-id="ee48f-323">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-289">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-289">P1</span></span> </p>
+<span data-ttu-id="ee48f-324">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-324">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-290">선택한 작업만</span><span class="sxs-lookup"><span data-stu-id="282ce-290">Selected tasks only</span></span> </p>
+<span data-ttu-id="ee48f-325">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-325">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-291">예</span><span class="sxs-lookup"><span data-stu-id="282ce-291">Yes</span></span> </p>
+<span data-ttu-id="ee48f-326">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-326">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-292">예</span><span class="sxs-lookup"><span data-stu-id="282ce-292">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-293">예</span><span class="sxs-lookup"><span data-stu-id="282ce-293">Yes</span></span> </p>
+<span data-ttu-id="ee48f-327">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-327">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-294">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-294">O1</span></span> </p>
+<span data-ttu-id="ee48f-328">O1</span><span class="sxs-lookup"><span data-stu-id="ee48f-328">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-329">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-329">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-330">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-330">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-295">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-295">Q1</span></span> </p>
+<span data-ttu-id="ee48f-331">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-331">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-296">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-296">QL1</span></span> </p>
+<span data-ttu-id="ee48f-332">모든 프로젝트 작업 또는 공백</span><span class="sxs-lookup"><span data-stu-id="ee48f-332">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-297">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-297">P1</span></span> </p>
+<span data-ttu-id="ee48f-333">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-333">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-298">모든 프로젝트 작업 또는 공백</span><span class="sxs-lookup"><span data-stu-id="282ce-298">All project tasks or blank</span></span> </p>
+<span data-ttu-id="ee48f-334">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-334">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-299">예</span><span class="sxs-lookup"><span data-stu-id="282ce-299">Yes</span></span> </p>
+<span data-ttu-id="ee48f-335">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-335">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-300">예</span><span class="sxs-lookup"><span data-stu-id="282ce-300">Yes</span></span> </p>
+<span data-ttu-id="ee48f-336">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-336">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-301">예</span><span class="sxs-lookup"><span data-stu-id="282ce-301">Yes</span></span> </p>
+<span data-ttu-id="ee48f-337">유효하지 않음</span><span class="sxs-lookup"><span data-stu-id="ee48f-337">Not Valid</span></span> </p>
             </td>
-            <td width="54" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="282ce-302">유효</span><span class="sxs-lookup"><span data-stu-id="282ce-302">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="282ce-303">규칙 #5에 따라 Q1 및 Q2는 동일한 영업 기회에 대한 두 개의 견적이므로 둘 다 프로젝트의 동일한 구성 요소를 추정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-303">Based on Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
+<span data-ttu-id="ee48f-338">규칙 4번에 따라 Q1 및 Q2는 다른 영업 기회에 대한 두 개의 견적이므로 동일한 프로젝트의 동일한 구성 요소를 추정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ee48f-338">Per Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of same project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="282ce-304">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-304">O1</span></span> </p>
+<span data-ttu-id="ee48f-339">O2</span><span class="sxs-lookup"><span data-stu-id="ee48f-339">O2</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="ee48f-340">1분기</span><span class="sxs-lookup"><span data-stu-id="ee48f-340">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="ee48f-341">QL1</span><span class="sxs-lookup"><span data-stu-id="ee48f-341">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-305">2분기</span><span class="sxs-lookup"><span data-stu-id="282ce-305">Q2</span></span> </p>
+<span data-ttu-id="ee48f-342">P1</span><span class="sxs-lookup"><span data-stu-id="ee48f-342">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="282ce-306">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-306">QL1</span></span> </p>
+<span data-ttu-id="ee48f-343">모든 프로젝트 작업 또는 공백</span><span class="sxs-lookup"><span data-stu-id="ee48f-343">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="282ce-307">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-307">P1</span></span> </p>
+<span data-ttu-id="ee48f-344">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-344">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="282ce-308">모든 프로젝트 작업 또는 공백</span><span class="sxs-lookup"><span data-stu-id="282ce-308">All project tasks or blank</span></span> </p>
+<span data-ttu-id="ee48f-345">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-345">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="282ce-309">예</span><span class="sxs-lookup"><span data-stu-id="282ce-309">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-310">예</span><span class="sxs-lookup"><span data-stu-id="282ce-310">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-311">예</span><span class="sxs-lookup"><span data-stu-id="282ce-311">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-            </td>
-            <td width="41" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="90" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="282ce-312">O1</span><span class="sxs-lookup"><span data-stu-id="282ce-312">O1</span></span> </p>
+<span data-ttu-id="ee48f-346">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-346">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="282ce-313">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-313">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-314">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-314">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-315">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-315">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="282ce-316">모든 프로젝트 작업 또는 공백</span><span class="sxs-lookup"><span data-stu-id="282ce-316">All project tasks or blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-317">예</span><span class="sxs-lookup"><span data-stu-id="282ce-317">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-318">예</span><span class="sxs-lookup"><span data-stu-id="282ce-318">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-319">예</span><span class="sxs-lookup"><span data-stu-id="282ce-319">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-                <p>
-<span data-ttu-id="282ce-320">유효</span><span class="sxs-lookup"><span data-stu-id="282ce-320">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="282ce-321">규칙 #4에 따라 Q1 및 Q2는 다른 영업 기회에 대한 두 개의 견적이므로 같은 프로젝트의 동일한 구성 요소를 추정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="282ce-321">Based on Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of the same project.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="282ce-322">O2</span><span class="sxs-lookup"><span data-stu-id="282ce-322">O2</span></span> </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-<span data-ttu-id="282ce-323">1분기</span><span class="sxs-lookup"><span data-stu-id="282ce-323">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-324">QL1</span><span class="sxs-lookup"><span data-stu-id="282ce-324">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-325">P1</span><span class="sxs-lookup"><span data-stu-id="282ce-325">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="282ce-326">모든 프로젝트 작업 또는 공백</span><span class="sxs-lookup"><span data-stu-id="282ce-326">All project tasks or blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-327">예</span><span class="sxs-lookup"><span data-stu-id="282ce-327">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="282ce-328">예</span><span class="sxs-lookup"><span data-stu-id="282ce-328">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="282ce-329">예</span><span class="sxs-lookup"><span data-stu-id="282ce-329">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-                <p>
-<span data-ttu-id="282ce-330">유효하지 않음</span><span class="sxs-lookup"><span data-stu-id="282ce-330">Not Valid</span></span> </p>
+<span data-ttu-id="ee48f-347">네</span><span class="sxs-lookup"><span data-stu-id="ee48f-347">Yes</span></span> </p>
             </td>
         </tr>
     </tbody>
 </table>
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
