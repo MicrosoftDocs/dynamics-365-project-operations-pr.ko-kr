@@ -3,17 +3,17 @@ title: 인력 청구 요금 설정
 description: 이 항목은 Project Operations에서 인력 청구 요금을 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274826"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877408"
 ---
 # <a name="set-up-labor-bill-rates"></a>인력 청구 요금 설정
 
@@ -21,8 +21,8 @@ _ **적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project 
 
 각 가격표에는 가격표 헤더에 포함된 컨텍스트 및 날짜 유효성에 유효한 역할 가격 또는 인력 요금 집합이 있습니다. Dynamics 365 Project Operations에서 시간에 대한 요금 청구는 가격표 헤더의 통화인 하나의 통화로만 설정할 수 있습니다.
 
-1. 판매 가격표에 대한 인력 청구 요금을 설정하려면 가격표 헤더를 기반으로 가격표를 생성합니다. 
-2. **역할 가격** 탭의 하위 표에서 **+ 새 역할 가격** 을 선택합니다. 
+1. 판매 가격표에 대한 인건비 요금을 설정하려면 **판매** > **고객** > **가격표** 로 이동하여 **새로 만들기** 를 선택하여 새 가격표를 만듭니다. 
+2. **역할 가격** 탭의 하위 표에서 **새 역할 가격** 을 선택합니다. 
 3. **빨리 만들기** 창에서 청구 요금을 설정해야 하는 역할 및 조직 단위 조합을 입력합니다.
 
    다음 표는 판매 가격표에서 역할 가격을 생성할 때 염두에 두어야 하는 역할 가격 라인의 **일반** 탭 및 **빨리 만들기** 창에 필드를 포함합니다.

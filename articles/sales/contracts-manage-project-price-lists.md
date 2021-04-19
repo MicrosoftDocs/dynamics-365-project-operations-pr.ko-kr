@@ -3,17 +3,17 @@ title: 프로젝트 계약에 대한 프로젝트 가격표 관리
 description: 이 항목은 프로젝트 계약의 프로젝트 가격표 관리에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278606"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858571"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>프로젝트 계약에 대한 프로젝트 가격표 관리
 
@@ -21,13 +21,13 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 Dynamics 365 Project Operations의 프로젝트 계약은 계약에서 여러 날짜 유효 판매 가격표를 지원하도록 설계되었습니다. Project Operations에는 **프로젝트 가격표** 라는 새로운 관련 엔터티가 있습니다. 이 엔터티는 프로젝트 계약에 대해 일대 다 관계를 가지고 있습니다.
 
-프로젝트 가격표는 프로젝트에 대한 시간 및 비용 트랜잭션의 가격을 책정하는 데 사용됩니다. 계약에 하나 이상의 프로젝트 가격표가 있는 경우 이러한 가격표는 계약 내용을 통해 계약과 연관된 프로젝트에 대한 시간 및 비용 추정 및 실제 가격을 책정하는 데 사용됩니다.
+프로젝트 가격표는 프로젝트에 대한 시간, 재료 및 경비 트랜잭션의 가격을 책정하는 데 사용됩니다. 계약에 하나 이상의 프로젝트 가격표가 있는 경우 이러한 가격표는 계약 내용을 통해 계약과 연관된 프로젝트의 시간, 재료, 경비 추정 및 실제 가격을 책정하는 데 사용됩니다.
 
-프로젝트 계약에 프로젝트 가격표가 없는 경우 프로젝트 가격표가 없으며 견적, 실제 프로젝트 작업 및 경비가 책정되지 않는다는 경고 메시지가 표시됩니다. 판매 가치에 대한 가격은 없습니다.
+프로젝트 계약에 프로젝트 가격표가 없으면 프로젝트 가격표가 없으며 기록된 견적, 실제 프로젝트 작업, 재료 및 경비 가격이 책정되지 않는다는 경고 메시지가 표시됩니다. 판매 가치에 대한 가격은 없습니다.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>프로젝트 계약에서 프로젝트 가격표 연결 또는 연결 해제
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>프로젝트 기반 작업 및 경비를 추정하기 위해 특정 가격표를 생성하거나 연결합니다.
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>프로젝트 기반 작업, 재료 및 경비를 추정하기 위해 특정 가격표를 생성하거나 연결합니다.
 
 1. 프로젝트 계약에서 **프로젝트 가격표** 탭을 선택합니다.
 2. 하위 표에서 **+ 새 프로젝트 가격표 추가** 를 선택합니다.
@@ -52,7 +52,7 @@ Dynamics 365 Project Operations의 프로젝트 계약은 계약에서 여러 �
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>계약에서 프로젝트 가격표의 자동 기본값 설정
 
-프로젝트 가격표는 프로젝트 계약에서 기본 목록으로 설정할 수 있습니다. 이 설정을 통해 조직의 모든 계약이 항상 해당 가격 기간에 대한 표준 가격표로 시작되도록 할 수 있습니다.
+프로젝트 가격표를 기본 프로젝트 가격표로 설정할 수 있습니다. 이 설정은 조직의 모든 계약이 항상 해당 가격 기간에 대한 표준 프로젝트 가격표로 시작되도록 합니다.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>프로젝트 가격표에 대한 조직 기본값 설정
 

@@ -1,22 +1,22 @@
 ---
-title: 추정 및 실제에서 원가 해결 - 라이트
-description: 이 항목은 추정 및 실제의 원가를 확인하는 방법에 대한 정보를 제공합니다.
+title: 프로젝트 추정 및 실제에서 원가 해결
+description: 이 항목은 프로젝트 추정 및 실제 비용 가격이 해결되는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274557"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877273"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>추정 및 실제에서 원가 해결 - 라이트
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>프로젝트 추정 및 실제에서 원가 해결 
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -36,6 +36,12 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 경비에 대한 추정 라인은 프로젝트의 경비 및 경비 추정 라인에 대한 견적 및 계약 내용 세부 사항을 참조합니다.
 
 비용 가격표가 해결된 후 시스템은 경비 추정 라인의 **범주** 및 **단위** 필드의 조합을 사용하여 해결된 가격표의 **범주 가격** 라인과 일치시킵니다. 시스템이 **범주** 및 **단위** 필드 조합에 대한 비용 요금이 있는 범주 가격 라인을 찾은 경우 이것이 비용 요금이 기본값입니다. 시스템이 **범주** 및 **단위** 값과 일치할 수 없거나 일치하는 범주 가격 라인을 찾을 수 있지만 가격 책정 방법이 **단가** 가 아닌 경우 비용 비율은 기본적으로 영(0)입니다.
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>자재에 대한 실제 및 추정 라인에 대한 비용 요금 해결
+
+자재 견적 라인은 자재 견적 및 계약 내용 상세 내역과 프로젝트의 자재 견적 라인을 참조합니다.
+
+가격표 항목이 해결된 후 시스템은 추정 라인의 **제품** 및 **단위** 필드의 조합을 사용하여 해결된 가격표의 **가격표 항목** 라인과 일치하는 예상 재표를 찾습니다. 시스템이 **제품** 및 **단위** 필드 조합에 대한 비용 요금이 있는 제품 가격 라인을 찾으면 비용 요금이 기본값으로 설정됩니다. 시스템이 **제품** 및 **단위** 값과 일치하지 않거나 일치하는 가격표 항목 라인을 찾을 수 있지만 가격 책정 방법이 표준 비용 또는 현재를 기반으로 하는 경우 비용이 제품에 정의되어 있지 않은 경우 단가는 기본적으로 0입니다.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

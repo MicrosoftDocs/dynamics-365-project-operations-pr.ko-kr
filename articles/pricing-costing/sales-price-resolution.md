@@ -3,17 +3,17 @@ title: 추정 및 실제에 대한 판매 가격 해결
 description: 이 항목은 추정 및 실제 판매율을 확인하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274961"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877453"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>추정 및 실제에 대한 판매 가격 해결
 
@@ -54,6 +54,17 @@ Project Operations에서 경비에 대한 추정 라인은 경비에 대한 견�
     | &nbsp; | 비용 초과 가격 인상액 | 관련 실제 비용의 단위 비용 비율에 범주 가격 라인에 정의된 인상을 적용 |
 
 4. 시스템이 **범주** 및 **단위** 필드 값을 일치시킬 수 없는 경우 판매율은 기본적으로 영(0)으로 설정됩니다.
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>재료에 대한 실제 및 추정 라인에 대한 판매율 해결
+
+Project Operations에서 자재 견적 라인은 자재 견적 라인 및 프로젝트의 자재 견적 라인을 나타내는 데 사용됩니다.
+
+판매 가격표가 해결되면 시스템은 다음 단계를 완료하여 단위 판매 가격을 기본값으로 설정합니다.
+
+1. 시스템은 해결된 가격표의 가격표 항목 라인과 일치시킬 자재에 대한 추정 라인의 **제품** 및 **단위** 필드 조합을 사용합니다.
+2. 시스템이 **제품** 및 **단위** 필드 조합에 대한 판매율이 있고 가격 책정 방법이 **통화 금액** 인 가격표 항목 라인을 찾은 경우, 가격 목록 라인에 지정된 판매 가격이 사용됩니다.
+3. **제품** 및 **단위** 필드 값이 일치하지 않는 경우 판매율은 기본적으로 0으로 설정됩니다.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

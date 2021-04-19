@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5b1b88596ddac48ab8adce00c25c3ccd83cdd727
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277571"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663647"
 ---
-# <a name="project-quote-settings"></a>프로젝트 견적 설정
+# <a name="header-details-for-project-based-quotes"></a>프로젝트 기반 견적에 대한 헤더 세부 사항
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 

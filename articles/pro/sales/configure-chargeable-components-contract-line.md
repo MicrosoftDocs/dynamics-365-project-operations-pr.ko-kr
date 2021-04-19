@@ -1,5 +1,5 @@
 ---
-title: 프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성 - 라이트
+title: 프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
 description: 이 항목은 Project Operations의 계약 내용에 청구 가능 구성 요스를 추가하는 방법에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273926"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858481"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성 - 라이트
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재고 기반 시나리오를 위한 Project Operations_
 
 프로젝트 기반 계약 내용에는 *포함* 구성 요소 및 *청구 가능* 구성 요소가 있습니다.
 
@@ -62,23 +62,582 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 ### <a name="resolve-chargeability"></a>청구 가능성 해결
 
-시간에 대해 생성된 추정 또는 실제는 **시간** 이 계약 내용에 포함되어 있고 **작업** 및 **역할** 이 계약 내용에서 청구 가능으로 구성된 경우에만 청구 가능한 것으로 간주됩니다.
+시간에 대해 생성된 추정 또는 실제는 다음 경우에만 청구 가능한 것으로 간주됩니다.
 
-경비에 대해 생성된 추정 또는 실제는 **경비** 가 계약 내용에 포함되어 있고 **작업** 및 **트랜잭션** 범주가 계약 내용에서 청구 가능으로 구성된 경우에만 청구 가능한 것으로 간주됩니다.
+   - **시간** 은 계약 내용에 포함됩니다.
+   - **역할** 은 계약 내용에서 청구 가능으로 구성됩니다.
+   - **포함된 작업** 은 계약 내용에서 **선택한 작업** 으로 설정됩니다.
+ 
+ 이 세 가지 사항이 참이면 작업이 청구 가능으로 구성됩니다. 
+
+경비에 대해 생성된 추정 또는 실제는 다음 경우에만 청구 가능한 것으로 간주됩니다.
+
+   - **경비** 는 계약 내용에 포함됩니다.
+   - **트랜잭션 범주** 는 계약 내용에서 청구 가능으로 구성됩니다.
+   - **포함된 작업** 은 계약 내용에서 **선택한 작업** 으로 설정됩니다.
+  
+ 이 세 가지 사항이 참이면 **작업** 이 청구 가능으로 구성됩니다. 
+
+재료에 대해 생성된 추정 또는 실제는 다음 경우에만 청구 가능한 것으로 간주됩니다.
+
+   - **재료** 는 계약 내용에 포함됩니다.
+   - **포함된 작업** 은 계약 내용에서 **선택한 작업** 으로 설정됩니다.
+
+이 두 가지 사항이 참이면 **작업** 이 청구 가능으로 구성됩니다. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>시간 포함</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>경비 포함</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>재료 포함</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>포함된 작업</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>역할</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>카테고리</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>작업</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>청구 가능성 영향</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+전체 프로젝트 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>청구 가능</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: <strong>청구 가능</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: <strong>청구 가능</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+선택한 작업만 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>청구 가능</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: <strong>청구 가능</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: <strong>청구 가능</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+선택한 작업만 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: 청구 가능 </p>
+                <p>
+실제 재료 청구 유형: 청구 가능 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+선택한 작업만 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: <strong>청구 불가능</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+선택한 작업만 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: <strong>청구 불가능</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+선택한 작업만 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: 청구 가능 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>없음</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+전체 프로젝트 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>청구 가능</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>사용할 수 없음</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: 청구 가능 </p>
+                <p>
+실제 재료 청구 유형: 청구 가능 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>없음</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+전체 프로젝트 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>사용할 수 없음</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: 청구 가능 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>없음</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+전체 프로젝트 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: 청구 가능 </p>
+                <p>
+실제 경비 청구 유형: <strong>사용할 수 없음</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: 청구 가능 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>없음</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+전체 프로젝트 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: <strong>사용할 수 없음</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: 청구 가능 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>없음</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+전체 프로젝트 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+청구 가능 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: 청구 가능 </p>
+                <p>
+실제 경비 청구 유형: 청구 가능 </p>
+                <p>
+실제 재료 청구 유형: <strong>사용할 수 없음</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+네 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>없음</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+전체 프로젝트 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>청구 불가능</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+설정할 수 없음 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+실제 시간 청구: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 경비 청구 유형: <strong>청구 불가능</strong>
+                </p>
+                <p>
+실제 재료 청구 유형: <strong>사용할 수 없음</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| 시간 포함 | 경비 포함 | 포함된 작업 | 역할           | 카테고리       | 작업                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| 예           | 예              | 전체 프로젝트 | 청구 가능     | 청구 가능     | 실제 시간 청구: **청구 가능** </br> 실제 경비 청구 유형: **청구 가능**           |
-| 예           | 예              | 선택한 작업 | 청구 가능     | 청구 가능     | 실제 시간 청구: **청구 가능** </br> 실제 경비 청구 유형: **청구 가능**           |
-| 예           | 예              | 선택한 작업 | 청구 불가능 | 청구 가능     | 실제 시간 청구: **청구 불가능** </br> 실제 경비 청구 유형: **청구 가능**       |
-| 예           | 예              | 선택한 작업 | 청구 가능     | 청구 가능     | 실제 시간 청구: **청구 불가능** </br> 실제 경비 청구 유형: **청구 불가능** |
-| 예           | 예              | 선택한 작업 | 청구 불가능 | 청구 가능     | 실제 시간 청구: **청구 불가능** </br> 실제 경비 청구 유형: **청구 불가능** |
-| 예           | 예              | 선택한 작업 | 청구 불가능 | 청구 불가능 | 실제 시간 청구: **청구 불가능** </br> 실제 경비 청구 유형: **청구 불가능** |
-| 없음            | 예              | 전체 프로젝트 | 설정할 수 없음   | 청구 가능     | 실제 시간 청구: **청구 불가능**</br>실제 경비 청구 유형: **청구 가능**          |
-| 없음            | 예              | 전체 프로젝트 | 설정할 수 없음   | 청구 불가능 | 실제 시간 청구: **청구 불가능**</br> 실제 경비 청구 유형: **청구 불가능**     |
-| 예           | 없음               | 전체 프로젝트 | 청구 가능     | 설정할 수 없음   | 실제 시간 청구: **청구 가능** </br> 실제 경비 청구 유형: **사용할 수 없음**        |
-| 예           | 없음               | 전체 프로젝트 | 청구 불가능 | 설정할 수 없음   | 실제 시간 청구: **청구 불가능** </br>실제 경비 청구 유형: **사용할 수 없음**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,26 @@
 ---
-title: 견적 송장 확인 - 라이트
-description: 이 항목은 Project Operations에서 견적 송장 확인에 대한 정보를 제공합니다.
+title: 견적 프로젝트 송장 확인
+description: 이 항목은 Project Operations의 견적 프로젝트 송장 확인에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274286"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867094"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>견적 송장 확인 - 라이트
+# <a name="confirm-a-proforma-project-invoice"></a>견적 프로젝트 송장 확인 
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 
-견적 송장이 확인되면 프로젝트 송장의 상태가 **확인됨** 으로 업데이트됩니다. 송장이 확인되면 읽기 전용이 됩니다. 앞으로 송장이 지불된 것으로 표시된 경우 고객이 시작한 수정 또는 크레딧이 있는 경우에만 송장을 수정할 수 있습니다.
+견적 송장이 확인되면 프로젝트 송장의 상태가 **확인됨** 으로 업데이트됩니다. 송장이 확인되면 읽기 전용이 됩니다. 앞으로 송장은 고객이 시작한 수정 또는 크레딧이 있는 경우에만 수정할 수 있습니다.
 
 다음 표는 시스템에서 작성된 실제 값을 나열합니다. 이러한 실제는 확정되기 전에 프로젝트 송장 초안에 대해 특정 작업이 수행될 때 생성됩니다.
 
@@ -225,6 +225,70 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
             <td width="408" valign="top">
                 <p>
 편집된 송장 라인 상세 내역의 수량 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+송장 초안을 편집하지 않고 자재 트랜잭션 송장 발행.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+최초 자재 사용 승인의 수량 및 금액에 대한 미청구 판매 취소.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+최초 자재 사용 승인의 수량 및 금액에 대해 실제 청구된 판매.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+수량을 줄이기 위해 편집된 자재 트랜잭션 송장 발행.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+최초 승인시 수량 및 금액에 대한 미청구 판매 취소
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+편집된 송장 라인 상세 내역의 수량 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+편집된 송장 라인 상세 내역의 수정된 수치를 공제한 후 남은 수량 및 금액에 대해 청구 불가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+수량 증가를 위해 편집된 자재 트랜잭션 송장 발행.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+최초 자재 사용 승인의 수량 및 금액에 대한 미청구 판매 취소.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+편집된 송장 라인 상세 내역의 수량 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매, 청구되지 않은 실제 판매의 매출액 전환 및 이에 상응하는 청구된 실제 판매.
                 </p>
             </td>
         </tr>
