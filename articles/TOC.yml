@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: 법인별 프로젝트 Project Operations 통합 구성
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: 이중 쓰기 통합 구성
+          items:
+            - name: 이중 쓰기 통합 개요
+              href: environment/resource-dual-write-overview.md
+            - name: Project Operations 이중 쓰기 맵 버전
+              href: environment/resource-dual-write-maps.md
+            - name: Project Operations 설정 및 구성 데이터 통합
+              href: environment/resource-dual-write-setup-integration.md
+            - name: 프로젝트 견적 및 실제 통합
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: 프로젝트 송장 통합
+              href: environment/resource-dual-write-project-invoice.md
+            - name: 경비 관리 통합
+              href: environment/resource-dual-write-expense.md
+            - name: 공급업체 송장 통합
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: 새로운 기능
       items:
         - name: 2021년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: 프로젝트 일정 정의
           href: project-management/define-project-calendars.md
+        - name: 예약 모드
+          href: project-management/scheduling-modes.md
         - name: 프로젝트 업데이트
           href: project-management/update-project.md
         - name: 프로젝트 복사
@@ -404,6 +422,12 @@
           items:
             - name: 수정 분개장 생성 및 확인
               href: actuals/create-confirm-correction-journals.md
+    - name: 조달
+      items:
+        - name: 비 재고 재료 및 보류 중인 공급업체 송장 구성
+          href: procurement/configure-materials-nonstocked.md
+        - name: 보류 중인 공급업체 송장을 사용하여 프로젝트에 대한 비 재고 재료 조달
+          href: procurement/pending-vendor-invoices.md
     - name: 송장 발행
       items:
         - name: 송장 처리 개요
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: 프로젝트 기반 송장 자동화 구성
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: 프로젝트 송장 제안서 관리
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: 프로젝트 회계
       items:
         - name: 재무 차원 기본값
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: 프로젝트 일정 정의
           href: project-management/define-project-calendars.md
+        - name: 예약 모드
+          hreF: project-management/scheduling-modes.md
         - name: 프로젝트 업데이트
           href: project-management/update-project.md
         - name: 프로젝트 복사
@@ -848,6 +876,8 @@
   items:
     - name: 새로운 기능
       items:
+        - name: 새로운 기능 2021년 4월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 새로운 기능 2021년 3월 - 리소스/생산 기반 시나리오에 대한 Project Operations
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 새로운 기능 2021년 1월 - 리소스/생산 기반 시나리오에 대한 Project Operations
@@ -871,9 +901,9 @@
     - name: 지불시 결제 공급업체 결제 설정 및 사용
       href: prod-pma/setup-manage-vendor-payments.md
     - name: 구매 영수증에 대한 프로젝트 비용 발생
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: 프로젝트 송장 발부
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: 프로젝트 송장 제안서 성능
       href: prod-pma/project-invoice-proposal-performance.md
     - name: 프로젝트 계약
@@ -998,6 +1028,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 31, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-31.md
         - name: '업데이트 릴리스 30, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-30.md
         - name: '업데이트 릴리스 29.5 핫픽스, V3의 새로운 내용 또는 변경된 내용'
@@ -1327,7 +1359,7 @@
             - name: 리소스 사용률 보기
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling(URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: 프로젝트 관리자 가이드
           items:
             - name: 프로젝트 관리자 가이드(Project Service)
