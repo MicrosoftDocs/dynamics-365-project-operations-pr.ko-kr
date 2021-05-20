@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276806"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951217"
 ---
 # <a name="security-model"></a>보안 모델
 
@@ -58,7 +58,7 @@ Project Operations에서 프로젝트를 만들 때 이것을 고려하는 것�
 
 Project Operations는 암시적 작업을 통해 그룹을 생성하지 않으며 그룹을 누르는 명시적 작업을 통해서만 생성합니다.
 
-**그룹 관리** 대화 상자의 그룹 구성원 검색은 환경 보안 그룹의 일부로 설정된 사용자로 제한됩니다. 자세한 내용은 [환경에 대한 사용자 액세스 제어: 보안 그룹 및 라이선스](https://docs.microsoft.com/power-platform/admin/control-user-access)를 참조하십시오.
+**그룹 관리** 대화 상자의 그룹 구성원 검색은 환경 보안 그룹의 일부로 설정된 사용자로 제한됩니다. 자세한 내용은 [환경에 대한 사용자 액세스 제어: 보안 그룹 및 라이선스](/power-platform/admin/control-user-access)를 참조하십시오.
 
 ![그룹 모드](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Project Operations는 암시적 작업을 통해 그룹을 생성하지 않으�
 ## <a name="deployment-recommendation"></a>배포 권장 사항
 Office 그룹 공동 작업 모델이 발전함에 따라 시간이 지나면서 보다 세부적인 제어를 제공하는 기능이 추가될 것입니다. 현재 Project Operations를 배포하는 고객은 기존 Microsoft Dynamics 365 보안 모델에 집중하는 것이 좋습니다.
 
-자세한 내용은 [Common Data Service의 보안](https://docs.microsoft.com/power-platform/admin/wp-security)을 참조하십시오.
+자세한 내용은 [Common Data Service의 보안](/power-platform/admin/wp-security)을 참조하십시오.
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations 및 Microsoft Dynamics 365 Finance 보안
 Project Operations에는 다음 역할이 포함됩니다.
@@ -78,7 +78,7 @@ Project Operations에는 다음 역할이 포함됩니다.
 - 프로젝트 관리자
 - 프로젝트 회계사
 
-Finance의 보안에 대한 자세한 내용은 [역할 기반 보안](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)을 참조하십시오.
+Finance의 보안에 대한 자세한 내용은 [역할 기반 보안](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)을 참조하십시오.
 
 
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284186"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949642"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation란?
 
@@ -47,10 +47,10 @@ Project Service Automation(PSA) 애플리케이션을 사용하면 초기 판매
 ## <a name="whats-new-in-psa"></a>PSA의 새로운 기능
 팀은 최신 업데이트를 발표하게 된 것을 기쁘게 생각합니다! 향상된 기능에서 사용자 인터페이스, 버그 수정에 이르기까지 중요한 새로운 기능이 추가되었습니다. 고객이 요청했고, 우리는 들었습니다.
 
-최신 개선 사항 및 추가 사항을 확인하려면 [2019년 10월 릴리스 노트](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index)를 살펴보십시오.
+최신 개선 사항 및 추가 사항을 확인하려면 [2019년 10월 릴리스 노트](/dynamics365-release-plan/2019wave2/index)를 살펴보십시오.
 
 ### <a name="in-development"></a>개발 중
-가까운 시일 내에 계획된 내용을 확인하려면 [Dynamics 365: 2020 릴리스 웨이브 1 플랜](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)으로 이동하십시오.
+가까운 시일 내에 계획된 내용을 확인하려면 [Dynamics 365: 2020 릴리스 웨이브 1 플랜](/dynamics365-release-plan/2020wave1/index)으로 이동하십시오.
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA 버전 3.x 관련 도움 받기
 구현을 계획하는 데 도움이 되는 리소스를 찾고 계십니까? 다운로드 가능한 가이드를 확인하십시오.

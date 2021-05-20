@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286931"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949822"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>프로젝트 복사로 프로젝트 템플릿 개발
 
@@ -44,7 +44,7 @@ Dynamics 365 Project Operations는 프로젝트를 복사하고 할당을 역할
 - **{"clearTeamsAndAssignments": true}** : 웹용 프로젝트의 기본 동작이며 모든 할당 및 팀 구성원을 제거합니다.
 - **{"removeNamedResources": true}** Project Operations의 기본 동작이며 할당을 일반 리소스로 되돌립니다.
 
-작업에 대한 자세한 내용은 [웹 API 작업 사용](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)을 참조하십시오.
+작업에 대한 자세한 내용은 [웹 API 작업 사용](/powerapps/developer/common-data-service/webapi/use-web-api-actions)을 참조하십시오.
 
 ## <a name="specify-fields-to-copy"></a>복사할 필드 지정 
 작업이 호출되면 **프로젝트 복사** 는 프로젝트 보기 **프로젝트 열 복사** 를 조회하여 프로젝트를 복사할 때 복사할 필드를 결정합니다.

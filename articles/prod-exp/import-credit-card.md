@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c434356c08e8490931bd60ea5b10fe2706cb0f51
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271586"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951082"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>신용 카드 트랜잭션 가져오기 및 유지
 
 경비 관련 신용 카드 거래는 반복되는 일정에 따라 자동으로 가져오도록 설정할 수 있습니다. 또는 필요에 따라 트랜잭션을 수동으로 가져올 수 있습니다. 신용 카드 거래는 신용 카드 거래 데이터 엔터티를 통해 가져옵니다.
 
-데이터 엔터티에 대한 자세한 내용은 [데이터 엔터티](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities)를 참조하십시오.
+데이터 엔터티에 대한 자세한 내용은 [데이터 엔터티](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities)를 참조하십시오.
 
 ## <a name="import-credit-card-transactions"></a>신용 카드 거래 가져오기
 

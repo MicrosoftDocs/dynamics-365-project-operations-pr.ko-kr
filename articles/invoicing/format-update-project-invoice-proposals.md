@@ -3,17 +3,17 @@ title: 프로젝트 송장 제안서 관리
 description: 이 토픽은 리소스/비 재고 기반 시나리오에 대해 Project Operations를 통해 고객 대면 송장 처리에 대한 세부 정보를 제공합니다.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275861"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950722"
 ---
 # <a name="manage-project-invoice-proposals"></a>프로젝트 송장 제안서 관리
 
@@ -80,7 +80,8 @@ Dataverse의 미청구된 트랜잭션 통화는 Finance에서 트랜잭션 통�
     - **고객**: 항상 고객의 청구 판매세 그룹을 기본값으로 설정합니다.
     - **검색**: 목록의 모든 항목을 검색하고 사용 가능한 첫 번째 값을 선택합니다. 검색은 **프로젝트** 엔터티, **프로젝트 계약** 엔터티, 그런 다음 **고객** 엔터티로 진행됩니다.
 
-- **고정 가격 중요 시점 항목 판매세 그룹** 은 **항목 판매세 그룹** 필드에 값을 기본값으로 설정하는 데 사용됩니다.
+- **고정 가격 이정표 품목 판매세 그룹** 은 청구 이정표에 대한 **품목 판매세 그룹** 필드에서 기본값으로 사용됩니다. 회계사는 **계정 트랜잭션** 페이지에서 이 값을 검토하고 수정할 수 있습니다. 시스템은 프로젝트 송장 제안 라인을 생성할 때 계정 트랜잭션의 값을 사용합니다.
+ 
 
 ### <a name="financial-dimensions"></a>재무 차원
 
@@ -132,7 +133,7 @@ Dataverse의 미청구된 트랜잭션 통화는 Finance에서 트랜잭션 통�
 
 인쇄 관리는 다른 보고서 파일을 사용하여 인쇄, 대상 지정 및 송장의 바닥글 텍스트를 사용자 정의합니다. 인쇄 관리는 모듈 수준에서 설정할 수 있지만 특정 고객, 계약 또는 송장 제안에 대해 이러한 설정을 재정의할 수 있습니다. **프로젝트 송장 제안서** 페이지에서 이 기능에 액세스하려면 **인쇄** > **인쇄 관리** 를 선택합니다.
 
-인쇄 관리 설정은 트리 보기로 표시되며 각 노드 수준은 조정할 수 있는 문서를 표시합니다. 모듈, 고객, 계약 또는 송장 제안서 문서 수준에서 사용자 정의 인쇄물을 할당할 수 있습니다. 원본 문서 인쇄물을 수정하려면 원하는 노드를 확장하고 **원본 항목** 을 선택합니다. **보고서 형식** 필드에서 인쇄에 사용할 보고서 형식을 선택합니다. [비즈니스 문서 관리 프레임워크](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)를 사용하여 사용자 정의 보고서 형식을 사용할 수 있습니다.
+인쇄 관리 설정은 트리 보기로 표시되며 각 노드 수준은 조정할 수 있는 문서를 표시합니다. 모듈, 고객, 계약 또는 송장 제안서 문서 수준에서 사용자 정의 인쇄물을 할당할 수 있습니다. 원본 문서 인쇄물을 수정하려면 원하는 노드를 확장하고 **원본 항목** 을 선택합니다. **보고서 형식** 필드에서 인쇄에 사용할 보고서 형식을 선택합니다. [비즈니스 문서 관리 프레임워크](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)를 사용하여 사용자 정의 보고서 형식을 사용할 수 있습니다.
 
 ## <a name="post-invoice-proposals"></a>송장 제안서 전기
 

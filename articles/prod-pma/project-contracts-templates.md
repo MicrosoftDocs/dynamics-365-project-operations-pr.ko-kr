@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289602"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950407"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화 
 
@@ -109,8 +109,8 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 ## <a name="prerequisites-and-mapping-setup"></a>필수 조건 및 매핑 설정
 
 - 프로젝트 계약 및 프로젝트의 동기화가 발생하기 전에 계정을 동기화해야 합니다.
-- 연결 세트에서 **msdyn\_organizationalunits** 에 대한 통합 키 필드 매핑을 **msdyn\_name \[Name\]** 에 추가합니다. 먼저 연결 세트에 프로젝트를 추가해야 할 수 있습니다. 자세한 내용은 [앱용 Common Data Service에 데이터 통합](https://docs.microsoft.com/powerapps/administrator/data-integrator)을 참조하십시오.
-- 연결 세트에서 **msdyn\_projects** 에 대한 통합 키 필드 매핑을 **msdynce\_projectnumber \[Project Number\]** 에 추가합니다. 먼저 연결 세트에 프로젝트를 추가해야 할 수 있습니다. 자세한 내용은 [앱용 Common Data Service에 데이터 통합](https://docs.microsoft.com/powerapps/administrator/data-integrator)을 참조하십시오.
+- 연결 세트에서 **msdyn\_organizationalunits** 에 대한 통합 키 필드 매핑을 **msdyn\_name \[Name\]** 에 추가합니다. 먼저 연결 세트에 프로젝트를 추가해야 할 수 있습니다. 자세한 내용은 [앱용 Common Data Service에 데이터 통합](/powerapps/administrator/data-integrator)을 참조하십시오.
+- 연결 세트에서 **msdyn\_projects** 에 대한 통합 키 필드 매핑을 **msdynce\_projectnumber \[Project Number\]** 에 추가합니다. 먼저 연결 세트에 프로젝트를 추가해야 할 수 있습니다. 자세한 내용은 [앱용 Common Data Service에 데이터 통합](/powerapps/administrator/data-integrator)을 참조하십시오.
 - 프로젝트 계약 및 프로젝트의 **SourceDataID** 는 다른 값으로 업데이트하거나 매핑에서 제거할 수 있습니다. 기본 템플릿 값은 **Project Service Automation** 입니다.
 - **PaymentTerms** 매핑은 Finance의 유효한 지불 조건을 반영하도록 업데이트해야 합니다. 프로젝트 작업에서 매핑을 제거할 수도 있습니다. 기본값 맵에는 데모 데이터에 대한 기본값이 있습니다. 다음 표에는 Project Service Automation의 값이 나와 있습니다.
 
@@ -131,7 +131,7 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 파워 쿼리를 사용해야 하는 경우 다음 지침을 따르십시오.
 
 - 프로젝트 및 계약(PSA에서 Fin 및 Ops까지) 템플릿에는 **작업 항목(msdyn\_ordertype = 192350001)** 유형의 판매 주문만 포함하는 기본 필터가 있습니다. 이 필터는 Finance에서 판매 주문에 대해 프로젝트 계약이 생성되지 않도록 보장합니다. 고유한 템플릿을 만드는 경우 이 필터를 추가해야 합니다.
-- 통합 연결 집합의 법인에 동기화되어야 하는 계약 조직만 포함하는 파워 쿼리 필터를 만듭니다. 예를 들어 Contoso US의 계약 조직 구성 단위와 보유한 프로젝트 계약은 USSI 법인과 동기화되어야 하지만 Contoso Global의 계약 조직 구성 단위와 보유한 프로젝트 계약은 USMF 법인과 동기화되어야 합니다. 이 필터를 작업 매핑에 추가하지 않으면 모든 프로젝트 계약이 계약 조직 단위에 관계없이 연결 집합에 대해 정의된 법인에 동기화됩니다.
+- 통합 연결 집합의 법인에 동기화되어야 하는 계약 조직만 포함하는 파워 쿼리 필터를 만듭니다. 예를 들어 계약 조직 단위가 Contoso US인 프로젝트 계약은 USSI 법인에 동기화되어야 하지만 계약 조직 단위가 Contoso Global인 프로젝트 계약은 USMF 법인과 동기화되어야 합니다. 이 필터를 작업 매핑에 추가하지 않으면 모든 프로젝트 계약이 계약 조직 단위에 관계없이 연결 집합에 대해 정의된 법인에 동기화됩니다.
 
 ## <a name="template-mapping-in-data-integration"></a>데이터 통합의 템플릿 매핑
 

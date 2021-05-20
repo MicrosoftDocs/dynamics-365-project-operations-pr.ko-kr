@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281756"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951352"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>작업 세분화 구조를 위한 업그레이드 고려 사항
 
@@ -34,20 +34,20 @@ ms.locfileid: "5281756"
 ## <a name="key-entities"></a>주요 엔터티
 리소스가 이미 로드된 정확한 작업 세분화 구조의 경우 다음 엔터티가 요구됩니다:
 
-- [프로젝트](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [프로젝트 팀](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [프로젝트 작업](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [리소스 할당](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [프로젝트 작업 종속성](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [예약 가능한 리소스](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [프로젝트](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [프로젝트 팀](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [프로젝트 작업](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [리소스 할당](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [프로젝트 작업 종속성](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [예약 가능한 리소스](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 리소스가 로드한 작업 세분화 구조를 정의하려면 다음 단계를 완료해야 합니다:
 
-1. 새 프로젝트 만들기. 새 프로젝트를 만드는 방법에 대한 자세한 설명은 [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)를 참조하십시오.
-2. 하나 이상의 과업을 만듭니다. 과업을 만드는 방법에 대한 자세한 설명은 [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)를 참조하십시오.
-3. 과업 종속성을 정의합니다. 자세한 내용은 [프로젝트 작업 종속성](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)을 참조하세요.
-4. 프로젝트에 프로젝트 팀원을 배정합니다. 자세한 설명은 [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)을 참조하십시오.
-5. 과업에 프로젝트 팀원을 배정합니다. 자세한 설명은 [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)를 참조하십시오.
+1. 새 프로젝트 만들기. 새 프로젝트를 만드는 방법에 대한 자세한 설명은 [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)를 참조하십시오.
+2. 하나 이상의 과업을 만듭니다. 과업을 만드는 방법에 대한 자세한 설명은 [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)를 참조하십시오.
+3. 과업 종속성을 정의합니다. 자세한 내용은 [프로젝트 작업 종속성](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)을 참조하세요.
+4. 프로젝트에 프로젝트 팀원을 배정합니다. 자세한 설명은 [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)을 참조하십시오.
+5. 과업에 프로젝트 팀원을 배정합니다. 자세한 설명은 [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)를 참조하십시오.
 
 ## <a name="project-team-relationships"></a>프로젝트 팀 관계
 

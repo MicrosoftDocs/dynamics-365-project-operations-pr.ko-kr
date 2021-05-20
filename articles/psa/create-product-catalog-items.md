@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2351d87d2953f0e661d8f5281a4fdd071edb9c05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292032"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950362"
 ---
 # <a name="create-product-catalog-items-project-service"></a>제품 카탈로그 항목 만들기(Project Service)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5292032"
 
 프로젝트 견적 및 예측에 소프트웨어 라이선스 등의 제품을 포함시키려면 각 제품을 제품 카탈로그에 추가해야 합니다.  
   
- 제품 카탈로그에 제품을 추가하는 방법에 대한 자세한 내용은 [제품 만들기(Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales)를 참조하십시오.  
+ 제품 카탈로그에 제품을 추가하는 방법에 대한 자세한 내용은 [제품 만들기(Sales)](/dynamics365/sales-enterprise/create-product-sales)를 참조하십시오.  
   
 ### <a name="see-also"></a>참고 항목  
  [Project Service 구성](../psa/configure.md)

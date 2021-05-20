@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288146"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950227"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>리소스/생산 기반 시나리오에 대한 Project Operations, 2020년 12월의 새로운 기능 또는 변경된 기능
 
@@ -141,7 +141,7 @@ _적용 대상: 리소스/생산 기반 시나리오에 대한 Project Operation
 
 ## <a name="regulatory-updates"></a>규제 업데이트
 
-Dynamics 365 Finance의 규제 업데이트에 대한 정보는 [규제 업데이트](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. 규제 업데이트에 대해 배우는 또 다른 방법은 LCS(Lifecycle Services)에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 보는 것입니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+Dynamics 365 Finance의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. 규제 업데이트에 대해 배우는 또 다른 방법은 LCS(Lifecycle Services)에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 보는 것입니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

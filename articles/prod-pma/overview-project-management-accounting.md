@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289782"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950452"
 ---
 # <a name="project-management-and-accounting-overview"></a>프로젝트 관리 및 회계 개요
 
@@ -227,7 +227,7 @@ WBS는 프로젝트를 위해 완료될 작업에 대한 설명입니다. WBS는
 프로젝트에 대한 고객 송장을 생성하기 전에 예비 송장 또는 송장 제안을 생성할 수 있습니다. 송장 제안에서 프로젝트 송장에 포함할 프로젝트 거래를 선택할 수 있습니다. 그런 다음 프로젝트 송장을 전기하기 전에 송장 세부 사항을 검토하고 이를 고객 또는 기타 자금 출처로 보낼 수 있습니다. 
 
 
-프로젝트 송장을 처리하는 방법에 대한 자세한 설명은 [프로젝트 송장 청구](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing)를 참조하십시오.
+프로젝트 송장을 처리하는 방법에 대한 자세한 설명은 [프로젝트 송장 청구](/dynamics365/finance/accounts-payable/project-invoicing)를 참조하십시오.
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>프로젝트 완료 비용 계산

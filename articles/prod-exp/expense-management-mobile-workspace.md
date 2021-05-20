@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272036"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950487"
 ---
 # <a name="expense-management-mobile-workspace"></a>경비 관리 모바일 작업 영역
 
@@ -58,7 +58,7 @@ ms.locfileid: "5272036"
 필수 구성 요소는 조직에 배포된 버전에 따라 다릅니다.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance를 사용하는 경우 필수 구성 요소 
-Finance가 조직에 배포된 경우 시스템 관리자는 **경비 관리** 모바일 작업 영역을 게시해야 합니다. 지침은 [모바일 작업 영역 게시](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)를 참조하십시오.
+Finance가 조직에 배포된 경우 시스템 관리자는 **경비 관리** 모바일 작업 영역을 게시해야 합니다. 지침은 [모바일 작업 영역 게시](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)를 참조하십시오.
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>플랫폼 업데이트 3 이상과 함께 버전 1611을 사용하는 경우 필수 구성 요소
 플랫폼 업데이트 3 이상의 버전 1611이 조직에 배포된 경우 시스템 관리자는 다음 필수 구성 요소를 완료해야 합니다. 
@@ -77,16 +77,16 @@ Finance가 조직에 배포된 경우 시스템 관리자는 **경비 관리** �
 <td>시스템 관리자</td>
 <td>KB 4019015는 <strong>경비 관리</strong> 모바일 작업 영역이 포함된 X++ 업데이트 또는 메타데이터 핫픽스입니다. KB 4019015를 구현하려면 시스템 관리자가 다음 단계를 따라야 합니다.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Microsoft Dynamics Lifecycle Services(LCS)에서 메타데이터 핫픽스를 다운로드합니다</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">메타데이터 핫픽스를 설치합니다</a>.</li>
-<li><strong>ApplicationSuite</strong> 및 <strong>ExpenseMobile</strong> 모델을 포함하는 <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">배포 가능한 패키지를 생성</a>한 다음 배포 가능한 패키지를 LCS에 업로드합니다.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">배포 가능한 패키지를 적용합니다</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Microsoft Dynamics Lifecycle Services(LCS)에서 메타데이터 핫픽스를 다운로드합니다</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">메타데이터 핫픽스를 설치합니다</a>.</li>
+<li><strong>ApplicationSuite</strong> 및 <strong>ExpenseMobile</strong> 모델을 포함하는 <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">배포 가능한 패키지를 생성</a>한 다음 배포 가능한 패키지를 LCS에 업로드합니다.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">배포 가능한 패키지를 적용합니다</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><strong>경비 관리</strong> 모바일 작업 영역을 게시합니다.</td>
 <td>시스템 관리자</td>
-<td><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">모바일 작업 영역 게시</a>를 참조하십시오.</td>
+<td><a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">모바일 작업 영역 게시</a>를 참조하십시오.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Dynamics 365 Unified Ops 모바일 앱 다운로드 및 설치:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>경비 관리 모바일 작업 영역을 사용하여 경비를 신속하게 입력합니다.
 1. 모바일 장치에서 **경비 관리** 작업 영역을 엽니다.
 2. **빠른 경비 입력** 을 선택합니다.
-3. 경비 범주를 선택합니다. 오프라인 사용을 위해 앱에 로드된 경비 범주 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 범주가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 경비 범주별로 검색하거나 경비 유형으로 검색하도록 전환합니다.
+3. 경비 범주를 선택합니다. 오프라인 사용을 위해 앱에 로드된 경비 범주 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 범주가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 경비 범주별로 검색하거나 경비 유형으로 검색하도록 전환합니다.
 4. 경비의 트랜잭션 날짜를 입력합니다.
 5. 선택 사항: 비경비에 대한 판매자를 입력합니다.
 6. 경비 금액을 입력합니다.
-7. 경비의 통화를 선택합니다. 오프라인 사용을 위해 앱에 로드된 통화 코드 목록이 표시됩니다. 기본적으로 400개의 통화가 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 통화가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 통화별로 검색하거나 이름으로 검색하도록 전환합니다.
+7. 경비의 통화를 선택합니다. 오프라인 사용을 위해 앱에 로드된 통화 코드 목록이 표시됩니다. 기본적으로 400개의 통화가 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 통화가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 통화별로 검색하거나 이름으로 검색하도록 전환합니다.
 8. **사진 찍기** 또는 **이미지 선택** 을 선택합니다.
 9. 다음 단계 중 하나를 수행합니다.
 
@@ -163,11 +163,11 @@ Dynamics 365 Unified Ops 모바일 앱 다운로드 및 설치:
 7. 목록에서 하나 이상의 경비를 선택합니다.
 8. **완료** 를 선택합니다.
 9. 경비 보고서에 새 경비를 추가하려면 **새 경비** 를 선택합니다.
-10. 경비 범주를 선택합니다. 오프라인 사용을 위해 앱에 로드된 경비 범주 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 범주가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 경비 범주별로 검색하거나 경비 유형으로 검색하도록 전환합니다.
+10. 경비 범주를 선택합니다. 오프라인 사용을 위해 앱에 로드된 경비 범주 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 범주가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 경비 범주별로 검색하거나 경비 유형으로 검색하도록 전환합니다.
 11. 선택 사항: 비경비에 대한 판매자를 입력합니다.
 12. 경비의 트랜잭션 날짜를 입력합니다.
 13. 경비 금액을 입력합니다.
-14. 경비의 통화를 선택합니다. 오프라인 사용을 위해 앱에 로드된 통화 코드 목록이 표시됩니다. 기본적으로 400개의 통화가 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 통화가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 통화별로 검색하거나 이름으로 검색하도록 전환합니다.
+14. 경비의 통화를 선택합니다. 오프라인 사용을 위해 앱에 로드된 통화 코드 목록이 표시됩니다. 기본적으로 400개의 통화가 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 통화가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 통화별로 검색하거나 이름으로 검색하도록 전환합니다.
 15. **완료** 를 선택합니다.
 16. 경비에 더 많은 세부 정보를 추가하려면 **세부 사항 추가** 를 선택합니다. 사용 가능한 필드는 회사의 경비 관리 구성에 따라 다릅니다.
 17. 회사 정책에 경비 영수증이 필요한 경우 **영수증** 을 선택하고 다음 단계를 수행하십시오.
@@ -213,12 +213,12 @@ Dynamics 365 Unified Ops 모바일 앱 다운로드 및 설치:
 
         - **이전 게스트** 를 선택한 경우 다음 단계를 수행하십시오.
 
-            1. 목록에서 하나 이상의 이전 게스트를 선택합니다. 오프라인 사용을 위해 앱에 로드된 이전 경비 보고서에 추가한 이전 게스트 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 이전 게스트가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 이름으로 검색하거나 조직, 국가 또는 제목으로 검색하도록 전환합니다.
+            1. 목록에서 하나 이상의 이전 게스트를 선택합니다. 오프라인 사용을 위해 앱에 로드된 이전 경비 보고서에 추가한 이전 게스트 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 이전 게스트가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 이름으로 검색하거나 조직, 국가 또는 제목으로 검색하도록 전환합니다.
             2. **완료** 를 선택합니다.
 
         - **동료** 를 선택한 경우 다음 단계를 수행하십시오.
 
-            1. 목록에서 한 명 이상의 동료를 선택합니다. 오프라인 사용을 위해 앱에 로드된 동료 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 동료가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 이름으로 검색하거나 회사 또는 제목으로 검색하도록 전환합니다.
+            1. 목록에서 한 명 이상의 동료를 선택합니다. 오프라인 사용을 위해 앱에 로드된 동료 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 동료가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 이름으로 검색하거나 회사 또는 제목으로 검색하도록 전환합니다.
             2. **완료** 를 선택합니다.
 
     3. **뒤로** 단추를 눌러 경비 세부 정보로 돌아갑니다.
@@ -227,7 +227,7 @@ Dynamics 365 Unified Ops 모바일 앱 다운로드 및 설치:
 
     1. 항목별로 구분할 첫 번째 날짜를 선택합니다.
     2. **항목화 추가** 를 선택합니다.
-    3. 경비 항목화를 위한 하위 범주를 선택합니다. 오프라인 사용을 위해 앱에 로드된 경비 하위 범주 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 하위 범주가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 경비 하위 범주 이름으로 검색합니다.
+    3. 경비 항목화를 위한 하위 범주를 선택합니다. 오프라인 사용을 위해 앱에 로드된 경비 하위 범주 목록이 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)을 참조하십시오. 하위 범주가 목록에 없으면 **검색** 을 선택하여 온라인 검색을 수행합니다. 경비 하위 범주 이름으로 검색합니다.
     4. 항목화에 대한 트랜잭션 금액을 입력합니다.
     5. 필요한 경우 트랜잭션 날짜를 수정합니다.
     6. **완료** 를 선택합니다.

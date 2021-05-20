@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275051"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950317"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>귀하의 캘린더에서 프로젝트 및 예약 관리 (Project Service)
 
@@ -52,7 +52,7 @@ ms.locfileid: "5275051"
   
 - [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 전역 관리자 또는 시스템 관리자 자격 증명이 필요합니다.  
   
-- 관리자가 전자 메일 서버 프로필을 구성하고 각 사용자가 자신의 사서함을 구성해야 합니다. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [서버 쪽 동기화를 통해 전자 메일 처리 설정](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- 관리자가 전자 메일 서버 프로필을 구성하고 각 사용자가 자신의 사서함을 구성해야 합니다. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [서버 쪽 동기화를 통해 전자 메일 처리 설정](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>조직에 대한 동기화 켜기(관리자 작업)  
   

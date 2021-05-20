@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9eb58bf4d25062d3cc37d2e8bcce7efe2e826954
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8ce1277344cadcc708cbe7f2333f55626a0e06a6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279866"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950047"
 ---
 # <a name="create-resources"></a>리소스 만들기
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Field Service를 사용하여 Dynamics 365 Project Operations 환경에서 예약 가능한 리소스를 생성할 수 있습니다. 이러한 리소스를 생성하려면 [예약 가능한 리소스 설정](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources)을 참조하십시오.
+Dynamics 365 Field Service를 사용하여 Dynamics 365 Project Operations 환경에서 예약 가능한 리소스를 생성할 수 있습니다. 이러한 리소스를 생성하려면 [예약 가능한 리소스 설정](/dynamics365/field-service/set-up-bookable-resources)을 참조하십시오.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

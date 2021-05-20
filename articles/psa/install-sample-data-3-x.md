@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275096"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950587"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 응용 프로그램에 대한 샘플 데이터 설치
 
@@ -149,7 +149,7 @@ Project Service 및 Field Service 샘플 데이터 설치 관리자는 자동 �
 
 5. 첫 번째 사용자의 일정(**userstocreateandconfigure** 태그에 있음)은 데모 데이터를 가져올 수 있는 모든 예약 가능한 리소스에 대한 근무 시간을 채우는 데 사용됩니다. **설정** > **보안** > **사용자** 로 이동하여 "Spencer Low" 사용자를 찾고 "근무 시간" 옵션을 엽니다. 기존 근무 시간을 편집하여 **되풀이되는 주별 일정의 시작 날짜부터 종료 날짜까지 모두** 선택합니다. **근무 시간이 월요일부터 금요일까지 오전 8시 ~ 오후 5시까지 설정되고 시간대가 태평양 표준시(미국 및 캐나다)로 설정되었는지** 확인합니다. 이는 프로젝트 및 일정 게시판이 예상대로 표시되는지 확인하는 데 필요합니다.
 
-**권장 사항**: 샘플 데이터를 설치하는 동안 문제가 발생하여 시작 지점으로 되돌려야 하는 경우에 대비해 지금 조직의 백업을 만드는 것이 좋습니다. 자세한 내용은 [인스턴스 백업 및 복원](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)을 참조하십시오.
+**권장 사항**: 샘플 데이터를 설치하는 동안 문제가 발생하여 시작 지점으로 되돌려야 하는 경우에 대비해 지금 조직의 백업을 만드는 것이 좋습니다. 자세한 내용은 [인스턴스 백업 및 복원](/dynamics365/customer-engagement/admin/backup-restore-instances)을 참조하십시오.
 
 ## <a name="run-the-package-deployer"></a>Package Deployer를 실행합니다.
 

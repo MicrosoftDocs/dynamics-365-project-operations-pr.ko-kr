@@ -3,17 +3,17 @@ title: 일정 엔터티로 일정 API를 사용하여 작업 수행
 description: 이 항목은 일정 API 사용에 대한 정보와 샘플을 제공합니다.
 author: sigitac
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a50a2c6220bb49de8146d0758019827e120e0526
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868137"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950812"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>일정 엔터티로 일정 API를 사용하여 작업 수행
 
@@ -72,6 +72,190 @@ OperationSet은 일정에 영향을 미치는 여러 요청을 트랜잭션 내�
 
 ID 속성은 선택 사항입니다. 제공되는 경우 시스템은 이를 사용하려고 시도하고 사용할 수 없는 경우 예외를 발생시킵니다. 제공되지 않으면 시스템에서 생성합니다.
 
+## <a name="restricted-fields"></a>제한된 필드
+
+다음 표는 **생성** 및 **편집** 에서 제한되는 필드를 정의합니다.
+
+### <a name="project-task"></a>프로젝트 작업
+
+| **논리적 이름**                       | **생성 가능** | **편집 가능**     |
+|----------------------------------------|----------------|------------------|
+| msdyn_actualcost                       | 아니요             | 아니요               |
+| msdyn_actualcost_base                  | 아니요             | 아니요               |
+| msdyn_actualend                        | 아니요             | 아니요               |
+| msdyn_actualsales                      | 아니요             | 아니요               |
+| msdyn_actualsales_base                 | 아니요             | 아니요               |
+| msdyn_actualstart                      | 아니요             | 아니요               |
+| msdyn_costatcompleteestimate           | 아니요             | 아니요               |
+| msdyn_costatcompleteestimate_base      | 아니요             | 아니요               |
+| msdyn_costconsumptionpercentage        | 아니요             | 아니요               |
+| msdyn_effortcompleted                  | 아니요             | 아니요               |
+| msdyn_effortestimateatcomplete         | 아니요             | 아니요               |
+| msdyn_iscritical                       | 아니요             | 아니요               |
+| msdyn_iscriticalname                   | 아니요             | 아니요               |
+| msdyn_ismanual                         | 아니요             | 아니요               |
+| msdyn_ismanualname                     | 아니요             | 아니요               |
+| msdyn_ismilestone                      | 아니요             | 아니요               |
+| msdyn_ismilestonename                  | 아니요             | 아니요               |
+| msdyn_LinkStatus                       | 아니요             | 아니요               |
+| msdyn_linkstatusname                   | 아니요             | 아니요               |
+| msdyn_msprojectclientid                | 아니요             | 아니요               |
+| msdyn_plannedcost                      | 아니요             | 아니요               |
+| msdyn_plannedcost_base                 | 아니요             | 아니요               |
+| msdyn_plannedsales                     | 아니요             | 아니요               |
+| msdyn_plannedsales_base                | 아니요             | 아니요               |
+| msdyn_pluginprocessingdata             | 아니요             | 아니요               |
+| msdyn_progress                         | 아니요             | 아니요(P4W의 경우 예) |
+| msdyn_remainingcost                    | 아니요             | 아니요               |
+| msdyn_remainingcost_base               | 아니요             | 아니요               |
+| msdyn_remainingsales                   | 아니요             | 아니요               |
+| msdyn_remainingsales_base              | 아니요             | 아니요               |
+| msdyn_requestedhours                   | 아니요             | 아니요               |
+| msdyn_resourcecategory                 | 아니요             | 아니요               |
+| msdyn_resourcecategoryname             | 아니요             | 아니요               |
+| msdyn_resourceorganizationalunitid     | 아니요             | 아니요               |
+| msdyn_resourceorganizationalunitidname | 아니요             | 아니요               |
+| msdyn_salesconsumptionpercentage       | 아니요             | 아니요               |
+| msdyn_salesestimateatcomplete          | 아니요             | 아니요               |
+| msdyn_salesestimateatcomplete_base     | 아니요             | 아니요               |
+| msdyn_salesvariance                    | 아니요             | 아니요               |
+| msdyn_salesvariance_base               | 아니요             | 아니요               |
+| msdyn_scheduleddurationminutes         | 아니요             | 아니요               |
+| msdyn_scheduledend                     | 아니요             | 아니요               |
+| msdyn_scheduledstart                   | 아니요             | 아니요               |
+| msdyn_schedulevariance                 | 아니요             | 아니요               |
+| msdyn_skipupdateestimateline           | 아니요             | 아니요               |
+| msdyn_skipupdateestimatelinename       | 아니요             | 아니요               |
+| msdyn_summary                          | 아니요             | 아니요               |
+| msdyn_varianceofcost                   | 아니요             | 아니요               |
+| msdyn_varianceofcost_base              | 아니요             | 아니요               |
+
+### <a name="project-task-dependency"></a>프로젝트 작업 종속성
+
+| **논리적 이름**              | **생성 가능** | **편집 가능** |
+|-------------------------------|----------------|--------------|
+| msdyn_linktype                | 아니요             | 아니요           |
+| msdyn_linktypename            | 아니요             | 아니요           |
+| msdyn_predecessortask         | 예            | 아니요           |
+| msdyn_predecessortaskname     | 예            | 아니요           |
+| msdyn_project                 | 예            | 아니요           |
+| msdyn_projectname             | 예            | 아니요           |
+| msdyn_projecttaskdependencyid | 예            | 아니요           |
+| msdyn_successortask           | 예            | 아니요           |
+| msdyn_successortaskname       | 예            | 아니요           |
+
+### <a name="resource-assignment"></a>리소스 할당
+
+| **논리적 이름**             | **생성 가능** | **편집 가능** |
+|------------------------------|----------------|--------------|
+| msdyn_bookableresourceid     | 예            | 아니요           |
+| msdyn_bookableresourceidname | 예            | 아니요           |
+| msdyn_bookingstatusid        | 아니요             | 아니요           |
+| msdyn_bookingstatusidname    | 아니요             | 아니요           |
+| msdyn_committype             | 아니요             | 아니요           |
+| msdyn_committypename         | 아니요             | 아니요           |
+| msdyn_effort                 | 아니요             | 아니요           |
+| msdyn_effortcompleted        | 아니요             | 아니요           |
+| msdyn_effortremaining        | 아니요             | 아니요           |
+| msdyn_finish                 | 아니요             | 아니요           |
+| msdyn_plannedcost            | 아니요             | 아니요           |
+| msdyn_plannedcost_base       | 아니요             | 아니요           |
+| msdyn_plannedcostcontour     | 아니요             | 아니요           |
+| msdyn_plannedsales           | 아니요             | 아니요           |
+| msdyn_plannedsales_base      | 아니요             | 아니요           |
+| msdyn_plannedsalescontour    | 아니요             | 아니요           |
+| msdyn_plannedwork            | 아니요             | 아니요           |
+| msdyn_projectid              | 예            | 아니요           |
+| msdyn_projectidname          | 아니요             | 아니요           |
+| msdyn_projectteamid          | 아니요             | 아니요           |
+| msdyn_projectteamidname      | 아니요             | 아니요           |
+| msdyn_start                  | 아니요             | 아니요           |
+| msdyn_taskid                 | 아니요             | 아니요           |
+| msdyn_taskidname             | 아니요             | 아니요           |
+| msdyn_userresourceid         | 아니요             | 아니요           |
+
+### <a name="project-team-member"></a>프로젝트 팀원
+
+| **논리적 이름**                                 | **생성 가능** | **편집 가능** |
+|--------------------------------------------------|----------------|--------------|
+| msdyn_calendarid                                 | 아니요             | 아니요           |
+| msdyn_creategenericteammemberwithrequirementname | 아니요             | 아니요           |
+| msdyn_deletestatus                               | 아니요             | 아니요           |
+| msdyn_deletestatusname                           | 아니요             | 아니요           |
+| msdyn_effort                                     | 아니요             | 아니요           |
+| msdyn_effortcompleted                            | 아니요             | 아니요           |
+| msdyn_effortremaining                            | 아니요             | 아니요           |
+| msdyn_finish                                     | 아니요             | 아니요           |
+| msdyn_hardbookedhours                            | 아니요             | 아니요           |
+| msdyn_hours                                      | 아니요             | 아니요           |
+| msdyn_markedfordeletiontimer                     | 아니요             | 아니요           |
+| msdyn_markedfordeletiontimestamp                 | 아니요             | 아니요           |
+| msdyn_msprojectclientid                          | 아니요             | 아니요           |
+| msdyn_percentage                                 | 아니요             | 아니요           |
+| msdyn_requiredhours                              | 아니요             | 아니요           |
+| msdyn_softbookedhours                            | 아니요             | 아니요           |
+| msdyn_start                                      | 아니요             | 아니요           |
+
+### <a name="project"></a>Project
+
+| **논리적 이름**                       | **생성 가능** | **편집 가능** |
+|----------------------------------------|----------------|--------------|
+| msdyn_actualexpensecost                | 아니요             | 아니요           |
+| msdyn_actualexpensecost_base           | 아니요             | 아니요           |
+| msdyn_actuallaborcost                  | 아니요             | 아니요           |
+| msdyn_actuallaborcost_base             | 아니요             | 아니요           |
+| msdyn_actualsales                      | 아니요             | 아니요           |
+| msdyn_actualsales_base                 | 아니요             | 아니요           |
+| msdyn_contractlineproject              | 예            | 아니요           |
+| msdyn_contractorganizationalunitid     | 예            | 아니요           |
+| msdyn_contractorganizationalunitidname | 예            | 아니요           |
+| msdyn_costconsumption                  | 아니요             | 아니요           |
+| msdyn_costestimateatcomplete           | 아니요             | 아니요           |
+| msdyn_costestimateatcomplete_base      | 아니요             | 아니요           |
+| msdyn_costvariance                     | 아니요             | 아니요           |
+| msdyn_costvariance_base                | 아니요             | 아니요           |
+| msdyn_duration                         | 아니요             | 아니요           |
+| msdyn_effort                           | 아니요             | 아니요           |
+| msdyn_effortcompleted                  | 아니요             | 아니요           |
+| msdyn_effortestimateatcompleteeac      | 아니요             | 아니요           |
+| msdyn_effortremaining                  | 아니요             | 아니요           |
+| msdyn_finish                           | 예            | 예          |
+| msdyn_globalrevisiontoken              | 아니요             | 아니요           |
+| msdyn_islinkedtomsprojectclient        | 아니요             | 아니요           |
+| msdyn_islinkedtomsprojectclientname    | 아니요             | 아니요           |
+| msdyn_linkeddocumenturl                | 아니요             | 아니요           |
+| msdyn_msprojectdocument                | 아니요             | 아니요           |
+| msdyn_msprojectdocumentname            | 아니요             | 아니요           |
+| msdyn_plannedexpensecost               | 아니요             | 아니요           |
+| msdyn_plannedexpensecost_base          | 아니요             | 아니요           |
+| msdyn_plannedlaborcost                 | 아니요             | 아니요           |
+| msdyn_plannedlaborcost_base            | 아니요             | 아니요           |
+| msdyn_plannedsales                     | 아니요             | 아니요           |
+| msdyn_plannedsales_base                | 아니요             | 아니요           |
+| msdyn_progress                         | 아니요             | 아니요           |
+| msdyn_remainingcost                    | 아니요             | 아니요           |
+| msdyn_remainingcost_base               | 아니요             | 아니요           |
+| msdyn_remainingsales                   | 아니요             | 아니요           |
+| msdyn_remainingsales_base              | 아니요             | 아니요           |
+| msdyn_replaylogheader                  | 아니요             | 아니요           |
+| msdyn_salesconsumption                 | 아니요             | 아니요           |
+| msdyn_salesestimateatcompleteeac       | 아니요             | 아니요           |
+| msdyn_salesestimateatcompleteeac_base  | 아니요             | 아니요           |
+| msdyn_salesvariance                    | 아니요             | 아니요           |
+| msdyn_salesvariance_base               | 아니요             | 아니요           |
+| msdyn_scheduleperformance              | 아니요             | 아니요           |
+| msdyn_scheduleperformancename          | 아니요             | 아니요           |
+| msdyn_schedulevariance                 | 아니요             | 아니요           |
+| msdyn_taskearlieststart                | 아니요             | 아니요           |
+| msdyn_teamsize                         | 아니요             | 아니요           |
+| msdyn_teamsize_date                    | 아니요             | 아니요           |
+| msdyn_teamsize_state                   | 아니요             | 아니요           |
+| msdyn_totalactualcost                  | 아니요             | 아니요           |
+| msdyn_totalactualcost_base             | 아니요             | 아니요           |
+| msdyn_totalplannedcost                 | 아니요             | 아니요           |
+| msdyn_totalplannedcost_base            | 아니요             | 아니요           |
+
+
 ## <a name="limitations-and-known-issues"></a>제한 사항 및 알려진 문제
 다음은 제한 사항 및 알려진 문제 목록입니다.
 
@@ -85,12 +269,18 @@ ID 속성은 선택 사항입니다. 제공되는 경우 시스템은 이를 사
 - Project Operations는 현재 프로젝트에서 최대 500개의 총 작업을 지원합니다.
 - **OperationSet** 실패 상태 및 실패 로그는 현재 사용할 수 없습니다.
 - 일정 API는 공개 미리 보기입니다. 프로덕션 환경에서 이러한 API를 사용하는 것은 Microsoft에서 지원하지 않습니다.
+- [프로젝트 및 작업에 대한 제한 및 경계](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+
+## <a name="error-handling"></a>오류 처리
+
+   - 작업 세트에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **작업 세트** 로 이동합니다.
+   - Project Scheduling Service에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **PSS 오류 로그** 로 이동합니다.
 
 ## <a name="sample-scenario"></a>샘플 시나리오
 
 이 시나리오에서는 프로젝트, 팀 구성원, 4개의 작업 및 2개의 리소스 할당을 만듭니다. 다음으로 하나의 작업을 업데이트하고, 프로젝트를 업데이트하고, 하나의 작업을 삭제하고, 하나의 리소스 할당을 삭제하고, 작업 종속성을 만듭니다.
 
-```C#
+```csharp
 Entity project = CreateProject();
 project.Id = CallCreateProjectAction(project);
 var projectReference = project.ToEntityReference();
@@ -106,18 +296,18 @@ var operationSetId = CallCreateOperationSetAction(project.Id, description);
 var task1 = GetTask("1WW", projectReference);
 var task2 = GetTask("2XX", projectReference, task1.ToEntityReference());
 var task3 = GetTask("3YY", projectReference);
-var task4 = GetTask("4ZZ";, projectReference);
+var task4 = GetTask("4ZZ", projectReference);
 
 var assignment1 = GetResourceAssignment("R1", teamMember, task2, project);
-var assignment2 = GetResourceAssignment"R2", teamMember, task3, project);
+var assignment2 = GetResourceAssignment("R2", teamMember, task3, project);
 
 var task1Response = CallPssCreateAction(task1, operationSetId);
 var task2Response = CallPssCreateAction(task2, operationSetId);
 var task3Response = CallPssCreateAction(task3, operationSetId);
 var task4Response = CallPssCreateAction(task4, operationSetId);
 
-varassignment1Response = CallPssCreateAction(assignment1, operationSetId);
-varassignment2Response = CallPssCreateAction(assignment2, operationSetId);
+var assignment1Response = CallPssCreateAction(assignment1, operationSetId);
+var assignment2Response = CallPssCreateAction(assignment2, operationSetId);
 
 task2["msdyn_subject"] = "Updated Task";
 var task2UpdateResponse = CallPssUpdateAction(task2, operationSetId);
@@ -127,7 +317,7 @@ var projectUpdateResponse = CallPssUpdateAction(project, operationSetId);
 
 var task4DeleteResponse = CallPssDeleteAction(task4.Id.ToString(), task4.LogicalName, operationSetId);
 
-varassignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
+var assignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
 
 var dependency1 = GetTaskDependency(project, task2, task3);
 var dependency1Response = CallPssCreateAction(dependency1, operationSetId);
@@ -138,16 +328,16 @@ Console.WriteLine("Done....");
 
 ## <a name="additional-samples"></a>추가 샘플
 
-```C#
-#region Call actions 
+```csharp
+#region Call actions --- Sample code ----
 
-///<summary>
+/// <summary>
 /// Calls the action to create an operationSet
 /// </summary>
-/// <paramname="projectId">project id for the operations to be included in this operationSet>/param>
-/// <paramname="description">description of this operationSet</param>
+/// <param name="projectId">project id for the operations to be included in this operationSet</param>
+/// <param name="description">description of this operationSet</param>
 /// <returns>operationSet id</returns>
-privatestring CallCreateOperationSetAction(Guid projectId, string description)
+private string CallCreateOperationSetAction(Guid projectId, string description)
 {
     OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_CreateOperationSetV1");
     operationSetRequest["ProjectId"] = projectId.ToString();
@@ -159,9 +349,10 @@ privatestring CallCreateOperationSetAction(Guid projectId, string description)
 /// <summary>
 /// Calls the action to create an entity, only Task and Resource Assignment for now
 /// </summary>
-/// <paramname="entity">Task or Resource Assignment</param>
-/// <paramname="operationSetId">operationSet id</param>
+/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
+
 private OperationSetResponse CallPssCreateAction(Entity entity, string operationSetId)
 {
     OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_PssCreateV1");
@@ -170,11 +361,11 @@ private OperationSetResponse CallPssCreateAction(Entity entity, string operation
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
 
-/// <summary<
+/// <summary>
 /// Calls the action to update an entity, only Task for now
 /// </summary>
-/// <paramname="entity">Task or Resource Assignment</param>
-/// <paramname="operationSetId">operationSet Id</param>
+/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="operationSetId">operationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssUpdateAction(Entity entity, string operationSetId)
 {
@@ -186,10 +377,10 @@ private OperationSetResponse CallPssUpdateAction(Entity entity, string operation
 
 /// <summary>
 /// Calls the action to update an entity, only Task and Resource Assignment for now
-/// <summary>
-/// <paramname="recordId">Id of the record to be deleted</param>
-/// <paramname="entityLogicalName">Entity logical name of the record</param>
-/// <paramname="operationSetId">OperationSet Id</param>
+/// </summary>
+/// <param name="recordId">Id of the record to be deleted</param>
+/// <param name="entityLogicalName">Entity logical name of the record</param>
+/// <param name="operationSetId">OperationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssDeleteAction(string recordId, string entityLogicalName, string operationSetId)
 {
@@ -202,8 +393,8 @@ private OperationSetResponse CallPssDeleteAction(string recordId, string entityL
 
 /// <summary>
 /// Calls the action to execute requests in an operationSet
-/// <summary>
-/// <paramname="operationSetId">operationSet id</param>
+/// </summary>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallExecuteOperationSetAction(string operationSetId)
 {
@@ -215,7 +406,7 @@ private OperationSetResponse CallExecuteOperationSetAction(string operationSetId
 /// <summary>
 /// This can be used to abandon an operationSet that is no longer needed
 /// </summary>
-/// <paramname="operationSetId">operationSet id</param>
+/// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId)
 {
@@ -224,27 +415,27 @@ protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
 
+
 /// <summary>
 /// Calls the action to create a new project
 /// </summary>
-/// <paramname="project">Project</param>
+/// <param name="project">Project</param>
 /// <returns>project Id</returns>
 private Guid CallCreateProjectAction(Entity project)
 {
-    OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn_CreateProjectV1";
+    OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn_CreateProjectV1");
     createProjectRequest["Project"] = project;
     OrganizationResponse response = organizationService.Execute(createProjectRequest);
     var projectId = Guid.Parse((string)response["ProjectId"]);
-
     return projectId;
 }
 
 /// <summary>
 /// Calls the action to create a new project team member
 /// </summary>
-/// <paramname="teamMember">Project team member</param>
+/// <param name="teamMember">Project team member</param>
 /// <returns>project team member Id</returns>
-privatestring CallCreateTeamMemberAction(Entity teamMember)
+private string CallCreateTeamMemberAction(Entity teamMember)
 {
     OrganizationRequest request = new OrganizationRequest("msdyn_CreateTeamMemberV1");
     request["TeamMember"] = teamMember;
@@ -254,13 +445,12 @@ privatestring CallCreateTeamMemberAction(Entity teamMember)
 
 private OperationSetResponse GetOperationSetResponseFromOrgResponse(OrganizationResponse orgResponse)
 {
-    return JsonConvert.DeserializeObject><OperationSetResponse>
-    ((string)orgResponse.Results["OperationSetResponse";]);
+    return JsonConvert.DeserializeObject<OperationSetResponse>((string)orgResponse.Results["OperationSetResponse"]);
 }
 
 private EntityCollection GetDefaultBucket(EntityReference projectReference)
 {
-    var columnsToFetch = new ColumnSet(";msdyn_project", "msdyn_name");
+    var columnsToFetch = new ColumnSet("msdyn_project", "msdyn_name");
     var getDefaultBucket = new QueryExpression("msdyn_projectbucket")
     {
         ColumnSet = columnsToFetch,
@@ -273,6 +463,7 @@ private EntityCollection GetDefaultBucket(EntityReference projectReference)
             }
         }
     };
+
     return organizationService.RetrieveMultiple(getDefaultBucket);
 }
 
@@ -281,7 +472,7 @@ private Entity GetBucket(EntityReference projectReference)
     var bucketCollection = GetDefaultBucket(projectReference);
     if (bucketCollection.Entities.Count > 0)
     {
-    return bucketCollection[0].ToEntity<Entity>();
+        return bucketCollection[0].ToEntity<Entity>();
     }
 
     throw new Exception($"Please open project with id {projectReference.Id} in the Dynamics UI and navigate to the Tasks tab");
@@ -291,15 +482,18 @@ private Entity CreateProject()
 {
     var project = new Entity("msdyn_project", Guid.NewGuid());
     project["msdyn_subject"] = $"Proj {DateTime.Now.ToShortTimeString()}";
+
     return project;
 }
+
+
 
 private Entity GetTask(string name, EntityReference projectReference, EntityReference parentReference = null)
 {
     var task = new Entity("msdyn_projecttask", Guid.NewGuid());
     task["msdyn_project"] = projectReference;
     task["msdyn_subject"] = name;
-    task["msdyn_effort";] = 4d;
+    task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
     task["msdyn_progress"] = 0.34m;
@@ -309,10 +503,10 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
 
     //Custom field handling
     /*
-        task["new_custom1"] = "Just my test";
-        task[";new_age"] = 98;
-        task["new_amount"] = 591.34m;
-        task["new_isready"] = new OptionSetValue(100000000);
+    task["new_custom1"] = "Just my test";
+    task["new_age"] = 98;
+    task["new_amount"] = 591.34m;
+    task["new_isready"] = new OptionSetValue(100000000);
     */
 
     if (parentReference == null)
@@ -323,6 +517,7 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     {
         task["msdyn_parenttask"] = parentReference;
     }
+
     return task;
 }
 
@@ -335,6 +530,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_name"] = name;
     assignment["msdyn_start"] = DateTime.Now;
     assignment["msdyn_finish"] = DateTime.Now;
+
     return assignment;
 }
 
@@ -345,30 +541,32 @@ protected Entity GetTaskDependency(Entity project, Entity predecessor, Entity su
     taskDependency["msdyn_predecessortask"] = predecessor.ToEntityReference();
     taskDependency["msdyn_successortask"] = successor.ToEntityReference();
     taskDependency["msdyn_linktype"] = new OptionSetValue(192350000);
+
     return taskDependency;
 }
 
 #endregion
 
+
 #region OperationSetResponse DataContract --- Sample code ----
 
 [DataContract]
-publicclassOperationSetResponse
+public class OperationSetResponse
 {
-    [DataMember(Name = "operationSetId")]
-    public Guid OperationSetId { get; set; }
+[DataMember(Name = "operationSetId")]
+public Guid OperationSetId { get; set; }
 
-    [DataMember(Name = "operationSetDetailId")]
-    public Guid OperationSetDetailId { get; set; }
+[DataMember(Name = "operationSetDetailId")]
+public Guid OperationSetDetailId { get; set; }
 
-    [DataMember(Name = "operationType")]
-    publicstring OperationType { get; set; }
+[DataMember(Name = "operationType")]
+public string OperationType { get; set; }
 
-    [DataMember(Name = "recordId")]
-    publicstring RecordId { get; set; }
+[DataMember(Name = "recordId")]
+public string RecordId { get; set; }
 
-    [DataMember(Name = "correlationId")]
-    publicstring CorrelationId { get; set; }
+[DataMember(Name = "correlationId")]
+public string CorrelationId { get; set; }
 }
 
 #endregion

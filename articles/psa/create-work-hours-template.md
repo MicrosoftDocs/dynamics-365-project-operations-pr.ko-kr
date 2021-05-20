@@ -1,6 +1,6 @@
 ---
 title: 작업 시간 템플릿 만들기
-description: 작업 시간 템플릿을 만드는 방법(Project Service)
+description: 이 항목에서는 Project Service에서 작업 시간 템플릿을 만드는 방법에 대해 설명합니다.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285041"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981263"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>작업 시간 서식 파일 만들기(Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-프로젝트 일정을 만들려면 먼저 모든 휴무 일정을 고려하여 일정에 일자별로 제공할 작업 시간을 정의하는 프로젝트 일정을 설정합니다. 일별 작업 시간, 휴무일, 기타 휴무 시간에 대한 자세한 정보를 포함하는 작업 시간 템플릿으로 이를 수행합니다.  
-  
- 프로젝트를 만들 때 작업 템플릿을 프로젝트 일정에 연결하여 프로젝트에 대한 일정을 적용합니다.  
-  
- 두 가지 방법으로 작업 시간 서식 파일을 만들 수 있습니다.  
-  
--   리소스 일정에 따라 작업 시간 서식 파일을 만듭니다.  
-  
--   새 작업 시간 템플릿을 만듭니다.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>리소스 일정에 따라 작업 시간 서식 파일 만들기  
-  
-1.  **Project Service > 리소스** 로 이동합니다.  
-  
-2.  작업 시간을 기준으로 할 리소스를 선택합니다.  
-  
-3.  **다른 이름으로 일정 저장** 을 클릭하고 작업 시간 템플릿 이름을 입력한 후 **저장** 을 클릭합니다.  
-  
-4.  옵션 변경이 완료되면 **저장 후 닫기** 를 클릭합니다.  
-  
-5.  화면 오른쪽 아래 모서리에서 **저장** 단추를 클릭합니다.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>새 작업 시간 템플릿 만들기  
-  
-1.  **Project Service > 작업 시간 템플릿** 으로 이동합니다.  
-  
-2.  **새로 만들기** 를 클릭합니다.  
-  
-3.  작업 시간 템플릿의 이름을 입력합니다.  
-  
-4.  작업 시간을 기준으로 할 리소스를 선택한 다음 **저장** 을 클릭합니다.  
-  
+프로젝트를 만들고 관리하려면 프로젝트에 일정 템플릿을 적용해야 합니다. 일정 템플릿은 다음 프로젝트 속성을 정의합니다.
+
+- 시작 및 종료 시간을 포함한 근무 시간
+- 근무일
+- 휴무일과 같은 일정 예외
+
+프로젝트에 적용되는 일정 템플릿은 조직의 설정에 정의된 캘린더 템플릿의 복사본입니다.
+
+> [!NOTE]
+> 일정 템플릿을 변경하면 해당 변경 사항이 프로젝트의 작업 시간에 적용되지 않습니다. 프로젝트의 근무 시간을 변경하려면 새 템플릿을 적용해야 합니다.
+
+조직의 일정 템플릿을 만들려면 두 가지 주요 요구 사항이 있습니다.
+
+- 예약 가능한 신규 또는 기존 리소스를 사용하여 템플릿의 원하는 근무 시간을 정의합니다.
+- 새 일정 템플릿을 만들고 템플릿을 예약 가능한 리소스와 연결합니다.
+
+**템플릿의 근무 시간 정의**
+
+1. **리소스** \> **리소스** 로 이동합니다.
+2. 일정 템플릿에서 참조할 새 리소스를 만들거나 기존 리소스를 선택합니다.
+3. 리소스의 **작업 시간** 탭을 선택하고 [리소스에 대한 작업 시간 설정](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)의 지침을 완료하여 일정 규칙을 구성합니다.
+
+**새 일정 템플릿 만들기**
+
+1. **설정** \> **일정 템플릿** 으로 이동합니다.
+2. **새로 만들기** 를 클릭하고 이름, 설명 및 템플릿 리소스를 입력합니다.
+
+
+> [!NOTE]
+> 일정 템플릿에서 리소스가 참조되면 리소스 일정의 복사본이 일정 템플릿과 연결됩니다. 복사된 템플릿의 근무 시간이 변경되면 해당 변경 사항이 일정 템플릿에 적용되지 않습니다.
+
+
 ### <a name="see-also"></a>참고 항목  
  [리소스 설정](../psa/set-up-resources.md)
 

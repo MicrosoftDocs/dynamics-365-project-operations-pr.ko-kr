@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288882"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950182"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>프로젝트 시간 항목 모바일 작업 영역
 
@@ -48,7 +48,7 @@ ms.locfileid: "5288882"
 필수 구성 요소는 조직에 배포된 Microsoft Dynamics 365 버전에 따라 다릅니다.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance를 사용하는 경우 필수 구성 요소
-Finance가 조직에 배포된 경우 시스템 관리자는 **프로젝트 시간 항목** 모바일 작업 영역을 게시해야 합니다. 지침은 [모바일 작업 영역 게시](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)를 참조하십시오.
+Finance가 조직에 배포된 경우 시스템 관리자는 **프로젝트 시간 항목** 모바일 작업 영역을 게시해야 합니다. 지침은 [모바일 작업 영역 게시](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)를 참조하십시오.
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>플랫폼 업데이트 3 이상과 함께 버전 1611을 사용하는 경우 필수 구성 요소
 플랫폼 업데이트 3 이상의 버전 1611이 조직에 배포된 경우 시스템 관리자는 다음 필수 구성 요소를 완료해야 합니다. 
@@ -68,17 +68,17 @@ Finance가 조직에 배포된 경우 시스템 관리자는 **프로젝트 시�
 <td>시스템 관리자</td>
 <td>KB 4018050은 <strong>프로젝트 시간 항목</strong> 모바일 작업 영역이 포함된 X++ 업데이트 또는 메타데이터 핫픽스입니다. KB 4018050을 구현하려면 시스템 관리자가 다음 단계를 따라야 합니다.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Microsoft Dynamics Lifecycle Services(LCS)에서 메타데이터 핫픽스를 다운로드합니다</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">메타데이터 핫픽스를 설치합니다</a>.</li>
-<li><strong>ApplicationSuite</strong> 및 <strong>ProjectMobile</strong> 모델을 포함하는 <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">배포 가능한 패키지를 생성</a>한 다음 배포 가능한 패키지를 LCS에 업로드합니다.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">배포 가능한 패키지를 적용합니다</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Microsoft Dynamics Lifecycle Services(LCS)에서 메타데이터 핫픽스를 다운로드합니다</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">메타데이터 핫픽스를 설치합니다</a>.</li>
+<li><strong>ApplicationSuite</strong> 및 <strong>ProjectMobile</strong> 모델을 포함하는 <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">배포 가능한 패키지를 생성</a>한 다음 배포 가능한 패키지를 LCS에 업로드합니다.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">배포 가능한 패키지를 적용합니다</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td><strong>프로젝트 시간 항목</strong> 모바일 작업 영역을 게시합니다.</td>
 <td>시스템 관리자</td>
-<td><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">모바일 작업 영역 게시</a>를 참조하십시오.</td>
+<td><a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">모바일 작업 영역 게시</a>를 참조하십시오.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Finance and Operations 모바일 앱을 다운로드하여 설치합니다.
 2.  **시간 항목** 을 선택합니다. 현재 주의 일정 날짜가 표시됩니다.
 3.  선택한 날짜에 대해 **작업** &gt; **새로운 항목** 을 선택합니다.
 4.  기록할 시간 수를 입력합니다.
-5.  시간 입력을 위한 프로젝트를 선택합니다. 오프라인 사용을 위해 앱에 로드된 프로젝트가 목록에 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)을 참조하십시오.
+5.  시간 입력을 위한 프로젝트를 선택합니다. 오프라인 사용을 위해 앱에 로드된 프로젝트가 목록에 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)을 참조하십시오.
 6.  프로젝트가 목록에 없으면 **검색** 을 선택합니다. 이름으로 검색하거나 프로젝트 이름 또는 고객으로 검색하도록 전환합니다.
-7.  범주를 선택합니다. 오프라인 사용을 위해 앱에 로드된 범주가 목록에 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)을 참조하십시오.
+7.  범주를 선택합니다. 오프라인 사용을 위해 앱에 로드된 범주가 목록에 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)을 참조하십시오.
 8.  범주가 목록에 없으면 **검색** 을 선택합니다. 범주별로 검색하거나 범주 이름으로 검색하도록 전환합니다.
-9.  활동을 선택하십시오. 오프라인 사용을 위해 앱에 로드된 활동이 목록에 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)을 참조하십시오.
+9.  활동을 선택하십시오. 오프라인 사용을 위해 앱에 로드된 활동이 목록에 표시됩니다. 기본적으로 50개의 항목이 로드되지만 개발자가 이 수를 변경할 수 있습니다. 자세한 내용은 [모바일 플랫폼](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)을 참조하십시오.
 10. 활동이 목록에 없으면 **검색** 을 선택합니다. 활동 번호로 검색하거나 용도별로 검색하도록 전환합니다.
 
 11. 라인 속성을 선택합니다.

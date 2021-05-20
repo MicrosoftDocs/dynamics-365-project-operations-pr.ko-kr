@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278786"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949912"
 ---
 # <a name="close-an-opportunity"></a>영업 기회 종료
 
@@ -23,7 +23,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 관련 활성 견적이 있는 경우 영업 기회를 닫을 수 없습니다. 영업 기회와 관련된 모든 활성 및 초안 견적을 동시에 종료할 수 있습니다. 그런 다음 영업 기회를 닫을 수 있습니다.
 
-영업 기회 종료에 대한 일반적인 내용은 [영업 기회를 성공 또는 실패로 종료](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales)를 참조하십시오.
+영업 기회 종료에 대한 일반적인 내용은 [영업 기회를 성공 또는 실패로 종료](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales)를 참조하십시오.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

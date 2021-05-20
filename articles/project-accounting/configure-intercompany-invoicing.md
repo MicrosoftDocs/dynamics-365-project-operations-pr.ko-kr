@@ -3,17 +3,17 @@ title: 회사 간 송장 구성
 description: 이 토픽은 프로젝트에 대한 회사 간 송장 구성에 대한 정보와 예를 제공합니다.
 author: sigitac
 manager: tfehr
-ms.date: 11/20/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287561"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949687"
 ---
 # <a name="configure-intercompany-invoicing"></a>회사 간 송장 구성
 
@@ -23,9 +23,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="example-configure-intercompany-invoicing"></a>예: 회사 간 송장 구성
 
-다음 예에서 USPM(Contoso Robotics USA)은 차용 법인이고 GBPM(Contoso Robotics UK)은 대출 법인입니다. 
+다음 예에서 Contoso Robotics USA(USPM)는 차용 법인이며 Contoso Robotics UK(GBPM)는 대출 법인입니다. 
 
-1. **법인 간 회사 간 회계 구성**. 각 차용 및 대출 법인 쌍은 총계정 원장 [회사 간 회계](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup) 페이지에서 구성되어야 합니다.
+1. **법인 간 회사 간 회계 구성**. 각 차용 및 대출 법인 쌍은 총계정 원장 [회사 간 회계](/dynamics365/finance/general-ledger/intercompany-accounting-setup) 페이지에서 구성되어야 합니다.
     
     1. Dynamics 365 Finance에서 **총계정 원장** > **전기 설정** > **회사 간 회계** 로 이동합니다. 다음 정보가 있는 레코드를 만듭니다.
 
@@ -37,17 +37,17 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
      1. Finance에서 법인 **GBPM** 을 선택합니다.
      2. **수취 계정** > **고객** > **모든 고객** 으로 이동합니다. 법인 **USPM** 에 대한 새 레코드를 만듭니다.
      3. **이름** 을 확장하고 **유형** 을 기준으로 레코드를 필터링하고 **법인** 을 선택합니다. 
-     4. **Contoso Robotics USA(USPM)** 에 대한 고객 레코드를 찾아 선택합니다.
+     4. **Contoso Robotics USA (USPM)** 에 대한 고객 레코드를 찾아 선택합니다.
      5. **일치 사용** 을 선택합니다. 
-     6. 고객 그룹을 선택한 다음 레코드를 저장합니다.
+     6. 고객 그룹 **50 - 내부 거래 고객** 을 선택한 다음 레코드를 저장합니다.
      7. 법인 **USPM** 을 선택합니다.
      8. **지급 계정** > **공급업체** > **모든 공급업체** 로 이동합니다. 법인 **GBPM** 에 대한 새 레코드를 만듭니다.
      9. **이름** 을 확장하고 **유형** 을 기준으로 레코드를 필터링하고 **법인** 을 선택합니다. 
-     10. **Contoso Robotics UK(GBPM)** 에 대한 고객 레코드를 찾아 선택합니다.
+     10. **Contoso Robotics UK (GBPM)** 에 대한 고객 레코드를 찾아 선택합니다.
      11. **일치 사용** 을 선택하고 공급업체 그룹을 선택한 다음 레코드를 저장합니다.
      12. 공급업체 레코드에서 **일반** > **설정** > **회사 간** 을 선택합니다.
      13. **거래 관계** 탭에서 **활성** 을 **예** 로 설정합니다.
-     14. 공급업체 회사 **GBPM** 을 선택하고 **내 거래처 기록** 에서 절차의 앞부분에서 만든 고객 레코드를 선택합니다.
+     14. **고객 회사** 필드를 **GBPM** 으로 설정하고 **내 계정 레코드** 에서 절차의 앞부분에서 만든 고객 레코드를 선택합니다.
 
 3. **프로젝트 관리 및 회계 매개 변수에서 회사 간 설정 구성**. 
 
@@ -59,7 +59,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
     6. **리소스 대출 시** 그룹에서 **...** > **새로 만들기** 를 선택합니다. 
     7. 그리드에서 다음 정보를 입력합니다.
 
-          - **차용 법인** = **GBPM**
+          - **차용 법인** = **USPM**
           - **수익 발생** = **예**
           - **기본 작업표 범주** = **기본값 – 시간**
           - **기본 경비 범주** = **기본값 – 경비**
@@ -71,34 +71,34 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
      3. **비용 계정** 탭의 **원장 계정 유형** 에서 **회사 간 비용** 을 선택합니다. 다음 정보가 있는 새 레코드를 만듭니다.
       
         - **대출 법인** = **GBPM**
-        - **주요 계정** = 회사 간 비용에 대한 기본 계정 선택
+        - **주요 계정** = 회사 간 비용에 대한 기본 계정 선택. 이 설정은 필수입니다. 이 설정은 Finance의 내부 거래 흐름에 사용되지만 프로젝트 관련 내부 거래 흐름에는 사용되지 않습니다. 이 선택은 다운스트림에 영향을 미치지 않습니다. 
         
      4. 대출 법인 **GBPM** 을 선택합니다. 
      5. **프로젝트 관리 및 회계** > **설정** > **전기** > **원장 전기 설정** 으로 이동합니다. 
      6. **수익 계정** 탭의 **원장 계정 유형** 에서 **회사 간 수익** 을 선택합니다. 다음 정보가 있는 새 레코드를 만듭니다.
 
         - **차용 법인** = **USPM**
-        - **주요 계정** = 회사 간 수익에 대한 기본 계정 선택 
+        - **주요 계정** = 회사 간 수익에 대한 기본 계정 선택. 이 설정은 필수입니다. 이 설정은 Finance의 내부 거래 흐름에 사용되지만 프로젝트 관련 내부 거래 흐름에는 사용되지 않습니다. 이 선택은 다운스트림에 영향을 미치지 않습니다. 
 
 5. **인건비에 대한 이전 가격 설정**. 회사 간 이전 가격은 Dataverse의 Project Operations에서 구성됩니다. 회사 간 송장을 위해 [인력 비용 요금](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity)과 [인력 청구 요금](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions)을 구성합니다. 회사 간 경비 트랜잭션에는 이전 가격이 지원되지 않습니다. 조직 구성 단위 간 판매 가격은 항상 리소싱 단위 가격표와 동일한 값으로 설정됩니다.
 
-      Contoso Robotics UK의 개발자 리소스 비용은 시간당 88 GBP입니다. Contoso Robotics UK는 이 리소스가 미국 프로젝트에서 작업 한 시간마다 Contoso Robotics USA에 120 USD를 청구합니다. Contoso Robotics USA는 Contoso Robotics UK 개발자 리소스에서 수행한 작업에 대해 고객 Adventure Works에 200 USD를 청구합니다.
+      Contoso Robotics UK의 개발자 리소스 비용은 시간당 88 파운드입니다. Contoso Robotics UK는 이 리소스가 미국 프로젝트에서 작업 한 시간당 Contoso Robotics USA 120 USD를 청구합니다. Contoso Robotics USA는 Contoso Robotics UK 개발자 리소스가 수행한 작업에 대해 고객 Adventure Works에게 200 USD를 청구합니다.
 
-      1. Dataverse의 Project Operations에서 **판매** > **가격표** 로 이동합니다. **Contoso Robotics UK 비용 요금** 이라는 새 비용 가격표를 만듭니다. 
+      1. Dataverse의 Project Operations에서 **판매** > **가격표** 로 이동합니다. **Contoso Robotics UK 비용 요율** 이라는 새 비용 가격 목록을 만듭니다. 
       2. 비용 가격표에서 다음 정보로 레코드를 생성합니다.
          - **역할** = **개발자**
          - **비용** = **88 GBP**
-      3. **설정** > **조직 구성 단위** 로 이동하고 이 비용 가격표를 **Contoso Robotics UK** 조직 구성 단위에 첨부합니다.
-      4. **판매** > **가격표** 로 이동합니다. **Contoso Robotics USA 비용 요금** 이라는 비용 가격표를 만듭니다. 
+      3. **설정** > **조직 구성 단위** 로 이동하고 이 원가표를 **Contoso Robotics UK** 조직 구성 단위에 첨부합니다.
+      4. **판매** > **가격표** 로 이동합니다. **Contoso Robotics USA 비용 요율** 이라는 비용 가격 목록을 만듭니다. 
       5. 비용 가격표에서 다음 정보로 레코드를 생성합니다.
           - **역할** = **개발자**
-          - **리소싱 회사** = **Contoso Robotics UK**
+          - **리소스 회사** = **Contoso Robotics UK**
           - **비용** = **120 USD**
-      6. **설정** > **조직 구성 단위** 로 이동하고 **Contoso Robotics USA 비용 요금** 비용 가격표를 **Contoso Robotics USA** 조직 구성 단위에 첨부합니다.
+      6. **설정** > **조직 구성 단위** 로 이동하고 **Contoso Robotics USA 비용 요금** 원가표를 **Contoso Robotics USA** 조직 구성 단위에 첨부합니다.
       7. **판매** > **가격표** 로 이동합니다. **Adventure Works 청구 요금** 라는 판매 가격표를 만듭니다. 
       8. 판매 가격표에서 다음 정보로 레코드를 생성합니다.
           - **역할** = **개발자**
-          - **리소싱 회사** = **Contoso Robotics UK**
+          - **리소스 회사** = **Contoso Robotics UK**
           - **청구 요금** = **200 USD**
       9. **판매** > **프로젝트 계약** 으로 이동하고 **Adventure Works 청구 요금** 가격표를 프로젝트 계약의 Adventure Works 프로젝트 가격표에 첨부합니다.
 
