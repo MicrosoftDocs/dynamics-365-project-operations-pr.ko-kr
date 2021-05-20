@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283781"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948156"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>프로젝트 리소스 허브의 사용자 가이드
 
@@ -48,7 +48,7 @@ ms.locfileid: "5283781"
 ## <a name="install-the-mobile-app"></a>모바일 앱 설치
 프로젝트 리소스 허브 앱을 사용하려면 먼저 귀하의 기기에 모바일 앱을 설치해야 합니다. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for phones 및 tablets 설치](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 for phones 및 tablets 설치](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>기본 탐색
 1.  모바일 앱에 로그인하면 액세스할 수 있는 앱 목록이 포함된 MyApps 페이지가 표시됩니다. 
@@ -99,7 +99,7 @@ ms.locfileid: "5283781"
 5. 계속해서 해당 주에 대한 경비를 입력합니다. 입력을 완료하고 입력 내용에 대해 확인한 후 이상이 없으면 **전송** 을 탭합니다. 관리자가 경비를 검토하고 승인합니다.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>모바일 앱 사용 방법에 대한 일반 정보 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [모바일 기본 가이드](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [모바일 기본 가이드](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
 
 ### <a name="see-also"></a>참고 항목  
  [Project Service 개요](../psa/overview.md)   

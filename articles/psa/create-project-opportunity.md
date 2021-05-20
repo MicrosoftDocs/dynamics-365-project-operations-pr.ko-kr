@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285221"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948202"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>프로젝트 영업 기회 만들기(Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "5285221"
   
 3.  **요약** 영역에 영업 기회가 주어진 회사와 기타 정보를 입력합니다.  
   
-4.  이 잠재 고객과 관련된 메모와 활동(예: 전화 통화 또는 전자 메일)을 추가합니다. 메모 및 활동 추가에 대한 자세한 내용은 [메모, 작업, 전화 또는 전자 메일 활동 추적](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities)을 참조하십시오.  
+4.  이 잠재 고객과 관련된 메모와 활동(예: 전화 통화 또는 전자 메일)을 추가합니다. 메모 및 활동 추가에 대한 자세한 내용은 [메모, 작업, 전화 또는 전자 메일 활동 추적](/dynamics365/customerengagement/on-premises/basics/work-with-activities)을 참조하십시오.  
   
 5.  이해 관계자를 추가하려면 **이해 관계자** 영역에서 **+** 를 클릭합니다.  
   

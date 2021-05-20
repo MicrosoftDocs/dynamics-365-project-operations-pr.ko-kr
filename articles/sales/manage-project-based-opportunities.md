@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277841"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948428"
 ---
 # <a name="manage-project-based-opportunities"></a>프로젝트 기반 영업 기회 관리
 
@@ -64,7 +64,7 @@ Project Operations의 영업 기회 영업 프로세스는 Sales 응용 프로�
 >
 > 프로젝트 기반 거래가 영업 기회로 시작된 경우 영업 기회 영업 프로세스가 우선합니다.
 
-비즈니스 프로세스 흐름 제품을 편집하거나 필요에 따라 영업 프로세스를 추적하는 고유한 비즈니스 프로세스 흐름을 만들 수 있습니다. 비즈니스 프로세스 흐름에 대한 자세한 내용은 [비즈니스 프로세스 흐름 개요](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview)를 참조하십시오.
+비즈니스 프로세스 흐름 제품을 편집하거나 필요에 따라 영업 프로세스를 추적하는 고유한 비즈니스 프로세스 흐름을 만들 수 있습니다. 비즈니스 프로세스 흐름에 대한 자세한 내용은 [비즈니스 프로세스 흐름 개요](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview)를 참조하십시오.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284321"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947932"
 ---
 # <a name="install-and-customize-project-service"></a>설치 및 사용자 지정(Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284321"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Project Service 설치  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]는 선호 솔루션입니다. 솔루션을 구입하는 방법은 여러 가지가 있습니다. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [조직 및 사용자 등록](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]는 선호 솔루션입니다. 솔루션을 구입하는 방법은 여러 가지가 있습니다. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [조직 및 사용자 등록](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 양식 및 보고서 사용자 지정  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 양식, 대시보드 또는 보고서를 사용자 지정하려면, 다음 링크에서 자세한 내용을 확인할 수 있습니다.  
   
-- [앱 만들기 및 사용자 지정 시작하기](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [앱 만들기 및 사용자 지정 시작하기](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [양식 만들기 및 디자인](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [양식 만들기 및 디자인](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [대시보드 만들기 및 편집](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [대시보드 만들기 및 편집](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [프로세스 만들기 및 편집](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [프로세스 만들기 및 편집](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [보고 및 분석 소개](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [보고 및 분석 소개](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>참고 항목  
  [관리자 가이드](../psa/admin-guide.md)   

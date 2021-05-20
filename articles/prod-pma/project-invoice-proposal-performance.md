@@ -3,7 +3,7 @@ title: 프로젝트 송장 제안서 성능
 description: 이 항목은 프로젝트 송장 제안의 성능 향상에 대한 정보를 제공합니다.
 author: Yowelle
 manager: AnnBe
-ms.date: 03/05/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 78c924cba8107471a5f8e6d6a38265890d32d72b
-ms.sourcegitcommit: 2350c6f3728067a8298adde640e6fdd5984eb077
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573567"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920310"
 ---
 # <a name="project-invoice-proposal-performance"></a>프로젝트 송장 제안서 성능
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 새 송장 제안을 생성할 때 프로젝트 및 하위 프로젝트 수가 증가함에 따라 성능 문제가 발생할 수 있습니다. 성능을 향상시키기 위해 게시된 프로젝트 트랜잭션에 대한 새 송장 제안을 생성하는 데 필요한 시간을 줄이는 기능을 사용할 수 있습니다.
 
