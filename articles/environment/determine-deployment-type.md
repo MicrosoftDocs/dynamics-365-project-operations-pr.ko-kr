@@ -8,98 +8,98 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663602"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948114"
 ---
-# <a name="determine-your-deployment-type"></a><span data-ttu-id="02701-103">배포 유형 결정</span><span class="sxs-lookup"><span data-stu-id="02701-103">Determine your deployment type</span></span>
+# <a name="determine-your-deployment-type"></a><span data-ttu-id="dca71-103">배포 유형 결정</span><span class="sxs-lookup"><span data-stu-id="dca71-103">Determine your deployment type</span></span>
 
-<span data-ttu-id="02701-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="02701-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="dca71-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="dca71-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="02701-105">라이선스를 구입한 후 여기에서 시작하여 [안내 설치 흐름](https://aka.ms/provisionprojectoperations)을 사용하여 Dynamics 365 Project Operations의 최적의 배포 모델을 결정하십시오.</span><span class="sxs-lookup"><span data-stu-id="02701-105">After you purchase the license, start here to determine the best deployment model of Dynamics 365 Project Operations using the [Guided installation flow](https://aka.ms/provisionprojectoperations).</span></span>
-> <span data-ttu-id="02701-106">안내식 설치 흐름을 완료한 후 올바른 관리 포털로 이동하여 설치를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="02701-106">After you have finshed the Guided installation flow, you will be directed to the correct management portal to complete your installation.</span></span> <span data-ttu-id="02701-107">설치를 완료하려면 배포 세부 정보를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="02701-107">See the deployment details to complete the installation.</span></span>
+> <span data-ttu-id="dca71-105">라이선스를 구입한 후 여기에서 시작하여 [안내 설치 흐름](https://aka.ms/provisionprojectoperations)을 사용하여 Dynamics 365 Project Operations의 최적의 배포 모델을 결정하십시오.</span><span class="sxs-lookup"><span data-stu-id="dca71-105">After you purchase the license, start here to determine the best deployment model of Dynamics 365 Project Operations using the [Guided installation flow](https://aka.ms/provisionprojectoperations).</span></span>
+> <span data-ttu-id="dca71-106">안내식 설치 흐름을 완료한 후 올바른 관리 포털로 이동하여 설치를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-106">After you have finshed the Guided installation flow, you will be directed to the correct management portal to complete your installation.</span></span> <span data-ttu-id="dca71-107">설치를 완료하려면 배포 세부 정보를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="dca71-107">See the deployment details to complete the installation.</span></span>
 
 
-## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a><span data-ttu-id="02701-108">Dynamics 365 Project Service Automation을 사용하는 Dynamics의 기존 고객</span><span class="sxs-lookup"><span data-stu-id="02701-108">Existing customers of Dynamics using Dynamics 365 Project Service Automation</span></span>
-<span data-ttu-id="02701-109">Project Operations에는 Project Service Automation과 함께 제공되는 기능이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="02701-109">Project Operations includes the capabilities that shipped with Project Service Automation.</span></span> <span data-ttu-id="02701-110">2021년 릴리스 웨이브 1에서 이러한 고객을 위한 업그레이드 경로가 릴리스됩니다.</span><span class="sxs-lookup"><span data-stu-id="02701-110">An upgrade path will be released for these customers in the 2021 release wave 1.</span></span>
+## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a><span data-ttu-id="dca71-108">Dynamics 365 Project Service Automation을 사용하는 Dynamics의 기존 고객</span><span class="sxs-lookup"><span data-stu-id="dca71-108">Existing customers of Dynamics using Dynamics 365 Project Service Automation</span></span>
+<span data-ttu-id="dca71-109">Project Operations에는 Project Service Automation과 함께 제공되는 기능이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-109">Project Operations includes the capabilities that shipped with Project Service Automation.</span></span> <span data-ttu-id="dca71-110">2021년 릴리스 웨이브 1에서 이러한 고객을 위한 업그레이드 경로가 릴리스됩니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-110">An upgrade path will be released for these customers in the 2021 release wave 1.</span></span>
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a><span data-ttu-id="02701-111">프로젝트 관리 및 회계를 사용하는 Dynamics 365 Finance의 기존 고객</span><span class="sxs-lookup"><span data-stu-id="02701-111">Existing customers of Dynamics 365 Finance using Project management and accounting</span></span> 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a><span data-ttu-id="dca71-111">프로젝트 관리 및 회계를 사용하는 Dynamics 365 Finance의 기존 고객</span><span class="sxs-lookup"><span data-stu-id="dca71-111">Existing customers of Dynamics 365 Finance using Project management and accounting</span></span> 
 
-<span data-ttu-id="02701-112">프로젝트 관리 및 회계 기능을 사용하는 기존 Finance 고객은 그대로 계속 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="02701-112">Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is.</span></span> <span data-ttu-id="02701-113">[리소스/생산 주문 시나리오에 대한 Project Operations](#pma)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="02701-113">See [Project Operations for stocked/production order scenarios](#pma).</span></span>
-
-
-## <a name="deployment-regions"></a><span data-ttu-id="02701-114">배포 지역</span><span class="sxs-lookup"><span data-stu-id="02701-114">Deployment regions</span></span>
-<span data-ttu-id="02701-115">Project Operations 배포를 지원하는 지역을 확인하려면 [Dynamics 365 및 Power Platform의 지리적 가용성 보고서](https://dynamics.microsoft.com/en-us/geographic-availability/)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="02701-115">To determine which regions support Project Operations deployment, see [Geographical availability for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/en-us/geographic-availability/).</span></span> <span data-ttu-id="02701-116">**보고서 보기** 를 선택하고 **Dynamics 365 > 운영 앱 > Dynamics 365 Project Operations** 를 확장하고 지원되는 지역을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="02701-116">Select **View Report**, and expand **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** to view the supported regions.</span></span>
-
-## <a name="deployment-types"></a><span data-ttu-id="02701-117">배포 유형</span><span class="sxs-lookup"><span data-stu-id="02701-117">Deployment types</span></span>
-<span data-ttu-id="02701-118">Project Operations는 요구 사항에 맞는 여러 배포 옵션을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="02701-118">Project Operations supports multiple deployment options to match your requirements.</span></span> <span data-ttu-id="02701-119">신규 또는 기존 Dynamics 365 고객에 관계 없이 Project Operations는 귀사의 요구를 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="02701-119">Whether you're a new or existing Dynamics 365 customer, Project Operations can support your needs.</span></span>
-
-<span data-ttu-id="02701-120">[배포 설문지](https://aka.ms/provisionprojectoperations)는 올바른 배포를 결정하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="02701-120">Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment.</span></span> <span data-ttu-id="02701-121">결과는 다음 배포 유형 중 하나로 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="02701-121">The results will guide you toward one of the following deployment types:</span></span>
-
-- [<span data-ttu-id="02701-122">라이트 배포 - 견적 송장 거래</span><span class="sxs-lookup"><span data-stu-id="02701-122">Lite deployment – deal to proforma invoicing</span></span>](#lite)
-- [<span data-ttu-id="02701-123">리소스/비 재고 시나리오에 대한 Project Operations</span><span class="sxs-lookup"><span data-stu-id="02701-123">Project Operations for resource/non-stocked scenarios</span></span>](#integrated)
-- [<span data-ttu-id="02701-124">리소스/생산 주문 시나리오에 대한 Project Operations</span><span class="sxs-lookup"><span data-stu-id="02701-124">Project Operations for stocked/production order scenarios</span></span>](#pma)
-
-<span data-ttu-id="02701-125">Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재고/생산 주문 시나리오와 비재고/리소스 기반 시나리오를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="02701-125">Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations.</span></span> <span data-ttu-id="02701-126">예를 들어 Contoso는 미국 제조 시설에서 재고/생산 주문 기능을 사용할 수 있습니다 (법인 = Contoso Manufacturing United States).</span><span class="sxs-lookup"><span data-stu-id="02701-126">For example, Contoso can use the stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States).</span></span> <span data-ttu-id="02701-127">Contoso는 영국의 Contoso Robotics Arms 서비스 시설에서 비 재고/리소스 기반 기능을 사용할 수 있습니다(법인 = Contoso Robotics United Kingdom).</span><span class="sxs-lookup"><span data-stu-id="02701-127">Contoso can use the non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).</span></span>
-
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a><span data-ttu-id="02701-128">라이트 배포 - 견적 송장 거래</span><span class="sxs-lookup"><span data-stu-id="02701-128">Lite deployment - deal to proforma invoicing</span></span>
-
-<span data-ttu-id="02701-129">라이트 배포에는 다음 기능이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="02701-129">The lite deployment includes the following capabilities:</span></span>
-
-- <span data-ttu-id="02701-130">Dynamics 365 Sales 애플리케이션 경험을 확장하는 프로젝트의 영업 프로세스</span><span class="sxs-lookup"><span data-stu-id="02701-130">Sales process for projects that extends Dynamics 365 Sales application experiences</span></span>
-- <span data-ttu-id="02701-131">웹용 Microsoft Project를 사용한 프로젝트 계획</span><span class="sxs-lookup"><span data-stu-id="02701-131">Project planning using Microsoft Project for the Web</span></span>
-- <span data-ttu-id="02701-132">다차원 가격 책정</span><span class="sxs-lookup"><span data-stu-id="02701-132">Multi-dimensional pricing</span></span>
-- <span data-ttu-id="02701-133">통합 리소스 관리</span><span class="sxs-lookup"><span data-stu-id="02701-133">Unified resource management</span></span>
-- <span data-ttu-id="02701-134">시간 추적</span><span class="sxs-lookup"><span data-stu-id="02701-134">Time tracking</span></span>
-- <span data-ttu-id="02701-135">기본 경비</span><span class="sxs-lookup"><span data-stu-id="02701-135">Basic expense</span></span>
-- <span data-ttu-id="02701-136">프로젝트 관리자의 검토 및 편집을 위한 견적 송장</span><span class="sxs-lookup"><span data-stu-id="02701-136">Proforma invoicing for Project manager's review and edits</span></span> 
-
-#### <a name="deployment-steps"></a><span data-ttu-id="02701-137">배포 단계</span><span class="sxs-lookup"><span data-stu-id="02701-137">Deployment steps</span></span>
-<span data-ttu-id="02701-138">[배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="02701-138">Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).</span></span>
-
-<span data-ttu-id="02701-139">이 배포의 경우 [미리 보기 구독 신청](lite-preview-subscription-sign-up.md) 및 [새로운 환경 제공](lite-deployment.md)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="02701-139">For this deployment, see [Sign-up for preview subscriptions](lite-preview-subscription-sign-up.md) and [Provision new environment](lite-deployment.md).</span></span> 
+<span data-ttu-id="dca71-112">프로젝트 관리 및 회계 기능을 사용하는 기존 Finance 고객은 그대로 계속 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-112">Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is.</span></span> <span data-ttu-id="dca71-113">[리소스/생산 주문 시나리오에 대한 Project Operations](#pma)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="dca71-113">See [Project Operations for stocked/production order scenarios](#pma).</span></span>
 
 
-### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a><span data-ttu-id="02701-140">리소스/비 재고 시나리오에 대한 Project Operations</span><span class="sxs-lookup"><span data-stu-id="02701-140">Project Operations for resource/non-stocked scenarios</span></span>
-<span data-ttu-id="02701-141">리소스/비재고 시나리오에 대한 Project Operations에는 다음 기능이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="02701-141">The Project Operations for resource/non-stocked scenarios includes the following capabilities:</span></span>
+## <a name="deployment-regions"></a><span data-ttu-id="dca71-114">배포 지역</span><span class="sxs-lookup"><span data-stu-id="dca71-114">Deployment regions</span></span>
+<span data-ttu-id="dca71-115">Project Operations 배포를 지원하는 지역을 확인하려면 [Dynamics 365 및 Power Platform의 지리적 가용성 보고서](https://dynamics.microsoft.com/en-us/geographic-availability/)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="dca71-115">To determine which regions support Project Operations deployment, see [Geographical availability for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/en-us/geographic-availability/).</span></span> <span data-ttu-id="dca71-116">**보고서 보기** 를 선택하고 **Dynamics 365 > 운영 앱 > Dynamics 365 Project Operations** 를 확장하고 지원되는 지역을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-116">Select **View Report**, and expand **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** to view the supported regions.</span></span>
+
+## <a name="deployment-types"></a><span data-ttu-id="dca71-117">배포 유형</span><span class="sxs-lookup"><span data-stu-id="dca71-117">Deployment types</span></span>
+<span data-ttu-id="dca71-118">Project Operations는 요구 사항에 맞는 여러 배포 옵션을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-118">Project Operations supports multiple deployment options to match your requirements.</span></span> <span data-ttu-id="dca71-119">신규 또는 기존 Dynamics 365 고객에 관계 없이 Project Operations는 귀사의 요구를 지원할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-119">Whether you're a new or existing Dynamics 365 customer, Project Operations can support your needs.</span></span>
+
+<span data-ttu-id="dca71-120">[배포 설문지](https://aka.ms/provisionprojectoperations)는 올바른 배포를 결정하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-120">Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment.</span></span> <span data-ttu-id="dca71-121">결과는 다음 배포 유형 중 하나로 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-121">The results will guide you toward one of the following deployment types:</span></span>
+
+- [<span data-ttu-id="dca71-122">라이트 배포 - 견적 송장 거래</span><span class="sxs-lookup"><span data-stu-id="dca71-122">Lite deployment – deal to proforma invoicing</span></span>](#lite)
+- [<span data-ttu-id="dca71-123">리소스/비 재고 시나리오에 대한 Project Operations</span><span class="sxs-lookup"><span data-stu-id="dca71-123">Project Operations for resource/non-stocked scenarios</span></span>](#integrated)
+- [<span data-ttu-id="dca71-124">리소스/생산 주문 시나리오에 대한 Project Operations</span><span class="sxs-lookup"><span data-stu-id="dca71-124">Project Operations for stocked/production order scenarios</span></span>](#pma)
+
+<span data-ttu-id="dca71-125">Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재고/생산 주문 시나리오와 비재고/리소스 기반 시나리오를 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-125">Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations.</span></span> <span data-ttu-id="dca71-126">예를 들어 Contoso는 미국 제조 시설에서 재고/생산 주문 기능을 사용할 수 있습니다 (법인 = Contoso Manufacturing United States).</span><span class="sxs-lookup"><span data-stu-id="dca71-126">For example, Contoso can use the stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States).</span></span> <span data-ttu-id="dca71-127">Contoso는 영국의 Contoso Robotics Arms 서비스 시설에서 비 재고/리소스 기반 기능을 사용할 수 있습니다(법인 = Contoso Robotics United Kingdom).</span><span class="sxs-lookup"><span data-stu-id="dca71-127">Contoso can use the non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).</span></span>
+
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a><span data-ttu-id="dca71-128">라이트 배포 - 견적 송장 거래</span><span class="sxs-lookup"><span data-stu-id="dca71-128">Lite deployment - deal to proforma invoicing</span></span>
+
+<span data-ttu-id="dca71-129">라이트 배포에는 다음 기능이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-129">The lite deployment includes the following capabilities:</span></span>
+
+- <span data-ttu-id="dca71-130">Dynamics 365 Sales 애플리케이션 경험을 확장하는 프로젝트의 영업 프로세스</span><span class="sxs-lookup"><span data-stu-id="dca71-130">Sales process for projects that extends Dynamics 365 Sales application experiences</span></span>
+- <span data-ttu-id="dca71-131">웹용 Microsoft Project를 사용한 프로젝트 계획</span><span class="sxs-lookup"><span data-stu-id="dca71-131">Project planning using Microsoft Project for the Web</span></span>
+- <span data-ttu-id="dca71-132">다차원 가격 책정</span><span class="sxs-lookup"><span data-stu-id="dca71-132">Multi-dimensional pricing</span></span>
+- <span data-ttu-id="dca71-133">통합 리소스 관리</span><span class="sxs-lookup"><span data-stu-id="dca71-133">Unified resource management</span></span>
+- <span data-ttu-id="dca71-134">시간 추적</span><span class="sxs-lookup"><span data-stu-id="dca71-134">Time tracking</span></span>
+- <span data-ttu-id="dca71-135">기본 경비</span><span class="sxs-lookup"><span data-stu-id="dca71-135">Basic expense</span></span>
+- <span data-ttu-id="dca71-136">프로젝트 관리자의 검토 및 편집을 위한 견적 송장</span><span class="sxs-lookup"><span data-stu-id="dca71-136">Proforma invoicing for Project manager's review and edits</span></span> 
+
+#### <a name="deployment-steps"></a><span data-ttu-id="dca71-137">배포 단계</span><span class="sxs-lookup"><span data-stu-id="dca71-137">Deployment steps</span></span>
+<span data-ttu-id="dca71-138">[배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-138">Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).</span></span>
+
+<span data-ttu-id="dca71-139">이 배포의 경우 [미리 보기 구독 신청](lite-preview-subscription-sign-up.md) 및 [새로운 환경 제공](lite-deployment.md)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="dca71-139">For this deployment, see [Sign-up for preview subscriptions](lite-preview-subscription-sign-up.md) and [Provision new environment](lite-deployment.md).</span></span> 
+
+
+### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a><span data-ttu-id="dca71-140">리소스/비 재고 시나리오에 대한 Project Operations</span><span class="sxs-lookup"><span data-stu-id="dca71-140">Project Operations for resource/non-stocked scenarios</span></span>
+<span data-ttu-id="dca71-141">리소스/비재고 시나리오에 대한 Project Operations에는 다음 기능이 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-141">The Project Operations for resource/non-stocked scenarios includes the following capabilities:</span></span>
  
-- <span data-ttu-id="02701-142">Dynamics 365 Sales 애플리케이션을 확장하는 프로젝트의 영업 프로세스</span><span class="sxs-lookup"><span data-stu-id="02701-142">Sales process for projects that extends the Dynamics 365 Sales application</span></span>
-- <span data-ttu-id="02701-143">웹용 Microsoft Project를 사용한 프로젝트 계획</span><span class="sxs-lookup"><span data-stu-id="02701-143">Project planning using Microsoft Project for the Web</span></span>
-- <span data-ttu-id="02701-144">다차원 가격 책정</span><span class="sxs-lookup"><span data-stu-id="02701-144">Multi-dimensional pricing</span></span>
-- <span data-ttu-id="02701-145">통합 리소스 관리</span><span class="sxs-lookup"><span data-stu-id="02701-145">Unified resource management</span></span>
-- <span data-ttu-id="02701-146">시간 추적</span><span class="sxs-lookup"><span data-stu-id="02701-146">Time tracking</span></span>
-- <span data-ttu-id="02701-147">기본 경비</span><span class="sxs-lookup"><span data-stu-id="02701-147">Basic expense</span></span>
-- <span data-ttu-id="02701-148">전체 경비</span><span class="sxs-lookup"><span data-stu-id="02701-148">Full expense</span></span>
-- <span data-ttu-id="02701-149">OCR 영수증</span><span class="sxs-lookup"><span data-stu-id="02701-149">Receipt OCR</span></span>
-- <span data-ttu-id="02701-150">견적 및 고객 대면 송장 발행</span><span class="sxs-lookup"><span data-stu-id="02701-150">Proforma and customer-facing invoicing</span></span> 
-- <span data-ttu-id="02701-151">프로젝트의 수익 인식</span><span class="sxs-lookup"><span data-stu-id="02701-151">Revenue recognition for projects</span></span>
+- <span data-ttu-id="dca71-142">Dynamics 365 Sales 애플리케이션을 확장하는 프로젝트의 영업 프로세스</span><span class="sxs-lookup"><span data-stu-id="dca71-142">Sales process for projects that extends the Dynamics 365 Sales application</span></span>
+- <span data-ttu-id="dca71-143">웹용 Microsoft Project를 사용한 프로젝트 계획</span><span class="sxs-lookup"><span data-stu-id="dca71-143">Project planning using Microsoft Project for the Web</span></span>
+- <span data-ttu-id="dca71-144">다차원 가격 책정</span><span class="sxs-lookup"><span data-stu-id="dca71-144">Multi-dimensional pricing</span></span>
+- <span data-ttu-id="dca71-145">통합 리소스 관리</span><span class="sxs-lookup"><span data-stu-id="dca71-145">Unified resource management</span></span>
+- <span data-ttu-id="dca71-146">시간 추적</span><span class="sxs-lookup"><span data-stu-id="dca71-146">Time tracking</span></span>
+- <span data-ttu-id="dca71-147">기본 경비</span><span class="sxs-lookup"><span data-stu-id="dca71-147">Basic expense</span></span>
+- <span data-ttu-id="dca71-148">전체 경비</span><span class="sxs-lookup"><span data-stu-id="dca71-148">Full expense</span></span>
+- <span data-ttu-id="dca71-149">OCR 영수증</span><span class="sxs-lookup"><span data-stu-id="dca71-149">Receipt OCR</span></span>
+- <span data-ttu-id="dca71-150">견적 및 고객 대면 송장 발행</span><span class="sxs-lookup"><span data-stu-id="dca71-150">Proforma and customer-facing invoicing</span></span> 
+- <span data-ttu-id="dca71-151">프로젝트의 수익 인식</span><span class="sxs-lookup"><span data-stu-id="dca71-151">Revenue recognition for projects</span></span>
 
-#### <a name="deployment-steps"></a><span data-ttu-id="02701-152">배포 단계</span><span class="sxs-lookup"><span data-stu-id="02701-152">Deployment steps</span></span>
-<span data-ttu-id="02701-153">[배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="02701-153">Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).</span></span>
+#### <a name="deployment-steps"></a><span data-ttu-id="dca71-152">배포 단계</span><span class="sxs-lookup"><span data-stu-id="dca71-152">Deployment steps</span></span>
+<span data-ttu-id="dca71-153">[배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-153">Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).</span></span>
 
-<span data-ttu-id="02701-154">이 배포의 경우 [미리 보기 구독 신청](resource-sign-up-preview-subscription.md) 및 [새로운 환경 제공](resource-provision-new-environment.md)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="02701-154">For this deployment, see [Sign-up for preview subscriptions](resource-sign-up-preview-subscription.md) and [Provision new environment](resource-provision-new-environment.md).</span></span> 
+<span data-ttu-id="dca71-154">이 배포의 경우 [미리 보기 구독 신청](resource-sign-up-preview-subscription.md) 및 [새로운 환경 제공](resource-provision-new-environment.md)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="dca71-154">For this deployment, see [Sign-up for preview subscriptions](resource-sign-up-preview-subscription.md) and [Provision new environment](resource-provision-new-environment.md).</span></span> 
 
 
-### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a><span data-ttu-id="02701-155">리소스/생산 주문 시나리오에 대한 Project Operations</span><span class="sxs-lookup"><span data-stu-id="02701-155">Project Operations for stocked/production order scenarios</span></span>
+### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a><span data-ttu-id="dca71-155">리소스/생산 주문 시나리오에 대한 Project Operations</span><span class="sxs-lookup"><span data-stu-id="dca71-155">Project Operations for stocked/production order scenarios</span></span>
 
-- <span data-ttu-id="02701-156">WBS를 사용한 프로젝트 계획</span><span class="sxs-lookup"><span data-stu-id="02701-156">Project planning using WBS</span></span>
-- <span data-ttu-id="02701-157">리소스 관리</span><span class="sxs-lookup"><span data-stu-id="02701-157">Resource management</span></span>
-- <span data-ttu-id="02701-158">시간 추적</span><span class="sxs-lookup"><span data-stu-id="02701-158">Time tracking</span></span>
-- <span data-ttu-id="02701-159">전체 경비</span><span class="sxs-lookup"><span data-stu-id="02701-159">Full expense</span></span>
-- <span data-ttu-id="02701-160">OCR 영수증</span><span class="sxs-lookup"><span data-stu-id="02701-160">Receipt OCR</span></span>
-- <span data-ttu-id="02701-161">전체 송장 발행</span><span class="sxs-lookup"><span data-stu-id="02701-161">Full invoicing</span></span>
-- <span data-ttu-id="02701-162">수익 인식</span><span class="sxs-lookup"><span data-stu-id="02701-162">Revenue recognition</span></span>
-- <span data-ttu-id="02701-163">생산 주문</span><span class="sxs-lookup"><span data-stu-id="02701-163">Production orders</span></span>
-- <span data-ttu-id="02701-164">재고가 있는 재고 자재 지원</span><span class="sxs-lookup"><span data-stu-id="02701-164">Stocked materials support with inventory</span></span>
+- <span data-ttu-id="dca71-156">WBS를 사용한 프로젝트 계획</span><span class="sxs-lookup"><span data-stu-id="dca71-156">Project planning using WBS</span></span>
+- <span data-ttu-id="dca71-157">리소스 관리</span><span class="sxs-lookup"><span data-stu-id="dca71-157">Resource management</span></span>
+- <span data-ttu-id="dca71-158">시간 추적</span><span class="sxs-lookup"><span data-stu-id="dca71-158">Time tracking</span></span>
+- <span data-ttu-id="dca71-159">전체 경비</span><span class="sxs-lookup"><span data-stu-id="dca71-159">Full expense</span></span>
+- <span data-ttu-id="dca71-160">OCR 영수증</span><span class="sxs-lookup"><span data-stu-id="dca71-160">Receipt OCR</span></span>
+- <span data-ttu-id="dca71-161">전체 송장 발행</span><span class="sxs-lookup"><span data-stu-id="dca71-161">Full invoicing</span></span>
+- <span data-ttu-id="dca71-162">수익 인식</span><span class="sxs-lookup"><span data-stu-id="dca71-162">Revenue recognition</span></span>
+- <span data-ttu-id="dca71-163">생산 주문</span><span class="sxs-lookup"><span data-stu-id="dca71-163">Production orders</span></span>
+- <span data-ttu-id="dca71-164">재고가 있는 재고 자재 지원</span><span class="sxs-lookup"><span data-stu-id="dca71-164">Stocked materials support with inventory</span></span>
 
-#### <a name="deployment-steps"></a><span data-ttu-id="02701-165">배포 단계</span><span class="sxs-lookup"><span data-stu-id="02701-165">Deployment steps</span></span>
-<span data-ttu-id="02701-166">[배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="02701-166">Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).</span></span>
+#### <a name="deployment-steps"></a><span data-ttu-id="dca71-165">배포 단계</span><span class="sxs-lookup"><span data-stu-id="dca71-165">Deployment steps</span></span>
+<span data-ttu-id="dca71-166">[배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.</span><span class="sxs-lookup"><span data-stu-id="dca71-166">Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).</span></span>
 
-<span data-ttu-id="02701-167">이 배포의 경우 [미리 보기 구독 신청](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) 및 [새로운 환경 제공](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="02701-167">For this deployment, see [Sign-up for preview subscriptions](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) and [Provision new environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json).</span></span> 
+<span data-ttu-id="dca71-167">이 배포의 경우 [미리 보기 구독 신청](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) 및 [새로운 환경 제공](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json)을 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="dca71-167">For this deployment, see [Sign-up for preview subscriptions](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) and [Provision new environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json).</span></span> 
 
 
 
