@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 새로운 기능
       items:
+        - name: 2021년 5월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021년 3월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: 경비 범주 설정
               href: expense/set-up-expense-categories.md
+            - name: 마일리지 등급 계층을 사용하여 마일리지 설정
+              href: expense/set-up-mileage.md
         - name: 개인 경비
           href: expense/personal-expenses-expense-report.md
         - name: 회사 간 경비
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: 새로운 기능
       items:
+        - name: 2021년 5월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021년 4월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021년 3월의 새로운 기능 - 라이트 배포
@@ -1028,6 +1034,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 32, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-32.md
         - name: '업데이트 릴리스 31, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-31.md
         - name: '업데이트 릴리스 30, V3의 새로운 내용 또는 변경된 내용'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: 주간 시간 항목 사용자 지정
               href: psa/time-entry-extensibility-v3.md
+            - name: 승인 집합
+              href: psa/approval-set.md
     - name: FAQ 및 문제 해결(3.x)
       items:
         - name: 경비 비용 실제 값에 대한 가격이 기본적으로 0이 되는 이유는 무엇입니까?
