@@ -2,11 +2,9 @@
 title: 가격표 비활성화
 description: 이 항목은 미사용 또는 이전 가격표를 비활성화하거나 제거하는 방법을 설명합니다.
 author: rumant
-manager: AnnBe
 ms.date: 03/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Professional Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3fa902e93815002be7d6915880cd7759dbbde5ef
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d5d6cf6b4b097c08edca5a3235ed1b438a0eae2d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701950"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001344"
 ---
 # <a name="deactivate-price-lists"></a>가격표 비활성화 
 

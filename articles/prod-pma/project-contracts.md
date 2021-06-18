@@ -2,11 +2,9 @@
 title: 프로젝트 계약
 description: 이 항목은 다양한 유형의 프로젝트 및 자금 출처에 대해 생성할 수 있는 프로젝트 계약의 예와 계약 및 송장 프로젝트 고객을 관리하는 방법을 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a794ec38ac07c1418f9e95b741941a83492bb3d5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289557"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999769"
 ---
 # <a name="project-contracts"></a>프로젝트 계약
 
@@ -118,7 +116,7 @@ Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 �
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>6</li>
+<li>1</li>
 <li>6</li>
 <li>2</li>
 </ul></td>

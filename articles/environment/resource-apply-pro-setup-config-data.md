@@ -2,18 +2,16 @@
 title: Common Data Service에서 구성 데이터 설정 및 적용
 description: 이 항목은 Project Operations에서 구성 데이터를 설정하고 적용하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289827"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001299"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Common Data Service에서 구성 데이터 설정 및 적용 
 
@@ -21,9 +19,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
-Common Data Service(CDS)에서 데이터를 구성하기 전에 다음 전제 조건이 충족되어야 합니다.
+Common Data Service(CDS)에서 데이터 구성을 시작하기 전에 다음 전제 조건이 충족되어야 합니다.
 
 1.  CDS 환경 및 Project Operations을 위한 Dynamics 365 Finance 환경을 프로비저닝합니다.
 2.  Dynamics 365 Finance의 법인 정보는 CDS 환경에 공유됩니다. 즉 CDS의 **회사** 법인에는 다음과 같은 회사 기록이 있습니다.
@@ -33,7 +31,7 @@ Common Data Service(CDS)에서 데이터를 구성하기 전에 다음 전제 �
 
 ## <a name="install-setup-and-configuration-data"></a>설정 및 구성 데이터 설치
 
-1. [설정 및 구성 데이터 패키지](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip)를 다운로드, 차단 해제 및 압축 해제합니다.
+1. [설정 및 구성 데이터 패키지](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip)를 다운로드, 차단 해제 및 압축 해제합니다.
 2. 압축이 풀린 폴더로 이동하여 *DataMigrationUtility* 실행 파일을 실행합니다.
 3. Common Data Service 구성 마이그레이션(CMT) 마법사의 1 페이지에서 **데이터 가져오기** 를 선택한 다음 **계속** 을 선택합니다.
 
@@ -57,13 +55,20 @@ Common Data Service(CDS)에서 데이터를 구성하기 전에 다음 전제 �
 ![데이터 가져오기](./media/5ImportData.png)
 
 10. 가져오기는 네트워크 속도에 따라 약 2~10분 동안 실행됩니다. 가져오기가 완료되면 CMT 마법사를 종료합니다. 
-11. 조직에서 다음 19개 항목의 데이터를 확인합니다.
+11. 조직에서 다음 26개 항목의 데이터를 확인합니다.
 
   - 통화
+  - 계정 차트
+  - 회계 달력
+  - 통화 환율 유형
+  - 지불 날짜
+  - 지불 일정
+  - 지불 조건
   - 조직 구성 단위
   - 연락처
   - 세금 그룹
   - 고객 그룹
+  - 공급업체 그룹
   - 단위
   - 단위 그룹
   - 가격표
@@ -127,7 +132,7 @@ Common Data Service(CDS)에서 데이터를 구성하기 전에 다음 전제 �
 12. 다음 필드를 업데이트합니다.
 
  - **기본 회사**: USPM
- - **기본 조직 구성 단위**: Contoso Robotics Global
+ - **기본 조직 단위**:Contoso Robotics Global
  - **송장 빈도**: 일곱째 날과 마지막 날
  - **근무 시간 템플릿**: 생성한 템플릿으로 변경합니다.
 

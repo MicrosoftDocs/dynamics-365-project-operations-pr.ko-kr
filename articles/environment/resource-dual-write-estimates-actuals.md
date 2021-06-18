@@ -2,19 +2,17 @@
 title: 프로젝트 추정 및 실제 통합
 description: 이 항목은 프로젝트 추정 및 실제를 위한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 88df3385fac0a78a827d65a77d3b04c9d6499536
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955788"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000039"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>프로젝트 추정 및 실제 통합
 

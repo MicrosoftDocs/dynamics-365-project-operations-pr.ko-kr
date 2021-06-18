@@ -2,11 +2,9 @@
 title: Microsoft Project Client 통합
 description: 프로젝트 일정을 계획하고 유지하는 것은 복잡할 수 있으므로 프로젝트 관리자는 이 작업을 관리하는 데 도움이 되는 도구를 사용해야 합니다. Microsoft Project Client와의 통합은 프로젝트 작업 분할 구조를 열고 관리할 수 있도록 지원합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289332"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999454"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 통합
 

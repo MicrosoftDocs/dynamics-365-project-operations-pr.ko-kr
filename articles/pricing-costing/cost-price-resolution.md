@@ -2,18 +2,16 @@
 title: 추정 및 실제 원가 해결
 description: 이 항목은 추정 및 실제의 원가를 확인하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 04/09/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 13903acc22e765ddc5bc1b87428ef3565f2b0a44
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: d81b521acbfd97127cf056bd41a3249c01108374
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877320"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001389"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>추정 및 실제 원가 해결
 

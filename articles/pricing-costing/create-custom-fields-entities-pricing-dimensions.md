@@ -2,11 +2,9 @@
 title: 가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기
 description: 이 항목은 사용자 정의 옵션 집합 또는 엔터티를 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 089481cd3e7c0f8f1d1aa880d64cb79e8d677c2d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275636"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000534"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기
 

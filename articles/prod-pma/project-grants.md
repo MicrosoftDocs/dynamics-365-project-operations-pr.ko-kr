@@ -2,11 +2,9 @@
 title: 프로젝트 보조금
 description: 이 항목은 보조금을 생성하거나 수정하는 방법을 설명합니다.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8e875ec086ee4c5e2ed3b16adcc6048ac8351ea7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289377"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999589"
 ---
 # <a name="project-grants"></a>프로젝트 권한 부여
 

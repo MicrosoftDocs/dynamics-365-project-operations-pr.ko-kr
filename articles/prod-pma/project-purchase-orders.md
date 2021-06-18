@@ -2,11 +2,9 @@
 title: 프로젝트 구매 주문
 description: 이 문서에서는 프로젝트에 대한 구매 주문을 생성하는 데 사용할 수 있는 다양한 방법에 대해 설명합니다. 사용하는 방법은 구매 주문의 목적과 구매한 항목이 소비되고 프로젝트에 청구되는 시기에 따라 다릅니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f3f5d196e0d7db4a6d8c4cfe834a335f4ef737c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3c3ce2d0c0fb3cecf22157db5cb37eb744027d0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289197"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999364"
 ---
 # <a name="purchase-orders-for-a-project"></a>프로젝트 구매 주문
 

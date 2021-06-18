@@ -2,18 +2,16 @@
 title: 리소스 관리 주요 개념
 description: 이 항목은 Microsoft Dynamics Project Operations에서 리소스 관리 기능에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6362daab7e2e01c7b7b2c2b801fe7e258b21ef16
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279506"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000984"
 ---
 # <a name="resource-management-key-concepts"></a>리소스 관리 주요 개념
 

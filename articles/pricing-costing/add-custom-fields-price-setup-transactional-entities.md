@@ -2,11 +2,9 @@
 title: 가격 설정 및 거래 엔터티에 필요한 사용자 지정 필드 추가
 description: 이 항목은 엔터티와 양식 및 보기에 필수 사용자 정의 필드 참조를 추가하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 66cd638a3726cb68c0e92d3b0b54de28ff94b2a5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275771"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000579"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>가격 설정 및 거래 엔터티에 필요한 사용자 지정 필드 추가
 
