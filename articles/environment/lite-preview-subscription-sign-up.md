@@ -2,18 +2,16 @@
 title: 미리 보기 구독 신청 - 라이트
 description: 이 항목은 Project Operations 라이트 배포 - 견적 송장 거래를 구독하고 배포하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290052"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997429"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>미리 보기 구독 신청 - 라이트 
 

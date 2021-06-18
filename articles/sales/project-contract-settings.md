@@ -2,18 +2,16 @@
 title: 프로젝트 계약 설정
 description: 이 항목은 계약 내용에 영향을 미치는 필드에 대한 정보와 모든 라인 항목에 요약되는 계약에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1e6971553bb436ee5bcad2c335d32c929ddc4800
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663872"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996169"
 ---
 # <a name="header-details-for-project-based-contracts"></a>프로젝트 기반 계약에 대한 헤더 세부 사항
 

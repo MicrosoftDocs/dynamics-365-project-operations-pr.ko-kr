@@ -2,8 +2,6 @@
 title: 프로젝트 영업 기회 만들기
 description: 프로젝트 영업 기회를 만드는 방법(Project Service)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9d8a879df6fc1b1c85ba5d856ab1df02ae55cec1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948202"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997339"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>프로젝트 영업 기회 만들기(Project Service)
 

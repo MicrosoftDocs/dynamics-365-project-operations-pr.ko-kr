@@ -2,18 +2,16 @@
 title: 승인을 위한 개발자 노트
 description: 이 항목은 승인 작업에 대한 추가 개발자 정보를 제공합니다.
 author: stsporen
-manager: Annbe
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d58c776b0341c08b0292e1b459a7d7ebac550bcc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a89ea669a262c145b9f391fddc19e79a425fabb5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290277"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996799"
 ---
 # <a name="developer-notes-for-approvals"></a>승인을 위한 개발자 노트
 

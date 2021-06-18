@@ -2,11 +2,9 @@
 title: 수정 분개장 생성 및 확인
 description: 이 주제는 수정 분개장을 생성하고 확인하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8ca35d1e66cbacaf65b7cd43493e3588f213788e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9d242741b2070f086bf8d3f1d40a5380c2a0f518
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276941"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996664"
 ---
 # <a name="create-and-confirm-correction-journals"></a>수정 분개장 생성 및 확인
 

@@ -2,19 +2,17 @@
 title: 리소스/생산 기반 시나리오에 대한 2021년 3월 Project Operations의 새로운 기능 또는 변경된 기능
 description: 이 항목은 리소스/생산 기반 시나리오에 대한 Project Operations의 2021년 3월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d1a4658c8eec23f6816b58de42d785d769050b07
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701951"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997024"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>리소스/생산 기반 시나리오에 대한 2021년 3월 Project Operations의 새로운 기능 또는 변경된 기능
 
@@ -123,7 +121,7 @@ _**적용 대상:** 리소스/생산 기반 시나리오에 대한 Project Opera
 | 프로젝트 관리 및 회계 | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | 레거시 작업 분류 체계 (WBS) 클래스 방법 **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** 는 더 이상 사용되지 않습니다.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>규제 업데이트
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates.md)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

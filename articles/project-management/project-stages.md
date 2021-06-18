@@ -2,11 +2,9 @@
 title: 프로젝트 스테이지
 description: 이 항목은 Microsoft Dynamics Project Operations에서 사용할 수 있는 프로젝트 스테이지에 대한 정보를 제공합니다.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a5c695e0cd39f8a222e719cc6c9ffe984fe80b07
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 079c3d2d16cf802d2b9ecc779577e6e390d92ddc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286796"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996934"
 ---
 # <a name="project-stages"></a>프로젝트 스테이지
 

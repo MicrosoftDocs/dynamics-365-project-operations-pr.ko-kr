@@ -2,18 +2,16 @@
 title: 데모 설정 및 구성 데이터 적용 - 라이트
 description: 이 항목은 Project Operations에 대해 데모 설정 및 구성 데이터를 적용하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290142"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997159"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operations의 데모 설정 및 구성 데이터 적용 - 라이트 
 
@@ -28,8 +26,8 @@ _**Lite 배포 - 견적 송장 거래_
 
 ## <a name="instructions"></a>설명
 
-1. [마스터 데이터 패키지](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip)를 다운로드합니다. 
-2. *ProjOpsDemoDataSetupAndMaster - Integrated CMT* 폴더로 이동하여 *DataMigrationUtility* 실행 파일을 실행합니다.
+1. [마스터 데이터 패키지](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip)를 다운로드합니다. 
+2. 폴더 *ProjOpsSampleSetupData - CE only CMT* 로 이동하고 실행 파일 *DataMigrationUtility* 를 실행합니다.
 3. Common Data Service 구성 마이그레이션(CMT) 마법사의 1 페이지에서 **데이터 가져오기** 를 선택한 다음 **계속** 을 선택합니다.
 
     ![구성 마이그레이션](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ _**Lite 배포 - 견적 송장 거래_
    ![구성 로그인](./media/2ConfigurationSignin.png)
 
 7. 3페이지의 테넌트의 조직 목록에서 데모 데이터를 가져올 조직을 선택하고 **로그인** 을 선택합니다.
-8. 4페이지에서 압축을 푼 폴더 *ProjOpsDemoDataSetupAndMaster - Integrated CMT* 에서 zip 파일 *MasterAndSetupData* 를 선택합니다.
+8. 4페이지에서 압축을 푼 폴더 *ProjOpsSampleSetupData - CE only CMT* 에서 zip 파일 *SampleSetupAndConfigData* 를 선택합니다.
 
    ![압축 파일](./media/3ZipFile.png)
 
@@ -52,10 +50,10 @@ _**Lite 배포 - 견적 송장 거래_
    ![데이터 가져오기](./media/5ImportData.png)
 
 10. 가져오기는 네트워크 속도에 따라 약 2~10분 동안 실행됩니다. 가져오기가 완료되면 CMT 마법사를 종료합니다. 
-11. 조직에서 다음 20개 항목의 데이터를 확인합니다.
+11. 조직에서 다음 18개 항목의 데이터를 확인합니다.
 
     -   통화
-    -   계정
+    -   어카운트
     -   조직 구성 단위
     -   연락처
     -   단위

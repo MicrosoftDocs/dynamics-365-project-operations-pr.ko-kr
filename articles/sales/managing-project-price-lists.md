@@ -2,11 +2,9 @@
 title: 견적에 대한 프로젝트 가격표 관리
 description: 이 항목은 프로젝트 가격표 엔터티에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da349924488fb62dc0b0bd8eaf4c48b02aa16d09
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277751"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996259"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>견적에 대한 프로젝트 가격표 관리
 

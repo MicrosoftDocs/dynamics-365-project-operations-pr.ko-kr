@@ -2,19 +2,17 @@
 title: 2021년 3월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2021년 3월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
-manager: tfehr
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d114ee64bd26d3271a1c72a7404c0f7035c2b61
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: dcf11d770082308d77b369c6f50aabb1ec7c1c86
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948067"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995674"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 3월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 

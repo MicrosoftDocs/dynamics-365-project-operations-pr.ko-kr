@@ -2,8 +2,6 @@
 title: 보고 홈 페이지
 description: 이 주제는 Dynamics 365 Project Service Automation에서의 보고에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6c35729e51b7439a74446641af3feace5c7751ac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951487"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998104"
 ---
 # <a name="reporting-home-page"></a>보고 홈 페이지
 

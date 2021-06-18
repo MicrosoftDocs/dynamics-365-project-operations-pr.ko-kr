@@ -2,11 +2,9 @@
 title: 단위 및 단위 그룹
 description: 이 토픽은 Dynamics 365 Project Operations에서 단위 및 단위 그룹을 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 162366f4b7aa678b4e39d9745a657037bf36cbe0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 646e20189efb4aab56972f01a52b1bff19f2e79f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277346"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996079"
 ---
 # <a name="units-and-unit-groups"></a>단위 및 단위 그룹
 
