@@ -2,102 +2,100 @@
 title: 리소스/비 재고 시나리오에 대한 Project Operations 미리 보기 구독에 등록
 description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Project Operations를 구독하고 배포하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 1b8c8982ede83191ce346e76718322d47abf0dd8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948472"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000444"
 ---
-# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a><span data-ttu-id="6c53d-103">리소스/비 재고 시나리오에 대한 Project Operations 미리 보기 구독에 등록</span><span class="sxs-lookup"><span data-stu-id="6c53d-103">Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios</span></span>
+# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a><span data-ttu-id="b59ef-103">리소스/비 재고 시나리오에 대한 Project Operations 미리 보기 구독에 등록</span><span class="sxs-lookup"><span data-stu-id="b59ef-103">Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios</span></span>
 
-<span data-ttu-id="6c53d-104">_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="6c53d-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="b59ef-104">_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="b59ef-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="6c53d-105">이 항목은 미리 보기/파트너 제안을 구독하고 리소스/비 재고 시나리오를 위한 Project Operations 환경을 배포하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-105">This topic explains how to subscribe to the preview/partner offer and deploy Project Operations environment for resource/ non-stocked based scenarios.</span></span>
+<span data-ttu-id="b59ef-105">이 항목은 미리 보기/파트너 제안을 구독하고 리소스/비 재고 시나리오를 위한 Project Operations 환경을 배포하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-105">This topic explains how to subscribe to the preview/partner offer and deploy Project Operations environment for resource/ non-stocked based scenarios.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="6c53d-106">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="6c53d-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="b59ef-106">필수 구성 요소</span><span class="sxs-lookup"><span data-stu-id="b59ef-106">Prerequisites</span></span>
 
-- <span data-ttu-id="6c53d-107">미리 보기에 참여하도록 초대하는 이메일을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-107">You will receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="6c53d-108">[Project Operations 웹 사이트](https://dynamics.microsoft.com/en-us/project-operations/overview/)에서 미리 보기를 요청할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="6c53d-109">미리 보기를 배포하는 사용자는 Azure 테넌트 전역 관리자 권한이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="6c53d-110">Finance 환경을 배포하려면 환경별로 요금이 청구되는 유효한 Azure 구독이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-110">Deploying a Finance environment requires a valid Azure subscription that will be billed per environment.</span></span> <span data-ttu-id="6c53d-111">조직의 기존 구독을 사용하거나 [Azure 평가판](https://azure.microsoft.com/en-us/free/)을 사용하여 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-111">You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/en-us/free/) to get started.</span></span> <span data-ttu-id="6c53d-112">CDS 환경은 제한된 30일 동안 무료로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-112">The CDS environment will be provided free for a limited 30 day period.</span></span>
+- <span data-ttu-id="b59ef-107">미리 보기에 참여하도록 초대하는 이메일을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-107">You will receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="b59ef-108">[Project Operations 웹 사이트](https://dynamics.microsoft.com/en-us/project-operations/overview/)에서 미리 보기를 요청할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
+- <span data-ttu-id="b59ef-109">미리 보기를 배포하는 사용자는 Azure 테넌트 전역 관리자 권한이 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
+- <span data-ttu-id="b59ef-110">Finance 환경을 배포하려면 환경별로 요금이 청구되는 유효한 Azure 구독이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-110">Deploying a Finance environment requires a valid Azure subscription that will be billed per environment.</span></span> <span data-ttu-id="b59ef-111">조직의 기존 구독을 사용하거나 [Azure 평가판](https://azure.microsoft.com/en-us/free/)을 사용하여 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-111">You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/en-us/free/) to get started.</span></span> <span data-ttu-id="b59ef-112">CDS 환경은 제한된 30일 동안 무료로 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-112">The CDS environment will be provided free for a limited 30 day period.</span></span>
 
-## <a name="subscribe"></a><span data-ttu-id="6c53d-113">구독</span><span class="sxs-lookup"><span data-stu-id="6c53d-113">Subscribe</span></span>
+## <a name="subscribe"></a><span data-ttu-id="b59ef-113">구독</span><span class="sxs-lookup"><span data-stu-id="b59ef-113">Subscribe</span></span>
 
-<span data-ttu-id="6c53d-114">[미리 보기 요청](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u)이 승인되면 이메일로 Microsoft로부터 세 가지 제안을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-114">When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) is approved, you will receive three offers from Microsoft by email.</span></span> <span data-ttu-id="6c53d-115">이러한 제안을 통해 Project Operations 미리 보기를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-115">These offers allow you to deploy the Project Operations Preview:</span></span>
+<span data-ttu-id="b59ef-114">[미리 보기 요청](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u)이 승인되면 이메일로 Microsoft로부터 세 가지 제안을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-114">When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) is approved, you will receive three offers from Microsoft by email.</span></span> <span data-ttu-id="b59ef-115">이러한 제안을 통해 Project Operations 미리 보기를 배포할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-115">These offers allow you to deploy the Project Operations Preview:</span></span>
 
-- <span data-ttu-id="6c53d-116">Dynamics 365 Project Operations (CRM) - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="6c53d-116">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="6c53d-117">Office 365 Project Operations - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="6c53d-117">Office 365 Project Operations - Preview Trial</span></span>
-- <span data-ttu-id="6c53d-118">Dynamics 365 Finance - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="6c53d-118">Dynamics 365 Finance - Preview Trial</span></span>
+- <span data-ttu-id="b59ef-116">Dynamics 365 Project Operations (CRM) - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="b59ef-116">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
+- <span data-ttu-id="b59ef-117">Office 365 Project Operations - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="b59ef-117">Office 365 Project Operations - Preview Trial</span></span>
+- <span data-ttu-id="b59ef-118">Dynamics 365 Finance - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="b59ef-118">Dynamics 365 Finance - Preview Trial</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="6c53d-119">조직의 테넌트 관리자인 한 사람만이 작업을 수행하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-119">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="6c53d-120">이 릴리스의 구독자가 아닌 경우 조직이 등록되고 사용자 자격 증명을 받을 때까지 기다리십시오.</span><span class="sxs-lookup"><span data-stu-id="6c53d-120">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="b59ef-119">조직의 테넌트 관리자인 한 사람만이 작업을 수행하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-119">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="b59ef-120">이 릴리스의 구독자가 아닌 경우 조직이 등록되고 사용자 자격 증명을 받을 때까지 기다리십시오.</span><span class="sxs-lookup"><span data-stu-id="b59ef-120">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="6c53d-121">Dynamics 365 Project Operations (CRM) - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="6c53d-121">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="b59ef-121">Dynamics 365 Project Operations (CRM) - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="b59ef-121">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
 
-<span data-ttu-id="6c53d-122">시작하기 전에 프로젝트 작업 미리 보기를 원하는 테넌트의 사용자 작업 계정으로 브라우저에 로그인했는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-122">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+<span data-ttu-id="b59ef-122">시작하기 전에 프로젝트 작업 미리 보기를 원하는 테넌트의 사용자 작업 계정으로 브라우저에 로그인했는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-122">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-1. <span data-ttu-id="6c53d-123">브라우저 URL에 붙여 넣어 첫 번째 제안 코드 **Dynamics 365 Project Operations(CRM) - 평가판 미리보기** 를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-123">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+1. <span data-ttu-id="b59ef-123">브라우저 URL에 붙여 넣어 첫 번째 제안 코드 **Dynamics 365 Project Operations(CRM) - 평가판 미리보기** 를 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-123">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
 
 ![초대 제안](./media/16RedeemFirstOfferNew.png)
 
-2. <span data-ttu-id="6c53d-125">주문을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-125">Confirm your order.</span></span>
+2. <span data-ttu-id="b59ef-125">주문을 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-125">Confirm your order.</span></span>
 
 ![주문 확인](./media/17ConfirmOrderNew.png)
 
-<span data-ttu-id="6c53d-127">확인 제안이 성공적으로 회수되었음을 확인하는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-127">You will see confirmation offer was successfully redeemed.</span></span>
+<span data-ttu-id="b59ef-127">확인 제안이 성공적으로 회수되었음을 확인하는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-127">You will see confirmation offer was successfully redeemed.</span></span>
 
 ![확인](./media/18OrderConfirmationNew.png)
 
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="6c53d-129">Office 365 Project Operations - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="6c53d-129">Office 365 Project Operations - Preview Trial</span></span>
+### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="b59ef-129">Office 365 Project Operations - 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="b59ef-129">Office 365 Project Operations - Preview Trial</span></span>
 
-<span data-ttu-id="6c53d-130">첫 번째 제안 코드와 동일한 단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-130">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="6c53d-131">첫 번째 제안 코드에 사용된 것과 동일한 사용자 계정을 사용하여 두 번째 제안 코드를 추가해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-131">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
+<span data-ttu-id="b59ef-130">첫 번째 제안 코드와 동일한 단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-130">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="b59ef-131">첫 번째 제안 코드에 사용된 것과 동일한 사용자 계정을 사용하여 두 번째 제안 코드를 추가해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-131">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
 
-### <a name="dynamics-365-finance-preview-trial"></a><span data-ttu-id="6c53d-132">Dynamics 365 Finance 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="6c53d-132">Dynamics 365 Finance preview trial</span></span>
+### <a name="dynamics-365-finance-preview-trial"></a><span data-ttu-id="b59ef-132">Dynamics 365 Finance 평가판 미리 보기</span><span class="sxs-lookup"><span data-stu-id="b59ef-132">Dynamics 365 Finance preview trial</span></span>
 
-<span data-ttu-id="6c53d-133">환영 이메일의 마지막 제안에 대해 동일한 단계를 반복하십시오.</span><span class="sxs-lookup"><span data-stu-id="6c53d-133">Repeat the same steps with the last offer from the Welcome email.</span></span>
+<span data-ttu-id="b59ef-133">환영 이메일의 마지막 제안에 대해 동일한 단계를 반복하십시오.</span><span class="sxs-lookup"><span data-stu-id="b59ef-133">Repeat the same steps with the last offer from the Welcome email.</span></span>
 
-## <a name="assign-licenses"></a><span data-ttu-id="6c53d-134">라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="6c53d-134">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="b59ef-134">라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="b59ef-134">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="6c53d-135">다음 단계를 완료하려면 조직의 Microsoft 365 포털에서 관리 액세스 권한이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-135">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="b59ef-135">다음 단계를 완료하려면 조직의 Microsoft 365 포털에서 관리 액세스 권한이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-135">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
-1. <span data-ttu-id="6c53d-136">[Microsoft 365 관리 센터](https://portal.office.com/)로 이동하여 사용자에게 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-136">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="b59ef-136">[Microsoft 365 관리 센터](https://portal.office.com/)로 이동하여 사용자에게 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-136">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
 
 ![관리 센터 홈 페이지](./media/14AdminPortal.png)
 
-2. <span data-ttu-id="6c53d-138">**활성 사용자** 페이지에서 라이선스를 할당할 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-138">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+2. <span data-ttu-id="b59ef-138">**활성 사용자** 페이지에서 라이선스를 할당할 사용자를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-138">On the **Active users** page, select the users that you want to assign a license to.</span></span>
 
 ![라이선스 할당](./media/15AssignLicenses.png)
 
-3. <span data-ttu-id="6c53d-140">**Dynamics 365 Project Operations(CRM) 미리 보기** 및 **Office 365 Project Operations - 미리보기** 라이선스가 선택되었는지 확인하고 **변경 사항 저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-140">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.</span></span>
+3. <span data-ttu-id="b59ef-140">**Dynamics 365 Project Operations(CRM) 미리 보기** 및 **Office 365 Project Operations - 미리보기** 라이선스가 선택되었는지 확인하고 **변경 사항 저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-140">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6c53d-141">Finance 평가판 제안은 사용자에게 할당할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-141">The Finance trial offer does not need to be assigned to a user.</span></span>
+> <span data-ttu-id="b59ef-141">Finance 평가판 제안은 사용자에게 할당할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-141">The Finance trial offer does not need to be assigned to a user.</span></span>
 
-## <a name="start-a-new-project-in-lcs"></a><span data-ttu-id="6c53d-142">LCS에서 새 프로젝트 시작</span><span class="sxs-lookup"><span data-stu-id="6c53d-142">Start a new project in LCS</span></span>
+## <a name="start-a-new-project-in-lcs"></a><span data-ttu-id="b59ef-142">LCS에서 새 프로젝트 시작</span><span class="sxs-lookup"><span data-stu-id="b59ef-142">Start a new project in LCS</span></span>
 
-<span data-ttu-id="6c53d-143">항목 [LCS에서 새 프로젝트 시작](create-lcs-project.md)에 설명된 대로 새 LCS 프로젝트를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-143">Create a new LCS project as described in the topic, [Start a new project in LCS](create-lcs-project.md)</span></span>
+<span data-ttu-id="b59ef-143">항목 [LCS에서 새 프로젝트 시작](create-lcs-project.md)에 설명된 대로 새 LCS 프로젝트를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-143">Create a new LCS project as described in the topic, [Start a new project in LCS](create-lcs-project.md)</span></span>
 
-## <a name="add-an-azure-subscription-to-an-lcs-project"></a><span data-ttu-id="6c53d-144">LCS 프로젝트에 Azure 구독 추가</span><span class="sxs-lookup"><span data-stu-id="6c53d-144">Add an Azure subscription to an LCS project</span></span>
+## <a name="add-an-azure-subscription-to-an-lcs-project"></a><span data-ttu-id="b59ef-144">LCS 프로젝트에 Azure 구독 추가</span><span class="sxs-lookup"><span data-stu-id="b59ef-144">Add an Azure subscription to an LCS project</span></span>
 
-<span data-ttu-id="6c53d-145">이 작업을 완료하려면 항목 [LCS 프로젝트에 Azure 구독 추가](resource-add-azure-subscription-lcs-project.md)의 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-145">To complete this task, follow the steps in the topic, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).</span></span>
+<span data-ttu-id="b59ef-145">이 작업을 완료하려면 항목 [LCS 프로젝트에 Azure 구독 추가](resource-add-azure-subscription-lcs-project.md)의 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-145">To complete this task, follow the steps in the topic, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).</span></span>
 
-## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a><span data-ttu-id="6c53d-146">리소스/비 재고 시나리오를 위한 Project Operations과 함께 Finance 데모 환경 배포</span><span class="sxs-lookup"><span data-stu-id="6c53d-146">Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios</span></span>
+## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a><span data-ttu-id="b59ef-146">리소스/비 재고 시나리오를 위한 Project Operations과 함께 Finance 데모 환경 배포</span><span class="sxs-lookup"><span data-stu-id="b59ef-146">Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios</span></span>
 
-<span data-ttu-id="6c53d-147">항목 [새로운 환경 프로비전](resource-provision-new-environment.md)의 안내를 따라 배포를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-147">Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment.</span></span> <span data-ttu-id="6c53d-148">미리 보기를 위한 [데모 환경](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) 배포 유형을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-148">Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview.</span></span> 
+<span data-ttu-id="b59ef-147">항목 [새로운 환경 프로비전](resource-provision-new-environment.md)의 안내를 따라 배포를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-147">Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment.</span></span> <span data-ttu-id="b59ef-148">미리 보기를 위한 [데모 환경](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) 배포 유형을 사용합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-148">Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview.</span></span> 
 
-## <a name="install-cds-setup-and-configuration-data"></a><span data-ttu-id="6c53d-149">CDS 설정 및 구성 데이터 설치</span><span class="sxs-lookup"><span data-stu-id="6c53d-149">Install CDS setup and configuration data</span></span>
+## <a name="install-cds-setup-and-configuration-data"></a><span data-ttu-id="b59ef-149">CDS 설정 및 구성 데이터 설치</span><span class="sxs-lookup"><span data-stu-id="b59ef-149">Install CDS setup and configuration data</span></span>
 
-<span data-ttu-id="6c53d-150">항목 [Common Data Service에서 구성 데이터 설정 및 적용](resource-apply-pro-setup-config-data.md)에 설명된 대로 CDS 설정 및 구성 데이터를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-150">Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).</span></span>
-<span data-ttu-id="6c53d-151">Finance 데모 환경이 배포되고 FO의 데모 데이터가 준비된 후에만 이 단계를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="6c53d-151">Complete this step only after Finance demo environment is deployed and demo data in FO is ready.</span></span>
+<span data-ttu-id="b59ef-150">항목 [Common Data Service에서 구성 데이터 설정 및 적용](resource-apply-pro-setup-config-data.md)에 설명된 대로 CDS 설정 및 구성 데이터를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-150">Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).</span></span>
+<span data-ttu-id="b59ef-151">Finance 데모 환경이 배포되고 FO의 데모 데이터가 준비된 후에만 이 단계를 완료합니다.</span><span class="sxs-lookup"><span data-stu-id="b59ef-151">Complete this step only after Finance demo environment is deployed and demo data in FO is ready.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

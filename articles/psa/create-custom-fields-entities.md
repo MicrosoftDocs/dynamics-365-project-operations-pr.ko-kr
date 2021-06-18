@@ -2,12 +2,10 @@
 title: 맞춤 필드 및 엔터티 만들기
 description: 이 항목은 Power Apps 플랫폼의 자체 솔루션에서 옵션 집합 및 엔터티를 만드는 방법을 설명합니다.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,60 +15,60 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c58745a46e84a40b90fbb3cbf89b10e293588fc3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290546"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998959"
 ---
-# <a name="create-custom-fields-and-entities"></a><span data-ttu-id="986b0-103">맞춤 필드 및 엔터티 만들기</span><span class="sxs-lookup"><span data-stu-id="986b0-103">Create custom fields and entities</span></span> 
+# <a name="create-custom-fields-and-entities"></a><span data-ttu-id="94479-103">맞춤 필드 및 엔터티 만들기</span><span class="sxs-lookup"><span data-stu-id="94479-103">Create custom fields and entities</span></span> 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="986b0-104">Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 경우 언제든지 다음 단계를 완료하십시오.</span><span class="sxs-lookup"><span data-stu-id="986b0-104">Complete the following steps any time that you want to create a custom option set or entity on the Power Apps platform.</span></span>  
-<span data-ttu-id="986b0-105">이 주제의 절차는 Project Service Automation(PSA)의 웹 인터페이스를 사용하여 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-105">The procedures in this topic should be completed using the web interface of Project Service Automation (PSA).</span></span>
+<span data-ttu-id="94479-104">Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 경우 언제든지 다음 단계를 완료하십시오.</span><span class="sxs-lookup"><span data-stu-id="94479-104">Complete the following steps any time that you want to create a custom option set or entity on the Power Apps platform.</span></span>  
+<span data-ttu-id="94479-105">이 주제의 절차는 Project Service Automation(PSA)의 웹 인터페이스를 사용하여 완료해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-105">The procedures in this topic should be completed using the web interface of Project Service Automation (PSA).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="986b0-106">별도의 솔루션에서 모든 맞춤 가격 책정 차원을 변경하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-106">We recommend that you make all custom pricing dimension changes in a separate solution.</span></span> <span data-ttu-id="986b0-107">이 중요한 모범 사례는 나중에 필요에 따라 변경 내용을 업데이트하거나 제거할 수 있는 유연성을 제공하고, 작업을 다시 사용하는 데 도움이 되며, 이러한 변경 내용을 다른 인스턴스로 쉽게 나를 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-107">This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance.</span></span> <span data-ttu-id="986b0-108">요구되는 모든 변경을 한 후, 이 솔루션을 **관리형 솔루션** 으로 내보내고 다른 인스턴스로 가져와 가격 책정 설정을 다시 사용하십시오.</span><span class="sxs-lookup"><span data-stu-id="986b0-108">After you have made all of the required changes, export this solution as a **Managed solution** and import it into other instances to reuse your pricing setup.</span></span>
+> <span data-ttu-id="94479-106">별도의 솔루션에서 모든 맞춤 가격 책정 차원을 변경하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="94479-106">We recommend that you make all custom pricing dimension changes in a separate solution.</span></span> <span data-ttu-id="94479-107">이 중요한 모범 사례는 나중에 필요에 따라 변경 내용을 업데이트하거나 제거할 수 있는 유연성을 제공하고, 작업을 다시 사용하는 데 도움이 되며, 이러한 변경 내용을 다른 인스턴스로 쉽게 나를 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-107">This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance.</span></span> <span data-ttu-id="94479-108">요구되는 모든 변경을 한 후, 이 솔루션을 **관리형 솔루션** 으로 내보내고 다른 인스턴스로 가져와 가격 책정 설정을 다시 사용하십시오.</span><span class="sxs-lookup"><span data-stu-id="94479-108">After you have made all of the required changes, export this solution as a **Managed solution** and import it into other instances to reuse your pricing setup.</span></span>
 
   
-## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a><span data-ttu-id="986b0-109">가격 책정 차원 솔루션에서 맞춤 필드 및 옵션 세트 만들기</span><span class="sxs-lookup"><span data-stu-id="986b0-109">Create custom fields and option sets in the pricing dimension solution</span></span>
+## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a><span data-ttu-id="94479-109">가격 책정 차원 솔루션에서 맞춤 필드 및 옵션 세트 만들기</span><span class="sxs-lookup"><span data-stu-id="94479-109">Create custom fields and option sets in the pricing dimension solution</span></span>
 
-<span data-ttu-id="986b0-110">가격 책정 차원은 옵션 집합 또는 엔터티일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-110">A pricing dimension can be an option set or an entity.</span></span> <span data-ttu-id="986b0-111">둘 다 가격 책정 솔루션에서 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-111">Both must be created in your pricing solution.</span></span> <span data-ttu-id="986b0-112">이 절차의 단계는 엔터티 기반 차원 및 옵션 집합 기반 차원을 만드는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-112">The steps in this procedure explain how to create entity-based dimensions and option set-based dimensions.</span></span>
+<span data-ttu-id="94479-110">가격 책정 차원은 옵션 집합 또는 엔터티일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="94479-110">A pricing dimension can be an option set or an entity.</span></span> <span data-ttu-id="94479-111">둘 다 가격 책정 솔루션에서 만들어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-111">Both must be created in your pricing solution.</span></span> <span data-ttu-id="94479-112">이 절차의 단계는 엔터티 기반 차원 및 옵션 집합 기반 차원을 만드는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-112">The steps in this procedure explain how to create entity-based dimensions and option set-based dimensions.</span></span>
 
-### <a name="entity-based-dimensions"></a><span data-ttu-id="986b0-113">엔터티 기반 차원</span><span class="sxs-lookup"><span data-stu-id="986b0-113">Entity-based dimensions</span></span>
+### <a name="entity-based-dimensions"></a><span data-ttu-id="94479-113">엔터티 기반 차원</span><span class="sxs-lookup"><span data-stu-id="94479-113">Entity-based dimensions</span></span>
 
-1. <span data-ttu-id="986b0-114">PSA에서 **설정** > **솔루션** 을 클릭하고 **\<your organization name>가격 책정 차원** 을 두 번 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-114">In PSA, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.</span></span>
-2. <span data-ttu-id="986b0-115">솔루션 탐색기의 왼쪽 탐색 창에서 **엔터티** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-115">In Solution Explorer, on the left navigation pane, select **Entities**.</span></span>
-3. <span data-ttu-id="986b0-116">**신규** 를 클릭하면 **표준 직함** 으로 불리는 새 엔터티가 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-116">Click **New** to create a new entity called **Standard Title**.</span></span> <span data-ttu-id="986b0-117">나머지 필수 정보를 입력한 다음 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-117">Enter the remaining required information, and then click **Save**.</span></span>
+1. <span data-ttu-id="94479-114">PSA에서 **설정** > **솔루션** 을 클릭하고 **\<your organization name>가격 책정 차원** 을 두 번 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-114">In PSA, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.</span></span>
+2. <span data-ttu-id="94479-115">솔루션 탐색기의 왼쪽 탐색 창에서 **엔터티** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-115">In Solution Explorer, on the left navigation pane, select **Entities**.</span></span>
+3. <span data-ttu-id="94479-116">**신규** 를 클릭하면 **표준 직함** 으로 불리는 새 엔터티가 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="94479-116">Click **New** to create a new entity called **Standard Title**.</span></span> <span data-ttu-id="94479-117">나머지 필수 정보를 입력한 다음 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-117">Enter the remaining required information, and then click **Save**.</span></span>
 
 > ![표준 직함 엔터티 정의](media/Standard-Title-entity-definition.png)
 
 
-### <a name="option-set-based-dimensions"></a><span data-ttu-id="986b0-119">옵션 세트 기반 차원</span><span class="sxs-lookup"><span data-stu-id="986b0-119">Option set-based dimensions</span></span> 
-<span data-ttu-id="986b0-120">두 개의 옵션 세트 기반 차원을 생성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-120">You can create two option set-based dimensions.</span></span> <span data-ttu-id="986b0-121">**리소스 작업 위치** 를 사용하여 **홈** 위치 작업과 **현장** 작업의 가격을 추적하고, 작업이 완료되면 **정규** 및 **초과 근무** 값의 **리소스 작업 시간** 을 사용하여 마크업을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-121">Use **Resource Work Location** to track the price of **Home** location work and **Onsite** work and use **Resource Work hours** with values **Regular** and **Overtime** to apply a markup when work is completed.</span></span>
+### <a name="option-set-based-dimensions"></a><span data-ttu-id="94479-119">옵션 세트 기반 차원</span><span class="sxs-lookup"><span data-stu-id="94479-119">Option set-based dimensions</span></span> 
+<span data-ttu-id="94479-120">두 개의 옵션 세트 기반 차원을 생성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="94479-120">You can create two option set-based dimensions.</span></span> <span data-ttu-id="94479-121">**리소스 작업 위치** 를 사용하여 **홈** 위치 작업과 **현장** 작업의 가격을 추적하고, 작업이 완료되면 **정규** 및 **초과 근무** 값의 **리소스 작업 시간** 을 사용하여 마크업을 적용합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-121">Use **Resource Work Location** to track the price of **Home** location work and **Onsite** work and use **Resource Work hours** with values **Regular** and **Overtime** to apply a markup when work is completed.</span></span>
 
 
-1. <span data-ttu-id="986b0-122">PSA에서 **설정** > **솔루션** 을 클릭하고 **\<your organization name>가격 책정 차원** 을 두 번 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-122">In PSA, click **Settings** > **Solutions**, and then double-click  **\<your organization name> pricing dimensions**.</span></span> 
-2. <span data-ttu-id="986b0-123">솔루션 탐색기의 왼쪽 탐색 창에서 **옵션 집합** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-123">In Solution Explorer, on the left navigation pane, select  **Option Sets**.</span></span> 
-3. <span data-ttu-id="986b0-124">**신규** 를 클릭하여 새 옵션 집합을 만들고, 나머지 필수 정보를 입력한 다음 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-124">Click **New** to create a new option set, enter the remaining required information, and then click **Save**.</span></span>
+1. <span data-ttu-id="94479-122">PSA에서 **설정** > **솔루션** 을 클릭하고 **\<your organization name>가격 책정 차원** 을 두 번 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-122">In PSA, click **Settings** > **Solutions**, and then double-click  **\<your organization name> pricing dimensions**.</span></span> 
+2. <span data-ttu-id="94479-123">솔루션 탐색기의 왼쪽 탐색 창에서 **옵션 집합** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-123">In Solution Explorer, on the left navigation pane, select  **Option Sets**.</span></span> 
+3. <span data-ttu-id="94479-124">**신규** 를 클릭하여 새 옵션 집합을 만들고, 나머지 필수 정보를 입력한 다음 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-124">Click **New** to create a new option set, enter the remaining required information, and then click **Save**.</span></span>
 
-> ![<span data-ttu-id="986b0-125">리소스 작업 위치로 불리는 옵션 집합 기반 가격 책정 차원</span><span class="sxs-lookup"><span data-stu-id="986b0-125">Option set based pricing dimension called Resource Work Location</span></span> ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![<span data-ttu-id="94479-125">리소스 작업 위치로 불리는 옵션 집합 기반 가격 책정 차원</span><span class="sxs-lookup"><span data-stu-id="94479-125">Option set based pricing dimension called Resource Work Location</span></span> ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![<span data-ttu-id="986b0-126">리소스 작업 시간으로 불리는 옵션 집합 기반 가격 책정 차원</span><span class="sxs-lookup"><span data-stu-id="986b0-126">Option set based pricing dimension called Resource Work Hours</span></span> ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![<span data-ttu-id="94479-126">리소스 작업 시간으로 불리는 옵션 집합 기반 가격 책정 차원</span><span class="sxs-lookup"><span data-stu-id="94479-126">Option set based pricing dimension called Resource Work Hours</span></span> ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
-## <a name="create-data-for-entity-based-dimensions"></a><span data-ttu-id="986b0-127">엔터티 기반 차원에 대한 데이터 만들기</span><span class="sxs-lookup"><span data-stu-id="986b0-127">Create data for entity-based dimensions</span></span>
+## <a name="create-data-for-entity-based-dimensions"></a><span data-ttu-id="94479-127">엔터티 기반 차원에 대한 데이터 만들기</span><span class="sxs-lookup"><span data-stu-id="94479-127">Create data for entity-based dimensions</span></span>
 
-<span data-ttu-id="986b0-128">엔터티 기반 차원에 대한 데이터를 수동으로 만들거나 Microsoft Excel가져오기 또는 서비스 호출을 사용하여 데이터를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-128">You can create data for entity-based dimensions manually, or by using Microsoft Excel import or service calls.</span></span> <span data-ttu-id="986b0-129">이 절차의 단계를 사용하여 엔터티 기반 차원 **표준 직함** 에서 두 개의 표준 직함 **시스템 엔지니어** 및 **선임 시스템 엔지니어** 를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-129">Use the steps in this procedure to create two standard titles, **Systems Engineer** and **Senior Systems Engineer** from the entity-based dimension, **Standard Title**.</span></span> <span data-ttu-id="986b0-130">만들려는 데이터가 작으면, 다음 예와 같이 표준 양식을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-130">If the data that you want to create is small, as in the following example, you can use a standard form.</span></span>
+<span data-ttu-id="94479-128">엔터티 기반 차원에 대한 데이터를 수동으로 만들거나 Microsoft Excel가져오기 또는 서비스 호출을 사용하여 데이터를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="94479-128">You can create data for entity-based dimensions manually, or by using Microsoft Excel import or service calls.</span></span> <span data-ttu-id="94479-129">이 절차의 단계를 사용하여 엔터티 기반 차원 **표준 직함** 에서 두 개의 표준 직함 **시스템 엔지니어** 및 **선임 시스템 엔지니어** 를 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-129">Use the steps in this procedure to create two standard titles, **Systems Engineer** and **Senior Systems Engineer** from the entity-based dimension, **Standard Title**.</span></span> <span data-ttu-id="94479-130">만들려는 데이터가 작으면, 다음 예와 같이 표준 양식을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="94479-130">If the data that you want to create is small, as in the following example, you can use a standard form.</span></span>
 
-1. <span data-ttu-id="986b0-131">PSA에서 **상세하게 찾기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-131">In PSA, click **Advanced Find**.</span></span> <span data-ttu-id="986b0-132">엔터티 **표준 직함** 을 선택한 다음 **결과** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-132">Select the entity **Standard Title** and then click **Results**.</span></span> <span data-ttu-id="986b0-133">**표준 직함** 엔터티의 모든 행이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-133">All of the rows in the **Standard Title** entity will be shown.</span></span>
-2. <span data-ttu-id="986b0-134">**새로 만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-134">Click **New**.</span></span> <span data-ttu-id="986b0-135">**명칭** 필드에 "시스템 엔지니어"를 입력한 다음 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-135">In the **Name** field, enter "Systems Engineer" and then click **Save**.</span></span>
-3. <span data-ttu-id="986b0-136">양식을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-136">Close the form.</span></span> 
-4. <span data-ttu-id="986b0-137">1-3 단계를 반복하여 "선임 시스템 엔지니어"를 위한 다른 표준 직함을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="986b0-137">Repeat steps 1 - 3 to create another standard title for "Senior Systems Engineer".</span></span>
+1. <span data-ttu-id="94479-131">PSA에서 **상세하게 찾기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-131">In PSA, click **Advanced Find**.</span></span> <span data-ttu-id="94479-132">엔터티 **표준 직함** 을 선택한 다음 **결과** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-132">Select the entity **Standard Title** and then click **Results**.</span></span> <span data-ttu-id="94479-133">**표준 직함** 엔터티의 모든 행이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="94479-133">All of the rows in the **Standard Title** entity will be shown.</span></span>
+2. <span data-ttu-id="94479-134">**새로 만들기** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-134">Click **New**.</span></span> <span data-ttu-id="94479-135">**명칭** 필드에 "시스템 엔지니어"를 입력한 다음 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="94479-135">In the **Name** field, enter "Systems Engineer" and then click **Save**.</span></span>
+3. <span data-ttu-id="94479-136">양식을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="94479-136">Close the form.</span></span> 
+4. <span data-ttu-id="94479-137">1-3 단계를 반복하여 "선임 시스템 엔지니어"를 위한 다른 표준 직함을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="94479-137">Repeat steps 1 - 3 to create another standard title for "Senior Systems Engineer".</span></span>
 
-> ![<span data-ttu-id="986b0-138">표준 직함 엔터티를 위한 샘플 데이터</span><span class="sxs-lookup"><span data-stu-id="986b0-138">Sample Data for Standard Title entity</span></span> ](media/ST-data.png)
+> ![<span data-ttu-id="94479-138">표준 직함 엔터티를 위한 샘플 데이터</span><span class="sxs-lookup"><span data-stu-id="94479-138">Sample Data for Standard Title entity</span></span> ](media/ST-data.png)
 
 
 
