@@ -2,11 +2,9 @@
 title: 경비 영수증 처리
 description: 이 항목은 영수증에 대한 광학 문자 인식(OCR) 처리에 대한 정보를 제공합니다. 이 기능은 Microsoft Dynamics 365 Finance에서 경비 보고서를 작성할 때 사용자 경험을 개선하도록 설계되었습니다.
 author: stsporen
-manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 57ef67412eb3c5795559e4f6d011e97c4d7a1338
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ed9c97ba9cc505106599c2896dc2112358d0c408
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271811"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993514"
 ---
 # <a name="expense-receipt-processing"></a>경비 영수증 처리
 

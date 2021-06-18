@@ -2,8 +2,6 @@
 title: 과업에 리소스를 배정
 description: 이 항목은 과업에 리소스를 배정하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 486371df2de8b400f200dbf38e66cb5e2dec7ae7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a348130ee5760196b2f008ea811e7a81758dd73e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286256"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993244"
 ---
 # <a name="assign-a-resource-to-a-task"></a>작업에 리소스 할당
 

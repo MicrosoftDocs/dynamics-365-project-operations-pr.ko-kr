@@ -2,18 +2,16 @@
 title: 영업 기회 설정 - 라이트
 description: 이 항목은 프로젝트 기반 거래 및 프로젝트 기반 영업 기회 라인에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ed82cb511337d9f6286e13b244d049022a184eef
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4539a34cface9999c9cd029f8d44f835a8fe27ca
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950632"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994684"
 ---
 # <a name="header-details-for-project-opportunities"></a>프로젝트 영업 기회에 대한 헤더 세부 사항
 

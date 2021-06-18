@@ -2,8 +2,6 @@
 title: Project Service Automation의 예약 할당 방법
 description: 이 항목은 할당을 예약할 수 있는 다양한 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6fefaf0677ec1b3b84b202824ba16a87fa1b8d5c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286346"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993318"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation의 예약 할당 방법
 
@@ -48,7 +46,7 @@ ms.locfileid: "5286346"
 
 |         예약          |    1일    |    2일    |    3일    |    4일    |    5일    |    총계    |
 |---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|    기존 예약    |    12        |    12        |    12        |    12        |    12        |    12        |
+|    기존 예약    |    0        |    12        |    12        |    12        |    12        |    12        |
 |    새 예약          |    8        |    8        |    4        |    0        |    0        |    20       |
 
 초기 단계 이익 배분 방법은 기존 예약과 가용 능력을 고려합니다. 예를 들어, 동일한 리소스에 이미 작업 주에 20시간의 예약이 있는 경우 새 예약은 다음과 같이 남은 능력을 사용합니다.

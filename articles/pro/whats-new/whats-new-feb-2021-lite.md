@@ -2,19 +2,17 @@
 title: 2021년 2월의 새로운 기능 - Project Operations 라이트 배포
 description: 이 항목은 Project Operations 라이트 배포의 2021년 2월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: df6490d3d9c28b095efd5ef856064de4b1517055
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3fc46ab3e82fdf7ae473202c5be737a3b8c86ab2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272171"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994009"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>2021년 2월의 새로운 기능 - Project Operations 라이트 배포
 

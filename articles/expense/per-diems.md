@@ -2,18 +2,16 @@
 title: 일비
 description: 이 항목은 경비 관리에 사용되는 일비 규칙에 대한 정보를 제공합니다.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 70e26a5e0f9a06730a2166318006429195335d4d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b1476bfc0386412762c30e5a00acaff65bfbe3c7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276311"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995269"
 ---
 # <a name="per-diems"></a>일비
 

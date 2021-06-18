@@ -2,18 +2,16 @@
 title: 견적 - 주요 개념 - 라이트
 description: 이 항목은 Project Operations의 프로젝트 견적 사용에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97488f8be003099210ed58dd5b609c8416474cd
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: bd225bfea6e04839b57dfcc9436315fe1cd6a204
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663963"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994280"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>프로젝트 견적에 고유한 개념
 

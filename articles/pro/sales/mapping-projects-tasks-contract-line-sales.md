@@ -2,18 +2,16 @@
 title: 프로젝트 및 작업을 프로젝트 기반 계약에 매핑 - 라이트
 description: 이 항목은 계약 내용에 프로젝트 및 작업을 추가 및 제거하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 4b86e03192625b0dabb89080f2ade1ed9e3567cf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858102"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994640"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>프로젝트 및 작업을 프로젝트 기반 계약 라인에 매핑 
 

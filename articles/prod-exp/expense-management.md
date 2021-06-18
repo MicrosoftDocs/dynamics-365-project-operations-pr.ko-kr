@@ -2,11 +2,9 @@
 title: 경비 관리 개요
 description: 이 항목은 경비 관리에 대한 일반 정보와 추가 리소스에 대한 링크를 제공합니다. 경비 관리를 사용하여 결제 방법 정보를 저장하고, 신용 카드 거래를 가져오고, 직원이 비즈니스 비용을 발생시킬 때 지출하는 비용을 추적할 수 있는 통합 워크플로를 만들 수 있습니다.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2db1c2cd34a2b99ac8e0cc88c34bac804bbafdb6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949777"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993559"
 ---
 # <a name="expense-management-overview"></a>경비 관리 개요
 

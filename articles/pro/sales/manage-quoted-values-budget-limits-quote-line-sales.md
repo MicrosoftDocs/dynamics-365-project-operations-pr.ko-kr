@@ -2,18 +2,16 @@
 title: 프로젝트 기반 견적 라인 개요
 description: 이 항목은 프로젝트 작업에 프로젝트 기반 견적 라인 사용에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 32337b05f09ef7c5b84fdff9870744d6367e2693
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858706"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994864"
 ---
 # <a name="project-based-quote-lines-overview"></a>프로젝트 기반 견적 라인 개요 
 

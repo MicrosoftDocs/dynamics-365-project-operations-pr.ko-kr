@@ -2,18 +2,16 @@
 title: 선급금 및 보유자 기반 계약
 description: 이 항목은 Project Operations에서 보유자 기반 계약 모델 또는 선불에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e098d25a3e96adf2a1b8e43a19da3a14f446fba9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5b4e2e0bfd0da02c3386978ce732232631f10421
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272351"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994234"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>선급금 및 보유자 기반 계약
 

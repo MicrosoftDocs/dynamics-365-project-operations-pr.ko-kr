@@ -2,19 +2,17 @@
 title: 2021년 4월의 새로운 기능 - Project Operations 라이트 배포
 description: 이 항목은 Project Operations 라이트 배포의 2021년 4월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
-manager: tfehr
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bd6fbe8d75fbe9157a97d2edd38d40a97395c924
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 868d6daf8ac3ad9ef4245cef3c74a735137d3903
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868046"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994099"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>2021년 4월의 새로운 기능 - Project Operations 라이트 배포
 
