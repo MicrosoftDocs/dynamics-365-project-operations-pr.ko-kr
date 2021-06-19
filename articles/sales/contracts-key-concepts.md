@@ -2,18 +2,16 @@
 title: 프로젝트 계약 - 주요 개념
 description: 이 항목은 Project Operations에서 프로젝트 계액의 주요 개념에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: ba7b8955567232a46742bc234adcb2ad1875ddac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663728"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013539"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>프로젝트 기반 계약에 고유한 개념
 

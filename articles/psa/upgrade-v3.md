@@ -1,9 +1,7 @@
 ---
 title: 업그레이드 고려 사항 - Microsoft Dynamics 365 Project Service Automation 버전 2.x 또는 1.x에서 버전 3으로 업그레이드
 description: 이 항목은 Project Service Automation 버전 2.x 또는 1.x에서 버전 3으로 업그레이드할 때 고려해야 할 사항에 대한 정보를 제공합니다.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281666"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014890"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>업그레이드 고려 사항 - PSA 버전 2.x 또는 1.x에서 버전 3
 
@@ -91,7 +89,7 @@ Project Service Automation 버전 3에서는 예약 가능한 리소스를 작�
 
 ![통합 테스트 작업 조직 할당](media/org-unit-generate-team-10.png)
 
-프로젝트에 대한 팀을 생성할 때 작업의 다른 조직 구성 단위로 인해 두 개의 일반 팀 구성원이 만들어집니다. 기술 컨설턴트 1은 Contoso India 작업을 할당하고 기술 컨설턴트 2는 Contoso US 작업을 해야합니다.  
+프로젝트에 대한 팀을 생성할 때 작업의 다른 조직 구성 단위로 인해 두 개의 일반 팀 구성원이 만들어집니다. 기술 컨설턴트 1은Contoso India 작업을 할당하고 기술 컨설턴트 2는 Contoso US 작업을 해야합니다.  
 
 ![생성된 일반 팀 구성원](media/org-unit-assignments-multiple-resources-11.png)
 

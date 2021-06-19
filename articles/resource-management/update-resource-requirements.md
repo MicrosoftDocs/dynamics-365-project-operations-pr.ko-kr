@@ -2,18 +2,16 @@
 title: 리소스 요구 사항 편집
 description: 이 항목은 리소스 요구 사항 정보를 업데이트하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67fb536f91bdf156e9437cd993e93a4eeb2df84f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 12d14167d5dcb9b43dee854981c551c6e5b734ee
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279101"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013989"
 ---
 # <a name="edit-a-resource-requirement"></a>리소스 요구 사항 편집
 

@@ -2,18 +2,16 @@
 title: 프로젝트 기반 영업 기회 복사
 description: 이 항목은 Project Operations의 프로젝트 기반 영업 기회를 복사하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1808469a34e05eb926f13c62ec634e8273b0e33c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae724d18e768b838f388b6fd089bfa657c937da1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278561"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013449"
 ---
 # <a name="copy-project-based-opportunities"></a>프로젝트 기반 영업 기회 복사
 

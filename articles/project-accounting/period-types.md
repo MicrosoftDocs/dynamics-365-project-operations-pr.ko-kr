@@ -2,18 +2,16 @@
 title: 기간 유형
 description: 이 토픽은 수익 추정을 위해 기간 유형을 설정하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 107cecbc1dabdf13147d847bf1816f44cc2703c5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 07cc9cde5fab10accb1fd6efede58926918f614c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287291"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013494"
 ---
 # <a name="period-types"></a>기간 유형
 

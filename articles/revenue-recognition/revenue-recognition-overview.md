@@ -2,18 +2,16 @@
 title: 수익 인식 개요
 description: 이 토픽은 Project Operations에서 수익 인식에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e77a0442f634a50f8099fadec42ff400fee0e81
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f5f962572c6ec0298d2d91d33f83e4120a498a6f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278876"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013764"
 ---
 # <a name="revenue-recognition-overview"></a>수익 인식 개요
 

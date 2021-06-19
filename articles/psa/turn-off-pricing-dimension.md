@@ -2,12 +2,10 @@
 title: 가격 책정 차원 끄기
 description: 이 주제는 Project Service 솔루션에서 가격 책정 차원을 설정하는 방법을 보여줍니다.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281846"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014304"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>가격 책정 차원 끄기
 
@@ -41,8 +39,8 @@ ms.locfileid: "5281846"
 
 | 표준 직함         | 조직 단위    |단위   |가격  |통화  |
 | -----------------------|-------------|-------|-------|----------|
-| 시스템 엔지니어|Contoso US|Hour| 100|USD|
-| 선임 시스템 엔지니어|Contoso US|Hour| 150| USD|
+| 시스템 엔지니어|Contoso US|시간| 100|USD|
+| 선임 시스템 엔지니어|Contoso US|시간| 150| USD|
 
 
 가격 책정 차원으로서의 **표준 직함** 을 끄고 Project Service 가격 책정 엔진이 가격을 검색하면 입력 컨텍스트에서 **조직 단위** 값만 사용됩니다. 입력 컨텍스트의 **조직 단위** 가 "Contoso US"인 경우 두 행이 모두 일치하므로 결과가 결정적이지 않습니다. 이 시나리오를 피하기 위해 **역할 가격** 레코드를 만들 때 Project Service는 차원의 조합이 고유한지 확인합니다. **역할 가격** 레코드를 만든 후 차원을 해제하면 이 제약 조건을 위반할 수 있습니다. 따라서 차원을 끄기 전에, 해당 차원 값이 채워진 모든 **역할 가격** 및 **역할 가격 마크업** 행을 삭제할 것이 요구됩니다.

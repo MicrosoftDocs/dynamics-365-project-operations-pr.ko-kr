@@ -2,8 +2,6 @@
 title: 프로젝트 예상 보기 및 편집
 description: 프로젝트 예상을 보고 편집하는 방법(Project Service)
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 79e72a3678ac2292cd61653dc1d44ea61bd7e2e6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 96eec162ecbc3e40a923d00cb6377feebc02b3c7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281441"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015519"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>프로젝트 예상 보기 및 편집(Project Service)
 
