@@ -2,8 +2,6 @@
 title: 프로젝트 예상 보기 및 편집
 description: 프로젝트 예상을 보고 편집하는 방법(Project Service)
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,33 +16,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 79e72a3678ac2292cd61653dc1d44ea61bd7e2e6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 96eec162ecbc3e40a923d00cb6377feebc02b3c7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281441"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015519"
 ---
-# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="8fa52-103">프로젝트 예상 보기 및 편집(Project Service)</span><span class="sxs-lookup"><span data-stu-id="8fa52-103">View and edit project estimates (Project Service)</span></span>
+# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="b0453-103">프로젝트 예상 보기 및 편집(Project Service)</span><span class="sxs-lookup"><span data-stu-id="b0453-103">View and edit project estimates (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="8fa52-104">[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]의 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 기능으로 비용, 영업, 활동별 예상을 포함하여 프로젝트에 대한 예측을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
+<span data-ttu-id="b0453-104">[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]의 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 기능으로 비용, 영업, 활동별 예상을 포함하여 프로젝트에 대한 예측을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
   
-1.  <span data-ttu-id="8fa52-105">**Project Service > 프로젝트** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-105">Go to **Project Service > Projects**.</span></span>  
+1.  <span data-ttu-id="b0453-105">**Project Service > 프로젝트** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-105">Go to **Project Service > Projects**.</span></span>  
   
-2.  <span data-ttu-id="8fa52-106">작업을 원하는 프로젝트를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-106">Click the project you want to work on.</span></span>  
+2.  <span data-ttu-id="b0453-106">작업을 원하는 프로젝트를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-106">Click the project you want to work on.</span></span>  
   
-3.  <span data-ttu-id="8fa52-107">화면 상단 표시줄에서 프로젝트 이름 옆의 아래로 향하는 화살표를 선택한 다음 **프로젝트 예측** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
+3.  <span data-ttu-id="b0453-107">화면 상단 표시줄에서 프로젝트 이름 옆의 아래로 향하는 화살표를 선택한 다음 **프로젝트 예측** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
   
-4.  <span data-ttu-id="8fa52-108">**시간 단계별** 에서 **활동**, **비용** 또는 **영업** 을 선택하여 표시되는 프로젝트 예측을 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
+4.  <span data-ttu-id="b0453-108">**시간 단계별** 에서 **활동**, **비용** 또는 **영업** 을 선택하여 표시되는 프로젝트 예측을 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
   
-5.  <span data-ttu-id="8fa52-109">경비를 추가하거나 삭제하려면 **표 보기 표시** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="8fa52-110">새 경비를 만들려면, **새 경비** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="8fa52-111">경비를 삭제하려면 목록에서 선택한 다음 **경비 삭제** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="8fa52-112">경비 추가 또는 삭제를 완료하면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="8fa52-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
+5.  <span data-ttu-id="b0453-109">경비를 추가하거나 삭제하려면 **표 보기 표시** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="b0453-110">새 경비를 만들려면, **새 경비** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="b0453-111">경비를 삭제하려면 목록에서 선택한 다음 **경비 삭제** 를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="b0453-112">경비 추가 또는 삭제를 완료하면 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="b0453-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="8fa52-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="8fa52-113">See Also</span></span>  
- [<span data-ttu-id="8fa52-114">프로젝트 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="8fa52-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="b0453-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="b0453-113">See Also</span></span>  
+ [<span data-ttu-id="b0453-114">프로젝트 관리자 가이드</span><span class="sxs-lookup"><span data-stu-id="b0453-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
