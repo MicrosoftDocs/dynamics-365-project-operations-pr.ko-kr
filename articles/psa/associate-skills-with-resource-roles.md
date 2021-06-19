@@ -2,8 +2,6 @@
 title: 리소스 역할과 기술 연결
 description: 리소스 역할과 기술을 연결하는 방법(Project Service)
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,35 +16,35 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b515c977d2b1798359f86211372dfc1faf18b353
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8da276405341e99e19fbfb3553edd72df9b5be6f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291357"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009309"
 ---
-# <a name="associate-skills-with-resource-roles-project-service"></a><span data-ttu-id="c7d70-103">리소스 역할과 기술 연결(Project Service)</span><span class="sxs-lookup"><span data-stu-id="c7d70-103">Associate skills with resource roles (Project Service)</span></span>
+# <a name="associate-skills-with-resource-roles-project-service"></a><span data-ttu-id="01ebf-103">리소스 역할과 기술 연결(Project Service)</span><span class="sxs-lookup"><span data-stu-id="01ebf-103">Associate skills with resource roles (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="c7d70-104">리소스 역할을 추가할 때 이미 몇 가지 기술을 연결했을 것입니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-104">While you were adding resource roles, you probably already associated some skills to them.</span></span> <span data-ttu-id="c7d70-105">이따금씩 리소스 역할에 추가 기술을 추가해야 하는 경우가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-105">From time to time, you might need to add additional skills to a resource role.</span></span>  
+<span data-ttu-id="01ebf-104">리소스 역할을 추가할 때 이미 몇 가지 기술을 연결했을 것입니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-104">While you were adding resource roles, you probably already associated some skills to them.</span></span> <span data-ttu-id="01ebf-105">이따금씩 리소스 역할에 추가 기술을 추가해야 하는 경우가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-105">From time to time, you might need to add additional skills to a resource role.</span></span>  
   
-1.  <span data-ttu-id="c7d70-106">**Project Service > 리소스 역할** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-106">Go to **Project Service > Resource Roles.**</span></span>  
+1.  <span data-ttu-id="01ebf-106">**Project Service > 리소스 역할** 로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-106">Go to **Project Service > Resource Roles.**</span></span>  
   
-2.  <span data-ttu-id="c7d70-107">기술을 추가하려는 리소스 역할을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-107">Click the resource role you want to add skills to.</span></span>  
+2.  <span data-ttu-id="01ebf-107">기술을 추가하려는 리소스 역할을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-107">Click the resource role you want to add skills to.</span></span>  
   
-3.  <span data-ttu-id="c7d70-108">**기술** 영역에서 **+** 를 클릭하여 기술을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-108">In the **Skills** area, click **+** to add a skill.</span></span>  
+3.  <span data-ttu-id="01ebf-108">**기술** 영역에서 **+** 를 클릭하여 기술을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-108">In the **Skills** area, click **+** to add a skill.</span></span>  
   
-4.  <span data-ttu-id="c7d70-109">역할 숙련도 요구 사항 패널에서 **기술** 필드를 클릭하고, **검색** 버튼을 클릭한 다음 기술을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-109">In the Role competency requirement pane, click in the **Skill** field, click the **Search** button,  and then select a skill.</span></span>  
+4.  <span data-ttu-id="01ebf-109">역할 숙련도 요구 사항 패널에서 **기술** 필드를 클릭하고, **검색** 버튼을 클릭한 다음 기술을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-109">In the Role competency requirement pane, click in the **Skill** field, click the **Search** button,  and then select a skill.</span></span>  
   
-5.  <span data-ttu-id="c7d70-110">해당 기술에 대한 숙련도를 선택한 후 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-110">Select a proficiency for that skill, and then click **Save**.</span></span>  
+5.  <span data-ttu-id="01ebf-110">해당 기술에 대한 숙련도를 선택한 후 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-110">Select a proficiency for that skill, and then click **Save**.</span></span>  
   
-6.  <span data-ttu-id="c7d70-111">필요에 따라 계속 기술을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-111">Continue adding skills as necessary.</span></span> <span data-ttu-id="c7d70-112">업을 마쳤으면, 화면 우측 하단의 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c7d70-112">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
+6.  <span data-ttu-id="01ebf-111">필요에 따라 계속 기술을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-111">Continue adding skills as necessary.</span></span> <span data-ttu-id="01ebf-112">업을 마쳤으면, 화면 우측 하단의 **저장** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01ebf-112">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="c7d70-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="c7d70-113">See Also</span></span>  
- [<span data-ttu-id="c7d70-114">리소스 설정</span><span class="sxs-lookup"><span data-stu-id="c7d70-114">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="01ebf-113">참고 항목</span><span class="sxs-lookup"><span data-stu-id="01ebf-113">See Also</span></span>  
+ [<span data-ttu-id="01ebf-114">리소스 설정</span><span class="sxs-lookup"><span data-stu-id="01ebf-114">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
