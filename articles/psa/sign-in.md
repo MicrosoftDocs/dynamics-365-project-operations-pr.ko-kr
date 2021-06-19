@@ -2,8 +2,6 @@
 title: Project Service Automation에 로그인
 description: 로그인하는 방법(Project Service)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,44 +16,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 8891ef08d187706a9fdef1be3f0c97beac4d711c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951397"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013224"
 ---
-# <a name="sign-in-to-project-service-automation"></a><span data-ttu-id="9962b-103">Project Service Automation에 로그인</span><span class="sxs-lookup"><span data-stu-id="9962b-103">Sign in to Project Service Automation</span></span>
+# <a name="sign-in-to-project-service-automation"></a><span data-ttu-id="a4d09-103">Project Service Automation에 로그인</span><span class="sxs-lookup"><span data-stu-id="a4d09-103">Sign in to Project Service Automation</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="9962b-104">Dynamics 365 앱에 로그인할 때, 관리자로부터 다음 정보를 받아야 합니다:</span><span class="sxs-lookup"><span data-stu-id="9962b-104">When you sign in to Dynamics 365 apps, you need to have the following information from your administrator:</span></span>  
+<span data-ttu-id="a4d09-104">Dynamics 365 앱에 로그인할 때, 관리자로부터 다음 정보를 받아야 합니다:</span><span class="sxs-lookup"><span data-stu-id="a4d09-104">When you sign in to Dynamics 365 apps, you need to have the following information from your administrator:</span></span>  
   
-- <span data-ttu-id="9962b-105">조직 시스템에 대한 URL</span><span class="sxs-lookup"><span data-stu-id="9962b-105">URL for your organization’s system</span></span>  
+- <span data-ttu-id="a4d09-105">조직 시스템에 대한 URL</span><span class="sxs-lookup"><span data-stu-id="a4d09-105">URL for your organization’s system</span></span>  
   
-- <span data-ttu-id="9962b-106">사용자 이름</span><span class="sxs-lookup"><span data-stu-id="9962b-106">Your user name</span></span>  
+- <span data-ttu-id="a4d09-106">사용자 이름</span><span class="sxs-lookup"><span data-stu-id="a4d09-106">Your user name</span></span>  
   
-- <span data-ttu-id="9962b-107">암호</span><span class="sxs-lookup"><span data-stu-id="9962b-107">Your password</span></span>  
+- <span data-ttu-id="a4d09-107">암호</span><span class="sxs-lookup"><span data-stu-id="a4d09-107">Your password</span></span>  
   
-  <span data-ttu-id="9962b-108">관리자가 보낸 이메일에 이 정보가 포함되어 있을 수 있습니다. 이 모든 정보를 받지 못했거나 로그인에 문제가 있는 경우 [귀하의 관리자 또는 지원 담당자를 찾으세요](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).</span><span class="sxs-lookup"><span data-stu-id="9962b-108">You probably received this information in an email from your admin. If you don’t have all this info, or if you have issues signing in, [Find your administrator or support person](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).</span></span>  
+  <span data-ttu-id="a4d09-108">관리자가 보낸 이메일에 이 정보가 포함되어 있을 수 있습니다. 이 모든 정보를 받지 못했거나 로그인에 문제가 있는 경우 [귀하의 관리자 또는 지원 담당자를 찾으세요](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).</span><span class="sxs-lookup"><span data-stu-id="a4d09-108">You probably received this information in an email from your admin. If you don’t have all this info, or if you have issues signing in, [Find your administrator or support person](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).</span></span>  
   
-## <a name="set-your-personal-options-to-allow-email"></a><span data-ttu-id="9962b-109">전자 메일을 허용하도록 개인 옵션 설정</span><span class="sxs-lookup"><span data-stu-id="9962b-109">Set your personal options to allow email</span></span>  
- <span data-ttu-id="9962b-110">본인 대신 다른 사용자가 전자 메일을 보낼 수 있도록 전자 메일 설정을 구성해야 합니다. 따라서 프로젝트에 대해 승인하거나 등록할 시간 및 비용이 있는 경우 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]는 사용자 대신 전자 메일 알림을 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9962b-110">You need to configure your email settings to allow others to send email on your behalf, so [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] can send email notifications for you when you have time and expenses to approve or sign up for projects.</span></span>  
+## <a name="set-your-personal-options-to-allow-email"></a><span data-ttu-id="a4d09-109">전자 메일을 허용하도록 개인 옵션 설정</span><span class="sxs-lookup"><span data-stu-id="a4d09-109">Set your personal options to allow email</span></span>  
+ <span data-ttu-id="a4d09-110">본인 대신 다른 사용자가 전자 메일을 보낼 수 있도록 전자 메일 설정을 구성해야 합니다. 따라서 프로젝트에 대해 승인하거나 등록할 시간 및 비용이 있는 경우 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]는 사용자 대신 전자 메일 알림을 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a4d09-110">You need to configure your email settings to allow others to send email on your behalf, so [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] can send email notifications for you when you have time and expenses to approve or sign up for projects.</span></span>  
   
-1.  <span data-ttu-id="9962b-111">화면 오른쪽 위 모서리에서 기어 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9962b-111">Click the gear button in the top right corner of the screen.</span></span>  
+1.  <span data-ttu-id="a4d09-111">화면 오른쪽 위 모서리에서 기어 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a4d09-111">Click the gear button in the top right corner of the screen.</span></span>  
   
-2.  <span data-ttu-id="9962b-112">**옵션** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9962b-112">Click the **Options**.</span></span>  
+2.  <span data-ttu-id="a4d09-112">**옵션** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a4d09-112">Click the **Options**.</span></span>  
   
-3.  <span data-ttu-id="9962b-113">**전자 메일** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9962b-113">Click the **Email** tab.</span></span>  
+3.  <span data-ttu-id="a4d09-113">**전자 메일** 탭을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a4d09-113">Click the **Email** tab.</span></span>  
   
-4.  <span data-ttu-id="9962b-114">**다른 Microsoft Dynamics 365 사용자가 자신을 대신하여 전자 메일을 보내도록 허용** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="9962b-114">Select **Allow other Microsoft Dynamics 365 users to send email on your behalf**.</span></span>  
+4.  <span data-ttu-id="a4d09-114">**다른 Microsoft Dynamics 365 사용자가 자신을 대신하여 전자 메일을 보내도록 허용** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="a4d09-114">Select **Allow other Microsoft Dynamics 365 users to send email on your behalf**.</span></span>  
   
-5.  <span data-ttu-id="9962b-115">**확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="9962b-115">Click **OK**.</span></span>  
+5.  <span data-ttu-id="a4d09-115">**확인** 을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="a4d09-115">Click **OK**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="9962b-116">참고 항목</span><span class="sxs-lookup"><span data-stu-id="9962b-116">See Also</span></span>  
- [<span data-ttu-id="9962b-117">시간, 비용 및 공동 작업 가이드</span><span class="sxs-lookup"><span data-stu-id="9962b-117">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="a4d09-116">참고 항목</span><span class="sxs-lookup"><span data-stu-id="a4d09-116">See Also</span></span>  
+ [<span data-ttu-id="a4d09-117">시간, 비용 및 공동 작업 가이드</span><span class="sxs-lookup"><span data-stu-id="a4d09-117">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
