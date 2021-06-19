@@ -2,18 +2,16 @@
 title: 일정 엔터티로 일정 API를 사용하여 작업 수행
 description: 이 항목은 일정 API 사용에 대한 정보와 샘플을 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950812"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116805"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>일정 엔터티로 일정 API를 사용하여 작업 수행
 
@@ -268,7 +266,6 @@ ID 속성은 선택 사항입니다. 제공되는 경우 시스템은 이를 사
 - 각 사용자는 최대 10개의 열린 **OperationSet** 만 가질수 있습니다.
 - Project Operations는 현재 프로젝트에서 최대 500개의 총 작업을 지원합니다.
 - **OperationSet** 실패 상태 및 실패 로그는 현재 사용할 수 없습니다.
-- 일정 API는 공개 미리 보기입니다. 프로덕션 환경에서 이러한 API를 사용하는 것은 Microsoft에서 지원하지 않습니다.
 - [프로젝트 및 작업에 대한 제한 및 경계](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>오류 처리

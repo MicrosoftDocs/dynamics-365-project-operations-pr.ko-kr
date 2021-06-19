@@ -2,19 +2,17 @@
 title: 작업 그리드에서 작업 문제 해결
 description: 이 토픽은 작업 그리드에서 작업할 때 필요한 문제 해결 정보를 제공합니다.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286571"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213408"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>작업 그리드에서 작업 문제 해결 
 
@@ -57,7 +55,7 @@ Project Operations를 위해서는 프로젝트 매개 변수가 PEX 끝점을 �
  ![프로젝트 매개 변수의 PEX 끝점 필드](media/projectparameter.png)
 
 1. **PEX 끝점** 필드를 **프로젝트 매개 변수** 페이지에 추가합니다.
-2. 다음 값으로 필드를 업데이트합니다: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. 다음 값으로 필드를 업데이트합니다: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. **프로젝트 매개 변수** 페이지에서 필드를 제거합니다.
 
 ## <a name="privileges-for-project-for-the-web"></a>웹에 대한 프로젝트 권한

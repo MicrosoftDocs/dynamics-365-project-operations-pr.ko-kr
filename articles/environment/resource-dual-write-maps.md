@@ -2,18 +2,16 @@
 title: Project Operations 이중 쓰기 맵 버전
 description: 이 항목은 Dynamics 365 Project Operations에 필요한 이중 쓰기 맵 목록을 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939010"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025782"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 이중 쓰기 맵 버전
 
@@ -36,32 +34,32 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ![원장 맵 동기화](media/DW6.png)
 
-1. 위의 표에 나열된 나머지 모든 테이블 맵에 대해 동일한 단계를 따르십시오. 해당 맵을 실행할 때 **초기 동기화** 확인란을 선택하지 마십시오.
+2. 위의 표에 나열된 나머지 모든 테이블 맵에 대해 동일한 단계를 따르십시오. 해당 맵을 실행할 때 **초기 동기화** 확인란을 선택하지 마십시오.
 
 ## <a name="project-operations-dual-write-maps"></a>Project Operations 이중 쓰기 맵
 
-다음 맵은 Project Operations 솔루션에 필요합니다.
+다음 맵은 Project Operations 솔루션에 필요합니다. Project Operations 2021년 5월 업데이트 버전 4.10.0.186부터 이중 쓰기 맵 버전이 나열됩니다.
 
 | **엔터티 맵** | **최신 버전** | **초기 동기화** |
 | --- | --- | --- |
 | 프로젝트 트랜잭션 관계를 위한 통합 엔터티(msdyn\_transactionconnections) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. |
 | 프로젝트 계약 헤더(판매 주문) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. |
 | 프로젝트 계약 내용(salesorderdetails) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. |
-| 프로젝트 자금 출처(msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. |
+| 프로젝트 자금 출처(msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |
 | 재료 추정을 위한 Project Operations 통합 테이블(msdyn\_estimatelines) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. |
-| 프로젝트 송장 제안서 V2(송장) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |
+| 프로젝트 송장 제안서 V2(송장) | 1.0.0.3 | 프로비저닝에는 필요하지 않습니다. |
 | Project Operations 통합 실제(msdyn_actuals) | 1.0.0.14 | 프로비저닝에는 필요하지 않습니다. |
 | Project Operations 통합 계약 내용 중요 시점(msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | 프로비저닝에는 필요하지 않습니다. |
 | 경비 추정용 Project Operations 통합 엔터티(msdyn_estimateslines) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |
 | 시간 추정용 Project Operations 통합 엔터티(msdyn_resourceassignments) | 1.0.0.5 | 프로비저닝에는 필요하지 않습니다. |
-| Project Operations 통합 프로젝트 경비 범주 내보내기 엔터티(msdyn_expensecategories) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |
+| Project Operations 통합 프로젝트 경비 범주 내보내기 엔터티(msdyn_expensecategories) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. |
 | Project Operations 통합 프로젝트 경비 내보내기 엔터티(msdyn_expenses) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |
 | Project Operations 통합 프로젝트 공급업체 송장 내보내기 엔터티(msdyn_projectvendorinvoices) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. |
-| Project Operations 통합 프로젝트 공급업체 송장 라인 내보내기 엔터티(msdyn_projectvendorinvoicelines) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. |
+| Project Operations 통합 프로젝트 공급업체 송장 라인 내보내기 엔터티(msdyn_projectvendorinvoicelines) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. |
 | 모든 회사에 대한 프로젝트 리소스 역할(bookableresourcecategories) | 1.0.0.1 | 프로비저닝 중에 Dynamics 365 Dataverse 환경에 채워진 프로젝트 관리자 및 팀 구성원 리소스 역할을 동기화하려면 테이블 맵에 대한 초기 동기화가 필요합니다. Dataverse는 초기 동기화의 주요 소스입니다. |
 | 프로젝트 작업(msdyn_projecttasks) | 1.0.0.4 | 프로비저닝에는 필요하지 않습니다. |
 | 프로젝트 트랜잭션 범주(msdyn_transactioncategories) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. |
-| 프로젝트 V2(msdyn_projects) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. |
+| 프로젝트 V2(msdyn_projects) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |
 
 나열된 맵을 실행하려면 다음 단계를 완료하십시오.
 
