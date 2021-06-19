@@ -2,32 +2,39 @@
 title: 경비 보고서의 개인 경비에 대한 작업
 description: 이 토픽은 업무 목적으로 여행하는 동안 직원이 발생하는 개인 경비를 처리하는 방법에 대한 정보를 제공합니다.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276232"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025692"
 ---
-# <a name="work-with-personal-expenses-on-an-expense-report"></a><span data-ttu-id="7c57b-103">경비 보고서의 개인 경비에 대한 작업</span><span class="sxs-lookup"><span data-stu-id="7c57b-103">Work with personal expenses on an expense report</span></span>
+# <a name="work-with-personal-expenses-on-an-expense-report"></a><span data-ttu-id="ff02b-103">경비 보고서의 개인 경비에 대한 작업</span><span class="sxs-lookup"><span data-stu-id="ff02b-103">Work with personal expenses on an expense report</span></span>
 
-<span data-ttu-id="7c57b-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="7c57b-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="ff02b-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="ff02b-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="7c57b-105">출장 중 직원은 회사 신용 카드로 개인 경비를 청구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-105">During business travel, an employee might charge personal expenses to their corporate credit card.</span></span> <span data-ttu-id="7c57b-106">개인 경비 처리를 위한 프로세스가 정의되지 않은 경우 직원이 항목별 경비 보고서를 제출할 때 경비 보고서 승인 프로세스가 중단될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-106">If a process hasn't been defined for handling personal expenses, the expense report approval process might be disrupted when an employee submits their itemized expense report.</span></span>
+<span data-ttu-id="ff02b-105">출장 중 직원은 회사 신용 카드로 개인 경비를 청구할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-105">During business travel, an employee might charge personal expenses to their corporate credit card.</span></span> <span data-ttu-id="ff02b-106">개인 경비 처리를 위한 프로세스가 정의되지 않은 경우 직원이 항목별 경비 보고서를 제출할 때 경비 보고서 승인 프로세스가 중단될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-106">If a process hasn't been defined for handling personal expenses, the expense report approval process might be disrupted when an employee submits their itemized expense report.</span></span>
 
-<span data-ttu-id="7c57b-107">직원의 개인 경비를 처리하는 데 사용할 수 있는 두 가지 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-107">There are two methods you can use to work with an employee's personal expenses:</span></span>
+<span data-ttu-id="ff02b-107">직원의 개인 경비를 처리하는 데 사용할 수 있는 두 가지 방법이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-107">There are two methods you can use to work with an employee's personal expenses:</span></span>
 
-  - <span data-ttu-id="7c57b-108">**직원이 지불**: 조직이 기업 신용 카드 청구서에 표시된 개인 경비를 지불하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-108">**Paid by employee**: Your organization doesn't pay personal expenses that appear on the bill for the corporate credit card.</span></span> <span data-ttu-id="7c57b-109">대신 직원이 경비를 신용 카드 공급업체에 직접 지불합니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-109">Instead, the employee pays the credit card vendor directly for the expenses.</span></span> 
-  - <span data-ttu-id="7c57b-110">**회사에서 지불**: 조직에서 회사 신용 카드에 대한 전체 청구액을 지불한 다음 개인 경비로 근로자의 계좌에서 인출합니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-110">**Paid by company**: Your organization pays the full bill for the corporate credit card, and then debits the worker's account for the personal expenses.</span></span>
+  - <span data-ttu-id="ff02b-108">**직원이 지불**: 조직이 기업 신용 카드 청구서에 표시된 개인 경비를 지불하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-108">**Paid by employee**: Your organization doesn't pay personal expenses that appear on the bill for the corporate credit card.</span></span> <span data-ttu-id="ff02b-109">대신 직원이 경비를 신용 카드 공급업체에 직접 지불합니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-109">Instead, the employee pays the credit card vendor directly for the expenses.</span></span> 
+  - <span data-ttu-id="ff02b-110">**회사에서 지불**: 조직에서 회사 신용 카드에 대한 전체 청구액을 지불한 다음 개인 경비로 근로자의 계좌에서 인출합니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-110">**Paid by company**: Your organization pays the full bill for the corporate credit card, and then debits the worker's account for the personal expenses.</span></span>
 
-<span data-ttu-id="7c57b-111">**경비 관리 매개 변수** 페이지에서 조직에서 사용하는 방법을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7c57b-111">You can select the method that your organization uses on the **Expense management parameters** page.</span></span>
+<span data-ttu-id="ff02b-111">**경비 관리 매개 변수** 페이지에서 조직에서 사용하는 방법을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-111">You can select the method that your organization uses on the **Expense management parameters** page.</span></span>
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a><span data-ttu-id="ff02b-112">개인 금액 필드에 값이 정의된 경우 경비 분할 기능 활성화</span><span class="sxs-lookup"><span data-stu-id="ff02b-112">Enable split expense function when personal amount field has value defined</span></span>
+
+<span data-ttu-id="ff02b-113">**개인 금액 필드에 값이 정의된 경우 경비 분할 기능 활성화** 기능은 라인 수준 워크플로를 사용하여 승인된 경비 보고서에만 적용됩니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-113">The feature, **Enable split expense function when personal amount field has value defined** only applies to expense reports that are approved using a line-level workflow.</span></span> <span data-ttu-id="ff02b-114">보고서는 **경비 보고서 처리** > **나에게 할당된 경비 보고서** > **경비 보고서 열기** 로 이동하여 승인됩니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-114">Reports are approved by going to **Process expense reports** > **Expense reports assigned to me** > **Open expense report**.</span></span> 
+
+<span data-ttu-id="ff02b-115">이 기능을 활성화하려면 **작업 영역** > **기능 관리** 로 이동하여 **개인 금액 필드에 값이 정의된 경우 경비 분할 기능 활성화** 를 선택한 다음 **지금 활성화** 를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-115">To enable this feature, go to **Workspaces** > **Feature Management**, select **Enable split expense function when personal amount field has value defined**, and then select **Enable now**.</span></span> 
+
+<span data-ttu-id="ff02b-116">이 기능이 활성화되면 이 기능을 사용하는 경비 라인은 보고서가 실행될 때 두 라인을 생성합니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-116">When the feature is enabled, expense lines that use this functionality generate two lines when the report is submitted.</span></span> <span data-ttu-id="ff02b-117">승인자가 각 라인을 개별적으로 승인할 수 있도록 두 개의 라인이 생성됩니다.</span><span class="sxs-lookup"><span data-stu-id="ff02b-117">Two lines are generated so that the approver can approve each line separately.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
