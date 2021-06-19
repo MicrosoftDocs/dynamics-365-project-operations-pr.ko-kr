@@ -2,8 +2,6 @@
 title: 경비 범주 구성
 description: 경비 범주를 분류하는 방법(Project Service)
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b2b711977baaae9dabbdf49a3b4a6f3bad9dec18
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ba34905b68b7de1d1fc33eae46759d2d9623e3fd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290727"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012504"
 ---
 # <a name="configure-expense-categories-project-service"></a>경비 범주 분류(Project Service)
 

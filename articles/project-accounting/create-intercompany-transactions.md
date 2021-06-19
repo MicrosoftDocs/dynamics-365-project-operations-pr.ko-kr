@@ -2,18 +2,16 @@
 title: 회사 간 트랜잭션 만들기
 description: 이 토픽은 회사 간 트랜잭션을 생성하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 0e396f0d08fd166e7acd6f8ec8f32353a7679dd8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880456"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013359"
 ---
 # <a name="create-intercompany-transactions"></a>회사 간 트랜잭션 만들기
 

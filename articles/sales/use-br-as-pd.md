@@ -2,18 +2,16 @@
 title: 가격 책정 차원으로 예약 가능한 리소스 사용
 description: 이 항목은 예약 가능한 리소스를 가격 책정 차원으로 사용하는 방법에 대한 정보를 제공합니다.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b9fb7732f677a04272a556238b6c2acc1dcdfb9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277301"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011199"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>가격 책정 차원으로 예약 가능한 리소스 사용
 

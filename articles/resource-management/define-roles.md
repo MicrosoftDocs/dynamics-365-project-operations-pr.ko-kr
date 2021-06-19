@@ -2,18 +2,16 @@
 title: 역할 정의
 description: 이 토픽은 예약 가능한 리소스 범주 설정에 대한 정보 링크를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fff52c142e4ac1f01fe86808094e94e3974db53a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6c0347a880f59a220313d5d40d3246d6857c4c80
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950002"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011739"
 ---
 # <a name="define-roles"></a>역할 정의
 

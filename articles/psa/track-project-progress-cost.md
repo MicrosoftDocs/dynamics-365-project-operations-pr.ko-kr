@@ -2,8 +2,6 @@
 title: 프로젝트 진행률 및 비용 추적
 description: 프로젝트 진행 과정 및 비용을 추적하는 방법(Project Service)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4040df9b6cad29b4034660c7be57b6d81044eb31
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ef2db198716f5c8a18aae2b37624b0aece766d83
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281981"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012999"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>프로젝트 프로세스 및 비용 추적(Project Service)
 

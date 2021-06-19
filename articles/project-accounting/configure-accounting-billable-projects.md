@@ -2,18 +2,16 @@
 title: 청구 가능한 프로젝트에 대한 회계 구성
 description: 이 항목은 청구 가능한 프로젝트의 회계 옵션에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858661"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012594"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>청구 가능한 프로젝트에 대한 회계 구성
 

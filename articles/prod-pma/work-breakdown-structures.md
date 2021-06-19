@@ -2,11 +2,9 @@
 title: 작업 분할 구조 개요
 description: 작업 분할 구조(WBS)는 프로젝트를 위해 완료될 작업에 대한 설명입니다. 작업의 구성과 각 구성 요소 또는 작업의 크기, 비용 및 기간에 대한 프로젝트 팀의 이해를 나타내는 작업 계층 구조입니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287966"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012234"
 ---
 # <a name="work-breakdown-structures-overview"></a>작업 분할 구조 개요
 

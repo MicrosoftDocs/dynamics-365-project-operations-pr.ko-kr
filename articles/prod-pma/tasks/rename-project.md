@@ -2,11 +2,9 @@
 title: 프로젝트 스테이지 이름 변경 또는 수정
 description: 이 작업은 프로젝트 스테이지의 이름을 바꾸거나 수정하는 방법을 보여줍니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bde3ee32659e481d8ae9a9e01f029be0c856b47
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 53fa9547c6cf8439fc61118c0922f5f15800f7c8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288190"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011874"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>프로젝트 스테이지 이름 변경 또는 수정
 

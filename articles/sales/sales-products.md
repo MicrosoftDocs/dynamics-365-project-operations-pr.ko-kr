@@ -2,11 +2,9 @@
 title: 제품
 description: 이 항목은 조직에서 제공하는 제품 및 가격에 대한 정보를 고객에게 제공하는 데 사용할 수 있는 제품 카탈로그에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 606d44b64e5e1cd92ff3ab057a9cce408f972574
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 44f85982aa5c8e32ccde0dc32c3c9cd4339c4552
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277436"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011244"
 ---
 # <a name="products"></a>제품
 

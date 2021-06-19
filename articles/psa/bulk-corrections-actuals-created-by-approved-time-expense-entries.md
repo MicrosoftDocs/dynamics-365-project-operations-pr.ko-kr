@@ -2,10 +2,8 @@
 title: 승인된 시간 및 비용 입력으로 생성된 실제의 대량 수정
 description: 이 항목은 결제가 완료되지 않은 경우 관리자가 이전에 승인된 시간 또는 비용 항목을 단일 또는 대량으로 수정하는 방법을 설명합니다.
 author: rumant
-manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -18,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 17d6648840e27a4e573985af2cdd74c4adf878e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290907"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012054"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>승인된 시간 및 비용 입력으로 생성된 실제의 대량 수정
 

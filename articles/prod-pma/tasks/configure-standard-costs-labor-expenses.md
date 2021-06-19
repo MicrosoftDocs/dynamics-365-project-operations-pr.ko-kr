@@ -2,11 +2,9 @@
 title: 인건비 및 비용에 대한 표준 비용 구성
 description: 이 항목은 프로젝트의 인건비 및 비용에 대한 표준 비용을 설정하는 방법을 설명합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b16ed50584b2b4535d1c61fe7069708182a4820e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 517e5ae776cff18aec81e5446a7aaedfba61ac0c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288342"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011019"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>인건비 및 비용에 대한 표준 비용 구성
 

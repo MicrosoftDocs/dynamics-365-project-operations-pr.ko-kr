@@ -2,18 +2,16 @@
 title: 새로운 기능 2020년 11월 - 리소스/생산 기반 시나리오에 대한 Project Operations
 description: 이 항목은 재고 생산 기반 시나리오에 대한 Project Operations의 2020년 11월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 809e89c10ea8c7978a79326b4a77e69007f86123
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950767"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012009"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>새로운 기능 2020년 11월 - 리소스/생산 기반 시나리오에 대한 Project Operations
 
