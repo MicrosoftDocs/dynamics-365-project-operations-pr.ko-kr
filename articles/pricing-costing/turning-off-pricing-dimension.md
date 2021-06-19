@@ -2,11 +2,9 @@
 title: 가격 책정 차원 끄기
 description: 이 항목은 가격 책정 차원을 끄는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274736"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004539"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>가격 책정 차원 끄기
 
@@ -40,8 +38,8 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 | 표준 직함         | 조직 단위    |단위   |가격  |통화  |
 | -----------------------|-------------|-------|-------|----------|
-| 시스템 엔지니어|Contoso US|Hour| 100|USD|
-| 선임 시스템 엔지니어|Contoso US|Hour| 150| USD|
+| 시스템 엔지니어|Contoso US|시간| 100|USD|
+| 선임 시스템 엔지니어|Contoso US|시간| 150| USD|
 
 
 가격 책정 차원으로서의 **표준 직함** 을 끄고 가격 책정 엔진이 가격을 검색하면 입력 컨텍스트에서 **조직 단위** 값만 사용됩니다. 입력 컨텍스트의 **조직 단위** 가 "Contoso US"인 경우 두 행이 모두 일치하므로 결과가 결정적이지 않습니다. 이 시나리오를 피하기 위해 **역할 가격** 레코드를 만들 때 시스템은 차원의 조합이 고유한지 확인합니다. **역할 가격** 레코드를 만든 후 차원을 해제하면 이 제약 조건을 위반할 수 있습니다. 따라서 차원을 끄기 전에, 해당 차원 값이 채워진 모든 **역할 가격** 및 **역할 가격 마크업** 행을 삭제할 것이 요구됩니다.

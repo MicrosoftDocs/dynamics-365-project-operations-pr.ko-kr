@@ -2,18 +2,16 @@
 title: 프로젝트 기반 계약 내용에 송장 일정 만들기 - 라이트
 description: 이 항목은 송장 일정 및 중요 시점 만들기에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4706a2a711efa7d176030deaa33b65bca28d8498
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 548858f6d2257343a632657ca386da03f1f330a9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273386"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003239"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>프로젝트 기반 계약 내용에 송장 일정 만들기 - 라이트
 

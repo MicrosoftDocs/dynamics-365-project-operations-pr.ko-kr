@@ -2,11 +2,9 @@
 title: 경비 보고서 및 여러 승인자
 description: 이 항목은 여러 사람의 승인이 필요한 경비 보고서에 대한 정보를 제공합니다.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9826c89e9deb870adb053f82bd049906f56052
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2502b2975ad3aebad720970e693ea68eac0a302c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276536"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002064"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>경비 보고서 및 여러 승인자
 

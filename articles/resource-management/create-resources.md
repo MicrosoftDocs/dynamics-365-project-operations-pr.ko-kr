@@ -2,18 +2,16 @@
 title: 리소스 만들기
 description: 이 토픽은 예약 가능한 리소스를 생성하는 방법에 대한 정보 링크를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8ce1277344cadcc708cbe7f2333f55626a0e06a6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ae0b5f9e72fc4baf53262dea2a5798add9f83531
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950047"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002932"
 ---
 # <a name="create-resources"></a>리소스 만들기
 

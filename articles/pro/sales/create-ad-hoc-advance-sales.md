@@ -2,18 +2,16 @@
 title: 계약에 대한 임시 선불금 생성
 description: 이 항목은 필요에 따라 계약에 대한 선불금을 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f0a6391a3bf6dd39d21504a6f286e4ff1954183
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 51e3b0ac8e111be70fe6ad0f9c162dfaec3339ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273605"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003504"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>계약에 대한 임시 선불금 생성
 

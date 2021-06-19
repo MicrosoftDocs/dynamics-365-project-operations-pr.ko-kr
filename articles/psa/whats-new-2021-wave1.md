@@ -2,8 +2,6 @@
 title: Project Service Automation 조기 액세스 1 2021, V3의 새로운 내용 또는 변경 내용
 description: 이 항목에는 Project Service Automation 조기 액세스 웨이브 1 2021, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ceba31934f021b4a18766eca314d68b69dd6a8ff
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 3a11c5a033c6b7f1f4d7b5146dc8695c9e017d6e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949597"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002408"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Project Service Automation 조기 액세스 1 2021, V3의 새로운 내용 또는 변경 내용
 

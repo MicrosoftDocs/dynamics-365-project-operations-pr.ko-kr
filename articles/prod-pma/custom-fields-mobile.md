@@ -2,11 +2,9 @@
 title: iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
 description: 이 항목은 확장을 사용하여 사용자 지정 필드를 구현하기 위한 공통 패턴을 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271001"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003048"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
 

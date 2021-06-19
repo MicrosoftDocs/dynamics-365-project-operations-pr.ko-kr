@@ -2,18 +2,16 @@
 title: 회사 간 송장 개요
 description: 이 토픽은 프로젝트에 대한 회사 간 송장에 대한 정보와 예를 제공합니다.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287336"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002649"
 ---
 # <a name="intercompany-invoicing-overview"></a>회사 간 송장 개요
 
@@ -21,7 +19,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 조직에 프로젝트를 위해 제품과 서비스를 서로 이전하는 여러 부서, 자회사 및 기타 법인이 있을 수 있습니다. 서비스 또는 제품을 제공하는 법인을 *대출 법인* 이라고 합니다. 서비스 또는 제품을 받는 법인을 *차용 법인* 이라고 합니다.
 
-다음 그림은 Contoso Robotics USA(차용 법인)와 Contoso Robotics UK(대출 법인)라는 두 법인이 리소스를 공유하여 고객에게 프로젝트 인 Adventure Works를 제공하는 일반적인 시나리오를 보여줍니다. 이 시나리오에서 Contoso Robotics USA는 Adventure Works에 작업을 제공하도록 계약을 맺었습니다.
+다음 그림은 두 개의 법인인 Contoso Robotics USA(차용 법인) 및 Contoso Robotics UK(대출 법인)가 고객에게 프로젝트를 제공하기 위해 리소스를 공유하는 전형적인 시나리오를 보여줍니다. 이 시나리오의 경우 Contoso Robotics USA는 Adventure Works에 작업을 제공하기 위해 계약을 체결했습니다.
 
 ![회사 간 송장](./media/IntercompanyScenario.png) 
 

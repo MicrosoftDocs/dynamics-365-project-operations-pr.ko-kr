@@ -2,18 +2,16 @@
 title: 자동 송장 만들기 설정
 description: 이 항목은 견적 송장의 자동 생성 설정 및 구성에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 2d212f2279b28d900e75d45386e343f95b8e825e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866825"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004179"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>자동 송장 만들기 설정 
  

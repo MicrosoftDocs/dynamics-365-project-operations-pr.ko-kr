@@ -2,18 +2,16 @@
 title: 프로젝트 기반 계약 내용에서 여러 고객 관리 - 라이트
 description: 이 항목은 프로젝트 기반 계약 내용에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9dfaa766f3d6064bb84dcd1b032e0e279b1b9cdf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23bb4cebd16bd1e8ae572d3e54538756547ae39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273251"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003019"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>프로젝트 기반 계약 내용에서 여러 고객 관리 - 라이트
 

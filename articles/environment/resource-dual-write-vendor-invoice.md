@@ -2,19 +2,17 @@
 title: 공급업체 송장 통합
 description: 이 항목은 Project Operations의 공급업체 송장 통합에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 07839436c3777b0554e0721d250bff643e38c088
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955790"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002281"
 ---
 # <a name="vendor-invoice-integration"></a>공급업체 송장 통합
 

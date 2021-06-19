@@ -2,11 +2,9 @@
 title: 경비 정책 정의
 description: 작업자가 경비 보고서 및 출장 요청을 입력하고 제출할 때 따라야 하는 경비 정책을 정의할 수 있습니다.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 863d1e44dad9fa0d2174cf77582a1d820988e92d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa108db9aa0d2a22c35d2d046917ddae1f3842c1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276086"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001884"
 ---
 # <a name="define-expense-policies"></a>경비 정책 정의
 
