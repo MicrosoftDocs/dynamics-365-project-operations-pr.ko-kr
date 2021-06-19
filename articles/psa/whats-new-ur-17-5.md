@@ -2,8 +2,6 @@
 title: Project Service Automation 업데이트 릴리스 17.5, 핫픽스 V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b3d58cb4a2f8fea1495d143dd985ad17a5cc4130
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7f78cb8974b472dab85654bffb9665f18af0ce1a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949282"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006744"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>Project Service Automation 업데이트 릴리스 17.5, V3
 

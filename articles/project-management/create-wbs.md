@@ -2,18 +2,16 @@
 title: 작업 분할 구조 만들기
 description: 이 토픽은 새 스케줄링 인터페이스의 기본 제어를 포함하는 WBS(작업 분할 구조)를 작성하는 방법을 설명합니다.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287021"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005709"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>작업 분할 구조(WBS) 만들기
 

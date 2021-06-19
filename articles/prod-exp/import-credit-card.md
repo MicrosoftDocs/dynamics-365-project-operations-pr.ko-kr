@@ -2,11 +2,9 @@
 title: 신용 카드 트랜잭션 가져오기 및 유지
 description: 이 항목은 경비 관련 신용 카드 거래를 가져오고 유지하는 방법을 설명합니다. 이러한 트랜잭션은 반복 일정에 따라 자동으로 가져오도록 설정하거나 필요에 따라 수동으로 가져올 수 있습니다.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c434356c08e8490931bd60ea5b10fe2706cb0f51
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: edeab157aa2fa6cf518ad086b4c1f22c5b45fa04
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951082"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005169"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>신용 카드 트랜잭션 가져오기 및 유지
 

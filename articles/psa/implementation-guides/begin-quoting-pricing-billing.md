@@ -2,8 +2,6 @@
 title: 견적, 가격 책정 및 대금 청구 기초 가이드
 description: 이 항목은 Project Service Automation에서 기본 견적, 가격 책정 및 대금 청구에 대한 정보 링크를 제공합니다.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e170adcc87ac69e31a00c85aefa718cc316dbd5a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7ec1170a7a703d181be4aa95daf7927bbe30b1b1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284411"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007464"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>견적, 가격 책정 및 대금 청구 기초 가이드
 

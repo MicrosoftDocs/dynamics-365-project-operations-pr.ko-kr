@@ -2,11 +2,9 @@
 title: 프로젝트 견적 확인, 업데이트 및 보내기
 description: 이 항목은 확인을 위해 고객에게 견적을 보내고 피드백을 기반으로 수정한 다음 견적을 다시 보내는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6897890156b8cef374f6279c8b7fa629c0f775ec
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270821"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006384"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>프로젝트 견적 확인, 업데이트 및 보내기
 

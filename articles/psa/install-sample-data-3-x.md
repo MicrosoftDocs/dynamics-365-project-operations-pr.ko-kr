@@ -3,7 +3,6 @@ title: 샘플 데이터 설치
 description: 이 항목은 Project Service Automation에서 샘플 데이터를 설치하는 방법에 대한 정보를 제공합니다.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950587"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007284"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 응용 프로그램에 대한 샘플 데이터 설치
 

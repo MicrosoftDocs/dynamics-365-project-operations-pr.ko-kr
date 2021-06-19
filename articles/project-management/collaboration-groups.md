@@ -2,18 +2,16 @@
 title: Office 그룹과 공동 작업
 description: Office 그룹을 사용하면 Common Data Service 내에서 다른 팀 구성원과 프로젝트를 공유할 수 있습니다.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6cf481c3c68ecc76000ef23fd0d1eef0da49dce9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b39d370eade27ebb256a6fbaa24ca9f268eca2c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287173"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007059"
 ---
 # <a name="collaboration-with-office-groups"></a>Office 그룹과 공동 작업
 

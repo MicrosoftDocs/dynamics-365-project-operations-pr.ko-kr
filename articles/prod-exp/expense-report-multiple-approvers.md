@@ -2,11 +2,9 @@
 title: 경비 보고서에 대한 여러 승인자
 description: 이 항목은 여러 사람의 승인이 필요한 경비 보고서에 대한 정보를 제공합니다.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpensesReportList
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fbe1c93c5359a6be493e3c4e1b27b06dbb48002
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c745dda957fab5acc464b9d1c774fcdc783cde40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271721"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005259"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>경비 보고서에 대한 여러 승인자
 

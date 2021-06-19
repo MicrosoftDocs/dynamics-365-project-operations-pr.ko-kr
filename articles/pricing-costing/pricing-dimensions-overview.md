@@ -2,19 +2,17 @@
 title: 가격 책정 차원 개요
 description: 이 토픽은 Dynamics 365 Project Operations의 가격 책정 차원에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275411"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004989"
 ---
 # <a name="pricing-dimensions-overview"></a>가격 책정 차원 개요
 
@@ -61,16 +59,16 @@ Dynamics 365 Project Operations는 기본 가격 책정 차원 집합으로 배�
 
 | 역할        | 조직 단위    |단위      |가격      |통화  |
 | ------------|-------------|----------|----------:|----------|
-| 개발자   | Contoso US  |Hour | 200|USD     |
-| 개발자   | Contoso India |Hour|   112|USD     |
+| 개발자   | Contoso US  |시간 | 200|USD     |
+| 개발자   | Contoso India |시간|   112|USD     |
 
 
 **샘플 원가 요율**
 
 | 급여대     | 조직 단위    |단위      |가격      |통화  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|USD     |
-| My company_Band2 | Contoso India |Hour|   67|USD     |
+| My company_Band1 | Contoso US  |시간 | 145|USD     |
+| My company_Band2 | Contoso India |시간|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

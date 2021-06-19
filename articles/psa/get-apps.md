@@ -2,8 +2,6 @@
 title: Dynamics 365 Project Finder Mobile 앱을 얻는 방법 | MicrosoftDocs
 description: Dynamics 365 Project Finder Mobile 앱을 얻는 방법
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9d04f47f588b615cd52696a49e0f8e531c35e439
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947977"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007419"
 ---
 # <a name="get-the-apps-project-service"></a>앱 가져오기(Project Service)
 
