@@ -2,18 +2,16 @@
 title: 프로젝트 작업량 추적
 description: 이 항목은 프로젝트 노력 및 작업 진행 상황을 추적하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.openlocfilehash: 3fdf7787f0144dace84852a0442406085bdc1639
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5710948"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010884"
 ---
 # <a name="project-effort-tracking"></a>프로젝트 작업량 추적
 

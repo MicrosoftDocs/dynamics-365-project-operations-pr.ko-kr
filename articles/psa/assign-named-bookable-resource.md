@@ -2,8 +2,6 @@
 title: 프로젝트 팀에 지정된 예약 가능한 리소스 예약 및 작업 배정
 description: 이 항목은 프로젝트 팀에 명명된 리소스를 예약하는 것과 작업에 배정하는 방법에 대한 정보를 제공합니다.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6169f2bdc107e63d666fb32d34f531fd5d472c2f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291447"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009354"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>프로젝트 팀에 지정된 예약 가능한 리소스 예약 및 작업 배정 
 

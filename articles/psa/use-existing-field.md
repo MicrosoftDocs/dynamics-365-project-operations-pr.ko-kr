@@ -2,12 +2,10 @@
 title: Project Service의 기존 필드를 가격 책정 차원으로 사용
 description: 이 항목은 가격 책정 차원으로서 기존 Project Service 필드를 사용하는 것에 대한 정보를 제공합니다.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad03f5f7c1c9e93ca12a8c8d48ffbd2f80b1511f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 09e565c91eda9dee6e0ec479a5c85d94d2591147
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281576"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008094"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>Project Service의 기존 필드를 가격 책정 차원으로 사용
 

@@ -2,18 +2,16 @@
 title: 회사 간 고객 및 공급업체 송장 만들기
 description: 이 토픽은 회사 간 고객 및 공급업체 송장을 생성하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: eb9e49fee4d4a52ec53e0919c2d32c224f04df66
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948403"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010974"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>회사 간 고객 및 공급업체 송장 만들기
 

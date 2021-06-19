@@ -2,18 +2,16 @@
 title: 프로젝트 기반 계약 내용으로 추정치 가져오기
 description: 이 항목에서는 프로젝트에서 계약 내용으로 추정을 가져오는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f8d9637e4a8bd09664c43ccc2b02514dc825997e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278381"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010254"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>프로젝트 기반 계약 내용으로 추정치 가져오기
 

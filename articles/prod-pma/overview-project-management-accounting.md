@@ -2,11 +2,9 @@
 title: 프로젝트 관리 및 회계 개요
 description: 프로젝트 관리 및 회계 기능은 서비스를 제공하거나 제품을 생산하거나 결과를 달성하기 위해 여러 산업에서 사용될 수 있습니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: a6d3b9eb97fce836e5b2310714d8f731b2c09e6c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950452"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008139"
 ---
 # <a name="project-management-and-accounting-overview"></a>프로젝트 관리 및 회계 개요
 

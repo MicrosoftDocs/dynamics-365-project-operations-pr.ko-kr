@@ -2,18 +2,16 @@
 title: 영업 기회에서 프로젝트 견적 작성
 description: 이 항목은 영업 기회에서 프로젝트 견적 생성에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0327a2823490081b3718caf6530461dadf20bf4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d678fce7a6b52522500a77daecc46353ff17fbf2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278201"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009804"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>영업 기회에서 프로젝트 견적 작성
 

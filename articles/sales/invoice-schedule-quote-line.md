@@ -2,18 +2,16 @@
 title: 프로젝트 기반 견적 라인의 송장 일정
 description: 이 항목은 견적 라인에 대한 송장 일정 및 중요 시점 생성에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 506de5217de48814d6b8f03a10c7c8648c575198
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a8e94bf7ff807028cec05380ac8c9bc22094d82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278291"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010164"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>프로젝트 기반 견적 라인의 송장 일정
 

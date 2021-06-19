@@ -2,8 +2,6 @@
 title: 조직 구성 단위
 description: 이 항목은 Dynamics 365 Project Service Automation의 조직 구성 단위에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291672"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009624"
 ---
 # <a name="organizational-units"></a>조직 구성 단위 
 
@@ -79,13 +77,13 @@ Dynamics 365를 구현할 때 사업부의 계층 구조에 대한 보안 권한
 
 #### <a name="example-of-organizational-units-and-business-units"></a>조직 구성 단위 및 사업부의 예
 
-Contoso, Ltd.는 번창하는 Microsoft 기술 방법을 가지고 있습니다. 인과 해원은 모두 C\# 개발자이지만, 해원은 미국에 있는 반면 인은 인도에 있습니다. 대부분의 프로젝트 계약에는 Contoso India 및 Contoso US의 리소스가 필요하며 인과 해원은 이 방법 영역의 프로젝트에 동일한 수준의 보안 액세스가 필요합니다. 그러나 Contoso India의 개발자 비용은 Contoso US의 개발자 비용과 크게 다릅니다.
+Contoso Ltd.는 번창하는 Microsoft 기술 방법을 가지고 있습니다. 인과 해원은 모두 C\# 개발자이지만, 해원은 미국에 있는 반면 인은 인도에 있습니다. 대부분의 프로젝트 계약에는 Contoso India 및 Contoso US의 리소스가 필요하며 인과 해원은 이 방법 영역의 프로젝트에 동일한 수준의 보안 액세스가 필요합니다. 그러나 Contoso India의 개발자 비용은 Contoso US의 개발자 비용과 크게 다릅니다.
 
 다음은 Dynamics 365 및 PSA를 사용하여 이 시나리오를 디자인하는 최적의 방법입니다.
 
 1. Microsoft 기술 방법을 사업부로 만들고 인과 해원을 연결합니다. 이러한 방식으로 두 직원이 해당 방법 영역의 모든 프로젝트에 동일한 수준의 보안 액세스를 갖도록 보장할 수 있습니다. 둘 다 진행 상황을 확인하고 시간, 비용 및 작업 업데이트를 보고할 수 있습니다. 
 2. 프로젝트 비용이 올바르게 반영되도록 두 개의 조직 구성 단위를 만듭니다. 
-3. 해원을 Contoso US과 연결하고 인을 Contoso India와 연결합니다.
+3. 해원을 Contoso US와 연결하고 인을 Contoso India와 연결합니다.
 4. 두 조직 구성 단위에 적절한 비용 가격표을 할당합니다. 이러한 방식으로 인과 해원 프로젝트에 기록된 비용이 Contoso US와 Contoso India 간의 비용 차이를 정확하게 반영하도록 보장합니다.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>조직 구성 단위가 Dynamics 365의 판매 영역과 관련이 있습니까?
@@ -124,7 +122,7 @@ PSA에서 영업 가격표는 고객 및 판매 지역과 연결할 수 있습�
 비용 센터, 부서, 청구 사무실 등의 복잡한 계층 구조가 있는 경우 해당 계층의 리프 노드를 고유한 조직 구성 단위로 설정합니다.
 다음 예제에서는 일반적인 계층 구조를 보여 줍니다.
 
-**Contoso India**
+**Contoso인도**
 
   - SAP 방법 
 

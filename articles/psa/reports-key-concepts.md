@@ -2,8 +2,6 @@
 title: 주요 개념
 description: 이 항목은 Project Service Automation에서 리소스 관리를 위한 주요 개념에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 704aadab3dd1b8b3e22ecdb15cf97cc7cbba1a23
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5f314e3a6cc70748628145f693fb81b598e568dc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283331"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008859"
 ---
 # <a name="key-concepts"></a>주요 개념
 

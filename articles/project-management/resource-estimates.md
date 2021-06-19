@@ -2,18 +2,16 @@
 title: 프로젝트의 리소스 시간에 대한 재무 추정
 description: 이 항목은 시간에 대한 재무 추정을 계산하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: e79e33da618c4ab32b1ba13f33e50f60a550ff0b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701834"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010794"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>프로젝트의 리소스 시간에 대한 재무 추정
 

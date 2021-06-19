@@ -2,11 +2,9 @@
 title: 프로젝트 견적
 description: 이 문서에서는 프로젝트 단계의 첫 번째 단계로 고객에게 매력적인 제안을 제공하는 데 사용할 수 있는 프로젝트 견적의 개념을 소개합니다. 프로젝트 견적에는 견적된 품목 및 서비스, 기본 연락처 정보, 특별 거래 계약 및 할인, 가능한 세금 및 할증료가 포함될 수 있습니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8f86c86aac8ebae9a77bacbb5275f1f7e6609f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 322c2403543b9eaebbd4bad56cfbe6f7c42b682a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289152"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009759"
 ---
 # <a name="project-quotations"></a>프로젝트 견적
 

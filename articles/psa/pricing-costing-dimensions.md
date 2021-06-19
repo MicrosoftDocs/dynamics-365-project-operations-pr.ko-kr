@@ -2,12 +2,10 @@
 title: 가격 및 원가 차원 홈 페이지
 description: 이 항목은 가격 차원에 대한 개요를 제공합니다.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284141"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009264"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>가격 및 원가 차원 홈 페이지
 
@@ -67,16 +65,16 @@ PSA는 기본 가격 차원 집합으로 배송됩니다. 이러한 것을 **Pro
 
 | 역할        | 조직 단위    |단위      |가격      |통화  |
 | ------------|-------------|----------|----------:|----------|
-| 개발자   | Contoso US  |Hour | 200|USD     |
-| 개발자   | Contoso India |Hour|   112|USD     |
+| 개발자   | Contoso US  |시간 | 200|USD     |
+| 개발자   | Contoso India |시간|   112|USD     |
 
 
 **샘플 원가 요율**
 
 | 급여대     | 조직 단위    |단위      |가격      |통화  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|USD     |
-| My company_Band2 | Contoso India |Hour|   67|USD     |
+| My company_Band1 | Contoso US  |시간 | 145|USD     |
+| My company_Band2 | Contoso India |시간|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 연방지원금 지출계획 조회
 description: 이 항목은 연방지원금 지출계획 조회에 대한 정보를 제공합니다.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a16b0fb097124e26da09e220a1239cd6df303f98
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288972"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010074"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>연방지원금 지출계획 조회
 
