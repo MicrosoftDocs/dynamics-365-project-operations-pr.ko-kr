@@ -7,41 +7,42 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2a26b321e15080cc6a4a6a3ed410be175e790a1b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 921df6fa8f1eb33bd01792c0b7c787fc74604adf
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995404"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368574"
 ---
-# <a name="expense-home-page"></a><span data-ttu-id="e0dc3-103">경비 홈 페이지</span><span class="sxs-lookup"><span data-stu-id="e0dc3-103">Expense home page</span></span>
+# <a name="expense-home-page"></a><span data-ttu-id="39067-103">경비 홈 페이지</span><span class="sxs-lookup"><span data-stu-id="39067-103">Expense home page</span></span>
 
-<span data-ttu-id="e0dc3-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="e0dc3-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="39067-104">_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_</span><span class="sxs-lookup"><span data-stu-id="39067-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-<span data-ttu-id="e0dc3-105">Dynamics 365 Project Operations는 경비 처리 기능을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-105">Dynamics 365 Project Operations supports the ability to process expenses.</span></span> <span data-ttu-id="e0dc3-106">경비 처리는 정책, 트랜잭션 범주 및 승인의 사용자 정의 가능한 워크플로를 사용하여 프로젝트 유무에 관계없이 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-106">Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.</span></span>
+<span data-ttu-id="39067-105">Dynamics 365 Project Operations는 경비 처리 기능을 지원합니다.</span><span class="sxs-lookup"><span data-stu-id="39067-105">Dynamics 365 Project Operations supports the ability to process expenses.</span></span> <span data-ttu-id="39067-106">경비 처리는 정책, 트랜잭션 범주 및 승인의 사용자 정의 가능한 워크플로를 사용하여 프로젝트 유무에 관계없이 발생합니다.</span><span class="sxs-lookup"><span data-stu-id="39067-106">Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.</span></span>
 
-<span data-ttu-id="e0dc3-107">Project Operations에는 경비에 대해 지원되는 두 가지 배포 모델이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-107">In Project Operations, there are two supported deployment models for Expense:</span></span> 
+<span data-ttu-id="39067-107">Project Operations에는 경비에 대해 지원되는 두 가지 배포 모델이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39067-107">In Project Operations, there are two supported deployment models for Expense:</span></span> 
 
-- <span data-ttu-id="e0dc3-108">**전체**: 전체 배포는 **리소스/비 재고 기반 시나리오의 경우 Project Operations** 에 대해 사용할 수 있고 **프로덕션 주문 기반 시나리오의 경우 Project Operations** 에 대해 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-108">**Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order-based scenarios**.</span></span>
-- <span data-ttu-id="e0dc3-109">**기본** : 기본 배포는 **리소스/비 재고 기반 시나리오의 경우 Project Operations** 및 **라이트 배포 – 견적 송장 처리** 에 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-109">**Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.</span></span>
+- <span data-ttu-id="39067-108">**전체**: 전체 배포는 **리소스/비 재고 기반 시나리오의 경우 Project Operations** 에 대해 사용할 수 있고 **프로덕션 주문 기반 시나리오의 경우 Project Operations** 에 대해 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39067-108">**Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order-based scenarios**.</span></span>
+- <span data-ttu-id="39067-109">**기본** : 기본 배포는 **리소스/비 재고 기반 시나리오의 경우 Project Operations** 및 **라이트 배포 – 견적 송장 처리** 에 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39067-109">**Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.</span></span>
 
-## <a name="full"></a><span data-ttu-id="e0dc3-110">전체</span><span class="sxs-lookup"><span data-stu-id="e0dc3-110">Full</span></span> 
-<span data-ttu-id="e0dc3-111">전체 경비 배포는 다음과 같은 정책을 생성하는 기능을 포함하는 완전한 정책 시행을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-111">Full Expense deployment provides a complete policy enforcement that includes the ability to create policies, such as:</span></span>
+## <a name="full"></a><span data-ttu-id="39067-110">전체</span><span class="sxs-lookup"><span data-stu-id="39067-110">Full</span></span> 
+<span data-ttu-id="39067-111">전체 경비 배포는 다음과 같은 정책을 생성하는 기능을 포함하는 완전한 정책 시행을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="39067-111">Full Expense deployment provides a complete policy enforcement that includes the ability to create policies, such as:</span></span>
 
-  - <span data-ttu-id="e0dc3-112">경비 범주 제한</span><span class="sxs-lookup"><span data-stu-id="e0dc3-112">Expense category limits</span></span>
-  - <span data-ttu-id="e0dc3-113">여행</span><span class="sxs-lookup"><span data-stu-id="e0dc3-113">Travel</span></span>
-  - <span data-ttu-id="e0dc3-114">일비</span><span class="sxs-lookup"><span data-stu-id="e0dc3-114">Per diem</span></span>
-  - <span data-ttu-id="e0dc3-115">신용 카드 가져오기</span><span class="sxs-lookup"><span data-stu-id="e0dc3-115">Credit card imports</span></span>
-  - <span data-ttu-id="e0dc3-116">영수증 광학 문자 인식</span><span class="sxs-lookup"><span data-stu-id="e0dc3-116">Receipt optical character recognition</span></span>
+  - <span data-ttu-id="39067-112">경비 범주 제한</span><span class="sxs-lookup"><span data-stu-id="39067-112">Expense category limits</span></span>
+  - <span data-ttu-id="39067-113">여행</span><span class="sxs-lookup"><span data-stu-id="39067-113">Travel</span></span>
+  - <span data-ttu-id="39067-114">일비</span><span class="sxs-lookup"><span data-stu-id="39067-114">Per diem</span></span>
+  - <span data-ttu-id="39067-115">신용 카드 가져오기</span><span class="sxs-lookup"><span data-stu-id="39067-115">Credit card imports</span></span>
+  - <span data-ttu-id="39067-116">영수증 광학 문자 인식</span><span class="sxs-lookup"><span data-stu-id="39067-116">Receipt optical character recognition</span></span>
 
-## <a name="basic"></a><span data-ttu-id="e0dc3-117">기본</span><span class="sxs-lookup"><span data-stu-id="e0dc3-117">Basic</span></span> 
-<span data-ttu-id="e0dc3-118">기본 경비 배포 시나리오에서는 프로젝트에 대한 기본 비용만 기록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-118">Basic Expense deployment scenario only allows you to record basic expenses against a project.</span></span> 
+## <a name="basic"></a><span data-ttu-id="39067-117">기본</span><span class="sxs-lookup"><span data-stu-id="39067-117">Basic</span></span> 
+<span data-ttu-id="39067-118">기본 경비 배포 시나리오에서는 프로젝트에 대한 기본 비용만 기록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="39067-118">Basic Expense deployment scenario only allows you to record basic expenses against a project.</span></span> 
 
-<span data-ttu-id="e0dc3-119">자세한 내용은[경비 항목(라이트)](basic-expense.md)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-119">For more information, see [Expense entry (lite)](basic-expense.md)</span></span>
+<span data-ttu-id="39067-119">자세한 내용은[경비 항목(라이트)](basic-expense.md)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="39067-119">For more information, see [Expense entry (lite)](basic-expense.md)</span></span>
 
-## <a name="determine-your-expense-deployment"></a><span data-ttu-id="e0dc3-120">경비 배포 결정</span><span class="sxs-lookup"><span data-stu-id="e0dc3-120">Determine your Expense deployment</span></span>
-<span data-ttu-id="e0dc3-121">기본 경비 관리 배포를 실행 중인지 확인하려면 주소 URL이 **.crm.dynamics.com** 으로 끝나는 지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="e0dc3-121">To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**.</span></span> 
+## <a name="determine-your-expense-deployment"></a><span data-ttu-id="39067-120">경비 배포 결정</span><span class="sxs-lookup"><span data-stu-id="39067-120">Determine your Expense deployment</span></span>
+<span data-ttu-id="39067-121">기본 경비 관리 배포를 실행 중인지 확인하려면 주소 URL이 **.crm.dynamics.com** 으로 끝나는 지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="39067-121">To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**.</span></span> 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

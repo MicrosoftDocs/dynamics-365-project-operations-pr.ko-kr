@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: 환경 배포
           items:
+            - name: 이중 쓰기를 지원하는 Project Operations Dataverse 앱 수동 배포
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: 새 환경 프로비전
               href: environment/resource-provision-new-environment.md
             - name: 보안 모델
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 새로운 기능
       items:
+        - name: 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: 2021년 6월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: 2021년 5월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -282,7 +288,7 @@
           items:
             - name: 프로젝트 복사로 프로젝트 템플릿 개발
               href: project-management/dev-copy-project.md
-            - name: 일정 API 사용(공개 미리 보기)
+            - name: 프로젝트 일정 API 사용(공개 프리뷰)
               href: project-management/schedule-api-preview.md
     - name: 리소스 관리
       items:
@@ -436,8 +442,6 @@
       items:
         - name: 송장 처리 개요
           href: invoicing/post-project-invoices.md
-        - name: 프로젝트 송장 제안서 관리
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: 견적 송장
           items:
             - name: 프로젝트 기반 대금 청구 백로그 관리
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: 프로젝트 기반 송장 자동화 구성
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: 프로젝트 송장 제안서 관리
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: 고객 송장 작성
+          items:
+            - name: 프로젝트 송장 제안서 관리
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: 프로젝트 송장 제안서 초안에 대한 올바른 회계
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: 회사 간 송장
+          items:
+            - name: 회사 간 송장 개요
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 회사 간 송장 구성
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 회사 간 트랜잭션 만들기
+              href: project-accounting/create-intercompany-transactions.md
+            - name: 회사 간 고객 및 공급업체 송장 만들기
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 프로젝트 회계
       items:
         - name: 재무 차원 기본값
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations의 통합 분개장
           href: project-accounting/project-operations-integration-journal.md
-        - name: 회사 간 송장
-          items:
-            - name: 회사 간 송장 개요
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: 회사 간 송장 구성
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: 회사 간 트랜잭션 만들기
-              href: project-accounting/create-intercompany-transactions.md
-            - name: 회사 간 고객 및 공급업체 송장 만들기
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 수익 인식
       items:
         - name: 수익 인식 개요
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: 새로운 기능
       items:
+        - name: 2021년 7월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 2021년 6월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 2021년 5월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021년 4월의 새로운 기능 - 라이트 배포
@@ -762,7 +774,7 @@
           items:
             - name: 프로젝트 복사로 프로젝트 템플릿 개발
               href: project-management/dev-copy-project.md
-            - name: 일정 API 사용(공개 미리 보기)
+            - name: 프로젝트 일정 API 사용(공개 프리뷰)
               href: project-management/schedule-api-preview.md
     - name: 리소스 관리
       items:
@@ -882,6 +894,10 @@
   items:
     - name: 새로운 기능
       items:
+        - name: 새로운 기능 2021년 7월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 새로운 기능 2021년 5월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 새로운 기능 2021년 4월 - 리소스/생산 기반 시나리오에 대한 Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 새로운 기능 2021년 3월 - 리소스/생산 기반 시나리오에 대한 Project Operations
@@ -1034,6 +1050,10 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 33, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-33.md
+        - name: '업데이트 릴리스 32.5, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-32-5.md
         - name: '업데이트 릴리스 32, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-32.md
         - name: '업데이트 릴리스 31, V3의 새로운 내용 또는 변경된 내용'
