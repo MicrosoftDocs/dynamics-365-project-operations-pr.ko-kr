@@ -2,7 +2,7 @@
 title: 프로젝트 송장 제안서 성능
 description: 이 항목은 프로젝트 송장 제안의 성능 향상에 대한 정보를 제공합니다.
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999499"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269798"
 ---
 # <a name="project-invoice-proposal-performance"></a>프로젝트 송장 제안서 성능
 
@@ -44,4 +44,6 @@ ms.locfileid: "5999499"
 3.  브라우저를 새로 고칩니다.
 
 > [!NOTE]
-> 청구 규칙이 활성화되어 있거나 일괄 프로세스가 실행 중인 경우 송장 제안 성능을 적용할 수 없습니다.
+> 청구 규칙이 활성화된 경우 송장 제안 성능을 적용할 수 없습니다.
+> 
+> 송장 제안을 생성하기 위한 배치 프로세스 동안 하위 작업의 수는 입력한 내용에 관계없이 송장 가능한 트랜잭션이 있는 계약 수를 기반으로 작업을 최대 수로 분할합니다. 예를 들어 **3** 을 입력하면 일괄 송장 제안 생성을 위한 하위 작업의 수에 대해 송장 가능한 트랜잭션이 있는 두 개의 계약만 있고 두 개의 하위 작업만 생성됩니다.

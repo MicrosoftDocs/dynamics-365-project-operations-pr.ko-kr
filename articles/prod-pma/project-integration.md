@@ -2,7 +2,7 @@
 title: Microsoft Project Client 통합
 description: 프로젝트 일정을 계획하고 유지하는 것은 복잡할 수 있으므로 프로젝트 관리자는 이 작업을 관리하는 데 도움이 되는 도구를 사용해야 합니다. Microsoft Project Client와의 통합은 프로젝트 작업 분할 구조를 열고 관리할 수 있도록 지원합니다.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999454"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269843"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 통합
 
@@ -124,7 +124,14 @@ Microsoft Project Client를 사용하여 새 작업 분할 구조를 만들고 �
 
 8.  리소스 조달에 사용할 **일정** 을 선택합니다.
 
-11. **확인** 을 클릭합니다.
+11. **OK** 를 클릭합니다.
 
+> [!NOTE]
+> 프로젝트 클라이언트 추가 기능은 프로젝트 ID 형식에서 다음 문자를 지원하지 않습니다.
+> 
+>   - 밑줄
+>   - 마침표
+>   - 스페이스
+>   - 슬래시
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

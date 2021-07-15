@@ -4,6 +4,7 @@ description: 이 항목은 리소스를 관리하는 방법에 대한 정보를 
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/28/2019
 ms.topic: article
 ms.author: ruhercul
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 778002ea07a7be3cade988f515a6d890427e6613
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3d6622d4ad7da5e67cd01ce6eacb54298ee515
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008724"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369159"
 ---
 # <a name="resource-management-home-page"></a>리소스 관리 홈 페이지
 

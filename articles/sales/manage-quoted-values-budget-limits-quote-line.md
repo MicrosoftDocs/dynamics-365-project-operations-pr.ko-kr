@@ -6,12 +6,13 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 72feb791e48c9bacd4a0b7ea5cd77ddc8eb5f514
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c585bbc55119e678a4f75f5dfe8966a436db1a34
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996304"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368079"
 ---
 # <a name="project-quote-lines-overview"></a>프로젝트 견적 라인 개요
 
@@ -592,7 +593,7 @@ P1 </p>
             </td>
             <td width="308" rowspan="2" valign="top">
                 <p>
-규칙 #2에 따라 Q1 및 Q2는 다른 영업 기회에 대한 두 개의 견적이므로 같은 프로젝트의 동일한 구성 요소를 추정할 수 없습니다.
+규칙 #3에 따라 Q1 및 Q2는 다른 영업 기회에 대한 두 개의 견적이므로 같은 프로젝트의 동일한 구성 요소를 추정할 수 없습니다.
                 </p>
             </td>
         </tr>

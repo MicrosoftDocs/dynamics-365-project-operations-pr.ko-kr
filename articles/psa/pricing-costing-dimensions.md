@@ -4,6 +4,7 @@ description: 이 항목은 가격 차원에 대한 개요를 제공합니다.
 author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: rumant
@@ -15,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009264"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368889"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>가격 및 원가 차원 홈 페이지
 

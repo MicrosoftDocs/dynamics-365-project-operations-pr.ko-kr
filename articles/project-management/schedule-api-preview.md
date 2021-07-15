@@ -1,19 +1,19 @@
 ---
-title: 일정 엔터티로 일정 API를 사용하여 작업 수행
-description: 이 항목은 일정 API 사용에 대한 정보와 샘플을 제공합니다.
+title: 프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행
+description: 이 항목은 프로젝트 일정 API를 사용하기 위한 정보 및 샘플을 제공합니다.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116805"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293235"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>일정 엔터티로 일정 API를 사용하여 작업 수행
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
@@ -22,9 +22,9 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="scheduling-entities"></a>예약 엔터티
 
-일정 API는 **예약 엔터티** 를 통해 생성, 업데이트 및 삭제 작업을 수행할 수 있는 기능을 제공합니다. 이러한 엔터티는 웹용 프로젝트에서 예약 엔진을 통해 관리됩니다. **예약 엔터티** 를 사용한 생성, 업데이트 및 삭제 작업은 이전 Dynamics 365 Project Operations 릴리스에서 제한되었습니다.
+프로젝트 일정 API는 **일정 엔터티** 를 사용하여 생성, 업데이트 및 삭제 작업을 수행하는 기능을 제공합니다. 이러한 엔터티는 웹용 프로젝트에서 예약 엔진을 통해 관리됩니다. **예약 엔터티** 를 사용한 생성, 업데이트 및 삭제 작업은 이전 Dynamics 365 Project Operations 릴리스에서 제한되었습니다.
 
-다음 표는 **예약 엔터티** 전체 목록을 제공합니다.
+다음 표는 프로젝트 일정 엔터티의 전체 목록을 제공합니다.
 
 | 엔터티 이름  | 엔터티 논리적 이름 |
 | --- | --- |
@@ -39,19 +39,19 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 OperationSet은 일정에 영향을 미치는 여러 요청을 트랜잭션 내에서 처리해야 할 때 사용할 수 있는 작업 단위 패턴입니다.
 
-## <a name="schedule-apis"></a>일정 API
+## <a name="project-schedule-apis"></a>프로젝트 일정 API
 
-다음은 현재 일정 API 목록입니다.
+다음은 현재 프로젝트 일정 API 목록입니다.
 
 - **msdyn_CreateProjectV1**: 이 API를 사용하여 프로젝트를 생성할 수 있습니다. 프로젝트 및 기본 프로젝트 버킷이 즉시 생성됩니다.
 - **msdyn_CreateTeamMemberV1**: 이 API를 사용하여 프로젝트 팀 구성원을 만들 수 있습니다. 팀 구성원 레코드가 즉시 생성됩니다.
 - **msdyn_CreateOperationSetV1**: 이 API는 트랜잭션 내에서 수행해야 하는 여러 요청을 예약하는 데 사용할 수 있습니다.
-- **msdyn_PSSCreateV1**: 이 API는 엔터티를 만드는 데 사용할 수 있습니다. 엔터티는 만들기 작업을 지원하는 일정 엔터티 중 하나일 수 있습니다.
-- **msdyn_PSSUpdateV1**: 이 API는 엔터티를 업데이트하는 데 사용할 수 있습니다. 엔터티는 업데이트 작업을 지원하는 일정 엔터티 중 하나일 수 있습니다.
-- **msdyn_PSSDeleteV1**: 이 API는 엔터티를 삭제하는 데 사용할 수 있습니다. 엔터티는 삭제 작업을 지원하는 일정 엔터티 중 하나일 수 있습니다.
+- **msdyn_PSSCreateV1**: 이 API는 엔터티를 만드는 데 사용할 수 있습니다. 엔터티는 만들기 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다.
+- **msdyn_PSSUpdateV1**: 이 API는 엔터티를 업데이트하는 데 사용할 수 있습니다. 엔터티는 업데이트 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다.
+- **msdyn_PSSDeleteV1**: 이 API는 엔터티를 삭제하는 데 사용할 수 있습니다. 엔터티는 삭제 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다.
 - **msdyn_ExecuteOperationSetV1**: 이 API는 지정된 작업 집합 내에서 모든 작업을 실행하는 데 사용됩니다.
 
-## <a name="using-schedule-apis-with-operationset"></a>OperationSet과 함께 일정 API 사용
+## <a name="using-project-schedule-apis-with-operationset"></a>OperationSet와 함께 프로젝트 일정 API 사용
 
 **CreateProjectV1** 및 **CreateTeamMemberV1** 이 모두 있는 레코드가 즉시 생성되기 때문에 이러한 API는 **OperationSet** 에서 직접 사용할 수 없습니다. 그러나 API를 사용하여 필요한 레코드를 만들고 **OperationSet** 을 만든 다음 **OperationSet** 에서 이러한 미리 만들어진 레코드를 사용할 수 있습니다.
 
@@ -257,7 +257,7 @@ ID 속성은 선택 사항입니다. 제공되는 경우 시스템은 이를 사
 ## <a name="limitations-and-known-issues"></a>제한 사항 및 알려진 문제
 다음은 제한 사항 및 알려진 문제 목록입니다.
 
-- 일정 API는 **Microsoft Project 라이선스가 있는 사용자** 만 사용할 수 있습니다. 다음 사용자는 사용할 수 없습니다.
+- 프로젝트 일정 API는 **Microsoft Project 라이선스가 있는 사용자** 만 사용할 수 있습니다. 다음 사용자는 사용할 수 없습니다.
     - 응용 프로그램 사용자
     - 시스템 사용자
     - 통합 사용자
@@ -271,7 +271,7 @@ ID 속성은 선택 사항입니다. 제공되는 경우 시스템은 이를 사
 ## <a name="error-handling"></a>오류 처리
 
    - 작업 세트에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **작업 세트** 로 이동합니다.
-   - Project Scheduling Service에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **PSS 오류 로그** 로 이동합니다.
+   - 프로젝트 일정 서비스에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **PSS 오류 로그** 로 이동합니다.
 
 ## <a name="sample-scenario"></a>샘플 시나리오
 
