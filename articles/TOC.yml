@@ -832,6 +832,16 @@
           items:
             - name: 리소스 사용률 개요
               href: resource-management/resource-utilization-overview.md
+    - name: Project Operations에서 하도급 관리
+      items:
+        - name: 하도급 관리 개요
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 하도급의 핵심 개념
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: 공급업체 및 프로젝트 가격표 관리
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 예약 가능한 리소스로서의 하청업체
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: 시간
       items:
         - name: 시간 개요
@@ -1050,6 +1060,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 34, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-34.md
         - name: '업데이트 릴리스 33, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-33.md
         - name: '업데이트 릴리스 32.5, V3의 새로운 내용 또는 변경된 내용'
