@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ef2db198716f5c8a18aae2b37624b0aece766d83
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe8a8e1776b10fff0dc137e329c58eb530591a6e6adde0ac58ca83d323c5da4f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012999"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992304"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>프로젝트 프로세스 및 비용 추적(Project Service)
 

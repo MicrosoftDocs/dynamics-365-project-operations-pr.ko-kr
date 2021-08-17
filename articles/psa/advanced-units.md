@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009579"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987579"
 ---
 # <a name="unit-groups-and-units"></a>단위 그룹 및 단위
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009579"
 
 다음 이미지는 **일** 단위 설정의 예를 보여줍니다, 여기서 **수량** 필드는 하루에 있는 시간 수를 나타내고, **주** 단위 설정의 경우 **수량** 필드는 한 주에 있는 일 수를 나타냅니다.
 
-> ![단위 그룹: 정보 페이지](media/advanced-2.png)
+> ![단위 그룹: 정보 페이지.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>단위 및 단위 그룹 사용
 

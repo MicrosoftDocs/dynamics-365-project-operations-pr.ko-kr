@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009174"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002564"
 ---
 # <a name="project-costs-and-revenue"></a>프로젝트 원가 및 수익
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009174"
 
 프로젝트 추산은 프로젝트 스케줄에서 추정되고 스케줄이 잡힌 작업에 대한 재무적인 내용을 볼 수 있게 해 줍니다. **프로젝트** 페이지의 **추산** 탭에는 귀하가 계획 중인 작업의 원가 및 수익 영향이 표시됩니다. 또한 사전 정의된 많은 차원에 대한 정보도 제공합니다. 
 
-> ![추산 탭](media/project-5.png)
+> ![추산 탭.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>프로젝트 원가 및 매출액의 값
 
@@ -66,13 +66,13 @@ ms.locfileid: "6009174"
 
 **추산** 탭에는 추산 행을 보여주는 그리드 보기가 있습니다. 그리드에는 다음 그림과 같이 단위, 총 원가 및 총 판매 가격에 대한 열이 포함됩니다. 
 
-> ![추산 탭의 그리드 보기](media/project-6.png)
+> ![추산 탭의 그리드 보기.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>프로젝트 추정 시간대별 보기
 
 프로젝트 추산의 시간 단계별 보기는 선택한 시간 척도에서 타임라인 전체의 그리드 뷰의 추산 데이터를 표시합니다. 기본적으로 추산 데이터는 **역할** 차원에 근거합니다.
 
-> ![시간 단계별 프로젝트 추산 보기](media/project-7.png)
+> ![시간 단계별 프로젝트 추산 보기.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>과업 모드에 근거한 추산 노력 할당
 

@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998194"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998334"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>승인된 시간 또는 경비 항목 철회
 
@@ -98,13 +98,13 @@ ms.locfileid: "5998194"
 
 다음 그림은 승인된 시간 항목에 대해 철회될 때 발생하는 변경 사항을 보여줍니다.
 
-![시간 항목 상태 전환](media/TimeEntryStateTransitions.png)
+![시간 항목 상태 전환.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>경비 항목 레코드 변경
 
 다음 그림은 승인된 경비 항목에 대해 철회될 때 발생하는 변경 사항을 보여줍니다.
 
-![경비 항목 상태 전환](media/ExpenseEntryStateTransitions.png)
+![경비 항목 상태 전환.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

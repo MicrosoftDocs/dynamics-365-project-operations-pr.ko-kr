@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013179"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985014"
 ---
 # <a name="submitting-a-resource-request"></a>리소스 요청 제출
 
@@ -34,7 +34,7 @@ ms.locfileid: "6013179"
 1. Project Service Automation(PSA)의 **프로젝트** 페이지에서 **팀** 탭을 클릭하여 예약 가능한 리소스의 목록을 봅니다. 
 2. 목록에서 리소스 요건이 있는 일반 리소스를 선택한 다음 **요청 제출** 을 클릭합니다.
 
-![리소스 요청 제출](media/RM-how-to-18.png)
+![리소스 요청 제출.](media/RM-how-to-18.png)
 
 일반 팀원의 요청 상태가 **제출됨** 으로 변경됩니다.
 
