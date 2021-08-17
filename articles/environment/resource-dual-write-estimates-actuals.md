@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000039"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006299"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>프로젝트 추정 및 실제 통합
 
@@ -30,7 +30,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 인건비 추정은 프로젝트 작업에 일반 또는 명명된 리소스를 할당하는 프로젝트 관리자 또는 자원 관리자가 만듭니다. 리소스 할당 기록은 Dataverse의 **프로젝트 세부 정보** 페이지에 있는 **리소스 할당** 탭에서 검토할 수 있습니다. Dataverse의 리소스 할당 레코드는 **시간 추정을위한 Project Operations 통합 엔터티(msdyn\_resourceassignments)** 를 사용하여 Finance and Operations 앱에서 시간 예측 레코드를 생성합니다.
 
-   ![인건비 추정 통합](./Media/DW4LaborEstimates.png)
+   ![인건비 추정 통합.](./Media/DW4LaborEstimates.png)
 
 이중 쓰기는 리소스 할당 레코드를 준비 테이블(**ProjCDSEstimateHoursImport**)과 동기화한 다음 비즈니스 로직을 사용하여 시간 예측 레코드(**ProjForecastEmpl**)를 만들고 업데이트합니다.
 
@@ -40,7 +40,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 경비 추정은 프로젝트 관리자가 Dataverse의 **프로젝트 세부 정보** 페이지에 있는 **경비 추정** 탭에서 생성합니다 . 경비 추정 기록은 Dataverse의 **추정 라인** 엔터티에 저장됩니다. 이러한 추정 레코드에는 트랜잭션 클래스, **경비** 가 있으며 **경비 추정을 위한 Project Operations 통합 엔터티(msdyn\_estimatelines)** 를 사용하여 Finance and Operations  앱의 경비 예측 레코드와 동기화됩니다.
 
-   ![경비 추정 통합](./Media/DW4ExpenseEstimates.png)
+   ![경비 추정 통합.](./Media/DW4ExpenseEstimates.png)
 
 이중 쓰기는 경비 추정 레코드를 준비 테이블(**ProjCDSEstimateExpenseImport**)과 동기화한 다음 비즈니스 로직을 사용하여 경비 예측 레코드(**ProjForecastCost**)를 만들고 업데이트합니다. 견적 라인은 판매 견적 및 비용 견적 레코드를 별도로 저장합니다. Finance and Operations 앱의 비즈니스 로직은 준비 테이블에서 이 세부 사항을 사용하여 단일 경비 예측 레코드를 채웁니다.
 
@@ -50,7 +50,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 재료 추정은 프로젝트 관리자가 Dataverse의 **프로젝트 세부 정보** 페이지에 있는 **재료 추정** 탭에서 생성합니다 . 재료 추정 기록은 Dataverse의 **추정 라인** 엔터티에 저장됩니다. 이러한 추정 레코드에는 트랜잭션 클래스, **재료** 가 있으며 **재료 추정을 위한 Project Operations 통합 표(msdyn\_estimatelines)** 를 사용하여 Finance and Operations  앱의 항목 예측 레코드와 동기화됩니다.
 
-   ![재료 추정 통합](./Media/DW4MaterialEstimates.png)
+   ![재료 추정 통합.](./Media/DW4MaterialEstimates.png)
 
 이중 쓰기는 재료 추정 레코드를 준비 테이블(**ProjForecastSalesImpor**)과 동기화한 다음 비즈니스 로직을 사용하여 항목 예측 레코드(**ForecastSales**)를 만들고 업데이트합니다. 견적 라인은 판매 견적 및 비용 견적 레코드를 별도로 저장합니다. Finance and Operations 앱의 비즈니스 로직은 준비 테이블에서 이 세부 사항을 사용하여 단일 항목 예측 레코드를 채웁니다.
 
@@ -60,7 +60,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 프로젝트 실제는 Dataverse에서 시간, 경비, 재료 및 청구 활동을 기반으로 생성됩니다. 수량, 원가, 판매 가격 및 프로젝트를 포함한 이러한 트랜잭션의 모든 운영 속성이 이 Dataverse 엔터티에 캡처됩니다. 자세한 내용은 [실제](../actuals/actuals-overview.md)를 참조하십시오. 실제 레코드는 다운 스트림 회계를 위해 이중 쓰기 테이블 맵 **Project Operations 통합 실제(msdyn\_actuals)** 를 사용하여 Finance and Operations 앱에 동기화됩니다.
 
-   ![실제 통합](./Media/DW4Actuals.png)
+   ![실제 통합.](./Media/DW4Actuals.png)
 
 **Project Operations 통합 실제** 테이블 맵은 속성 **동기화 건너뛰기(내부 전용)** 를 **False** 로 설정된 Dataverse에 있는 **실제** 엔터티의 모든 레코드를 동기화합니다. 이 속성 값은 Dataverse에서 레코드가 생성될 때 자동으로 설정됩니다. 이 속성이 **True** 로 설정된 예:
 

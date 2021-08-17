@@ -2,7 +2,7 @@
 title: Project Service 3.x 릴리스 일정 업데이트
 description: 이항목은 Dynamics 365 Project Service Automation의 사용 가능 및 향후 릴리스에 대한 정보를 제공합니다.
 ms.custom: dyn365-projectservice
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.reviewer: kfend
 ms.prod: ''
 ms.suite: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334880"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024836"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 릴리스 일정 업데이트
 
@@ -37,7 +37,7 @@ ms.locfileid: "6334880"
 
 | 솔루션  | 최신 버전 |
 |-------|----|
-| Project Service Automation    | 3.10.54.98 |
+| Project Service Automation    | 3.10.55.38 |
 | Project Service Automation 데스크톱 추가 기능                | 3.15          |
 
 Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamics 365 릴리스 계획](/dynamics365/release-plans/)을 참조하십시오. 
@@ -45,28 +45,28 @@ Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamic
 | 스테이션  | 영역 | 현재 버전 | 다음 버전 |  예약된 날짜
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>스테이션 1</strong> | |  |  | |
-| | <i>최초 릴리스</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | 2021년 7월 28일
+| | <i>최초 릴리스</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 8월 27일
 |<strong>스테이션 2</strong> | |  |  | |
-| | <i>남아메리카</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 9일
-| | <i>캐나다</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 9일
-| | <i>인도</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 9일
-| | <i>프랑스</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 9일
-| | <i>아랍에미리트연합국</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 9일
-| | <i>남아프리카 공화국</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 9일
-| | <i>독일</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 9일
-| | <i>스위스</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 9일
+| | <i>남아메리카</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 9월 3일
+| | <i>캐나다</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 9월 3일
+| | <i>인도</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 9월 3일
+| | <i>프랑스</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 9월 3일
+| | <i>아랍에미리트연합국</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 9월 3일
+| | <i>남아프리카 공화국</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 9월 3일
+| | <i>독일</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 9월 3일
+| | <i>스위스</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 2021년 9월 3일
 |<strong>스테이션 3</strong> | |  |  | |
-| | <i>일본</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 16일
-| | <i>아시아 태평양</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 16일
-| | <i>영국</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 16일
-| | <i>오세아니아</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 16일
+| | <i>일본</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021년 8월 13일
+| | <i>아시아 태평양</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021년 8월 13일
+| | <i>영국</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021년 8월 13일
+| | <i>오세아니아</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021년 8월 13일
 |<strong>스테이션 4</strong> | |  |  | |
-| | <i>유럽</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 23일
+| | <i>유럽</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021년 8월 20일
 |<strong>스테이션 5</strong> | |  |  | |
-| | <i>북아메리카</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 30일
+| | <i>북아메리카</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021년 8월 27일
 |<strong>스테이션 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 7월 30일
-| | <i>전용 규모 그룹</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 2021년 8월 6일
+| | <i>Government Community Cloud</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021년 8월 27일
+| | <i>전용 규모 그룹</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 2021년 9월 3일
 
 >[!Note]
 > - GCC(Government Community Cloud)를 제외한 모든 지역의 날짜는 다음 자동 업데이트 시기를 나타냅니다. GCC의 날짜는 버전 가용성을 나타냅니다. 현재 이러한 지역에 대한 자동 업데이트는 없습니다.

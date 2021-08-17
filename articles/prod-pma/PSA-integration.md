@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c756caec6cd7eda8f891446d3e8309aca3b2482
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369627"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005894"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 개요
 
@@ -56,7 +56,7 @@ Project Service Automation Finance를 통합하려면 먼저 Project Service Aut
 > [!NOTE]
 > 현재 모든 템플릿을 사용할 수 있는 것은 아닙니다. 템플릿이 완성되면 릴리스됩니다.
 
-[![Project Service Automation과 Finance 통합](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Project Service Automation과 Finance 통합.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Finance 시스템 요구 사항
 

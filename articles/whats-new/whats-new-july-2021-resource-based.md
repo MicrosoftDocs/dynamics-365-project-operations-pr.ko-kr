@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433526"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008054"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>새로운 기능 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433526"
 
 이 항목은 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
 
-   - Microsoft Dataverse 환경 버전 4.12.0.148의 Project Operations.
+   - Microsoft Dataverse 환경 버전 4.12.0.148 또는 4.12.0.152의 Project Operations.
    - Dynamics 365 Finance 환경 버전 10.0.20의 프로젝트 관리 및 회계
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
@@ -79,7 +79,7 @@ Project Operations 이중 쓰기 맵의 현재 목록 및 버전은 [Project Ope
 | 일반                       | 2296857              | 장기 작업에 대한 진행률 추적.                                                                                                                                                                        |
 | 일반                       | 2253682              | 이중 쓰기 오케스트레이션 솔루션이 없는 환경에 이중 쓰기 코어가 설치된 경우 Project Operations 이중 쓰기 솔루션을 설치하면 안 됩니다.                                                |
 | 일반                       | 2316420              | 애플리케이션 사용자의 사업부가 변경되면 Project Service 코어 프로비저닝이 실패합니다.                                                                                                                     |
-
+| 일반                       | 2376405              | 게시자 주도 업데이트 문제 해결됨(품질 업데이트는 4.12.0.152 버전에서 사용 가능)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계
 
 | 기능 영역                      | 참조 번호 | 품질 업데이트                                                                                                                                                                                                                                                                                                                |

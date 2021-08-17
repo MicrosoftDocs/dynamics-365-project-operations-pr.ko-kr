@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368439"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007919"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations 이중 쓰기 통합 개요
 
@@ -23,7 +23,7 @@ Project Operations는 [이중 쓰기 기능](/dynamics365/fin-ops-core/dev-itpro
 
 다음 그림은 Dataverse와 Finance 간의 통합의 일부로 데이터가 동기화되는 방식을 보여줍니다.
 
-![Project Operations 데이터 흐름 개요](./media/ProjectOperationsFlows.jpg)
+![Project Operations 데이터 흐름 개요.](./media/ProjectOperationsFlows.jpg)
 
 Dataverse의 Project Operations는 최신 사용자 인터페이스(UI)와 Power Platform 기능을 사용하여 코드가 없는 간편한/낮은 코드 확장성을 제공합니다. 프로젝트 관리자, 리소스 관리자, 프로젝트 팀 구성원 및 기타 프론트 오피스 페르소나는 Dataverse에서 Project Operations에서 활동을 수행합니다.
 
