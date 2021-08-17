@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008904"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995139"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>예약 및 할당 조정
 
@@ -51,11 +51,11 @@ ms.locfileid: "6008904"
 
 더 높은 시간 수준을 볼 때 **조정** 탭에는 낮은 시간 수준에 차이가 있음을 알리는 셀 표시등이 표시됩니다. 예컨대, 다음 그림에서 윤수빈이라는 리소스에 대한 셀 표시등이 2018년 10월의 셀에 나타납니다. 따라서 리소스의 예약 및 할당이 **월** 수준에서 집계될 때 동일하더라도 하위 수준에서 일치하지 않는다는 것을 알 수 있습니다.
 
-![월별 수준에서 일치하지 않는 예약 및 할당](media/reconcile-assignments-01.JPG)
+![월별 수준에서 일치하지 않는 예약 및 할당.](media/reconcile-assignments-01.JPG)
 
 셀을 더블클릭하여 다음 하위 수준으로 확대하고 차이를 봅니다. 예컨대, 윤수빈의 2018년 10월 차이를 더블클릭하면 **주** 수준으로 내려갑니다. 그런 다음 리소스에 10월 첫 2주 동안은 16시간의 예약이 있지만 할당이 없으며, 10월 셋째 주에는 16시간의 할당은 있지만 예약이 없는 것을 확인할 수 있습니다.
 
-![주별 수준에서 일치하지 않는 예약 및 할당](media/reconcile-assignments-02.JPG)
+![주별 수준에서 일치하지 않는 예약 및 할당.](media/reconcile-assignments-02.JPG)
 
 셀을 마우스 오른쪽 버튼으로 클릭하여 다음 상위 수준을 축소할 수 있습니다. **설정** 버튼을 선택하여 셀 표시등을 끌 수도 있습니다. 
 
@@ -68,13 +68,13 @@ ms.locfileid: "6008904"
 
 - 사용자는 장치의 시간대가 시스템의 개인 맞춤 설정에서 정의한 시간대와 일치하도록 구성해야 합니다.
  
-  ![Windows 10의 시간대 설정](media/reconcile-assignments-03.png)
+  ![Windows 10의 시간대 설정.](media/reconcile-assignments-03.png)
 
-  ![개인 맞춤 설정의 시간대 설정](media/reconcile-assignments-04.png)
+  ![개인 맞춤 설정의 시간대 설정.](media/reconcile-assignments-04.png)
  
 - 예약 가능한 리소스에는 요청된 확장을 정의하는 데 사용되는 배분과 겹치는 최소 1분의 작업 시간이 있어야 합니다. 예를 들어 다음 예는 작업 시간이 오전 9시에서 오후 7시 사이인 검토 리소스를 보여줍니다. 
 
-  ![리소스 배분 비교](media/reconcile-assignments-05.png)
+  ![리소스 배분 비교.](media/reconcile-assignments-05.png)
 
 아래 표는 다음을 보여줍니다.
 
@@ -83,22 +83,22 @@ ms.locfileid: "6008904"
 - 리소스 B: 이 리소스는 프로젝트와 다른 시간대에 위치하고 있으므로 그의 시간대에서 오전 7시에 시작합니다. 그러나 예약은 할당 배분의 가장 빠른 시작 시간이므로 오전 9시에 시작됩니다.
 - 리소스 C 및 D: 리소스는 시간대가 서로 다르며 프로젝트도 다르며 예약은 각각 사용 가능한 시작 시간보다 빠르지 않습니다.
 
-|엔터티  |달력  |
+|Entity  |달력  |
 |-|-|
-|프로젝트 일정 템플릿   | ![프로젝트 일정](media/reconcile-assignments-06.png) |
-|리소스 A  | ![리소스 A 일정](media/reconcile-assignments-06.png) |
-|리소스 B  |  ![리소스 B 일정](media/reconcile-assignments-07.png) |
-|리소스 C  |  ![리소스 C 일정](media/reconcile-assignments-08.png) |
-|리소스 D  | ![리소스 D 일정](media/reconcile-assignments-09.png)  |
+|프로젝트 일정 템플릿   | ![프로젝트 일정.](media/reconcile-assignments-06.png) |
+|리소스 A  | ![리소스 A 일정.](media/reconcile-assignments-06.png) |
+|리소스 B  |  ![리소스 B 일정.](media/reconcile-assignments-07.png) |
+|리소스 C  |  ![리소스 C 일정.](media/reconcile-assignments-08.png) |
+|리소스 D  | ![리소스 D 일정.](media/reconcile-assignments-09.png)  |
  
 조정 보기로 이동하면 리소스 할당 및 연관된 예약 부족이 표시됩니다.
- ![확장 전 조정 보기](media/reconcile-assignments-10.png)
+ ![확장 전 조정 보기.](media/reconcile-assignments-10.png)
 
 각 리소스에서 예약 확장 기능이 실행된 후 각 리소스에 대한 예약이 성공적으로 확장됩니다. 각 리소스의 작업 시간이 부족한 배분과 겹쳤기 때문입니다.
- ![예약 확장 후 조정 보기](media/reconcile-assignments-11.png) 
+ ![예약 확장 후 조정 보기.](media/reconcile-assignments-11.png) 
 
 그러나 예약 세부 정보를 자세히 보면 예약 시작 시간의 차이가 표시됩니다. 예약은 할당 배분의 시작 시간보다 빠르지 않으며 리소스의 사용 가능한 시작 시간보다 빠르지 않습니다.
- ![일정 게시판에서 리소스의 새로운 예약](media/reconcile-assignments-12.png)
+ ![일정 게시판에서 리소스의 새로운 예약.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

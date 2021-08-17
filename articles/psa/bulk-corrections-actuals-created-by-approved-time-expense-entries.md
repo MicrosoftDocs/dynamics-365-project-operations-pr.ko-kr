@@ -16,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012054"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995409"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>승인된 시간 및 비용 입력으로 생성된 실제의 대량 수정
 
@@ -62,7 +62,7 @@ ms.locfileid: "6012054"
 
 예를 들어 다음 그래픽에는 금액 열에 차변이 표시된 수량이 8.00인 두 개의 광고 항목이 있습니다. 또한 금액 열에 대변 금액을 표시하는 수량이 -8.00인 두 개의 광고 항목이 있습니다. 이 수정은 수량을 0으로 만듭니다.
 
-![실제 관련 보기 목록](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![실제 관련 보기 목록.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>승인된 올바른 경비 항목
 
@@ -87,7 +87,7 @@ ms.locfileid: "6012054"
 
 8. 프로젝트 페이지의 **실제** 탭에서 **실제 관련 보기** 를 검토합니다. 원래 항목과 수정 항목이 나열됩니다. 다음 그래픽은 원래 경비 항목 금액과 해당 수정 경비 항목 금액을 보여줍니다. 
 
-![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

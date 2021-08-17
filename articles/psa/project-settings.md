@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998329"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996939"
 ---
 # <a name="project-settings"></a>프로젝트 설정
 
@@ -43,11 +43,11 @@ ms.locfileid: "5998329"
   
 3. **월별 보기** 탭에서 **설정** 을 클릭합니다. 세 가지 옵션의 목록이 나타납니다: 
 
-  - 새 주별 스케줄
-  - 하루 작업 스케줄
+  - 새 주별 일정
+  - 하루 작업 일정
   - 휴가
 
-> ![옵션 설정](media/project-13.png)
+> ![옵션 설정.](media/project-13.png)
 
 4. **새 주별 스케줄** 을 선택한 다음 이 리소스 스케줄에 대한 옵션을 설정합니다. 되풀이되는 주간 일정, 일일 시간 파라미터, 휴무 등을 설정할 수 있습니다.
 5. 날짜 범위를 설정하고 **저장** 을 선택한 다음 **닫기** 를 클릭합니다. 

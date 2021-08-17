@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334790"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991539"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>미리 보기 구독 신청 - 라이트 
 
@@ -52,16 +52,16 @@ ms.locfileid: "6334790"
 
 1. 항목 [Dataverse 배포 모델](lite-deployment.md)의 지침에 따라 새 Project Operations Dataverse 배포 환경을 프로비전합니다. 환경 유형을 선택할 때 **평가판(구독 기반)** 을 사용해야 합니다.
 
-  ![새 환경](./media/19CreateEnvironment.png)
+  ![새 환경.](./media/19CreateEnvironment.png)
 
 2. **Dynamics 365 앱 사용** 설정을 선택하고 **이러한 앱 자동 배포** 를 비워둡니다.  
 3. **저장** 을 선택하여 환경을 만듭니다.
 
-  ![데이터베이스 추가](./media/20CreateEnvironment1.png)
+  ![데이터베이스 추가.](./media/20CreateEnvironment1.png)
 
 4. 환경이 생성된 후 **Microsoft Dynamics 365 Project Operations** 솔루션을 설치합니다. 
 
-![솔루션 설치](./media/21InstallSolution.png)
+![솔루션 설치.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS 구성 설치 및 데모 데이터 설정
 

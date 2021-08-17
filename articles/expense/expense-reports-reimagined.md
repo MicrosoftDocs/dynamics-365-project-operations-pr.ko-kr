@@ -2,7 +2,7 @@
 title: 재구상된 경비 보고서
 description: 이 항목은 경비 보고서 입력을 위해 재설계되고 재구상된 경험을 설명합니다.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251012"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997839"
 ---
 # <a name="expense-reports-reimagined"></a>재구상된 경비 보고서
 
@@ -57,12 +57,13 @@ ms.locfileid: "6251012"
 | 환율 계산기 | 현금 다중 통화 트랜잭션에 대한 환율을 계산할 수 있는 환율 계산기가 추가되었습니다. |
 | 새 경비 라인 저장 및 추가 | **저장** 및 **새로 만들기** 버튼은 새 경비를 입력할 때 비용 라인을 빠르게 입력하기 위해 사용할 수 있습니다. |
 | 분할 및 항목별 라인에 대한 더 나은 가시성 | 항목별 및 분할 라인이 경비 목록에 직접 추가되어 가시성을 높이고 오류가 있는지 쉽게 확인할 수 있습니다. |
-| 항목별 라인에서 하위 범주 세부 정보 보기 | 상위 비용의 항목별 행은 경비 보고서의 하위 범주 레이블을 표시하므로 세부적인 세부 정보를 한 눈에 검토하는 데 도움이 됩니다.|
+| 항목별 라인에서 하위 범주 세부 정보 보기 | 상위 경비의 항목별 행은 경비 보고서의 하위 범주 레이블을 표시합니다. 항목화를 통해 세부적인 세부 사항을 한 눈에 검토할 수 있습니다.|
 | 항목화 중 영수증 표시 | 항목화 중 영수증을 표시할 수 있습니다. |
 | 현금 서비스 선택 | 단일 경비 트랜잭션을 이행하기 위해 하나 이상의 현금 서비스를 선택합니다. |
 | 현금 서비스 잔액 | 승인 및 지급된 현금 서비스에 대한 경비 항목을 생성할 때 실시간으로 현금 서비스 잔액을 검토합니다. |
 
 초기 릴리스는 경비 항목 시나리오에 중점을 둡니다. 모든 경비 보고서 검토 또는 승인 시나리오는 기존 경비 항목 페이지를 계속 사용합니다.
+
 
 다음 기능은 재구상된 경비 보고서 작업 영역에서 지원되지 않지만 향후 릴리스에 대해 계획되어 있습니다. 
 

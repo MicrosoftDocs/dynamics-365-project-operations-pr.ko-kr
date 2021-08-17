@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304264"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987939"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations의 통합 분개장
 
@@ -19,7 +19,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 시간 및 경비 항목은 프로젝트에 대해 완료된 작업의 운영 보기를 나타내는 **실제** 트랜잭션을 생성합니다. Dynamics 365 Project Operations는 회계사에게 트랜잭션을 검토하고 필요에 따라 회계 특성을 조정할 수 있는 도구를 제공합니다. 검토 및 조정이 완료되면 트랜잭션이 프로젝트 보조 원장 및 총계정 원장에 전기됩니다. 회계사는 **Project Operations 통합** 분개장(**Dynamics 365 Finance** > **프로젝트 관리 및 회계** > **분개장** > **Project Operations 통합** 분개장)을 사용하여 이러한 활동을 수행할 수 있습니다.
 
-![통합 분개장 흐름](./media/IntegrationJournal.png)
+![통합 분개장 흐름.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Project Operations 통합 분개장에서 레코드 만들기
 

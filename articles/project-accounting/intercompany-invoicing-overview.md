@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369384"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005399"
 ---
 # <a name="intercompany-invoicing-overview"></a>회사 간 송장 개요
 
@@ -22,7 +22,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음 그림은 두 개의 법인인 Contoso Robotics USA(차용 법인) 및 Contoso Robotics UK(대출 법인)가 고객에게 프로젝트를 제공하기 위해 리소스를 공유하는 전형적인 시나리오를 보여줍니다. 이 시나리오의 경우 Contoso Robotics USA는 Adventure Works에 작업을 제공하기 위해 계약을 체결했습니다.
 
-![회사 간 송장](./media/IntercompanyScenario.png) 
+![회사 간 송장.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations는 다음 흐름을 사용하여 회사 간 트랜잭션을 처리합니다.
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations는 다음 흐름을 사용하여 회사 간 트�
 
 다음 다이어그램은 회계 이벤트 및 총계정 원장에 대한 예상 전기와 관련된 회사 간 송장을 보여줍니다.
 
-![회사 간 흐름](./media/IntercompanyFlow.png)
+![회사 간 흐름.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>추가 리소스
 

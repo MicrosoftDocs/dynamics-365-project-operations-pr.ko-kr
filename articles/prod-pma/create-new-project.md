@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006249"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985959"
 ---
 # <a name="create-a-new-project"></a>새 프로젝트 만들기
 
@@ -51,7 +51,7 @@ ms.locfileid: "6006249"
 
 프로젝트 관리자는 프로젝트 리소싱 기능을 사용하여 프로젝트에 필요한 역할을 만들 수 있습니다. 리소스를 예약할 때 확인된 리소스를 알 수 없는 경우 역할을 사용할 수 있습니다. 프로젝트 계획 단계를 계속할 수 있도록 역할을 계획된 리소스로 임시로 예약할 수 있습니다.
 
-[![역할의 예](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![역할의 예.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **시나리오:** Contoso는 승인된 프로젝트 헌장이 있는 시간 및 재료 프로젝트를 완료하기 위해 고용되었습니다. 주니어 프로젝트 관리자는 아직 프로젝트 범위를 완료하고 있습니다. 리소스 관리자는 현재 새 프로젝트에서 작업하기 위해 예약할 특정 리소스를 식별하고 있습니다. 프로젝트의 중요한 특성 때문에 프로젝트 후원자는 역할 중 하나로 수석 프로젝트 관리자를 요청했습니다. 리소스 관리자는 새 리소스를 획득하고 하위 프로젝트 관리자가 프로젝트 계획 중에 리소스 정보를 요구하는 경우 시스템에서 역할을 정의해야 합니다.
 

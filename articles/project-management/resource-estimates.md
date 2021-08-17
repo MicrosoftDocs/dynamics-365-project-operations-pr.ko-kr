@@ -6,12 +6,12 @@ ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e79e33da618c4ab32b1ba13f33e50f60a550ff0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010794"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998694"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>프로젝트의 리소스 시간에 대한 재무 추정
 
@@ -37,7 +37,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 요약 또는 상위 작업의 시간에 대한 재무 추정은 모든 하위 작업에 대한 재무 추정의 합계입니다. 이것은 프로젝트의 추정 인건비입니다. 
 
-![리소스 추정](./media/navigation12.png)
+![리소스 추정.](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>기본 원가 및 비용 통화
 

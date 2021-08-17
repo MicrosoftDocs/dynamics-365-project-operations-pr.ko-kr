@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000130"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994599"
 ---
 # <a name="navigate-project-operations"></a>Project Operations 탐색
 
@@ -28,11 +28,11 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 **Common Data Service 환경 이름** 섹션의 환경 이름을 사용하여 CDS 환경에서 Project Operations로 이동합니다. 
 
-  ![Common Data Service 환경 이름](./media/environment-name.PNG)
+  ![Common Data Service 환경 이름.](./media/environment-name.PNG)
 
 **로그인** > **환경에 로그인** 을 선택하여 Finance에서 **프로젝트 관리 및 회계** 모듈로 이동합니다.  
 
-   ![Finance에 로그인](./media/environment-login.PNG)
+   ![Finance에 로그인.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Common Data Service 및 해당 URL을 사용하여 직접 **프로젝트 관리 및 회계** 모듈에서 Project Operations에 액세스할 수 있습니다. 

@@ -6,12 +6,12 @@ ms.date: 06/07/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 387dc9a81db9c22f170b664152cbafeddf72d149
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251240"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999324"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>프로젝트 송장 제안서 초안에 대한 올바른 회계
 

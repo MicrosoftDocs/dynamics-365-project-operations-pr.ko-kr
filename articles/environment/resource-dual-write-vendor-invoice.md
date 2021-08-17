@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002281"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986499"
 ---
 # <a name="vendor-invoice-integration"></a>공급업체 송장 통합
 
@@ -36,7 +36,7 @@ Project Operations에서 프로젝트 관련 공급업체 송장은 특별 전�
 
 세금 보조 원장, 공급업체 보조 원장 및 기타 재무 전기는 공급업체 송장이 전기될 때 Dynamics 365 Finance에 해당하는 대로 기록됩니다.
 
-![공급업체 송장 통합](media/DW7VendorInvoice.png)
+![공급업체 송장 통합.](media/DW7VendorInvoice.png)
 
 Dataverse의 **공급업체 송장** 엔터티에 레코드가 기록되면 레코드의 자동 승인 프로세스가 시작됩니다. 필요한 경우 **고급 설정** > **시스템** > **시스템 작업** 으로 이동하여 Dataverse에서 자동 승인 프로세스 상태를 검토할 수 있습니다. 승인이 완료된 후 시스템은 **실제** 엔터티에 재료 트랜잭션 클래스 레코드를 생성합니다.
 

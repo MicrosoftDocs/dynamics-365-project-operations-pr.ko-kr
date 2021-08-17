@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014844"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000764"
 ---
 # <a name="recording-actuals"></a>실제값 기록 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014844"
 
 프로젝트 중에 발생하는 모든 재무 처리가 기록됩니다. 이러한 처리는 **실제값** 으로 기록됩니다. 다음 표는 프로젝트가 시간 및 자재, 고정 가격 또는 내부 프로젝트인지, 또는 판매전 단계에 있는지에 따라 생성되는 다양한 타입의 실제값을 보여줍니다.
 
-> ![실제값 기록 방법을 보여주는 표](media/advanced-table2.png)
+> ![실제값 기록 방법을 보여주는 표.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

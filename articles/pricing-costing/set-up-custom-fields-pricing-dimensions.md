@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004719"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003599"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>가격 책정 차원의 사용자 지정 필드 설정
 
@@ -42,11 +42,11 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 - **가격 책정 차원** 표의 행으로 만들어져야 합니다. 예컨대 다음 그래픽과 같이 가격 책정 차원 행을 추가합니다. 
 
-![금액 기반 가격 책정 차원 행](media/Amt-based-PD.png)
+![금액 기반 가격 책정 차원 행.](media/Amt-based-PD.png)
 
 리소스 작업 시간(**msdyn_resourceworkhours**)이 가격 인상 기반 차원으로 추가되었으며 **인상 기반 가격 책정 차원** 탭의 그리드에 추가되었습니다.
 
-![인상 기반 가격 책정 차원 행](media/Markup-based-PD.png)
+![인상 기반 가격 책정 차원 행.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

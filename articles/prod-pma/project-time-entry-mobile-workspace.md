@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009939"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989559"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>프로젝트 시간 항목 모바일 작업 영역
 
@@ -94,7 +94,7 @@ Finance and Operations 모바일 앱을 다운로드하여 설치합니다.
 3.  처음 로그인하면 사용자 이름과 암호를 입력하라는 메시지가 표시됩니다. 자격 증명을 입력합니다.
 4.  로그인하면 회사에서 사용할 수 있는 작업 영역이 표시됩니다. 시스템 관리자가 나중에 새 작업 영역을 게시하는 경우 모바일 작업 영역 목록을 새로 고쳐야 합니다.
 
-[![당겨서 새로 고침](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![당겨서 새로 고침.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>프로젝트 시간 항목 모바일 작업 영역을 사용하여 시간 입력
 1.  모바일 장치에서 **프로젝트 시간 항목** 작업 영역을 선택합니다.

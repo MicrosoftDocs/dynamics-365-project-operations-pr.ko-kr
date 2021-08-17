@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dd9fea4806e654048c94a826160e678fe2bb188e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 02146a54fc69203bbfdbbe1493ee3414094d6183a770646cfefd908ea34e8f8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015429"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004544"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>프로젝트 팀 구성원 보기 및 예약 관리(Project Service)
 

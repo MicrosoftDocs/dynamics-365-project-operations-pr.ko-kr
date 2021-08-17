@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996574"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993249"
 ---
 # <a name="project-invoice-integration"></a>프로젝트 송장 통합
 
@@ -20,7 +20,7 @@ ms.locfileid: "5996574"
 
 Project Operations에서 프로젝트 관리자는 프로젝트 청구 백로그를 관리하고 Microsoft Dataverse에서 고객에 대한 견적 송장을 생성합니다. 이 견적 송장을 기반으로 수취 계정 담당자 또는 프로젝트 회계사가 고객 대면 송장을 생성합니다. 이중 쓰기 통합을 통해 견적 송장 세부 정보가 Finance and Operations 앱에 동기화됩니다. 고객 대면 송장이 전기된 후 시스템은 Dataverse의 관련 프로젝트 실적을 회계 세부 사항으로 업데이트합니다. 다음 그래픽은 이 통합에 대한 개략적인 개념적 개요를 제공합니다.
 
-   ![프로젝트 송장 통합](./media/DW5Invoicing.png)
+   ![프로젝트 송장 통합.](./media/DW5Invoicing.png)
 
 프로젝트 관리자가 Dataverse에서 견적 송장을 확인하면 견적 송장 헤더 정보가 이중 쓰기 테이블 맵인 **프로젝트 송장 제안 V2(송장)** 를 사용하여 Finance and Operations 앱에 동기화됩니다. Dataverse에서 Finance and Operations 앱으로의 단방향 통합입니다. Finance and Operations 앱에서 직접 프로젝트 송장 제안을 생성하거나 삭제하는 것은 지원되지 않습니다.
 

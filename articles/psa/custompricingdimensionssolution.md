@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012324"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995274"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>가격 책정 차원에 대한 맞춤 솔루션 만들기
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012324"
 1. **설정** > **솔루션** 을 선택한 다음 **새로 만들기** 를 선택합니다. 
 2. 솔루션을 명명하고(**\<your organization name>가격 책정 차원**), 나머지 필수 정보를 입력한 다음, **저장** 을 선택합니다.
 
-> ![가격 책정 차원에 대한 맞춤 솔루션 만들기](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![가격 책정 차원에 대한 맞춤 솔루션 만들기.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>가격 책정 차원 솔루션을 위한 모든 필수 엔터티 및 관련 구성 요소를 추가합니다.
 가격 책정 솔루션에 다음 Project Service 엔터티를 추가해야 합니다. 이 절차의 단계를 완료하여 가격 책정 솔루션에서 몇 가지 중요한 스키마를 변경하여 엔터티가 새 가격 책정 차원을 인식할 수 있도록 합니다.
@@ -54,16 +54,16 @@ ms.locfileid: "6012324"
 - 역할 가격 
 - 시간 항목 
 
-> ![가격 책정 차원 솔루션에 기존 엔터티 추가](media/Existing-entities-to-PD-solution.png)
+> ![가격 책정 차원 솔루션에 기존 엔터티 추가.](media/Existing-entities-to-PD-solution.png)
 
-> ![솔루션 구성 요소 선택](media/Dimension-Components.png)
+> ![솔루션 구성 요소 선택.](media/Dimension-Components.png)
 
 > [!NOTE]
 > 선택한 각 엔터티에 대한 모든 양식과 보기를 포함해야 합니다.
 
 4. 선택한 엔터티에 대한 종속 엔터티를 포함하라는 메시지가 표시되면 **아니요** 를 선택합니다.
 
-> ![모든 관련 구성 요소를 포함하지 마십시오](media/Do-not-include-required.png)
+> ![모든 관련 구성 요소를 포함하지 마십시오.](media/Do-not-include-required.png)
 
 
 

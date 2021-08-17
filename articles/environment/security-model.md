@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002256"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991494"
 ---
 # <a name="security-model"></a>보안 모델
 
@@ -58,7 +58,7 @@ Project Operations는 암시적 작업을 통해 그룹을 생성하지 않으�
 
 **그룹 관리** 대화 상자의 그룹 구성원 검색은 환경 보안 그룹의 일부로 설정된 사용자로 제한됩니다. 자세한 내용은 [환경에 대한 사용자 액세스 제어: 보안 그룹 및 라이선스](/power-platform/admin/control-user-access)를 참조하십시오.
 
-![그룹 모드](./media/groupsmode.png)
+![그룹 모드.](./media/groupsmode.png)
 
 1. 프로젝트는 생성된 사용자가 생성하고 소유합니다.
 2. 프로젝트 담당자가 팀으로 업데이트됩니다.

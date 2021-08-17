@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004539"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994509"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>가격 책정 차원 끄기
 
@@ -32,7 +32,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 그러나 이렇게 하면 **연관된 가격 레코드가 있는 경우 가격 책정 차원을 업데이트하거나 삭제할 수 없습니다.** 오류 메시지가 표시될 수 있습니다.
 
-![가격 책정 차원을 해제할 때 비즈니스 프로세스 오류 발생 가능성](media/Business-Process-Error.png)
+![가격 책정 차원을 해제할 때 비즈니스 프로세스 오류 발생 가능성.](media/Business-Process-Error.png)
 
 이 오류 메시지는 해제되는 차원에 대해 이전에 설정된 가격 레코드가 있음을 나타냅니다. 차원에 준거하는 모든 **역할 가격** 및 **역할 가격 마크업** 레코드를 삭제해야 차원의 적용 가능성을 **아니오** 로 설정할 수 있습니다. 이 규칙은 즉시 사용 가능한 가격 책정 차원과 생성된 맞춤 가격 책정 차원 모두에 적용됩니다. 이 유효성 검사의 이유는 각 **역할 가격** 레코드는 차원들의 고유한 조합을 가져야 하기 때문입니다. 예컨대, **US Cost Rates 2018** 이라는 가격표에 다음 **역할 가격** 행이 있습니다. 
 

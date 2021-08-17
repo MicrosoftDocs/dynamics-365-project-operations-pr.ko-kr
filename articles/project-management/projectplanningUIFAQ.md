@@ -2,17 +2,17 @@
 title: 작업 그리드에서 작업 문제 해결
 description: 이 토픽은 작업 그리드에서 작업할 때 필요한 문제 해결 정보를 제공합니다.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213408"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989109"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>작업 그리드에서 작업 문제 해결 
 
@@ -24,7 +24,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 Project Operations에서는 작업 분할 구조를 렌더링하기 위해 타사 쿠키를 활성화해야 합니다. 타사 쿠키가 활성화되지 않은 경우 작업이 표시되는 대신 **프로젝트** 페이지에서 **작업** 탭을 선택하면 빈 페이지가 표시됩니다.
 
-![타사 쿠키가 활성화되지 않은 경우 빈 탭](media/blankschedule.png)
+![타사 쿠키가 활성화되지 않은 경우 빈 탭.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>해결 방법
@@ -52,11 +52,22 @@ Microsoft Edge 또는 Google Chrome 브라우저의 경우 다음 절차는 타�
 Project Operations를 위해서는 프로젝트 매개 변수가 PEX 끝점을 참조해야 합니다. 이 끝점은 작업 분할 구조를 렌더링하는 데 사용되는 서비스와 통신하는 데 필요합니다. 매개 변수가 활성화되지 않은 경우 "프로젝트 매개 변수가 유효하지 않습니다."라는 오류 메시지가 표시됩니다. 
 
 ### <a name="workaround"></a>해결 방법
- ![프로젝트 매개 변수의 PEX 끝점 필드](media/projectparameter.png)
 
 1. **PEX 끝점** 필드를 **프로젝트 매개 변수** 페이지에 추가합니다.
-2. 다음 값으로 필드를 업데이트합니다: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. **프로젝트 매개 변수** 페이지에서 필드를 제거합니다.
+2. 사용 중인 제품 유형을 식별합니다. 이 값은 PEX 끝점이 설정될 때 사용됩니다. 검색 시 제품 유형이 이미 PEX 끝점에 정의되어 있습니다. 이 값을 유지합니다. 
+   
+    ![프로젝트 매개 변수의 PEX 끝점 필드.](media/pex-endpoint.png)
+
+3. 다음 값으로 필드를 업데이트합니다: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | 제품 유형                         | 유형 매개 변수 |
+   |--------------------------------------|----------------|
+   | 기본 조직의 Project for the Web   | 유형=0         |
+   | CDS 명명 조직의 Project for the Web | 유형=1         |
+   | Project Operations                   | 유형=2         |
+   
+4. **프로젝트 매개 변수** 페이지에서 필드를 제거합니다.
 
 ## <a name="privileges-for-project-for-the-web"></a>웹에 대한 프로젝트 권한
 
@@ -67,7 +78,7 @@ Project Operations는 외부 일정 서비스에 의존합니다. 이 서비스�
 
 1. **설정 > 보안 > 사용자 > 응용 프로그램 사용자** 로 이동합니다.  
 
-   ![응용 프로그램 판독기](media/applicationuser.jpg)
+   ![응용 프로그램 판독기.](media/applicationuser.jpg)
    
 2. 응용 프로그램 사용자 레코드를 두 번 클릭하여 다음을 확인합니다.
 
@@ -76,7 +87,7 @@ Project Operations는 외부 일정 서비스에 의존합니다. 이 서비스�
  
 3. 이 사용자가 없으면 새 사용자 레코드를 만들 수 있습니다. **새 사용자** 를 선택합니다. 입력 양식을 **응용 프로그램 사용자** 로 변경한 다음 **응용 프로그램 ID** 를 추가합니다.
 
-   ![응용 프로그램 사용자 세부 정보](media/applicationuserdetails.jpg)
+   ![응용 프로그램 사용자 세부 정보.](media/applicationuserdetails.jpg)
 
 4. 사용자에게 올바른 라이선스가 할당되었으며 라이선스의 서비스 계획 세부 정보에서 서비스가 활성화되었는지 확인합니다.
 5. 사용자가 project.microsoft.com을 열 수 있는지 확인합니다.

@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012594"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991043"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>청구 가능한 프로젝트에 대한 회계 구성
 
@@ -101,23 +101,23 @@ Dynamics 365 Project Operations는 시간과 자재 및 고정 가격 트랜잭�
 
 시간 및 자재 – WIP 없음
 
-![비용 및 수익 프로필: 시간 및 자재 - WIP 없음](media/time-material-no-wip.png)
+![비용 및 수익 프로필: 시간 및 자재 - WIP 없음.](media/time-material-no-wip.png)
 
 시간 및 자재 – WIP(수익)
 
-![비용 및 수익 프로필: 시간 및 자재 - WIP](media/time-material-with-wip.png)
+![비용 및 수익 프로필: 시간 및 자재 - WIP.](media/time-material-with-wip.png)
 
 고정 가격 – WIP 없음
 
-![비용 및 수익 프로필: 고정 가격 - WIP 없음](media/fixed-price-no-wip.png)
+![비용 및 수익 프로필: 고정 가격 - WIP 없음.](media/fixed-price-no-wip.png)
 
 고정 가격 – 완료된 계약
 
-![비용 및 수익 프로필: 고정 가격 - 완료된 계약](media/fixed-price-completed-contract.png)
+![비용 및 수익 프로필: 고정 가격 - 완료된 계약.](media/fixed-price-completed-contract.png)
 
 고정 가격 – 완료율
 
-![비용 및 수익 프로필: 고정 가격 - 완료율](media/fixed-price-completed-percentage.png)
+![비용 및 수익 프로필: 고정 가격 - 완료율.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>샘플 프로젝트 비용 및 수익 프로필에 대한 회계 이벤트 예.

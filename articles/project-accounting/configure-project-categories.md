@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995179"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997119"
 ---
 # <a name="configure-project-categories"></a>프로젝트 범주 구성
 
@@ -23,7 +23,7 @@ Project Operations는 프로젝트의 수익과 경비를 분류하는 강력한
 
 트랜잭션 범주는 프로젝트 트랜잭션의 기본 그룹입니다. 해당 그룹 내에는 응용 프로그램과 모듈간에 공유할 수 있는 공유 범주 집합이 있습니다. 더 자세히 살펴보면 프로젝트 범주는 가장 세분화된 범주 수준입니다. 프로젝트 범주는 법인, 모듈 및 응용 프로그램에 따라 다릅니다.
 
-![트랜잭션 범주, 공유 범주 및 프로젝트 범주 간의 상관 관계](media/project-categories.png)
+![트랜잭션 범주, 공유 범주 및 프로젝트 범주 간의 상관 관계.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>트랜잭션 범주
 

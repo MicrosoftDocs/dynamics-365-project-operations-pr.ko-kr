@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009219"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000179"
 ---
 # <a name="product-catalog-pricing"></a>제품 카탈로그 가격 
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009219"
 
 가격이 정가, 표준 원가 또는 현재 원가의 함수로 구성된 경우 PSA는 다양한 반올림 옵션을 지원합니다. 여러 가격 책정 방법 및 반올림 옵션을 활용하는 것 외에도 할인 목록을 가격표 항목과 연계할 수 있습니다. 
 
-> ![카탈로그의 제품을 다른 가격표에 추가하기](media/basic-guide-16.png)
+> ![카탈로그의 제품을 다른 가격표에 추가하기.](media/basic-guide-16.png)
 
 **프로젝트 견적** 페이지에서 **맞춤 가격 생성** 을 선택하여 견적을 위한 새 맞춤 가격표를 만들면 PSA가 가격표의 복사본을 만들고, 새 가격표의 표제에 있는 **엔터티** 필드가 **매출액 엔터티** 에 설정됩니다. 새 가격표의 명칭이 견적의 명칭 및 타임스탬프와 함께 추가됩니다. 귀하는 또한 새 가격표의 명칭과 맞춤 워크플로우에서 견적의 명칭을 사용하여 맞춤 가격 책정을 사용하는 견적에 대한 추가 검토 및 승인을 촉발할 수 있습니다.
 

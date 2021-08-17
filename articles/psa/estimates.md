@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007599"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992394"
 ---
 # <a name="estimates"></a>추산
 
@@ -83,24 +83,24 @@ PSA는 계약 또는 프로젝트에서의 주문 변경을 지원하지 않습�
 1. 플러그인 등록 도구를 열고 온라인 인스턴스에 접속합니다.
 2. **검색** 을 선택하고 업데이트할 플러그인을 검색합니다.
 
-    ![트리 대화 상자 검색](media/basic-guide-19.png)
+    ![트리 대화 상자 검색.](media/basic-guide-19.png)
 
 3. 플러그인을 선택한 다음 기본 페이지에서 **선택** 을 선택합니다.
 4. 업데이트할 플러그인의 단계를 선택하고 마우스 오른쪽 버튼으로 클릭한 다음, **업데이트** 를 선택합니다.
 
-    ![플러그인에서 단계 선택](media/basic-guide-20.png)
+    ![플러그인에서 단계 선택.](media/basic-guide-20.png)
 
 5. **기존 업데이트 단계** 대화 상자의 **속성 필터링** 필드에서 줄임표(**...**) 버튼을 선택합니다:
  
-    ![기존 업데이트 단계 대화 상자](media/basic-guide-21.png)
+    ![기존 업데이트 단계 대화 상자.](media/basic-guide-21.png)
 
 6. **속성 선택** 대화 상자에서 맞춤 속성에 대한 확인란을 선택합니다.
 
-    ![속성 대화 상자 선택](media/basic-guide-22.png)
+    ![속성 대화 상자 선택.](media/basic-guide-22.png)
 
 7. **OK** 를 선택하여 대화 상자를 닫은 다음 **업데이트 단계** 를 선택합니다.
  
-    ![업데이트 단계 버튼](media/basic-guide-23.png)
+    ![업데이트 단계 버튼.](media/basic-guide-23.png)
 
 8. 두 번째 플러그인에 대해 1~7 단계를 반복합니다.
 9. 플러그인 등록 도구를 닫습니다.

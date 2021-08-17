@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011559"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987534"
 ---
 # <a name="business-transactions"></a>업무 처리
 
@@ -88,7 +88,7 @@ PSA는 이러한 5개 엔터티의 레코드를 업무 처리로 취급합니다
 
 다음 예는 PSA 프로젝트 라이프사이클에서 시간 항목의 일반적인 처리를 보여줍니다.
 
-> ![Project Service 라이프사이클에서 시간 항목의 처리](media/basic-guide-17.png)
+> ![Project Service 라이프사이클에서 시간 항목의 처리.](media/basic-guide-17.png)
  
 1. 시간 항목을 제출하면 비용과 미청구 매출액에 대한 두 개의 분개장 행이 생성됩니다.
 2. 시간 항목을 최종 승인하면 비용과 미청구 매출액에 대한 두 개의 실제값이 생성됩니다.

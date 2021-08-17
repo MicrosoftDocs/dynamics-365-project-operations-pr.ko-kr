@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369024"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003779"
 ---
 # <a name="invoicing-process-overview"></a>송장 처리 개요
 
@@ -20,7 +20,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 리소스/비 재고 기반 시나리오를 위한 Project Operations는 프로젝트 관리자와 쉬치 계정 담당자/프로젝트 회계사 모두의 요구에 맞게 조정된 포괄적인 기능을 제공합니다. 송장 발부 프로세스의 경우 프로젝트 관리자가 프로젝트 청구 백 로그를 관리하고 수취 계정 담당자/프로젝트 회계사는 규정을 준수하고 정확한 고객 대면 송장 문서를 생성합니다.
 
-![송장 발부 흐름 다이어그램](./media/invoicing-flow.png)
+![송장 발부 흐름 다이어그램.](./media/invoicing-flow.png)
 
 프로젝트 계약 내용은 연관된 프로젝트 트랜잭션에 대한 청구 방법을 정의합니다. 프로젝트 관리자가 시간 및 비용 거래를 승인하면 시스템은 **프로젝트 실제** 엔터니에 트랜잭션을 기록하고 Dynamics 365 Finance의 **프로젝트 관리 및 회계** 모듈로 정보를 보냅니다. 그런 다음 프로젝트 회계사는 [Project Operations 통합 분개장](../project-accounting/project-operations-integration-journal.md)을 사용하여 레코드를 검토하고 전기합니다. 이 분개장에는 청구, 판매세 그룹, 청구 항목 판매세 그룹 및 재무 차원과 같은 실제 프로젝트에 대한 중요한 회계 세부 사항이 포함됩니다.
 

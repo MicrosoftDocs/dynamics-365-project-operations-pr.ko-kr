@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbb3e5c7f74cdf37ae4d259687bf7a98102a8131
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368169"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992484"
 ---
 # <a name="actuals-overview"></a>실제 개요
 
@@ -32,7 +32,7 @@ ms.locfileid: "6368169"
 
 실제값은 프로젝트에서 완료된 작업의 양입니다. 프로젝트 실제값은 소스 문서까지 추적할 수 있습니다. 그러한 소스 문서에는 시간, 비용 및 분개장 항목과 송장도 포함되어 있습니다.
 
-![프로젝트 실제값가 소스 문서까지 추적되는 방법](media/basic-guide-18.png)
+![프로젝트 실제값가 소스 문서까지 추적되는 방법.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>시간 항목 제출
 

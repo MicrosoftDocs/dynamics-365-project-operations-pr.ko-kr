@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002784"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995814"
 ---
 # <a name="intercompany-invoicing"></a>회사 간 송장
 
@@ -33,7 +33,7 @@ ms.locfileid: "6002784"
 
 다음 그림은 SI FR(차용 법인)과 SI USA(대출 법인)의 두 법인이 자원을 공유하여 고객 A에게 프로젝트를 제공하는 일반적인 시나리오를 보여줍니다. 이 시나리오의 경우 SI FR은 고객 A에게 작업을 전달하도록 계약을 맺었습니다. 
 
-[![회사 간 송장 예](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![회사 간 송장 예.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 목표는 회사 간 프로젝트 거래에 대한 비용 관리, 수익 인식, 세금 및 이전 가격을 보다 유연하고 강력하게 만드는 것입니다. 또한 다음 기능이 제공됩니다.
 

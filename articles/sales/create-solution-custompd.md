@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010344"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992214"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>사용자 지정 가격 책정 차원에 대한 솔루션 만들기
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010344"
 2.  솔루션의 이름을 *<your organization name> 가격 책정 차원* 으로 지정합니다.
 3. 나머지 필수 정보를 입력한 다음 **저장** 을 선택합니다.
 
-  ![사용자 지정 가격 책정 차원 솔루션 만들기](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![사용자 지정 가격 책정 차원 솔루션 만들기.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>가격 책정 차원 솔루션을 위한 모든 필수 엔터티 및 관련 구성 요소를 추가합니다.
 
@@ -49,19 +49,19 @@ ms.locfileid: "6010344"
    - **역할 가격**
    - **시간 항목**
  
-   ![기존 엔터티 사용자 지정 가격 책정 차원 솔루션 추가](./media/Existing-entities-to-PD-solution.png)
+   ![기존 엔터티 사용자 지정 가격 책정 차원 솔루션 추가.](./media/Existing-entities-to-PD-solution.png)
  
  4. 각 엔터티에 대해 추가되는 구성 요소와 각 엔터티에 대한 엔터티 자산의 최종 목록을 검토합니다. 
 
    >[!NOTE]
    > 선택한 각 엔터티에 대한 모든 양식과 보기를 포함합니다.
 
-  ![추가된 엔터티](./media/solution-component-selection.png)
+  ![추가된 엔터티.](./media/solution-component-selection.png)
 
 
 5.  선택한 엔터티에 대한 종속 엔터티를 포함할지 묻는 메시지가 표시되면 **아니요, 필수 구성 요소를 포함하지 마십시오.** 를 선택합니다.
 
-    ![종속 엔터티 포함](./media/Do-not-include-required.png)
+    ![종속 엔터티 포함.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

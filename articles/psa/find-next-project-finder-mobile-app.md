@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007509"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990790"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Project Finder Mobile 앱을 사용하여 다음 프로젝트 찾기(Project Service)
 
@@ -38,12 +38,12 @@ ms.locfileid: "6007509"
   
  관심 있는 프로젝트의 오른쪽에 있는 화살표를 눌러 자세한 내용을 확인하고 해당 프로젝트에 등록합니다.  
   
- ![Project Finder Mobile 앱에서 기술과 일치하는 프로젝트 목록](../psa/media/project-service-project-finder-list.png "Project Finder Mobile 앱에서 기술과 일치하는 프로젝트 목록")  
+ ![Project Finder Mobile 앱에서 기술과 일치하는 프로젝트 목록.](../psa/media/project-service-project-finder-list.png "Project Finder Mobile 앱에서 기술과 일치하는 프로젝트 목록")  
   
 ## <a name="update-your-skills"></a>사용자 기술 업데이트  
  기술과 숙련도 수준을 업데이트하려면 화면 오른쪽 아래에 있는 프로필 단추를 탭합니다.  
   
- ![Project Finder Mobile 앱의 프로필 단추](../psa/media/project-service-project-finder-profile.png "Project Finder Mobile 앱의 프로필 단추")  
+ ![Project Finder Mobile 앱의 프로필 단추.](../psa/media/project-service-project-finder-profile.png "Project Finder Mobile 앱의 프로필 단추")  
   
 ### <a name="see-also"></a>참고 항목  
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)

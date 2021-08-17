@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025782"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003824"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 이중 쓰기 맵 버전
 
@@ -32,7 +32,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 1. 맵 목록에서 모든 필수 구성 요소가 있는 원장 **(msdyn\_ledgers)** 을 선택하고 **초기 동기화** 확인란을 선택합니다. **초기 동기화를 위한 마스터** 필드에서 원장 맵과 모든 전제 조건 맵 모두에 대해 **Finance and Operations 앱** 을 선택합니다. **실행** 을 선택합니다.
 
-![원장 맵 동기화](media/DW6.png)
+![원장 맵 동기화.](media/DW6.png)
 
 2. 위의 표에 나열된 나머지 모든 테이블 맵에 대해 동일한 단계를 따르십시오. 해당 맵을 실행할 때 **초기 동기화** 확인란을 선택하지 마십시오.
 
@@ -65,7 +65,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 1. 이 맵에는 초기 동기화가 필요하므로 **모든 회사 (bookableresourcecategories)** 테이블 맵에 대한 프로젝트 리소스 역할을 활성화합니다. **초기 동기화 마스터** 필드에서 **Common Data Service** 를 선택합니다. 
 
- ![리소스 역할 테이블 맵 동기화](media/6ResourceInitialSync.jpg)
+ ![리소스 역할 테이블 맵 동기화.](media/6ResourceInitialSync.jpg)
 
  다음 단계로 이동하기 전에 맵 상태가 **실행 중** 이 될 때까지 기다리십시오.
 

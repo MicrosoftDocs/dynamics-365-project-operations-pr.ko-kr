@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998959"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992439"
 ---
 # <a name="create-custom-fields-and-entities"></a>맞춤 필드 및 엔터티 만들기 
 
@@ -43,7 +43,7 @@ Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 
 2. 솔루션 탐색기의 왼쪽 탐색 창에서 **엔터티** 를 선택합니다.
 3. **신규** 를 클릭하면 **표준 직함** 으로 불리는 새 엔터티가 만들어집니다. 나머지 필수 정보를 입력한 다음 **저장** 을 클릭합니다.
 
-> ![표준 직함 엔터티 정의](media/Standard-Title-entity-definition.png)
+> ![표준 직함 엔터티 정의.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>옵션 세트 기반 차원 
@@ -54,9 +54,9 @@ Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 
 2. 솔루션 탐색기의 왼쪽 탐색 창에서 **옵션 집합** 을 선택합니다. 
 3. **신규** 를 클릭하여 새 옵션 집합을 만들고, 나머지 필수 정보를 입력한 다음 **저장** 을 클릭합니다.
 
-> ![리소스 작업 위치로 불리는 옵션 집합 기반 가격 책정 차원 ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![리소스 작업 위치로 불리는 옵션 집합 기반 가격 책정 차원.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![리소스 작업 시간으로 불리는 옵션 집합 기반 가격 책정 차원 ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![리소스 작업 시간으로 불리는 옵션 집합 기반 가격 책정 차원.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>엔터티 기반 차원에 대한 데이터 만들기
@@ -68,7 +68,7 @@ Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 
 3. 양식을 닫습니다. 
 4. 1-3 단계를 반복하여 "선임 시스템 엔지니어"를 위한 다른 표준 직함을 만듭니다.
 
-> ![표준 직함 엔터티를 위한 샘플 데이터 ](media/ST-data.png)
+> ![표준 직함 엔터티를 위한 샘플 데이터.](media/ST-data.png)
 
 
 
