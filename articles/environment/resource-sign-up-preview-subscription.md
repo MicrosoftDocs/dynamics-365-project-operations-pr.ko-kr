@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007874"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323424"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>리소스/비 재고 시나리오에 대한 Project Operations 미리 보기 구독에 등록
 
@@ -23,7 +23,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="prerequisites"></a>필수 조건
 - 미리 보기를 배포하는 사용자는 Azure 테넌트 전역 관리자 권한이 있어야 합니다. 첫 번째 제안 사용 중에 테넌트를 만들 수 있습니다. 
-- Finance 환경을 배포하려면 환경별로 요금이 청구되는 유효한 Azure 구독이 필요합니다. 조직의 기존 구독을 사용하거나 [Azure 평가판](https://azure.microsoft.com/en-us/free/)을 사용하여 시작할 수 있습니다. CDS 환경은 제한된 30일 동안 무료로 제공됩니다.
+- Finance 환경을 배포하려면 환경별로 요금이 청구되는 유효한 Azure 구독이 필요합니다. 조직의 기존 구독을 사용하거나 [Azure 평가판](https://azure.microsoft.com/free/)을 사용하여 시작할 수 있습니다. CDS 환경은 제한된 30일 동안 무료로 제공됩니다.
 
 > [!IMPORTANT]
 > 조직의 테넌트 관리자인 한 사람만이 작업을 수행하면 됩니다. 이 릴리스의 구독자가 아닌 경우 조직이 등록되고 사용자 자격 증명을 받을 때까지 기다리십시오.

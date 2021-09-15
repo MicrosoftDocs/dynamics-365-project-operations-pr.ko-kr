@@ -1,5 +1,5 @@
 ---
-title: 승인 집합
+title: Project Service Automation의 승인 집합
 description: 이 항목은 승인 집합, 요청 및 해당 작업의 하위 집합에 대한 정보를 제공합니다.
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e57944b3031ff8b6da163125bb6668875ae77bd06f23a5b8c4ef06f396210e4f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995499"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323559"
 ---
-# <a name="approval-sets"></a>승인 집합
+# <a name="approval-sets-in-project-service-automation"></a>Project Service Automation의 승인 집합
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
