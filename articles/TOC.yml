@@ -4,6 +4,8 @@
   items:
     - name: 배포 유형 결정
       href: environment/determine-deployment-type.md
+    - name: Project Operations 평가판 등록
+      href: environment/admin-trials.md
     - name: Project Operations 업데이트
       href: whats-new/project-operations-updates.md
 - name: 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 새로운 기능
       items:
+        - name: 2021년 8월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 2021년 6월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -418,6 +422,8 @@
       items:
         - name: 승인 개요
           href: approvals/approvals-overview.md
+        - name: 승인 집합
+          href: approvals/approval-sets.md
         - name: 개발자 노트
           items:
             - name: 승인을 위한 개발자 노트
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: 새로운 기능
       items:
+        - name: 2021 웨이브 2 조기 액세스의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021년 8월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 2021년 7월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: 2021년 6월의 새로운 기능 - 라이트 배포
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Project Operations에서 하도급 관리
       items:
-        - name: 하도급 관리 개요
+        - name: Project Operations에서 하도급 관리
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 2021년 10월 조기 액세스의 하도급 계약
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: 하도급의 핵심 개념
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: 공급업체 및 프로젝트 가격표 관리
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 예약 가능한 리소스로서의 하청업체
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: 하도급 계약의 헤더 세부 사항
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 시간의 하도급 계약 내용
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 경비의 하도급 계약 내용
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 제품의 하도급 계약 내용
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: 하도급 계약 내용 리소스
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: 하도급 계약 내용 마일스톤
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: 시간
       items:
         - name: 시간 개요
@@ -868,6 +892,8 @@
       items:
         - name: 승인 개요
           href: approvals/approvals-overview.md
+        - name: 승인 집합
+          href: approvals/approval-sets.md
         - name: 개발자 노트
           items:
             - name: 승인을 위한 개발자 노트
@@ -1060,6 +1086,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 35, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-35.md
         - name: '업데이트 릴리스 34, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-34.md
         - name: '업데이트 릴리스 33, V3의 새로운 내용 또는 변경된 내용'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: 주간 시간 항목 사용자 지정
               href: psa/time-entry-extensibility-v3.md
-            - name: 승인 집합
+            - name: Project Service Automation의 승인 집합
               href: psa/approval-set.md
     - name: FAQ 및 문제 해결(3.x)
       items:
