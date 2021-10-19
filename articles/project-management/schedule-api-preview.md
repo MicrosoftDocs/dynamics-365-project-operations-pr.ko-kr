@@ -2,23 +2,22 @@
 title: 프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행
 description: 이 항목은 프로젝트 일정 API를 사용하기 위한 정보 및 샘플을 제공합니다.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008774"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487693"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-> [!IMPORTANT] 
-> 이 항목에 언급된 일부 또는 모든 기능은 미리 보기 릴리스의 일부로 사용할 수 있습니다. 내용과 기능은 변경될 수 있습니다. 
+
 
 ## <a name="scheduling-entities"></a>예약 엔터티
 

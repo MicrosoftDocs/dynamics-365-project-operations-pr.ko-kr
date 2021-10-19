@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003824"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547117"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 이중 쓰기 맵 버전
 
@@ -49,8 +49,8 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 재료 추정을 위한 Project Operations 통합 테이블(msdyn\_estimatelines) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. |
 | 프로젝트 송장 제안서 V2(송장) | 1.0.0.3 | 프로비저닝에는 필요하지 않습니다. |
 | Project Operations 통합 실제(msdyn_actuals) | 1.0.0.14 | 프로비저닝에는 필요하지 않습니다. |
-| Project Operations 통합 계약 내용 중요 시점(msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | 프로비저닝에는 필요하지 않습니다. |
-| 경비 추정용 Project Operations 통합 엔터티(msdyn_estimateslines) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |
+| Project Operations 통합 계약 내용 이정표(msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 프로비저닝에는 필요하지 않습니다. |
+| 경비 추정을 위한 Project Operations 통합 엔터티(msdyn_estimatelines) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |
 | 시간 추정용 Project Operations 통합 엔터티(msdyn_resourceassignments) | 1.0.0.5 | 프로비저닝에는 필요하지 않습니다. |
 | Project Operations 통합 프로젝트 경비 범주 내보내기 엔터티(msdyn_expensecategories) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. |
 | Project Operations 통합 프로젝트 경비 내보내기 엔터티(msdyn_expenses) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |

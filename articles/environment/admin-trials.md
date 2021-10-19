@@ -2,16 +2,16 @@
 title: Project Operations 평가판 등록
 description: 이 주제는 Dynamics 365 Project Operations 평가판을 배포하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418465"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599221"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations 평가판 등록 
 
@@ -85,15 +85,9 @@ Dynamics 365 Project Operations의 평가판을 배포하기 위해 다음과 �
 
    프로비저닝이 시작되면 Power Platform 관리 센터의 환경 목록으로 리디렉션됩니다. 프로비저닝이 진행되는 동안 환경 상태는 **인스턴스 준비 중** 입니다.
  
-  프로비저닝이 완료된 후 환경 상태는 **준비됨** 입니다.
+  프로비저닝이 완료되면 환경 상태는 **준비** 입니다. 환경 프로비저닝에는 데모 데이터 배포가 포함됩니다.
  
-4.  프로비저닝이 완료되면 해당하는 Microsoft Dataverse URL 및 Finance and Operations 앱 URL을 선택하여 배포를 확인합니다.
-
-## <a name="demo-data-installation"></a>데모 데이터 설치
-
-다음 링크를 사용하여 재고가 없는 재료 및 라이트 배포 시나리오에 대한 데모 데이터 패키지에 액세스합니다. 
-- [비 재고 재료 데모 데이터](resource-apply-pro-setup-config-data.md)
-- [라이트 데모 데이터](lite-apply-demo-setup-config-data.md)
+4.  해당 Microsoft Dataverse URL 및 Finance and Operations 앱 URL을 선택하여 배포의 유효성을 확인합니다.
 
 ## <a name="configuring-dual-write"></a>이중 쓰기 구성
 비 재고 재료 배포의 경우에만 이중 쓰기 매핑을 구성합니다. 자세한 내용은 [Project Operations 이중 쓰기 맵 버전](resource-dual-write-maps.md)을 참조하십시오.

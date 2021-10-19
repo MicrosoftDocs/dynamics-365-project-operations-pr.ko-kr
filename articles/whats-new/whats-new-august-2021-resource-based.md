@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323469"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501379"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>새로운 기능 2021년 8월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -31,7 +31,7 @@ ms.locfileid: "7323469"
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 이중 쓰기 맵 업데이트
 
-이 릴리스에는 Project Operations 이중 쓰기 맵에 대한 업데이트가 없습니다. 
+이 릴리스에는 Project Operations 이중 쓰기 맵에 대한 업데이트가 없습니다.
 
 Project Operations 이중 쓰기 맵의 현재 목록 및 버전은 [Project Operations 이중 쓰기 맵 버전](../environment/resource-dual-write-maps.md)을 참조하세요.
 

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 181032b27ee67591a3bb40ab080477c51c1e34a46e9aac20039e4e5df3a5ab1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000944"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487648"
 ---
 # <a name="define-project-calendars"></a>프로젝트 일정 정의
 
@@ -46,7 +46,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 1. **리소스** \> **리소스** 로 이동합니다.
 2. 일정 템플릿에서 참조할 새 리소스를 만들거나 기존 리소스를 선택합니다.
-3. 리소스의 **작업 시간** 탭을 선택하고 [리소스에 대한 작업 시간 설정](/dynamics365/field-service/set-work-hours-resource.md)의 지침을 완료하여 일정 규칙을 구성합니다.
+3. 리소스의 **작업 시간** 탭을 선택하고 [리소스에 대한 작업 시간 설정](/dynamics365/field-service/set-work-hours-resource)의 지침을 완료하여 일정 규칙을 구성합니다.
 
 **새 일정 템플릿 만들기**
 

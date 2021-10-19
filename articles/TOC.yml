@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 새로운 기능
       items:
+        - name: 2021년 10월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 2021년 9월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: 2021년 8월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -292,7 +296,7 @@
           items:
             - name: 프로젝트 복사로 프로젝트 템플릿 개발
               href: project-management/dev-copy-project.md
-            - name: 프로젝트 일정 API 사용(공개 프리뷰)
+            - name: 프로젝트 일정 API 사용
               href: project-management/schedule-api-preview.md
     - name: 리소스 관리
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 보류 중인 공급업체 송장을 사용하여 프로젝트에 대한 비 재고 재료 조달
           href: procurement/pending-vendor-invoices.md
+        - name: 프로젝트 구매 주문을 사용하여 프로젝트에 대한 비 재고 재료 주문
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: 공급업체 재방문 주기
+          items:
+            - name: 공급업체 재방문 주기 개요
+              href: procurement/vendor-retention-overview.md
+            - name: 공급업체 재방문 주기 설정
+              href: procurement/set-up-vendor-retention.md
     - name: 송장 발행
       items:
         - name: 송장 처리 개요
@@ -528,6 +540,10 @@
       items:
         - name: 2021 웨이브 2 조기 액세스의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021년 10월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 2021년 9월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: 2021년 8월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 2021년 7월의 새로운 기능 - 라이트 배포
@@ -784,7 +800,7 @@
           items:
             - name: 프로젝트 복사로 프로젝트 템플릿 개발
               href: project-management/dev-copy-project.md
-            - name: 프로젝트 일정 API 사용(공개 프리뷰)
+            - name: 프로젝트 일정 API 사용
               href: project-management/schedule-api-preview.md
     - name: 리소스 관리
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: 시간의 하도급 계약 내용
           href: pro/subcontracting/subcontract-line-time.md
-        - name: 경비의 하도급 계약 내용
+        - name: 경비 범주의 하도급 계약 내용
           href: pro/subcontracting/subcontract-line-expense.md
         - name: 제품의 하도급 계약 내용
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 36, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-36.md
         - name: '업데이트 릴리스 35, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-35.md
         - name: '업데이트 릴리스 34, V3의 새로운 내용 또는 변경된 내용'
