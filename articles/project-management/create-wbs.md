@@ -2,16 +2,16 @@
 title: 작업 분할 구조 만들기
 description: 이 토픽은 새 스케줄링 인터페이스의 기본 제어를 포함하는 WBS(작업 분할 구조)를 작성하는 방법을 설명합니다.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998739"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655425"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>작업 분할 구조(WBS) 만들기
 
@@ -117,5 +117,26 @@ Project Operations에서 일정을 사용하여 작업 간에 선행 관계를 �
 
 **일정** 표는 완전히 액세스할 수 있으며 내레이터, JAWS 또는 NVDA와 같은 화면 판독기에서 사용할 수 있습니다. 화살표 키(Microsoft Excel에서와 같이)를 사용하여 표 영역을 이동할 수 있으며 탭 키를 사용하여 대화형 사용자 인터페이스 요소를 진행할 수 있으며 아래쪽 화살표 키, Enter 키 또는 스페이스바를 사용하여 드롭다운 메뉴를 선택하고 열 수 있습니다.
 
+## <a name="project-limitations"></a>프로젝트 제한 사항 
+Project Operations에서 작업 분할 구조를 사용하는 경우 다음 제한 사항을 알고 있어야 합니다. 이러한 제한은 프로젝트 및 작업에 적용됩니다. 자세한 내용은 [웹의 한계와 경계를 위한 프로젝트](/project-for-the-web/project-for-the-web-limits-and-boundaries)를 참조하십시오.
+
+| **필드**                                          |  **한도**           |
+|----------------------------------------------------|----------------------|
+| 프로젝트의 최대 총 작업                  | 500                  |
+| 프로젝트의 최대 총 기간               | 3650일(10년) |
+| 프로젝트의 최대 총 리소스              | 150                  |
+| 프로젝트에 대한 최대 총 링크(후속자만 해당) | 600                  |
+| 프로젝트의 최대 총 사용자 지정 필드          | 10                   |
+
+**작업 제한 사항**
+
+| **필드**                               |   **한도**           |
+|-----------------------------------------|-----------------------|
+| 최대 계층 구조 수준                 | 10 레벨             |
+| 최대 링크(후속 업무 + 선행 업무) | 20                    |
+| 리프 작업의 최대 기간           | 1250일             |
+| 요약 작업의 최대 기간      | 3650일(10년)  |
+| 작업에 할당된 최대 리소스    | 20개 리소스          |
+| 작업에 지원되는 날짜 범위         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

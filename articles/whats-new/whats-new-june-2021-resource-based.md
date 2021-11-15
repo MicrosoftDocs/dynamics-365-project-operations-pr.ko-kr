@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003869"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679217"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>새로운 기능 2021년 6월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -30,6 +30,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 - [조정 시나리오에 대한 프로젝트 송장 제안 라인](../invoicing/correct-project-invoice-proposals.md) 삭제 기능.
 - 항목별 경비 라인은 경비 보고서 [경비 보고서 재구상된 새로운 기능](../expense/expense-reports-reimagined.md#new-features)의 하위 범주 이름을 반영합니다.
 - 새 경비를 생성할 때 새 경비 창에서 결제 방법을 사용할 수 있습니다.
+- 프로젝트 일정 API의 일반 공급. 이 새로운 기능을 통해 고객은 프로젝트 작업, 리소스 할당, 작업 종속성 및 프로젝트 팀 구성원 레코드에 대한 생성, 업데이트 및 삭제 작업을 프로그래밍 방식으로 수행할 수 있습니다. 자세한 내용은 [프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행](../project-management/schedule-api-preview.md)을 참조하십시오.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 이중 쓰기 맵 업데이트
 

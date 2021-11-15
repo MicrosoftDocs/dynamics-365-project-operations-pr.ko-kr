@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: 공급업체 송장 통합
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dynamics 365 Project Operations 제거
+          href: environment/uninstall-project-operations.md
     - name: 새로운 기능
       items:
         - name: 2021년 10월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: 프로젝트 일정 API 사용
               href: project-management/schedule-api-preview.md
+            - name: 프로젝트 일정 API 성능
+              href: project-management/project-schedule-api-performance.md
     - name: 리소스 관리
       items:
         - name: 주요 개념
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: 프로젝트 일정 API 사용
               href: project-management/schedule-api-preview.md
+            - name: 프로젝트 일정 API 성능
+              href: project-management/project-schedule-api-performance.md
     - name: 리소스 관리
       items:
         - name: 주요 개념
@@ -1102,6 +1108,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 37, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-37.md
         - name: '업데이트 릴리스 36, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-36.md
         - name: '업데이트 릴리스 35, V3의 새로운 내용 또는 변경된 내용'
