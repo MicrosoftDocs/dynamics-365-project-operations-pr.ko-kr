@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773603"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892197"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 릴리스 일정 업데이트
 
@@ -35,9 +35,9 @@ ms.locfileid: "7773603"
 
 ## <a name="latest-version-availability"></a>최신 버전 가용성
 
-| 솔루션  | 최신 버전 |
+| 해결 방법  | 최신 버전 |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Project Service Automation    | 3.10.58.130 |
 | Project Service Automation 데스크톱 추가 기능                | 3.15          |
 
 Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamics 365 릴리스 계획](/dynamics365/release-plans/)을 참조하십시오. 
@@ -55,18 +55,18 @@ Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamic
 | | <i>독일</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
 | | <i>스위스</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
 |<strong>스테이션 3</strong> | |  |  | |
-| | <i>일본</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 11월 12일
-| | <i>아시아 태평양</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 11월 12일
-| | <i>영국</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 11월 12일
-| | <i>오세아니아</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 11월 12일
-| | <i>아랍에미리트연합국</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 11월 12일
+| | <i>일본</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
+| | <i>아시아 태평양</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
+| | <i>영국</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
+| | <i>오세아니아</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
+| | <i>아랍에미리트연합국</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
 |<strong>스테이션 4</strong> | |  |  | |
-| | <i>유럽</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 11월 19일
+| | <i>유럽</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022년 1월 7일
 |<strong>스테이션 5</strong> | |  |  | |
-| | <i>북아메리카</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 12월 3일
+| | <i>북아메리카</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022년 1월 14일
 |<strong>스테이션 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 12월 3일
-| | <i>전용 규모 그룹</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021년 12월 10일
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022년 1월 14일
+| | <i>전용 규모 그룹</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 2021년 12월 10일
 
 
 

@@ -2,7 +2,7 @@
 title: OCR을 사용하여 영수증 캡처
 description: 이 항목은 영수증에 대한 광학 문자 인식(OCR) 처리에 대한 정보를 제공합니다.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007739"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798048"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>OCR을 사용하여 영수증 캡처
 
@@ -85,7 +85,18 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 **이 기능은 어디에서 사용 가능하고 처리됩니까?**
 
-현재 미국이 지원됩니다.
+다른 지역에서 이 기능의 가용성은 다음 표에 나열되어 있습니다. 귀하의 지역이 현재 지원되지 않는 경우 귀하의 지역에서 OCR 서비스의 가용성을 우선시하는 요청을 제출하십시오. 
+
+| 하위 지역 | 지원                         |
+|--------|-----------------------------------|
+| 미국    | 네                               |
+| CAN    | 네                               |
+| 영국     | 네                               |
+| 호주    | 네                               |
+|  EU     | 부분. 영어 영수증만 가능합니다. |
+| 아시아   | 없음                                |
+| 일본  | 없음                                |
+| 아프리카 | 없음                                |
 
 **영수증은 어디로 갑니까?**
 

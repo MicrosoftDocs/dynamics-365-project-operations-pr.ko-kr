@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: 새로운 기능
       items:
+        - name: 2021년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021년 10월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 2021년 9월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: 프로젝트 일정 API 성능
               href: project-management/project-schedule-api-performance.md
+            - name: 프로젝트 일정 로그
+              href: project-management/schedule-api-logs.md
     - name: 리소스 관리
       items:
         - name: 주요 개념
@@ -544,6 +548,8 @@
       items:
         - name: 2021 웨이브 2 조기 액세스의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021년 11월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021년 10월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 2021년 9월의 새로운 기능 - 라이트 배포
@@ -952,6 +958,10 @@
   items:
     - name: 새로운 기능
       items:
+        - name: 새로운 기능 2021년 10월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 새로운 기능 2021년 9월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 새로운 기능 2021년 7월 - 리소스/생산 기반 시나리오에 대한 Project Operations
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 새로운 기능 2021년 5월 - 리소스/생산 기반 시나리오에 대한 Project Operations
@@ -1108,6 +1118,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 37.5, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-37-5.md
         - name: '업데이트 릴리스 37, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-37.md
         - name: '업데이트 릴리스 36, V3의 새로운 내용 또는 변경된 내용'
