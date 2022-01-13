@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Project Operations 업데이트
       href: whats-new/project-operations-updates.md
+    - name: 제거되었거나 사용되지 않는 기능
+      items:
+        - name: Project Operations에서 제거되었거나 사용되지 않는 기능
+          href: whats-new/removed-depreciated-features-project.md
 - name: 리소스/비 재고 기반 시나리오에 대한 Project Operations
   items:
     - name: 시작
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: 새로운 기능
       items:
+        - name: 2021년 12월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021년 10월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: 마일리지 등급 계층을 사용하여 마일리지 설정
               href: expense/set-up-mileage.md
+        - name: 경비 항목화
+          href: prod-exp/expense-itemization.md
         - name: 개인 경비
           href: expense/personal-expenses-expense-report.md
         - name: 회사 간 경비
@@ -530,9 +538,15 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 수익 추정치 관리
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: 문제 해결
+      items:
+        - name: 프로젝트 영업 프로세스
+          items:
+            - name: '프로젝트, 계약, 견적 또는 예약 가능한 리소스 생성 시 통화 불일치 오류'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 라이트 배포 - 견적 송장 거래
   items:
-    - name: 시작
+    - name: 시작하기
       items:
         - name: 라이트 배포 개요
           href: pro/project-operations-overview-lite.md
@@ -548,6 +562,8 @@
       items:
         - name: 2021 웨이브 2 조기 액세스의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021년 12월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021년 11월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021년 10월의 새로운 기능 - 라이트 배포
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: 하도급 계약 내용 마일스톤
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 프로젝트 팀 구성원 하도급 계약
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: 프로젝트 팀 구성원 하도급 계약 옵션
+          href: pro/subcontracting/subcon-options.md
+        - name: 하도급 계약 리소스 할당 비용 추정
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 계약 근로자와 하도급 계약 용량을 표시하도록 일정 게시판 구성
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: 계약 근로자 및 하도급 계약 용량으로 프로젝트 인력 배치
+          href: pro/subcontracting/staffing-cw.md
+        - name: '하도급 계약 구성 요소에 대한 시간, 경비, 재료 사용량 기록'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: 하도급 계약의 상태 전환
+          href: pro/subcontracting/subcon-states.md
     - name: 시간
       items:
         - name: 시간 개요
@@ -1118,6 +1148,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 38, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-38.md
         - name: '업데이트 릴리스 37.5, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-37-5.md
         - name: '업데이트 릴리스 37, V3의 새로운 내용 또는 변경된 내용'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: 보고 가이드
           href: psa/implementation-guides/reporting-guide.md
+    - name: Project Service Automation에서 Project Operations로 업그레이드 - 라이트
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation 업그레이드(앱 버전 3.x)
       items:
         - name: Project Service Automation 업그레이드
