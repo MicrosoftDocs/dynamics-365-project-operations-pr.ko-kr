@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
-ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892197"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940942"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 릴리스 일정 업데이트
 
@@ -37,36 +37,36 @@ ms.locfileid: "7892197"
 
 | 해결 방법  | 최신 버전 |
 |-------|----|
-| Project Service Automation    | 3.10.58.130 |
-| Project Service Automation 데스크톱 추가 기능                | 3.15          |
+| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation 데스크톱 추가 기능                | 3.60          |
 
 Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamics 365 릴리스 계획](/dynamics365/release-plans/)을 참조하십시오. 
 
 | 스테이션  | 영역 | 현재 버전 | 다음 버전 |  예약된 날짜
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>스테이션 1</strong> | |  |  | |
-| | <i>최초 릴리스</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 3일
+| | <i>최초 릴리스</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 14일
 |<strong>스테이션 2</strong> | |  |  | |
-| | <i>남아메리카</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
-| | <i>캐나다</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
-| | <i>인도</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
-| | <i>프랑스</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
-| | <i>남아프리카 공화국</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
-| | <i>독일</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
-| | <i>스위스</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021년 12월 10일
+| | <i>남아메리카</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 21일
+| | <i>캐나다</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 21일
+| | <i>인도</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 21일
+| | <i>프랑스</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 21일
+| | <i>남아프리카 공화국</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 21일
+| | <i>독일</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 21일
+| | <i>스위스</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 21일
 |<strong>스테이션 3</strong> | |  |  | |
-| | <i>일본</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
-| | <i>아시아 태평양</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
-| | <i>영국</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
-| | <i>오세아니아</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
-| | <i>아랍에미리트연합국</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021년 12월 17일
+| | <i>일본</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 28일
+| | <i>아시아 태평양</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 28일
+| | <i>영국</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 28일
+| | <i>오세아니아</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 28일
+| | <i>아랍에미리트연합국</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 2022년 1월 28일
 |<strong>스테이션 4</strong> | |  |  | |
-| | <i>유럽</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022년 1월 7일
+| | <i>유럽</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 2022년 1월 7일
 |<strong>스테이션 5</strong> | |  |  | |
-| | <i>북아메리카</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022년 1월 14일
+| | <i>북아메리카</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 2022년 1월 14일
 |<strong>스테이션 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022년 1월 14일
-| | <i>전용 규모 그룹</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 2021년 12월 10일
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 2022년 1월 14일
+| | <i>전용 규모 그룹</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 2022년 1월 21일
 
 
 

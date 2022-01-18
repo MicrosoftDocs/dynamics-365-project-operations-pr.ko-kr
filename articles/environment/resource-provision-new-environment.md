@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501424"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928669"
 ---
 # <a name="provision-a-new-environment"></a>새 환경 프로비전
 
@@ -159,7 +159,6 @@ Project Operations에는 애플리케이션 버전이 **10.0.13(10.0.569.20009)*
       - **회계 달력**
       - **원장**
       - **회사**
-      - **통화 환율 유형**
       - **경비**
 
 5. 보안 역할이 업데이트되면 **설정** > **보안** > **팀** 으로 이동하고 **로컬 비즈니스 담당자** 팀 보기에서 기본 팀을 선택합니다.

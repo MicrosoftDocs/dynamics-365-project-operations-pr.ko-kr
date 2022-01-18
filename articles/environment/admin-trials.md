@@ -2,16 +2,16 @@
 title: Project Operations 평가판 등록
 description: 이 주제는 Dynamics 365 Project Operations 평가판을 배포하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599221"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901625"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations 평가판 등록 
 
@@ -90,7 +90,8 @@ Dynamics 365 Project Operations의 평가판을 배포하기 위해 다음과 �
 4.  해당 Microsoft Dataverse URL 및 Finance and Operations 앱 URL을 선택하여 배포의 유효성을 확인합니다.
 
 ## <a name="configuring-dual-write"></a>이중 쓰기 구성
-비 재고 재료 배포의 경우에만 이중 쓰기 매핑을 구성합니다. 자세한 내용은 [Project Operations 이중 쓰기 맵 버전](resource-dual-write-maps.md)을 참조하십시오.
+- 이중 쓰기에 대한 보안 역할을 구성하려면 [Dataverse의 Project Operations에 대한 보안 설정 업데이트](resource-provision-new-environment.md)를 참조하십시오.
+- 이중 쓰기 맵을 구성하려면 [Project Operations 이중 쓰기 맵 실행](resource-provision-new-environment.md#run-project-operations-dual-write-maps)을 참조하십시오.
 
 ## <a name="assign-licenses"></a>라이선스 할당
 

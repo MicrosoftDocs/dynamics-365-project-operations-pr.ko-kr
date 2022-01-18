@@ -2,16 +2,16 @@
 title: 작업 분할 구조 만들기
 description: 이 토픽은 새 스케줄링 인터페이스의 기본 제어를 포함하는 WBS(작업 분할 구조)를 작성하는 방법을 설명합니다.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655425"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928623"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>작업 분할 구조(WBS) 만들기
 
@@ -95,7 +95,7 @@ ms.locfileid: "7655425"
 
 ## <a name="staffing-attributes"></a>직원 구성 특성
 
-인력 배치 특성은 일정의 **리소스** 필드를 통해 액세스됩니다. 기존 리소스를 검색하거나 **만들기** 를 선택하고 **빠른 만들기** 창에서 프로젝트 팀 구성원을 새 리소스로 추가할 수 있습니다.
+인력 배치 특성은 일정의 **리소스** 필드를 통해 액세스됩니다. 기존 리소스를 검색하거나 **만들기** 를 선택하고 **빠른 만들기** 창에서 프로젝트 팀 구성원을 새 리소스로 추가할 수 있습니다.  작업 표, 게시판 보기 또는 간트에서 리소스 선택기를 사용하여 리소스를 검색하면 기존 프로젝트 팀 구성원이나 예약 가능한 활성 리소스가 반환됩니다.
 
 **역할**, **리소스 단위** 및 **위치 이름** 필드는 작업에 대한 인력 지정 요구 사항을 설명하는 데 사용됩니다. 작업 일정과 함께 이러한 인력 특성은 이 작업을 수행하는 데 사용할 수 있는 리소스를 찾는 데 사용됩니다.
 
@@ -127,6 +127,7 @@ Project Operations에서 작업 분할 구조를 사용하는 경우 다음 제�
 | 프로젝트의 최대 총 리소스              | 150                  |
 | 프로젝트에 대한 최대 총 링크(후속자만 해당) | 600                  |
 | 프로젝트의 최대 총 사용자 지정 필드          | 10                   |
+| 작업당 최대 체크리스트 항목                   | 20                   |
 
 **작업 제한 사항**
 

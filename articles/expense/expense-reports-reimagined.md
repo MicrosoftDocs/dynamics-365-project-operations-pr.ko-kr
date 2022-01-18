@@ -1,8 +1,8 @@
 ---
-title: 재구상된 경비 보고서
+title: 재구상된 경비 보고서(비디오 포함)
 description: 이 항목은 경비 보고서 입력을 위해 재설계되고 재구상된 경험을 설명합니다.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997839"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941033"
 ---
 # <a name="expense-reports-reimagined"></a>재구상된 경비 보고서
 
@@ -58,6 +58,7 @@ ms.locfileid: "6997839"
 | 새 경비 라인 저장 및 추가 | **저장** 및 **새로 만들기** 버튼은 새 경비를 입력할 때 비용 라인을 빠르게 입력하기 위해 사용할 수 있습니다. |
 | 분할 및 항목별 라인에 대한 더 나은 가시성 | 항목별 및 분할 라인이 경비 목록에 직접 추가되어 가시성을 높이고 오류가 있는지 쉽게 확인할 수 있습니다. |
 | 항목별 라인에서 하위 범주 세부 정보 보기 | 상위 경비의 항목별 행은 경비 보고서의 하위 범주 레이블을 표시합니다. 항목화를 통해 세부적인 세부 사항을 한 눈에 검토할 수 있습니다.|
+|반복 경비를 신속하게 항목화 | 재정의된 경비 작업 공간은 하위 범주, 시작 날짜 및 수량을 추가하여 반복 경비를 신속하게 항목화하는 기능을 제공합니다. 수량은 충전이 연속 기간 동안 반복되는 횟수를 나타냅니다. |
 | 항목화 중 영수증 표시 | 항목화 중 영수증을 표시할 수 있습니다. |
 | 현금 서비스 선택 | 단일 경비 트랜잭션을 이행하기 위해 하나 이상의 현금 서비스를 선택합니다. |
 | 현금 서비스 잔액 | 승인 및 지급된 현금 서비스에 대한 경비 항목을 생성할 때 실시간으로 현금 서비스 잔액을 검토합니다. |

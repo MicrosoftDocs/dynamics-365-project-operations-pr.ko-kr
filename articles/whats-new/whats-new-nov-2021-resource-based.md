@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827334"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942893"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 11월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -20,7 +20,7 @@ ms.locfileid: "7827334"
 
 이 항목은 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
 
-- Dataverse 환경 버전 4.26.0.145, 4.26.0.148 또는 4.26.0.150의 Project Operations.
+- Dataverse 환경 버전 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155의 Project Operations
 - Dynamics 365 Finance 환경 버전 10.0.22의 프로젝트 관리 및 회계
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
