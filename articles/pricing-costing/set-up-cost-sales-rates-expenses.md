@@ -2,16 +2,18 @@
 title: 경비에 대한 비용 및 판매율 설정
 description: 이 항목은 트랜잭션 및 경비 범주에 대한 비용 및 판매율을 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986229"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877228"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>경비에 대한 비용 및 판매율 설정
 

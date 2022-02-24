@@ -2,16 +2,18 @@
 title: 프로젝트 기반 영업 기회 복사
 description: 이 항목은 Project Operations의 프로젝트 기반 영업 기회를 복사하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999729"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181671"
 ---
 # <a name="copy-project-based-opportunities"></a>프로젝트 기반 영업 기회 복사
 
@@ -32,6 +34,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
     | 가격 복사 | 영업 기회에 대한 가격을 소스 영업 기회에서 복사해야 하는지 여부를 나타내는 예/아니요 값입니다. | **예** 를 선택하면 가격표가 소스에서 대상 영업 기회로 복사됩니다. **아니요** 를 선택하면 설정된 최신 가격표를 기반으로 가격표의 기본값이 설정됩니다. |
 
 3. **확인** 을 선택합니다. 선택한 매개 변수를 기반으로 프로젝트 영업 기회의 사본이 생성되고 새 프로젝트 영업 기회가 열립니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

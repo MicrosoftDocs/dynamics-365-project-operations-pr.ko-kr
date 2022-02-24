@@ -2,16 +2,18 @@
 title: 프로젝트 기반 견적 라인 추정
 description: 이 항목은 프로젝트 기반 견적 라인에서 추정치를 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 04/01/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a8e2b56b4a97ce184fc36145fffe63db8772bdef8bb89f9b60ddaf43db0c1ba4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997299"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858216"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>프로젝트 기반 견적 라인 추정
 

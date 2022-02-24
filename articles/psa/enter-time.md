@@ -2,6 +2,8 @@
 title: 시간 입력
 description: 시간을 입력하는 방법(Project Service)
 author: revathimuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dfd16ff38e729ce183247a03b3340b8af52ea1318c799ec5fd544d7b94086be
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 222488f9ec52e07f1fb17d8dba3c3b0e5342b58d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985734"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149326"
 ---
 # <a name="enter-time-project-service"></a>시간 입력(Project Service)
 
@@ -59,6 +61,3 @@ ms.locfileid: "6985734"
   
 ### <a name="see-also"></a>참고 항목  
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

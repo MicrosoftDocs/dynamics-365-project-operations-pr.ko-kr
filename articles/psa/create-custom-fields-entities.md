@@ -2,10 +2,12 @@
 title: 맞춤 필드 및 엔터티 만들기
 description: 이 항목은 Power Apps 플랫폼의 자체 솔루션에서 옵션 집합 및 엔터티를 만드는 방법을 설명합니다.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992439"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144871"
 ---
 # <a name="create-custom-fields-and-entities"></a>맞춤 필드 및 엔터티 만들기 
 
@@ -43,7 +45,7 @@ Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 
 2. 솔루션 탐색기의 왼쪽 탐색 창에서 **엔터티** 를 선택합니다.
 3. **신규** 를 클릭하면 **표준 직함** 으로 불리는 새 엔터티가 만들어집니다. 나머지 필수 정보를 입력한 다음 **저장** 을 클릭합니다.
 
-> ![표준 직함 엔터티 정의.](media/Standard-Title-entity-definition.png)
+> ![표준 직함 엔터티 정의](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>옵션 세트 기반 차원 
@@ -54,9 +56,9 @@ Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 
 2. 솔루션 탐색기의 왼쪽 탐색 창에서 **옵션 집합** 을 선택합니다. 
 3. **신규** 를 클릭하여 새 옵션 집합을 만들고, 나머지 필수 정보를 입력한 다음 **저장** 을 클릭합니다.
 
-> ![리소스 작업 위치로 불리는 옵션 집합 기반 가격 책정 차원.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![리소스 작업 위치로 불리는 옵션 집합 기반 가격 책정 차원 ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![리소스 작업 시간으로 불리는 옵션 집합 기반 가격 책정 차원.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![리소스 작업 시간으로 불리는 옵션 집합 기반 가격 책정 차원 ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>엔터티 기반 차원에 대한 데이터 만들기
@@ -68,9 +70,6 @@ Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 
 3. 양식을 닫습니다. 
 4. 1-3 단계를 반복하여 "선임 시스템 엔지니어"를 위한 다른 표준 직함을 만듭니다.
 
-> ![표준 직함 엔터티를 위한 샘플 데이터.](media/ST-data.png)
+> ![표준 직함 엔터티를 위한 샘플 데이터 ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

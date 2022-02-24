@@ -2,6 +2,8 @@
 title: Project Service Automation 업데이트 릴리스 21, V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 21, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e7bf9d5c85d2fab0d17c435bdd96057c0c80be8f41b16f94afe6b1f554e7a9fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b1194c1cf1997b68030fe88360c6ebb756c715fd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984745"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147031"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation 업데이트 릴리스 21, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
+Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
 
 이 항목에는 Project Service Automation V3, 업데이트 릴리스 21에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다. 이 버전의 빌드 번호는 V 3.10.32.50이며 일반적으로 2020년 6월 자체 업데이트를 통해 제공됩니다.
 
@@ -75,6 +77,3 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - **판매 가격 목록 해결** 논리가 시간대를 부적절하게 처리하여 가격 목록을 잘못 선택하게 됩니다.
 - 프로젝트의 **총 실제 비용** 은 한 번의 입력이 승인된 후 소수의 금액으로 해제될 수 있습니다.
 - **가격 해결** 논리는 **검색된 역할 가격** 에서 **'기본 단위'** 및 **'기본 단위의 가격'** 필드에 값이 없는 경우 사용자에게 친숙한 오류 메시지를 제공하지 않습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

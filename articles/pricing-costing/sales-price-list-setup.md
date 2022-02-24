@@ -2,9 +2,11 @@
 title: 판매 가격표 설정
 description: 이 항목은 프로젝트 가격 책정을 위한 판매 가격표에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997614"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176259"
 ---
 # <a name="set-up-a-sales-price-list"></a>판매 가격표 설정
 
@@ -57,6 +59,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 기본적으로 프로젝트 가격표가 입력되면 시스템은 통화가 고객의 통화와 일치하는지, 입력된 기본 가격표에 **영업** 의 컨텍스트가 있는지 확인합니다.
 
 여러 프로젝트 가격표를 고객, 영업 기회, 견적 및 프로젝트 계약 엔터티와 연결할 수 있습니다. 이 기능은 장기 실행 프로젝트 계약에 대한 날짜별 기본 가격을 지원하며, 인플레이션으로 인해 발생하는 가격 업데이트를 설명하기 위해 두 개 이상의 가격표가 필요할 수 있습니다. 그러나 고객, 영업 기회, 견적 또는 프로젝트 계약 엔터티와 연결하는 가격표에 날짜 유효성이 겹치는 경우 기본 가격이 올바르지 않을 수 있습니다. 따라서 날짜 유효성이 겹치는 프로젝트 가격표가 해당 엔터티와 연결되지 않았는지 확인해야 합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

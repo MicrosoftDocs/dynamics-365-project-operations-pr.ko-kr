@@ -2,24 +2,26 @@
 title: 실제
 description: 이 토픽은 Microsoft Dynamics 365 Project Operations에서 실제 값으로 작업하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a086fe0be67c21ed73793b6f3b58b47ad08eaa4e8a4c98870b4b2264562e3dce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991809"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852552"
 ---
 # <a name="actuals"></a>실제 값 
 

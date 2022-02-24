@@ -2,10 +2,12 @@
 title: 새 맞춤 엔터티 양식 추가 (Project Service Automation 2.x)
 description: 이 항목은 Dynamics 365 Project Service Automation 2.x에서 기회, 견적, 주문 또는 청구서를 위한 맞춤 엔터티 양식을 추가하는 방법에 대한 정보를 제공합니다.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995229"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144601"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>새 맞춤 엔터티 양식 추가 (Project Service Automation 2.x)
 
@@ -57,7 +59,7 @@ Dynamics 365 Project Service Automation은 기회, 견적, 주문 또는 청구�
     - **내 프로젝트 정보** 양식을 비관리 솔루션의 일부로 내보낸 다음, 내보낸 솔루션의 customization.xml 파일에서 **formId** 값을 찾습니다.
     - 양식 편집기에서 **내 프로젝트 정보** 양식을 연 다음, 다음 그림과 같이 URL에서 **fromId** 파라미터 옆에 있는 전역 고유 식별자(GUID)를 찾습니다.
 
-    ![URL에서 새 양식의 formId 값.](media/how-to-add-custom-forms-in-v2.0.png)
+    ![URL에서 새 양식의 formId 값](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js 웹 리소스를 편집하여 **formId** 값을 위한 **msdyn\_ordertype** 매핑을 만듭니다. 리소스에서 코드를 제거하고 다음 코드로 대체합니다.
 
@@ -94,6 +96,3 @@ Dynamics 365 Project Service Automation은 기회, 견적, 주문 또는 청구�
     ```
 
 6. 맞춤화를 저장한 다음 게시합니다.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

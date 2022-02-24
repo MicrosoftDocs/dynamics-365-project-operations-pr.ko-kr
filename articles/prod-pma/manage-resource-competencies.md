@@ -2,9 +2,11 @@
 title: 리소스 역량 관리
 description: 이 항목은 프로젝트 리소스에 대한 역량을 설정하는 방법에 대한 정보를 제공합니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007424"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270641"
 ---
 # <a name="manage-resource-competencies"></a>리소스 역량 관리
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007424"
 
 리소스 역량은 리소스 관리의 필수적인 부분입니다. 역량은 기술, 교육, 인증 및 프로젝트 경험이 올바르게 균형을 이루는 리소스를 결정하는 기준으로 사용할 수 있습니다. 각 리소스에 대해 이 정보를 설정하고 정기적으로 업데이트해야 합니다. 이러한 방식으로 프로젝트 리소스 할당 중에 특정 리소스 역량이 일치할 때 기능을 최대화할 수 있습니다.
 
-[![기술, 인증, 교육 및 프로젝트 경험의 예.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![기술, 인증, 교육 및 프로젝트 경험의 예](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 다음 절차에서는 리소스에 대한 일부 역량을 설정하는 방법에 대해 설명합니다.
 

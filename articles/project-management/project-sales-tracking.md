@@ -2,16 +2,18 @@
 title: 프로젝트 영업 추적
 description: 이 항목은 Project Operations가 프로젝트의 노동 수익에 대한 진행 상황을 추적하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 03/24/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 78d7bdaf9f5ca1757273cb81a1303befb0357ba547eb354097786fc3c38962b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 438c44dcfaf9677075eb07688c1e65c6e7053755
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995589"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5711065"
 ---
 # <a name="project-sales-tracking"></a>프로젝트 영업 추적
 

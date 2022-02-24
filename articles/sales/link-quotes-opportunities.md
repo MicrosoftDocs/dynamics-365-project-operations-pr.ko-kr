@@ -2,16 +2,18 @@
 title: 영업 기회에서 프로젝트 견적 작성
 description: 이 항목은 영업 기회에서 프로젝트 견적 생성에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999639"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118121"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>영업 기회에서 프로젝트 견적 작성
 
@@ -54,6 +56,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
    영업 기회를 이 스테이지로 이동할 때 이 영업 기회와 연관된 견적 목록에서 이 견적을 선택할 수 있습니다. 이 견적을 선택하면 앞으로 진행하고 있음을 나타냅니다.
 
    영업 기회와 관련된 다른 모든 견적은 그 중 하나를 얻을 때까지 계속 사용할 수 있으며 활성화됩니다. 영업 프로세스를 이전 스테이지 **우량으로 선별** 로 다시 이동하고 다른 견적을 선택하여 계속 진행할 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

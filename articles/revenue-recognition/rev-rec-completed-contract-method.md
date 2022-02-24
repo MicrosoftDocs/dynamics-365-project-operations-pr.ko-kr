@@ -2,16 +2,18 @@
 title: 수익 추정치 관리
 description: 이 토픽은 프로젝트의 수익 추정치로 작업하는 방법에 대한 정보를 제공합니다.
 author: sigitac
+manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996534"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531483"
 ---
 # <a name="manage-revenue-estimates"></a>수익 추정치 관리
 
@@ -88,6 +90,3 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 이 페이지를 사용하여 지정된 추정 날짜 및 추정 상태가 **제거됨** 인 모든 제거를 취소합니다. 적절한 필드를 선택하면 트랜잭션 상태가 변경됩니다.
 
 또한 프로젝트 단계가 완료됨으로 설정된 경우 프로젝트 상태를 **진행 중** 으로 자동 변경합니다. 프로젝트 기간의 추정 상태가 **전기됨** 으로 변경됩니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

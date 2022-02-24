@@ -2,16 +2,18 @@
 title: 고정 가격 수익 프로젝트 추정
 description: 이 토픽은 프로젝트에서 고정 가격 수익에 대한 정보를 제공합니다.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006434"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531486"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>고정 가격 수익 프로젝트 추정 
 
@@ -33,6 +35,3 @@ Microsoft Dataverse의 Dynamics 365 Project Operations에서 다음 특성을 �
 
   프로젝트 비용, 수익 프로필, 비용 템플릿 및 기간 코드는 수동으로 설정할 수 있습니다. 수동으로 설정하지 않은 경우 프로젝트 비용 및 수익 프로필에 대해 구성된 규칙을 사용하여 프로젝트에 대한 첫 번째 추정 계산 중에 값이 기본값으로 설정됩니다.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

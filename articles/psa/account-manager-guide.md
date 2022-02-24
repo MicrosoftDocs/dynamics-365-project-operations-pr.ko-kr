@@ -2,6 +2,8 @@
 title: 거래처 관리자 가이드
 description: 프로젝트 기반 거래처 판매 및 계약 프로세스를 안내하는 Project Service의 거래처 관리자 가이드
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4792d3438216a850b0b4afdb38f26b85adb81960c5984217c76c9954ca36b884
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b1908fdf012b470a2954191d4428a58241b33752
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985824"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146087"
 ---
 # <a name="account-manager-guide-project-service"></a>거래처 관리자 가이드(Project Service)
 
@@ -46,6 +48,3 @@ ms.locfileid: "6985824"
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)   
  [리소스 관리자 가이드](../psa/resource-manager-guide.md)   
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

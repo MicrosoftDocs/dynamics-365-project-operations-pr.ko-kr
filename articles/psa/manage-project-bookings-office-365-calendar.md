@@ -2,6 +2,8 @@
 title: Office 365 캘린더에서 프로젝트 및 예약 관리
 description: Office 365 캘린더에서 프로젝트 및 예약을 관리하는 방법
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985442"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144466"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>귀하의 캘린더에서 프로젝트 및 예약 관리 (Project Service)
 
@@ -50,7 +52,7 @@ ms.locfileid: "6985442"
   
 - [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 전역 관리자 또는 시스템 관리자 자격 증명이 필요합니다.  
   
-- 관리자가 전자 메일 서버 프로필을 구성하고 각 사용자가 자신의 사서함을 구성해야 합니다. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [서버 쪽 동기화를 통해 전자 메일 처리 설정](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- 관리자가 전자 메일 서버 프로필을 구성하고 각 사용자가 자신의 사서함을 구성해야 합니다. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [서버 쪽 동기화를 통해 전자 메일 처리 설정](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>조직에 대한 동기화 켜기(관리자 작업)  
   
@@ -89,6 +91,3 @@ ms.locfileid: "6985442"
   
 ### <a name="see-also"></a>참고 항목  
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

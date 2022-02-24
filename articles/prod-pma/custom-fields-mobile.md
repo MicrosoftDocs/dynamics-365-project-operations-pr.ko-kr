@@ -2,9 +2,11 @@
 title: iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
 description: 이 항목은 확장을 사용하여 사용자 지정 필드를 구현하기 위한 공통 패턴을 제공합니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005759"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271001"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
 
@@ -51,8 +53,8 @@ ms.locfileid: "7005759"
 
 | 유형 값 | 형식              | 메모  |
 |-------------|-------------------|-------|
-| 0           | 문자열 (및 열거형) | 필드는 텍스트 필드로 나타납니다. |
-| 1           | Integer           | 값은 소수점이 없는 숫자로 표시됩니다. |
+| 12           | 문자열 (및 열거형) | 필드는 텍스트 필드로 나타납니다. |
+| 6           | Integer           | 값은 소수점이 없는 숫자로 표시됩니다. |
 | 2           | 실수              | 값은 소수점이 있는 숫자로 표시됩니다.<p>앱에서 실제 가치를 통화로 표시하려면 **fieldExtenededType** 속성을 사용합니다. **numberOfDecimals** 속성을 사용하여 표시되는 소수 자릿수를 설정할 수 있습니다.</p> |
 | 3           | Date              | 날짜 형식은 **사용자 옵션** 의 **언어 및 국가/지역 기본 설정** 아래에 지정된 사용자의 **날짜, 시간 및 숫자 형식** 설정에 따라 결정됩니다. |
 | 4           | Boolean           | |
@@ -153,13 +155,13 @@ ms.locfileid: "7005759"
 
 아래는 작업 표 항목 생성의 모바일 앱 스크린샷입니다. "두 번째 옵션" 열거형 값이 이미 설정된 "테스트 문자열"이라는 "시간 항목" 섹션의 기본 필드와 사용자 지정 필드가 표시됩니다.
 
-![앱의 테스트 문자열 사용자 지정 필드.](media/timesheet-entry.jpg)
+![앱의 테스트 문자열 사용자 지정 필드](media/timesheet-entry.jpg)
 
 
 
 아래는 "테스트 문자열" 사용자 지정 필드에 사용할 수 있는 열거형 옵션 중 하나를 선택하는 사용자의 모바일 앱 스크린샷입니다.  두 가지 옵션은 라디오 단추로 표시된 "첫 번째 옵션"과 "두 번째 옵션"입니다. 두 번째 옵션이 현재 선택되어 있습니다.
 
-![테스트 문자열 사용자 지정 필드에 대한 옵션 단추(라디오 단추).](media/enum-option.jpg)
+![테스트 문자열 사용자 지정 필드에 대한 옵션 단추(라디오 단추)](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ ms.locfileid: "7005759"
 
 아래는 Visual Studio 응용 프로그램 개체 트리의 스크린샷입니다. TestLineString 필드가 사용자 지정 필드로 추가된 TSTimesheetLine 테이블의 확장을 보여줍니다.
 
-![라인 문자열.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![라인 문자열](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>TSTimesheetSettings 클래스의 buildCustomFieldList 메서드에서 명령 체인을 사용하여 작업 표 입력 섹션에 필드를 표시합니다.
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 아래는 작업 표를 보고 있는 사용자의 모바일 앱 스크린샷입니다. "추가 정보 보기" 옵션을 표시하기 위해 오른쪽 상단 모서리에서 "추가 정보" 단추가 선택되었습니다.  
 
-![추가 정보 보기 명령.](media/show-more.png)
+![추가 정보 보기 명령](media/show-more.png)
 
 아래는 작업 표의 "자세히" 섹션을 보여주는 모바일 앱의 스크린샷입니다. "이 작업 표의 활용률(계산된 사용자 지정 필드)"이라는 사용자 지정 필드가 작업 표 헤더 섹션에 추가되었습니다. 사용자 지정 필드에 "0.667"의 읽기 전용 값이 설정됩니다.
 
-![자세히 섹션.](media/more-section.jpg)
+![자세히 섹션](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>사용자 지정 필드를 갖도록 TSTimesheetTable 테이블 확장
 
@@ -414,7 +416,7 @@ final class TSTimesheetDetails_Extension
 
 프로젝트 매개 변수에서 기본 필드를 읽기 전용으로 만들거나 모바일 앱에서 숨길 수 있습니다. **프로젝트 관리 및 회계 매개 변수** 페이지의 **시간표** 탭의 **모바일 시간표** 섹션에서 옵션을 설정합니다.
 
-![프로젝트 매개 변수.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![프로젝트 매개 변수](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>확장을 통해 선택할 수 있는 활동 변경
 

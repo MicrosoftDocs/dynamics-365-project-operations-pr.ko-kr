@@ -2,16 +2,18 @@
 title: 프로젝트 기반 견적 라인에서 여러 고객 관리
 description: 이 항목은 프로젝트 기반 견적 라인에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992034"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118571"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>프로젝트 기반 견적 라인에서 여러 고객 관리
 
@@ -42,6 +44,3 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 청구 분할 비율을 인라인으로 수정할 수 있습니다. 청구 분할 비율의 합계가 100%가 아니면 오류가 발생합니다. 청구 분할 비율을 편집한 후 견적 라인 페이지를 새로 고쳐 오류를 제거합니다.
 
 견적 라인 고객 하위 표에서 균등 분할 조치를 사용하여 모든 견적 라인 고객에게 청구 분할을 할당합니다. 반올림 계수가 있는 경우 반올림 고객에 추가됩니다. 견적 라인 고객 중 하나는 항상 반올림 고객으로 태그가 지정됩니다. 이는 견적 라인 고객 레코드에 반올림 플래그가 **예** 로 설정되어 있음을 의미합니다. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

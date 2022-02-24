@@ -2,9 +2,11 @@
 title: 연방지원금 지출계획 조회
 description: 이 항목은 연방지원금 지출계획 조회에 대한 정보를 제공합니다.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007244"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080036"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>연방지원금 지출계획 조회
 
@@ -60,7 +62,7 @@ ms.locfileid: "7007244"
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>연방지원금 지출계획 조회에 대해 보고할 보조금 설정
 
 1. **프로젝트 관리 및 회계 \> 보조금 \> 보조금** 으로 이동하고 기존 보조금을 선택합니다.
-2. **설정** 빠른 탭의 **연방 정부 지원 목록** 필드에서 CFDA 번호를 할당합니다. 보조금의 CFDA 번호는 보고할 CFDA 클러스터를 결정합니다.
+2. **설정** 빠른 탭의  **연방 정부 지원 목록** 필드에서 CFDA 번호를 할당합니다. 보조금의 CFDA 번호는 보고할 CFDA 클러스터를 결정합니다.
 3. **연락처 정보** 빠른 탭에서 다음 단계에 따라 교부 기관 정보를 입력합니다.
 
     1. **보조금 고객** 필드에 보조금을 담당하는 고객을 입력합니다. 기존 보조금의 경우 이 정보가 이미 입력되었을 수 있습니다.
@@ -77,8 +79,8 @@ ms.locfileid: "7007244"
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>보조금 유형에 따라 SEFA 보고에서 보조금 제외
 
-1. **프로젝트 관리 및 회계 \> 설정 \> 보조금 \> 보조금 유형** 으로 이동합니다.
-2. **기본 정보** 빠른 탭에서 **연방지원금 지출계획에서 제외** 확인란을 선택합니다.
+1.  **프로젝트 관리 및 회계 \> 설정 \> 보조금 \> 보조금 유형** 으로 이동합니다.
+2.  **기본 정보** 빠른 탭에서  **연방지원금 지출계획에서 제외** 확인란을 선택합니다.
 3. **저장** 을 선택하여 변경 내용을 저장합니다.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>연방지원금 지출계획 조회 실행
@@ -102,6 +104,3 @@ ms.locfileid: "7007244"
 - 연방 정부 지원 목록
 - 영수증
 - 지출
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 경비 관리 매개 변수 구성
 description: 이 항목은 경비 관리의 일반 동작을 제어하는 매개 변수를 설명합니다.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007784"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121046"
 ---
 # <a name="configure-expense-management-parameters"></a>경비 관리 매개 변수 구성
 
@@ -81,6 +83,3 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 반부패 증명 표시   | 경비 보고서가 생성될 때 반부패 텍스트를 표시하려면 이 옵션을 선택합니다. 그런 다음 경비 보고서에서 반부패 증명을 선택해야 하는 경우 특정 경비 범주를 활성화할 수 있습니다. 예를 들어, 공무원 경비와 관련된 선물 범주의 경우 직원이 경비가 공무원과 관련된 회사 정책을 충족하는지 확인해야 할 수 있습니다. |
 | 제출자를 위한 반부패 메시지 | 경비 보고서를 작성하는 직원에게 표시할 텍스트를 입력합니다. 사용자 언어에 따라 표시될 언어별 텍스트를 입력하려면 **번역** 을 선택합니다. |
 | 승인자를 위한 반부패 메시지  | 경비 보고서가 작성될 때 승인자에게 표시할 텍스트를 입력합니다. 사용자 언어에 따라 표시될 언어별 텍스트를 입력하려면 **번역** 을 선택합니다. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

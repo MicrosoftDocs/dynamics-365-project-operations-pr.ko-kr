@@ -2,9 +2,11 @@
 title: 회사 간 프로젝트 송장 구성
 description: 이 항목은 조직의 두 회사 간에 프로젝트 송장을 설정하는 방법을 보여줍니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989423"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080111"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>회사 간 프로젝트 송장 구성
 
@@ -62,6 +64,3 @@ ms.locfileid: "6989423"
 32. **가격 책정** 필드에 숫자를 입력합니다.
 33. **저장** 을 선택합니다.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

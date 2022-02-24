@@ -2,16 +2,18 @@
 title: 프로젝트 계약 관리
 description: 이 항목은 프로젝트 기반 계약 보기에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001844"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177339"
 ---
 # <a name="manage-project-contracts"></a>프로젝트 계약 관리
 
@@ -31,6 +33,3 @@ Dynamics 365 Project Operations의 프로젝트 계약은 프로젝트의 약정
 2. **보기 전환기**(보기 이름 옆의 드롭다운 화살표)를 선택하여 다른 필터링된 보기를 선택합니다. 사용자 지정 필터 기준을 사용하여 고유한 보기를 만들 수 있습니다.
 
 이 목록 페이지 또는 세부 사항 페이지에서 계약을 작성하거나 삭제할 수 있습니다.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

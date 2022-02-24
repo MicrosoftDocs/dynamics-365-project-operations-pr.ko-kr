@@ -2,6 +2,8 @@
 title: Project Service Automation 업데이트 릴리스 14, V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에서는 Project Service Automation 업데이트 릴리스 14 V3의 새로운 기능에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71971b96ea6955b95fa519884356a310b2885d0667d60ca07856a444de77dc64
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987039"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147166"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation 업데이트 릴리스 14, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
+Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
 
 이 항목에는 PSA V3, 업데이트 릴리스 14에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다. 이 버전의 빌드 번호는 V3.10.4.21이며 다음 일정으로 일반적으로 제공됩니다.
 
@@ -62,6 +64,3 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
      - 수정: 사용자가 프로젝트의 비용 견적에 대한 비용 가격을 입력할 때까지 총 판매 가격이 계산되지 않습니다.
      - 수정: 관련 프로젝트 계약이 **초안** 상태가 아닌 경우 견적을 **성공** 으로 종료하는 것에 실패합니다.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

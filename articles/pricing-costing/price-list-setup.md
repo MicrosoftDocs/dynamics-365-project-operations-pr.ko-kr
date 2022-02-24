@@ -2,16 +2,18 @@
 title: 가격표 설정
 description: 이 항목은 비용 및 판매 가격표를 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009494"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180200"
 ---
 # <a name="set-up-price-lists"></a>가격표 설정
 
@@ -38,6 +40,3 @@ Dynamics 365 Project Operations의 가격표는 요금 카탈로그를 나타냅
 | 통화 | **일반** 탭 및 **빨리 만들기** 양식 | 이 필드는 이 가격표와 관련된 각 역할, 범주 또는 가격표 항목 라인의 통화를 기본값으로 설정하는 데 사용됩니다. | **판매** 가격표, 역할, 범주 또는 가격표 항목 라인은 이 통화 이외의 다른 통화로 생성할 수 없습니다. **비용** 가격표에서 모든 통화로 역할 가격 라인을 생성할 수 있습니다. 여기에 정의된 통화가 기본값으로 사용됩니다. 관련 역할 가격인 사용자 설정은 이 값을 재정의하여 모든 통화로 인력 비용 요금 설정을 활성화할 수 있습니다. 범주 비용 요금 및 가격표 항목 비용은 여기에 정의된 통화로만 설정할 수 있습니다. |
 | 시간 단위 | **일반** 탭 및 **빨리 만들기** 양식 | 이 필드는 이 가격표와 관련된 각 역할 라인의 시간 단위를 기본값으로 설정하는 데 사용됩니다. | 이 필드 값은 관련 역할 가격 설정에서만 사용됩니다. **비용** 및 **판매** 가격표에서 모든 시간 단위로 역할 가격 라인을 생성할 수 있습니다. 여기에 정의된 시간 단위가 기본값으로 사용됩니다. 관련 역할 가격인 사용자 설정은 이 값을 재정의하여 모든 시간 단위로 인력 비용 및 청구 요금 설정을 활성화할 수 있습니다. |
 | 설명 | **일반** 탭 및 **빨리 만들기** 양식 | 이 텍스트 필드를 사용하면 가격표에 대한 여러 줄 설명을 제공할 수 있습니다. | 이 필드는 관련 가격표가 있는 다양한 엔터티의 가격표에 대한 **연관** 보기에 표시됩니다. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

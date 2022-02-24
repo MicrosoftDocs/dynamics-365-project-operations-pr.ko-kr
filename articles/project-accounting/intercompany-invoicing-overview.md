@@ -2,17 +2,18 @@
 title: 회사 간 송장 개요
 description: 이 토픽은 프로젝트에 대한 회사 간 송장에 대한 정보와 예를 제공합니다.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005399"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595507"
 ---
 # <a name="intercompany-invoicing-overview"></a>회사 간 송장 개요
 
@@ -20,9 +21,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 조직에 프로젝트를 위해 제품과 서비스를 서로 이전하는 여러 부서, 자회사 및 기타 법인이 있을 수 있습니다. 서비스 또는 제품을 제공하는 법인을 *대출 법인* 이라고 합니다. 서비스 또는 제품을 받는 법인을 *차용 법인* 이라고 합니다.
 
-다음 그림은 두 개의 법인인 Contoso Robotics USA(차용 법인) 및 Contoso Robotics UK(대출 법인)가 고객에게 프로젝트를 제공하기 위해 리소스를 공유하는 전형적인 시나리오를 보여줍니다. 이 시나리오의 경우 Contoso Robotics USA는 Adventure Works에 작업을 제공하기 위해 계약을 체결했습니다.
+다음 그림은 Contoso Robotics USA(차용 법인)와 Contoso Robotics UK(대출 법인)라는 두 법인이 리소스를 공유하여 고객에게 프로젝트 인 Adventure Works를 제공하는 일반적인 시나리오를 보여줍니다. 이 시나리오에서 Contoso Robotics USA는 Adventure Works에 작업을 제공하도록 계약을 맺었습니다.
 
-![회사 간 송장.](./media/IntercompanyScenario.png) 
+![회사 간 송장](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations는 다음 흐름을 사용하여 회사 간 트랜잭션을 처리합니다.
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations는 다음 흐름을 사용하여 회사 간 트�
 
 다음 다이어그램은 회계 이벤트 및 총계정 원장에 대한 예상 전기와 관련된 회사 간 송장을 보여줍니다.
 
-![회사 간 흐름.](./media/IntercompanyFlow.png)
+![회사 간 흐름](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>추가 리소스
 
 - [회사 간 송장 구성](configure-intercompany-invoicing.md)
 - [회사 간 트랜잭션 기록](create-intercompany-transactions.md)
 - [회사 간 고객 및 공급업체 송장 만들기](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

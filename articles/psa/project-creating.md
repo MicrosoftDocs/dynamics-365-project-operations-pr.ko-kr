@@ -2,6 +2,8 @@
 title: 프로젝트 일정
 description: 이 주제는 일정을 만드는 방법에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998424"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148426"
 ---
 # <a name="project-schedules"></a>프로젝트 일정 
 
@@ -94,7 +96,7 @@ ms.locfileid: "6998424"
 
 작업의 이름이 완료되어야 하는 작업을 설명합니다. PSA에서 작업과 연관된 특성은 작업의 일정과 인력 배치 요구 사항을 설명합니다.
 
-> ![업무 특성.](media/project-2.png)
+> ![업무 특성](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>일정 특성
 
@@ -147,6 +149,3 @@ PSA에서 일정을 사용하여 작업 간에 선행 관계를 만들 수 있�
 ### <a name="manual-scheduling"></a>수동 예약
 
 자동 예약의 규칙이 요구 사항을 충족하지 않는 경우 해당 작업의 작업 모드를 **수동으로 예약됨** 으로 설정할 수 있습니다. 이 설정은 일정 엔진이 다른 일정 특성에 대한 값 계산을 중지합니다. 작업 모드에 관계없이 이전 작업을 작업에 설정하면 종속 작업의 시작 날짜에 항상 영향을 미칩니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

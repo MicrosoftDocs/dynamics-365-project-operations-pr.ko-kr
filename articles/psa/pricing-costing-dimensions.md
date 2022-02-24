@@ -2,11 +2,12 @@
 title: 가격 및 원가 차원 홈 페이지
 description: 이 항목은 가격 차원에 대한 개요를 제공합니다.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998469"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151306"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>가격 및 원가 차원 홈 페이지
 
@@ -41,7 +42,7 @@ ms.locfileid: "6998469"
 
 PSA는 기본 가격 차원 집합으로 배송됩니다. 이러한 것을 **Project Service** > **파라미터** 로 이동하여 볼 수 있습니다. 파라미터 레코드에서 **금액 기반 가격 책정 차원** 탭에서 역할, **msdyn_resourcecategory** 및 리소싱 조직 단위, **msdyn_organizationalunit** 의 필드 **매출액에 해당** 및 **원가에 해당** 이 **예** 로 설정되어 있는지 확인하십시오. 이렇게 하면 각 역할 및 조직 단위 조합에 대한 가격과 원가를 설정할 수 있습니다.
 
-!["매출액에 해당"이 강조 표시된 Project Service 파라미터의 스크린샷.](media/PS-OOB-parameters.png)
+!["매출액에 해당"이 강조 표시된 Project Service 파라미터의 스크린샷](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > PSA 버전 3 이전에 역할 및 조직 단위의 즉시 사용 필드가 가격 차원으로 사용된 경우 관찰 가능한 변경 사항이 없습니다. 평소와 같이 Project Service를 계속 사용할 수 있습니다. 
@@ -66,16 +67,13 @@ PSA는 기본 가격 차원 집합으로 배송됩니다. 이러한 것을 **Pro
 
 | 역할        | 조직 단위    |단위      |가격      |통화  |
 | ------------|-------------|----------|----------:|----------|
-| 개발자   | Contoso US  |시간 | 200|USD     |
-| 개발자   | Contoso India |시간|   112|USD     |
+| 개발자   | Contoso US  |Hour | 200|USD     |
+| 개발자   | Contoso India |Hour|   112|USD     |
 
 
 **샘플 원가 요율**
 
 | 급여대     | 조직 단위    |단위      |가격      |통화  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |시간 | 145|USD     |
-| My company_Band2 | Contoso India |시간|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso India |Hour|   67|USD     |

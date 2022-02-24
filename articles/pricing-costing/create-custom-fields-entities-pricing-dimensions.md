@@ -2,9 +2,11 @@
 title: 가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기
 description: 이 항목은 사용자 정의 옵션 집합 또는 엔터티를 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003644"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642821"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기
 
@@ -44,7 +46,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 3. **신규** 를 선택하면 **표준 직함** 으로 불리는 새 엔터티가 만들어집니다. 
 4. 나머지 필수 정보를 입력한 다음 **저장** 을 선택합니다.
 
-> ![표준 직함 엔터티 정의.](media/Standard-Title-entity-definition.png)
+> ![표준 직함 엔터티 정의](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>옵션 세트 기반 차원 
 두 개의 옵션 세트 기반 차원을 생성할 수 있습니다. 
@@ -54,11 +56,11 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 다음 그래픽은 **리소스 작업 위치** 차원의 보기를 제공합니다. 
 
-> ![리소스 작업 위치로 불리는 옵션 집합 기반 가격 책정 차원.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![리소스 작업 위치로 불리는 옵션 집합 기반 가격 책정 차원](media/Option-set-PD-called-Resource-Work-Location.png)
 
 다음 그래픽은 **리소스 작업 시간** 차원의 보기를 제공합니다. 
 
-> ![리소스 작업 시간으로 불리는 옵션 집합 기반 가격 책정 차원.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![리소스 작업 시간으로 불리는 옵션 집합 기반 가격 책정 차원](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. **설정** > **솔루션** 으로 이동하고 **\<your organization name>가격 책정 차원** 을 두 번 클릭합니다. 
 2. 솔루션 탐색기의 왼쪽 탐색 창에서 **옵션 집합** 을 선택합니다. 
@@ -74,7 +76,4 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 4. 창을 닫습니다. 
 5. 1-3 단계를 반복하여 "선임 시스템 엔지니어"를 위한 다른 표준 직함을 만듭니다.
 
-> ![표준 직함 엔터티를 위한 샘플 데이터.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![표준 직함 엔터티를 위한 샘플 데이터](media/ST-data.png)

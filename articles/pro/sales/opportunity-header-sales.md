@@ -2,16 +2,18 @@
 title: 영업 기회 설정 - 라이트
 description: 이 항목은 프로젝트 기반 거래 및 프로젝트 기반 영업 기회 라인에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994464"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663827"
 ---
 # <a name="header-details-for-project-opportunities"></a>프로젝트 영업 기회에 대한 헤더 세부 사항
 
@@ -31,7 +33,7 @@ Dynamics 365 Project Operations의 프로젝트 기반 영업 기회는 Dynamics
 | 거래처 관리자 | 일반 탭 | 이 프로젝트 기반 영업 기회에 대한 거래처 관리자의 이름입니다. | 거래처 관리자는 이 프로젝트 완료를 통해 고객과의 관계를 관리할 책임이 있습니다. 거래처 관리자와 연결된 예약 가능한 리소스 레코드를 기반으로 계약 단위의 기본값이 정해집니다. |
 | 계약 단위 | 일반 탭 | 이 거래와 관련된 프로젝트 또는 프로젝트의 제공을 담당하는 조직 구성 단위입니다. | 계약 단위는 거래가 완료된 후 프로젝트를 완료할 회사의 부서입니다. 모든 계약 단위에는 통화가 있으며 이 통화는 프로젝트 중에 발생한 예상 비용과 실제 비용을 보고하는 데 사용됩니다. |
 
-영업 기회의 **요약** 탭에 있는 다른 모든 필드와 섹션의 경우 [영업 기회 만들기 또는 편집(영업 및 영업 허브)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)을 참조하십시오.
+영업 기회의 **요약** 탭에 있는 다른 모든 필드와 섹션의 경우 [영업 기회 만들기 또는 편집(영업 및 영업 허브)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)을 참조하십시오.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

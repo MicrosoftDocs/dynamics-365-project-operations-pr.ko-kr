@@ -2,16 +2,18 @@
 title: Project Operations 탐색
 description: 이 항목에서는 Lifecycle Services에서 Project Operations에 액세스하는 방법에 대한 정보를 제공합니다.
 author: sigitac
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994599"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642056"
 ---
 # <a name="navigate-project-operations"></a>Project Operations 탐색
 
@@ -28,14 +30,11 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 **Common Data Service 환경 이름** 섹션의 환경 이름을 사용하여 CDS 환경에서 Project Operations로 이동합니다. 
 
-  ![Common Data Service 환경 이름.](./media/environment-name.PNG)
+  ![Common Data Service 환경 이름](./media/environment-name.PNG)
 
 **로그인** > **환경에 로그인** 을 선택하여 Finance에서 **프로젝트 관리 및 회계** 모듈로 이동합니다.  
 
-   ![Finance에 로그인.](./media/environment-login.PNG)
+   ![Finance에 로그인](./media/environment-login.PNG)
 
 > [!NOTE]
 > Common Data Service 및 해당 URL을 사용하여 직접 **프로젝트 관리 및 회계** 모듈에서 Project Operations에 액세스할 수 있습니다. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

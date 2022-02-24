@@ -2,16 +2,18 @@
 title: 프로젝트 기반 계약 내용에서 여러 고객 관리 - 라이트
 description: 이 항목은 프로젝트 기반 계약 내용에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001799"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181638"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>프로젝트 기반 계약 내용에서 여러 고객 관리 - 라이트
 
@@ -41,6 +43,3 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 청구 분할 비율은 그리드에서 편집할 수 있습니다. 청구 분할 비율의 합계가 100%가 아니면 오류가 발생합니다. 청구 분할 비율을 편집한 후 페이지를 새로 고쳐 오류를 제거합니다.
 
 계약 내용 고객 하위 표에서 **균등 분배** 를 선택할 수도 있습니다. 이 작업은 모든 계약 내용 고객에게 청구 분할을 균등하게 할당합니다. 반올림 계수가 있는 경우 반올림 고객에 추가됩니다. 한 계약 라인 고객은 항상 **반올림** 플래그가 **예** 로 설정된 상태에서 **반올림** 고객으로 태그됩니다.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

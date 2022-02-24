@@ -2,6 +2,8 @@
 title: 리소스와 기술 연결
 description: 특정 리소스와 기술을 연결하는 방법(Project Service)
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0488773deea6c23dbab6c579a07ab7cbcc17534eb83a8888121160865cfd2706
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c824a5cdbcf6c7654fc96155cd4fdfb232308738
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000629"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145276"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>리소스와 기술 연결(Project Service)
 
@@ -43,6 +45,3 @@ ms.locfileid: "7000629"
   
 ### <a name="see-also"></a>참고 항목  
  [리소스 설정](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

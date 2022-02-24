@@ -2,6 +2,8 @@
 title: 시간 항목 캘린더
 description: 이 주제는 시간 항목 캘린더를 사용하드는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996759"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150181"
 ---
 # <a name="time-entry-calendar"></a>시간 항목 캘린더
 
@@ -40,6 +42,3 @@ Dynamics 365 Project Service Automation은 새롭고 확장 가능한 시간 항
 ## <a name="extensibility"></a>확장성
 
 시간 항목 그리드가 있는 **시간 항목** 페이지에서 맞춤 필드를 추가하고 조회 필드를 설정하고 맞춤 보기를 만들 수 있습니다. 맞춤 필드에 선택되거나 입력된 값을 기반으로 하는 맞춤 비즈니스 논리를 설정할 수도 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

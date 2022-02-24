@@ -2,26 +2,28 @@
 title: 프로젝트 리소싱 홈 페이지
 description: 이 항목은 프로젝트 리소싱에 대한 정보를 제공합니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007334"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080038"
 ---
 # <a name="project-resourcing-home-page"></a>프로젝트 리소싱 홈 페이지
 
@@ -38,7 +40,7 @@ ms.locfileid: "7007334"
 - 프로젝트의 전체 수명 주기에 필요한 리소스 수를 추정합니다.
 - 초기 리소스 할당을 사용하여 작업 분할 구조(WBS) 초안을 작성합니다.
 
-[![프로젝트 수명 주기.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![프로젝트 수명 주기](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 프로젝트 계획이 진행됨에 따라 계획된 리소스는 인력이 있는 리소스로 대체될 수 있습니다. 프로젝트 관리자는 모든 프로젝트 단계에서 다시 돌아가 리소스 예약을 업데이트할 수도 있습니다.
 
@@ -53,6 +55,3 @@ ms.locfileid: "7007334"
 - [프로젝트 자원 예약 성능](project-scheduling-performance.md)
 - [작업 분할 구조 템플릿에서 역할 설정](set-up-roles-wbs-template.md)
 - [계획된 리소스에 대한 리소스 이행](resource-fulfillment-planned-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

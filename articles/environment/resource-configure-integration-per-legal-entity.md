@@ -2,22 +2,24 @@
 title: 법인별 프로젝트 Project Operations 통합 구성
 description: 이 항목은 Project Operations에서 법인에 의한 통합 설정에 대한 정보를 제공합니다.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999414"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122891"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>법인별 프로젝트 Project Operations 통합 구성 
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 토픽은 법인 당 Dynamics 365 Project Operations 구성에 필요한 단계를 안내합니다.
+이 항목은 법인별로 Dynamics 365 Project Operations를 구성하는 데 필요한 단계를 안내합니다.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 기능 키 활성화
 
@@ -49,6 +51,3 @@ Dynamics 365 Customer Engagement에서 Project Operations를 사용하는 각 �
   - **결제 유형 기본값**: Project Operations는 라인 속성 Finance에 매핑되어야 하는 고정된 청구 유형 기본값 세트를 사용합니다. 각 청구 유형 **지정하지 않음**, **청구 가능**, **청구 불가능**, **무료** 및 **사용할 수 없음** 에 대한 레코드를 만듭니다.
   - **프로젝트 범주 기본값**: 각 트랜잭션 유형에 사용할 기본 프로젝트 범주를 선택합니다. 이러한 기본값은 **Project Operations 통합 분개장** 및 실제 프로젝트에 대해 트랜잭션 범주가 지정되지 않은 추정에 사용됩니다.
   - **예측**: 시간 및 비용 추정에 사용할 예측 모델을 선택합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

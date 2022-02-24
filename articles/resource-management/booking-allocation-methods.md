@@ -2,9 +2,11 @@
 title: 예약 할당 방법
 description: 이 항목은 프로젝트 운영에서 예약 할당 방법이 작동하는 방식에 대한 정보를 제공합니다.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004139"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121496"
 ---
 # <a name="booking-allocation-methods"></a>예약 할당 방법
 
@@ -79,6 +81,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 - 균등 분배 시간
 
 이러한 세 가지 할당 방법 중 하나를 사용하면 리소스가 초과 예약되었다는 메시지가 표시되지 않습니다. 초과 예약을 수정하려면 스케줄 게시판을 사용해야 합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

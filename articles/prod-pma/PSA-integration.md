@@ -2,25 +2,27 @@
 title: Project Service Automation 개요
 description: 이 항목은 Dynamics 365 Project Service Automation과 Dynamics 365 Finance 통합 솔루션에 대한 정보를 제공합니다.
 author: ruhercul
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005894"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271091"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 개요
 
@@ -56,7 +58,7 @@ Project Service Automation Finance를 통합하려면 먼저 Project Service Aut
 > [!NOTE]
 > 현재 모든 템플릿을 사용할 수 있는 것은 아닙니다. 템플릿이 완성되면 릴리스됩니다.
 
-[![Project Service Automation과 Finance 통합.](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Project Service Automation과 Finance 통합](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Finance 시스템 요구 사항
 

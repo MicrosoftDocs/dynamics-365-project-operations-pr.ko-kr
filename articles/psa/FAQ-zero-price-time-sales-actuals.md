@@ -2,6 +2,8 @@
 title: 시간 판매 실제 값에 대한 가격이 기본적으로 0이 되는 이유는 무엇입니까?
 description: 가격이 시간 판매 실제 값에서 기본값이 0인 이유 해결
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992574"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146221"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>시간 판매 실제 값에 대한 가격이 기본적으로 0이 되는 이유는 무엇입니까?
 
@@ -55,6 +57,3 @@ Project Service에서 기본 가격에 대한 가격표를 고려하려면 해�
 
 위의 세 가지 확인을 수행한 후에도 시간 판매 실제 값에 유효한 가격이 표시되지 않으면 지원 티켓을 기록해 주십시오. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

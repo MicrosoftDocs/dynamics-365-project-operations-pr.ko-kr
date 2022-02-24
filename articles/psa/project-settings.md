@@ -2,6 +2,8 @@
 title: 프로젝트 설정
 description: 이 항목은 프로젝트 관리 설정에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996939"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148156"
 ---
 # <a name="project-settings"></a>프로젝트 설정
 
@@ -43,11 +45,11 @@ ms.locfileid: "6996939"
   
 3. **월별 보기** 탭에서 **설정** 을 클릭합니다. 세 가지 옵션의 목록이 나타납니다: 
 
-  - 새 주별 일정
-  - 하루 작업 일정
+  - 새 주별 스케줄
+  - 하루 작업 스케줄
   - 휴가
 
-> ![옵션 설정.](media/project-13.png)
+> ![옵션 설정](media/project-13.png)
 
 4. **새 주별 스케줄** 을 선택한 다음 이 리소스 스케줄에 대한 옵션을 설정합니다. 되풀이되는 주간 일정, 일일 시간 파라미터, 휴무 등을 설정할 수 있습니다.
 5. 날짜 범위를 설정하고 **저장** 을 선택한 다음 **닫기** 를 클릭합니다. 
@@ -66,6 +68,3 @@ ms.locfileid: "6996939"
 ## <a name="price-lists"></a>가격표
 
 가격표에서 조직에서의 리소스 역할, 경비 카테고리, 제품 및 기타 요소를 위한 원가와 판매 가격을 설정할 수 있습니다. 프로젝트를 위해 인도해야 하는 작업의 재무 추산을 설정하기 전에 증빙 원가와 판매 가격표를 생성해야 합니다. 파라미터 섹션에서 조직에서 만든 모든 프로젝트에 적용되는 기본 원가 및 판매 가격표도 설정해야 합니다. **활성 프로젝트 파라미터** 페이지에서 기본 원가 및 판매 가격표를 설정해야 합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

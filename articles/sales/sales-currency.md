@@ -2,9 +2,11 @@
 title: 통화
 description: 이 항목은 Project Operations에서 통화 유형을 추가 및 제거하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999594"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642281"
 ---
 # <a name="currency"></a>통화
 
@@ -69,6 +71,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 > [!IMPORTANT]
 >  다른 레코드에서 사용 중인 통화는 삭제할 수 없으며 비활성화할 수만 있습니다. 통화 레코드를 비활성화하더라도 영업 기회, 주문 등의 기존 레코드에 저장된 통화 정보는 제거되지 않습니다. 그러나 새 트랜잭션에 대해 비활성화된 통화는 선택할 수 없습니다.  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

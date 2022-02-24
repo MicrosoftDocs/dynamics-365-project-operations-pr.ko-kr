@@ -2,16 +2,18 @@
 title: 일반 리소스 요구 사항 충족
 description: 이 항목은 일반 리소스 요건을 위해 명명된 리소스를 예약하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008279"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130316"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>일반 리소스 요구 사항 충족
 
@@ -37,6 +39,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 이 시나리오의 주요 차이점은 일반 리소스가 과업에 배정된 팀에 남아 있고 예약된 명명된 리소스 팀원이 직위의 일부로 배정되지 않는다는 것입니다. 프로젝트 관리자는 명명된 리소스에 적합한 과업을 배정할 수 있습니다. **조정** 보기는 프로젝트 관리자가 여러 리소스에 걸쳐 작업 배정에 대한 예약을 나누는 데 도움이 될 수 있습니다. 요건을 구성하는 작업 번들이 있는 경우와 같이 위의 간단한 예보다 더 복잡한 시나리오에서는 프로젝트 관리자가 배정하려는 방식의 의도를 시스템에서 가정해야 하기 때문에 이 작업은 자동으로 수행되지 않습니다. 시스템이 의도를 이해할 수 없기 때문에 가정이 의도한 것과 다를 수 있으며 올바르지 않거나 예측할 수 없는 결과가 발생할 가능성이 있습니다. 프로젝트 관리자가 **조정** 보기의 도움을 받아 의도적으로 배정을 만들 때까지 예측 가능한 결과는 일반 리소스가 배정된 상태로 유지된다는 것입니다.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

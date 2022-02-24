@@ -2,10 +2,12 @@
 title: Project Service Automation에서 송장 발부
 description: 이 주제는 송장 발부에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985509"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151396"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation에서 송장 발부
 
@@ -50,7 +52,7 @@ PSA는 다음과 같은 이유로 고객 관련 송장을 생성하도록 설계
 
 - **프로젝트 계약** 목록 페이지에서 프로젝트 계약을 연 다음 **송장 만들기** 를 선택합니다.
 
-    ![특정 프로젝트 계약에 대한 프로젝트 송장 만들기.](media/CreateProjectInvoicesOneByOne.png)
+    ![특정 프로젝트 계약에 대한 프로젝트 송장 만들기](media/CreateProjectInvoicesOneByOne.png)
 
     **송장 준비** 상태가 있는 선택한 프로젝트 계약에 대한 모든 트랜잭션에 대한 송장이 생성됩니다. 이러한 거래에는 시간, 비용, 이정표 및 제품 기반 계약 내용이 포함됩니다.
 
@@ -58,7 +60,7 @@ PSA는 다음과 같은 이유로 고객 관련 송장을 생성하도록 설계
 
 1. **프로젝트 계약** 목록 페이지에서 송장을 만들어야 하는 하나 이상의 프로젝트 계약을 선택한 다음 **프로젝트 송장 만들기** 를 선택합니다.
 
-    ![대량으로 프로젝트 송장 만들기.](media/CreateProjectInvoicesBulk.png)
+    ![대량으로 프로젝트 송장 만들기](media/CreateProjectInvoicesBulk.png)
 
     송장을 만들기 전에 지연될 수 있다는 경고 메시지가 표시됩니다. 프로세스도 표시됩니다.
 
@@ -115,6 +117,3 @@ PSA는 다음과 같은 이유로 고객 관련 송장을 생성하도록 설계
 
 - 6시간 동안 실제 청구된 영업.
 - 나머지 2시간 동안 청구되지 않은 영업 실제. 이 거래는 고객과의 협상에 따라 나중에 청구되거나 요금이 부과되지 않는 것으로 표시될 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

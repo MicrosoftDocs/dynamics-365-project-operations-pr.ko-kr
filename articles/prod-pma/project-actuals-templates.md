@@ -2,9 +2,11 @@
 title: Finance and Operations에 전기를 위해 Project Service Automation에서 프로젝트 통합 저널로 프로젝트 실제 데이터를 직접 동기화
 description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Finance and Operations로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988119"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080184"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations에 전기를 위해 Project Service Automation에서 프로젝트 통합 저널로 프로젝트 실제 데이터를 직접 동기화
 
@@ -42,7 +44,7 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 다음 그림은 Project Service Automation과 Finance 간에 데이터가 동기화되는 방식을 보여줍니다.
 
-[![Project Service Automation과 Finance and Operations 통합을 위한 데이터 흐름.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation과 Finance and Operations 통합을 위한 데이터 흐름](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation의 프로젝트 실제
 
@@ -93,9 +95,9 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 다음 그림은 데이터 통합에서 템플릿 작업 매핑의 예를 보여줍니다. 매핑은 Project Service Automation에서 Finance로 동기화될 필드 정보를 보여줍니다.
 
-[![템플릿 매핑 - 실제.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![템플릿 매핑 - 실제](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![템플릿 매핑 - 트랜잭션 연결.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![템플릿 매핑 - 트랜잭션 연결](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Project Service Automation에서 통합한 후 준비 테이블에서 가져오기
 
@@ -135,9 +137,6 @@ Project Service Automation에서 Finance로 실제 데이터를 동기화한 후
 
 다음 그림은 데이터 통합에서 템플릿 작업 매핑의 예를 보여줍니다. 매핑은 Finance에서 Project Service Automation으로 동기화될 필드 정보를 보여줍니다.
 
-[![템플릿 매핑 - 실제 업데이트.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![템플릿 매핑 - 실제 업데이트](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![템플릿 매핑 - 트랜잭션 업데이트.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![템플릿 매핑 - 트랜잭션 업데이트](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

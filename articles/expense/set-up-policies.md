@@ -2,9 +2,11 @@
 title: 경비 정책 정의
 description: 작업자가 경비 보고서 및 출장 요청을 입력하고 제출할 때 따라야 하는 경비 정책을 정의할 수 있습니다.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986364"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128426"
 ---
 # <a name="define-expense-policies"></a>경비 정책 정의
 
@@ -51,6 +53,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 ## <a name="when-to-evaluate-policies"></a>정책 평가 시기
 
 경비 관리 매개 변수에서 라인이 저장되거나 경비 보고서가 실행될 때 경비 관리 정책을 평가하도록 선택할 수 있습니다. 라인이 저장되는 시기를 평가하도록 선택하면 사용자는 경비 보고서를 한 번에 완료하기 위해 수행해야 하는 작업을 미리 파악할 수 있습니다. 그렇지 않으면 워크플로에 제출하는 동안 마지막에 유효성을 검사하여 정책 평가를 지연하고 시간을 절약할 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

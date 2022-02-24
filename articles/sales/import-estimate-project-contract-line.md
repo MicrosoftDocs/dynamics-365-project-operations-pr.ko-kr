@@ -2,22 +2,24 @@
 title: 프로젝트 기반 계약 내용으로 추정치 가져오기
 description: 이 항목에서는 프로젝트에서 계약 내용으로 추정을 가져오는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990099"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4080287"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>프로젝트 기반 계약 내용으로 추정치 가져오기
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-Dynamics 365 Project Operations에서는 프로젝트에서 프로젝트 기반 계약 내용으로 추정을 가져올 수 있습니다.
+Dynamics 365 Project Operations에서 프로젝트에서 프로젝트 기반 계약 내용으로 추정치를 가져올 수 있습니다.
 
 1. 프로젝트 기반 계약 내용의 **프로젝트** 필드가 채워지는지 확인합니다.
 2. **계약 내용 세부 정보** 탭의 하위 표에서 **프로젝트 견적에서 가져오기** 를 선택합니다. 요약 옵션이 있는 대화 상자 페이지가 열립니다. 사용 가능한 요약 옵션은 **트랜잭션 클래스**, **범주**, **역할** 및 **프로젝트 작업** 입니다. 요약을 위한 선택에 따라 이 계약 내용에 포함된 모든 트랜잭션 클래스에 대한 프로젝트의 추정이 복사됩니다. 
@@ -57,6 +59,3 @@ Dynamics 365 Project Operations에서는 프로젝트에서 프로젝트 기반 
 | 작업 A | 항공료 | 2020년 10월 1일 | 4 | 400 | 1600 |
 | 작업 B | 호텔 | 2020년 10월 1일 | 4 | 200 | 800 |
 | 작업 C | 호텔 | 2020년 11월 1일 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

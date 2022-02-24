@@ -2,16 +2,18 @@
 title: 예약 및 할당 비교
 description: 이 항목은 리소스 예약과 리소스 할당 간의 차이점에 대한 정보를 제공합니다.
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008459"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841180"
 ---
 # <a name="bookings-vs-assignments"></a>예약 및 할당 비교
 
@@ -24,6 +26,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 일반적으로 리소스 예약 합계는 하나 이상의 작업에 대한 리소스 할당 합계와 같습니다. 그러나 Project Operations는 이 계약을 강제하지 않습니다. **조정** 보기에는 리소스의 예약 및 할당이 일치하지 않는 프로젝트 관리자가 표시됩니다.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

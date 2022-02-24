@@ -2,6 +2,8 @@
 title: 시간 항목 만들기
 description: 이 주제는 시간 항목을 만드는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990414"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149686"
 ---
 # <a name="create-time-entries"></a>시간 항목 만들기
 
@@ -68,6 +70,3 @@ ms.locfileid: "6990414"
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>그룹화, 정렬, 검색 및 필터 기능
 
 열에 지정된 차원별로 시간 항목을 그룹화하고 필터링할 수 있습니다. **그룹화** 필드에서 시간 항목을 필터링하는 데 사용할 차원을 선택합니다. 열 표제의 정렬 화살표를 사용하여 오름차순 또는 내림차순으로 시간 항목 레코드를 정렬할 수도 있습니다. 또한 열 표제의 **필터** 버튼을 선택한 다음, **검색** 상자에서 프로젝트 명칭, 프로젝트 과업, 시간 항목 또는 리소스별로 시간 항목을 검색하는 데 사용해야 하는 텍스트를 입력하여 항목을 표시하거나 숨길 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

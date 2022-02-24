@@ -2,10 +2,12 @@
 title: Project Service Automation 3.x에서 단종된 웹 리소스
 description: 이 주제는 더 이상 Dynamics 365 Project Service Automation 3.0에서 사용되지 않는 웹 리소스에 대해 설명합니다.
 author: makk
+manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988929"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148561"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Project Service Automation 3.x에서 단종된 웹 리소스
 
@@ -536,6 +538,3 @@ ms.locfileid: "6988929"
 - msdyn\_\\Time\\App\\Scripts\\Views\\SubmitDialog.js
 - msdyn\_\\Time\\App\\Scripts\\Views\\TimeEntryView.js
 - msdyn\_\\Time\\Moca\\Scripts\\TimeEntryRibbon.js
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

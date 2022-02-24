@@ -2,9 +2,11 @@
 title: 견적에 대한 프로젝트 가격표 관리
 description: 이 항목은 프로젝트 가격표 엔터티에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003914"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177204"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>견적에 대한 프로젝트 가격표 관리
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations은 Dynamics 365 Sales에서 가격표 엔터티를 확장합니다. 
+Dynamics 365 Project Operations는 Dynamics 365 Sales의 가격표 엔터티를 확장합니다. 
 
 ## <a name="key-entities"></a>주요 엔터티
 
@@ -118,6 +120,3 @@ Project Operations는 프로젝트에서 인적 자원 시간을 사용하는 �
     1. 조직 구성 단위에 첨부된 비용 가격표입니다.
     2. Project Operations 매개 변수에 첨부된 비용 가격표입니다. PSA는 여러 다른 통화의 비용 가격표를 매개 변수에 연결할 수 있으므로 프로젝트, 계약 또는 견적의 계약 조직 구성 단위의 통화와 비용 가격표의 통화 간에 통화 일치를 수행합니다.
     3. 경비의 경우 비용 및 가격 인상 초과 비용 가격 책정 방법은 비용 가격표에 적용되지 않습니다. 이러한 가격 책정 방법을 비용 가격표 라인에서 거래 범주 비용을 설정하는 데 사용되더라도 시스템은 이를 무시하고 기본 비용 가격을 입력하지 않습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

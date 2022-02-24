@@ -2,9 +2,11 @@
 title: 수정 분개장 생성 및 확인
 description: 이 주제는 수정 분개장을 생성하고 확인하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986724"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127767"
 ---
 # <a name="create-and-confirm-correction-journals"></a>수정 분개장 생성 및 확인
 
@@ -87,6 +89,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 8. 프로젝트 페이지의 **실제** 탭에서 **실제 관련 보기** 를 검토합니다. 원래 항목과 수정 항목이 나열됩니다. 다음 그래픽은 원래 경비 항목 금액과 해당 수정 경비 항목 금액을 보여줍니다. 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

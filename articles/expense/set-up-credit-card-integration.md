@@ -2,9 +2,11 @@
 title: 신용 카드 통합 설정
 description: 이 항목은 경비 관련 신용 카드 트랜잭션을 처리하는 방법을 설명합니다.
 author: suvaidya
-ms.date: 11/17/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826264"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866691"
 ---
 # <a name="set-up-credit-card-integration"></a>신용 카드 통합 설정
 
@@ -50,18 +52,10 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="delete-credit-card-transactions"></a>신용 카드 트랜잭션 삭제 
 
-때로는 신용 카드 트랜잭션을 가져온 후 특정 트랜잭션을 삭제해야 할 수 있습니다. 트랜잭션이 중복되었거나 데이터가 정확하지 않기 때문일 수 있습니다. 관리자는 **신용 카드 트랜잭션 삭제** 기능을 사용하여 경비 보고서에 **첨부되지 않은** 신용 카드 트랜잭션을 선택하고 삭제할 수 있습니다. 
+때로는 신용 카드 트랜잭션을 가져온 후 특정 트랜잭션을 삭제해야 할 수 있습니다. 이는 트랜잭션이 중복되었거나 데이터가 정확하지 않기 때문일 수 있습니다. 관리자는 **신용 카드 트랜잭션 삭제** 기능을 사용하여 경비 보고서에 **첨부되지 않은** 신용 카드 트랜잭션을 선택하고 삭제할 수 있습니다. 
 
 1. **정기 작업** > **신용 카드 트랜잭션 삭제** 로 이동합니다.
 2. **필터** 를 선택하고 포함할 레코드를 식별하기 위한 정보를 제공합니다.
 3. **확인** 을 선택하여 레코드를 삭제합니다. 
-
-## <a name="storing-credit-card-numbers"></a>신용 카드 번호 저장
-
-신용 카드 번호를 저장하기 위해 세 가지 옵션을 사용할 수 있습니다. 신용 카드 번호는 **경비 관리 매개변수** 페이지에 저장됩니다.
-
-- **카드 번호 입력 방지** – 신용 카드 번호가 저장되지 않습니다.
-- **해시 카드 번호(마지막 4자리 저장)** – 신용 카드 번호의 마지막 4자리가 암호화된 형식으로 저장됩니다.
-- **카드 번호 저장** – 신용 카드 번호가 암호화되지 않은 형식으로 저장됩니다. 이 옵션은 PCI(Payment Card Industry) DSS(데이터 보안 표준)를 준수하지 않습니다. 따라서 조직이 PCI DSS 규정을 준수하도록 하려면 조직 관리자는 신용 카드 번호를 저장하지 않거나 해시 카드 번호를 저장하도록 선택해야 합니다.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

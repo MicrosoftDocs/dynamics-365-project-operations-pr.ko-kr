@@ -2,9 +2,11 @@
 title: 가격 책정 차원의 사용자 지정 필드 설정
 description: 이 항목은 사용자 지정 필드를 사용하여 가격 책정 차원 설정 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003599"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650226"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>가격 책정 차원의 사용자 지정 필드 설정
 
@@ -42,11 +44,11 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 - **가격 책정 차원** 표의 행으로 만들어져야 합니다. 예컨대 다음 그래픽과 같이 가격 책정 차원 행을 추가합니다. 
 
-![금액 기반 가격 책정 차원 행.](media/Amt-based-PD.png)
+![금액 기반 가격 책정 차원 행](media/Amt-based-PD.png)
 
 리소스 작업 시간(**msdyn_resourceworkhours**)이 가격 인상 기반 차원으로 추가되었으며 **인상 기반 가격 책정 차원** 탭의 그리드에 추가되었습니다.
 
-![인상 기반 가격 책정 차원 행.](media/Markup-based-PD.png)
+![인상 기반 가격 책정 차원 행](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -94,6 +96,3 @@ Contoso India에서 기본 요율이 100 USD인 어떤 리소스가 현장에서
 
 - **비용 우선순위**: 차원의 비용 우선순위 값은 비용 가격 설정과 일치할 때 해당 차원의 가중치를 나타냅니다. **비용 우선순위** 의 값은 **비용에 적용되는** 차원에 걸쳐 고유해야 합니다.
 - **판매 우선순위**: 차원의 판매 우선순위 값은 판매 가격 또는 청구 요율 설정과 일치할 때 해당 차원의 가중치를 나타냅니다. **판매 우선순위** 의 값은 **판매에 적용되는** 차원에 걸쳐 고유해야 합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

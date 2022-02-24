@@ -2,6 +2,8 @@
 title: 리소스 관리
 description: 이 항목은 리소스를 관리할 수 있는 방법에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998514"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151351"
 ---
 # <a name="manage-resources"></a>리소스 관리
 
@@ -58,34 +60,34 @@ PSA에서는 프로젝트 팀에서 일반 리소스를 예약할 수 있으며 
 
 1. **팀** 탭의 **프로젝트** 페이지에서 **신규** 를 선택하여 일반 리소스를 예약합니다.
 
-    ![팀에 예약한 일반 리소스.](media/Resource-Management-image9.png)
+    ![팀에 예약한 일반 리소스](media/Resource-Management-image9.png)
 
 2. **모든 팀 구성원** 보기의 **리소스 요구 사항** 열에서 일반 리소스에 필요한 기술을 추가할 링크를 선택합니다.
 
-    ![요구 사항 링크.](media/Resource-Management-image10.png)
+    ![요구 사항 링크](media/Resource-Management-image10.png)
 
 3. **기술** 표에 나타나는 **리소스 요구 사항** 페이지에서 말줄임표(**...**)를 선택하고 **새 요구 사항 특성 추가** 를 선택하여 개발자에게 필요한 기술을 추가합니다.
 
-    ![신규 요구 사항 특성 명령어 추가.](media/Resource-Management-image11.png)
+    ![신규 요구 사항 특성 명령어 추가](media/Resource-Management-image11.png)
 
 4. **특성** 필드에 나타나는 **빠른 만들기: 요구 사항 특성** 대화 상자에서 필요한 기술을 선택합니다. 그런 다음 **등급 값** 필드에서 해당 기술에 대한 숙련도 수준을 선택합니다. 마지막으로 **리소스 요구 사항** 필드에서 조직 구성 단위 또는 명명된 리소스에서 리소스를 소스로 지정합니다. 완료되면 **저장** 을 선택합니다.
 
-    ![빠른 만들기: 요구 사항 특성 대화 상자.](media/Resource-Management-image12.png)
+    ![빠른 만들기: 요구 사항 특성 대화 상자](media/Resource-Management-image12.png)
 
 5. **리소스 요구 사항** 페이지에서 리소스 요구 사항을 충족하려면 **예약** 을 선택합니다.
 
-    ![리소스 요구 사항 페이지의 예약 단추.](media/Resource-Management-image13.png)
+    ![리소스 요구 사항 페이지의 예약 단추](media/Resource-Management-image13.png)
 
     **모든 팀 구성원** 표에서 일반 리소스를 선택한 다음 **예약** 을 선택할 수도 있습니다.
 
-    ![모든 팀 구성원 표 위의 예약 버튼.](media/Resource-Management-image14.png)
+    ![모든 팀 구성원 표 위의 예약 버튼](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > 이 예제에서는 일반 리소스에 예약이 없기 때문에 40시간이 필요하지만 실제 예약 시간은 없습니다. 또한 일반 리소스가 팀에 직접 추가되었기 때문에 할당된 시간이 없습니다. 작업 할당을 사용하여 추가되지 않았습니다.
 
     **예약 도우미** 페이지에서 리소스 요구 사항에 지정된 요구 사항에 따라 사용 가능한 리소스를 필터링할 수 있습니다. 리소스는 일정 게시판에 지정된 정렬 매개 변수에 따라 정렬됩니다.
 
-    ![일정 도우미 페이지.](media/Resource-Management-image15.png)
+    ![일정 도우미 페이지](media/Resource-Management-image15.png)
 
     다음은 자주 사용되는 몇 가지 필터입니다.
 
@@ -95,23 +97,23 @@ PSA에서는 프로젝트 팀에서 일반 리소스를 예약할 수 있으며 
 
 6. 초기 요구 사항 검색 결과에 만족하지 않으면 필터 조건을 변경할 수 있습니다. 왼쪽의 **필터 보기** 창을 확장한 다음 **검색** 을 선택하여 추가 리소스를 찾습니다.
 
-    ![필터 보기 창.](media/Resource-Management-image16.png)
+    ![필터 보기 창](media/Resource-Management-image16.png)
 
 7. 결과를 정렬하는 방법을 변경하려면 **정렬** 을 선택합니다.
 
-    ![정렬 명령.](media/Resource-Management-image17.png)
+    ![정렬 명령](media/Resource-Management-image17.png)
 
 8. 표 맨 위에 표시된 대로 요구 사항에 지정된 수요에 따라 리소스를 선택합니다. 표에서 셀 선택을 지우고 해당 리소스 생산 능력을 열어 둘 수 있습니다. 한 번에 하나의 리소스만 예약된 리소스로 선택할 수 있습니다.
 
 9. **예약** 을 선택하여 선택한 리소스를 예약하고 일정 게시판을 열어 두면 추가 리소스를 선택할 수 있습니다. 또는 **예약 및 종료** 를 선택하여 선택한 리소스를 예약하고 일정 게시판을 닫습니다.
 
-    ![예약할 리소스.](media/Resource-Management-image19.png)
+    ![예약할 리소스](media/Resource-Management-image19.png)
 
     예약된 시간에 대한 알림을 받습니다. 수요 지표는 예약 요건이 얼마나 충족되는지, 얼마나 남아 있는지를 보여줍니다. 선택한 리소스의 생산 능력이 얼마나 사용되는지도 확인할 수 있습니다. 리소스 예약에 대한 자세한 내용을 보려면 **확장** 을 선택합니다.
 
 9. **모든 팀 구성원** 보기로 돌아갑니다. 표에서 일반 리소스가 명명된 리소스로 대체되었으며 40시간이 해당 리소스에 대해 예약된 리소스로 나열됩니다.
 
-    ![업데이트된 모든 팀 구성원 표.](media/Resource-Management-image20.png)
+    ![업데이트된 모든 팀 구성원 표](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > 팀에서 직접 예약했기 때문에 할당된 시간이 표시되지 않습니다. 작업 할당을 사용하여 예약되지 않았습니다.
@@ -122,45 +124,45 @@ PSA에서 작업을 만든 다음 일반 리소스를 할당할 수 있습니다
 
 1. **일정** 탭의 **프로젝트** 페이지에서 **추가** 를 선택하여 작업을 만듭니다.
 
-    ![새 작업 생성됨.](media/Resource-Management-image21.png)
+    ![새 작업 생성됨](media/Resource-Management-image21.png)
 
 2. **리소스** 필드에서 **리소스 선택기** 기호를 선택합니다. 리소스 선택기가 나타나고 프로젝트에 대한 기존 팀 구성원을 표시합니다.
 
-    ![리소스 선택기.](media/Resource-Management-image22.png)
+    ![리소스 선택기](media/Resource-Management-image22.png)
 
 3. 새 일반 리소스의 이름을 입력한 다음 **만들기** 를 선택합니다.
 
-    ![입력한 새 일반 리소스의 이름.](media/Resource-Management-image23.png)
+    ![입력한 새 일반 리소스의 이름](media/Resource-Management-image23.png)
 
 4. **역할** 필드에 나타나는 **빠른 만들기: 프로젝트 팀 구성원** 대화 상자에서 일반 리소스의 역할을 선택합니다. **리소스 단위** 필드에서 일반 리소스에 대한 조직 구성 단위를 선택합니다. 그런 다음 **저장** 을 선택합니다.
 
-    ![빠른 만들기: 프로젝트 팀 구성원 대화 상자.](media/Resource-Management-image24.png)
+    ![빠른 만들기: 프로젝트 팀 구성원 대화 상자](media/Resource-Management-image24.png)
 
     이제 일반 팀 구성원이 작업에 할당됩니다.
 
-    ![작업에 할당된 일반 팀 구성원.](media/Resource-Management-image25.png)
+    ![작업에 할당된 일반 팀 구성원](media/Resource-Management-image25.png)
 
     **팀** 탭에 새 일반 팀 구성원이 표시됩니다. 할당된 시간만 있습니다. 이 시간은 일반 팀 구성원에게 할당된 모든 작업의 합계입니다. 일반 팀 구성원은 아직 시간이나 리소스 요구 사항이 없습니다.
 
-    ![팀 탭의 일반 팀 구성원.](media/Resource-Management-image26.png)
+    ![팀 탭의 일반 팀 구성원](media/Resource-Management-image26.png)
 
 5. 이제 리소스 선택기를 사용하여 일반 팀 구성원을 다른 작업에 할당할 수 있습니다.
 
-    ![리소스 선택기의 일반 팀 구성원.](media/Resource-Management-image27.png)
+    ![리소스 선택기의 일반 팀 구성원](media/Resource-Management-image27.png)
 
     작업에 일반 리소스 할당을 완료하면 일반 리소스에 대한 리소스 요구 사항을 생성할 수 있습니다.
 
 5. **팀** 탭에서 일반 리소스를 선택한 다음 **요구 사항 생성** 을 선택합니다.
 
-    ![요구 사항 생성 명령.](media/Resource-Management-image28.png)
+    ![요구 사항 생성 명령](media/Resource-Management-image28.png)
 
     요구 사항이 생성되면 일반 팀 구성원은 리소스 요구 사항에 대한 필요한 시간과 링크를 갖게 됩니다.
 
-    ![리소스 요구 사항 링크.](media/Resource-Management-image29.png)
+    ![리소스 요구 사항 링크](media/Resource-Management-image29.png)
 
     명명된 리소스를 예약한 후에 일반 리소스가 팀에서 제거되고 명명된 리소스로 대체됩니다.
 
-    ![명명된 리소스로 대체된 일반 리소스.](media/Resource-Management-image30.png)
+    ![명명된 리소스로 대체된 일반 리소스](media/Resource-Management-image30.png)
 
     **일정** 탭에서 일반 리소스 할당이 제거되고 명명된 리소스로 대체됩니다.
 
@@ -171,23 +173,23 @@ PSA에서 작업을 만든 다음 일반 리소스를 할당할 수 있습니다
 
     다음 그림에서는 5일 기간(5일 동안 하루 16시간)에 대해 80시간의 작업을 계획하고 **기능** 이라는 일반 리소스에 할당했습니다.
 
-    ![기능 일반 리소스에 할당된 80시간 5일 작업.](media/Resource-Management-image32.png)
+    ![기능 일반 리소스에 할당된 80시간 5일 작업](media/Resource-Management-image32.png)
 
     요구 사항을 생성하면 5일 동안 80시간 동안 사용할 수 있습니다.
 
-    ![5일 동안 80시간에 대해 생성된 요구 사항.](media/Resource-Management-image33.png)
+    ![5일 동안 80시간 동안 생성된 요구 사항](media/Resource-Management-image33.png)
 
     사용 가능한 리소스는 하루에 8시간만 작동하므로 요구 사항을 충족하기 위해 두 개의 리소스가 필요합니다.
 
-    ![두 번째 리소스.](media/Resource-Management-image35.png)
+    ![두 번째 리소스](media/Resource-Management-image35.png)
 
     이제 **팀** 탭에서 일반 리소스에 필요한 시간이 없음을 알 수 있지만 할당된 시간은 여전히 이행을 구성하는 두 개의 명명된 리소스와 함께 표시됩니다.
 
-    ![팀 탭의 명명된 리소스 두 개.](media/Resource-Management-image36.png)
+    ![팀 탭의 명명된 리소스 두 개](media/Resource-Management-image36.png)
 
     **일정** 탭에서 일반 리소스는 작업에 할당된 상태로 유지됩니다.
 
-    ![일정 탭의 일반 리소스.](media/Resource-Management-image37.png)
+    ![일정 탭의 일반 리소스](media/Resource-Management-image37.png)
 
 PSA는 이 동작으로 인해 예측하기 어려운 일정이 생성되므로 두 리소스를 작업에 할당하지 않습니다. 이 간단한 예제에서는 시간을 두 리소스 간에 균등하게 나눌 수 있습니다. 그러나 여러 작업과 여러 리소스가 포함된 더 복잡한 시나리오에서 PSA는 여러 작업에서 여러 리소스에 대해 받은 예약을 할당하는 방법을 가정해야 합니다.
 
@@ -219,13 +221,13 @@ PSA는 이 동작으로 인해 예측하기 어려운 일정이 생성되므로 
 
 1. **팀** 탭의 **프로젝트** 페이지에서 팀 구성원을 선택하고 **예약 유지** 를 선택합니다.
 
-    ![선택한 팀 구성원에 대한 일정 게시판 열림.](media/Resource-Management-image40.png)
+    ![선택한 팀 구성원에 대한 일정 게시판 열림](media/Resource-Management-image40.png)
 
     일정 게시판이 나타나고 프로젝트 팀 구성원의 예약을 보여줍니다. 팀 구성원의 레코드를 확장하여 이 프로젝트및 팀 구성원의 생산 능력을 사용하는 다른 프로젝트에 대해 예약된 시간을 확인합니다.
 
 2. 예약을 선택하고 드래그하여 연장하거나 단축합니다. 예약을 조정할 수 있는 **리소스 예약 만들기** 대화 상자가 나타납니다.
 
-    ![리소스 예약 만들기 대화 상자.](media/Resource-Management-image41.png)
+    ![리소스 예약 만들기 대화 상자](media/Resource-Management-image41.png)
 
 3. 예약을 마우스 오른쪽 버튼으로 클릭합니다. 그런 다음 바로 가기 메뉴를 사용하여 다음 작업을 완료할 수 있습니다.
 
@@ -237,7 +239,7 @@ PSA는 이 동작으로 인해 예측하기 어려운 일정이 생성되므로 
 
 기본 또는 사용자 지정 예약 상태를 변경할 수 있습니다.
 
-![상태 변경 명령.](media/Resource-Management-image42.png)
+![상태 변경 명령](media/Resource-Management-image42.png)
 
 다음과 같은 상태가 PSA에 포함됩니다.
 
@@ -257,11 +259,11 @@ PSA는 이 동작으로 인해 예측하기 어려운 일정이 생성되므로 
 
 리소스 요구 사항이 생성되면 프로젝트 관리자는 리소스를 선택한 다음 **요청 제출** 을 선택하여 일반 리소스에 대한 리소스 요청을 제출할 수 있습니다.
 
-![요청 제출 단추.](media/Resource-Management-image45.png)
+![요청 제출 단추](media/Resource-Management-image45.png)
 
 리소스에 대한 주석은 요청을 충족하는 리소스 관리자에게 제공할 수 있습니다. 요청이 제출되면 팀 구성원의 **상태** 필드가 **제출됨** 으로 변경됩니다.
 
-![선택 사항 주석 입력.](media/Resource-Management-image46.png)
+![선택 사항 주석 입력](media/Resource-Management-image46.png)
 
 리소스 관리자가 요청을 이행하면 일반 팀 구성원이 **모든 팀 구성원** 표의 명명된 리소스로 바뀝니다.
 
@@ -271,11 +273,11 @@ PSA는 이 동작으로 인해 예측하기 어려운 일정이 생성되므로 
 
 리소스 관리자는 리소스 요청에 대한 리소스를 직접 예약하는 대신 프로젝트 관리자에게 리소스를 제안할 수 있습니다. 리소스 관리자는 요구 사항에 대한 정확한 일치를 사용할 수 없는 경우 이 옵션을 사용할 수 있습니다. 리소스 관리자가 리소스를 제안하면 프로젝트 관리자는 일반 팀 구성원의 **상태** 필드가 **검토 필요** 로 변경된 것을 볼 수 있습니다.
 
-![일반 팀 구성원의 상태가 검토 필요로 변경됨.](media/Resource-Management-image48.png)
+![일반 팀 구성원의 상태가 검토 필요로 변경됨](media/Resource-Management-image48.png)
 
 제안된 리소스를 제안서 예약의 효과에 대한 시각화와 함께 보려면 **검토 필요** 상태가 있는 팀 구성원을 두 번클릭합니다. 그런 다음 **제안된 리소스** 탭을 선택합니다.
 
-![제안된 리소스 탭.](media/Resource-Management-image49.png)
+![제안된 리소스 탭](media/Resource-Management-image49.png)
 
 **모든 제안 수락** 을 선택하여 모든 제안된 리소스를 수락하하거나 **모든 제안 거부** 를 눌러서 거부합니다. 제안된 리소스를 수락하면 프로젝트에서 팀 구성원으로 확정 예약되고 일반 리소스를 대체합니다.
 
@@ -289,30 +291,30 @@ PSA는 이 동작으로 인해 예측하기 어려운 일정이 생성되므로 
 1. **팀** 탭의 **프로젝트** 페이지에서 대체가 필요한 리소스를 선택하고 **예약 유지** 를 선택합니다.
 2. 리소스를 확장하여 할당된 프로젝트를 봅니다.
 
-    ![할당된 프로젝트를 표시하도록 확장된 리소스.](media/Resource-Management-image50.png)
+    ![할당된 프로젝트를 표시하도록 확장된 리소스](media/Resource-Management-image50.png)
 
 3. 프로젝트를 마우스 오른쪽 단추로 클릭한다음 **리소스 대체** 를 선택합니다.
 4. 현재 리소스를 대체할 리소스를 알고 있는 경우 이름을 선택하거나 입력한 다음 **다시 할당** 을 선택합니다.
 
-    ![대체 리소스 지정.](media/Resource-Management-image51.png)
+    ![대체 리소스 지정](media/Resource-Management-image51.png)
 
     또는 다음 단계를 수행하여 리소스를 검색합니다.
 
     1. **대체 찾기** 를 선택합니다.
 
-        ![대체 리소스 검색.](media/Resource-Management-image52.png)
+        ![대체 리소스 검색](media/Resource-Management-image52.png)
 
         일정 도우미는 사용 가능한 대체의 목록입니다. 일정 도우미에서 사용 가능한 리소스를 추가로 필터링하여 적절한 대체 리소스를 찾을 수 있습니다.
 
-        ![사용 가능한 대체 목록.](media/Resource-Management-image53.png)
+        ![사용 가능한 대체 목록](media/Resource-Management-image53.png)
 
     2. 리소스를 대체하려면 원하는 리소스를 선택한 다음 **대체** 를 선택합니다.
 
-        ![대체 리소스 선택됨.](media/Resource-Management-image54.png)
+        ![대체 리소스 선택됨](media/Resource-Management-image54.png)
 
     예약 및 할당은 새 리소스로 대체됩니다.
 
-    ![예약 및 할당이 새 리소스로 대체됨.](media/Resource-Management-image55.png)
+    ![예약 및 할당이 새 리소스로 대체됨](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>팀 구성원 예약 및 할당 조정
 
@@ -320,7 +322,7 @@ PSA는 이 동작으로 인해 예측하기 어려운 일정이 생성되므로 
 
 PSA에는 프로젝트 관리자가 프로젝트 팀을 위한 팀원 예약과 배정을 조정하게 해주는 **조정** 탭이 있습니다.
 
-![조정 탭.](media/Resource-Management-image56.png)
+![조정 탭](media/Resource-Management-image56.png)
 
 **조정** 탭은 각 팀 구성원에 대해 개별 작업 할당의 수준으로 내려가는 예약 및 할당을 표시합니다. 그것은 셀에 수 개월~수 일의 기간을 나타내는 시간을 보여줍니다.
 
@@ -335,13 +337,10 @@ PSA에는 프로젝트 관리자가 프로젝트 팀을 위한 팀원 예약과 
 
 더 높은 시간 수준을 볼 때 **조정** 탭의 셀은 낮은 수준에 차이가 있음을 알리는 표시등이 표시됩니다. 셀을 두 번 클릭하여 확대하고 차이를 볼 수 있습니다. 그런 다음 마우스 오른쪽 단추로 클릭하여 축소할 수 있습니다. 리소스를 선택한 다음 그리드 도구 모음에서 **다음 차이** 컨트롤을 사용하여 해당 리소스에 대한 예약과 할당 간의 다음 차이로 이동하여 확인할 수 있습니다. 그런 다음 **이전 차이** 컨트롤을 사용하여 다시 돌아갈 수 있습니다. **설정** 에서 차이 표시기 및 탐색 동작을 해제할 수도 있습니다.
 
-![차이 표시기.](media/Resource-Management-image57.png)
+![차이 표시기](media/Resource-Management-image57.png)
 
 리소스에 대한 작업 할당이 있지만 예약이 없는 경우, **조정** 탭의 **프로젝트** 페이지에서 예약 부족을 선택한 다음 **예약 연장** 을 선택합니다. **예약 연장** 대화 상자가 나타나고 리소스 부족을 해결하는 데 필요한 예약을 표시합니다. 또한 모든 프로젝트 또는 기타 예약 가능한 엔터티에서 리소스의 기존 예약을 표시합니다. 리소스의 가용성에 관계없이 리소스에 대한 예약을 만들려면 **확인** 을 선택하면 초과 예약이 발생할 수 있습니다.
 
-![예약 연장 대화 상자.](media/Resource-Management-image58.png)
+![예약 연장 대화 상자](media/Resource-Management-image58.png)
 
 그런 다음 프로젝트 관리자 또는 리소스 관리자는 일정 게시판을 사용해서 리소스가 생산 능력을 초과해서 예약된 모든 상황을 관리할 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

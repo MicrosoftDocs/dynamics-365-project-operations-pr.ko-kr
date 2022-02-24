@@ -2,16 +2,18 @@
 title: 시간 항목 UI 동작
 description: 이 항목은 시간 항목의 UI 동작에 대한 정보를 제공합니다.
 author: stsporen
+manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999459"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499622"
 ---
 # <a name="time-entry-ui-behavior"></a>시간 항목 UI 동작
 

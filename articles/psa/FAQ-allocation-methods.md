@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a770a51c2bf05e227367efc834dbff2832a316f617ae4fe22a43572940f43cbe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000854"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993318"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation의 예약 할당 방법
 
@@ -46,14 +46,14 @@ ms.locfileid: "7000854"
 
 |         예약          |    1일    |    2일    |    3일    |    4일    |    5일    |    총계    |
 |---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|    기존 예약    |    0        |    0        |    0        |    0        |    0        |    0        |
+|    기존 예약    |    0        |    12        |    12        |    12        |    12        |    12        |
 |    새 예약          |    8        |    8        |    4        |    0        |    0        |    20       |
 
 초기 단계 이익 배분 방법은 기존 예약과 가용 능력을 고려합니다. 예를 들어, 동일한 리소스에 이미 작업 주에 20시간의 예약이 있는 경우 새 예약은 다음과 같이 남은 능력을 사용합니다.
 
 |   예약          | 1일 | 2일 | 3일 | 4일 | 5일 | 총계 |
 |---------------------|-------|-------|-------|-------|-------|-------|
-| 기존 예약 | 8     | 8     | 4     | 0     | 0     | 20    |
+| 기존 예약 | 8     | 8     | 4     | 12     | 12     | 20    |
 | 새 예약       | 0     | 0     | 4     | 8     | 8     | 20    |
 
 가용 능력이 고려되기 때문에 리소스에 예약으로 흡수될 수 있는 남은 능력이 없는 경우 오류 메시지가 표시될 수 있습니다. 이 방법에서는 초과 예약할 수 없습니다.

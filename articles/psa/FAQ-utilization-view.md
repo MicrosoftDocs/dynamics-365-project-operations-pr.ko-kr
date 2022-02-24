@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007154"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992842"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>청구 가능한 리소스 활용도 보기
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007154"
  
 **Project Service 리소스 활용도** 페이지의 **활용도 보기** 는 예약 가능한 각 리소스에 대한 청구 가능한 활용도를 표시합니다. 보기는 스케줄 게시판에 근거하므로 같은 기능 대부분을 찾을 수 있습니다.
 
-> ![사용률 보기의 스크린샷.](media/FAQ-utilization-1.png)
+> ![사용률 보기의 스크린샷](media/FAQ-utilization-1.png)
  
 
 청구 가능한 사용률 계산은 다음과 같이 작동합니다.
@@ -48,7 +48,7 @@ ms.locfileid: "7007154"
 2. 리소스를 선택하여 레코드를 엽니다. 
 3. **Project Service** 탭에서 리소스의 목표 활용도를 설정할 수 있습니다.
 
-> ![Project Service 탭을 사용하여 대상 사용률을 설정하는 스크린샷.](media/FAQ-utilization-2.png)
+> ![Project Service 탭을 사용하여 대상 사용률을 설정하는 스크린샷](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>역할에 대한 목표 활용도 설정
 
@@ -56,7 +56,7 @@ ms.locfileid: "7007154"
 2. 역할을 선택하여 레코드를 엽니다. 
 3. 역할에 대한 대상 사용률을 설정합니다.
 
-> ![리소스 역할을 사용하여 대상 사용률을 설정하는 스크린샷.](media/FAQ-utilization-3.png)
+> ![리소스 역할을 사용하여 대상 사용률을 설정하는 스크린샷](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>리소스에 대한 청구 가능한 활용도 계산
 

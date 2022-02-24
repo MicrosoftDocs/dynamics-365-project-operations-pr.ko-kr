@@ -2,9 +2,11 @@
 title: 총계정 원장 또는 조달 및 소싱에서 경비 보고서 보기
 description: 이 항목은 트랜잭션이 표시된 원래 경비 보고서를 보는 방법을 설명합니다.
 author: saraschi2
+manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d660d372bf4421da21b42889cfc62cd62df7366414af7e1a6efe4747033a29b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d86185b414a559694077783d1f89dc863112a252
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271181"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>총계정 원장 또는 조달 및 소싱에서 경비 보고서 보기
 

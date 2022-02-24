@@ -1,10 +1,12 @@
 ---
 title: 가격 책정 차원의 Project Operations 필드
-description: 이 토픽은 필드를 Dynamics 365 Project Operations의 가격 책정 차원으로 사용하는 정보를 제공합니다.
+description: 이 항목은 Dynamics 365 Project Operations에서 가격 책정 차원으로서 필드를 사용하는 것에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2f95228cd765d9f220aa4b143412b237ec609eb89fd9aeb786818af828dd3229
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 59367b35f15f806b109f606e912edc487d9e7685
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001934"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119246"
 ---
 # <a name="project-operations-fields-as-pricing-dimensions"></a>가격 책정 차원의 Project Operations 필드
 
@@ -29,6 +31,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 **실제** 엔터티에는 리소스 기반 가격 책정에 대한 가격 책정 차원으로 사용할 수 있는 많은 필드가 있습니다. 예를 들어, 하나의 공통 필드가 **예약 가능한 리소스** 입니다. 청구 가능한 리소스가 20~30개 미만인 소규모 기업은 각 리소스에 특정한 청구서 및 비용 요율을 갖는 것이 더 간단한 방법입니다. 그러나 청구 가능한 인력이 증가함에 따라 리소스 보안 요율은 유지하기가 비현실적이 될 수 있습니다. 리소스가 승진하거나 더 많은 경험을 얻거나 다른 기술을 습득함에 따라 리소스 비용 및 청구 요금이 달라지기 시작합니다. 
 
 또 다른 예는 처리 카테고리의 예입니다. 고객과 구현자는 처리 카테고리를 사용하여 작업을 분류하고 해당 필드를 사용하여 작업의 카테고리에 따라 가격과 비용을 책정하였습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

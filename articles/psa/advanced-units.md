@@ -2,6 +2,8 @@
 title: 단위 그룹 및 단위
 description: 이 항목은 단위 그룹 및 단위에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987579"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145591"
 ---
 # <a name="unit-groups-and-units"></a>단위 그룹 및 단위
 
@@ -44,7 +46,7 @@ ms.locfileid: "6987579"
 
 다음 이미지는 **일** 단위 설정의 예를 보여줍니다, 여기서 **수량** 필드는 하루에 있는 시간 수를 나타내고, **주** 단위 설정의 경우 **수량** 필드는 한 주에 있는 일 수를 나타냅니다.
 
-> ![단위 그룹: 정보 페이지.](media/advanced-2.png)
+> ![단위 그룹: 정보 페이지](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>단위 및 단위 그룹 사용
 
@@ -86,7 +88,7 @@ Dynamics 365 Project Service Automation은 단위 및 단위 그룹을 사용하
 
 | 역할      | 단위 그룹 | 단위 | 조직 구성 단위 | 가격   |
 |-----------|------------|------|---------------------|---------|
-| 개발자 | 시간       | 요일  | Contoso 영국          | 800 GBP |
+| 개발자 | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>시간 항목
 
@@ -110,6 +112,3 @@ Dynamics 365 Project Service Automation은 단위 및 단위 그룹을 사용하
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>단위 및 단위 그룹을 편집, 삭제 및 추가할 수 있습니까?
 예. **시간** 단위 그룹 및 **시간** 단위를 예외로 하고, 모든 단위를 삭제하거나 편집할 수 있으며 새 단위를 추가할 수 있습니다. PSA에서는 **시간** 단위 그룹과 **시간** 단위를 삭제할 수 없습니다. 그러나 **이름** 필드에 대한 번역된 텍스트로 업데이트할 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,19 @@
 ---
 title: 시간 개요
-description: 이 토픽은 Dynamics 365 Project Operations의 시간 기능에 대한 정보를 제공합니다.
+description: 이 항목은 Dynamics 365 Project Operations에서 시간 기능에 대한 정보를 제공합니다.
 author: stsporen
+manager: AnnBe
 ms.date: 10/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.custom: intro-internal
-ms.openlocfilehash: 23697d7fedbf3edfef5099f615056162d2f8d6ce094884e20229123c17006311
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999504"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124556"
 ---
 # <a name="time-overview"></a>시간 개요
 
@@ -26,6 +27,3 @@ Project Operations에서 시간을 기록할 때 사용자는 프로젝트의 �
 
 항목을 생성, 제출 또는 회수하는 방법과 보고를 완료하는 데 도움이 되는 기타 도구에 대한 정보는 [시간 입력 사용자 동작](ui-behavior-time.md)을 참조하십시오.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

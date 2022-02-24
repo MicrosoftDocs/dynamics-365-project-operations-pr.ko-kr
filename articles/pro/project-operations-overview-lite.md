@@ -2,23 +2,24 @@
 title: 라이트 배포 개요
 description: 이 항목은 Dynamics 365 Project Operations의 라이트 배포에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997389"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365544"
 ---
 # <a name="lite-deployment-overview"></a>라이트 배포 개요
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-Dynamics 365 Project Operations의 라이트 배포 유형에는 프로젝트 기반 회사에 대해 다음과 같은 기능이 있습니다.
+Dynamics 365 Project Operations의 라이트 배포 유형에는 프로젝트 기반 회사를 위한 다음과 같은 기능이 있습니다.
 
 - 웹용 Microsoft Project를 사용한 프로젝트 계획
 - 인건비에 대한 다차원적 가격 책정 및 비용
@@ -36,6 +37,3 @@ Project Operations에서 다음 요구 사항을 포함하여 전체 프로젝�
 - 프로젝트 영업에서 송장 발행에 이르기까지 일정 및 재무에 대한 내부 및 청구 가능한 프로젝트를 관리하는 통합 시스템입니다.
 - 제3자 기업 자원 계획(ERP) 재무 회계 시스템은 Project Operations과 통합됩니다.
 - 판매세, 환율, 경비 상환 및 비 프로젝트 경비를 처리하는 타사 시스템입니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

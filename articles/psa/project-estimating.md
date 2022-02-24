@@ -2,6 +2,8 @@
 title: 프로젝트 원가 및 수익
 description: 이 항목은 프로젝트 원가 및 수익을 추산하는 것에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002564"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148336"
 ---
 # <a name="project-costs-and-revenue"></a>프로젝트 원가 및 수익
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002564"
 
 프로젝트 추산은 프로젝트 스케줄에서 추정되고 스케줄이 잡힌 작업에 대한 재무적인 내용을 볼 수 있게 해 줍니다. **프로젝트** 페이지의 **추산** 탭에는 귀하가 계획 중인 작업의 원가 및 수익 영향이 표시됩니다. 또한 사전 정의된 많은 차원에 대한 정보도 제공합니다. 
 
-> ![추산 탭.](media/project-5.png)
+> ![추산 탭](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>프로젝트 원가 및 매출액의 값
 
@@ -66,13 +68,13 @@ ms.locfileid: "7002564"
 
 **추산** 탭에는 추산 행을 보여주는 그리드 보기가 있습니다. 그리드에는 다음 그림과 같이 단위, 총 원가 및 총 판매 가격에 대한 열이 포함됩니다. 
 
-> ![추산 탭의 그리드 보기.](media/project-6.png)
+> ![추산 탭의 그리드 보기](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>프로젝트 추정 시간대별 보기
 
 프로젝트 추산의 시간 단계별 보기는 선택한 시간 척도에서 타임라인 전체의 그리드 뷰의 추산 데이터를 표시합니다. 기본적으로 추산 데이터는 **역할** 차원에 근거합니다.
 
-> ![시간 단계별 프로젝트 추산 보기.](media/project-7.png)
+> ![시간 단계별 프로젝트 추산 보기](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>과업 모드에 근거한 추산 노력 할당
 
@@ -95,6 +97,3 @@ ms.locfileid: "7002564"
 ## <a name="expense-estimates"></a>경비 추정
 
 그리드 뷰에서 **새 경비 추산 추가** 버튼을 사용하면 프로젝트에서 발생하는 모든 경비를 기록할 수 있지만 이는 노동과 직접적인 관련이 없습니다. 귀하는 특정 과업 또는 전체 프로젝트에 대한 경비 추산을 기록할 수 있습니다. 경비 카테고리와 경비가 발생할 것으로 예상되는 임시 날짜를 선택합니다. 연계된 원가 목록과 판매가 목록에 기본 가격이 있는 경우(또는 경비 카테고리를 위한 인상율이 정의되어 있는 경우), 연계가 발생할 때 그것이 자동적으로 입력됩니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

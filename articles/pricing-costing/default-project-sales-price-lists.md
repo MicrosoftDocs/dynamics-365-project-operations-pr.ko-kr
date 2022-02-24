@@ -2,16 +2,18 @@
 title: 기본 가격표
 description: 이 항목은 Project Operations에서 기본 판매 및 원가 가격표에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989874"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130946"
 ---
 # <a name="default-price-lists"></a>기본 가격표
 
@@ -19,7 +21,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="sales-price-lists"></a>판매 가격표
 
-Dynamics 365 Project Operations의 모든 프로젝트 견적 및 계약은 기본 판매 가격표를 포함합니다. 
+Dynamics 365 Project Operations의 모든 프로젝트 견적 및 계약에는 기본 판매 가격표가 포함되어 있습니다. 
 
 ### <a name="price-list-default-on-project-quotes"></a>프로젝트 견적에 대한 기본 가격표
 시스템은 다음 프로세스를 완료하여 프로젝트 견적에서 기본값으로 사용할 가격표를 결정합니다.
@@ -55,6 +57,3 @@ Dynamics 365 Project Operations의 모든 프로젝트 견적 및 계약은 기�
 5. 그런 다음 시스템은 들어오는 추정 또는 실제 라인의 날짜와 일치하는 가격표의 날짜 유효성을 확인합니다. 
 6. 들어오는 추정 또는 실제 날짜에 유효한 가격표가 여러 개 있는 경우 가장 최근에 생성된 가격표가 선택됩니다.
 7. 통화 및 유효 날짜와 일치하는 프로젝트 매개 변수에 첨부된 원가표가 없는 경우 시스템은 들어오는 추정 또는 실제 라인에서 비용 요금을 기본적으로 0으로 설정합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

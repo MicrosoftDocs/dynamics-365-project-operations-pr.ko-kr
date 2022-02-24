@@ -2,17 +2,19 @@
 title: 2021년 1월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2021년 1월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
+manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008099"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958929"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 1월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -86,7 +88,4 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="regulatory-updates"></a>규제 업데이트
 
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.

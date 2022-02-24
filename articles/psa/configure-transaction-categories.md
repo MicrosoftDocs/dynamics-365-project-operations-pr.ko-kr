@@ -2,6 +2,8 @@
 title: 거래 범주 구성
 description: Project Service에서 트랜잭션 범주를 설정하는 방법
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a6f88f3f2a883a663c3594fa4a08cc9e170330ae30318c1b8f322cca6349bf3f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 404135d1f5ff73120d167d9d0e774b415164a2c1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008684"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149506"
 ---
 # <a name="configure-transaction-categories-project-service"></a>거래 범주 분류(Project Service)
 
@@ -41,6 +43,3 @@ ms.locfileid: "7008684"
   
 ### <a name="see-also"></a>참고 항목  
  [Project Service 구성](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

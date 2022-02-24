@@ -2,16 +2,18 @@
 title: 제품 기반 계약 내용의 복잡한 단위 관리 - 라이트
 description: 이 항목은 구독 기반 제품 영업 지원에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003374"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177384"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>제품 기반 계약 내용의 복잡한 단위 관리 - 라이트
 
@@ -44,6 +46,3 @@ Project Operations는 숫자 데이터 형식이 있는 숫자 속성 또는 제
 7. 제품 기반 계약 내용의 수량을 구성할 모든 속성에 대해 2-6단계를 반복합니다.
 
 수량 계수가 설정되면 사용자가 이 제품에 대한 계약 내용을 생성하면 계약 내용의 수량이 잠깁니다. 그런 다음 수량은 해당 계약 내용에 대한 속성 값의 곱으로 계산됩니다.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

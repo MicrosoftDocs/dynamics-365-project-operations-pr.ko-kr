@@ -2,9 +2,11 @@
 title: 프로젝트 일정 정의
 description: 이 항목은 프로젝트 일정을 추적하기 위해 캘린더 템플릿을 프로젝트에 적용하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
+manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487648"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981308"
 ---
 # <a name="define-project-calendars"></a>프로젝트 일정 정의
 
@@ -46,7 +48,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 1. **리소스** \> **리소스** 로 이동합니다.
 2. 일정 템플릿에서 참조할 새 리소스를 만들거나 기존 리소스를 선택합니다.
-3. 리소스의 **작업 시간** 탭을 선택하고 [리소스에 대한 작업 시간 설정](/dynamics365/field-service/set-work-hours-resource)의 지침을 완료하여 일정 규칙을 구성합니다.
+3. 리소스의 **작업 시간** 탭을 선택하고 [리소스에 대한 작업 시간 설정](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)의 지침을 완료하여 일정 규칙을 구성합니다.
 
 **새 일정 템플릿 만들기**
 

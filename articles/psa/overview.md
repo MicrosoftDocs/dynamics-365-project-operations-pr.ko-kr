@@ -2,9 +2,10 @@
 title: Dynamics 365 Project Service Automation란?
 description: Project Service 소개 및 개요
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000269"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150541"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation란?
 
@@ -46,10 +47,10 @@ Project Service Automation(PSA) 애플리케이션을 사용하면 초기 판매
 ## <a name="whats-new-in-psa"></a>PSA의 새로운 기능
 팀은 최신 업데이트를 발표하게 된 것을 기쁘게 생각합니다! 향상된 기능에서 사용자 인터페이스, 버그 수정에 이르기까지 중요한 새로운 기능이 추가되었습니다. 고객이 요청했고, 우리는 들었습니다.
 
-최신 개선 사항 및 추가 사항을 확인하려면 [2019년 10월 릴리스 노트](/dynamics365-release-plan/2019wave2/index)를 살펴보십시오.
+최신 개선 사항 및 추가 사항을 확인하려면 [2019년 10월 릴리스 노트](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index)를 살펴보십시오.
 
 ### <a name="in-development"></a>개발 중
-가까운 시일 내에 계획된 내용을 확인하려면 [Dynamics 365: 2020 릴리스 웨이브 1 플랜](/dynamics365-release-plan/2020wave1/index)으로 이동하십시오.
+가까운 시일 내에 계획된 내용을 확인하려면 [Dynamics 365: 2020 릴리스 웨이브 1 플랜](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)으로 이동하십시오.
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA 버전 3.x 관련 도움 받기
 구현을 계획하는 데 도움이 되는 리소스를 찾고 계십니까? 다운로드 가능한 가이드를 확인하십시오.
@@ -82,9 +83,6 @@ Project Service Automation(PSA) 애플리케이션을 사용하면 초기 판매
  [개발자를 위한 노트 (앱 버전 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>2분 개요 비디오 보기
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,27 @@
 title: 리소스 조정 개요
 description: 이 토픽은 프로젝트에 대한 리소스 예약 및 할당이 정렬되도록 하는 데 도움이 되는 정보를 제공합니다.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994779"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849632"
 ---
 # <a name="resource-reconciliation-overview"></a>리소스 조정 개요
 
@@ -46,6 +48,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 **예약 연장** 작업을 통해 생성된 예약은 기본 프로젝트 요구 사항과 연결됩니다. 연장이 시작되면 리소스가 프로젝트에 대한 둘 이상의 요구 사항과 연결될 수 있으므로 연장해야 하는 특정 요구 사항을 확인할 수 없습니다.
 
 그런 다음 프로젝트 관리자 또는 리소스 관리자는 일정 게시판을 사용해서 리소스가 생산 능력을 초과해서 예약된 모든 상황을 관리할 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

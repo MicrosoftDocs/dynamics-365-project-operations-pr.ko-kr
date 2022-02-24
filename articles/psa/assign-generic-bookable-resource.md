@@ -2,6 +2,8 @@
 title: 작업 및 프로젝트 팀에 일반 예약 가능한 리소스 할당
 description: 이 항목은 작업 및 프로젝트 팀에 일반 리소스를 예약하는 것에 대한 정보를 제공합니다.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 684167f0a68872ef871fbaa06c5161e78045c9a5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007109"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145411"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>작업에 일반 예약 가능한 리소스 할당 및 리소스 요건 생성 
 
@@ -33,21 +35,21 @@ ms.locfileid: "7007109"
 
 1. Project Service Automation(PSA)에서 **프로젝트** 페이지를 열고 **스케줄** 탭에서 스케줄의 **리소스** 셀에 일반 리소스의 직함을 입력합니다. 또는 셀의 **리소스** 아이콘을 클릭하여 리소스 선택기를 연 다음 만들려는 일반 리소스의 이름을 입력합니다.
 
-![일반 팀원 생성 및 할당.](media/RM-how-to-9.png)
+![일반 팀원 생성 및 할당](media/RM-how-to-9.png)
 
 그러면 **빠른 생성: 프로젝트 팀원** 패널이 열립니다. 
 
 2. 일반 리소스 팀원의 역할 및 조직 단위를 입력한 다음 **저장** 을 클릭합니다.
 
-![일반 팀원 빠른 생성.](media/RM-how-to-10.png)
+![일반 팀원 빠른 생성](media/RM-how-to-10.png)
 
 3. 새 일반 리소스 팀원을 만든 후 작업에 할당합니다. 해당 일반 리소스를 작업 스케줄의 다른 작업에 계속 할당할 수 있습니다.
 
-![기존 일반 팀원을 작업에 할당.](media/RM-how-to-11.png)
+![기존 일반 팀원을 작업에 할당](media/RM-how-to-11.png)
 
 4. 일반 리소스를 할당한 후 리소스 요건을 생성하고 리소스 관리자에게 리소스 요청을 직접 예약하거나 제출하여 리소스 요건을 충족할 수 있습니다.
 
-![일반 팀원에 대한 요건 생성.](media/RM-how-to-12.png)
+![일반 팀원에 대한 요건 생성](media/RM-how-to-12.png)
 
 팀원 그리드에서 위에서 설명한 대로 리소스 선택기를 사용할 수 있을 뿐만 아니라 일반 리소스를 직접 추가할 수도 있습니다. 리소스는 **빠른 생성: 프로젝트 팀원** 패널에 지정된 시작/종료 날짜 및 할당 방법에 근거한 리소스 요건과 함께 추가됩니다.
 
@@ -55,8 +57,5 @@ ms.locfileid: "7007109"
 
 또한 팀 그리드에서 **리소스 요건** 링크를 클릭하여 요건을 열고 기능, 선호 리소스 등을 추가할 수 있습니다.
 
-![리소스 요구 사항입니다.](media/RM-how-to-13.png)
+![리소스 요구 사항](media/RM-how-to-13.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

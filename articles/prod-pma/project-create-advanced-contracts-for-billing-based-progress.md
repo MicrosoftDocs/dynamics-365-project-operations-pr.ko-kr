@@ -2,9 +2,11 @@
 title: 진행 상황에 따라 청구를 위한 고급 계약 만들기
 description: 이 항목은 완료된 작업의 백분율을 기준으로 고객에 대한 송장을 생성할 수 있도록 프로젝트 계약을 작성하는 방법을 설명합니다.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000989"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080181"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>진행 상황에 따라 청구를 위한 고급 계약 만들기
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ ms.locfileid: "7000989"
 8. 선택 사항: 추가 프로젝트에 청구 규칙을 지정합니다. **프로젝트** 빠른 탭의 **사용 가능한 프로젝트** 섹션에서 프로젝트를 선택한 다음 오른쪽 화살표 단추를 선택하여 프로젝트를 **선택한 프로젝트** 섹션에 추가합니다.
 9. 선택 사항: 고객이 송장 지급에서 원천 징수하는 퍼센트 금액을 계산합니다. **결제 유지 조건** 빠른 탭에서 자금 출처를 선택한 다음 **유지율** 필드에 유지율을 입력합니다.
 10. 이 단계를 반복하여 프로젝트 계약에 대한 추가 청구 규칙을 만듭니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: 업무 처리
 description: 이 항목은 업무 처리에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987534"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149911"
 ---
 # <a name="business-transactions"></a>업무 처리
 
@@ -88,7 +90,7 @@ PSA는 이러한 5개 엔터티의 레코드를 업무 처리로 취급합니다
 
 다음 예는 PSA 프로젝트 라이프사이클에서 시간 항목의 일반적인 처리를 보여줍니다.
 
-> ![Project Service 라이프사이클에서 시간 항목의 처리.](media/basic-guide-17.png)
+> ![Project Service 라이프사이클에서 시간 항목의 처리](media/basic-guide-17.png)
  
 1. 시간 항목을 제출하면 비용과 미청구 매출액에 대한 두 개의 분개장 행이 생성됩니다.
 2. 시간 항목을 최종 승인하면 비용과 미청구 매출액에 대한 두 개의 실제값이 생성됩니다.
@@ -147,6 +149,3 @@ PSA는 이러한 5개 엔터티의 레코드를 업무 처리로 취급합니다
 | 청구서 초안 수정       | 청구서 행 처리 GUID | 교체          | msdyn_invoicelinetransaction | 청구 매출액 GUID            | 원본           | msdyn_actual       |
 | 청구서 수정 확인     | 청구 매출액 반전 GUID    | 반전          | msdyn_actual                 | 청구 매출액 GUID            | 원본           | msdyn_actual       |
 | 신 미청구 매출액 실제값 GUID | 교체                     | msdyn_actual       | 청구 매출액 GUID            | 원본                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

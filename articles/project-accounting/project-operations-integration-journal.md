@@ -2,16 +2,18 @@
 title: Project Operations의 통합 분개장
 description: 이 항목은 Project Operations에서 통합 분개장 작업에 대한 정보를 제공합니다.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987939"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948338"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations의 통합 분개장
 
@@ -19,14 +21,14 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 시간 및 경비 항목은 프로젝트에 대해 완료된 작업의 운영 보기를 나타내는 **실제** 트랜잭션을 생성합니다. Dynamics 365 Project Operations는 회계사에게 트랜잭션을 검토하고 필요에 따라 회계 특성을 조정할 수 있는 도구를 제공합니다. 검토 및 조정이 완료되면 트랜잭션이 프로젝트 보조 원장 및 총계정 원장에 전기됩니다. 회계사는 **Project Operations 통합** 분개장(**Dynamics 365 Finance** > **프로젝트 관리 및 회계** > **분개장** > **Project Operations 통합** 분개장)을 사용하여 이러한 활동을 수행할 수 있습니다.
 
-![통합 분개장 흐름.](./media/IntegrationJournal.png)
+![통합 분개장 흐름](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Project Operations 통합 분개장에서 레코드 만들기
 
 Project Operations 통합 분개장의 레코드는 주기적인 프로세스 **준비 테이블에서 가져오기** 를 사용하여 생성됩니다. **Dynamics 365 Finance** > **프로젝트 관리 및 회계** > **주기적** > **Project Operations 통합** > **준비 테이블에서 가져오기** 로 이동하여 이 프로세스를 실행할 수 있습니다. 프로세스를 대화식으로 실행하거나 필요에 따라 백그라운드에서 실행되도록 프로세스를 구성할 수 있습니다.
 
 주기적 프로세스가 실행되면 아직 Project Operations 통합 분개장에 추가되지 않은 실제 데이터가 발견됩니다. 각 실제 트랜잭션에 대한 분개장 항목이 생성됩니다.
-시스템은 **Project Operations 통합 분개장의 기간 단위** 필드(**Finance** > **프로젝트 관리 및 회계** > **설정** > **프로젝트 관리 및 회계 매개 변수**,**Dynamics 365 Customer Engagement의 Project Operations** 탭)에서 선택한 값에 따라 분개장 항목을 별도의 분개장으로 그룹화합니다. 이 필드에 가능한 값은 다음과 같습니다.
+시스템은 **Project Operations 통합 분개장의 기간 단위** 필드(**재무** > **프로젝트 관리 및 회계** > **설정** > **프로젝트 관리 및 회계 매개 변수**,**Dynamics 365 Customer Engagement의 Project Operations** 탭)에서 선택한 값에 따라 분개장 항목을 별도의 분개장으로 그룹화합니다. 이 필드에 가능한 값은 다음과 같습니다.
 
   - **일**: 실제는 트랜잭션 날짜별로 그룹화됩니다. 매일 별도의 분개장이 생성됩니다.
   - **월**: 실제는 월별로 그룹화됩니다. 매월 별도의 분개장이 생성됩니다.

@@ -2,6 +2,8 @@
 title: 프로젝트 리소스 제안
 description: 이 항목은 프로젝트 리소스 제안에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995049"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147526"
 ---
 # <a name="propose-project-resources"></a>프로젝트 리소스 제안
 
@@ -32,21 +34,21 @@ ms.locfileid: "6995049"
 1. 요청 그리드 또는 요청 자체에서 **리소스 찾기** 를 선택합니다.
 2. **스케줄 도우미** 페이지에서 리소스를 선택한 다음 **리소스 예약 만들기** 창의 **예약 상태** 필드에서 **예약** 을 선택합니다.
 
-    ![선택된 제안된 리소스.](media/Resource-Management-image62.png)
+    ![선택된 제안된 리소스](media/Resource-Management-image62.png)
 
 다음과 같은 상태 업데이트가 발생합니다:
 
 - **스케줄 도우미** 페이지에서 상태 표시등이 업데이트되어 예약이 확정 예약이 아닌 제안된 상태임을 나타냅니다.
 
-    ![스케줄 도우미 페이지에서 제안된 예약에 대한 상태 표시등.](media/Resource-Management-image63.png)
+    ![스케줄 도우미 페이지에서 제안된 예약에 대한 상태 표시등](media/Resource-Management-image63.png)
 
 - 리소스 요청에서 상태가 **검토 필요** 로 변경됩니다.
 
-    ![검토 필요로 변경된 리소스 요청 상태.](media/Resource-Management-image64.png)
+    ![검토 필요로 변경된 리소스 요청 상태](media/Resource-Management-image64.png)
 
 - 프로젝트의 **팀** 탭에서 일반 팀원의 **요청 상태** 값이 **검토 필요** 로 변경됩니다.
 
-    ![팀 탭에서 일반 팀원의 요청 상태 값이 검토 필요로 변경됨.](media/Resource-Management-image48.png)
+    ![팀 탭에서 일반 팀원의 요청 상태 값이 검토 필요로 변경됨](media/Resource-Management-image48.png)
 
 프로젝트 관리자는 제안을 수락하거나 거부할 수 있습니다.
 
@@ -70,7 +72,7 @@ ms.locfileid: "6995049"
 
 **리소스** 창에서 **리소스 활용도** 보기를 찾을 수 있습니다.
 
-![리소스 사용률 보기.](media/Resource-Management-image65.png)
+![리소스 활용도 보기](media/Resource-Management-image65.png)
 
 그리드의 각 셀은 일, 주 또는 월과 같은 기간 동안 리소스의 청구 가능 활용도를 나타냅니다. 셀을 컬러링하는 데 다음 공식이 사용됩니다:
 
@@ -84,7 +86,7 @@ ms.locfileid: "6995049"
 
 또한 기본 역할은 각 예약 가능한 리소스에 할당되어야 합니다. **리소스** \> **리소스** 로 이동합니다. **Project Service** 탭에서 리소스 역할이 정의되어 있는지, 리소스 역할에 대한 **기본값임** 이 **예** 로 설정되어 있는지 확인합니다. **기본값임 = 아니오** 인 추가 역할을 추가할 수 있습니다. 해당 역할의 목표 대비 리소스의 활용도를 평가하기 위해 **기본값임 = 예** 인 역할이 사용됩니다.
 
-![설정된 기본 역할.](media/Resource-Management-image67.png)
+![설정된 기본 역할](media/Resource-Management-image67.png)
 
 **Project Service** 탭에서 리소스에 대한 개별 목표 활용도를 설정할 수도 있습니다. 그런 다음 활용도 계산은 해당 목표 활용도를 사용하여 리소스의 기본 역할 목표 대신 리소스의 목표를 평가합니다.
 
@@ -96,21 +98,18 @@ ms.locfileid: "6995049"
 
 리소스 작업 시간은 리소스의 가용성을 계산하기 위한 기준으로 사용됩니다. 리소스 예약은 리소스의 능력을 소비합니다.
 
-![일정 게시판.](media/Resource-Management-image68.png)
+![일정 게시판](media/Resource-Management-image68.png)
 
 스케줄 게시판은 색상과 음영을 사용하여 예약, 이용 가능 여부 및 초과 예약 및 예약 상태를 표시합니다. 스케줄 보드 설정의 설정값을 사용하면 범례를 표시할 수 있습니다.
 
 스케줄 게시판의 개별 예약 가능 리소스 옆에 오른쪽을 가리키는 화살표가 나타나면 리소스를 확장하여 리소스가 예약된 작업의 내역을 표시할 수 있습니다.
 
-![스케줄 게시판에 펼쳐진 예약 가능한 리소스.](media/Resource-Management-image69.png)
+![스케줄 게시판에 펼쳐진 예약 가능한 리소스](media/Resource-Management-image69.png)
 
 Dynamics 365 Project Service Automation은 Universal Resource Scheduling 엔진을 사용하기 때문에, Dynamics 365 Field Service도 설치된 경우, 프로젝트, 작업 명령 및 기타 귀하가 스케줄링을 확장한 엔터티를 위한 리소스 예약 내역을 볼 수 있습니다.
 
-![프로젝트 및 작업 명령을 위한 리소스 예약에 대한 세부 정보.](media/Resource-Management-image70.png)
+![프로젝트 및 작업 명령을 위한 리소스 예약에 대한 세부 정보](media/Resource-Management-image70.png)
 
 개별 리소스에 대한 자세한 내용을 보려면 마우스 오른쪽 버튼을 클릭하여 리소스 카드를 엽니다.
 
-![리소스 카드.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![리소스 카드](media/Resource-Management-image71.png)

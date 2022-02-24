@@ -4,14 +4,8 @@
   items:
     - name: 배포 유형 결정
       href: environment/determine-deployment-type.md
-    - name: Project Operations 평가판 등록
-      href: environment/admin-trials.md
     - name: Project Operations 업데이트
       href: whats-new/project-operations-updates.md
-    - name: 제거되었거나 사용되지 않는 기능
-      items:
-        - name: Project Operations에서 제거되었거나 사용되지 않는 기능
-          href: whats-new/removed-depreciated-features-project.md
 - name: 리소스/비 재고 기반 시나리오에 대한 Project Operations
   items:
     - name: 시작
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: 환경 배포
           items:
-            - name: 이중 쓰기를 지원하는 Project Operations Dataverse 앱 수동 배포
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: 새 환경 프로비전
               href: environment/resource-provision-new-environment.md
             - name: 보안 모델
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: 공급업체 송장 통합
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Dynamics 365 Project Operations 제거
-          href: environment/uninstall-project-operations.md
     - name: 새로운 기능
       items:
-        - name: 2021년 12월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 2021년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 2021년 10월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 2021년 9월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 2021년 8월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: 2021년 6월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 2021년 5월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021년 3월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -306,12 +280,8 @@
           items:
             - name: 프로젝트 복사로 프로젝트 템플릿 개발
               href: project-management/dev-copy-project.md
-            - name: 프로젝트 일정 API 사용
+            - name: 일정 API 사용(공개 미리 보기)
               href: project-management/schedule-api-preview.md
-            - name: 프로젝트 일정 API 성능
-              href: project-management/project-schedule-api-performance.md
-            - name: 프로젝트 일정 로그
-              href: project-management/schedule-api-logs.md
     - name: 리소스 관리
       items:
         - name: 주요 개념
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: 경비 범주 설정
               href: expense/set-up-expense-categories.md
-            - name: 마일리지 등급 계층을 사용하여 마일리지 설정
-              href: expense/set-up-mileage.md
-        - name: 경비 항목화
-          href: prod-exp/expense-itemization.md
         - name: 개인 경비
           href: expense/personal-expenses-expense-report.md
         - name: 회사 간 경비
@@ -442,8 +408,6 @@
       items:
         - name: 승인 개요
           href: approvals/approvals-overview.md
-        - name: 승인 집합
-          href: approvals/approval-sets.md
         - name: 개발자 노트
           items:
             - name: 승인을 위한 개발자 노트
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 보류 중인 공급업체 송장을 사용하여 프로젝트에 대한 비 재고 재료 조달
           href: procurement/pending-vendor-invoices.md
-        - name: 프로젝트 구매 주문을 사용하여 프로젝트에 대한 비 재고 재료 주문
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: 공급업체 재방문 주기
-          items:
-            - name: 공급업체 재방문 주기 개요
-              href: procurement/vendor-retention-overview.md
-            - name: 공급업체 재방문 주기 설정
-              href: procurement/set-up-vendor-retention.md
     - name: 송장 발행
       items:
         - name: 송장 처리 개요
           href: invoicing/post-project-invoices.md
+        - name: 프로젝트 송장 제안서 관리
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: 견적 송장
           items:
             - name: 프로젝트 기반 대금 청구 백로그 관리
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: 프로젝트 기반 송장 자동화 구성
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: 고객 송장 작성
-          items:
-            - name: 프로젝트 송장 제안서 관리
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: 프로젝트 송장 제안서 초안에 대한 올바른 회계
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: 회사 간 송장
-          items:
-            - name: 회사 간 송장 개요
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: 회사 간 송장 구성
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: 회사 간 트랜잭션 만들기
-              href: project-accounting/create-intercompany-transactions.md
-            - name: 회사 간 고객 및 공급업체 송장 만들기
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: 프로젝트 송장 제안서 관리
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: 프로젝트 회계
       items:
         - name: 재무 차원 기본값
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations의 통합 분개장
           href: project-accounting/project-operations-integration-journal.md
+        - name: 회사 간 송장
+          items:
+            - name: 회사 간 송장 개요
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 회사 간 송장 구성
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 회사 간 트랜잭션 만들기
+              href: project-accounting/create-intercompany-transactions.md
+            - name: 회사 간 고객 및 공급업체 송장 만들기
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 수익 인식
       items:
         - name: 수익 인식 개요
@@ -538,15 +492,9 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 수익 추정치 관리
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: 문제 해결
-      items:
-        - name: 프로젝트 영업 프로세스
-          items:
-            - name: '프로젝트, 계약, 견적 또는 예약 가능한 리소스 생성 시 통화 불일치 오류'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 라이트 배포 - 견적 송장 거래
   items:
-    - name: 시작하기
+    - name: 시작
       items:
         - name: 라이트 배포 개요
           href: pro/project-operations-overview-lite.md
@@ -560,24 +508,6 @@
           href: environment/security-model.md
     - name: 새로운 기능
       items:
-        - name: 2021 웨이브 2 조기 액세스의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: 2021년 12월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: 2021년 11월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: 2021년 10월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: 2021년 9월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: 2021년 8월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: 2021년 7월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: 2021년 6월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: 2021년 5월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021년 4월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021년 3월의 새로운 기능 - 라이트 배포
@@ -826,10 +756,8 @@
           items:
             - name: 프로젝트 복사로 프로젝트 템플릿 개발
               href: project-management/dev-copy-project.md
-            - name: 프로젝트 일정 API 사용
+            - name: 일정 API 사용(공개 미리 보기)
               href: project-management/schedule-api-preview.md
-            - name: 프로젝트 일정 API 성능
-              href: project-management/project-schedule-api-performance.md
     - name: 리소스 관리
       items:
         - name: 주요 개념
@@ -886,44 +814,6 @@
           items:
             - name: 리소스 사용률 개요
               href: resource-management/resource-utilization-overview.md
-    - name: Project Operations에서 하도급 관리
-      items:
-        - name: Project Operations에서 하도급 관리
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: 2021년 10월 조기 액세스의 하도급 계약
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: 하도급의 핵심 개념
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: 공급업체 및 프로젝트 가격표 관리
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: 예약 가능한 리소스로서의 하청업체
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: 하도급 계약의 헤더 세부 사항
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: 시간의 하도급 계약 내용
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: 경비 범주의 하도급 계약 내용
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: 제품의 하도급 계약 내용
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: 하도급 계약 내용 리소스
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: 하도급 계약 내용 마일스톤
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: 프로젝트 팀 구성원 하도급 계약
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: 프로젝트 팀 구성원 하도급 계약 옵션
-          href: pro/subcontracting/subcon-options.md
-        - name: 하도급 계약 리소스 할당 비용 추정
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: 계약 근로자와 하도급 계약 용량을 표시하도록 일정 게시판 구성
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: 계약 근로자 및 하도급 계약 용량으로 프로젝트 인력 배치
-          href: pro/subcontracting/staffing-cw.md
-        - name: '하도급 계약 구성 요소에 대한 시간, 경비, 재료 사용량 기록'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: 하도급 계약의 상태 전환
-          href: pro/subcontracting/subcon-states.md
     - name: 시간
       items:
         - name: 시간 개요
@@ -950,8 +840,6 @@
       items:
         - name: 승인 개요
           href: approvals/approvals-overview.md
-        - name: 승인 집합
-          href: approvals/approval-sets.md
         - name: 개발자 노트
           items:
             - name: 승인을 위한 개발자 노트
@@ -988,14 +876,6 @@
   items:
     - name: 새로운 기능
       items:
-        - name: 새로운 기능 2021년 10월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 새로운 기능 2021년 9월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: 새로운 기능 2021년 7월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: 새로운 기능 2021년 5월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 새로운 기능 2021년 4월 - 리소스/생산 기반 시나리오에 대한 Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 새로운 기능 2021년 3월 - 리소스/생산 기반 시나리오에 대한 Project Operations
@@ -1148,24 +1028,6 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
-        - name: '업데이트 릴리스 38, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-38.md
-        - name: '업데이트 릴리스 37.5, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-37-5.md
-        - name: '업데이트 릴리스 37, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-37.md
-        - name: '업데이트 릴리스 36, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-36.md
-        - name: '업데이트 릴리스 35, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-35.md
-        - name: '업데이트 릴리스 34, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-34.md
-        - name: '업데이트 릴리스 33, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-33.md
-        - name: '업데이트 릴리스 32.5, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-32-5.md
-        - name: '업데이트 릴리스 32, V3의 새로운 내용 또는 변경된 내용'
-          href: psa/whats-new-ur-32.md
         - name: '업데이트 릴리스 31, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-31.md
         - name: '업데이트 릴리스 30, V3의 새로운 내용 또는 변경된 내용'
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: 보고 가이드
           href: psa/implementation-guides/reporting-guide.md
-    - name: Project Service Automation에서 Project Operations로 업그레이드 - 라이트
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation 업그레이드(앱 버전 3.x)
       items:
         - name: Project Service Automation 업그레이드
@@ -1406,8 +1266,6 @@
               href: psa/time-entry-calendar.md
             - name: 주간 시간 항목 사용자 지정
               href: psa/time-entry-extensibility-v3.md
-            - name: Project Service Automation의 승인 집합
-              href: psa/approval-set.md
     - name: FAQ 및 문제 해결(3.x)
       items:
         - name: 경비 비용 실제 값에 대한 가격이 기본적으로 0이 되는 이유는 무엇입니까?

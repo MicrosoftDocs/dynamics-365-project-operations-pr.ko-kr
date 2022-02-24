@@ -2,22 +2,24 @@
 title: 견적 닫기
 description: 이 항목은 Project Operations의 견적 종료에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993429"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124691"
 ---
 # <a name="close-a-quote"></a>견적 닫기
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-프로젝트 견적은 성공 또는 실패로 마감될 수 있습니다. Microsoft Dynamics 365 Project Operations에서는 기능 활성화 및 수정 작업이 지원되지 않기 때문에 초안 견적을 마감할 수 있습니다.
+프로젝트 견적은 성공 또는 실패로 마감될 수 있습니다. Microsoft Dynamics 365 Project Operations의 견적에서는 활성화 및 수정 기능이 지원되지 않으므로 초안 견적을 종료할 수 있습니다.
 
 ## <a name="close-a-quote-as-won"></a>견적을 성공으로 종료
 
@@ -41,6 +43,3 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 > [!NOTE]
 > Project Operations에서 견적을 성공 또는 실패로 종료해도 영업 기회의 해당 상태에 영향을 주지 않으며 수동으로 종료할 때까지 계속 열려 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

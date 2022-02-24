@@ -2,9 +2,11 @@
 title: 시간 및 자재 프로젝트에 대한 프로젝트 판매 주문
 description: 이 항목은 시간 및 자재 프로젝트에 대한 프로젝트 기반 판매 주문을 생성하는 방법을 설명합니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992844"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080037"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>시간 및 자재 프로젝트에 대한 프로젝트 판매 주문
 
@@ -39,6 +41,3 @@ ms.locfileid: "6992844"
 - 프로젝트로 이동합니다. 작업 창에서 **관리 > 품목 작업 > 판매 주문** 을 선택합니다. 프로젝트 정보는 기본적으로 프로젝트의 판매 주문으로 설정됩니다. 프로젝트 계약에 둘 이상의 자금 출처가 있는 경우 판매 주문에 대한 고객을 설정하려면 자금 출처를 선택해야 합니다. 프로젝트에 자금 출처가 하나만 있는 경우 고객이 자동으로 설정됩니다.
 - **모든 판매 주문** 목록 페이지로 이동하고 새 판매 주문을 만듭니다. 판매 주문에 대한 프로젝트를 선택해야 합니다. 프로젝트를 선택한 후 고객은 자금 출처에서 설정되거나 프로젝트 계약에 자금 출처가 여러 개인 경우 자금 출처를 선택해야 합니다.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

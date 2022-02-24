@@ -2,6 +2,8 @@
 title: 주요 개념
 description: 이 항목은 Project Service Automation에서 리소스 관리를 위한 주요 개념에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995094"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147751"
 ---
 # <a name="key-concepts"></a>주요 개념
 
@@ -46,6 +48,3 @@ ms.locfileid: "6995094"
 | 등고선                    | 과업, 요건 또는 할당 시간 수가 일일 분포로 세분화됩니다. 예컨대 5일, 40시간 과업은 5일에 걸친 하루 8시간으로 윤곽을 만들 수 있습니다. |
 | 조정 보기        | 각 프로젝트 팀원의 예약 및 할당을 표시하는 보기입니다. 이 보기를 통해 프로젝트 관리자는 예약과 할당 사이의 불일치를 확인하고 불일치가 발생할 경우 시정 조치를 취할 수 있습니다. |
 | 근무 시간                 | 리소스 능력과 작업 및 비작업 시간을 식별하는 데 사용되는 엔터티입니다. 이 엔터티를 리소스 캘린더라고도 합니다. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

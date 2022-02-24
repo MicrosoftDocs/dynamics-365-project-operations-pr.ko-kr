@@ -2,6 +2,8 @@
 title: 리소스 관리자 가이드
 description: 리소스 관리자 가이드(Project Service)
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 543be23d95b1b821fcdca628612d03c343fd5b06
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984981"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147346"
 ---
 # <a name="resource-manager-guide-project-service"></a>리소스 관리자 가이드(Project Service)
 
@@ -71,6 +73,3 @@ ms.locfileid: "6984981"
  [거래처 관리자 가이드](../psa/account-manager-guide.md)   
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)   
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

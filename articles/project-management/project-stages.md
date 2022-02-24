@@ -2,9 +2,11 @@
 title: 프로젝트 스테이지
 description: 이 항목은 Microsoft Dynamics Project Operations에서 사용할 수 있는 프로젝트 스테이지에 대한 정보를 제공합니다.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea8b74813e8a51930a03571eab0d962e14f66a8fd6cb978d3435570a01ce5c5d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003063"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127481"
 ---
 # <a name="project-stages"></a>프로젝트 스테이지
 
@@ -61,6 +63,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 모든 처리가 기록되면 프로젝트 관리자는 그 단계를 **종결** 로 업데이트할 수 있습니다. 그 시점에서는 처리를 기록할 수 없으며 프로젝트는 읽기 전용으로 설정됩니다.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

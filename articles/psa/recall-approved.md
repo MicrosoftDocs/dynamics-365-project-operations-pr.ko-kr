@@ -2,6 +2,8 @@
 title: 승인된 시간 또는 경비 항목 철회
 description: 이 주제는 이전에 승인된 프로젝트 시간 또는 경비 처리를 철회하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -15,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998334"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147850"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>승인된 시간 또는 경비 항목 철회
 
@@ -98,13 +100,10 @@ ms.locfileid: "6998334"
 
 다음 그림은 승인된 시간 항목에 대해 철회될 때 발생하는 변경 사항을 보여줍니다.
 
-![시간 항목 상태 전환.](media/TimeEntryStateTransitions.png)
+![시간 항목 상태 전환](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>경비 항목 레코드 변경
 
 다음 그림은 승인된 경비 항목에 대해 철회될 때 발생하는 변경 사항을 보여줍니다.
 
-![경비 항목 상태 전환.](media/ExpenseEntryStateTransitions.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![경비 항목 상태 전환](media/ExpenseEntryStateTransitions.png)

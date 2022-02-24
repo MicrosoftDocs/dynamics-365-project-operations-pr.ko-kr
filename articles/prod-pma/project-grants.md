@@ -2,9 +2,11 @@
 title: 프로젝트 보조금
 description: 이 항목은 보조금을 생성하거나 수정하는 방법을 설명합니다.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: c58a051b8129cadbde491751a946b75a75cb85118c7f0c7d25a06d322ffea596
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995769"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080233"
 ---
 # <a name="project-grants"></a>프로젝트 권한 부여
 
@@ -77,6 +79,3 @@ ms.locfileid: "6995769"
 2. 수정할 보조금을 선택합니다.
 3. 작업 창의 **보조금** 탭에 있는 **유지 관리** 그룹에서 **편집** 을 선택합니다.
 4. 보조금 세부 정보를 검토하고 필요한 사항을 변경합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

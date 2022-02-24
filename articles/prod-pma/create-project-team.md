@@ -2,9 +2,11 @@
 title: 프로젝트 팀 만들기
 description: 이 항목은 프로젝트 팀을 생성하고 관리하는 방법에 대한 정보를 제공합니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005804"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270866"
 ---
 # <a name="create-a-project-team"></a>프로젝트 팀 만들기
 
@@ -33,7 +35,7 @@ ms.locfileid: "7005804"
 
 프로젝트 관리자는 페이지에서 역할을 선택한 다음 요구 사항에 맞는 사용 가능한 리소스가 있는 경우 역할을 수행할 리소스를 예약하도록 선택할 수 있습니다. 계획 단계의 이 시점에서 리소스를 예약할 필요가 없습니다. WBS를 만들 때 역할을 프로젝트의 인력 리소스로 바꿀 수 있습니다. 역할이 WBS에서 인력이 있는 리소스로 대체되면 리소스 설정에서 프로젝트 팀 목록 및 일정을 자동으로 업데이트합니다.
 
-[![역할과 실제 리소스가 모두 포함된 프로젝트 팀 목록.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![역할과 실제 리소스가 모두 포함된 프로젝트 팀 목록](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 프로젝트 관리자는 **남은 용량**, **전체 용량**, **용량 비율** 및 **시간 지정** 같이 프로젝트 리소스를 예약할 수 있는 다양한 옵션이 있습니다. 이러한 예약 옵션은 리소스 할당이 변경되는 경우 언제든지 취소할 수 있습니다. 두 가지 유형의 예약이 지원됩니다.
 

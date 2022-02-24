@@ -2,6 +2,8 @@
 title: 추산
 description: 이 주제는 Dynamics 365 Project Service Automation에서의 추산에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992394"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151441"
 ---
 # <a name="estimates"></a>추산
 
@@ -83,27 +85,24 @@ PSA는 계약 또는 프로젝트에서의 주문 변경을 지원하지 않습�
 1. 플러그인 등록 도구를 열고 온라인 인스턴스에 접속합니다.
 2. **검색** 을 선택하고 업데이트할 플러그인을 검색합니다.
 
-    ![트리 대화 상자 검색.](media/basic-guide-19.png)
+    ![트리 대화 상자 검색](media/basic-guide-19.png)
 
 3. 플러그인을 선택한 다음 기본 페이지에서 **선택** 을 선택합니다.
 4. 업데이트할 플러그인의 단계를 선택하고 마우스 오른쪽 버튼으로 클릭한 다음, **업데이트** 를 선택합니다.
 
-    ![플러그인에서 단계 선택.](media/basic-guide-20.png)
+    ![플러그인에서 단계 선택](media/basic-guide-20.png)
 
 5. **기존 업데이트 단계** 대화 상자의 **속성 필터링** 필드에서 줄임표(**...**) 버튼을 선택합니다:
  
-    ![기존 업데이트 단계 대화 상자.](media/basic-guide-21.png)
+    ![기존 업데이트 단계 대화 상자](media/basic-guide-21.png)
 
 6. **속성 선택** 대화 상자에서 맞춤 속성에 대한 확인란을 선택합니다.
 
-    ![속성 대화 상자 선택.](media/basic-guide-22.png)
+    ![속성 대화 상자 선택](media/basic-guide-22.png)
 
 7. **OK** 를 선택하여 대화 상자를 닫은 다음 **업데이트 단계** 를 선택합니다.
  
-    ![업데이트 단계 버튼.](media/basic-guide-23.png)
+    ![업데이트 단계 버튼](media/basic-guide-23.png)
 
 8. 두 번째 플러그인에 대해 1~7 단계를 반복합니다.
 9. 플러그인 등록 도구를 닫습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 자동 송장 만들기 구성
 description: 이 항목은 시스템이 송장을 자동으로 생성하도록 구성하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992664"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122441"
 ---
 # <a name="configure-automatic-invoice-creation"></a>자동 송장 만들기 구성
 
@@ -43,6 +45,3 @@ Dynamics 365 Project Operations에서 자동 송장 실행을 구성하려면 �
 
 > [!NOTE]
 > 일괄 처리 송장 발행은 송장 스케줄에 의해 구성된 프로젝트 계약 라인에 대해서만 실행됩니다. 고정 가격 청구 방법이 있는 계약 내용에는 이정표가 구성되어 있어야 합니다. 시간 및 자재 청구 방법이 있는 프로젝트 계약 내용에는 날짜 기반 송장 일정을 설정해야 합니다. 프로젝트 기반 계약 내용에도 동일하게 적용됩니다.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

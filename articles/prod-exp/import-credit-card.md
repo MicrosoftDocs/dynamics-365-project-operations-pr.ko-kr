@@ -2,9 +2,11 @@
 title: 신용 카드 트랜잭션 가져오기 및 유지
 description: 이 항목은 경비 관련 신용 카드 거래를 가져오고 유지하는 방법을 설명합니다. 이러한 트랜잭션은 반복 일정에 따라 자동으로 가져오도록 설정하거나 필요에 따라 수동으로 가져올 수 있습니다.
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995859"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271586"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>신용 카드 트랜잭션 가져오기 및 유지
 
 경비 관련 신용 카드 거래는 반복되는 일정에 따라 자동으로 가져오도록 설정할 수 있습니다. 또는 필요에 따라 트랜잭션을 수동으로 가져올 수 있습니다. 신용 카드 거래는 신용 카드 거래 데이터 엔터티를 통해 가져옵니다.
 
-데이터 엔터티에 대한 자세한 내용은 [데이터 엔터티](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities)를 참조하십시오.
+데이터 엔터티에 대한 자세한 내용은 [데이터 엔터티](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities)를 참조하십시오.
 
 ## <a name="import-credit-card-transactions"></a>신용 카드 거래 가져오기
 

@@ -2,18 +2,19 @@
 title: 경비 개요
 description: 이 항목은 Project Operations에서 경비 기능에 대한 정보를 제공합니다.
 author: stsporen
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.custom: intro-internal
-ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988479"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764917"
 ---
 # <a name="expense-home-page"></a>경비 홈 페이지
 
@@ -43,6 +44,3 @@ Project Operations에는 경비에 대해 지원되는 두 가지 배포 모델�
 
 ## <a name="determine-your-expense-deployment"></a>경비 배포 결정
 기본 경비 관리 배포를 실행 중인지 확인하려면 주소 URL이 **.crm.dynamics.com** 으로 끝나는 지 확인합니다. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

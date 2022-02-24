@@ -2,18 +2,19 @@
 title: 가격 책정 차원 개요
 description: 이 토픽은 Dynamics 365 Project Operations의 가격 책정 차원에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001979"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650207"
 ---
 # <a name="pricing-dimensions-overview"></a>가격 책정 차원 개요
 
@@ -33,7 +34,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 Dynamics 365 Project Operations는 기본 가격 책정 차원 집합으로 배송됩니다. **프로젝트 작업** > **매개 변수** 로 이동하여 이러한 가격 책정 차원을 볼 수 있습니다. 파라미터 레코드에서 **금액 기반 가격 책정 차원** 탭에서 역할, **msdyn_resourcecategory** 및 리소싱 조직 단위, **msdyn_organizationalunit** 의 필드 **매출액에 해당** 및 **원가에 해당** 이 **예** 로 설정되어 있는지 확인하십시오. 이러한 필드를 활성화하면 각 역할 및 조직 단위 조합에 대한 가격과 원가를 설정할 수 있습니다.
 
-!["매출액에 해당"이 강조 표시된 Project Service 파라미터의 스크린샷.](media/PS-OOB-parameters.png)
+!["매출액에 해당"이 강조 표시된 Project Service 파라미터의 스크린샷](media/PS-OOB-parameters.png)
 
 추가 속성을 사용하는 리소스에 대한 가격 또는 원가가 필요한 경우 맞춤화된 필드, 엔터티 및 차원을 만들 수 있습니다. 자세한 내용은 다음 항목을 참조하십시오. 
   
@@ -60,16 +61,13 @@ Dynamics 365 Project Operations는 기본 가격 책정 차원 집합으로 배�
 
 | 역할        | 조직 단위    |단위      |가격      |통화  |
 | ------------|-------------|----------|----------:|----------|
-| 개발자   | Contoso US  |시간 | 200|USD     |
-| 개발자   | Contoso India |시간|   112|USD     |
+| 개발자   | Contoso US  |Hour | 200|USD     |
+| 개발자   | Contoso India |Hour|   112|USD     |
 
 
 **샘플 원가 요율**
 
 | 급여대     | 조직 단위    |단위      |가격      |통화  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |시간 | 145|USD     |
-| My company_Band2 | Contoso India |시간|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso India |Hour|   67|USD     |

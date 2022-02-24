@@ -2,17 +2,18 @@
 title: 수익 인식 개요
 description: 이 토픽은 Project Operations에서 수익 인식에 대한 정보를 제공합니다.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988659"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531482"
 ---
 # <a name="revenue-recognition-overview"></a>수익 인식 개요
 
@@ -59,6 +60,3 @@ Dynamics 365 Project Operations에서 수익 인식 원칙은 프로젝트 또�
 [수익 추정치 관리](rev-rec-completed-contract-method.md)
 
 [방법을 완료하는 데 드는 비용](cost-complete-methods.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

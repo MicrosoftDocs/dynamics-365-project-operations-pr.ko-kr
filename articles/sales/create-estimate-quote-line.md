@@ -2,9 +2,11 @@
 title: 견적 라인에서 견적 만들기
 description: 이 항목은 프로젝트 견적 라인에서 견적을 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996444"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122936"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>견적 라인에서 견적 만들기
 
@@ -86,6 +88,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 7. **OK** 를 선택하여 대화 상자를 닫은 다음 **업데이트 단계** 를 선택합니다.
 8. 두 번째 플러그인에 대해 1~7 단계를 반복합니다.
 9. 플러그인 등록 도구를 닫습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

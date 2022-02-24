@@ -2,16 +2,18 @@
 title: 방법을 완료하는 데 드는 비용
 description: 이 토픽은 프로젝트 완료 비용을 계산하는 데 사용되는 방법에 대한 정보를 제공합니다.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997974"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531484"
 ---
 # <a name="cost-to-complete-methods"></a>방법을 완료하는 데 드는 비용
 
@@ -28,6 +30,3 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 이전 추정치로         | 이전 기간에 사용된 것과 동일한 추정 방법이 여기에 사용됩니다. 이 방법에는 이전 기간에 예측 모델이 필요했던 경우 예측 모델이 필요합니다.                                                                                                                                                                                                                                                                                                                           |
 | 완료 비용을 0으로 설정 | 일반적으로 추정 프로젝트가 제거되기 전에 사용되는 이 방법은 총 추정치를 전기된 실제 트랜잭션과 일치시키고 **완료 비용** 열을 지웁니다. 완료되면 결과는 항상 100%입니다. 생성하는 각 비용 라인에 대해 **예측** 확인란이 선택 취소되고 총 추정이 이전 비용 추정에서 복사됩니다. 추정 기간의 실제 소비는 프로젝트 완료 비용에서 공제됩니다.              |
 | 비용 템플릿에서           | 선택한 견적 프로젝트와 연결된 비용 템플릿에 설정된 완료 비용 방법입니다.                                                                                                                                                                                                                                                                                                                                                                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

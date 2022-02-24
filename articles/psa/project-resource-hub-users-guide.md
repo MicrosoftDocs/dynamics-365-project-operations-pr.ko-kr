@@ -2,6 +2,8 @@
 title: 프로젝트 리소스 허브를 위한 사용자 가이드
 description: 프로젝트 리소스 허브의 최종 사용자 가이드(Dynamics 365 for Project Service)
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987264"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948156"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>프로젝트 리소스 허브의 사용자 가이드
 
@@ -56,24 +58,24 @@ ms.locfileid: "6987264"
 
 **탐색 모음**
 
-탐색 모음을 사용하여 작업 영역으로 이동하고, 새 레코드를 만들고, 검색하거나, 다른 작업을 수행합니다. 더 많은 명령에 액세스하려면 ![더 보기 단추](media/MoreButton.png "자세히 버튼")를 누릅니다.
+탐색 모음을 사용하여 작업 영역으로 이동하고, 새 레코드를 만들고, 검색하거나, 다른 작업을 수행합니다. 더 많은 명령에 액세스하려면 ![자세히 단추](media/MoreButton.png "자세히 버튼")를 누릅니다.
 
-![탐색 모음.](media/NavBar_2.png "탐색 모음")
+![탐색 모음](media/NavBar_2.png "탐색 모음")
 
 **즐겨찾기 및 최근에 사용한 레코드**
 
 즐겨찾기 및 최근에 사용 섹션은 레코드, 보기 및 대시보드에 빠르게 액세스할 수 있도록 합니다. 
 
-- 이 섹션에 액세스하려면 탐색 모음에서 **메뉴**![메뉴 단추](media/MenuButton.png "메뉴 단추") 단추를 누른 다음 **즐겨찾기 및 최근 항목**![즐겨찾기 단추](media/FavButton.png "즐겨 찾기 단추") 단추를 누릅니다.
+- 이러한 섹션에 액세스하려면 탐색 모음에서 **메뉴** ![메뉴 단추](media/MenuButton.png "메뉴 단추") 단추를 탭한 다음 **즐겨찾기 및 최근** ![즐겨찾기 단추](media/FavButton.png "즐겨 찾기 단추") 단추를 누릅니다.
 
 - 항목을 즐겨찾기로 고정하려면 **최근에 사용** 한 항목 목록에서 해당 핀을 탭합니다. 이 항목이 즐겨찾기로 이동되어 고정됩니다.
 
-  ![즐겨찾기 및 최근 항목.](media/Favs_3.png "즐겨찾기 및 최근 항목")
+  ![즐겨찾기 및 최근 항목](media/Favs_3.png "즐겨찾기 및 최근 항목")
  
 ## <a name="enter-time"></a>시간 입력
 최소 일주일에 한 번 또는 관리자의 요청이 있을 때마다 시간을 입력하여 클라이언트에게 청구서를 발부하고 정확하게 지급받을 수 있도록 합니다.
 
-1. 메뉴 ![메뉴 단추](media/MenuButton.png "메뉴 단추") 단추를 누른 다음 **시간 항목** 을 누릅니다. 그러면 일정이 나타납니다.
+1. ![메뉴 단추](media/MenuButton.png "메뉴 단추") 단추 단추를 누른 다음 **시간 항목** 을 탭합니다. 그러면 일정이 나타납니다.
 
 2. 이전 또는 다음 주에 대한 일정을 확인하려면 **이전** 또는 **다음** 단추를 탭합니다. 이번 주로 돌아가려면 **오늘** 을 탭합니다.
 

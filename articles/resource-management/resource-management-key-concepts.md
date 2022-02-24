@@ -2,16 +2,18 @@
 title: 리소스 관리 주요 개념
 description: 이 항목은 Microsoft Dynamics Project Operations에서 리소스 관리 기능에 대한 정보를 제공합니다.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994824"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123881"
 ---
 # <a name="resource-management-key-concepts"></a>리소스 관리 주요 개념
 
@@ -33,6 +35,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 
 Project Operations에서 일반 또는 명명된 리소스 팀으로 프로젝트를 충원할 수 있습니다. 다양한 방법을 사용하여 팀원을 추가 및 할당하고 예약 및 할당을 관리할 수 있습니다. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

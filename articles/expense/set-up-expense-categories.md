@@ -2,16 +2,18 @@
 title: 경비 범주 설정
 description: 이 항목은 경비 보고서에 대한 경비 범주 및 공유 범주를 설정하는 방법에 대한 정보를 제공합니다.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993114"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123791"
 ---
 # <a name="set-up-expense-categories"></a>경비 범주 설정
 
@@ -59,6 +61,3 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
     - 세금 공제에서 제외되는 하위 범주가 있습니까?
     - 하위 범주의 품목 판매세 그룹은 무엇입니까?
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

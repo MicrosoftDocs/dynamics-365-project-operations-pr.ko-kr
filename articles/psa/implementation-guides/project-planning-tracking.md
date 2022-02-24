@@ -2,6 +2,8 @@
 title: 프로젝트 계획 및 추적
 description: 이 항목은 Project Service Automation에서 계획 및 추적에 대한 정보의 링크를 제공합니다.
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985464"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149101"
 ---
 # <a name="project-planning-and-tracking"></a>프로젝트 계획 및 추적
 
@@ -43,6 +45,3 @@ Project Service 애플리케이션은 서비스 조직이 기회를 식별하고
 
 > [!NOTE]
 > 향후 설명서 업데이트에서 이 항목은 제거될 것입니다. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

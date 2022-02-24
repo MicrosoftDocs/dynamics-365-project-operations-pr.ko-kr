@@ -1,10 +1,11 @@
 ---
 title: 홈 페이지 업그레이드
 description: 이 항목은 Dynamics 365 Project Service Automation에서 새 기능 및 변경된 기능에 대한 중요한 정보와 최신 버전으로 업그레이드하는 프로세스를 확인할 수 있는 위치를 보여줍니다.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006749"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150091"
 ---
 # <a name="upgrade-home-page"></a>홈 페이지 업그레이드
 
@@ -64,6 +65,3 @@ ms.locfileid: "7006749"
 
 > [!NOTE]
 > 이전 버전의 Field Service 및 PSA 애플리케이션을 사용할 때 최상의 경험을 위해서는 **시스템 설정** 페이지로 이동하여, **새 통합 인터페이스만 사용(권장)** 필드를 위해 **아니요** 를 선택하십시오. 이러한 버전은 UCI에서 올바르게 로드되도록 설계되지 않았기 때문입니다. UCI를 끄면 이전 웹 클라이언트를 사용하여 이러한 버전의 Field Service 및 PSA를 열고 실행할 수 있습니다. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

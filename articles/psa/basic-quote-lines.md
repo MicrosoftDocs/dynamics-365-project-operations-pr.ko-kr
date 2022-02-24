@@ -2,6 +2,8 @@
 title: 견적 및 견적 라인
 description: 이 항목은 견적 및 견적 라인에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995454"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145139"
 ---
 # <a name="quotes-and-quote-lines"></a>견적 및 견적 라인
 
@@ -84,7 +86,7 @@ PSA는 고정 가격 견적 라인에 대한 세 가지 유형의 송장 일정�
 
 이러한 거래 분류는 하나 이상 각 견적 라인과 연결될 수 있습니다. 견적을 따낸 후, 거래 분류와 견적 라인 간의 매핑이 계약 내용으로 전송됩니다.
  
-> ![견적 및 계약 내용에 대한 거래 유형 매핑 스크린샷.](media/basic-guide-5.png)
+> ![견적 및 계약 내용에 대한 거래 유형 매핑 스크린샷](media/basic-guide-5.png)
   
 예를 들어, 견적에는 다음 두 개의 견적 라인이 포함될 수 있습니다. 
 - 시간 및 수수료 거래 분류가 적용되는 시간 및 재료 청구 방법을 사용하는 컨설팅 작업입니다. 예를 들어, **Dynamics AX 구현** 예제 프로젝트의 모든 시간 및 수수료 거래는 사용된 시간과 재료에 따라 고객에게 청구됩니다. 
@@ -129,6 +131,3 @@ PSA는 이러한 세 가지 특성 값을 사용하여 잠정 날짜 집합을 �
 - 동등하게 분할된 청구 이정표를 만들려면 송장 빈도를 선택하고 견적 줄에 청구 시작 날짜를 입력하고 견적 헤더의 **요약** 섹션에서 견적에 대해 **요청된 완료 날짜** 를 선택합니다. . 그런 다음 **주기적인 이정표 생성** 을 선택하여 선택한 송장 빈도에 따라 균등하게 분할된 이정표를 만듭니다. 
 - 일괄 청구 이정표를 만들려면 이정표를 만든 다음 견적 라인 값을 이정표 금액으로 입력합니다.
 - 프로젝트 계획의 특정 작업을 기반으로 하는 청구 이정표를 만들려면 이정표를 만들고 청구 이정표 UI에서 프로젝트의 일정 요소에 매핑합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

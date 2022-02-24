@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987624"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992974"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>스케줄 게시판에서 프로젝트 예약을 만들기
 
@@ -43,7 +43,7 @@ ms.locfileid: "6987624"
 
 1.  스케줄 게시판에서 이 리소스는 **요건 열기** 탭에 표시됩니다. 열려 있는 요건이 많은 경우 표에서 열 필터를 사용해야 할 수 있습니다. 
 
-    ![일정 게시판의 요구 사항 열기 탭.](media/FAQ-Project-Booking-Schedule-Board-1.png "예약 및 할당 테이블의 스크린샷")
+    ![일정 게시판의 요구 사항 열기 탭](media/FAQ-Project-Booking-Schedule-Board-1.png "예약 및 할당 테이블의 스크린샷")
 
 2. 요구 사항을 선택합니다. 선택된 행의 맨 위에 **가용성 찾기** 탭이 나타납니다.
  
@@ -53,7 +53,7 @@ ms.locfileid: "6987624"
 
     **예약** 을 선택하면 프로젝트 팀에 리소스가 예약됩니다.
 
-![리소스 예약 패널 만들기.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![리소스 예약 패널 만들기](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>기본 요구 사항에서 예약
@@ -62,7 +62,7 @@ Project Service에서 프로젝트를 만들면 기본 요구 사항이라는 �
 
 1. 기본 요건으로 리소스를 예약하려면 스케줄 게시판에서 **프로젝트** 탭을 선택하십시오. 프로젝트가 많은 경우 **프로젝트** 열의 열 필터를 사용해야 할 수 있습니다.
 
-   ![일정 게시판의 열 필터.](media/FAQ-Project-Booking-Schedule-Board-2.png "예약 및 할당 테이블의 스크린샷")
+   ![일정 게시판의 열 필터](media/FAQ-Project-Booking-Schedule-Board-2.png "예약 및 할당 테이블의 스크린샷")
 
 2. 이름으로서 프로젝트 이름만 가지고 있고 지속 시간이 제로(0)인 요건을 선택합니다.
 

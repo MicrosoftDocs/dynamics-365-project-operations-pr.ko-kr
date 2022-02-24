@@ -2,9 +2,11 @@
 title: 계획된 리소스에 대한 리소스 이행
 description: 이 항목은 프로젝트의 계획된 리소스에 대한 정보를 제공합니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989514"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080223"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>계획된 리소스에 대한 리소스 이행
 
@@ -38,6 +40,3 @@ ms.locfileid: "6989514"
 7. 작업자를 선택한 후 **할당** 을 선택합니다.
 8. **소프트웨어 개발자 1** 줄이 **XYZ 업그레이드 프로젝트 2단계** 프로젝트에 대해 제거되었는지 확인합니다.
 9. **프로젝트 팀 및 일정** 탭의 **XYZ 업그레이드 2단계** 프로젝트에 대해 이전 단계에서 선택한 작업자가 **소프트웨어 개발자** 로 추가되었는지 확인합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

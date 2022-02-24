@@ -2,6 +2,8 @@
 title: 프로젝트 스테이지 유형
 description: 이 항목은 프로젝트 단계에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996894"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148111"
 ---
 # <a name="project-stage-types"></a>프로젝트 스테이지 유형 
 
@@ -63,6 +65,3 @@ ms.locfileid: "6996894"
 ## <a name="close"></a>닫기
 
 모든 처리가 기록되면 프로젝트 관리자는 그 단계를 **종결** 로 업데이트할 수 있습니다. 그 시점에서는 처리를 기록할 수 없으며 프로젝트는 읽기 전용으로 설정됩니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

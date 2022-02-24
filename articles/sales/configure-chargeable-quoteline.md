@@ -2,16 +2,18 @@
 title: 프로젝트 기반 견적 라인의 청구 가능 구성 요소 구성
 description: 이 토픽은 프로젝트 기반 견적 라인의 포함, 청구 가능 및 청구 불가능 구성 요소에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004004"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642551"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>프로젝트 기반 견적 라인의 청구 가능 구성 요소 구성
 
@@ -51,6 +53,3 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 없음 | 예 | 설정할 수 없음 | 청구 불가능 | 실제 시간 청구: 사용할 수 없음 </br>실제 경비 청구 유형: 청구 불가능 |
 | 예 | 없음 | 청구 가능 | 설정할 수 없음 | 실제 시간 청구: 청구 가능 </br>실제 경비 청구 유형: 사용할 수 없음 |
 | 예 | 없음 | 청구 불가능 | 설정할 수 없음 | 실제 시간 청구: 청구 불가능 </br> 실제 경비 청구 유형: 사용할 수 없음 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

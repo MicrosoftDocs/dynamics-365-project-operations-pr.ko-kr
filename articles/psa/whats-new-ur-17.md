@@ -2,6 +2,8 @@
 title: Project Service Automation 업데이트 릴리스 17, V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 17, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ba2bc9da1c6e7e2e2628980878f9201b1c732cc03f791f5259bbbd0ee279b31b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9fb941a95b0610dc546b1c12a87aa7faef4d676
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006614"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143740"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation 업데이트 릴리스 17, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.  이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
+Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.  이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
 
 이 항목에는 PSA V3, 업데이트 릴리스 17에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다. 이 버전의 빌드 번호는 V3.10.6.34이며 2020년 3월에 자체 업데이트를 통해 일반적으로 제공됩니다.
 
@@ -55,6 +57,3 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - 해결: 트랜잭션 클래스가 **시간** 이면 **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** 및 **ContractLineDetails** 를 포함하여 모든 엔터티에 대해 **UnitGroup** 을 편집할 수 없습니다.. 그러나 **단위** 는 **JournalLine** 과 **InvoiceLineDetails** 의 경우에만 편집할 수 없습니다 .
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

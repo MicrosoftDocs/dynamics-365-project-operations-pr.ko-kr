@@ -2,6 +2,8 @@
 title: Project Service Automation에 로그인
 description: 로그인하는 방법(Project Service)
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990459"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150271"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Project Service Automation에 로그인
 
@@ -37,7 +39,7 @@ Dynamics 365 앱에 로그인할 때, 관리자로부터 다음 정보를 받아
   
 - 암호  
   
-  관리자가 보낸 이메일에 이 정보가 포함되어 있을 수 있습니다. 이 모든 정보를 받지 못했거나 로그인에 문제가 있는 경우 [귀하의 관리자 또는 지원 담당자를 찾으세요](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  관리자가 보낸 이메일에 이 정보가 포함되어 있을 수 있습니다. 이 모든 정보를 받지 못했거나 로그인에 문제가 있는 경우 [귀하의 관리자 또는 지원 담당자를 찾으세요](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>전자 메일을 허용하도록 개인 옵션 설정  
  본인 대신 다른 사용자가 전자 메일을 보낼 수 있도록 전자 메일 설정을 구성해야 합니다. 따라서 프로젝트에 대해 승인하거나 등록할 시간 및 비용이 있는 경우 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]는 사용자 대신 전자 메일 알림을 보낼 수 있습니다.  
@@ -54,6 +56,3 @@ Dynamics 365 앱에 로그인할 때, 관리자로부터 다음 정보를 받아
   
 ### <a name="see-also"></a>참고 항목  
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

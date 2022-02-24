@@ -2,17 +2,17 @@
 title: 보류 중인 공급업체 송장을 사용하여 비 재고 재료 구매
 description: 이 항목에서는 보류 중인 공급업체 송장을 기록하는 방법을 설명합니다.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547297"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993809"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>보류 중인 공급업체 송장을 사용하여 비 재고 재료 구매
 
@@ -20,7 +20,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 회사가 프로젝트를 위해 비축 재료를 조달하면 프로젝트에 대해 비용을 즉시 기록할 수 있습니다. 
 
-예를 들어 Contoso Robotics US는 장비 갱신 프로젝트를 수행하고 있으며 소프트웨어 라이선스가 필요합니다. 이러한 라이선스는 타사 공급업체에서 조달합니다.  Dynamics 365 Finance를 사용하여 지급 계정 사무원은 보류 중인 공급업체 송장 문서를 기록하고 장비 갱신 프로젝트에 직접 라이선스 비용을 기록합니다. 
+예를 들면 Contoso Robotics US는 장비 갱신 프로젝트를 수행하고 있으며 소프트웨어 라이선스가 필요합니다. 이러한 라이선스는 타사 공급업체에서 조달합니다.  Dynamics 365 Finance를 사용하여 지급 계정 사무원은 보류 중인 공급업체 송장 문서를 기록하고 장비 갱신 프로젝트에 직접 라이선스 비용을 기록합니다. 
 
 > [!IMPORTANT]
 > 이 항목에 설명된 기능을 사용하기 전에 필요한 구성을 검토하고 적용하십시오. 자세한 내용은 [비 재고 재료 및 보류 중인 공급업체 송장 활성화](configure-materials-nonstocked.md)를 참조하십시오. 
@@ -45,5 +45,4 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
     - 공급업체 잔액.
     - 판매세 금액.
     - 프로젝트에 대한 비용은 조달 통합 계정에 기록됩니다.
-    - Dataverse의 프로젝트 실제 비용 트랜잭션.  이 트랜잭션은 [Project Operations 통합 저널](../project-accounting/project-operations-integration-journal.md)을 사용하여 추가 처리됩니다. 이 분개장을 전기하면 금액이 조달 통합 계정에서 프로젝트 원가 계정으로 이동합니다. 
-    - 시간 및 자재 청구 방법을 사용하여 프로젝트 고객에게 청구되는 구매입니다. 또한 Dataverse에서 구매에 대해 청구되지 않은 판매 트랜잭션이 생성됩니다. Dataverse의 제품 가격표는 판매 가격 및 미청구 판매 거래 금액에 사용됩니다.
+    - Dataverse에서 프로젝트 실제 트랜잭션. 이 트랜잭션은 [Project Operations 통합 저널](../project-accounting/project-operations-integration-journal.md)을 사용하여 추가 처리됩니다. 이 분개장을 전기하면 금액이 조달 통합 계정에서 프로젝트 원가 계정으로 이동합니다.

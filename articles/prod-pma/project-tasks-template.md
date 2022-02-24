@@ -2,9 +2,11 @@
 title: Project Service Automation에서 Finance and Operations로 직접 프로젝트 작업 동기화
 description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 작업을 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992799"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080034"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation에서 Finance and Operations로 직접 프로젝트 작업 동기화
 
@@ -39,7 +41,7 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 다음 그림은 Project Service Automation과 Finance 간에 데이터가 동기화되는 방식을 보여줍니다.
 
-[![Project Service Automation과 Finance 통합을 위한 데이터 흐름.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Project Service Automation과 Finance 통합을 위한 데이터 흐름](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>템플릿 및 작업
 
@@ -80,7 +82,4 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 다음 그림은 데이터 통합에서 템플릿 작업 매핑의 예를 보여줍니다. 매핑은 Project Service Automation에서 Finance로 동기화될 필드 정보를 보여줍니다.
 
-[![템플릿 매핑.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![템플릿 매핑](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)

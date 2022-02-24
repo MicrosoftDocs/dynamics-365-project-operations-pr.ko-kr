@@ -2,16 +2,18 @@
 title: 프로젝트 기반 견적 라인의 송장 일정
 description: 이 항목은 견적 라인에 대한 송장 일정 및 중요 시점 생성에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988614"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180830"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>프로젝트 기반 견적 라인의 송장 일정
 
@@ -66,6 +68,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 | 송장 상태 | 빨리 만들기 | 중요 시점이 생성되면 이 상태는 항상 **송장 발행 준비 안 됨** 으로 설정됩니다. | 이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다. |
 | 라인 금액 | 빨리 만들기 | 고객에게 청구될 중요 시점의 금액 또는 값입니다. | 이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다. |
 | 세금 | 빨리 만들기 | 중요 시점에 적용될 세액입니다. | 이것은 프로젝트 계약 라인 중요 시점 및 송장으로 전파됩니다. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

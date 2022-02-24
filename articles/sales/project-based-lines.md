@@ -2,16 +2,18 @@
 title: 프로젝트 기반 영업 기회 라인
 description: 이 항목은 프로젝트 기반 영업 기회 라인 작업에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996354"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181955"
 ---
 # <a name="project-based-opportunity-lines"></a>프로젝트 기반 영업 기회 라인
 
@@ -31,6 +33,3 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | Name | 일반 탭 | 이 라인 항목에 짧은 ID를 제공하는 데 사용할 수 있는 편집 가능한 텍스트 필드입니다. | 이 값은 이 영업 기회에서 견적을 생성할 때 견적 라인으로 전달됩니다. |
 | 고객 예산 | 일반 탭 | 이 편집 가능한 통화 필드는 고객이 이 라인 항목에 대해 지출하고자 하는 금액을 추적하는 데 사용할 수 있습니다. | 이 값은 이 영업 기회에서 견적을 생성할 때 견적 라인의 해당 필드로 전달됩니다. |
 | 청구 방법 | 일반 탭 | 이 편집 가능한 필드에는 다음 값이 있습니다.</br>- 시간 및 재료</br>- 고정 가격 | 이 값은 이 영업 기회에서 견적을 생성할 때 견적 라인의 해당 필드로 전달됩니다. 견적 라인이 생성된 후에는 필드가 잠기고 변경할 수 없습니다. 이 필드 값을 가능한 정확하게 지정하십시오. 견적 라인에서 이 필드의 값을 변경해야 하는 경우 견적 라인을 삭제하고 다시 생성하십시오. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

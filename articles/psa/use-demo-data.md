@@ -2,6 +2,8 @@
 title: 데모 데이터 실험
 description: Project Service Automation에 대한 데모 데이터를 다운로드하고 실험하는 방법.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49b5f0fe9c35e6975fa05c592920f38203a888d49a341c8c54005c4bdb3a0786
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998109"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151126"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>데모 데이터 실험(Project Service)
 
@@ -53,6 +55,3 @@ Package Deployer 설치를 실행하면 다음과 같은 작업을 수행합니�
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)   
  [리소스 관리자 가이드](../psa/resource-manager-guide.md)   
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

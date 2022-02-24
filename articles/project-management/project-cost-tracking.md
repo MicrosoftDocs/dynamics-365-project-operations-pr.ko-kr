@@ -2,16 +2,18 @@
 title: 프로젝트 비용 추적
 description: 이 항목은 Project Operations가 프로젝트의 인건비 및 지출에 대한 진행 상황을 추적하는 방법에 대한 정보를 제공합니다.
 author: rumant
+manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d37df64db1808722b7851c952c20be731aa2d670fe066c02ef90386712487407
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 28cb692c61ae4137a28973dc1bd70ffd989dd535
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987804"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5711064"
 ---
 # <a name="labor-cost-tracking-on-projects"></a>프로젝트에 대한 인건비 추적
 

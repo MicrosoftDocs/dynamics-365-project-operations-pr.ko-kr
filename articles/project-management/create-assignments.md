@@ -2,16 +2,18 @@
 title: 리소스 할당 만들기
 description: 이 항목은 일반 및 명명된 리소스 할당 만들기에 대한 정보를 제공합니다.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987894"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131756"
 ---
 # <a name="create-resource-assignments"></a>리소스 할당 만들기
 
@@ -40,6 +42,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 1. 작업 그리드, 게시판 또는 시간 표시줄에서 **할당 대상** 셀로 이동합니다.
 2. 검색 상자에 이름을 입력합니다. 이름에 대한 검색 결과는 **리소스 선택기** 의 **기타 리소스** 에 표시됩니다.
 3. 작업에 할당할 리소스를 선택하거나 **기타 팀 리소스** 아래에서 리소스 이름을 선택합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

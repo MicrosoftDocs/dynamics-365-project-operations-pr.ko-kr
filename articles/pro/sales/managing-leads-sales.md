@@ -2,16 +2,18 @@
 title: 잠재 고객 관리 - 라이트
 description: 이 항목은 프로젝트 기반 잠재 고객 관리 설정에 대한 정보를 제공합니다(Pro).
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991404"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272846"
 ---
 # <a name="manage-leads---lite"></a>잠재 고객 관리 - 라이트
 
@@ -53,7 +55,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 - 잠조 고객의 **이름** 과 **성** 의 값을 기반으로 거래처에 연결된 연락처 레코드.
 - **유형** 필드가 **작업 기반** 으로 설정된 프로젝트 기반 영업 기회.
 
-적격 잠재 고객에 대한 자세한 내용은 [잠재 고객을 우량으로 선별 또는 전환](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)을 참조하십시오.
+적격 잠재 고객에 대한 자세한 내용은 [잠재 고객을 우량으로 선별 또는 전환](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)을 참조하십시오.
 
 ## <a name="business-process-flow-for-project-based-deals"></a>프로젝트 기반 거래의 경우 비즈니스 프로세스 흐름
 

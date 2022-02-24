@@ -2,6 +2,8 @@
 title: 매출액 추산 및 프로젝트
 description: 이 항목은 판매 프로세스에서 스케줄과 추산을 활용하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995184"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148381"
 ---
 # <a name="sales-estimates-and-projects"></a>매출액 추산 및 프로젝트
 
@@ -35,11 +37,11 @@ ms.locfileid: "6995184"
 
 프로젝트 기반 견적 행을 생성할 때 새 프로젝트를 생성하거나 **견적 행** 페이지의 기존 프로젝트를 연계할 수 있습니다. 
 
-> ![견적 행 양식.](media/project-8.png)
+> ![견적 행 양식](media/project-8.png)
  
 견적 행 내역에서 새 프로젝트를 만들 때 프로젝트 템플릿을 활용할 수 있습니다. 프로젝트 템플릿은 조직에서 일반적인 표준 프로젝트 계획 및 재무 예측을 나타내는 모델 프로젝트입니다. 또한 과거 프로젝트의 프로젝트 계획 및 추산의 복사본을 나타낼 수도 있습니다.
 
-> ![견적 라인 세부 정보.](media/project-9.png)
+> ![견적 행 내역](media/project-9.png)
   
 견적에서 프로젝트를 만들면 프로젝트가 견적 행에 자동으로 연계됩니다.
 
@@ -52,6 +54,3 @@ ms.locfileid: "6995184"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>프로젝트에서 견적으로 추산 가져오기
 
 프로젝트 견적을 정의한 후 견적 행으로 가져올 수 있습니다. **견적 행 내역** 페이지에서 리본에 있는 **추산에서 가져오기** 를 선택하여 프로젝트 추산을 처리 타입, 역할 또는 과업 수준별로 요약합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

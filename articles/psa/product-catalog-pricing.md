@@ -2,6 +2,8 @@
 title: 제품 카탈로그 가격
 description: 이 항목은 Dynamics 365 Project Service Automation(PSA)에서 제품 카탈로그 가격이 기능하는 방식에 대한 정보를 제공합니다.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000179"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151216"
 ---
 # <a name="product-catalog-pricing"></a>제품 카탈로그 가격 
 
@@ -44,7 +46,7 @@ ms.locfileid: "7000179"
 
 가격이 정가, 표준 원가 또는 현재 원가의 함수로 구성된 경우 PSA는 다양한 반올림 옵션을 지원합니다. 여러 가격 책정 방법 및 반올림 옵션을 활용하는 것 외에도 할인 목록을 가격표 항목과 연계할 수 있습니다. 
 
-> ![카탈로그의 제품을 다른 가격표에 추가하기.](media/basic-guide-16.png)
+> ![카탈로그의 제품을 다른 가격표에 추가하기](media/basic-guide-16.png)
 
 **프로젝트 견적** 페이지에서 **맞춤 가격 생성** 을 선택하여 견적을 위한 새 맞춤 가격표를 만들면 PSA가 가격표의 복사본을 만들고, 새 가격표의 표제에 있는 **엔터티** 필드가 **매출액 엔터티** 에 설정됩니다. 새 가격표의 명칭이 견적의 명칭 및 타임스탬프와 함께 추가됩니다. 귀하는 또한 새 가격표의 명칭과 맞춤 워크플로우에서 견적의 명칭을 사용하여 맞춤 가격 책정을 사용하는 견적에 대한 추가 검토 및 승인을 촉발할 수 있습니다.
 
@@ -62,6 +64,3 @@ ms.locfileid: "7000179"
 기본적으로 견적 행의 **제품** 필드에는 견적의 제품 가격표에 있는 모든 활성 제품이 나열됩니다. 제품이 비활성화되었거나 초안 제품인 경우 가격표에 있더라도 제품이 나열되지 않습니다. 
 
 제품 카탈로그 행은 프로젝트 계약에 대해 작성된 첫 번째 청구서의 행으로 추가됩니다. 초안 청구서에서 이러한 청구서 행을 삭제할 수 있습니다. 이 경우 청구서가 발행될 때까지 또는 고객에게 청구서가 발송될 때까지 후속 청구서에 행이 표시됩니다. PSA에서는 제품 청구서 행의 부분 수량에 대해 청구서를 발행할 수 없습니다. 프로젝트 계약의 제품 행이 청구서 발행되면 실제값이 만들어집니다. 그러나 이러한 실제값이 관련 프로젝트 엔터티에 연계되지는 않습니다. 즉, 제품 기반 프로젝트 계약 행은 프로젝트 기반 사용량과 무관합니다. PSA는 프로젝트에 대한 자재 소비량을 추적하지 않습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

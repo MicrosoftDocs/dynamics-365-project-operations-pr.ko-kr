@@ -2,16 +2,18 @@
 title: 프로젝트 견적에 대한 여러 고객 관리
 description: 이 항목은 프로젝트에 자금을 지원할 여러 고객이 포함된 견적 작업에 대한 정보를 제공합니다.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991989"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182000"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>프로젝트 견적에 대한 여러 고객 관리
 
@@ -21,7 +23,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 프로젝트 견적의 **고객** 탭에 있는 모든 견적 고객은 견적에 대해 작성된 **새로운** 프로젝트 기반 견적 라인의 견적 라인 고객으로 기본적으로 지정됩니다. 기존 프로젝트 기반 견적 라인은 그 이후에 생성된 새 견적 고객 레코드를 상속하지 않습니다.
 
-견적 고객 및 견적 라인 고객은 견적을 받기 전에 언제든지 추가, 업데이트 또는 삭제할 수 있습니다. 견적의 유효한 고객은 **고객** 페이지의 소유 회사 또는 법인에서 고객으로 설정되어야 합니다. 법인은 Dynamics 365 Project Operations의 **프로젝트 관리 및 회계** 모듈에서 설정되며 Project Operations의 **프로젝트 판매 및 배달** 모듈에서 회사로 사용할 수 있습니다.
+견적 고객 및 견적 라인 고객은 견적을 받기 전에 언제든지 추가, 업데이트 또는 삭제할 수 있습니다. 견적의 유효한 고객은 **고객** 페이지의 소유 회사 또는 법인에서 고객으로 설정되어야 합니다. 법인은 Dynamics 365 Project Operations의 **프로젝트 관리 및 회계** 모듈에서 설정되며 Project Operations의 **프로젝트 판매 및 납품** 모듈에서 회사로 사용할 수 있게 됩니다.
 
 ## <a name="concept-of-a-primary-customer"></a>기본 고객의 개념
 
@@ -49,6 +51,3 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 인라인 그리드 편집 환경을 사용하여 청구 분할 비율을 편집할 수 있습니다. 청구 분할 비율의 합계가 100%가 아니면 오류가 발생합니다. 청구 분할 비율을 업데이트한 후 페이지를 새로 고쳐 오류를 제거합니다.
 
 견적 고객 하위 표에서 **균등 분배** 를 선택할 수도 있습니다. 이 작업은 모든 견적 고객에게 청구 분할을 할당합니다. 반올림 계수가 있는 경우 반올림 고객에 추가됩니다. 견적 고객 중 하나는 항상 반올림 고객으로 태그가 지정됩니다. 이는 견적 고객 레코드에 **반올림** 플래그가 **예** 로 설정된 것을 의미합니다. 일반적으로 견적의 기본 고객이지만 변경할 수 있습니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
