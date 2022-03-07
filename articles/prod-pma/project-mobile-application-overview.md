@@ -2,28 +2,26 @@
 title: 프로젝트 모바일 애플리케이션 개요
 description: 이 항목은 Microsoft Dynamics 365 Project Timesheet, 프로젝트 시간 항목 및 모바일 장치에서 사용할 수 있는 내 작업 표/작업 표의 프로젝트 시간 관련 애플리케이션에 대한 일반 정보를 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6c14fdc043b2a95f1e548c160620a3b06c79bf5
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080041"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369564"
 ---
 # <a name="project-mobile-applications-overview"></a>프로젝트 모바일 애플리케이션 개요
 
@@ -49,3 +47,6 @@ Dynamics 365 프로젝트 작업 표 모바일 앱을 사용하면 사용자가 
 - [프로젝트 시간 항목]( project-time-entry-mobile-workspace.md)
 - [모바일 장치의 프로젝트 작업 표](Mobile-timesheets.md)
 - [iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

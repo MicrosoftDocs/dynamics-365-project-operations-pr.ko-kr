@@ -2,18 +2,16 @@
 title: 팀 구성원 유지
 description: 이 항목은 프로젝트 팀에 명명된 리소스를 예약하는 것과 작업에 배정하는 것에 대한 정보를 제공합니다.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131531"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997074"
 ---
 # <a name="maintain-team-members"></a>팀 구성원 유지
 
@@ -21,7 +19,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 명명된 리소스를 팀에 직접 예약하여 프로젝트 팀에 추가할 수 있습니다.
 
-1. Dynamics 365 Project Operations에서 **프로젝트** 로 이동하고 예약할 프로젝트 열기를 선택합니다.
+1. Dynamics 365 Project Operations에서 **프로젝트** 로 가서, 예약할 프로젝트 열기를 선택합니다.
 2. **프로젝트** 페이지의 **팀** 탭에서 **신규** 를 선택합니다. 
 3. **프로젝트 팀원 빠른 생성** 대화 상자에서 예약 가능한 리소스를 선택합니다. **역할** 필드가 배정된 경우 리소스의 기본 역할로 채워집니다. 역할은 변경할 수 있습니다. 
 4. 리소스가 필요한 시작 날짜와 끝 날짜를 선택하고 리소스 능력의 배정 방법을 선택합니다. 
@@ -42,3 +40,6 @@ Project Operations에서 리소스 예약과 작업 할당은 밀접하게 연�
 **조정** 탭의 확장 예약 기능 또는 **스케줄 게시판** 을 사용하여 프로젝트에 리소스의 능력을 예약할 수 있습니다.
 
 프로젝트에 팀원을 예약한 후 **예약 유지** 또는 **일정 게시판** 을 사용하여 예약을 직접 관리할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

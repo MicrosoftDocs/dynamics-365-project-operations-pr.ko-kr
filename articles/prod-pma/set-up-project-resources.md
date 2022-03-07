@@ -2,11 +2,9 @@
 title: 프로젝트 리소스 설정
 description: 이 항목은 프로젝트 리소스를 설정 또는 요청하는 방법에 대한 정보를 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c8e4373da50999a0cc57f4eab672a98e7cf21edcfa5a5589d87691603a777de
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080224"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995724"
 ---
 # <a name="set-up-project-resources"></a>프로젝트 리소스 설정
 
@@ -75,3 +73,6 @@ ms.locfileid: "4080224"
 - 리소스 요청을 이행합니다.
 - WBS에 인력이 있는 리소스를 요청합니다.
 - 직원이 있는 리소스를 요청하지 않고 프로젝트에 리소스를 예약합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

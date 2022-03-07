@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727985"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276232"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>경비 보고서의 개인 경비에 대한 작업
 
@@ -28,3 +28,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
   - **회사에서 지불**: 조직에서 회사 신용 카드에 대한 전체 청구액을 지불한 다음 개인 경비로 근로자의 계좌에서 인출합니다.
 
 **경비 관리 매개 변수** 페이지에서 조직에서 사용하는 방법을 선택할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

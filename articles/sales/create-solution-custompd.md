@@ -2,18 +2,16 @@
 title: 사용자 지정 가격 책정 차원에 대한 솔루션 만들기
 description: 이 토픽은 맞춤 가격 책정 차원에 대한 솔루션을 만드는 방법에 대한 정보를 제공합니다.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514001"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010344"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>사용자 지정 가격 책정 차원에 대한 솔루션 만들기
 
@@ -64,3 +62,6 @@ ms.locfileid: "4514001"
 5.  선택한 엔터티에 대한 종속 엔터티를 포함할지 묻는 메시지가 표시되면 **아니요, 필수 구성 요소를 포함하지 마십시오.** 를 선택합니다.
 
     ![종속 엔터티 포함](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 리소스 요구 사항 정의
 description: 이 항목은 리소스 요구 사항 정보를 정의하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 345de0a4599a7f332312bbf032cab5f69e358f69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079947"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015294"
 ---
 # <a name="define-resource-requirements"></a>리소스 요구 사항 정의
 
@@ -26,3 +24,5 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 3.  **팀 구성원** 탭에서 팀 구성원을 선택한 다음 **요구 사항 생성** 을 선택합니다.
 
 리소스 요구 사항을 수정하는 방법에 대한 자세한 내용은 리소스 요구 사항을 수정하기 위한 [리소스 요구 사항 세부 정보 업데이트](define-resource-requirements.md)를 참조하십시오.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 기반 영업 기회 라인 - 라이트
+title: 프로젝트 기반 영업 기회 라인(Pro)
 description: 이 항목은 프로젝트 기반 영업 기회 라인에 대한 정보를 제공합니다. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272531"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079977"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>프로젝트 기반 영업 기회 라인 - 라이트
+# <a name="project-based-opportunity-lines-pro"></a>프로젝트 기반 영업 기회 라인(Pro)
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -25,13 +25,10 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 다음은 프로젝트 기반 영업 기회 라인의 필드입니다.
 
-| **필드** | **위치** | **설명** | **다운스트림 영향** |
+| **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
 | --- | --- | --- | --- |
 | 제품 유형 | 일반 탭(숨김) | 다음 옵션 중 하나를 선택할 수 있습니다.</br>- 프로젝트 기반 서비스(Dynamics 365 Project Operations가 설치된 경우에만 사용 가능)</br>- 제품(Project Operations 및 Dynamics 365 Sales가 설치된 경우에만 사용 가능) | 이 필드의 값은 영업 기회의 프로젝트 기반 라인 그리드에서 프로젝트 기반 영업 기회 라인을 생성할 때 **프로젝트 기반 서비스** 로 설정됩니다. <br> 이 값을 변경하거나 재정의하면 프로젝트 기반 라인 항목에서 프로젝트 기능이 활성화되지 않습니다. |
 | 영업 기회 | 일반 탭 | 이 필드는 읽기 전용이며이 라인 항목이 속한 상위 영업 기회 레코드를 참조합니다. | 이 필드의 다운스트림 영향은 없습니다. |
 | Name | 일반 탭 | 이 편집 가능한 텍스트 필드는 라인 항목에 짧은 ID를 제공하는 데 사용할 수 있습니다. | 이 값은 이 영업 기회에서 견적을 생성할 때 견적 라인으로 전달됩니다. |
 | 고객 예산 | 일반 탭 | 이 편집 가능한 통화 필드는 고객이 이 라인 항목에 대해 지출하고자 하는 금액을 추적하는 데 사용할 수 있습니다. | 이 값은 이 영업 기회에서 견적을 생성할 때 견적 라인의 해당 필드로 전달됩니다. |
 | 청구 방법 | 일반 탭 | 이 편집 가능한 필드에는 다음 값이 있습니다.</br>- 시간 및 재료</br>- 고정 가격 | 이 값은 이 영업 기회에서 견적을 생성할 때 견적 라인의 해당 필드로 전달됩니다. 견적 라인이 생성된 후에는 필드가 잠기고 변경할 수 없습니다. 이 필드 값을 가능한 정확하게 지정하십시오. 견적 라인에서 이 필드의 값을 변경해야 하는 경우 견적 라인을 삭제하고 다시 생성하십시오. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

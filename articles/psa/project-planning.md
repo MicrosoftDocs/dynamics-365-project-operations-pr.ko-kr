@@ -2,10 +2,9 @@
 title: 프로젝트 기획 홈페이지
 description: 이 항목은 프로젝트 기획에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148246"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990594"
 ---
 # <a name="project-planning-home-page"></a>프로젝트 기획 홈페이지
 
@@ -52,3 +51,6 @@ PSA의 프로젝트 관리 도구를 사용하면 프로젝트를 쉽게 실행�
 - [프로젝트 템플릿](project-templates.md)
 - [프로젝트 단계](project-stages.md)
 - [프로젝트 설정](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

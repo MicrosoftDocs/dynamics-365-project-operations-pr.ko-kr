@@ -2,18 +2,16 @@
 title: 여행 요청
 description: 이 항목은 여행 요청에 대한 정보를 제공합니다.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e05f54349eaa09dd22331ff07950542dd326e711
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123746"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001749"
 ---
 # <a name="travel-requisitions"></a>여행 요청
 
@@ -56,3 +54,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 > [!NOTE]
 > 경비 보고서를 승인된 여행 요청에 매핑할 때 트랜잭션 금액은 승인된 금액보다 클 수 없습니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

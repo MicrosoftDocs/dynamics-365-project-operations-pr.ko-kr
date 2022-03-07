@@ -2,18 +2,16 @@
 title: 예약 가능한 리소스가 프로젝트에서 여러 역할을 수행할 때 프로젝트 판매 및 비용을 추정합니다.
 description: 이 토픽에서는 가격 책정 측정 기준을 사용하여 프로젝트에서 여러 역할을 수행하는 리소스의 가격 책정 및 예상 비용을 지원하는 방법을 설명합니다.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531487"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990144"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>예약 가능한 리소스가 프로젝트에서 여러 역할을 수행할 때 프로젝트 판매 및 비용을 추정합니다. 
 
@@ -106,3 +104,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오를 위한 Project O
 ### <a name="estimates-grid"></a>추정 그리드 
 
 **추정** 그리드에서 동일한 리소스에 대한 두 할당은 서로 다른 가격이 책정됩니다. **작업 A** 의 리소스 할당은 **컨설팅 리드** 의 **역할** 속성 값을 사용하여 가격이 책정됩니다. **작업 B** 의 동일한 리소스 할당은 **네트워크 기술자** 의 **역할** 속성 값을 사용하여 가격이 책정됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

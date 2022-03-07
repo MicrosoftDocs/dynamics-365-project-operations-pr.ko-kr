@@ -2,18 +2,16 @@
 title: LCS 프로젝트에 Azure 구독 추가
 description: 이 항목은 Azure 구독을 LCS 프로젝트에 연결하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880546"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986679"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS 프로젝트에 Azure 구독 추가
 
@@ -25,35 +23,35 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 1. LCS 프로젝트의 **환경** 섹션에서 **Microsoft Azure 설정** 을 선택합니다.
 
-![Microsoft Azure 설정](./media/1MicrosoftAzureSettings.png)
+![Microsoft Azure 설정.](./media/1MicrosoftAzureSettings.png)
 
 2. **Azure 커넥터** 탭의 **프로젝트 설정** 페이지에서 **승인** 을 선택합니다. 이를 통해 이 프로젝트에 환경을 배포할 수 있습니다.
 
-![Azure 커넥터](./media/2AzureConnectors.png)
+![Azure 커넥터.](./media/2AzureConnectors.png)
 
 3. **승인** 을 다시 선택하여 관리자 동의를 제공합니다.
 
-![관리자 동의 부여](./media/3GrantAdminConsent.png)
+![관리자 동의 부여.](./media/3GrantAdminConsent.png)
 
 4. 권한 요청을 수락합니다.
 
-![권한 요청 수락](./media/4AcceptPermissionRequest.png)
+![권한 요청 수락.](./media/4AcceptPermissionRequest.png)
 
 이제 인증이 완료되었습니다. 
 
-![승인 성공](./media/5AuthorizationComplete.png)
+![승인 성공.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Azure 구독에 대한 Dynamics 배포 서비스 액세스 제공
 
 1. [Microsoft Azure 청구](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade)로 이동하여 구독을 선택합니다. Dynamics Deployment Services는 환경을 배포할 수 있으려면 이 구독에 액세스해야 합니다.
 
-![Azure 구독 세부 정보](./media/6AzureSubscription.png)
+![Azure 구독 정보.](./media/6AzureSubscription.png)
 
 2. 탐색 창에서 **액세스 제어(IAM)** 를 선택한 다음 **역할 할당 추가** 를 선택합니다.
 3. 오른쪽의 슬라이더에서 **Contributor 역할** 을 클릭하고 제공된 목록에서 **Dynamics 배포 서비스** 를 선택합니다. 
 4. **저장** 을 선택합니다.
 
-![구독 액세스](./media/7SubscriptionAccess.png)
+![구독 액세스.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>LCS 프로젝트에 구독 커넥터 추가
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: b0da3b3f8f14ecf9a4c4f057cd26c0ca9eb5ec2f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513932"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278246"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>프로젝트 기반 계약 내용에 송장 일정 만들기 
 
@@ -74,3 +74,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 세금 | 빨리 만들기 | 중요 시점에 적용되는 세액입니다. | 이것은 프로젝트 계약 내용 중요 시점 및 송장으로 전달됩니다. |
 
 3. **저장 후 닫기** 를 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

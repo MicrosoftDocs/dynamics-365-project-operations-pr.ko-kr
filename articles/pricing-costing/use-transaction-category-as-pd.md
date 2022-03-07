@@ -2,18 +2,16 @@
 title: 트랜잭션 범주를 가격 책정 차원으로 사용
 description: 이 토픽은 트랜잭션 범주 필드를 가격 책정 차원으로 사용하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514002"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996129"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>트랜잭션 범주를 가격 책정 차원으로 사용
 
@@ -50,3 +48,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 2. **매개 변수** 페이지의 **금액 기반 가격 책정 차원** 탭에서 그리드가 **가격 책정 차원** 엔터티의 레코드를 보여줌을 인식하십시오.
 3. 이 목록에 **트랜잭션 범주** 를 추가하고 **비용에 적용 가능** 및 **판매에 적용 가능** 필드를 **예** 로 설정합니다.
 4. **차원 유형** 필드에서 **금액 기반** 을 선택한 다음, 비용 및 판매와 관련된 **트랜잭션 범주** 의 우선순위를 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

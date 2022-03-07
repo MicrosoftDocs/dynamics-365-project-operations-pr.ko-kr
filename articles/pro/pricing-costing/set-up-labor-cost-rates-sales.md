@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180730"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274376"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>인력 비용 요금 설정 - 라이트
 
@@ -38,7 +38,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>부문 또는 법인 외부의 리소스에 대한 이전 가격 책정 및 비용
 
-프로젝트 기반 회사에서는 프로젝트에 다른 법인 또는 부문의 직원을 사용하는 것이 일반적입니다. 프로젝트는 하나의 법인에 의해 실행될 수 있지만, 프로젝트에 참여하는 직원 또는 컨설턴트는 동일한 법인 또는 다른 법인에서 올 수 있거나 둘 다의 조합이 있을 수 있습니다. Dynamics 365 Project Operations에서 프로젝트 제공을 담당하는 법인은 **담당 회사** 이고 제공을 담당하는 부문은 **계약 단위** 입니다. 리소스를 제공하는 다른 법인은 **리소싱 회사** 이고 리소스를 제공하는 부문은 **리소싱 단위** 입니다. 대부분의 국가에서 기업은 리소스를 조달하는 법인 또는 부문이 리소스 사용에 대해 담당 회사와 계약 단위에 비용을 청구하도록 해야 합니다.
+프로젝트 기반 회사에서는 프로젝트에 다른 법인 또는 부문의 직원을 사용하는 것이 일반적입니다. 프로젝트는 하나의 법인에 의해 실행될 수 있지만, 프로젝트에 참여하는 직원 또는 컨설턴트는 동일한 법인 또는 다른 법인에서 올 수 있거나 둘 다의 조합이 있을 수 있습니다. Dynamics 365 Project Operations에서 프로젝트 배달을 담당하는 법인은 **담당 회사** 이고 배달을 담당하는 부서는 **계약 단위** 입니다. 리소스를 제공하는 다른 법인은 **리소싱 회사** 이고 리소스를 제공하는 부문은 **리소싱 단위** 입니다. 대부분의 국가에서 기업은 리소스를 조달하는 법인 또는 부문이 리소스 사용에 대해 담당 회사와 계약 단위에 비용을 청구하도록 해야 합니다.
 
 예를 들어 Fabrikam 회사는 Fabrikam India-Robotics가 Fabrikam US-Robotics 또는 Fabrikam UK-Robotics와 비용 요금 카드를 협상했는지 확인해야 합니다.
 
@@ -82,3 +82,6 @@ Fabrikam UK-Robotics의 비용 가격표에서 비용 요금은 다음과 같이
 | 디벨로퍼 | Fabrikam UK | 115 GBP |
 
 비용 가격표는 여러 통화로 인력 요금을 제공할 수 있습니다. 프로젝트에 대한 비용 견적을 생성할 때 Project Operations는 이러한 비용을 프로젝트 통화로 변환하여 사용자에게 표시합니다. 시간 항목이 승인되고 실제 비용이 생성되면 실제 비용은 비용 가격펴에서 해당 역할 가격 라인의 통화로 가격이 책정됩니다. 단일 프로젝트의 시간에 대한 실제 비용은 여러 통화로 기록될 수 있습니다. 그러나 프로젝트 수준에서 실제 인력 비용을 롤업하거나 요약할 때 Project Operations는 모든 인력 비용 금액을 사용자가 볼 수 있는 프로젝트 통화로 변환합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

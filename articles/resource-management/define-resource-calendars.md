@@ -2,18 +2,16 @@
 title: 리소스 일정 정의
 description: 이 항목은 Project Operations에서 리소스에 대한 근무 시간 달력을 정의하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123926"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990324"
 ---
 # <a name="define-resource-calendars"></a>리소스 일정 정의
 
@@ -43,3 +41,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 2. 그리드 보기에서 업데이트할 최대 25개의 **예약 가능한 리소스** 를 선택합니다.
 3. **일정 설정** 을 선택하면 사용 가능한 근무 시간 템플릿 목록을 묻는 대화 상자가 나타납니다.
 4. 사용할 템플릿을 선택한 다음 **적용** 을 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

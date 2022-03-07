@@ -2,8 +2,6 @@
 title: 단위 그룹 및 단위
 description: 이 항목은 단위 그룹 및 단위에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145591"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009579"
 ---
 # <a name="unit-groups-and-units"></a>단위 그룹 및 단위
 
@@ -88,7 +86,7 @@ Dynamics 365 Project Service Automation은 단위 및 단위 그룹을 사용하
 
 | 역할      | 단위 그룹 | 단위 | 조직 구성 단위 | 가격   |
 |-----------|------------|------|---------------------|---------|
-| 개발자 | Time       | Day  | Contoso UK          | 800 GBP |
+| 개발자 | 시간       | 요일  | Contoso 영국          | 800 GBP |
 
 ### <a name="time-entry"></a>시간 항목
 
@@ -112,3 +110,6 @@ Dynamics 365 Project Service Automation은 단위 및 단위 그룹을 사용하
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>단위 및 단위 그룹을 편집, 삭제 및 추가할 수 있습니까?
 예. **시간** 단위 그룹 및 **시간** 단위를 예외로 하고, 모든 단위를 삭제하거나 편집할 수 있으며 새 단위를 추가할 수 있습니다. PSA에서는 **시간** 단위 그룹과 **시간** 단위를 삭제할 수 없습니다. 그러나 **이름** 필드에 대한 번역된 텍스트로 업데이트할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

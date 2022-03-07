@@ -2,18 +2,16 @@
 title: 프로젝트 기반 견적 복사
 description: 이 항목은 Project Operations의 프로젝트 기반 견적을 복사하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181820"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992169"
 ---
 # <a name="copy-project-based-quotes"></a>프로젝트 기반 견적 복사
 
@@ -45,3 +43,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 > - 프로젝트 기반 견적 라인에 대한 프로젝트 참조 – 고객 예산 정보
 >
 >이 정보는 각 견적에 매우 구체적이기 때문에 이러한 필드와 레코드는 복사되지 않습니다. 프로젝트 및 제품에 대한 견적 라인, 견적 라인 세부 정보에 대한 견적, 견적 레벨에서 초과하지 않는 값이 복사됩니다. 가격 및 비용 요금 기본값은 **매개 변수 복사** 대화 상자 페이지에서 선택한 **가격 복사** 옵션에 따라 다릅니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,26 @@
 title: 작업 분할 구조 개요
 description: 작업 분할 구조(WBS)는 프로젝트를 위해 완료될 작업에 대한 설명입니다. 작업의 구성과 각 구성 요소 또는 작업의 크기, 비용 및 기간에 대한 프로젝트 팀의 이해를 나타내는 작업 계층 구조입니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080027"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998829"
 ---
 # <a name="work-breakdown-structures-overview"></a>작업 분할 구조 개요
 
@@ -316,3 +314,6 @@ WBS 템플릿에는 날짜가 없기 때문에 선행 작업의 종료 날짜를
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

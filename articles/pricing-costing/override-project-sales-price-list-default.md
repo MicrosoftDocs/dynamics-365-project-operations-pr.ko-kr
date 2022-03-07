@@ -2,19 +2,17 @@
 title: 프로젝트 판매 가격표 재정의
 description: 이 항목은 맞춤 판매 가격표 생성에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672239"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009584"
 ---
 # <a name="override-project-sales-price-lists"></a>프로젝트 판매 가격표 재정의
 
@@ -52,3 +50,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 프로젝트 계약에서 프로젝트 가격은 항상 계약 이름과 이름에 생성된 날짜 타임 스탬프가 추가된 사용자 지정 가격표로 기본 설정됩니다. 이는 견적이 성사되었을 때 계약이 생성되었거나 계약이 처음부터 생성되었는지 여부에 관계없이 적용됩니다. 필요한 경우 사용자 지정 가격표에서 이 연결을 제거하고 대신 표준 가격표를 프로젝트 계약에 연결할 수 있습니다.
 
 표준 가격표를 견적 또는 계약의 프로젝트 가격표에 연결하면 가격표의 가격 변경 사항이 가격표를 사용하는 모든 견적 및 계약에 영향을 미칩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

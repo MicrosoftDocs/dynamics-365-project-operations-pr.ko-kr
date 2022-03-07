@@ -2,8 +2,6 @@
 title: 제품 기반 견적 행
 description: 이 항목은 제품 기반 견적 행에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151261"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008594"
 ---
 # <a name="product-based-quote-lines"></a>제품 기반 견적 행
 
@@ -60,7 +58,7 @@ Dynamics 365 제품 카탈로그의 제품은 기본 단위와 단위 그룹을 
 
 PSA를 설치하면 견적의 제품 기반 행에 기본 판매 가격이 입력됩니다. 그런 다음 견적 행에서 기본 가격을 편집할 수 있도록 **가격** 필드를 **가격 재정의** 로 설정합니다.
 
-> ![가격 재정의 설정](media/basic-guide-10.png)
+> ![가격 재정의 설정.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>제품의 수량 계수
 
@@ -80,5 +78,8 @@ PSA는 숫자 데이터 형식이 있는 숫자 속성 또는 제품 속성만 �
 
 **사용자 수** 및 **월 수** 속성은 제품 행의 속성을 편집하여 수량 계수로 플래그를 지정할 수 있습니다. 
 
-> ![사용자 수 및 월 수를 품질 계수로 플래그 지정](media/basic-guide-11.png)
+> ![사용자 수 및 월 수를 품질 계수로 플래그 지정.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

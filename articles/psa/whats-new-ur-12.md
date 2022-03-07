@@ -2,8 +2,6 @@
 title: Project Service Automation 업데이트 릴리스 12, V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에서는 Project Service Automation 업데이트 릴리스 12, V3의 새로운 기능에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: daf0e6c7a4b1b953cb808cfefab74475c47d3996
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f05488a652f7a699aaa5d8e644eae38d7083f404d3c461cdaabd1915b1a710a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143836"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004499"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation 업데이트 릴리스 12, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
+Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
 
 이 항목에는 Project Service Automation V3, 업데이트 릴리스 12에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다. 이 버전의 빌드 번호는 V3.10.2.34이며 2019년 10월에 자체 업데이트를 통해 일반적으로 제공됩니다.
 
@@ -61,3 +59,6 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
     - 수정: 중복 개체 ID가 **계약 기본** 양식에 표시됩니다.
     - 수정: **견적 분석** 탭이 표시되어 탭의 메타데이터 설정이 표시되도록 논리가 업데이트되었습니다.
     - 수정: 실제 레코드의 회계 날짜는 이제 승인 날짜가 아닌 시간/비용 항목 날짜로 표시됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

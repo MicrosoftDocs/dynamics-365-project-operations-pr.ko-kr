@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947887"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079910"
 ---
 # <a name="manage-leads"></a>잠재 고객 관리
 
@@ -38,9 +38,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 다음 표에는 잠재 고객에 대한 중요한 필드 정보와 해당 필드의 다운스트림 영향이 포함되어 있습니다.
  
-| **필드** | **위치** | **설명** | **다운스트림 영향** |
+| **필드** | **위치** | **관련성, 목적 및 지침** | **다운스트림 영향** |
 | --- | --- | --- | --- |
-| 토픽 | 일반 탭 | 이 텍스트 필드에는 거래에 대한 간단한 설명이 포함되어야 합니다. | 잠재 고객 토픽은 기본적으로 영업 기회의 토픽, 견적 및 프로젝트 계약의 이름으로 지정됩니다. |
+| 주제 | 일반 탭 | 이 텍스트 필드에는 거래에 대한 간단한 설명이 포함되어야 합니다. | 잠재 고객 토픽은 기본적으로 영업 기회의 토픽, 견적 및 프로젝트 계약의 이름으로 지정됩니다. |
 | 종류 | 일반 탭 | 이 옵션 집합 필드에는 다음 옵션이 있습니다.</br>- 작업 기반(Project Operations가 설치된 경우에만 사용 가능)</br>- 항목 기반(Project Operations 및 Sales가 설치된 경우에만 사용 가능)</br>- 서비스 유지 보수 기반(Field Service가 설치된 경우 사용 가능) | 이 필드의 값이 잠재 고객에서 **업무 기반** 으로 설정된 경우 잠재 고객은 프로젝트 기반 영업 기회를 생성할 자격이 있습니다. 이 거래에 대한 다운스트림 판매 프로세스에서 모든 프로젝트별 확장 및 기능을 활성화하려면 프로젝트 기반 영업 기회가 필요합니다. |
 | 이름 | 일반 탭 | 잠재 기부자 연락처의 이름 | 잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다. 연락처의 이름이 여기에 설정된 값입니다. |
 | 성 | 일반 탭 | 잠재 기부자 연락처의 성 | 잠재 고객이 자격을 갖추면 거래처, 연락처 및 영업 기회가 생성됩니다. 연락처의 성이 여기에 설정된 값입니다. |
@@ -53,9 +53,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 - 잠재 고객의 **회사** 필드를 사용하는 거래처.
 - 잠조 고객의 **이름** 과 **성** 의 값을 기반으로 거래처에 연결된 연락처 레코드.
-- **유형** 필드가 **작업 기반** 으로 설정된 프로젝트 기반 영업 기회.
+- **유형** 필드가 &quot;**작업 기반** 으로 설정된 프로젝트 기반 영업 기회.
 
-적격 잠재 고객에 대한 자세한 내용은 [잠재 고객을 우량으로 선별 또는 전환](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)을 참조하십시오.
+적격 잠재 고객에 대한 자세한 내용은 [잠재 고객을 우량으로 선별 또는 전환](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)을 참조하십시오.
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>잠재 고객 선별 및 법인 정보 
 
@@ -80,6 +80,3 @@ Project Operations의 프로젝트 기반 거래에 대해 다음 비즈니스 �
 | 전개 | 영업 기회 | 관련된 작업, 주요 이해 관계자 및 경쟁에 대한 더 많은 정보를 추가할 수 있는 영업 기회를 개발하십시오. |
 | 제안 | 영업 기회 | 제안서를 개발하고 내부 검토 팀의 승인을 받으십시오. |
 | 종료 | 영업 기회 | 거래를 성사시킬 수 있는 영업 기회를 얻으십시오. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

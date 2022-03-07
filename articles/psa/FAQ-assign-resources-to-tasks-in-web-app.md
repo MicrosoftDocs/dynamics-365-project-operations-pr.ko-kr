@@ -2,6 +2,8 @@
 title: 웹 앱에서 과업에 예약 가능한 리소스를 할당하려면 어떻게 해야 합니까?
 description: 예약 가능한 리소스를 할당할 수 있는 방법에 대한 개요입니다.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993309"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125186"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>웹 앱(Project Service 앱 v2.x)의 작업에 예약 가능한 리소스를 할당하려면 어떻게 해야 합니까?
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -114,6 +114,3 @@ WBS에서 작업에 역할 할당을 완료했으면 **프로젝트 팀 생성**
 명명된 리소스로 일반 리소스가 이행되면 일반 리소스가 팀에서 제거되고 일반 리소스에 대한 작업 할당이 일반 리소스의 리소스 요구 사항을 충족하는 명명된 리소스에 할당됩니다.
  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

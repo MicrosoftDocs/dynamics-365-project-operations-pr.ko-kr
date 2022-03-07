@@ -2,18 +2,16 @@
 title: 기술 및 인증
 description: 이 항목은 리소스에 기술 및 인증 특성을 추가하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128876"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990189"
 ---
 # <a name="skills-and-certifications"></a>기술 및 인증
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
@@ -43,3 +41,5 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 3. **기술** 하위 표에서 **+ 새 요구 사항 특성 추가** 를 선택합니다.
 4. 빨리 만들기 창에서 필요한 특성을 찾아 선택하고 **평가 값** 을 추가합니다.
 5. **저장 후 닫기** 를 선택합니다.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

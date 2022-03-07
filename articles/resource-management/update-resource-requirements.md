@@ -2,18 +2,16 @@
 title: 리소스 요구 사항 편집
 description: 이 항목은 리소스 요구 사항 정보를 업데이트하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128786"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999774"
 ---
 # <a name="edit-a-resource-requirement"></a>리소스 요구 사항 편집
 
@@ -37,3 +35,5 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 ## <a name="edit-resource-assignment-contours"></a>리소스 할당 윤곽 편집
 
 리소스 요구 사항의 세부 사항을 편집하는 것 외에도 프로젝트 관리자는 **패턴 지정** 기능을 사용하여 리소스 요구 사항의 개별 윤곽을 업데이트할 수 있습니다. **패턴 지정** 을 선택하면 페이지가 열리고 일, 주 또는 월 시간 단위로 윤곽을 볼 수 있습니다. 각 윤곽은 지정된 기간의 시작 시간, 종료 시간 및 총 작업량에 대해 조정할 수 있습니다.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 보유자 또는 선불 청구
 description: 이 항목은 Project Operations에서 보유자 또는 선불을 청구하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596200"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997479"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>보유자 또는 선불 청구
 
@@ -51,3 +49,6 @@ Dynamics 365 Project Operations는 보유자 기반 계약 및 일회성 선불�
 | 사용된 금액 | **프로젝트 송장** 페이지의 **적용된 선불 및 보유자** 그리드  | 이 읽기 전용 필드는 사용된 보유자 또는 선불의 양을 요약하는 계산된 값을 제공합니다. | 이 필드는 인쇄된 송장에 고객에게 표시되어 이미 사용된 이 보유자 또는 선불의 금액을 나타낼 수 있습니다. |
 | 소계 | **프로젝트 송장** 페이지의 **적용된 선불 및 보유자** 그리드  | 이 편집 가능 필드는 이 프로젝트 송장에 사용 중인 보유자 또는 선불에 대한 금액을 제공합니다. 이 금액은 사전에 제공되는 금액보다 많을 수 없습니다. 시스템은 이를 그리드의 **금액** 과 **사용된 금액** 필드 사이의 차이로 자동으로 계산합니다. 이 양을 줄여 사용 가능한 것보다 적게 사용할 수 있지만 사용 가능한 것보다 더 많이 사용하기 위해 양을 늘릴 수는 없습니다. | 이 필드는 인쇄된 송장에 고객에게 표시되어 송장에 사용 중인 이 보유자 또는 선불의 금액을 나타낼 수 있습니다. |
 | 잔액 보유자 금액. | **프로젝트 송장** 페이지의 **적용된 선불 및 보유자** 그리드  | 이 읽기 전용 필드는 송장이 확인된 후 남은 보유자 또는 선불의 값을 제공합니다. | 이 필드는 인쇄된 송장에 고객에게 표시되어 송장이 확인되고 지불된 후 이 보유자 또는 선불에 남아 있는 금액을 나타낼 수 있습니다. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: 작업 그리드에서 작업 문제 해결
 description: 이 토픽은 작업 그리드에서 작업할 때 필요한 문제 해결 정보를 제공합니다.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031545"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213408"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>작업 그리드에서 작업 문제 해결 
 
@@ -57,7 +55,7 @@ Project Operations를 위해서는 프로젝트 매개 변수가 PEX 끝점을 �
  ![프로젝트 매개 변수의 PEX 끝점 필드](media/projectparameter.png)
 
 1. **PEX 끝점** 필드를 **프로젝트 매개 변수** 페이지에 추가합니다.
-2. 다음 값으로 필드를 업데이트합니다: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. 다음 값으로 필드를 업데이트합니다: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. **프로젝트 매개 변수** 페이지에서 필드를 제거합니다.
 
 ## <a name="privileges-for-project-for-the-web"></a>웹에 대한 프로젝트 권한
@@ -106,3 +104,6 @@ Project Operations는 외부 일정 서비스에 의존합니다. 이 서비스�
   - Project Operations 시스템
   - 프로젝트 시스템
   - Project Operations 이중 쓰기 시스템(이 역할은 Project Operations의 리소스/비 재고 기반 시나리오를 배포하는 경우 필요합니다.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

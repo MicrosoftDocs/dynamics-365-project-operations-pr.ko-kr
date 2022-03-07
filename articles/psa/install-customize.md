@@ -2,8 +2,6 @@
 title: 설치 및 사용자 지정
 description: 설치 및 사용자 지정 방법(Project Service)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9d482a4e38009f371b877599bc7559bc0e21b9acf57b175081c8618236163585
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947932"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985352"
 ---
 # <a name="install-and-customize-project-service"></a>설치 및 사용자 지정(Project Service)
 

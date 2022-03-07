@@ -2,8 +2,6 @@
 title: Project Service Automation 업데이트 릴리스 31, V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 31, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/26/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a595c0a129ac35d3416984e57908e73e1eaef2fd
-ms.sourcegitcommit: 6e1498502461e86cff722ccaf8795ff11c7c47ad
+ms.openlocfilehash: 2e5fce003c25f9c5911e5a01fb4ec3e19c06c078e00b054472699a522b9cd070
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5945543"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002159"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-31-v3"></a>Project Service Automation 업데이트 릴리스 31, V3의 새로운 기능 또는 변경된 기능
 

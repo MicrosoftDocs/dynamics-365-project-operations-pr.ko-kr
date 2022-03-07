@@ -2,18 +2,16 @@
 title: 프로젝트 및 작업을 프로젝트 기반 견적 라인에 매핑
 description: 이 항목은 프로젝트 및 작업을 프로젝트 기반 작업 줄에 매핑하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d714304f408050babae1a6ba74268979e0b6ea4b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6ad46f3636d749740115b11584eb81977c73cb30b63ef1092c0c2aac97cbc647
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272756"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988254"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>프로젝트 및 작업을 프로젝트 기반 견적 라인에 매핑
 

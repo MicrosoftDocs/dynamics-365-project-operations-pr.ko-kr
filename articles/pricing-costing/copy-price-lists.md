@@ -2,18 +2,16 @@
 title: 원가표
 description: 이 항목은 Project Operations에서 가격표를 복사하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181505"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003734"
 ---
 # <a name="copy-price-lists"></a>원가표
 
@@ -43,3 +41,6 @@ Dynamics 365 Project Operations에서 가격표의 복사본을 만들 수 있�
 1. 가격표의 **역할**, **범주** 및 **가격표 항목** 탭에서 **가격 업데이트** 를 선택하여 하위 표의 모든 가격에 가격 인상을 적용합니다. 
 2. 열리는 대화 상자 페이지에서 가격 인상액을 입력합니다. 음수 가격 인상률을 입력하여 특정 비율만큼 가격을 낮출 수도 있습니다. 
 3. 대화 상자 페이지에서 **확인** 을 선택하여 변경한 내용이 하위 표의 가격에 반영되는지 확인합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

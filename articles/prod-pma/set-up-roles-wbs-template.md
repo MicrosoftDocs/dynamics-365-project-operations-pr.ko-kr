@@ -2,11 +2,9 @@
 title: 작업 분할 구조 템플릿에서 역할 설정
 description: 이 항목은 작업 분할 구조 템플릿에 대한 역할 정보 설정에 대한 정보를 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080032"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008909"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>작업 분할 구조 템플릿에서 역할 설정
 
@@ -91,7 +89,7 @@ ms.locfileid: "4080032"
 
 4. 다음 그림과 같이 날짜와 노력(시간)을 설정합니다.
 
-    [![날짜와 노력 설정](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![날짜와 노력 설정.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. **시작** 작업 줄을 선택한 다음 **역할** 필드에서 **수석 프로젝트 관리자** 를 선택합니다.
 6. **게시** 를 선택합니다.
@@ -107,3 +105,6 @@ ms.locfileid: "4080032"
     > 리소스 수가 1로 남아 있으므로 지정된 리소스가 이제 2라는 경고를 받지 않습니다.
 
 14. **작업 분할 구조** 페이지에서 WBS에서 리소스 할당을 확인한 다음 **저장** 을 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

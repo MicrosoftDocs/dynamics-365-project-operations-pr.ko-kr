@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d3f5ed7da5972cec5b22524bdcb3dc34a83eee28
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145006"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290952"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>가격 책정 차원으로 예약 가능한 리소스 사용
 
@@ -76,3 +76,6 @@ ms.locfileid: "5145006"
 5. **msdyn_projectteam** 을 **엔터티 논리 명칭** 필드에 추가하고 **msdyn_bookableresourceid** 를 **필드 명칭** 필드에 추가합니다. 레코드를 저장합니다.
 
  ![새 가격 책정 차원 필드 명칭 양식](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

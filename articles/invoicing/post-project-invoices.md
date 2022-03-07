@@ -2,18 +2,17 @@
 title: 송장 처리 개요
 description: 이 토픽은 리소스/비 재고 기반 시나리오에 대해 Project Operations에서 송장 발부 프로세스 개요를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.custom: intro-internal
+ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089268"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369024"
 ---
 # <a name="invoicing-process-overview"></a>송장 처리 개요
 
@@ -30,3 +29,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 [수동으로 견적 프로젝트 송장을 만들거나](../proforma-invoicing/create-manual-proforma-invoice.md) 또는 [정기적 프로세스](../proforma-invoicing/configure-automated-invoice-creation.md)를 사용할 수 있습니다. 프로젝트 관리자는 필요에 따라 [견적 송장 초안을 조정](../proforma-invoicing/manage-proforma-invoice.md)한 다음 확인할 수 있습니다.
 
 확인된 견적 송장은 Finance에서 **프로젝트 관리 및 회계** 모듈로 보냅니다. 프로젝트 회계사는 프로젝트 송장 제안서의 서식을 지정하고 업데이트한 다음 문서를 전기하고 인쇄합니다. 전기된 프로젝트 송장은 총계정 원장과 고객 및 프로젝트 보조 원장에 기록됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 9e4e910d0ff0a5f2603148fcc5daa0d423a4d174
-ms.sourcegitcommit: a9dbcd3aff4c6ae495412e4980e105ae160fd1ec
+ms.openlocfilehash: d58c776b0341c08b0292e1b459a7d7ebac550bcc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "4483956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290277"
 ---
 # <a name="developer-notes-for-approvals"></a>승인을 위한 개발자 노트
 
@@ -23,3 +23,6 @@ Dynamics 365 Project Operations에는 승인 단계를 통해 올바른 레코�
 
   - 모든 지원 행은 분개장 및 실제와 같은 관련 테이블에 생성됩니다.
   - 승인자는 진행하기 전에 프로젝트에서 **프로젝트 승인자** 로 표시됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

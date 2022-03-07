@@ -1,12 +1,12 @@
 ---
-title: 견적에 대한 프로젝트 가격표 관리
+title: 프로젝트 가격표
 description: 이 항목은 프로젝트 가격표 엔터티에 대한 정보를 제공합니다.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080278"
 ---
-# <a name="manage-project-price-lists-on-a-quote"></a>견적에 대한 프로젝트 가격표 관리
+# <a name="project-price-lists"></a>프로젝트 가격표
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 

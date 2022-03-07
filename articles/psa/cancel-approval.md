@@ -2,8 +2,6 @@
 title: 이전에 승인된 시간 및 경비 항목 취소
 description: 이 주제는 승인된 프로젝트 시간 및 경비 처리를 취소하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150586"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987444"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>이전에 승인된 시간 또는 경비 항목 취소
 
@@ -62,3 +60,6 @@ ms.locfileid: "5150586"
 다음으로 반전 항목이 실제값 표에 만들어집니다. 반전 항목을 만들기 위해 시스템은 원래 실제값의 필드 값을 복사합니다. 복사되지 않는 값은 수량 값뿐입니다. 대신 이러한 값이 반전됩니다. **원가** 및 **미청구 매출액** 의 실제값에 대한 반전된 실제값이 생성됩니다. 반전된 실제값의 **조정 상태** 필드가 **조정 불가능** 으로 설정되고, 청구 상태가 **취소됨** 으로 설정됩니다.
 
 이러한 변경이 이루어지면 프로젝트에 지출된 것으로 기록된 금액과 프로젝트의 수익 백로그가 더 이상 이러한 실제값이 나타내는 금액을 해명하지 못합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

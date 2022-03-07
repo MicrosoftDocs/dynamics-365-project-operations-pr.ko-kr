@@ -2,11 +2,9 @@
 title: Microsoft Project Client 통합
 description: 프로젝트 일정을 계획하고 유지하는 것은 복잡할 수 있으므로 프로젝트 관리자는 이 작업을 관리하는 데 도움이 되는 도구를 사용해야 합니다. Microsoft Project Client와의 통합은 프로젝트 작업 분할 구조를 열고 관리할 수 있도록 지원합니다.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080113"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988029"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 통합
 
@@ -126,4 +124,14 @@ Microsoft Project Client를 사용하여 새 작업 분할 구조를 만들고 �
 
 8.  리소스 조달에 사용할 **일정** 을 선택합니다.
 
-11. **확인** 을 클릭합니다.
+11. **OK** 를 클릭합니다.
+
+> [!NOTE]
+> 프로젝트 클라이언트 추가 기능은 프로젝트 ID 형식에서 다음 문자를 지원하지 않습니다.
+> 
+>   - 밑줄
+>   - 마침표
+>   - 스페이스
+>   - 슬래시
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

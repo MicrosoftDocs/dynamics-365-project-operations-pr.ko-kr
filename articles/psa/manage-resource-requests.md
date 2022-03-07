@@ -2,8 +2,6 @@
 title: 리소스 요청 관리
 description: 리소스 요청 관리 방법(Project Service)
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149866"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985149"
 ---
 # <a name="manage-resource-requests-project-service"></a>리소스 요청 관리(Project Service)
 
@@ -45,9 +43,12 @@ ms.locfileid: "5149866"
   
    -   **필터** 를 클릭하여 **필터** 패널을 표시하면 조직 단위, 역할, 기술 또는 기타 특성을 기준으로 결과를 필터링할 수 있습니다.  
   
-       ![Project Service 리소스 요청 화면](../psa/media/project-service-resource-request-screen.png "Project Service 리소스 요청 화면")  
+       ![Project Service 리소스 요청 화면.](../psa/media/project-service-resource-request-screen.png "Project Service 리소스 요청 화면")  
   
 3. 예약하려는 리소스에 대한 일정에서, 리소스를 예약할 기간을 선택한 다음 **예약** 을 클릭하여 리소스를 예약하거나 **예약 제안** 을 클릭하여 예약을 제안하고 승인을 받습니다. 리소스 예약 시, 가예약을 하거나 확정 예약을 할 수 있습니다.  
   
 ### <a name="see-also"></a>참고 항목  
  [리소스 관리자 가이드](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

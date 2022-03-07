@@ -2,8 +2,6 @@
 title: 주별 시간 항목 맞춤화
 description: 이 주제는 조직의 방법을 지원하는 사용자 지정 비즈니스 규칙을 구현하는 방법에 대한 정보를 제공합니다.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,14 +16,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149641"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002294"
 ---
-# <a name="customize-weekly-time-entry"></a>주별 시간 항목 맞춤화 
+# <a name="customize-weekly-time-entry"></a>주간 시간 항목 사용자 지정 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -132,3 +130,6 @@ Microsoft Dynamics 365 Project Service Automation 버전 3.3에서 Microsoft는 
 
 > [!IMPORTANT] 
 > 현재 TBX 페이지의 알려진 문제로 인해 사용자가 정보를 수정하고 업데이트가 플러그 인 유효성 검사에 실패할 때 완료를 다시 선택할 수 없습니다. 해결 방법으로 비즈니스 규칙 유효성 검사를 설정하여 이러한 상황을 최대한 방지합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

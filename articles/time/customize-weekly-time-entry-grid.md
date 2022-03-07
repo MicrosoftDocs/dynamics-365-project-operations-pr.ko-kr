@@ -2,24 +2,22 @@
 title: 시간 항목 연장
 description: 이 항목은 개발자가 시간 입력 제어를 확장할 수 있는 방법에 대한 정보를 제공합니다.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 02ed62c9ea27429b4b1d95d67d1607a090ab1dd2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124646"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995989"
 ---
 # <a name="extending-time-entries"></a>시간 항목 연장
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations에는 확장 가능한 시간 항목 사용자 지정 컨트롤이 포함되어 있습니다. 이 컨트롤에는 다음과 같은 기능이 있습니다.
+Dynamics 365 Project Operations는 확장 가능한 시간 입력 사용자 지정 컨트롤이 포함됩니다. 이 컨트롤에는 다음과 같은 기능이 있습니다.
 
 - 1주일 동안 가로로 시간 입력
 - 일, 행 또는 주별 합계
@@ -144,3 +142,6 @@ Dynamics 365 Project Operations에는 확장 가능한 시간 항목 사용자 �
 
 ### <a name="copying-time-entries"></a>시간 항목 복사
 보기 **시간 항목 열 복사** 를 사용하여 시간 입력 중에 복사할 필드 목록을 정의합니다. **날짜** 및 **기간** 은 필수 필드이며 보기에서 제거하면 안됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

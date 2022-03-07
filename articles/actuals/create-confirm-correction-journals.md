@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8ca35d1e66cbacaf65b7cd43493e3588f213788e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127767"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276941"
 ---
 # <a name="create-and-confirm-correction-journals"></a>수정 분개장 생성 및 확인
 
@@ -89,3 +89,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 8. 프로젝트 페이지의 **실제** 탭에서 **실제 관련 보기** 를 검토합니다. 원래 항목과 수정 항목이 나열됩니다. 다음 그래픽은 원래 경비 항목 금액과 해당 수정 경비 항목 금액을 보여줍니다. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

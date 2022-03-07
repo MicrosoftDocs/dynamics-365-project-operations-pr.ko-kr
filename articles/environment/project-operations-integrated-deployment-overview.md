@@ -2,18 +2,16 @@
 title: 리소스/비 재고 기반 시나리오에 대한 Project Operations 배포 개요
 description: 이 항목은 배포 유형, 리소스/비 재고 기반 시나리오의 Project Operations에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: ca8c0894dff1a74b532f8262278fb20400f097c5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365538"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001254"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>리소스/비 재고 기반 시나리오에 대한 Project Operations 배포 개요
 
@@ -43,3 +41,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 - 프로젝트에 대한 고객 대면 송장을 생성하는 풍부한 엔터프라이즈급 판매세 및 환율 엔진이 필요합니다.
 - IFRS(International Financial Reporting Standards)를 준수하는 프로젝트 회계 및 수익 인식 시스템.
 - Finance 또는 Supply Chain Management 애플리케이션 및 프로젝트 기반 거래 통합.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

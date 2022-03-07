@@ -2,17 +2,17 @@
 title: 비 재고 재료 및 보류 중인 공급업체 송장 구성
 description: 이 항목은 비 재고 재료 및 보류 중인 공급업체 송장을 활성화하는 방법을 설명합니다.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993919"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003239"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>비 재고 재료 및 보류 중인 공급업체 송장 구성
 
@@ -59,11 +59,11 @@ Dynamics 365 Finance:
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>공급업체 엔터티를 기반으로 계정을 생성하는 워크플로 활성화
 
-이중 쓰기 오케스트레이션 솔루션은 [공급업체 마스터 통합](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md)을 제공합니다. 이 기능의 전제 조건으로 공급업체 데이터는 **계정** 엔터티에서 만들어야 합니다. 템플릿 워크플로 프로세스를 활성화하여 [공급업체 설계 간 전환](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type)에 설명된 **계정** 표에 공급업체를 만듭니다.
+이중 쓰기 오케스트레이션 솔루션은 [공급업체 마스터 통합](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping)을 제공합니다. 이 기능의 전제 조건으로 공급업체 데이터는 **계정** 엔터티에서 만들어야 합니다. 템플릿 워크플로 프로세스를 활성화하여 [공급업체 설계 간 전환](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch)에 설명된 **계정** 표에 공급업체를 만듭니다.
 
 ### <a name="set-products-to-be-created-as-active"></a>생성할 제품을 활성으로 설정
 
-비 재고 재료는 Finance에서 **릴리스된 제품** 으로 구성해야 합니다. 이중 쓰기 오케스트레이션 솔루션은 즉시 사용 가능한 [Dataverse 제품 카탈로그에 릴리스된 제품 통합](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md)을 제공합니다. 기본적으로 Finance의 제품은 초안 상태의 Dataverse에 동기화됩니다. 재료 사용 문서 또는 보류 중인 공급업체 송장에서 직접 사용할 수 있도록 제품을 활성 상태로 동기화하려면 **시스템** > **관리** > **시스템 관리** > **시스템 설정** 으로 이동한 다음 **영업** 탭에서 **활성 상태의 제품 만들기** 를 **예** 로 설정합니다.
+비 재고 재료는 Finance에서 **릴리스된 제품** 으로 구성해야 합니다. 이중 쓰기 오케스트레이션 솔루션은 즉시 사용 가능한 [Dataverse 제품 카탈로그에 릴리스된 제품 통합](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping)을 제공합니다. 기본적으로 Finance의 제품은 초안 상태의 Dataverse에 동기화됩니다. 재료 사용 문서 또는 보류 중인 공급업체 송장에서 직접 사용할 수 있도록 제품을 활성 상태로 동기화하려면 **시스템** > **관리** > **시스템 관리** > **시스템 설정** 으로 이동한 다음 **영업** 탭에서 **활성 상태의 제품 만들기** 를 **예** 로 설정합니다.
 
 ## <a name="configure-prerequisites-in-finance"></a>Finance에서 필수 구성 요소 구성
 
@@ -88,7 +88,7 @@ Project Operations에서 릴리스된 제품 카탈로그에 구성된 카탈로
 2. **제품 유형** 필드에서 **항목** 을 선택하고 **제품 하위 유형** 필드에서 **제품** 을 선택합니다.
 3. 제품 번호(WRITEIN)와 제품 이름(직접 입력 제품)을 입력합니다.
 4. 항목 모델 그룹을 선택합니다. 선택한 항목 모델 그룹에 **재고 정책 재고 제품** 필드가 **False** 로 설정되어 있는지 확인하십시오.
-5. **항목 그룹**, **스토리지 차원 그룹** 및 **차원 그룹 추적** 필드에서 값을 선택합니다. **사이트** 에만 **저장소 크기** 를 사용하고 추적 크기를 설정하지 마십시오.
+5. **항목 그룹**, **스토리지 차원 그룹** 및 **차원 그룹 추적** 필드에서 값을 선택합니다. **사이트** 의 경우에만 **저장 차원** 을 사용하고 **추적 차원** 필드에서 **없음** 을 선택합니다.
 6. **재고 단위**, **구매 단위** 및 **판매 단위** 필드에서 값을 선택한 다음 변경 사항을 저장합니다.
 7. **계획** 탭에서 기본 주문 설정을 지정하고 **재고** 탭에서 기본 사이트 및 창고를 설정합니다.
 8. **프로젝트 관리 회계** > **설정** > **프로젝트 관리 및 회계 매개 변수** 로 이동하고 **Dynamics 365 Dataverse의 Project Operations** 를 엽니다. 

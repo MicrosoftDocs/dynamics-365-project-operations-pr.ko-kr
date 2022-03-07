@@ -2,18 +2,16 @@
 title: 예약 모드
 description: 이 주제는 예약 모드에 대한 정보를 제공합니다.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981443"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987759"
 ---
 # <a name="scheduling-modes"></a>예약 모드
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations는 조직이 작업 분할 구조 내에서 작�
 Project Operations에서 사용할 수 있는 세 가지 예약 모드가 있습니다.
 
   - 고정 기간(기본 모드)
-  - 작업 고정
+  - 고정된 작업량(*작업*)
   - 단위 고정
 
 특정 예약 모드의 정의에 영향을 받는 값은 다음 공식에 의해 결정됩니다.
 
-  작업량(*작업*) = 기간 x 단위
+  작업량 = 기간 x 단위
 
 프로젝트의 예약 모드를 정의할 때 이러한 값 중 하나를 설정하는 것이므로 변경할 수 없습니다. 이 값을 상수로 유지하면 해당 값에 우선 순위가 지정되어 다른 두 값이 변경될 때 변경되지 않도록 시스템에 알립니다. 다음 표는 특정 모드 선택의 영향에 대한 정보를 제공합니다.
 

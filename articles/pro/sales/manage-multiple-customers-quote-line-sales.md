@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 기반 견적 라인에서 여러 고객 관리 - 라이트
+title: 프로젝트 기반 견적 라인에서 여러 고객 관리
 description: 이 항목은 프로젝트 기반 견적 라인에서 여러 고객을 관리하는 방법을 설명합니다.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176484"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079953"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>프로젝트 기반 견적 라인에서 여러 고객 관리 - 라이트
+# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>프로젝트 기반 견적 라인에서 여러 고객 관리
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 

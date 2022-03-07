@@ -2,11 +2,9 @@
 title: 지불시 결제 공급업체 결제 설정 및 사용
 description: 이 항목은 고객 지불을 기반으로 부분 공급업체 지불을 해제할 수 있도록 지불시 결제(PWP) 조건을 작성하는 방법을 설명합니다.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080031"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008864"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>지불시 결제 공급업체 결제 설정 및 사용
 
@@ -80,3 +78,6 @@ ms.locfileid: "4080031"
 2. **지불시 결제가 포함된 공급업체 송장** 페이지의 검색 필드에 값을 입력하여 검토할 공급업체 송장을 찾은 다음 **검색** 을 선택합니다.
 3. **공급업체 송장 라인** 빠른 탭에서 변경할 라인을 선택합니다.
 4. 송장 라인에 대한 **결제시 지불** 조건이 충족되면 **공급 업체 지불 해제** 를 선택합니다. **지불시 결제** 옵션이 지워지고 **결제 준비** 필드가 **예** 로 변경됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

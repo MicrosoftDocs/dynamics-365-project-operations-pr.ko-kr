@@ -2,11 +2,9 @@
 title: 경비 관리를 위한 워크플로 설정
 description: 출장 및 경비 문서를 검토하고 승인하는 데 사용되는 워크플로 프로세스를 설정할 수 있습니다.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127706"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997749"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>경비 관리를 위한 워크플로 설정
 
@@ -48,3 +46,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 |       <strong>여행 요청</strong>       |          여행 요청에 대한 승인 워크플로를 만듭니다.           |
 |      <strong>현금 서비스 요청</strong>      |         현금 서비스 요청에 대한 승인 워크플로를 만듭니다.          |
 |        <strong>VAT 세금 회수</strong>        | 부가가치세(VAT) 회수를 위한 승인 워크플로를 만듭니다.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

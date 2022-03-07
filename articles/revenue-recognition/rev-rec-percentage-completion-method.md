@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 7cf4d7853f7fedaeeeba99bc589f39989b924423
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531486"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278921"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>고정 가격 수익 프로젝트 추정 
 
@@ -35,3 +35,6 @@ Microsoft Dataverse의 Dynamics 365 Project Operations에서 다음 특성을 �
 
   프로젝트 비용, 수익 프로필, 비용 템플릿 및 기간 코드는 수동으로 설정할 수 있습니다. 수동으로 설정하지 않은 경우 프로젝트 비용 및 수익 프로필에 대해 구성된 규칙을 사용하여 프로젝트에 대한 첫 번째 추정 계산 중에 값이 기본값으로 설정됩니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

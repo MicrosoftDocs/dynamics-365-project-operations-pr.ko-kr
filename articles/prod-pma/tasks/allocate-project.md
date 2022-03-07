@@ -2,11 +2,9 @@
 title: 기간에 걸쳐 프로젝트 예산 또는 예산 개정 할당
 description: 이 절차는 기간에 걸쳐 프로젝트 예산 금액을 할당하는 방법을 보여줍니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b332be67ffdab0156997eb223d8a31af6ced3ef
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 33ea8489af5fd77980d6de376327f263a46d99c9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080110"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996484"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>기간에 걸쳐 프로젝트 예산 또는 예산 개정 할당
 
@@ -44,3 +42,6 @@ ms.locfileid: "4080110"
 10. 할당이 원하는 방식이면 프로젝트 예산 페이지에서 제출을 클릭하여 예산 또는 예산 개정을 승인 워크플로로 보냅니다.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

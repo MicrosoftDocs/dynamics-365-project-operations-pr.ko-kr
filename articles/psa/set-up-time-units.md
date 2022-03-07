@@ -2,8 +2,6 @@
 title: 시간 단위 설정
 description: 시간 단위를 설정하는 방법(Project Service)
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b7e70c92ed29b20b02fd672665cf20199a2110b3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 348dbe3e660eaad28f4f8f1c4d15b7cebf6540cb358d013724088f099f0b6a95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149776"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008549"
 ---
 # <a name="set-up-time-units-project-service"></a>시간 단위 설정(Project Service)
 
@@ -47,3 +45,6 @@ ms.locfileid: "5149776"
   
 ### <a name="see-also"></a>참고 항목  
  [Project Service 구성](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

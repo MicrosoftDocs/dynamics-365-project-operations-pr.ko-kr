@@ -3,18 +3,17 @@ title: 새 환경 프로비전
 description: 이 항목은 새 Project Operations 환경을 프로비전하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 manager: Annbe
-ms.date: 12/11/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727798"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642987"
 ---
 # <a name="provision-a-new-environment"></a>새 환경 프로비전
 
@@ -61,15 +60,17 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ![배포 동의](./media/2DeploymentConsent.png)
 
-7. 선택 사항 - 환경에 데모 데이터를 적용합니다. **고급 설정** 으로 이동하고 **SQL 데이터베이스 구성 사용자 지정** 을 선택하고 **응용 프로그램 데이터베이스에 대한 데이터 세트 지정** 을 **데모** 로 설정합니다.
-
-8. 마법사의 나머지 필수 필드를 완료하고 배포를 확인합니다. 환경 프로비저닝 시간은 환경 유형에 따라 다릅니다. 프로비전에는 최대 6시간이 소요될 수 있습니다.
+7. 마법사의 나머지 필수 필드를 완료하고 배포를 확인합니다. 환경 프로비전 시간은 환경 유형에 따라 다릅니다. 프로비전에는 최대 6시간이 소요될 수 있습니다.
 
   배포가 성공적으로 완료되면 환경이 **배포됨** 으로 표시됩니다.
 
-9. 환경이 성공적으로 배포되었는지 확인하려면 **로그인** 을 선택하고 확인을 위해 환경에 로그온합니다.
+8. 환경이 성공적으로 배포되었는지 확인하려면 **로그인** 을 선택하고 확인을 위해 환경에 로그온합니다.
 
 ![ 환경 세부 정보](./media/3EnvironmentDetails.png)
+
+## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Project Operations Finance 데모 데이터 적용(선택 단계)
+
+[이 문서](resource-apply-finance-demo-data.md)에 설명된 대로 Project Operations Finance 데모 데이터를 10.0.13 서비스 릴리스 클라우드 호스팅 환경에 적용합니다.
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Finance 환경에 업데이트 적용
 
@@ -150,21 +151,6 @@ Project Operations에는 애플리케이션 버전이 **10.0.13(10.0.569.20009)*
 새로 고침에는 약 20분이 소요됩니다. 완료되면 알림이 표시됩니다.
 
 ![새로 고침 확인](./media/19RefreshConfirmation.png)
-
-## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Dataverse에서 Project Operations에 대한 보안 설정 업데이트
-
-1. Dataverse 환경에서 Project Operations로 이동합니다. 
-2. **설정** > **보안** > **보안 역할** 로 이동합니다. 
-3. **보안 역할** 페이지의 역할 목록에서 **이중 쓰기 앱 사용자** 를 선택하고 **사용자 지정 엔터티** 탭을 선택합니다.  
-4. 역할에 다음에 대한 **읽기** 및 **다른 레코드에 추가** 권한이 있는지 확인합니다.
-      
-      - **통화 환율 유형**
-      - **계정 차트**
-      - **회계 달력**
-      - **원장**
-
-5. 보안 역할이 업데이트되면 **설정** > **보안** > **팀** 으로 이동하고 **로컬 비즈니스 담당자** 팀 보기에서 기본 팀을 선택합니다.
-6. **역할 관리** 를 선택하고 **이중 쓰기 앱 사용자** 보안 권한이 이 팀에 적용되었는지 확인합니다.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Project Operations 이중 쓰기 맵 실행
 

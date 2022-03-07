@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e19c8ffe7d92ab7ec9eb46aff8f944c62b0bb4bc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280991"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation 업데이트 릴리스 14, V3
 
@@ -64,3 +64,6 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
      - 수정: 사용자가 프로젝트의 비용 견적에 대한 비용 가격을 입력할 때까지 총 판매 가격이 계산되지 않습니다.
      - 수정: 관련 프로젝트 계약이 **초안** 상태가 아닌 경우 견적을 **성공** 으로 종료하는 것에 실패합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

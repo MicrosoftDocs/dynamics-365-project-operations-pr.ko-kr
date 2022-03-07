@@ -2,28 +2,26 @@
 title: 프로젝트 관리 및 회계 개요
 description: 프로젝트 관리 및 회계 기능은 서비스를 제공하거나 제품을 생산하거나 결과를 달성하기 위해 여러 산업에서 사용될 수 있습니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080195"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369699"
 ---
 # <a name="project-management-and-accounting-overview"></a>프로젝트 관리 및 회계 개요
 
@@ -205,7 +203,7 @@ WBS는 프로젝트를 위해 완료될 작업에 대한 설명입니다. WBS는
 
 품목을 주문하는 방법은 품목을 주문하는 위치에 따라 다릅니다.
 
--   회사의 재고에서 품목을 주문하려면 품목 요구 사항으로 주문을 입력해야 합니다. **품목 요구 사항** 페이지를 사용하는 경우 품목을 부분 배송으로 받도록 요구 사항을 설정할 수 있습니다.따라서 품목이 필요할 때까지 품목 수량의 소비를 연기할 수 있습니다.
+-   회사의 재고에서 품목을 주문하려면 품목 요구 사항으로 주문을 입력해야 합니다. **품목 요구 사항** 페이지를 사용하는 경우 품목을 부분 배송으로 받도록 요구 사항을 설정할 수 있습니다. 따라서 품목이 필요할 때까지 품목 수량의 소비를 연기할 수 있습니다.
 -   외부 공급업체로부터 품목을 주문하려면 **구매 주문** 페이지에서 주문을 구매 주문으로 생성해야 합니다.
 
 > [!NOTE] 
@@ -227,7 +225,7 @@ WBS는 프로젝트를 위해 완료될 작업에 대한 설명입니다. WBS는
 프로젝트에 대한 고객 송장을 생성하기 전에 예비 송장 또는 송장 제안을 생성할 수 있습니다. 송장 제안에서 프로젝트 송장에 포함할 프로젝트 거래를 선택할 수 있습니다. 그런 다음 프로젝트 송장을 전기하기 전에 송장 세부 사항을 검토하고 이를 고객 또는 기타 자금 출처로 보낼 수 있습니다. 
 
 
-프로젝트 송장을 처리하는 방법에 대한 자세한 설명은 [프로젝트 송장 청구](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing)를 참조하십시오.
+프로젝트 송장을 처리하는 방법에 대한 자세한 설명은 [프로젝트 송장 청구](/dynamics365/finance/accounts-payable/project-invoicing)를 참조하십시오.
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>프로젝트 완료 비용 계산
@@ -300,7 +298,7 @@ Finance는 예측된 추정치를 자동으로 낮추지 않습니다. 따라서
 -   **프로젝트 날짜:** 2012년 3월 5일.
 -   **송장 날짜:** 2012년 3월 31일. 이 날짜는 송장 빈도에 따라 결정됩니다. 이 예에서는 송장 빈도를 당월로 설정합니다. 따라서 3월에 전기된 모든 거래는 해당 월의 마지막 날에 송장이 발행됩니다.
 -   **기한:** 2012년 4월 14일. 이 날짜는 프로젝트에 대해 설정된 지불 조건에 따라 결정됩니다. 이 예에서는 14일의 지불 조건을 선택했습니다. 따라서 송장 날짜에 14일이 추가되어 기한이 2012년 4월 14일이 됩니다.
--   **예상 판매 지급 날짜:** 2012년 4월 27일. 이 날짜는 **프로젝트 관리 및 회계 매개 변수** 페이지의 **일반 완충일** 필드에 있는 일 수에 **프로젝트 계약** 페이지의 **개별 완충일** 필드에 있는 일 수에 더한 다음 합계를 **기한** 필드에 있는 일수에 더하여 계산됩니다. 이 예에서는 **일반 완충일** 필드에 **3** 을, **개별 완충일** 필드에 **10** 을 입력했습니다. 따라서 기한에 13일이 추가되어 예상 판매 지급 날짜가 2012년 4월 27일이 됩니다.
+-   **예상 판매 지급 날짜:** 2012년 4월 27일. 이 날짜는 **프로젝트 관리 및 회계 매개 변수** 페이지의 **일반 완충일** 필드에 있는 일 수에 **프로젝트 계약** 페이지의 **개별 완충일** 필드에 있는 일 수에 더한 다음 합계를 **기한** 필드에 있는 일수에 더하여 계산됩니다. 이 예에서는 **일반 완충일** 필드에 **3** 을, **개별 완충일** 필드에 **10** 을 입력했습니다. 따라서 기한에 13일이 추가되어 예상 판매 지급 날짜가 2012년 4월 27일이 됩니다.
 
 일반 완충일은 개별 완충일을 대체하거나 개별 완충일에 추가할 수 있습니다.
 
@@ -440,3 +438,6 @@ Finance는 예측된 추정치를 자동으로 낮추지 않습니다. 따라서
 -   **소비** – 시간 소비, 항목, 비용 및 급여 거래에 대한 정보입니다.
 -   **송장** – 송장 및 계정별 인보이스에 대한 정보입니다.
 -   **시간 비율** – 수익 및 비용 계정에 전기된 시간의 시간 비율입니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

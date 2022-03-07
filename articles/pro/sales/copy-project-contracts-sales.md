@@ -2,18 +2,16 @@
 title: 프로젝트 계약 복사 - 라이트
 description: 이 항목은 Project Operations에서 프로젝트 계약 복사에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181415"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006029"
 ---
 # <a name="copy-project-contracts---lite"></a>프로젝트 계약 복사 - 라이트
 
@@ -45,3 +43,6 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
   - 고객 예산 정보
 
 이 정보는 각 계약에 구체적이기 때문에 이러한 필드와 레코드는 복사되지 않습니다. 프로젝트 및 제품에 대한 계약 내용, 계약 내용 세부 정보에 대한 추정, 계약 레벨에서 초과하지 않는 값이 복사됩니다. 가격 및 비용 요금 기본값은 **매개 변수 복사** 대화 상자 페이지에서 선택한 **가격 복사** 옵션에 따라 다릅니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

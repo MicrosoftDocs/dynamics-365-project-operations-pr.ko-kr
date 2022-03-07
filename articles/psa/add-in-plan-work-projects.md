@@ -2,8 +2,6 @@
 title: Project Service 추가 기능을 사용하여 Microsoft Project의 작업 계획
 description: 이 항목은 Microsoft Project Service를 위한 Microsoft Project 추가 기능을 사용하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 01/07/2021
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0c0ea75d34047f7145466ab427d213c5df27fbed
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145951"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014574"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Project Service 추가 기능을 사용하여 Microsoft Project의 작업 계획
 
@@ -242,3 +240,6 @@ Project Service Automation에서 프로젝트를 읽을 때 리소스의 일정�
 
 ### <a name="additional-resources"></a>추가 리소스
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

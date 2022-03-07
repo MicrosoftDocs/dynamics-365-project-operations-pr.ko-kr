@@ -2,8 +2,6 @@
 title: Project Service Automation 업데이트 릴리스 15, V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에서는 Project Service Automation 업데이트 릴리스 15, V3의 새로운 기능에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143971"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004454"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation 업데이트 릴리스 15, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
+Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
 
 이 항목에는 PSA V3, 업데이트 릴리스 15에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다. 이 버전의 빌드 번호는 V3.10.5.28이며 2020년 1월에 자체 업데이트를 통해 일반적으로 제공됩니다.
 
@@ -63,3 +61,6 @@ Dynamics 365 Project Service Automation(PSA) 애플리케이션의 최신 업데
   - 수정: 1000개가 넘는 프로젝트가 있을 때 **견적 라인** 양식의 **프로젝트 조회** 에 더 이상 오류 메시지가 표시되지 않습니다.
   - 수정: 노동 추정 및 비용 추정에 대한 **추정** 표가 이제 올바른 통화 기호를 표시합니다.
   - 수정: 조직이 업데이트 릴리스 14에서 업데이트 릴리스 15로 PSA를 업데이트하면 더 이상 **프로젝트** 양식에 **일정** 탭이 공백으로 나타나지 않습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

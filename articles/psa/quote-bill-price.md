@@ -3,10 +3,9 @@ title: 견적, 가격 책정 및 대금 청구 홈 페이지
 description: 이 항목은 견적, 가격 책정 및 대금 청구에 대한 정보를 제공합니다.
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35fa9440a6f58a08092bcc3cc57a9097dce01e33
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147883"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004769"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>견적, 가격 책정 및 대금 청구 홈 페이지
 
@@ -44,3 +43,6 @@ ms.locfileid: "5147883"
 - [단위 그룹 및 단위](advanced-units.md)
 - [다단위 통화](advanced-currency.md)
 - [실제값 기록](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

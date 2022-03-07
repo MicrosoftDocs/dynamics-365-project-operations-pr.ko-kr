@@ -3,18 +3,18 @@ title: 2021년 4월 새로운 기능 - 리소스/비 재고 기반 시나리오�
 description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2021년 4월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 manager: tfehr
-ms.date: 04/22/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
-ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
+ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
+ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935482"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5868001"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 4월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -33,26 +33,8 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
   - 프로젝트 판매 주기 동안 비재고 재료를 추정하고 가격을 책정합니다. 자세한 내용은 [카탈로그 제품에 대한 비용 및 판매율 설정 - 라이트](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md)를 참조하십시오.
   - 프로젝트를 제공하는 동안 비재고 재료의 사용을 추적합니다. 자세한 내용은 [프로젝트 및 프로젝트 작업에 대한 재료 사용량 기록](../material/material-usage-log.md)을 참조하십시오.
   - 송장은 비재고 재료 비용을 사용했습니다. 자세한 내용은 [청구 백로그 관리](../proforma-invoicing/manage-billing-backlog.md)를 참조하십시오.
-  - 이 기능을 구성하는 방법에 대한 자세한 내용은 [비 재고 재료 및 보류 중인 공급업체 송장 구성](../procurement/configure-materials-nonstocked.md)을 참조하십시오.
 - 작업 기반 청구: 프로젝트 작업을 프로젝트 계약 내용과 연관시키는 기능이 추가되어 계약 내용에 있는 것과 동일한 청구 방법, 송장 빈도 및 고객이 적용됩니다. 이 연결은 프로젝트 작업에 대한 이 설정에 따라 작동하도록 정확한 송장 발행, 회계, 수익 추정 및 인식을 보장합니다.
 - Dynamics 365 Dataverse의 의 새로운 API를 사용하면 **일정 엔터티** 로 작업을 생성, 업데이트 및 삭제할 수 있습니다. 자세한 내용은 [일정 엔터티로 일정 API를 사용하여 작업 수행](../project-management/schedule-api-preview.md)을 참조하십시오.
-
-## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 이중 쓰기 맵 업데이트
-
-다음 목록은 Project Operations 2021년 4월 릴리스에서 수정되거나 추가된 이중 쓰기 맵을 보여줍니다.
-
-| **엔터티 맵** | **업데이트된 버전** | **댓글** |
-| --- | --- | --- |
-| Project Operations 통합 실제(msdyn\_actuals) | 1.0.0.14 | 재료 프로젝트 실제 데이터를 동기화하도록 맵이 수정되었습니다. |
-| 경비 추정용 Project Operations 통합 엔터티(msdyn\_estimateslines) | 1.0.0.2 | 작업 기반 청구 지원을 위해 프로젝트 계약 내용 동기화가 Finance and Operations 앱에 추가되었습니다. |
-| 시간 추정용 Project Operations 통합 엔터티(msdyn\_resourceassignments) | 1.0.0.5 | 작업 기반 청구 지원을 위해 프로젝트 계약 내용 동기화가 Finance and Operations 앱에 추가되었습니다. |
-| 재료 추정을 위한 Project Operations 통합 테이블(msdyn\_estimatelines) | 1.0.0.0 | Dataverse에서 Finance and Operations 앱으로 재료 견적을 동기화하는 새로운 테이블 맵. |
-| Project Operations 통합 프로젝트 공급업체 송장 내보내기 엔터티(msdyn\_projectvendorinvoices) | 1.0.0.0 | Finance and Operations 앱에서 Dataverse로 공급업체 송장 헤더를 동기화하는 새 테이블 맵. |
-| Project Operations 통합 프로젝트 공급업체 송장 라인 내보내기 엔터티(msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Finance and Operations 앱에서 Dataverse로 공급업체 송장 라인을 동기화하는 새 테이블 맵. |
-
-Project Operations Dataverse 솔루션 및 Finance and Operations 솔루션 버전을 업데이트할 때 항상 환경에서 맵의 최신 버전을 실행하고 모든 관련 테이블 맵을 활성화해야 합니다. 맵의 최신 버전이 활성화되지 않은 경우 특정 기능이 제대로 작동하지 않을 수 있습니다. **이중 쓰기** 페이지의 **버전** 열에서 맵의 활성 버전을 볼 수 있습니다. **테이블 맵 버전** 을 선택하고 최신 버전을 선택한 다음 선택한 버전을 저장하여 새 버전의 맵을 활성화할 수 있습니다. 기본 테이블 맵을 사용자 정의한 경우 변경 사항을 다시 적용합니다. 자세한 내용은 [응용 프로그램 수명 주기 관리](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)를 참조하십시오.
-
-맵을 시작할 때 문제가 발생하면 이중 쓰기 문제 해결 가이드의 [맵에서 표 열 누락 문제](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) 섹션의 지침을 따르십시오.
 
 ## <a name="quality-updates"></a>품질 업데이트
 
@@ -85,7 +67,7 @@ Project Operations Dataverse 솔루션 및 Finance and Operations 솔루션 버�
 
 | **기능 영역** | **참조 번호** | **품질 업데이트** |
 | --- | --- | --- |
-| 프로젝트 관리 및 회계 | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | **주기적** 섹션에서 역 추정 제거가 작동하지 않습니다.  |
+| 프로젝트 관리 및 회계 | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | 역 추정 제거가 **주기적** 으로 작동하지 않습니다.  |
 | 프로젝트 관리 및 회계 | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | **회계 조정** 기능은 **수동 입력 허용 안함** 이 선택된 원장 계정에 문제가 일으킵니다. |
 | 프로젝트 관리 및 회계 | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | 보유자 금액 또는 적용된 보유자 금액을 포함한 수정 송장을 처리하는 비즈니스 논리가 추가되었습니다. |
 | 프로젝트 관리 및 회계 | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP - 회사 간 프로젝트 송장 발행의 판매 가치 전기가 예상치 못한 계정을 선택함. |

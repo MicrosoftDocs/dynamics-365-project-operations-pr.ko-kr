@@ -2,19 +2,17 @@
 title: 실제를 원본 레코드에 연결
 description: 이 항목은 실제 데이터를 시간 입력, 경비 입력 또는 재료 사용량 로그와 같은 원본 레코드에 연결하는 방법을 설명합니다.
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852597"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991764"
 ---
 # <a name="link-actuals-to-original-records"></a>실제를 원본 레코드에 연결
 
@@ -79,7 +77,7 @@ Project Operations는 이러한 5개 엔터티의 레코드를 업무 처리로 
 
 다음 예는 Project Operations 프로젝트 라이프사이클에서 시간 항목의 일반적인 처리를 보여줍니다.
 
-> ![Project Service 라이프사이클에서 시간 항목의 처리](media/basic-guide-17.png)
+> ![Project Service 라이프사이클에서 시간 항목의 처리.](media/basic-guide-17.png)
  
 1. 시간 항목을 제출하면 비용 라인 하나와 청구되지 않은 판매 라인 하나의 두 개의 분개장 라인이 생성됩니다.
 2. 시간 항목을 최종 승인하면 비용에 대한 실제값과 미청구 매출액에 대한 실제값이 생성됩니다.

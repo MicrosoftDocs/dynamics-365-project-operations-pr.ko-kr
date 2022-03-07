@@ -2,11 +2,9 @@
 title: 프로젝트로 견적 전송
 description: 이 항목은 견적을 신규 또는 기존 프로젝트로 전송하는 방법에 대한 정보를 제공합니다.
 author: kfend
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0021e36a18abb3efe86687a43145136cfcedda1ce85c92304608bf2e7270598
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080028"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998874"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>프로젝트로 견적 전송
 
@@ -36,3 +34,6 @@ ms.locfileid: "4080028"
 1. **프로젝트 관리 및 회계** > **견적** > **프로젝트 견적** 으로 이동합니다.
 2. 전송할 견적을 선택하고 **후속작업** 탭의 **수정** 그룹에서 **프로젝트로 전송** 을 선택합니다.
 3. **프로젝트로 견적 전송** 마법사에 따라 견적을 프로젝트와 연결하고 전송합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

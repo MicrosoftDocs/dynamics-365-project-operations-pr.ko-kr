@@ -2,18 +2,16 @@
 title: 2020년 11월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2020년 11월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367274"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007964"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020년 11월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -67,4 +65,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 프로젝트 회계  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | 이 기능을 활성화하면 CDS 통합 없이는 여러 계약 내용이 불가능합니다.                                                                                   |
 
 ### <a name="regulatory-updates"></a>규제 업데이트
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

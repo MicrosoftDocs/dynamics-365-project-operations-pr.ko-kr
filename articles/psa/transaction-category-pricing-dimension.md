@@ -2,12 +2,10 @@
 title: 트랜잭션 카테고리를 가격 책정 차원으로 사용
 description: 이 항목은 트랜잭션 카테고리를 가격 책정 차원으로 사용하는 것에 대한 정보를 제공합니다.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150766"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988874"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>트랜잭션 카테고리를 가격 책정 차원으로 사용
 
@@ -53,3 +51,6 @@ ms.locfileid: "5150766"
 2. **파라미터** 페이지의 **금액 기반 가격 책정 차원** 탭에서 탭의 그리드가 **가격 책정 차원** 엔터티의 레코드를 보여줌을 인식하십시오.
 3. 이 목록에 **트랜잭션 카테고리** 를 추가하고 **비용에 적용 가능** 및 **판매에 적용 가능** 필드를 **예** 로 설정합니다.
 4. **차원 타입** 필드에서 **금액 기반** 을 선택한 다음, 비용 및 판매와 관련된 **트랜잭션 카테고리** 의 우선순위를 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

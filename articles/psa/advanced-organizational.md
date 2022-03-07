@@ -2,8 +2,6 @@
 title: 조직 구성 단위
 description: 이 항목은 Dynamics 365 Project Service Automation의 조직 구성 단위에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145637"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005084"
 ---
 # <a name="organizational-units"></a>조직 구성 단위 
 
@@ -55,7 +53,7 @@ PSA에서 PSA의 조직 구성 단위에는 특정 통화 및 특정 비용 가�
 - **계약 단위** - 판매에 성공하고 고객에게 작업 및 서비스 제공을 관리하는 책임이 있는 회사 그룹 또는 부서를 대표하는 조직 구성 단위입니다. 계약 단위는 **영업 기회**, **견적**, **프로젝트 계약** 및 **프로젝트** 페이지의 헤더 섹션에 있는 **계약 단위** 필드로 식별됩니다.
 - **리소스 단위** - 리소스가 속하거나 할당된 조직 구성 단위입니다. 이 조직 구성 단위는 SOW(작업 명세서) 및 계약 단위가 소유한 프로젝트에 대한 일부 역할에 대한 리소스를 제공할 수 있습니다.
 
-> ![계약 단위 및 리소스 조달 단위](media/advanced-1.png)
+> ![계약 단위 및 리소스 조달 단위.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>조직 구성 단위 FAQ
 
@@ -79,13 +77,13 @@ Dynamics 365를 구현할 때 사업부의 계층 구조에 대한 보안 권한
 
 #### <a name="example-of-organizational-units-and-business-units"></a>조직 구성 단위 및 사업부의 예
 
-Contoso, Ltd.는 번창하는 Microsoft 기술 방법을 가지고 있습니다. 인과 해원은 모두 C\# 개발자이지만, 해원은 미국에 있는 반면 인은 인도에 있습니다. 대부분의 프로젝트 계약에는 Contoso India 및 Contoso US의 리소스가 필요하며 인과 해원은 이 방법 영역의 프로젝트에 동일한 수준의 보안 액세스가 필요합니다. 그러나 Contoso India의 개발자 비용은 Contoso US의 개발자 비용과 크게 다릅니다.
+Contoso Ltd.는 번창하는 Microsoft 기술 방법을 가지고 있습니다. 인과 해원은 모두 C\# 개발자이지만, 해원은 미국에 있는 반면 인은 인도에 있습니다. 대부분의 프로젝트 계약에는 Contoso India 및 Contoso US의 리소스가 필요하며 인과 해원은 이 방법 영역의 프로젝트에 동일한 수준의 보안 액세스가 필요합니다. 그러나 Contoso India의 개발자 비용은 Contoso US의 개발자 비용과 크게 다릅니다.
 
 다음은 Dynamics 365 및 PSA를 사용하여 이 시나리오를 디자인하는 최적의 방법입니다.
 
 1. Microsoft 기술 방법을 사업부로 만들고 인과 해원을 연결합니다. 이러한 방식으로 두 직원이 해당 방법 영역의 모든 프로젝트에 동일한 수준의 보안 액세스를 갖도록 보장할 수 있습니다. 둘 다 진행 상황을 확인하고 시간, 비용 및 작업 업데이트를 보고할 수 있습니다. 
 2. 프로젝트 비용이 올바르게 반영되도록 두 개의 조직 구성 단위를 만듭니다. 
-3. 해원을 Contoso US과 연결하고 인을 Contoso India와 연결합니다.
+3. 해원을 Contoso US와 연결하고 인을 Contoso India와 연결합니다.
 4. 두 조직 구성 단위에 적절한 비용 가격표을 할당합니다. 이러한 방식으로 인과 해원 프로젝트에 기록된 비용이 Contoso US와 Contoso India 간의 비용 차이를 정확하게 반영하도록 보장합니다.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>조직 구성 단위가 Dynamics 365의 판매 영역과 관련이 있습니까?
@@ -124,7 +122,7 @@ PSA에서 영업 가격표는 고객 및 판매 지역과 연결할 수 있습�
 비용 센터, 부서, 청구 사무실 등의 복잡한 계층 구조가 있는 경우 해당 계층의 리프 노드를 고유한 조직 구성 단위로 설정합니다.
 다음 예제에서는 일반적인 계층 구조를 보여 줍니다.
 
-**Contoso India**
+**Contoso인도**
 
   - SAP 방법 
 
@@ -167,3 +165,6 @@ PSA에서 영업 가격표는 고객 및 판매 지역과 연결할 수 있습�
 프로젝트를 자체적으로 만들 때 프로젝트의 기본 계약 단위는 프로젝트를 만드는 사용자를 기반으로 합니다. 해당 사용자는 기본 프로젝트 관리자이기도 합니다. 프로젝트가 견적 또는 프로젝트 계약과 같은 판매 엔터티에 매핑되는 경우 프로젝트의 계약 단위는 대신 영업 엔터티를 기반으로 합니다. 이 경우 계약 단위가 변경된 경우 비용 견적 변경을 계산하는 데 비용 가격표가 사용되므로 프로젝트 예상 값이 다시 계산될 수 있습니다. 영업 가격표는 견적의 프로젝트 가격표와 동기화되도록 변경될 판매 예상 값을 계산하는 데 사용됩니다.
 
 프로젝트의 **계약 단위** 및 **통화** 필드는 프로젝트가 매핑되는 판매 엔터티(견적 또는 프로젝트 계약)의 값과 동기화되어야 하기 때문에 편집을 위해 잠깁니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

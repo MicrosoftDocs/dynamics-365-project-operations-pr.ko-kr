@@ -3,7 +3,7 @@ title: Project Service Automation 업데이트 릴리스 16, V3의 새로운 기
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 16, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,16 +17,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 882ee6c25e5d88db22e051254c7fd82dc787ab73
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f277d23e3fb0517f072e51f6f80f855479ab8189
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080011"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation 업데이트 릴리스 16, V3
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다.  이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page)를 참조하세요.
 이 항목에는 PSA V3, 업데이트 릴리스 16에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다. 이 버전의 빌드 번호는 V3.10.6.34이며 2020년 1월에 자체 업데이트를 통해 일반적으로 제공됩니다.

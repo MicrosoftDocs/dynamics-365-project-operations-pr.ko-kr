@@ -2,8 +2,6 @@
 title: 휴가 예약
 description: 휴가 일정을 만드는 방법(Project Service)
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c3f5dfe846c4accb485de5213e1635e65e77fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 76589470b1391226ea2a35143daf0b18b16286dfcd2829e748b0984397cb25ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144331"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984616"
 ---
 # <a name="schedule-time-off-project-service"></a>휴가 일정 만들기(Project Service)
 
@@ -57,3 +55,6 @@ ms.locfileid: "5144331"
   
 ### <a name="see-also"></a>참고 항목  
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

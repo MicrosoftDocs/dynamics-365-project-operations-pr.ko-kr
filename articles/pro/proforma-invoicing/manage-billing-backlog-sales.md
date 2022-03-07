@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176979"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274106"
 ---
 # <a name="manage-the-billing-backlog---lite"></a>청구 백로그 관리 - 라이트
 
@@ -60,3 +60,6 @@ Dynamics 365 Project Operations에는 청구 백 로그를 관리하는 데 도�
 복수 고객 계약 내용에 시간 및 재료 청구 방법이 있는 경우 시간 및 비용이 승인되면 각 고객에 대해 정의된 청구 퍼센트 분할에 따라 계약 내용의 각 고객에 대해 하나의 미청구 실제 판매가 생성됩니다. **시간 및 재료 청구 백로그** 보기에서 이러한 개별 고객별 미청구 판매 실적을 볼 수 있습니다. 이러한 각 청구되지 않은 실제 판매 레코드는 이 보기와는 별도로 **송장 발부 준비 완료** 로 표시될 수 있습니다.
 
 초안 송장에 있는 미청구 판매 실제가 **고객 송장 만듦** 의 청구 상태와 함께 이 보기에 표시됩니다. 송장 초안이 확인되면 이 레코드의 청구 상태가 **고객 송장이 전기됨** 으로 업데이트됩니다. 사용자 지정 코드를 사용하여 이 상태 값을 업데이트하지 마십시오. 이러한 상태 값이 사용자 지정 코드로 업데이트되면 Project Operations가 올바르게 작동하지 않습니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

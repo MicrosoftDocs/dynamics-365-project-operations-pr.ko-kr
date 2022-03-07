@@ -2,18 +2,16 @@
 title: 프로젝트 범주 구성
 description: 이 항목에서는 프로젝트 범주 설정에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131936"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997119"
 ---
 # <a name="configure-project-categories"></a>프로젝트 범주 구성
 
@@ -25,7 +23,7 @@ Project Operations는 프로젝트의 수익과 경비를 분류하는 강력한
 
 트랜잭션 범주는 프로젝트 트랜잭션의 기본 그룹입니다. 해당 그룹 내에는 응용 프로그램과 모듈간에 공유할 수 있는 공유 범주 집합이 있습니다. 더 자세히 살펴보면 프로젝트 범주는 가장 세분화된 범주 수준입니다. 프로젝트 범주는 법인, 모듈 및 응용 프로그램에 따라 다릅니다.
 
-![트랜잭션 범주, 공유 범주 및 프로젝트 범주 간의 상관 관계](media/project-categories.png)
+![트랜잭션 범주, 공유 범주 및 프로젝트 범주 간의 상관 관계.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>트랜잭션 범주
 
@@ -37,7 +35,7 @@ Project Operations는 프로젝트의 수익과 경비를 분류하는 강력한
 
 ## <a name="shared-categories"></a>공유 범주
 
-Dynamics 365는 공유 범주 개념을 사용하여 Dynamics 365 Finance, Dynamics 365 Supply Chain 및 Dynamics 365 Project Operations 같은 다양한 응용 프로그램의 경비를 분류합니다. 생성된 각 트랜잭션 범주에 대해 Project Operations는 시간, 경비, 요금 및 품목의 네 가지 관련 공유 범주를 자동으로 생성합니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **공유 범주** 로 이동하여 공유 범주를 검토하고 조정할 수 있습니다.
+Dynamics 365는 공유 범주 개념을 사용하여 Dynamics 365 Finance, Dynamics 365 Supply Chain 및 Dynamics 365 Project Operations와 같은 다양한 응용 프로그램에서 비용을 분류합니다. 생성된 각 트랜잭션 범주에 대해 Project Operations는 시간, 경비, 요금 및 품목의 네 가지 관련 공유 범주를 자동으로 생성합니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **공유 범주** 로 이동하여 공유 범주를 검토하고 조정할 수 있습니다.
 
 ## <a name="project-categories"></a>프로젝트 범주
 
@@ -53,3 +51,6 @@ Dynamics 365는 공유 범주 개념을 사용하여 Dynamics 365 Finance, Dynam
 범주 그룹은 관련 프로젝트 범주 간에 속성(주로 프로필 게시)을 공유하는 데 사용됩니다. 각 트랜잭션 유형에 대해 하나 이상의 범주 그룹이 있어야 하며 각 프로젝트 범주에는 그룹이 지정됩니다.
 
 Project Operations의 전기 사양은 프로젝트 비용 및 수익 프로필 규칙, 프로젝트 범주 및 범주 그룹에 의해 정의됩니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **범주 그룹** 으로 이동하여 범주 그룹을 설정할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기 - 라이트
 description: 이 항목에서는 프로젝트에서 견적 라인으로 추정을 가져오는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: a5ac7827f3499aafb63f6bc0b8580ca52e883f272464532bd353170a12b3ae55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858256"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986139"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>프로젝트에 대한 추정을 프로젝트 기반 견적 라인으로 가져오기 
 

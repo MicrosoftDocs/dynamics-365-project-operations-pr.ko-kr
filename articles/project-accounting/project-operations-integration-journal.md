@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948338"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287246"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations의 통합 분개장
 
@@ -28,7 +28,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 Project Operations 통합 분개장의 레코드는 주기적인 프로세스 **준비 테이블에서 가져오기** 를 사용하여 생성됩니다. **Dynamics 365 Finance** > **프로젝트 관리 및 회계** > **주기적** > **Project Operations 통합** > **준비 테이블에서 가져오기** 로 이동하여 이 프로세스를 실행할 수 있습니다. 프로세스를 대화식으로 실행하거나 필요에 따라 백그라운드에서 실행되도록 프로세스를 구성할 수 있습니다.
 
 주기적 프로세스가 실행되면 아직 Project Operations 통합 분개장에 추가되지 않은 실제 데이터가 발견됩니다. 각 실제 트랜잭션에 대한 분개장 항목이 생성됩니다.
-시스템은 **Project Operations 통합 분개장의 기간 단위** 필드(**재무** > **프로젝트 관리 및 회계** > **설정** > **프로젝트 관리 및 회계 매개 변수**,**Dynamics 365 Customer Engagement의 Project Operations** 탭)에서 선택한 값에 따라 분개장 항목을 별도의 분개장으로 그룹화합니다. 이 필드에 가능한 값은 다음과 같습니다.
+시스템은 **Project Operations 통합 분개장의 기간 단위** 필드(**재무** > **프로젝트 관리 및 회계** > **설정** > **프로젝트 관리 및 회계 매개 변수**,**Dynamics 365 Customer Engagement의 Project Operations*** 탭)에서 선택한 값에 따라 분개장 항목을 별도의 분개장으로 그룹화합니다. 이 필드에 가능한 값은 다음과 같습니다.
 
   - **일**: 실제는 트랜잭션 날짜별로 그룹화됩니다. 매일 별도의 분개장이 생성됩니다.
   - **월**: 실제는 월별로 그룹화됩니다. 매월 별도의 분개장이 생성됩니다.
@@ -38,7 +38,7 @@ Project Operations 통합 분개장의 레코드는 주기적인 프로세스 **
 프로젝트 실제를 기반으로 분개장 항목이 생성됩니다. 다음 목록에는 몇 가지 주목할만한 기본 및 변환 규칙이 포함되어 있습니다.
 
   - 각 프로젝트 실제 트랜잭션에는 Project Operations 통합 분개장에 항목이 있습니다. 시간 및 재료 청구 유형에 대한 비용 및 미청구 판매 트랜잭션이 별도의 항목에 표시됩니다.
-  - **날짜** 필드는 트랜잭션 날짜를 나타냅니다. **회계 날짜** 필드는 트랜잭션이 원장에 기록된 날짜를 나타냅니다. 회계 날짜가 [마감된 회계 기간](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) 내에 있고 매개 변수 **원장 기간을 개설하도록 회계 날짜 자동 설정** 이 **프로젝트 관리 및 회계 매개 변수** 페이지의 **재무** 탭에 설정된 경우 시스템은 트랜잭션의 회계 날짜를 다음 열린 원장 기간의 첫 번째 날짜로 조정합니다.
+  - **날짜** 필드는 트랜잭션 날짜를 나타냅니다. **회계 날짜** 필드는 트랜잭션이 원장에 기록된 날짜를 나타냅니다. 회계 날짜가 [마감된 회계 기간](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) 내에 있고 매개 변수 **원장 기간을 개설하도록 회계 날짜 자동 설정** 이 **프로젝트 관리 및 회계 매개 변수** 페이지의 **재무** 탭에 설정된 경우 시스템은 트랜잭션의 회계 날짜를 다음 열린 원장 기간의 첫 번째 날짜로 조정합니다.
   - **바우처** 필드에는 모든 실제 트랜잭션에 대한 바우처 번호가 표시됩니다. 바우처 번호 순서는 **프로젝트 관리 및 회계 매개 변수** 페이지의 **숫자 시퀀스** 탭에 정의됩니다. 각 라인에는 새 번호가 지정됩니다. 바우처가 전기된 후 **바우처 트랜잭션** 페이지에서 **관련 바우처** 를 선택하여 비용 및 미청구 판매 트랜잭션의 관련성을 볼 수 있습니다.
   - **범주** 필드는 관련 프로젝트 실제에 대한 트랜잭션 범주를 기반으로 하는 프로젝트 트랜잭션 및 기본값을 나타냅니다.
     - **트랜잭션 범주** 가 프로젝트 실제에 설정되고 관련 **프로젝트 범주** 가 지정된 법인에 존재하는 경우 범주는 기본적으로 이 프로젝트 범주로 설정됩니다.

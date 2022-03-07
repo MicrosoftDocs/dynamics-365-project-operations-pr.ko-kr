@@ -2,8 +2,6 @@
 title: 프로젝트 관리자 가이드
 description: 프로젝트 관리자 가이드(Project Service)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d375616038381bda05a02870f9e4edb06fb3307
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d24d3966ee4f495fc4cfdf35492495fd0244b5ef08e53005d8ac4a854cd7cce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148291"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998379"
 ---
 # <a name="project-manager-guide-project-service"></a>프로젝트 관리자 가이드(Project Service)
 
@@ -95,3 +93,6 @@ ms.locfileid: "5148291"
  [리소스 관리자 가이드](../psa/resource-manager-guide.md)   
  [시간, 비용 및 공동 작업 가이드](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

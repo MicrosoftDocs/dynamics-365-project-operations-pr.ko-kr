@@ -2,11 +2,9 @@
 title: 프로젝트 트랜잭션 조정
 description: 이 작업 가이드는 프로젝트에서 트랜잭션을 조정하는 방법을 보여줍니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7432dcdaa520c4eebb657f436575d017a7fd07cc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92f5f998d7ecaed724298be16ff8680e56ee77d77a4ee3b7ba83fa5a8a1a4787
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080112"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985914"
 ---
 # <a name="adjust-project-transactions"></a>프로젝트 트랜잭션 조정
 
@@ -44,3 +42,6 @@ ms.locfileid: "4080112"
 13. 목록에서 선택한 행을 표시합니다. 
 14. 원가 필드에 숫자를 입력합니다. 
 15. 전기를 클릭합니다. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,10 +2,9 @@
 title: 프로젝트 리소싱 홈 페이지
 description: 이 항목은 Dynamics 365용 Project Service Automation(PSA)에서 리소스 관리 능력에 대한 정보를 제공합니다.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 11/28/2018
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b0ea56a7b41f5bb7d458b780f4e2611063e1b4a0ae2a6eb2acfa9cfef8c1cff0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147436"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984789"
 ---
 # <a name="resourcing-projects-home-page"></a>프로젝트 리소싱 홈 페이지
 
@@ -53,3 +52,6 @@ PSA에서 일반 또는 명명된 리소스 팀으로 프로젝트를 충원할 
 - [리소스 요건에서 명명된 리소스 예약](book-named-resource.md)
 - [리소스 요청 제출](submit-resource-request.md)
 - [리소스 요청에서 제안된 프로젝트 리소스를 수락 또는 거부](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

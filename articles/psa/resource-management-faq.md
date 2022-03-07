@@ -2,8 +2,6 @@
 title: 리소스 관리 FAQ
 description: 이 항목은 리소스 관리에 대해 자주 묻는 질문에 대한 답변을 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144376"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002384"
 ---
 # <a name="resource-management-faq"></a>리소스 관리 FAQ
 
@@ -54,3 +52,6 @@ ms.locfileid: "5144376"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>할당과 예약 사이의 차이는 무엇입니까?
 
 할당은 프로젝트 스케줄의 프로젝트 과업에 리소스를 할당하는 것입니다. 리소스는 실제 또는 일반 리소스일 수 있습니다. 예약은 프로젝트에 리소스를 확정 또는 가배정하는 것입니다. 확정 예약은 리소스의 능력을 소비합니다. 이상적으로는, 실제 리소스의 경우 예약과 할당이 다르지 않기 때문에 일치해야 합니다. 그러나 PSA는 이 일치를 강제하지 않습니다. 조정 보기에는 리소스의 예약 및 할당이 일치하지 않는 프로젝트 관리자가 표시됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

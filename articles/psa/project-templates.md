@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d9d208ebcef127062428afdadde2c54eb07ea505
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148066"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283601"
 ---
 # <a name="project-templates"></a>프로젝트 템플릿 
 
@@ -69,3 +69,6 @@ ms.locfileid: "5148066"
 ### <a name="copying-a-project-team"></a>프로젝트 팀 복사
 
 프로젝트 템플릿에서 프로젝트 팀을 어떤 프로젝트에 복사할 때, 일반 리소스가 템플릿에 정의된 기능 및 숙련도와 함께 복사됩니다. 일반 리소스 배정은 프로젝트 템플릿에서와 같이 관리됩니다. 명명된 리소스는 프로젝트 템플릿에서 지원되지 않습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4e23b5cd4b625736e02e62624ee838926e4dd325
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286706"
 ---
 # <a name="project-management-overview"></a>프로젝트 관리 개요
 
@@ -26,3 +26,6 @@ Dynamics 365 Project Operations의 프로젝트 관리 도구를 사용하면 �
 - 판매 프로세스 중에 프로젝트 추산을 사용합니다.
 - 파이프라인에 있는 프로젝트를 위한 리소스 요건을 예측합니다.
 - 진행 상황과 비용 소비를 추적하여 프로젝트를 성공적으로 인도합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

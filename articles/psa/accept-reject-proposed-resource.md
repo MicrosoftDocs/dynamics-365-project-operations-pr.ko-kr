@@ -1,8 +1,6 @@
 ---
 title: 프로젝트 리소스 제안 수락 또는 거부
 description: 이 항목은 프로젝트 리소스 제안을 수락하거나 거부하는 방법에 대한 정보를 제공합니다.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ae129284d0d053b78c39907a78a0cfda60ea43c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146176"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992529"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>프로젝트 리소스 제안 수락 또는 거부
 
@@ -35,13 +33,16 @@ ms.locfileid: "5146176"
 
 리소스 관리자가 프로젝트를 위한 일반 리소스 요청을 채우기 위한 지정 리소스를 제안하면 일반 팀원을 위한 **오청 상태** 필드가 **검토 필요** 로 업데이트됩니다. 요청은 승인 또는 거부를 위해 프로젝트 관리자에게 발송됩니다.
 
-![제안이 있는 일반 팀원](media/RM-how-to-19.png)
+![제안이 있는 일반 팀원.](media/RM-how-to-19.png)
 
 **프로젝트 팀원** 페이지의 **제안된 리소스** 탭의 그리드에 제안된 리소스의 현재 예약이 표시됩니다. 제안이 수락되면 해당 예약을 반영하도록 그리드가 업데이트됩니다. 
 
 제안된 리소스를 수락하고 귀하의 팀에 해당 리소스를 예약하려면 **제안 수락** 을 클릭합니다.  
 제안을 거부하려면 **리소스 거부** 를 클릭합니다.
 
-![리소스 제안 수락](media/RM-how-to-20.png) 
+![리소스 제안 수락.](media/RM-how-to-20.png) 
 
 일반 리소스 요청을 명명된 리소스로 직접 이행하는 것과 마찬가지로 일반 리소스가 대체되고 할당된 작업이 지정된 팀원으로 업데이트됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

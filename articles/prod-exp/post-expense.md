@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36be76c0c9f25cb93921acee36a820e276cad625
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 982b7621c35547448b5d756f77f3873b9fbbcb9d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271316"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960120"
 ---
 # <a name="post-an-expense-report"></a>경비 보고서 전기
 
@@ -32,6 +32,3 @@ ms.locfileid: "5271316"
 경비 보고서를 전기하려면 **승인된 경비 보고서** 페이지에서 경비 보고서를 선택한 다음 작업 창에서 **경비** 를 선택합니다.
 
 동시에 목록의 모든 경비 보고서를 전기할 수도 있습니다. 모든 경비 보고서를 선택한 다음 **전기** 를 선택합니다.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

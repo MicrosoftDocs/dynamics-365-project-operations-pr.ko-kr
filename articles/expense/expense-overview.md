@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: c4e2f441e1c4b1bcba5bca292b8075b4334a004d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764917"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276581"
 ---
 # <a name="expense-home-page"></a>경비 홈 페이지
 
@@ -44,3 +44,6 @@ Project Operations에는 경비에 대해 지원되는 두 가지 배포 모델�
 
 ## <a name="determine-your-expense-deployment"></a>경비 배포 결정
 기본 경비 관리 배포를 실행 중인지 확인하려면 주소 URL이 **.crm.dynamics.com** 으로 끝나는 지 확인합니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

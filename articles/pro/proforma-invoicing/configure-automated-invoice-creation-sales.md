@@ -1,29 +1,25 @@
 ---
-title: 자동 송장 만들기 구성 - 라이트
-description: 이 항목은 견적 송장 자동 만들기 구성에 대한 정보를 제공합니다.
+title: 자동 송장 만들기 설정
+description: 이 항목은 견적 송장의 자동 생성 설정 및 구성에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 2d212f2279b28d900e75d45386e343f95b8e825e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176574"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004179"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>자동 송장 만들기 구성 - 라이트
+# <a name="set-up-automatic-invoice-creation"></a>자동 송장 만들기 설정 
  
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재고 기반 시나리오를 위한 Project Operations_
 
-Dynamics 365 Project Operations에서 자동 송장 생성을 구성할 수 있습니다. 시스템은 각 프로젝트 계약 및 계약 내용에 대한 송장 일정을 기반으로 견적 송장 초안을 생성합니다. 송장 일정은 계약 내용 수준에서 구성됩니다. 계약의 각 라인에는 고유한 송장 일정이 있거나 동일한 송장 일정이 계약의 모든 라인에 포함될 수 있습니다.
+Dynamics 365 Project Operations에서 자동 송장 만들기를 구성할 수 있습니다. 시스템은 각 프로젝트 계약 및 계약 내용에 대한 송장 일정을 기반으로 견적 송장 초안을 생성합니다. 송장 일정은 계약 내용 수준에서 구성됩니다. 계약의 각 라인에는 고유한 송장 일정이 있거나 동일한 송장 일정이 계약의 모든 라인에 포함될 수 있습니다.
 
-송장을 생성할 때 시스템은 항상 프로젝트 계약당 하나 이상의 송장을 생성합니다. 경우에 따라 여러 개의 송장이 생성될 수 있습니다.
-
-예를 들어 계약에 여러 고객이 있는 경우 해당 프로젝트 계약에 대해 청구할 청구 가능한 거래가 있는 고객 수와 동일한 수의 청구서가 생성됩니다.
+송장을 생성할 때 시스템은 항상 프로젝트 계약당 하나 이상의 송장을 생성합니다. 경우에 따라 여러 개의 송장이 생성될 수 있습니다. 예를 들어 계약에 여러 고객이 있는 경우 해당 프로젝트 계약에 대해 청구할 청구 가능한 거래가 있는 고객 수와 동일한 수의 청구서가 생성됩니다.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>트랜잭션이 송장에 포함되는 방식 이해 
 
@@ -91,3 +87,6 @@ Dynamics 365 Project Operations에서 자동 송장 생성을 구성할 수 있�
 
 > [!NOTE]
 > Project Operations에서 일괄 처리 송장 발행은 송장 스케줄에 의해 구성된 프로젝트 계약 내용에 대해서만 실행됩니다. 고정 가격 청구 방법이 있는 계약 내용에는 이정표가 구성되어 있어야 합니다. 시간 및 자재 청구 방법이 있는 프로젝트 계약 내용에는 날짜 기반 송장 일정을 설정해야 합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

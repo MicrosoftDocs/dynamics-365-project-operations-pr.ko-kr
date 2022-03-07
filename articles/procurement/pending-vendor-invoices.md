@@ -2,17 +2,19 @@
 title: 보류 중인 공급업체 송장을 사용하여 비 재고 재료 구매
 description: 이 항목에서는 보류 중인 공급업체 송장을 기록하는 방법을 설명합니다.
 author: sigitac
+manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7a706f419443dcdf92ce3b247d719943272907d0
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993809"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880662"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>보류 중인 공급업체 송장을 사용하여 비 재고 재료 구매
 

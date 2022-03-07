@@ -2,11 +2,9 @@
 title: 가격 설정 및 거래 엔터티에 필요한 사용자 지정 필드 추가
 description: 이 항목은 엔터티와 양식 및 보기에 필수 사용자 정의 필드 참조를 추가하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590909"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000579"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>가격 설정 및 거래 엔터티에 필요한 사용자 지정 필드 추가
 
@@ -146,3 +144,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 |  실제|• 정보<br>• 활성 실제값|• 실제값 연계 보기|
 
 정의한 내용에 따라 비즈니스 규칙에 사용자 지정 필드를 추가해야 할 수도 있습니다. 하나의 기본 제공 예시는 비즈니스 규칙 **상태별 시간 항목의 편집 가능성** 에 대한 것입니다. 이 규칙은 시간 항목이 **승인됨** 과 같은 편집할 수 없는 상태에 있을 때 잠글 수 있는 필드를 정의합니다. 시간 항목이 **초안** 또는 **반환됨** 상태가 될 때 편집을 위해 필드가 잠기도록 이 비즈니스 규칙에 필드를 추가합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

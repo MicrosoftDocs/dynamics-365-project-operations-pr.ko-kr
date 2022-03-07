@@ -2,8 +2,6 @@
 title: 프로젝트 가격 책정
 description: 이 항목은 Dynamics 365 Project Service Automation의 가격 책정 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000584"
 ---
 # <a name="project-pricing"></a>프로젝트 가격 책정 
 
@@ -48,7 +46,7 @@ Dynamics 365 Project Service Automation은 Dynamics 365 Sales에서 가격표 �
   - **거래 범주 가격** - 이 표는 거래 범주별로 가격을 저장하며 경비 범주 가격을 설정하는 데 사용됩니다.
   - **가격표 항목** - 이 표에는 카탈로그 제품의 가격이 저장됩니다.
 
-> ![가격표를 사용하여 가격 구성](media/basic-guide-12.png)
+> ![가격표를 사용하여 가격 구성.](media/basic-guide-12.png)
  
 가격표는 요금 카드입니다. 요금 카드는 역할 가격, 거래 범주 가격 및 가격표 항목 표의 가격표 엔터티 및 관련 행의 조합입니다.
 
@@ -60,7 +58,7 @@ Dynamics 365 Project Service Automation은 Dynamics 365 Sales에서 가격표 �
 
 PSA가 설치되면 **시간** 단위 그룹이 분류됩니다. 기본 **시간** 단위가 있습니다. **시간** 단위 그룹 또는 **시간** 단위에 있는 속성을 삭제, 이름 변경 또는 편집할 수 없습니다. 그러나 **시간** 단위 그룹에 다른 단위를 추가할 수 있습니다. **시간** 단위 그룹 또는 **시간** 단위를 삭제하려고 하면 PSA 비즈니스 논리에 오류가 발생할 수 있습니다.
 
-> ![역할별로 가격 구성](media/basic-guide-13.png)
+> ![역할별로 가격 구성.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>거래 범주 및 경비 범주
 
@@ -70,7 +68,7 @@ PSA가 설치되면 **시간** 단위 그룹이 분류됩니다. 기본 **시간
 - **원가 가산율** - 실제 비용에 대한 가산율은 고객에게 청구됩니다. 
 - **단위당 가격** - 경비 범주의 각 단위에 대해 청구 가격이 설정됩니다. 고객이 청구하는 금액은 컨설턴트가 보고하는 경비 단위 수를 기준으로 계산됩니다. 마일리지는 단위당 가격 책정 방식을 사용합니다. 예를 들어, 마일리지 경비 범주는 하루에 30달러(USD) 또는 마일당 2달러(USD)로 구성할 수 있습니다. 컨설턴트가 프로젝트에 대한 마일리지를 보고하면 청구서 금액은 컨설턴트가 보고한 마일 수를 기준으로 계산됩니다.
 
-> ![경비 범주에 대한 가격 책정 구성](media/basic-guide-14.png)
+> ![경비 범주에 대한 가격 책정 구성.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>프로젝트 영업 가격 측정 및 재정의
 
@@ -116,7 +114,7 @@ PSA에서는 기본적으로 견적 또는 프로젝트 계약에 입력된 프�
 
 사용자 지정 프로젝트 가격표를 만들 때 가격표의 프로젝트 구성 요소만 복사됩니다. 즉, 견적에 첨부된 기존 프로젝트 가격표의 복사본으로 만든 새 가격표이며, 이 새 가격표에는 관련 역할 가격 및 거래 범주 가격만 있습니다.
 
-> ![프로젝트 계약에 대한 사용자 지정 가격 책정 보기 및 구성](media/basic-guide-15.png)
+> ![프로젝트 계약에 대한 사용자 지정 가격 책정 보기 및 구성.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>비용 추적
 
@@ -131,3 +129,6 @@ PSA는 프로젝트에서 인적 자원 시간을 사용하는 데 드는 비용
     1. 조직 구성 단위에 첨부된 비용 가격표입니다.
     2. 프로젝트 서비스 매개 변수에 첨부된 비용 가격표입니다. PSA는 여러 다른 통화의 비용 가격표를 프로젝트 서비스 매개 변수에 연결할 수 있으므로 PSA는 프로젝트, 계약 또는 견적의 계약 조직 구성 단위의 통화와 비용 가격표의 통화 간에 통화 일치를 수행합니다.
     3. 경비의 경우 비용 및 가격 인상 초과 비용 가격 책정 방법은 비용 가격표에 적용되지 않습니다. 이러한 가격 책정 방법을 비용 가격표 라인에서 거래 범주 비용을 설정하는 데 사용되더라도 시스템은 이를 무시하고 기본 비용 가격을 입력하지 않습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

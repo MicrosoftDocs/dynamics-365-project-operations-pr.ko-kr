@@ -2,8 +2,6 @@
 title: 리소스 역할 추가
 description: Project Service 리소스에 역할을 할당하는 방법
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 737c36cc7a31b5fa10524e13709ae99751aa1771
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: caced5b5acc06d33d7345a73789cf8a768a1f89200eb1c8185909acece47b38f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145906"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005219"
 ---
 # <a name="add-resource-roles-project-service"></a>리소스 역할 추가(Project Service)
 
@@ -47,3 +45,6 @@ ms.locfileid: "5145906"
   
 ### <a name="see-also"></a>참고 항목  
  [리소스 설정](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

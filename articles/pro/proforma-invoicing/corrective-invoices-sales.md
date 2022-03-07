@@ -1,21 +1,21 @@
 ---
-title: 수정 프로젝트 송장
-description: 이 항목은 Project Operations에서 수정 송장을 만들고 확인하는 방법에 대한 정보를 제공합니다.
+title: 크레딧 및 수정된 송장
+description: 이 항목은 Project Operations에서 수정된 송장에 대한 정보를 제공합니다.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866599"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4080163"
 ---
-# <a name="corrective-project-invoices"></a>수정 프로젝트 송장
+# <a name="credits-and-corrected-invoices"></a>크레딧 및 수정된 송장
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -37,9 +37,9 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 > [!IMPORTANT]
 > 이미 송장이 발행된 다른 비용에 대한 수정인 송장 라인 상세 내역에는 **수정** 필드가 **예** 로 설정되어 있습니다. 송장 라인 상세 내역이 수정된 송장에는 **수정 사항 있음** 필드도 **예** 로 설정되어 있습니다.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>수정 송장 확인시 생성된 실제
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>수정 송장 확인시 생성된 실제:
 
-다음 표에는 수정 송장이 확인될 때 생성되는 실제 항목이 나열되어 있습니다.
+다음은 확인 전에 초안 수정 송장에 대해 수행된 작업을 기반으로 수정 확인시 응용 프로그램에서 생성한 실제 값입니다.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,51 +214,6 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-이전에 송장을 발행한 재료 트랜잭션의 전체 대변 송장 발행.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-재료에 대한 최초 송장 라인 상세 내역의 수량 및 금액에 대한 청구된 판매 취소.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-재료에 대한 최초 송장 라인 상세 내역의 수량 및 금액에 대한 실제 신규 미청구 판매.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-재료 트랜잭션에 대한 부분 신용 송장 발행.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-재료에 대한 최초 송장 라인 상세 내역의 송장 발부된 수량 및 금액에 대한 청구된 판매 취소.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-편집된 송장 라인 상세 내역의 수량 및 금액에 대해 청구 가능한 신규 미청구 판매 실제, 이것의 취소 및 이에 상응하는 청구된 판매 실제.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-송장 라인 상세 내역에서 수정된 수치를 차감한 후 남은 수량 및 금액에 대해 청구 가능한 신규 청구되지 않은 실제 판매.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 이전에 청구된 요금 트랜잭션의 전체 크레딧 송장 발행.
                 </p>
             </td>
@@ -305,7 +260,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 중요 시점에 대한 최초 송장 라인 상세 내역의 금액에 대한 청구된 매출액 전환.
                 </p>
                 <p>
-이정표의 송장 상태는 <b>고객 송장 게시됨</b>에서 <b>송장 발부 준비 완료</b>로 업데이트됩니다.
+프로젝트 계약 내용의 중요 시점 송장 또는 청구 상태가 **송장 준비** 로 업데이트됩니다.
                 </p>
             </td>
         </tr>
@@ -333,6 +288,3 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
         </tr>
     </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

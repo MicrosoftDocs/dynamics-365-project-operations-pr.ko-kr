@@ -1,8 +1,6 @@
 ---
 title: 작업 세분화 구조를 위한 업그레이드 고려 사항
 description: 이 항목은 작업 세분화 구조를 Project Service Automation 2.x에서 3.x로 업그레이드하는 방법을 설명합니다.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149551"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992349"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>작업 세분화 구조를 위한 업그레이드 고려 사항
 
@@ -34,20 +32,20 @@ ms.locfileid: "5149551"
 ## <a name="key-entities"></a>주요 엔터티
 리소스가 이미 로드된 정확한 작업 세분화 구조의 경우 다음 엔터티가 요구됩니다:
 
-- [프로젝트](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [프로젝트 팀](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [프로젝트 작업](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [리소스 할당](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [프로젝트 작업 종속성](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [예약 가능한 리소스](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [프로젝트](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [프로젝트 팀](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [프로젝트 작업](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [리소스 할당](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [프로젝트 작업 종속성](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [예약 가능한 리소스](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 리소스가 로드한 작업 세분화 구조를 정의하려면 다음 단계를 완료해야 합니다:
 
-1. 새 프로젝트 만들기. 새 프로젝트를 만드는 방법에 대한 자세한 설명은 [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)를 참조하십시오.
-2. 하나 이상의 과업을 만듭니다. 과업을 만드는 방법에 대한 자세한 설명은 [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)를 참조하십시오.
-3. 과업 종속성을 정의합니다. 자세한 내용은 [프로젝트 작업 종속성](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)을 참조하세요.
-4. 프로젝트에 프로젝트 팀원을 배정합니다. 자세한 설명은 [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)을 참조하십시오.
-5. 과업에 프로젝트 팀원을 배정합니다. 자세한 설명은 [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)를 참조하십시오.
+1. 새 프로젝트 만들기. 새 프로젝트를 만드는 방법에 대한 자세한 설명은 [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)를 참조하십시오.
+2. 하나 이상의 과업을 만듭니다. 과업을 만드는 방법에 대한 자세한 설명은 [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)를 참조하십시오.
+3. 과업 종속성을 정의합니다. 자세한 내용은 [프로젝트 작업 종속성](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)을 참조하세요.
+4. 프로젝트에 프로젝트 팀원을 배정합니다. 자세한 설명은 [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)을 참조하십시오.
+5. 과업에 프로젝트 팀원을 배정합니다. 자세한 설명은 [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)를 참조하십시오.
 
 ## <a name="project-team-relationships"></a>프로젝트 팀 관계
 
@@ -96,3 +94,6 @@ ms.locfileid: "5149551"
 
 - 모든 프로젝트 과업 종속성은 동일한 프로젝트에 관련되어야 합니다.
 - 과업은 두 번 이상 참조된 동일한 종속성을 가질 수 없습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

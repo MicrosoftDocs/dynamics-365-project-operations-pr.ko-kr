@@ -1,8 +1,6 @@
 ---
 title: Project Service Automation 버전 3.x 웨이브 1 2020의 새로운 내용 또는 변경 내용
 description: 이 항목에서는 Project Service Automation 버전 3 웨이브 1 2020의 새로운 사항과 변경된 내용에 대한 정보를 제공합니다.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150946"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002114"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Project Service Automation 버전 3 웨이브 1 2020의 새로운 내용 또는 변경 내용
 
@@ -43,3 +41,6 @@ ms.locfileid: "5150946"
 
 ### <a name="currently-extended-time-entry-changes"></a>현재 확장된 시간 항목 변경 사항
 현재 시간 항목 사용자에게 미치는 영향을 최소화하기 위해 이 역할 변경은 시간 항목을 계속 사용하는 데 필요한 유일한 핵심 요구 사항입니다. 사용자 지정 보기나 별도의 시간 항목 경험을 를 작성한 경우 **시간 항목 설정** 필드를 올바른 PSA 값으로 설정해야 합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

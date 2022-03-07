@@ -2,11 +2,9 @@
 title: 인건비 및 비용에 대한 표준 비용 구성
 description: 이 항목은 프로젝트의 인건비 및 비용에 대한 표준 비용을 설정하는 방법을 설명합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080109"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987984"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>인건비 및 비용에 대한 표준 비용 구성
 
@@ -54,3 +52,6 @@ ms.locfileid: "4080109"
 22. **가격 책정** 필드에 숫자를 입력합니다. 작업자가 경비 저널에 트랜잭션을 입력할 때 적용되는 실제 판매 가격은 세부 수준이 가장 높은 판매 가격입니다. 예를 들어 일반 및 작업자별 판매 가격이 모두 설정된 경우 작업자별 판매 가격이 사용됩니다.  
 23. **저장** 을 선택합니다.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

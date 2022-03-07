@@ -2,8 +2,6 @@
 title: 리소스 역할 구성
 description: 리소스 역할 구성 방법(Project Service)
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: deaff0977ebb50382a28494fba2a1c34ed5cc9b4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 59c66aa7bd6c481f8db3088bede71c1ab81a203f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144916"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999319"
 ---
 # <a name="configure-resource-roles-project-service"></a>리소스 역할 구성(Project Service)
 
@@ -59,3 +57,6 @@ ms.locfileid: "5144916"
   
 ### <a name="see-also"></a>참고 항목  
  [리소스 설정](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

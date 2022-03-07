@@ -2,8 +2,6 @@
 title: 다통화 시나리오 (버전 3.x)
 description: 이 항목은 다통화 시나리오에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145681"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005129"
 ---
 # <a name="multiple-currency-scenarios"></a>다통화 시나리오
 
@@ -105,3 +103,6 @@ Dynamics 365는 자동으로 다른 통화로 금액의 롤업을 처리합니�
 | 경비           | 미청구된 매출액   | 6월 17일 | 박인  | 렌터카           | 1개     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 프로젝트의 미청구 매출액 총액을 계산하기 위해 모든 미청구 매출액 실제값에 대한 **액수** 필드를 위한 롤업 필드를 만들 수 있습니다. 롤업 필드는 관련 레코드에 대한 빠른 공식을 허용하는 Dynamics 365의 구성입니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

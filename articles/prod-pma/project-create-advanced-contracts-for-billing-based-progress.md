@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080181"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289512"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>진행 상황에 따라 청구를 위한 고급 계약 만들기
 [!include [banner](../includes/banner.md)]
@@ -103,3 +103,6 @@ ms.locfileid: "4080181"
 8. 선택 사항: 추가 프로젝트에 청구 규칙을 지정합니다. **프로젝트** 빠른 탭의 **사용 가능한 프로젝트** 섹션에서 프로젝트를 선택한 다음 오른쪽 화살표 단추를 선택하여 프로젝트를 **선택한 프로젝트** 섹션에 추가합니다.
 9. 선택 사항: 고객이 송장 지급에서 원천 징수하는 퍼센트 금액을 계산합니다. **결제 유지 조건** 빠른 탭에서 자금 출처를 선택한 다음 **유지율** 필드에 유지율을 입력합니다.
 10. 이 단계를 반복하여 프로젝트 계약에 대한 추가 청구 규칙을 만듭니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

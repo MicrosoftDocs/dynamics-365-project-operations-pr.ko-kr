@@ -2,11 +2,9 @@
 title: 프로젝트 작업 표 모바일 애플리케이션
 description: 이 항목에서는 Microsoft Dynamics 365 Project Timesheet 모바일 애플리케이션에 대한 정보를 제공합니다. 프로젝트 작업 표 모바일 앱을 사용하면 사용자가 모바일 장치에서 프로젝트에 대한 작업 표를 제출하고 승인할 수 있습니다.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080225"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997209"
 ---
 # <a name="project-timesheet-mobile-application"></a>프로젝트 작업 표 모바일 애플리케이션
 
@@ -96,3 +94,6 @@ Finance에서 프로젝트 작업 표 모바일 앱을 활성화해야 합니다
 ## <a name="review-timesheets"></a>작업 표 검토
 
 검토해야 하는 작업 표 목록은 메뉴에서 확인할 수 있습니다. 이 옵션은 워크플로 승인자로 지정된 경우에만 사용할 수 있습니다. 헤더 및 라인 승인이 모두 지원됩니다. 라인 수준 승인은 승인을 위해 하나 이상의 라인을 표시하는 기능을 제공합니다. 작업 표 정보를 검토한 후 **승인**, **대리자** 또는 **반환** 을 클릭하여 워크플로를 계속합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

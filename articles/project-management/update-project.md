@@ -1,23 +1,23 @@
 ---
-title: 프로젝트 업데이트
+title: 프로젝트 만들기 및 업데이트
 description: 이 항목은 Project Operations의 프로젝트 업데이트에 대한 정보를 제공합니다.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993379"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678357"
 ---
-# <a name="update-a-project"></a>프로젝트 업데이트
+# <a name="create-and-update-a-project"></a>프로젝트 만들기 및 업데이트
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-다음은 프로젝트가 생성된 후 업데이트될 수 있는 필드와 업데이트의 적용 가능한 의미에 대한 요약입니다.
+다음은 프로젝트를 만든 후 업데이트할 수 있는 필드의 요약입니다. 여기에는 이러한 업데이트를 기반으로 하는 적용 가능한 의미도 포함됩니다.
 
 ## <a name="project-detail-fields"></a>프로젝트 세부 사항 필드
 
@@ -26,7 +26,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 - **고객**: 프로젝트를 전달할 회사입니다.
 - **일정 템플릿**: 프로젝트의 작업 시간입니다. 필드가 변경되면 전체 일정이 다시 계산됩니다.
 - **통화**: 프로젝트의 통화입니다. 이 필드의 기본값은 계약 단위에 정의된 통화를 기반으로 합니다. 계약 단위가 업데이트되면 필드도 업데이트됩니다.
-- **계약 단위**: 판매에 성공하고 고객에게 작업 및 서비스 제공을 관리하는 책임이 있는 회사 그룹 또는 부서를 대표하는 조직 구성 단위입니다. 
+- **계약 단위**: 판매에 성공하고 고객에게 작업 및 서비스 제공을 관리하는 책임이 있는 회사 그룹 또는 부서를 대표하는 조직 구성 단위입니다.  프로젝트 관리자의 조직 단위가 정의되지 않은 경우 이 필드는 프로젝트 매개변수에 정의된 값으로 기본 설정됩니다.
 - **프로젝트 관리자**: 시간 항목 및 경비를 검토하고 승인할 권한이 있는 프로젝트 팀 구성원입니다.
 
 ## <a name="estimate-fields"></a>추정 필드

@@ -1,6 +1,8 @@
 ---
 title: 프로젝트 스테이지 비즈니스 프로세스 흐름을 사용자 지정하려면 어떻게 해야 합니까?
 description: 프로젝트 단계의 비즈니스 프로세스 흐름을 맞춤화하는 방법의 개요.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1d0168f187e6b0880713aac04bd87dbc2209197d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993154"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149011"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>프로젝트 스테이지 비즈니스 프로세스 흐름을 사용자 지정하려면 어떻게 해야 합니까?
 
@@ -105,6 +107,3 @@ ms.locfileid: "5993154"
 
    ![프로젝트 엔터티의 보기 수정 스크린샷](media/FAQ-Customize-BPF-8-720.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

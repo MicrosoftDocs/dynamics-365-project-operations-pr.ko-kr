@@ -2,8 +2,6 @@
 title: 프로젝트 진행률 및 비용 소비율
 description: 이 주제는 프로젝트 진행 상황과 비용 소비 추적에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148021"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987174"
 ---
 # <a name="project-progress-and-cost-consumption"></a>프로젝트 진행률 및 비용 소비율
 
@@ -98,3 +96,6 @@ Project Service Automation은 다음 수식을 사용하여 추적 메트릭을 
 **전체 프로젝트 상태** 필드는 프로젝트의 전체 상태를 표시하는 편집 가능한 필드입니다. 녹색, 노란색 및 빨간색과 같은 색상 코딩을 사용하여 위험 증가를 나타냅니다. **주석** 필드를 사용하면 프로젝트 관리자가 상태에 대한 특정 주석을 입력할 수 있습니다. **필드에 업데이트된 상태** 는 편집할 수 없으며 값은 상태가 마지막으로 업데이트된 시기를 나타내는 타임스탬프입니다.
 
 **일정 성능** 및 **비용 성능** 필드는 추적 날짜부터 설정됩니다. **작업량 추적** 보기에서 루트 노드의 일정 및 비용 차이가 양수인 경우 이러한 필드를 **선행** 으로 설정할 수 있습니다. 루트 노드의 일정 및 비용 차이가 음수인 경우 **후행** 으로 설정할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

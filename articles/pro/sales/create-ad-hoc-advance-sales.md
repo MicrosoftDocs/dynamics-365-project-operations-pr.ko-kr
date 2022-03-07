@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 2f0a6391a3bf6dd39d21504a6f286e4ff1954183
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596006"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273605"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>계약에 대한 임시 선불금 생성
 
@@ -39,3 +39,6 @@ Microsoft Dynamics 365 Project Operations는 선결제 및 선불금을 포함�
     | **송장 상태** | 이 선불금이 이 고객에 대한 초안 송장에 추가되는지 여부를 나타내는 옵션 설정입니다. 가능한 값은 다음과 같습니다.</br>- **송장 발부 준비 안 됨**</br>- **송장 발부 준비 완료** | 선결제 또는 선불금이 **송장 발부 준비 완료** 로 표시된 경우 송장 초안에 항목 시간으로 추가됩니다. 다음 송장 기간 동안 프로젝트 원가를 조정하는 데 완전히 송장이 발행 된 선불금만 사용할 수 있습니다. |
 
 4. 빨리 만들기 대화 상자에서 **저장 후 닫기** 를 선택하여 선불금 또는 선결제를 기록합니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

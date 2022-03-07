@@ -2,18 +2,16 @@
 title: 팀 구성원 그리드에서 팀 구성원 추가
 description: 이 항목은 팀 구성원 리소스를 관리할 수 있는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121541"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008414"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>팀 구성원 그리드에서 팀 구성원 추가
 
@@ -200,3 +198,6 @@ Project Operations에는 프로젝트 관리자가 프로젝트 팀을 위한 �
 리소스에 대한 작업 할당이 있지만 예약이 없는 경우, **조정** 탭의 **프로젝트** 양식에서 예약 부족을 선택한 다음 **예약 연장** 을 선택합니다. **예약 연장** 대화 상자가 나타나고 리소스 부족을 해결하는 데 필요한 예약을 표시합니다. 또한 대화 상자는 모든 프로젝트 또는 기타 예약 가능한 엔터티에서 리소스의 기존 예약을 표시합니다. 리소스의 가용성에 관계없이 리소스에 대한 예약을 만들려면 **확인** 을 선택하면 초과 예약이 발생할 수 있습니다.
 
 그런 다음 프로젝트 관리자 또는 리소스 관리자는 일정 게시판을 사용해서 리소스가 생산 능력을 초과해서 예약된 모든 상황을 관리할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

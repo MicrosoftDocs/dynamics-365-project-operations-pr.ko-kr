@@ -2,18 +2,17 @@
 title: 리소스/생산 기반 시나리오에 대한 Project Operations 배포 개요
 description: 이 항목은 배포 유형, 재고/생산 기반 시나리오의 Project Operations에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365541"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009089"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>리소스/생산 기반 시나리오에 대한 Project Operations 배포 개요
 
@@ -43,3 +42,6 @@ _**적용 대상:** 리소스/생산 기반 시나리오에 대한 Project Opera
 - 프로젝트에 대한 고객 대면 송장을 생성하는 엔터프라이즈급 판매세 및 환율 엔진입니다.
 - IFRS(International Financial Reporting Standards)를 준수하는 프로젝트 회계 및 수익 인식 시스템.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

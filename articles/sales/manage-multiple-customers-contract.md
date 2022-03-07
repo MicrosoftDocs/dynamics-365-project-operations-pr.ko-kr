@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: dda8bc58c00082a9ef3835ea293003c63013983f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643180"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277976"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>프로젝트 계약에 대한 여러 고객 관리
 
@@ -47,3 +47,6 @@ ms.locfileid: "4643180"
 그리드에서 편집하여 청구 분할 비율을 편집할 수 있습니다. 청구 분할 비율의 합계가 100%가 아니면 오류가 발생합니다. 청구 분할 비율을 편집한 후 **프로젝트 계약** 페이지를 새로 고쳐 오류를 제거합니다.
 
 프로젝트 계약 고객 하위 표에서 **균등 분배** 를 선택할 수도 있습니다. 청구 분할은 프로젝트 계약의 모든 고객에게 균등하게 할당됩니다. 반올림 계수가 있는 경우 요소가 반올림 고객에 추가됩니다. 계약 고객 중 하나는 항상 **반올림** 플래그가 **예** 로 설정됩니다. 이 고객이 반올림 고객입니다. 일반적으로 반올림 고객은 계약의 주요 고객이기도 하지만 필수 사항은 아닙니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

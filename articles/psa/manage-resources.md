@@ -2,8 +2,6 @@
 title: 리소스 관리
 description: 이 항목은 리소스를 관리할 수 있는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151351"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997834"
 ---
 # <a name="manage-resources"></a>리소스 관리
 
@@ -344,3 +342,6 @@ PSA에는 프로젝트 관리자가 프로젝트 팀을 위한 팀원 예약과 
 ![예약 연장 대화 상자](media/Resource-Management-image58.png)
 
 그런 다음 프로젝트 관리자 또는 리소스 관리자는 일정 게시판을 사용해서 리소스가 생산 능력을 초과해서 예약된 모든 상황을 관리할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

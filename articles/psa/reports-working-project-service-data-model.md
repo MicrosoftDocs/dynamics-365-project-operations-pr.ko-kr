@@ -2,8 +2,6 @@
 title: Project Service Automation 데이터 모델 작업
 description: 이 항목은 데이터 모델로 작업하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147661"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002429"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation 데이터 모델 작업
 
@@ -55,7 +53,7 @@ PSA는 또한 Dynamics 365 데이터 모델에 새 견적 관련 엔터티를 �
 
 PSA가 견적에 추가하는 다른 엔터티는 **견적 라인 프로젝트 가격표**, **견적 라인 리소스 범주** 및 **견적 라인 거래 범주** 입니다.
 
-![견적, 견적 라인 및 프로젝트 관계를 보여주는 다이어그램](media/PS-Reporting-image2.png "견적, 견적 라인 및 프로젝트 관계를 보여주는 다이어그램")
+![견적, 견적 라인 및 프로젝트 관계를 보여주는 다이어그램.](media/PS-Reporting-image2.png "견적, 견적 라인 및 프로젝트 관계를 보여주는 다이어그램")
 
 ## <a name="reporting-on-project-contracts"></a>프로젝트 계약 보고
 
@@ -71,7 +69,7 @@ PSA는 또한 프로젝트 계약을 위해 설계된 새 엔터티를 추가합
 
 PSA가 계약에 추가하는 다른 엔터티는 **프로젝트 계약 라인 프로젝트 가격표**, **프로젝트 계약 라인 리소스 범주** 및 **프로젝트 계약 라인 거래 범주** 입니다.
 
-![주문, 주문 라인 및 프로젝트 관계를 보여주는 다이어그램](media/PS-Reporting-image3.png "주문, 주문 라인 및 프로젝트 관계를 보여주는 다이어그램")
+![주문, 주문 라인 및 프로젝트 관계를 보여주는 다이어그램.](media/PS-Reporting-image3.png "주문, 주문 라인 및 프로젝트 관계를 보여주는 다이어그램")
 
 ## <a name="reporting-on-projects"></a>프로젝트 보고
 
@@ -83,7 +81,7 @@ PSA가 계약에 추가하는 다른 엔터티는 **프로젝트 계약 라인 �
 - **리소스 요구 사항** - 이 엔터티에는 일반 리소스 팀 구성원에 대한 요구 사항이 포함되어 있습니다.
 - **예상** 및 **예상 라인** - 이러한 엔터티는 헤더/라인 관계를 가지며 프로젝트에 대한 경비 예상을 포함합니다. 작업 예상은 **리소스 예상** 엔터티에 저장됩니다.
 
-![리소스 요구 사항 및 프로젝트 관계를 보여주는 다이어그램](media/PS-Reporting-image4.png "리소스 요구 사항 및 프로젝트 관계를 보여주는 다이어그램")
+![리소스 요구 사항 및 프로젝트 관계를 보여주는 다이어그램.](media/PS-Reporting-image4.png "리소스 요구 사항 및 프로젝트 관계를 보여주는 다이어그램")
 
 ## <a name="reporting-on-resources"></a>리소스 보고
 
@@ -94,7 +92,7 @@ PSA가 계약에 추가하는 다른 엔터티는 **프로젝트 계약 라인 �
 - **예약 가능한 리소스 범주** - 이 엔터티는 예약 가능한 리소스의 역할을 나타냅니다.
 - **예약 가능한 리소스 예약** - 이 엔터티는 리소스에 대한 프로젝트에서 예약된 시간을 나타냅니다. 각 예약에는 헤더 엔터티와 라인 엔터티가 둘 다 있으며 각 라인에는 예약 상태를 나타내는 상태가 있습니다.
 
-![예약 가능한 리소스 특성 관계를 보여주는 다이어그램](media/PS-Reporting-image5.png "예약 가능한 리소스 특성 관계를 보여주는 다이어그램")
+![예약 가능한 리소스 특성 관계를 보여주는 다이어그램.](media/PS-Reporting-image5.png "예약 가능한 리소스 특성 관계를 보여주는 다이어그램")
 
 ## <a name="reporting-on-actual-transactions"></a>실제 거래 보고
 
@@ -122,4 +120,7 @@ PSA가 계약에 추가하는 다른 엔터티는 **프로젝트 계약 라인 �
 
 **거래 확보 경로** 엔터티는 **실제** 레코드의 확보 경로를 기록하고 **거래 연결 엔터티** 는 **실제** 레코드에 대한 관련 레코드를 기록합니다. 또한 **실제** 레코드에는 프로젝트, 프로젝트 계약(주문), 예약 가능한 리소스 및 고객에 대한 참조가 포함되어 있습니다.
 
-![트랜잭션 연결, 출처 및 실제 관계를 보여주는 다이어그램](media/PS-Reporting-image6.png "트랜잭션 연결, 출처 및 실제 관계를 보여주는 다이어그램")
+![트랜잭션 연결, 출처 및 실제 관계를 보여주는 다이어그램.](media/PS-Reporting-image6.png "트랜잭션 연결, 출처 및 실제 관계를 보여주는 다이어그램")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

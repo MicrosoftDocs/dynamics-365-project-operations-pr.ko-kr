@@ -2,11 +2,9 @@
 title: 프로젝트 계약
 description: 이 항목은 다양한 유형의 프로젝트 및 자금 출처에 대해 생성할 수 있는 프로젝트 계약의 예와 계약 및 송장 프로젝트 고객을 관리하는 방법을 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080183"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001034"
 ---
 # <a name="project-contracts"></a>프로젝트 계약
 
@@ -100,7 +98,7 @@ Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 �
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>6</li>
+<li>1</li>
 <li>2</li>
 <li>3</li>
 </ul></td>
@@ -118,8 +116,8 @@ Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 �
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>6</li>
-<li>6</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -138,8 +136,8 @@ Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 �
 <li>50%</li>
 </ul></td>
 <td><ul>
-<li>6</li>
-<li>6</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -155,7 +153,7 @@ Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 �
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>6</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -344,3 +342,6 @@ Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 �
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

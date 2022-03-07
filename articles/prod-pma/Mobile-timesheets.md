@@ -2,11 +2,9 @@
 title: 모바일 장치의 프로젝트 작업 표
 description: 내 작업 표(모바일에 최적화됨)를 사용하면 직원이 프로젝트 작업 표를 만들고 제출하여 모바일 장치에서 특정 프로젝트에 대한 시간을 기록할 수 있습니다.
 author: abruer
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b602bf60a451bcb3c489e371f698611678477245581f58f76145a4b846c7b8a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271136"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989604"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>모바일 장치의 프로젝트 작업 표
 

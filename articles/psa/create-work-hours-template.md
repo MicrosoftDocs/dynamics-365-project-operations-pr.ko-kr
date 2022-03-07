@@ -2,8 +2,6 @@
 title: 작업 시간 템플릿 만들기
 description: 이 항목에서는 Project Service에서 작업 시간 템플릿을 만드는 방법에 대해 설명합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981263"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987399"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>작업 시간 서식 파일 만들기(Project Service)
 
@@ -51,7 +49,7 @@ ms.locfileid: "5981263"
 
 1. **리소스** \> **리소스** 로 이동합니다.
 2. 일정 템플릿에서 참조할 새 리소스를 만들거나 기존 리소스를 선택합니다.
-3. 리소스의 **작업 시간** 탭을 선택하고 [리소스에 대한 작업 시간 설정](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)의 지침을 완료하여 일정 규칙을 구성합니다.
+3. 리소스의 **작업 시간** 탭을 선택하고 [리소스에 대한 작업 시간 설정](/dynamics365/field-service/set-work-hours-resource.md)의 지침을 완료하여 일정 규칙을 구성합니다.
 
 **새 일정 템플릿 만들기**
 
