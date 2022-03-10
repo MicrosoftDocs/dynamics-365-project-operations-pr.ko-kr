@@ -2,11 +2,9 @@
 title: 경비 관리 매개 변수
 description: 다음 매개 변수는 경비 관리의 동작을 제어합니다.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,18 +14,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2ef48f844656ff5197ae1731fb3f9bdf91a1a906b16f35bb2124469743a9e954
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080096"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991359"
 ---
 # <a name="expense-management-parameters"></a>경비 관리 매개 변수
 
-[!include [banner](../includes/banner.md)]
-
------------------------------
 
 매개 변수는 경비 관리의 일반 동작을 제어합니다.
 
@@ -92,3 +87,6 @@ ms.locfileid: "4080096"
 | <strong>제출자를 위한 반부패 메시지</strong> |                                                                                             새 경비 보고서를 생성할 때 직원에게 표시될 텍스트를 입력합니다. 사용자 언어에 따라 표시될 언어별 텍스트를 입력하려면 <strong>번역</strong> 단추를 클릭합니다.                                                                                             |
 | <strong>승인자를 위한 반부패 메시지</strong>  |                                                                                             새 경비 보고서를 생성할 때 승인자에게 표시될 텍스트를 입력합니다. 사용자 언어에 따라 표시될 언어별 텍스트를 입력하려면 <strong>번역</strong> 단추를 클릭합니다.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 진행 상황에 따라 청구를 위한 고급 계약 만들기
 description: 이 항목은 완료된 작업의 백분율을 기준으로 고객에 대한 송장을 생성할 수 있도록 프로젝트 계약을 작성하는 방법을 설명합니다.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289512"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000989"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>진행 상황에 따라 청구를 위한 고급 계약 만들기
 [!include [banner](../includes/banner.md)]

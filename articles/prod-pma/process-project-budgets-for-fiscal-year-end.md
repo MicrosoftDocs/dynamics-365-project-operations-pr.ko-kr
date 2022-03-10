@@ -2,11 +2,9 @@
 title: 회계 연도 끝에서 프로젝트 예산 이전
 description: 이 문서에서는 남은 예산 금액을 미래 연도로 이전하고 예산 등록 세부 정보를 만드는 방법에 대한 정보를 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007379"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>회계 연도 끝에서 프로젝트 예산 이전
 
@@ -98,3 +96,6 @@ ms.locfileid: "4080185"
 5. 처리할 각 프로젝트에 대해 프로젝트 줄의 시작 부분에 있는 옵션을 선택합니다. 
 6. **프로세스** 를 선택하여 선택한 프로젝트의 나머지 예산 금액을 선택한 회계 연도로 이전합니다.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

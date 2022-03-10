@@ -2,16 +2,16 @@
 title: 재무 차원 기본값
 description: 이 항목은 재무 차원 기본값을 설정하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013314"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922946"
 ---
 # <a name="financial-dimension-defaults"></a>재무 차원 기본값
 
@@ -60,6 +60,15 @@ Dynamics 365 Project Operations는 Dynamics 365 Finance의 [재무 차원](/dyna
 4. 재무 차원 기본값을 설정합니다. 재무 차원의 기본값은 고객 계정에서 설정됩니다. 프로젝트가 여러 프로젝트 계약 고객이 있는 계약 내용과 연결된 경우 기본 고객이 재무 차원의 기본값에 사용됩니다.
 
 프로젝트 기본 재무 차원은 **Project Operations 통합 분개장** 및 관련 프로젝트 송장 라인에서 시간, 경비 및 요금 트랜잭션에 대한 분개장 항목 기본값을 설정하는 데 사용됩니다.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>프로젝트 시간 항목에 재무 차원 적용
+프로젝트 시간 항목에 재무 차원을 적용하려면 기본 차원 값이 다음 순서를 기반으로 합니다.
+
+1. 리소스
+2. Project
+3. 자금 출처
+
+예를 들어 기본 차원이 리소스에 지정된 경우 프로젝트에 지정된 기본값 위에 적용됩니다. 마찬가지로 기본 프로젝트 차원은 자금 조달 소스에 지정된 기본값 위에 적용됩니다.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

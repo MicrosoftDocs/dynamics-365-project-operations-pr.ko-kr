@@ -2,8 +2,6 @@
 title: 프로젝트 템플릿
 description: 이 항목은 빠른 프로젝트 설정을 위해 프로젝트 템플릿을 사용하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9d208ebcef127062428afdadde2c54eb07ea505
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283601"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002519"
 ---
 # <a name="project-templates"></a>프로젝트 템플릿 
 
@@ -49,7 +47,7 @@ ms.locfileid: "5283601"
 
 - 견적에서 프로젝트를 만들 때, **빠른 생성: 프로젝트** 대화 상자에서 프로젝트 템플릿을 선택할 수 있습니다.
 
-> ![빠른 생성: 프로젝트 대화 상자](media/project-11.png)
+> ![빠른 생성: 프로젝트 대화 상자.](media/project-11.png)
 
 - **새 프로젝트** 를 선택하여 프로젝트를 만들 때, **프로젝트** 페이지가 나타나면 레코드를 저장합니다. **템플릿 선택** 필드에서 조직에서 사전 정의된 프로젝트 템플릿 중 하나를 선택합니다.
 - **템플릿 엔터티** 페이지에서 **템플릿에서 프로젝트 만들기** 를 사용합니다.

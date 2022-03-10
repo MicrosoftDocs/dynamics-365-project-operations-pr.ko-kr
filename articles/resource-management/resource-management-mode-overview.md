@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367899"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008234"
 ---
 # <a name="resource-management-modes-overview"></a>리소스 관리 모드 개요
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations는 전체 예약 흐름을 실행하기 위해 �
 ## <a name="central-mode"></a>중앙 모드
 프로젝트에 대한 리소스 할당을 중앙 집중화하는 조직의 경우 중앙 모드는 프로젝트 관리자가 프로젝트 수준에서 리소스 요구 사항을 정의할 수 있도록 하는 방법을 제공합니다. 리소스 요구 사항의 이행은 리소스 관리자에게 위임됩니다. 프로젝트 관리자는 리소스 관리자가 제안한 리소스를 수락하거나 거부할 수 있습니다.
 
-![중앙 모드](./media/resource-management-central.png)
+![중앙 모드.](./media/resource-management-central.png)
 
 중앙 모드로 리소스를 관리하려면 다음을 참조하십시오.
 
@@ -37,7 +37,7 @@ Dynamics 365 Project Operations는 전체 예약 흐름을 실행하기 위해 �
 ## <a name="hybrid-mode"></a>하이브리드 모델
 리소스 할당에 유연성이 필요한 조직의 경우 하이브리드 모드를 사용하면 프로젝트 관리자와 리소스 관리자 모두 리소스를 예약할 수 있습니다.
 
-![하이브리드 모드](./media/resource-management-hybrid.png)
+![하이브리드 모드.](./media/resource-management-hybrid.png)
 
 지원되는 중앙 모드 프로세스 외에도 다음 항목을 참조하여 하이브리드 모드에서 지원되는 다른 모든 예약 흐름을 관리합니다.
 

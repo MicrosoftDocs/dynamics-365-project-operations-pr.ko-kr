@@ -2,11 +2,9 @@
 title: 위임 관리
 description: 이 항목은 경비 대리인이 다른 직원에 대한 경비 보고서를 만들고 관리할 수 있는 방법에 대한 정보를 제공합니다.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122711"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997794"
 ---
 # <a name="manage-delegation"></a>위임 관리
 경비 대리인은 다른 직원에 대한 경비 보고서를 만들고 관리할 수 있습니다.
@@ -39,3 +37,6 @@ ms.locfileid: "4122711"
 대리인은 자신에게 위임된 기존 경비 보고서를 빠르게 필터링하고 검색할 수 있습니다. 대리인은 또한 **새로운 경비 보고서** 를 선택하여 다른 사용자에 대한 새 경비 보고서를 빠르게 만들 수 있습니다.
 
 대리인은 **경비 관리** > **내 경비** > **경비 보고서** 로 이동하고 **다른 사용자의 경비 열기** 를 선택하여 다른 직원의 경비 보고서를 만들고 관리할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

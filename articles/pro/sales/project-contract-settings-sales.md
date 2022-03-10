@@ -2,26 +2,24 @@
 title: 프로젝트 계약 설정 - 라이트
 description: 이 항목은 계약 내용에 영향을 미치는 필드에 대한 정보와 모든 라인 항목에 요약되는 계약에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995949"
 ---
-# <a name="project-contract-settings---lite"></a>프로젝트 계약 설정 - 라이트
+# <a name="header-details-for-project-contracts"></a>프로젝트 계약에 대한 헤더 세부 사항
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 이 항목은 모든 계약 내용에 영향을 미치는 설정을 포함하여 전체 프로젝트 계약에 적용되는 필드에 대한 정보를 제공합니다. 프로젝트 계약의 KPI를 구동하기 위해 모든 라인 항목에서 요약된 계약에 대한 정보도 포함됩니다.
 
-다음 표에는 Dynamics 365 Project Operations에 고유하거나 Dynamics 365 Sales 판매 주문의 동작에 몇 가지 중요한 변경 사항이 있는 프로젝트 계약의 요약 정보 필드가 나열되어 있습니다.
+다음 표에는 Dynamics 365 Project Operations에 고유한 프로젝트 계약의 필드가 나열되어 있습니다. 또는 Dynamics 365 Sales에서 판매 주문의 동작에 몇 가지 중요한 변경 사항이 있습니다.
 
 | 필드 | 위치 | 설명 | 다운스트림 영향 |
 | --- | --- | --- | --- |
@@ -57,3 +55,6 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 | 발생한 비용 | 제품 기반 라인 | 제품 기반 계약 내용에 대해 기록된 모든 실제 비용의 합계입니다. |
 | 매상 총이익 | 프로젝트 기반 라인 | 청구 금액 - 날짜까지 발생한 비용/청구 금액 |
 | 예상 이익 | 제품 기반 라인 | (계약 내용 값 - 계약 내용에 대한 예상 비용) / 계약 내용 값 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

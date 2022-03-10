@@ -2,11 +2,9 @@
 title: 공급업체 결제 유지 조건 만들기 및 적용
 description: 이 항목은 공급업체 결제에 대한 보존 기간을 설정하고 유지하는 방법에 대한 정보를 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4ff725512aa0bcc87ff4670d6bb072f3bf780786c1f71b332914887f4d4ccf13
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270956"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991224"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>공급업체 결제 유지 조건 만들기 및 적용
 

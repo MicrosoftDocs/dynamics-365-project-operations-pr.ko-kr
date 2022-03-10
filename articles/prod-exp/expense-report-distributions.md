@@ -2,11 +2,9 @@
 title: 경비 보고서 배포
 description: 경비 보고서에 경비를 입력하면 조직의 여러 프로젝트, 법인 또는 계정에 경비를 분배할 수 있습니다.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a43de30d916d2775f28f59f404c34b60a43fff9c
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: a00ea4337e59e5412bd885db9e80c82a34e4eb638a7482c98a4946c44c4d734e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960750"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001349"
 ---
 # <a name="expense-report-distributions"></a>경비 보고서 배포
 
@@ -37,3 +35,6 @@ Nancy는 프랑크푸르트에 있는 동안 두 개의 개별 프로젝트에�
 |호텔         |EUR 725              |EUR 557                        |EUR 168                          |
 |식사         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

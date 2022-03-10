@@ -2,8 +2,6 @@
 title: 프로젝트 및 프로젝트 계약에 대한 청구서 백로그 검토
 description: 이 항목은 시간, 비용 및 제품 백로그를 검토하는 방법과 청구서를 사용할 준비가 된 것으로 표시하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080261"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006974"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>프로젝트 및 프로젝트 계약에 대한 청구서 백로그 검토
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "4080261"
 
 시간 및 자재에 대한 청구 백로그를 검토하려면 **판매** \> **청구** \> **시간 및 자재 청구 백로그** 로 이동하십시오. 청구서 발행 준비된 미청구 판매 실제값을 모두 선택한 다음, **청구서 발행 준비** 를 선택합니다. 이러한 실제값의 청구 상태가 **청구서 발행 준비** 로 변경됩니다.
 
-![시간 및 자재 대금 청구 백로그](media/TMBacklog.png)
+![시간 및 재료 대금 청구 백로그.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>제품 대금 청구 백로그 검토
 
@@ -48,7 +48,7 @@ PSA에서는 프로젝트 계약에 제품 기반 계약 행이 있는 경우 �
 
 제품에 대한 청구 백로그를 검토하려면 **판매** \> **청구** \> **제품 대금 청구 백로그** 로 이동하십시오. 청구서 발행 준비된 제품 기반 계약 행을 모두 선택한 다음, **청구서 발행 준비** 를 선택합니다. 이러한 행의 청구 상태가 **청구서 발행 준비** 로 변경됩니다.
 
-![제품 대금 청구 백로그](media/ProductBacklog.png)
+![제품 대금 청구 백로그.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>고정 가격 계약의 청구 이정표 검토
 
@@ -56,4 +56,7 @@ PSA에서는 프로젝트 계약에 제품 기반 계약 행이 있는 경우 �
 
 청구 이정표를 검토하려면 **판매** \> **청구** \> **고정 가격 이정표** 로 이동하십시오. 청구서 발행 준비된 이정표를 선택한 다음, **청구서 발행 준비** 를 선택합니다. 이러한 이정표의 청구 상태가 **청구서 발행 준비** 로 변경됩니다.
 
-![고정 가격 이정표](media/FPBacklog.png)
+![고정 가격 이정표.](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

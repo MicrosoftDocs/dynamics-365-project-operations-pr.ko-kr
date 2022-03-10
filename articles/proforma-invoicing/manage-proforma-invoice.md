@@ -2,18 +2,16 @@
 title: 견적 프로젝트 기반 송장 관리
 description: 이 항목은 견적 프로젝트 기반 송장을 관리하고 사용하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fd357648f8166cbcbe91ca1922739585f9fcfa9
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: cba74c14f6d039dce0650f25ee04cbe35ec8f668b774cdaaa3bbf1aab99cb44d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867229"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989334"
 ---
 # <a name="manage-a-proforma-project-based-invoice"></a>견적 프로젝트 기반 송장 관리
 

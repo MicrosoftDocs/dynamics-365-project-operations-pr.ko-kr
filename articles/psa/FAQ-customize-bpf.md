@@ -1,8 +1,6 @@
 ---
 title: 프로젝트 스테이지 비즈니스 프로세스 흐름을 사용자 지정하려면 어떻게 해야 합니까?
 description: 프로젝트 단계의 비즈니스 프로세스 흐름을 맞춤화하는 방법의 개요.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d0168f187e6b0880713aac04bd87dbc2209197d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149011"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002969"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>프로젝트 스테이지 비즈니스 프로세스 흐름을 사용자 지정하려면 어떻게 해야 합니까?
 
@@ -62,7 +60,7 @@ ms.locfileid: "5149011"
 1. **Quote**, **Plan** 및 **Close** 에 대한 영어 스테이지 이름을 유지하면서 기본 구성에 추가 스테이지를 추가합니다.
 
 
-![기본 구성에 스테이지를 추가하는 스크린샷](media/FAQ-Customize-BPF-1.png)
+![기본 구성에 스테이지를 추가하는 스크린샷.](media/FAQ-Customize-BPF-1.png)
  
 2. 고유한 비즈니스 프로세스 흐름을 만들고 이를 프로젝트 엔터티의 주요 비즈니스 프로세스 흐름으로 만들어 원하는 모든 스테이지 이름을 사용할 수 있습니다. 그러나 동일한 표준 프로젝트 단계 **Quote**, **Plan** 및 **Close** 를 사용하려는 경우 사용자 지정 스테이지 이름에서 구동되는 일부 사용자 지정을 수행해야 합니다. 더 복잡한 논리는 프로젝트를 종료하는 것이며, 프로젝트 레코드를 비활성화하는 것 만으로도 트리거될 수 있습니다.
 
@@ -82,11 +80,11 @@ ms.locfileid: "5149011"
 
 1. **설정** > **프로세스 센터** 로 이동합니다. Project Service 비즈니스 논리도 복사하기 때문에 프로젝트 스테이지 비즈니스 프로세스 흐름은 복사하지 마십시오.
 
-  ![프로세스 만들기](media/FAQ-Customize-BPF-3.png)
+  ![프로세스 만들기.](media/FAQ-Customize-BPF-3.png)
 
 2. 프로세스 디자이너를 사용하여 원하는 스테이지 이름을 만듭니다. **Quote**, **Plan** 및 **Close** 를 위한 기본 스테이지와 동일한 기능을 원하는 경우 사용자 지정 비즈니스 프로세스 흐름의 스테이지 이름을 기반으로 만들어야 합니다.
 
-   ![BPF를 사용자 지정하는 데 사용되는 프로세스 디자이너의 스크린샷](media/FAQ-Customize-BPF-4.png) 
+   ![BPF를 사용자 지정하는 데 사용되는 프로세스 디자이너의 스크린샷.](media/FAQ-Customize-BPF-4.png) 
 
 3. 프로세스 디자이너에서 **주문 프로세스 흐름** 을 클릭하여 프로젝트 스테이지 비즈니스 프로세스 흐름을 목록의 맨 위로 이동시켜 사용자 지정 비즈니스 프로세스 흐름이 프로젝트 엔터티에 대한 기본 비즈니스 프로세스 흐름이 되도록 합니다.
 
@@ -97,13 +95,16 @@ ms.locfileid: "5149011"
 
 4. 프로젝트 엔터티에 새 사용자 지정 필드를 추가하여 사용자 지정 비즈니스 프로세스 흐름의 사용자 지정 스테이지를 캡처합니다. 사용자 지정 비즈니스 프로세스 흐름의 스테이지가 업데이트될 때 이 필드를 업데이트하려면 비즈니스 논리(플러그 인/워크플로)를 추가해야 합니다.
 
-   ![프로젝트 엔터티 사용자 지정 스크린샷](media/FAQ-Customize-BPF-6-720.png)
+   ![프로젝트 엔터티 사용자 지정 스크린샷.](media/FAQ-Customize-BPF-6-720.png)
 
 5. 스테이지에 대해 새로운 사용자 지정 필드를 사용하도록 **스테이지별 프로젝트** 차트를 수정합니다.
 
-   ![스테이지별 프로젝트 차트 사용의 스크린샷](media/FAQ-Customize-BPF-7-720.png)
+   ![스테이지별 프로젝트 차트 사용의 스크린샷.](media/FAQ-Customize-BPF-7-720.png)
 
 6. 스테이지에 대해 새로운 사용자 지정 필드를 포함하도록 프로젝트 엔터티에 대한 보기를 수정합니다.
 
-   ![프로젝트 엔터티의 보기 수정 스크린샷](media/FAQ-Customize-BPF-8-720.png)
+   ![프로젝트 엔터티의 보기 수정 스크린샷.](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

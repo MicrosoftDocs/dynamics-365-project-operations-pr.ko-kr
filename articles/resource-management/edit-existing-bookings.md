@@ -2,18 +2,16 @@
 title: 예약 편집
 description: 이 토픽은 예약을 업데이트하고 변경하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841366"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008324"
 ---
 # <a name="edit-bookings"></a>예약 편집
 
@@ -33,3 +31,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 ## <a name="schedule-board"></a>일정 게시판
 
 **일정 게시판** 에서 리소스 관리자는 조직 전체의 모든 예약에 대한 포트폴리오 보기를 제공합니다. 이 보기에서 리소스 관리자는 **예약 유지** 에서 제공하는 기능과 유사한 기존 예약을 확장, 단축 또는 이동할 수 있습니다. 리소스 관리자는 예약을 마우스 오른쪽 단추로 클릭하고 **대체 리소스** 를 선택하여 특정 예약에 할당된 기존 리소스를 대체할 수도 있습니다. 리소스 관리자는 예약을 마우스 오른쪽 단추로 클릭하고 **편집** 을 선택하여 기존 예약의 윤곽을 편집할 수도 있습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

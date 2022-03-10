@@ -2,8 +2,6 @@
 title: 조직 구성 단위 만들기
 description: 조직 단위를 만드는 방법(Project Service)
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e4df3775e802681c51d6d6491110419bea2a17d7e7694f0879417800b5a6db37
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080101"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993699"
 ---
 # <a name="create-organizational-units-project-service"></a>조직 단위 만들기(Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -50,3 +50,6 @@ ms.locfileid: "4080101"
   
 ### <a name="see-also"></a>참고 항목  
  [Project Service Automation 구성](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,26 @@
 title: 경비 관리 개요
 description: 이 항목은 경비 관리에 대한 일반 정보와 추가 리소스에 대한 링크를 제공합니다. 경비 관리를 사용하여 결제 방법 정보를 저장하고, 신용 카드 거래를 가져오고, 직원이 비즈니스 비용을 발생시킬 때 지출하는 비용을 추적할 수 있는 통합 워크플로를 만들 수 있습니다.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
-ms.custom: 15001
+ms.custom: intro-internal
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27eede55e01dd1437dfc480741922ed9d617bff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271856"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001439"
 ---
 # <a name="expense-management-overview"></a>경비 관리 개요
 
@@ -37,7 +35,7 @@ ms.locfileid: "5271856"
 
 ### <a name="whats-new-and-in-development"></a>새로운 기능과 개발 중인 기능
 
-계획된 새로운 기능을 확인하려면 [Microsoft Dynamics 365 릴리스 계획](https://go.microsoft.com/fwlink/?linkid=2010158)을 참조하십시오.
+계획된 새로운 기능을 확인하려면 [Microsoft Dynamics 365 릴리스 계획](/dynamics365/release-plans/)을 참조하십시오.
 
 #### <a name="expense-report-entry"></a>경비 보고서 항목
 

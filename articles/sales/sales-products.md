@@ -2,11 +2,9 @@
 title: 제품
 description: 이 항목은 조직에서 제공하는 제품 및 가격에 대한 정보를 고객에게 제공하는 데 사용할 수 있는 제품 카탈로그에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121271"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986859"
 ---
 # <a name="products"></a>제품
 
@@ -124,3 +122,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 - **제품 SKU** 
 
 **사용자 수** 및 **월 수** 속성은 제품 행의 속성을 편집하여 수량 계수로 플래그를 지정할 수 있습니다. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

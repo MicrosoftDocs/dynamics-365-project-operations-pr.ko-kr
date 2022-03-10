@@ -2,11 +2,9 @@
 title: 리소스 용량 동기화
 description: 이 항목은 일정과 프로젝트에서 리소스의 용량을 동기화하는 방법에 대한 정보를 제공합니다.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b63ccb5b0f04dedb8a942e22d6e1993204dc20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288571"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005624"
 ---
 # <a name="synchronize-resource-capacity"></a>리소스 용량 동기화
 
@@ -31,7 +29,7 @@ ms.locfileid: "5288571"
 
 리소스 동기화를 위한 프로세스는 일정 및 기본 일정에 대한 정보가 프로젝트 리소스 스케줄링으로 흘러 들어가는 것을 보장합니다. 일정이 변경되면 프로세스가 프로젝트 리소스 일정에 필요한 업데이트를 수행합니다. 일정의 리소스 정보가 미리 동기화되기 때문에 프로세스는 성능 향상에도 도움이 됩니다. 따라서 리소스 예약 정보에 대한 업데이트가 더 빨리 발생합니다. 프로세스를 한 번에 하나씩이 아닌 일괄 처리로 예약하는 것이 좋습니다. 그렇지 않으면 정보가 마지막으로 동기화된 포함 날짜를 잊어 버릴 위험이 있습니다. 포함 날짜를 사용하지 않으면 날짜 동기화 중에 간격이 발생할 수 있습니다.
 
-![일정 동기화](./media/projectresourcing04-1024x471.jpg)
+![일정 동기화.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>리소스 생산 능력 롤업 동기화
 
@@ -48,7 +46,7 @@ ms.locfileid: "5288571"
     | 시작 날짜  | 리소스 용량 롤업을 위한 동기화 프로세스의 시작 날짜를 입력합니다. |
     | 종료 날짜    | 리소스 용량 롤업을 위한 동기화 프로세스의 종료 날짜를 입력합니다. |
 
-[![동기화 프로세스](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![동기화 프로세스.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,9 @@
 title: 실제 개요
 description: 이 항목은 프로젝트 실제값에 대한 정보를 제공합니다.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146131"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992484"
 ---
 # <a name="actuals-overview"></a>실제 개요
 
@@ -33,7 +32,7 @@ ms.locfileid: "5146131"
 
 실제값은 프로젝트에서 완료된 작업의 양입니다. 프로젝트 실제값은 소스 문서까지 추적할 수 있습니다. 그러한 소스 문서에는 시간, 비용 및 분개장 항목과 송장도 포함되어 있습니다.
 
-![프로젝트 실제값가 소스 문서까지 추적되는 방법](media/basic-guide-18.png)
+![프로젝트 실제값가 소스 문서까지 추적되는 방법.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>시간 항목 제출
 
@@ -330,3 +329,6 @@ PSA는 프로젝트 중에 발생하는 재무 처리를 기록합니다. 이러
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

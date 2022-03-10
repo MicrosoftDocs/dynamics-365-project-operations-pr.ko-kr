@@ -2,18 +2,16 @@
 title: 프로젝트 견적 관리
 description: 이 항목은 프로젝트 견적에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177834"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001529"
 ---
 # <a name="manage-project-quotes"></a>프로젝트 견적 관리
 
@@ -33,3 +31,6 @@ Dynamics 365 Project Operations에서 프로젝트 견적은 프로젝트 작업
 2. **보기 전환기** 를 사용하여 견적의 다른 필터링된 보기를 선택합니다. 사용자 지정 필터 기준을 사용하여 고유한 보기 및 탐색 옵션을 구성할 수 있습니다.
 
 이 목록 페이지 또는 세부 사항 페이지에서 견적을 작성하거나 삭제할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

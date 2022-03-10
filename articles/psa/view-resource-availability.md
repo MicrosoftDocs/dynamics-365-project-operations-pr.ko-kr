@@ -2,8 +2,6 @@
 title: 리소스 사용 가능 시간 보기
 description: 리소스 가용성을 보는 방법(Project Service)
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c61523bbda814d14e4cb4999a710f652eb77cc77848d9b0246bd6ebde258dd7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080126"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000044"
 ---
 # <a name="view-resource-availability-project-service"></a>리소스 사용 가능 여부 보기(Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,3 +46,6 @@ ms.locfileid: "4080126"
 
 ### <a name="see-also"></a>참고 항목  
  [리소스 관리자 가이드](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

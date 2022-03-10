@@ -2,18 +2,16 @@
 title: 고정 가격 수익 프로젝트 추정
 description: 이 토픽은 프로젝트에서 고정 가격 수익에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7cf4d7853f7fedaeeeba99bc589f39989b924423
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006434"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>고정 가격 수익 프로젝트 추정 
 

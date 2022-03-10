@@ -2,18 +2,16 @@
 title: 보안 모델
 description: 이 토픽은 Dynamics 365 Project Operations의 보안 모델에 대한 정보를 제공합니다.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951217"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991494"
 ---
 # <a name="security-model"></a>보안 모델
 
@@ -60,7 +58,7 @@ Project Operations는 암시적 작업을 통해 그룹을 생성하지 않으�
 
 **그룹 관리** 대화 상자의 그룹 구성원 검색은 환경 보안 그룹의 일부로 설정된 사용자로 제한됩니다. 자세한 내용은 [환경에 대한 사용자 액세스 제어: 보안 그룹 및 라이선스](/power-platform/admin/control-user-access)를 참조하십시오.
 
-![그룹 모드](./media/groupsmode.png)
+![그룹 모드.](./media/groupsmode.png)
 
 1. 프로젝트는 생성된 사용자가 생성하고 소유합니다.
 2. 프로젝트 담당자가 팀으로 업데이트됩니다.

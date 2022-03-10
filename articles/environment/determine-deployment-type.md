@@ -2,18 +2,16 @@
 title: 배포 유형 결정
 description: 이 항목에서는 회사에 적합한 Project Operations 배포 유형을 결정하는 데 도움이 되는 정보를 제공합니다.
 author: stsporen
-manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994644"
 ---
 # <a name="determine-your-deployment-type"></a>배포 유형 결정
 
@@ -44,7 +42,7 @@ Project Operations는 요구 사항에 맞는 여러 배포 옵션을 지원합�
 - [리소스/비 재고 시나리오에 대한 Project Operations](#integrated)
 - [리소스/생산 주문 시나리오에 대한 Project Operations](#pma)
 
-Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재고/생산 주문 시나리오와 비재고/리소스 기반 시나리오를 지원합니다. 예를 들어 Contoso는 미국 제조 시설(법인 = Contoso Manufacturing United States)에서 재고/생산 주문 기능을 사용할 수 있습니다. Contoso는 영국의 Contoso Robotics Arms 서비스 시설(법인 = Contoso Robotics United Kingdom)에서 비 재고/리소스 기반 기능을 사용할 수 있습니다.
+Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재고/생산 주문 시나리오와 비재고/리소스 기반 시나리오를 지원합니다. 예를 들어 Contoso는 미국 제조 시설에서 재고/생산 주문 기능을 사용할 수 있습니다 (법인 = Contoso Manufacturing United States). Contoso는 영국의 Contoso Robotics Arms 서비스 시설에서 비 재고/리소스 기반 기능을 사용할 수 있습니다(법인 = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>라이트 배포 - 견적 송장 거래
 
@@ -56,7 +54,7 @@ Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재�
 - 통합 리소스 관리
 - 시간 추적
 - 기본 경비
-- 견적 및 고객 대면 송장 발행 
+- 프로젝트 관리자의 검토 및 편집을 위한 견적 송장 
 
 #### <a name="deployment-steps"></a>배포 단계
 [배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.
@@ -94,12 +92,12 @@ Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재�
 - 전체 송장 발행
 - 수익 인식
 - 생산 주문
-- 재료 지원
+- 재고가 있는 재고 자재 지원
 
 #### <a name="deployment-steps"></a>배포 단계
 [배포 설문지](https://aka.ms/provisionprojectoperations)를 사용하여 Project Operations의 최상의 배포 모델을 결정합니다.
 
-이 배포의 경우 [미리 보기 구독 신청](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) 및 [새로운 환경 제공](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json)을 참조하십시오. 
+이 배포의 경우 [미리 보기 구독 신청](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) 및 [새로운 환경 제공](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json)을 참조하십시오. 
 
 
 

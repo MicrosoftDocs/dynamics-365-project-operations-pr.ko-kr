@@ -2,11 +2,9 @@
 title: 경비 보고서 및 여러 승인자
 description: 이 항목은 여러 사람의 승인이 필요한 경비 보고서에 대한 정보를 제공합니다.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfa8677f38e9468aa3236f587d2e9bd5af839054
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2acae2d518a02539f01d5498450236999fe609d1e8f26b5f90e18b986b83cab1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988434"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>경비 보고서 및 여러 승인자
 
@@ -41,3 +39,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
     1. 직원의 관리자가 경비 보고서를 승인합니다.
     2. 예산 소유자가 경비 보고서를 승인합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

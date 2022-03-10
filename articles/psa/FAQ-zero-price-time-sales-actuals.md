@@ -2,8 +2,6 @@
 title: 시간 판매 실제 값에 대한 가격이 기본적으로 0이 되는 이유는 무엇입니까?
 description: 가격이 시간 판매 실제 값에서 기본값이 0인 이유 해결
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5106e8c1a059bbb0efbeb73dc63e03e8bc9e4b7b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125951"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992574"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>시간 판매 실제 값에 대한 가격이 기본적으로 0이 되는 이유는 무엇입니까?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -55,3 +55,6 @@ Project Service에서 기본 가격에 대한 가격표를 고려하려면 해�
 
 위의 세 가지 확인을 수행한 후에도 시간 판매 실제 값에 유효한 가격이 표시되지 않으면 지원 티켓을 기록해 주십시오. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

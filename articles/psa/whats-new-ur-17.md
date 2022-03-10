@@ -2,8 +2,6 @@
 title: Project Service Automation 업데이트 릴리스 17, V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 17, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2b27582a401e41da0a9e60c8f2f32dcdd1944c2
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ba2bc9da1c6e7e2e2628980878f9201b1c732cc03f791f5259bbbd0ee279b31b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949237"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006614"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation 업데이트 릴리스 17, V3
 

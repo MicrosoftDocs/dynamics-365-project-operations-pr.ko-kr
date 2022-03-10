@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369699"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007514"
 ---
 # <a name="project-management-and-accounting-overview"></a>프로젝트 관리 및 회계 개요
 
@@ -34,14 +34,14 @@ ms.locfileid: "6369699"
 ## <a name="projects-across-industries"></a>산업 전반에 걸친 프로젝트
 프로젝트 관리 및 회계 기능은 다음 그림과 같이 여러 산업에서 사용할 수 있습니다.
 
-[![산업 전반에 걸친 프로젝트](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![산업 전반에 걸친 프로젝트.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 콜 센터에서 티켓을 사용하여 통화를 해결하는 데 필요한 일련의 작업을 설명할 수 있습니다. 관리 또는 기술 컨설팅 조직 또는 광고 대행사와 같은 컨설팅 회사는 자신의 활동을 프로젝트라고 합니다. 마케팅에서 캠페인은 전달되어야 하는 일련의 작업을 나타냅니다. 프로젝트 기반 제조에서 생산 주문은 일부 완제품을 생산하기 위해 수행해야 하는 다양한 작업과 관련됩니다. 어떤 이름을 사용하든 이러한 프로젝트에는 리소스, 일정 및 비용이 포함되며 프로젝트 관리 및 회계 기능은 이러한 프로젝트의 계획, 실행 및 분석에 도움이 될 수 있습니다.
 
 ## <a name="project-phases"></a>프로젝트 단계
 다음 프로세스 흐름은 외부 프로젝트 또는 한 명 이상의 고객을 위해 완료된 프로젝트를 대상으로 하지만 이 기능은 내부 비용 전용 프로젝트에도 적용됩니다. 
 
-![프로젝트의 3 스테이지](./media/3-stages-of-a-project.png) 
+![프로젝트의 3 스테이지.](./media/3-stages-of-a-project.png) 
 
 앞의 그림에서 볼 수 있듯이 프로젝트 관리 및 회계는 세 단계로 나눌 수 있습니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "6369699"
 3.  분석
 
 ## <a name="initiate-the-project"></a>프로젝트 시작
-프로젝트를 시작하는 동안 몇 가지 주요 프로세스가 발생합니다. 프로젝트 견적을 사용하여 예상 인건비, 비용 및 자재를 고객에게 전달할 수 있습니다. 프로젝트 계약에 청구 조건, 제한 및 계약을 기록할 수 있습니다. 작업 분할 구조(WBS)를 사용하여 작업을 계획하고 추정할 수 있습니다. 프로젝트 실행을 안내하는 예측 및 예산을 설정할 수 있습니다. 다음 그림은 프로젝트의 구조를 보여줍니다.[![프로젝트 구조](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+프로젝트를 시작하는 동안 몇 가지 주요 프로세스가 발생합니다. 프로젝트 견적을 사용하여 예상 인건비, 비용 및 자재를 고객에게 전달할 수 있습니다. 프로젝트 계약에 청구 조건, 제한 및 계약을 기록할 수 있습니다. 작업 분할 구조(WBS)를 사용하여 작업을 계획하고 추정할 수 있습니다. 프로젝트 실행을 안내하는 예측 및 예산을 설정할 수 있습니다. 다음 그림은 프로젝트의 구조를 보여줍니다.[![프로젝트 구조.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>프로젝트 견적 만들기
 

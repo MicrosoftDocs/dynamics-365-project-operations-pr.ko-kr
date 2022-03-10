@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999814"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001079"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화 
 
@@ -42,7 +42,7 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 다음 그림은 Project Service Automation과 Finance 간에 데이터가 동기화되는 방식을 보여줍니다.
 
-[![Project Service Automation과 Finance 통합을 위한 데이터 흐름](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Project Service Automation과 Finance 통합을 위한 데이터 흐름.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>템플릿 및 작업
 
@@ -114,7 +114,7 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 
     | 값 | 설명   |
     |-------|---------------|
-    | 6     | 30일        |
+    | 1     | 30일        |
     | 2     | 2% 10일, 30일 |
     | 3     | 45일        |
     | 4     | 60일        |
@@ -140,17 +140,17 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 
 다음 그림은 데이터 통합에서 템플릿 작업 매핑의 예를 보여줍니다. 매핑은 Project Service Automation에서 Finance로 동기화될 필드 정보를 보여줍니다.
 
-[![프로젝트 계약 템플릿 매핑](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![프로젝트 계약 템플릿 매핑.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![프로젝트 템플릿 매핑](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![프로젝트 템플릿 매핑.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![프로젝트 계약 내용 템플릿 매핑](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![프로젝트 계약 내용 템플릿 매핑.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![프로젝트 계약 내용 중요 시점 템플릿 매핑](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![프로젝트 계약 내용 중요 시점 템플릿 매핑.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>프로젝트 및 계약(PSA 3.x에서 Dynamics로) - v2 템플릿의 프로젝트 계약 내용 중요 시점 매핑:
 
-[![두 템플릿 버전이 있는 프로젝트 계약 내용 중요 시점 매핑](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![두 템플릿 버전이 있는 프로젝트 계약 내용 중요 시점 매핑.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

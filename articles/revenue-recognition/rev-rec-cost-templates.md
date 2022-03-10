@@ -2,18 +2,16 @@
 title: 비용 템플릿 설정
 description: 이 토픽은 Project Operations에서 비용 템플릿을 만들고 사용하는 방법에 대한 정보를 제공합니다.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642731"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993564"
 ---
 # <a name="set-up-cost-templates"></a>비용 템플릿 설정
 
@@ -79,3 +77,6 @@ USD 10,000의 고정 요금을 청구하는 고객을 위해 웹 사이트 디�
 7. **범주** 탭에서 비용 템플릿 라인에 포함할 프로젝트 범주를 선택합니다.
 8. **일반** 탭에서 이 라인이 완료율 계산에 포함될지 여부를 선택합니다.
 9. 완료율을 계산할 때 사용할 완료 비용 방법을 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

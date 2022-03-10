@@ -2,18 +2,17 @@
 title: 리소스 사용률 개요
 description: 이 항목은 Project Operations에서 리소스 활용도에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401384"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002069"
 ---
 # <a name="resource-utilization-overview"></a>리소스 사용률 개요
 
@@ -45,3 +44,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 **Project Service** 탭에서 리소스에 대한 개별 목표 활용도를 설정할 수도 있습니다. 그런 다음 활용도 계산은 해당 목표 활용도를 사용하여 리소스의 기본 역할 목표 대신 리소스의 목표를 평가합니다.
 
 해당 리소스가 그리드에 표시되는 기간 동안 승인된 청구 가능 시간인 경우에만 리소스에 대한 활용도가 표시됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

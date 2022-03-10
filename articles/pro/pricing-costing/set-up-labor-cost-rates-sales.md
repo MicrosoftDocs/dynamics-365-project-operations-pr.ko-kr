@@ -2,18 +2,16 @@
 title: 인력 비용 요금 설정 - 라이트
 description: 이 항목은 Project Operations에서 인력 비용 요금을 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274376"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006119"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>인력 비용 요금 설정 - 라이트
 

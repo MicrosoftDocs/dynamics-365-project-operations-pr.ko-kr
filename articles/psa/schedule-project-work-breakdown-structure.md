@@ -2,8 +2,6 @@
 title: 작업 분할 구조로 프로젝트 일정 짜기
 description: 작업 분할 구조로 프로젝트 일정을 짜는 방법(Project Service)
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080234"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996804"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>작업 분할 구조로 프로젝트 일정 짜기(Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -150,3 +150,6 @@ ms.locfileid: "4080234"
   
 ### <a name="see-also"></a>참고 항목  
  [프로젝트 관리자 가이드](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

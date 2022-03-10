@@ -2,8 +2,6 @@
 title: 리소스 가예약하기
 description: 이 항목은 프로젝트 팀원을 임시 스케줄링하는 즉 가예약하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +10,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 1d2044692d1c6d694a1365be76dd8e7ddafd376d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cf67769fef39f95785320ae38055f0a3359b3a82d996b740bdb5d51e864f3d56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285986"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005354"
 ---
 # <a name="soft-book-a-resource"></a>리소스 가예약하기
 

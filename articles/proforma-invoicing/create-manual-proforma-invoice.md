@@ -2,19 +2,17 @@
 title: 견적 송장
 description: 이 항목은 Project Operations의 견적 송장에 대한 정보를 제공합니다.
 author: rumant
-manager: AnnBe
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866869"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995634"
 ---
 # <a name="proforma-invoices"></a>견적 송장
 

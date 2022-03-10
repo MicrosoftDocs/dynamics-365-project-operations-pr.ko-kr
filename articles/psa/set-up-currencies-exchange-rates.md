@@ -2,8 +2,6 @@
 title: 통화 및 환율 설정
 description: 통화 및 환율을 설정하는 방법(Project Service)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35a499c3887f9fe7515e839afa35f2a851e81cce
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fc3f7c5d2ba3ea33a99dcbec029deabcf932ef05f632938fb6d804e7f5405d3d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282566"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995004"
 ---
 # <a name="set-up-currencies-and-exchange-rates-project-service"></a>통화 및 환율 설정(Project Service) 
 

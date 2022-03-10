@@ -2,19 +2,17 @@
 title: Finance 환경에서 Project Operations 업데이트
 description: 이 항목은 Dynamics 365 Finance 환경에서 Project Operations를 업데이트하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d68296ec59f0bd58f848154c90e02c58f275ab12
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291987"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986769"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance 환경에서 Project Operations 업데이트
 
@@ -35,7 +33,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 4. 환경이 실행되고 있는지 확인합니다. 시작되지 않은 경우 환경을 시작합니다.
 5. **새 릴리스** 섹션의 **사용 가능한 업데이트** 아래에서 10.0.15에 대한 **업데이트보기** 를 선택합니다.
 
-![업데이트 보기 단추](media/view-update.png)
+![업데이트 보기 단추.](media/view-update.png)
 
 6. **바이너리 업데이트** 페이지에서 **패키지 저장** 을 선택합니다.
 7. **업데이트 검토 및 저장** 페이지에서 **패키지 저장** 을 선택합니다.
@@ -49,11 +47,11 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 2. 목록에서 이전에 저장한 패키지를 선택한 다음 **적용** 을 선택합니다.
 3. **예** 를 선택하여 패키지를 배포할지 확인합니다.
 
-![패키지 배포 확인 대화 상자](media/confirm-package-deployment.png)
+![패키지 배포 확인 대화 상자.](media/confirm-package-deployment.png)
 
 4. **예** 를 선택하여 응용 프로그램을 업데이트할지 확인합니다.
 
-![응용 프로그램 업데이트 확인 대화 상자](media/confirm-application-update.png)
+![응용 프로그램 업데이트 확인 대화 상자.](media/confirm-application-update.png)
 
 배포 및 응용 프로그램 업데이트가 시작됩니다. 
 
@@ -86,7 +84,7 @@ UR5 업데이트의 일부로 엔티티의 보안 권한에 대한 다음 업데
 
 1. Dataverse 환경에서 **설정** 으로 이동하고 **시스템** 그룹에서 **보안** 을 선택합니다.
 
-![Dataverse 환경 설정](media/Picture21.png)
+![Dataverse 환경 설정.](media/Picture21.png)
 
 2. **보안 역할** 을 선택합니다.
 3. 역할 목록에서 **이중 쓰기 앱 사용자** 를 선택하고 **사용자 지정 엔터티** 탭을 선택합니다. 
@@ -123,7 +121,7 @@ UR5 업데이트의 일부로 엔티티의 보안 권한에 대한 다음 업데
 6. 맵 목록에서 모든 필수 구성 요소가 있는 **원장(msdyn_ledgers)** 을 선택하고 **초기 동기화** 확인란을 선택합니다. 
 7. **초기 동기화를 위한 마스터** 필드에서 **Finance and Operations 앱** 을 선택한 다음 **실행** 을 선택합니다.
  
- ![원장 맵 동기화](media/DW6.png)
+ ![원장 맵 동기화.](media/DW6.png)
  
 
 

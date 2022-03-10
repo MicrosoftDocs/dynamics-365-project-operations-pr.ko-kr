@@ -2,12 +2,10 @@
 title: 가격 책정 차원의 사용자 지정 필드 설정
 description: 이 항목은 맞춤 가격 책정 차원 설정에 대한 정보를 제공합니다.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +15,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4080267"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002339"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>가격 책정 차원의 사용자 지정 필드 설정 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 시작하기 전에 이 항목은 귀하가 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md) 및 [가격 설정 및 트랜잭션 엔터티에 맞춤 필드 추가](field-references.md) 항목의 절차를 완료했다고 간주합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 항목으로 돌아오십시오. 
 
@@ -41,11 +41,11 @@ ms.locfileid: "4080267"
 - **역할 가격** 및 **역할 가격 인상** 엔터티의 필드로 만들어져야 합니다. 이렇게 하는 방법에 대한 상세 설명은 [가격 설정 및 트랜잭션 엔터티에 맞춤 필드 추가](field-references.md)를 참조하십시오.
 - **가격 책정 차원** 표의 행으로 만들어져야 합니다. 예컨대 다음 그래픽과 같이 가격 책정 차원 행을 추가합니다. 
 
-![금액 기반 가격 책정 차원 행](media/Amt-based-PD.png)
+![금액 기반 가격 책정 차원 행.](media/Amt-based-PD.png)
 
 리소스 작업 시간(**msdyn_resourceworkhours**)이 가격 인상 기반 차원으로 추가되었으며 **인상 기반 가격 책정 차원** 탭의 그리드에 추가되었습니다.
 
-![인상 기반 가격 책정 차원 행](media/Markup-based-PD.png)
+![인상 기반 가격 책정 차원 행.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > 이 표에서 기존이든 신규이든 가격 책정 차원 데이터의 변경은 캐시를 새로 고친 후에만 Project Service 가격 책정 비즈니스 논리에 전파됩니다. 캐시 새로 고침 시간은 최대 10분이 걸릴 수 있습니다. 이 기간을 허용하여 가격 책정 차원 데이터의 변경으로 인해 발생해야 하는 가격 기본 논리의 변경을 확인할 수 있습니다.
@@ -92,3 +92,6 @@ Contoso India에서 기본 요율이 100 USD인 어떤 리소스가 현장에서
 
 - **비용 우선순위**: 차원의 비용 우선순위 값은 비용 가격 설정과 일치할 때 해당 차원의 가중치를 나타냅니다. **비용 우선순위** 의 값은 **비용에 적용되는** 차원에 걸쳐 고유해야 합니다.
 - **판매 우선순위**: 차원의 판매 우선순위 값은 판매 가격 또는 청구 요율 설정과 일치할 때 해당 차원의 가중치를 나타냅니다. **판매 우선순위** 의 값은 **판매에 적용되는** 차원에 걸쳐 고유해야 합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

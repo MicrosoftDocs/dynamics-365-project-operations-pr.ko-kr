@@ -2,18 +2,17 @@
 title: 프로젝트 팀 구성원
 description: 이 항목은 프로젝트 팀 구성원 정보, 속성 및 일정 작업 방법에 대한 정보를 제공합니다.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127436"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994014"
 ---
 # <a name="project-team-members"></a>프로젝트 팀 구성원
 
@@ -60,3 +59,6 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 - **새로 만들기**: 일정에서 직접 리소스를 추가하는 것 외에도 프로젝트 관리자는 팀 구성원 그리드에서 새로운 명명된 또는 일반 팀 구성원을 추가할 수 있습니다.
 - **삭제**: 한 명 이상의 팀원을 선택하여 프로젝트 관리자는 더 이상 프로젝트에 참여하지 않을 리소스를 삭제할 수 있습니다. 팀 구성원을 삭제하면 관련된 모든 리소스 할당도 삭제되고 모든 기존 예약이 취소됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

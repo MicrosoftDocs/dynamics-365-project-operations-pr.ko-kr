@@ -2,18 +2,16 @@
 title: 새로운 기능 2020년 11월 - 리소스/생산 기반 시나리오에 대한 Project Operations
 description: 이 항목은 재고 생산 기반 시나리오에 대한 Project Operations의 2020년 11월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365540"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003194"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>새로운 기능 2020년 11월 - 리소스/생산 기반 시나리오에 대한 Project Operations
 
@@ -25,4 +23,7 @@ _**적용 대상:** 리소스/생산 기반 시나리오에 대한 Project Opera
 
 ## <a name="regulatory-updates"></a>규제 업데이트
 
-Dynamics 365 Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+Dynamics 365 Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

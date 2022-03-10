@@ -2,8 +2,6 @@
 title: 프로젝트에 리소스 예약
 description: 프로젝트에 대한 리소스 일정을 예약하는 방법(Project Service)
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150451"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998154"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>프로젝트에 대한 리소스 일정 예약(Project Service)
 
@@ -35,7 +33,7 @@ ms.locfileid: "5150451"
   
 일정 게시판에는 리소스 및 사용 가능 여부에 대한 목록이 표시됩니다. **시간**, **일**, **주**, 또는 **월** 로 사용 가능성을 표시하도록 보기 모드를 선택합니다.  
   
-일정 게시판을 사용하기 전에 설정하는 것이 중요합니다. 자세한 내용은 [일정 보드 구성(Field Service 또는 Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board)을 참조하십시오.
+일정 게시판을 사용하기 전에 설정하는 것이 중요합니다. 자세한 내용은 [일정 보드 구성(Field Service 또는 Project Service Automation)](/dynamics365/field-service/configure-schedule-board)을 참조하십시오.
   
 이전 버전을 사용 중인 경우 리소스 사용 가능 시간에 대해 [리소스 사용 가능한 시간 보기](../psa/view-resource-availability.md)를 참조하십시오.  
 
@@ -83,3 +81,6 @@ ms.locfileid: "5150451"
   
 ### <a name="additional-resources"></a>추가 리소스  
  [리소스 관리자 가이드](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

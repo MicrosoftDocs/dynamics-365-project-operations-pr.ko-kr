@@ -2,18 +2,16 @@
 title: 일비
 description: 이 항목은 경비 관리에 사용되는 일비 규칙에 대한 정보를 제공합니다.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986409"
 ---
 # <a name="per-diems"></a>일비
 
@@ -31,3 +29,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
     
 ## <a name="submit-expenses-using-per-diem"></a>일비를 사용하여 경비 제출
 일비를 활용한 경비를 제출하려면 **일비** 경비 보고서를 생성할 때 경비 범주를 사용합니다. **일비 시작 날짜**,**일비 종료 날짜** 및 **일비 위치** 를 입력합니다. 금액은 선택한 위치의 일비 요율을 기준으로 계산되며, 식비 감소는 일비 요율 등급에 따라 계산됩니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

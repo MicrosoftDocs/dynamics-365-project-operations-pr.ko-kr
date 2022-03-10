@@ -2,9 +2,7 @@
 title: Project Finder Mobile 앱 기능 활성화
 description: Project Finder Mobile 앱 기능 활성화(Project Service)
 author: JohnPBurrows
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4f3bf15589181e3095400c131d322184578afa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284636"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004904"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Project Finder Mobile 앱 기능 활성화(Project Service)
 
@@ -49,11 +47,11 @@ ms.locfileid: "5284636"
   
 4. **리소스별 기술 업데이트 허용** 을 **예** 로 설정합니다.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    이는 전역 설정입니다. 프로젝트 관리자는 개별 프로젝트를 해당 프로젝트의 **프로젝트 팀** 페이지에서 표시할지 여부를 설정할 수 있습니다.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>이메일 알림  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]가 다음의 시간에 다음의 받는 사람에게 리소스 요청에 대한 전자 메일을 보냅니다.  

@@ -2,18 +2,16 @@
 title: Project Operations 배포 - 라이트
 description: 이 항목은 Project Operations 라이트 배포 - 견적 송장 거래를 설치하는 방법에 대한 정보를 제공합니다.
 author: stsporen
-manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290097"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991584"
 ---
 # <a name="deploy-project-operations---lite"></a>Project Operations 배포 - 라이트
 
@@ -34,14 +32,14 @@ Project Operations는 여러 배포 모델을 지원합니다. 최상의 배포 
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Project Operations를 새 CDS 환경에 설치
 
-1. Project Operations 라이선스가 있는 [전역 또는 Power Platform 관리자](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license)는 새로운 CDS 환경을 [PowerPlatform 관리 센터](https://admin.powerplatform.com)에 생성합니다. **CDS 데이터베이스** 및 **Dynamics 365 앱** 이 활성화되는지 확인하십시오. 자세한 내용은 [Power Platform 관리 센터에서 환경 만들기 및 관리](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center)를 참조하십시오.
+1. Project Operations 라이선스가 있는 [전역 또는 Power Platform 관리자](/power-platform/admin/global-service-administrators-can-administer-without-license)는 새로운 CDS 환경을 [PowerPlatform 관리 센터](https://admin.powerplatform.com)에 생성합니다. **CDS 데이터베이스** 및 **Dynamics 365 앱** 이 활성화되는지 확인하십시오. 자세한 내용은 [Power Platform 관리 센터에서 환경 만들기 및 관리](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center)를 참조하십시오.
 2. Dynamics 365 앱의 배포 목록에서 **Microsoft Dynamics 365 Project Operations** 를 선택합니다.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Project Operations를 기존 CDS 환경에 설치
 
-1. Project Operations 라이선스가 있는 [전역 또는 Power Platform 관리자](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license)는 Project Operations를 설치하려는 [PowerPlatform 관리 센터](https://admin.powerplatform.com)에서 환경을 찾습니다.
-2. Dynamics 365 앱의 배포 목록에서 **Microsoft Dynamics 365 Project Operations** 를 설치합니다. 자세한 내용은 [Dynamics 365 앱 관리](https://docs.microsoft.com/power-platform/admin/manage-apps)를 참조하십시오.
+1. Project Operations 라이선스가 있는 [전역 또는 Power Platform 관리자](/power-platform/admin/global-service-administrators-can-administer-without-license)는 Project Operations를 설치하려는 [PowerPlatform 관리 센터](https://admin.powerplatform.com)에서 환경을 찾습니다.
+2. Dynamics 365 앱의 배포 목록에서 **Microsoft Dynamics 365 Project Operations** 를 설치합니다. 자세한 내용은 [Dynamics 365 앱 관리](/power-platform/admin/manage-apps)를 참조하십시오.
 
 
 

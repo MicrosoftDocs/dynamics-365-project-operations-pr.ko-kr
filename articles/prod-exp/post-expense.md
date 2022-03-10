@@ -2,11 +2,9 @@
 title: 경비 보고서 전기
 description: 이 항목은 총계정 원장에 경비 보고서를 전기하는 방법을 설명합니다.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982b7621c35547448b5d756f77f3873b9fbbcb9d
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: e6df49bb6831b08611b05e02bbb1a5a2a80a34193497e3020ccddd5370cf37a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960120"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993024"
 ---
 # <a name="post-an-expense-report"></a>경비 보고서 전기
 
@@ -32,3 +30,6 @@ ms.locfileid: "4960120"
 경비 보고서를 전기하려면 **승인된 경비 보고서** 페이지에서 경비 보고서를 선택한 다음 작업 창에서 **경비** 를 선택합니다.
 
 동시에 목록의 모든 경비 보고서를 전기할 수도 있습니다. 모든 경비 보고서를 선택한 다음 **전기** 를 선택합니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

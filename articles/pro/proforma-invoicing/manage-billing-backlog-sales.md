@@ -1,21 +1,19 @@
 ---
-title: 청구 백로그 관리 - 라이트
-description: 이 항목은 결제 백로그를 관리할 때 사용할 수 있는 다양한 보기에 대한 정보를 제공합니다.
+title: 프로젝트 대금 청구 백로그 관리
+description: 이 항목은 프로젝트의 결제 백로그를 관리할 때 사용할 수 있는 다양한 보기에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274106"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988299"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>청구 백로그 관리 - 라이트
+# <a name="manage-project-billing-backlog"></a>프로젝트 대금 청구 백로그 관리 
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 

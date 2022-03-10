@@ -2,18 +2,16 @@
 title: 프로젝트 계약 확인
 description: 이 항목은 Project Operations에서 계약을 확인하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273836"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989829"
 ---
 # <a name="confirm-a-project-contract"></a>프로젝트 계약 확인
 

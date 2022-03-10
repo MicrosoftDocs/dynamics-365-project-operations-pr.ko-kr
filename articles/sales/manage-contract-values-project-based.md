@@ -2,18 +2,16 @@
 title: 프로젝트 기반 계약 내용으로 작업
 description: 이 항목은 프로젝트 기반 계약 내용에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181729"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990054"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>프로젝트 기반 계약 내용으로 작업
 
@@ -57,3 +55,6 @@ Dynamics 365 Project Operations의 프로젝트 기반 계약 내용은 계약�
 | C1       | CL2           | P1      | 없음           | 예             | 없음          | 유효           | 프로젝트 P1의 시간과 수수료는 CL1에 포함됩니다. 프로젝트 P1의 경비는 CL2에 포함됩니다. </br>   각 계약 내용에 포함되는 내용이 중복되지 않으므로 유효합니다.  |
 | C1       | CL1           | P1      | 예          | 예             | 예         | 유효하지 않음       | 규칙을 위반합니다. 프로젝트 P1의 시간, 경비 및 요금은 두 계약 내용에 포함됩니다.                                                                                               |
 | CL2      | CL2           | P1      | 예          | 예             | 예         | 유효하지 않음       | 규칙을 위반합니다. 프로젝트 P1의 시간, 경비 및 요금은 두 계약 내용에 포함됩니다.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

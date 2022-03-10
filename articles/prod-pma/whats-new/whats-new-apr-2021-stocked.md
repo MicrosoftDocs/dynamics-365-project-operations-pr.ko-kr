@@ -2,19 +2,17 @@
 title: 리소스/생산 기반 시나리오에 대한 2021년 4월 Project Operations의 새로운 기능 또는 변경된 기능
 description: 이 항목은 리소스/생산 기반 시나리오에 대한 Project Operations의 2021년 4월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: andchoi
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 2e2e3c1c717b5296964e0921aeec4999dd2f6e29
-ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
+ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005579"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>리소스/생산 기반 시나리오에 대한 2021년 4월 Project Operations의 새로운 기능 또는 변경된 기능
 

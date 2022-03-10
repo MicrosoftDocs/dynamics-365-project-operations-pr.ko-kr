@@ -2,8 +2,6 @@
 title: Project Service Automation 업데이트 릴리스 19, V3의 새로운 기능 또는 변경된 기능
 description: 이 항목에는 Project Service Automation 업데이트 릴리스 19, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143614"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993654"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation 업데이트 릴리스 19, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
+Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. 이 릴리스는 Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인용 관리 센터를 방문한 다음 솔루션 페이지로 이동하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
 
 이 항목에는 PSA V3, 업데이트 릴리스 19에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다. 이 버전의 빌드 번호는 V3.10.30.41이며 일반적으로 2020년 5월 자체 업데이트를 통해 제공됩니다.
 
@@ -66,3 +64,6 @@ Dynamics 365용 Project Service Automation 응용 프로그램의 최신 업데�
 - **GetBookableResourceIdFromUser** 는 기본 ID 대신 예약 가능한 리소스의 모든 열을 검색하기 때문에 프로젝트를 만들 때 고객이 성능 저하를 경험할 수 있습니다.
 - **TransactionType** 엔터티에 사용자가 트랜잭션 유형에 유효하지 않은 **단위** 및 **단위 그룹** 을 입력하지 못하도록 사전 유효성 검사 업데이트 플러그인이 누락되었습니다.
 - 시간 항목 가져오기에 **제거** 단계가 작동하지 않습니다.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

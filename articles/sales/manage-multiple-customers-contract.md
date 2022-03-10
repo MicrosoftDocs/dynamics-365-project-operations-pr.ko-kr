@@ -2,18 +2,16 @@
 title: 프로젝트 계약에 대한 여러 고객 관리
 description: 이 토픽에서는 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dda8bc58c00082a9ef3835ea293003c63013983f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992079"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>프로젝트 계약에 대한 여러 고객 관리
 
