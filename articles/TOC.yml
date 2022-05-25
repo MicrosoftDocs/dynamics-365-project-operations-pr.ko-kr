@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: 새로운 기능
       items:
+        - name: 2022년 5월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: 2022년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: 2022년 3월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: 2022년 2월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: 2021년 12월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: 통화
               href: sales/sales-currency.md
+            - name: 조직 구성 단위
+              href: sales/OrgUnits.md
         - name: 프로젝트 잠재 고객 관리
           href: sales/manage-leads.md
         - name: 프로젝트 영업 기회 관리
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: 프로젝트에 대한 노동 수익 추적
               href: project-management/project-sales-tracking.md
-            - name: 완료 시 추정 비용 업데이트
-              href: project-management/update-completed-estimate.md
         - name: 프로젝트 팀 구성원
           items:
             - name: 프로젝트 팀 구성원 개요
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: 프로젝트 일정 API 사용
               href: project-management/schedule-api-preview.md
+            - name: Power Automate와 함께 프로젝트 일정 API 사용
+              href: project-management/scheduling-apis-powerautomate.md
             - name: 프로젝트 일정 API 성능
               href: project-management/project-schedule-api-performance.md
             - name: 프로젝트 일정 로그
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: 현금 서비스
           href: expense/cash-advance.md
-        - name: 일비
-          href: expense/per-diems.md
+        - name: 일비 경비
+          href: expense/per-diem-expenses.md
         - name: 모바일 경비 앱
           href: expense/expense-using-mobile.md
         - name: 재무 관리
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: 승인 집합
           href: approvals/approval-sets.md
+        - name: 이전에 승인된 항목에 대한 승인 취소
+          href: approvals/cancelapproval.md
+        - name: 이전에 승인된 항목 리콜
+          href: approvals/recall-cancel.md
         - name: 개발자 노트
           items:
             - name: 승인을 위한 개발자 노트
               href: approvals/dev-notes-approvals.md
     - name: 실제
       items:
+        - name: Project Operations의 비즈니스 거래
+          href: actuals/businesstransactions.md
         - name: 실제 개요
           href: actuals/actuals-overview.md
-        - name: 실제를 원본 레코드에 연결
+        - name: 거래 출처 - 출처에 실제 연결
           href: actuals/linkingactuals.md
-        - name: 수정 분개장
+        - name: 거래 연결 - 서로 다른 거래 유형의 실제 연결
+          href: actuals/connectingactuals.md
+        - name: 분개장
           items:
+            - name: 입력 분개장 생성 및 확인
+              href: actuals/create-confirm-entry-journals.md
             - name: 수정 분개장 생성 및 확인
               href: actuals/create-confirm-correction-journals.md
     - name: 조달
       items:
         - name: 비 재고 재료 및 보류 중인 공급업체 송장 구성
           href: procurement/configure-materials-nonstocked.md
-        - name: 보류 중인 공급업체 송장을 사용하여 프로젝트에 대한 비 재고 재료 조달
+        - name: 프로젝트에 대한 조달 범주 구성
+          href: procurement/configure-procurement-categories.md
+        - name: 보류 중인 공급업체 송장을 사용하여 프로젝트에 대한 상품 및 서비스 조달
           href: procurement/pending-vendor-invoices.md
-        - name: 프로젝트 구매 주문을 사용하여 프로젝트에 대한 비 재고 재료 주문
+        - name: 프로젝트 구매 주문을 사용하여 프로젝트에 대한 상품 및 서비스 주문
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: 공급업체 재방문 주기
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 수익 추정치 관리
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: 고급 구성
+      items:
+        - name: 전환 중 완전히 청구된 청구 마일스톤 마이그레이션
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: 업그레이드
+      items:
+        - name: 최신 승인을 위한 업그레이드 고려 사항
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations 앱
+      items:
+        - name: Project Operations 팀 구성원 앱
+          href: team-member/project-operations-team-member.md
     - name: 문제 해결
       items:
         - name: 프로젝트 영업 프로세스
@@ -562,6 +596,14 @@
       items:
         - name: 2021 웨이브 2 조기 액세스의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2022년 5월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: 2022년 4월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: 2022년 3월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: 2022년 2월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: 2021년 12월의 새로운 기능 - 라이트 배포
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021년 11월의 새로운 기능 - 라이트 배포
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: 통화
               href: sales/sales-currency.md
+            - name: 조직 구성 단위
+              href: sales/OrgUnits.md
         - name: 프로젝트 잠재 고객 관리
           href: pro/sales/managing-leads-sales.md
         - name: 프로젝트 영업 기회 관리
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: 프로젝트에 대한 노동 수익 추적
               href: project-management/project-sales-tracking.md
-            - name: 완료 시 추정 비용 업데이트
-              href: project-management/update-completed-estimate.md
         - name: 프로젝트 팀 구성원
           items:
             - name: 프로젝트 팀 구성원 개요
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: 프로젝트 일정 API 사용
               href: project-management/schedule-api-preview.md
+            - name: Power Automate와 함께 프로젝트 일정 API 사용
+              href: project-management/scheduling-apis-powerautomate.md
             - name: 프로젝트 일정 API 성능
               href: project-management/project-schedule-api-performance.md
     - name: 리소스 관리
@@ -886,12 +930,10 @@
           items:
             - name: 리소스 사용률 개요
               href: resource-management/resource-utilization-overview.md
-    - name: Project Operations에서 하도급 관리
+    - name: 하도급 계약 관리
       items:
         - name: Project Operations에서 하도급 관리
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: 2021년 10월 조기 액세스의 하도급 계약
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: 하도급의 핵심 개념
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: 공급업체 및 프로젝트 가격표 관리
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: 하도급 계약의 상태 전환
           href: pro/subcontracting/subcon-states.md
+    - name: 프로젝트 공급업체 송장
+      items:
+        - name: 공급업체 송장 발행 - 개념 및 생성
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: 공급업체 송장에 대한 헤더 세부 정보
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: 시간에 대한 공급업체 송장 라인
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: 제품에 대한 공급업체 송장 라인
+          href: pro/subcontracting/vi-line-material.md
+        - name: 마일스톤에 대한 공급업체 송장 라인
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: 경비 범주에 대한 공급업체 송장 라인
+          href: pro/subcontracting/vi-line-expense.md
+        - name: 승인된 실제가 있는 공급업체 송장 확인
+          href: pro/subcontracting/VI-Verification.md
+        - name: 프로젝트 공급업체 송장 취소
+          href: pro/subcontracting/cancel-vi.md
+        - name: 프로젝트 공급업체 송장 확인
+          href: pro/subcontracting/confirm-vi.md
+        - name: 공급업체 송장의 상태 전환
+          href: pro/subcontracting/vi-state-model.md
     - name: 시간
       items:
         - name: 시간 개요
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: 승인 집합
           href: approvals/approval-sets.md
+        - name: 이전에 승인된 항목에 대한 승인 취소
+          href: approvals/cancelapproval.md
+        - name: 이전에 승인된 항목 리콜
+          href: approvals/recall-cancel.md
         - name: 개발자 노트
           items:
             - name: 승인을 위한 개발자 노트
               href: approvals/dev-notes-approvals.md
     - name: 실제
       items:
+        - name: Project Operations의 비즈니스 거래
+          href: actuals/businesstransactions.md
         - name: 실제 개요
           href: actuals/actuals-overview.md
-        - name: 실제를 원본 레코드에 연결
+        - name: 거래 출처 - 출처에 실제 연결
           href: actuals/linkingactuals.md
-        - name: 수정 분개장
+        - name: 거래 연결 - 서로 다른 거래 유형의 실제 연결
+          href: actuals/connectingactuals.md
+        - name: 분개장
           items:
+            - name: 입력 분개장 생성 및 확인
+              href: actuals/create-confirm-entry-journals.md
             - name: 수정 분개장 생성 및 확인
               href: actuals/create-confirm-correction-journals.md
     - name: 견적 송장
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: 프로젝트 송장 자동화 구성
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: 업그레이드
+      items:
+        - name: 최신 승인을 위한 업그레이드 고려 사항
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations 앱
+      items:
+        - name: Project Operations 팀 구성원 앱
+          href: team-member/project-operations-team-member.md
 - name: 리소스/생산 기반 시나리오에 대한 Project Operations
   items:
     - name: 새로운 기능
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: 프로젝트 관리 및 회계 개요
       href: prod-pma/overview-project-management-accounting.md
-    - name: 회사 간 송장
-      href: prod-pma/intercompany-invoicing.md
-    - name: 회사 간 프로젝트 송장 구성
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: 인건비 및 비용에 대한 표준 비용 구성
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: 공급업체 결제 유지 조건 만들기 및 적용
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: 지불시 결제 공급업체 결제 설정 및 사용
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: 구매 영수증에 대한 프로젝트 비용 발생
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: 프로젝트 송장 발부
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: 프로젝트 송장 제안서 성능
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: 프로젝트 계약
-      href: prod-pma/project-contracts.md
-    - name: 진행 상황에 따라 청구를 위한 고급 계약 만들기
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: 프로젝트 예측 및 예산
-      href: prod-pma/project-forecasts-budgets.md
-    - name: 프로젝트 예산에 대한 예측 모델 만들기
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: 회계 연도 끝에서 프로젝트 예산 이전
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: 프로젝트 판매 주문
-      href: prod-pma/project-sales-orders.md
-    - name: 프로젝트 구매 주문
-      href: prod-pma/project-purchase-orders.md
-    - name: 프로젝트 견적
-      href: prod-pma/project-quotations.md
-    - name: '프로젝트 견적 확인, 업데이트 및 보내기'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: 프로젝트로 견적 전송
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: 프로젝트 리소싱
+    - name: 프로젝트 영업 프로세스
+      items:
+        - name: 프로젝트 견적
+          href: prod-pma/project-quotations.md
+        - name: '프로젝트 견적 확인, 업데이트 및 보내기'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: 프로젝트로 견적 전송
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: 프로젝트 계약
+          href: prod-pma/project-contracts.md
+        - name: 프로젝트 권한 부여
+          href: prod-pma/project-grants.md
+    - name: 가격 책정 및 원가 계산
+      items:
+        - name: 인건비 및 비용에 대한 표준 비용 구성
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: 프로젝트 관리
+      items:
+        - name: 작업 분할 구조 개요
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client 통합
+          href: prod-pma/project-integration.md
+        - name: Project 모바일 애플리케이션 개요
+          href: prod-pma/project-mobile-application-overview.md
+        - name: 프로젝트 시간 항목 모바일 작업 영역
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Project 작업표 모바일 앱
+          href: prod-pma/project-timesheet.md
+        - name: 모바일 장치의 프로젝트 작업 표
+          href: prod-pma/mobile-timesheets.md
+        - name: Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
+          href: prod-pma/custom-fields-mobile.md
+    - name: 리소스 관리
       items:
         - name: 프로젝트 리소싱 개요
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: 계획된 리소스에 대한 리소스 이행
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: 품목 요구 사항에서 구매 주문에 대한 품목 수신
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: 작업 분할 구조
+    - name: 프로젝트 예산 및 예측
       items:
-        - name: 작업 분할 구조 개요
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Client 통합
-          href: prod-pma/project-integration.md
-        - name: Project 모바일 애플리케이션 개요
-          href: prod-pma/project-mobile-application-overview.md
-        - name: 프로젝트 시간 항목 모바일 작업 영역
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Project 작업표 모바일 앱
-          href: prod-pma/project-timesheet.md
-        - name: 모바일 장치의 프로젝트 작업 표
-          href: prod-pma/mobile-timesheets.md
-        - name: 프로젝트 작업 표 모바일 앱에 대한 사용자 지정 필드 구현
-          href: prod-pma/custom-fields-mobile.md
-    - name: 프로젝트 권한 부여
-      href: prod-pma/project-grants.md
-    - name: 프로젝트 추정 제거
-      href: prod-pma/eliminate-project-estimate.md
+        - name: 프로젝트 예측 및 예산
+          href: prod-pma/project-forecasts-budgets.md
+        - name: 프로젝트 예산에 대한 예측 모델 만들기
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: 회계 연도 끝에서 프로젝트 예산 이전
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: 시간
+      items:
+        - name: 프로젝트 시간 항목에 대한 재무 차원 기본값 설정
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: 경비
+      items:
+        - name: 경비 개요
+          href: expense/expense-overview.md
+        - name: 새로운 경비 경험
+          items:
+            - name: 재구상된 경비 보고서
+              href: expense/expense-reports-reimagined.md
+            - name: OCR을 사용한 영수증 캡처
+              href: expense/match-receipt-expense-ocr.md
+        - name: 구성 및 설정
+          items:
+            - name: 정책 설정
+              href: expense/set-up-policies.md
+            - name: 워크플로 설정
+              href: expense/set-up-workflows.md
+            - name: 위임 관리
+              href: expense/manage-delegation.md
+            - name: 경비 관리 매개 변수 구성
+              href: expense/configure-expense-management-parameters.md
+            - name: 신용 카드 통합 설정
+              href: expense/set-up-credit-card-integration.md
+            - name: 경비 범주 설정
+              href: expense/set-up-expense-categories.md
+            - name: 마일리지 등급 계층을 사용하여 마일리지 설정
+              href: expense/set-up-mileage.md
+        - name: 경비 항목화
+          href: prod-exp/expense-itemization.md
+        - name: 개인 경비
+          href: expense/personal-expenses-expense-report.md
+        - name: 회사 간 경비
+          href: prod-exp/intercompany-expense.md
+        - name: 경비 보고서 만들기
+          items:
+            - name: 경비 보고서에 배포
+              href: expense/distributions-expense-report.md
+        - name: 경비 보고서 승인
+          items:
+            - name: 경비 보고서 및 여러 승인자
+              href: expense/expense-reports-multiple-approvers.md
+        - name: 경비 보고서 게시
+          href: expense/posting-expense-reports.md
+        - name: 여행 요청
+          href: expense/travel-requisition.md
+        - name: 현금 서비스
+          href: expense/cash-advance.md
+        - name: 일비 경비
+          href: expense/per-diem-expenses.md
+        - name: 모바일 경비 앱
+          href: expense/expense-using-mobile.md
+        - name: 재무 관리
+          items:
+            - name: VAT 복구
+              href: expense/vat-recovery.md
+    - name: 조달
+      items:
+        - name: 프로젝트 구매 주문
+          href: prod-pma/project-purchase-orders.md
+        - name: 구매 영수증에 대한 프로젝트 비용 발생
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: 품목 요구 사항에서 구매 주문에 대한 품목 수신
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: 지불시 결제 공급업체 결제 설정 및 사용
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: 공급업체 결제 유지 조건 만들기 및 적용
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: 프로젝트 송장 발부
+      items:
+        - name: 프로젝트 송장 발부
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: 프로젝트 송장 제안서 성능
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: 진행 상황에 따라 청구를 위한 고급 계약 만들기
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: 프로젝트 판매 주문
+          href: prod-pma/project-sales-orders.md
+        - name: 여러 자금 출처가 있는 프로젝트 계약에 대한 항목 요구 사항
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: 회사 간 송장
+      items:
+        - name: 회사 간 송장
+          href: prod-pma/intercompany-invoicing.md
+        - name: 회사 간 프로젝트 송장 구성
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: 수익 인식
+      items:
+        - name: 프로젝트 추정 제거
+          href: prod-pma/eliminate-project-estimate.md
 - name: 경비 관리
   items:
     - name: 경비 관리 개요
@@ -1148,6 +1304,16 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 43, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur43.md
+        - name: '업데이트 릴리스 42, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-42.md
+        - name: '업데이트 릴리스 41, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-41.md
+        - name: '업데이트 릴리스 40, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-40.md
+        - name: '업데이트 릴리스 39, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-39.md
         - name: '업데이트 릴리스 38, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-38.md
         - name: '업데이트 릴리스 37.5, V3의 새로운 내용 또는 변경된 내용'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Project Service Automation에서 Project Operations로 업그레이드 - 라이트
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Project Service Automation에서 Project Operations로 기능 변경
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation 업그레이드(앱 버전 3.x)
       items:
         - name: Project Service Automation 업그레이드
