@@ -2,18 +2,16 @@
 title: 승인 집합
 description: 이 항목에서는 승인 집합, 요청 및 이러한 작업의 하위 집합을 사용하는 방법을 설명합니다.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323244"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576232"
 ---
 # <a name="approval-sets"></a>승인 집합
 
@@ -27,6 +25,18 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 처리 대기 중인 승인은 **승인 처리 중** 보기에 표시됩니다. 시스템은 이전 시도가 실패한 경우 승인을 재시도하는 것을 포함하여 모든 항목을 비동기식으로 여러 번 처리합니다.
 
 **승인 집합 수명** 필드는 실패로 표시되기 전에 집합을 처리하기 위해 남은 시도 횟수를 기록합니다.
+
+승인 집합은 **Project Service - 프로젝트 승인 집합을 주기적으로 예약** 이라는 **클라우드 흐름** 을 기반으로 주기적 활성화를 통해 처리됩니다. 이것은 **Project Operations** 라는 **솔루션** 에서 찾을 수 있습니다. 
+
+다음 단계를 완료하여 흐름이 활성화되었는지 확인하십시오.
+
+1. 관리자로 [flow.microsoft.com](https://powerautomate.microsoft.com)에 로그인합니다.
+2. 오른쪽 상단에서 Dynamics 365 Project Operations에 사용 중인 환경으로 전환합니다.
+3. **솔루션** 을 선택하여 환경에 설치된 솔루션을 나열합니다.
+4. 솔루션 목록에서 **Project Operations** 를 선택합니다.
+5. 필터를 **모두** 에서 **클라우드 흐름** 으로 변경합니다.
+6. **Project Service – 프로젝트 승인 집합을 주기적으로 예약** 흐름이 **켜기** 로 설정되어 있는지 확인합니다. 그렇지 않은 경우 흐름을 선택한 다음 **켜기** 를 선택합니다.
+7. Project Operations Dataverse 환경의 **설정** 영역에서 **시스템 작업** 목록을 검토하여 처리가 5분마다 발생하는지 확인합니다.
 
 ## <a name="failed-approvals-and-approval-sets"></a>실패한 승인 및 승인 집합
 **승인 실패** 보기에는 사용자 개입이 필요한 모든 승인이 나열됩니다. 연관된 승인 집합 로그를 열어 실패 원인을 식별하십시오.

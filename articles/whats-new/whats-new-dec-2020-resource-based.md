@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984879"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579866"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020년 12월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -61,12 +61,12 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 프로젝트 계획 및 추적 | 2057197          | 작업 참조가 포함된 예상 라인 복사는 지원되지 않음                                                                                                     |
 | 프로젝트 계획 및 추적 | 2060687          | 이제 특정 기간이 지나면 시간대 경고가 사라짐                                                                                                      |
 | 리소스 관리           | 1832887          | Dataverse 및 Finance 환경에 대해 반복 가능한 데이터 로드를 보장하려면 기본 리소스 범주 ID가 정적이어야 함                                                 |
-| 시간 및 경비              | 2081793          | **경비 범주 이름** 은 Finance and Operations 앱의 **경비 범주 설명** 필드에 매핑되어야 함                                                  |
+| 시간 및 경비              | 2081793          | **경비 범주 이름** 은 금융 및 운영 앱의 **경비 범주 설명** 필드에 매핑되어야 합니다.                                                  |
 | 시간 및 경비              | 2034882          | Dynamics 365 Field Service가 설치되면 **새로 만들기** 단추가 시간 항목에 대해 명령 모음에 두 번 표시됨                                          |
 | 시간 및 경비              | 2056028          | 타임 라인을 포함하도록 **시간 편집** 페이지 업데이트                                                                                                              |
 | 시간 및 경비              | 1983747          | 추가 데이터를 보여주는 시간 항목 차트                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계 개요
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance의 프로젝트 관리 및 회계
 
 | 기능 영역                        | 참조 번호 | 품질 업데이트                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 이동 및 경비                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | 경비 보고서 자동 전기 워크플로우가 완료되었지만 송장이 전기되지 않음                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>규제 업데이트
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+금융 및 운영 앱의 규정 업데이트에 대한 자세한 내용은 [규정 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

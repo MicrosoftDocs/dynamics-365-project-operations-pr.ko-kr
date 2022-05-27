@@ -1,25 +1,25 @@
 ---
 title: Finance 환경에서 Project Operations 업데이트
-description: 이 항목은 Dynamics 365 Finance 환경에서 Project Operations를 업데이트하는 방법에 대한 정보를 제공합니다.
+description: 이 항목에서는 Dynamics 365 Finance 환경에서 Project Operations를 업데이트하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986769"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579942"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance 환경에서 Project Operations 업데이트
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
 
-이 항목은 Dynamics 365 Finance  환경에서 Dynamics 365 Project Operations를 업데이트하는 방법에 대한 정보를 제공합니다. Project Operations를 업데이트 5(UR5)로 업데이트하는 데 필요한 세 가지 절차가 있습니다.
+이 항목에서는 Dynamics 365 Finance 환경에서 Dynamics 365 Project Operations를 업데이트하는 방법에 대한 정보를 제공합니다. Project Operations를 업데이트 5(UR5)로 업데이트하는 데 필요한 세 가지 절차가 있습니다.
 
 - [미리보기 프로젝트로 패키지 가져오기](#import)
 - [업데이트 적용](#apply)
@@ -119,7 +119,7 @@ UR5 업데이트의 일부로 엔티티의 보안 권한에 대한 다음 업데
 4. **테이블 맵 버전** 페이지에서 새 버전의 맵을 세 항목 각각에 적용합니다.
 5. **이중 쓰기** 페이지에서 실행을 선택하여 맵을 다시 시작합니다.
 6. 맵 목록에서 모든 필수 구성 요소가 있는 **원장(msdyn_ledgers)** 을 선택하고 **초기 동기화** 확인란을 선택합니다. 
-7. **초기 동기화를 위한 마스터** 필드에서 **Finance and Operations 앱** 을 선택한 다음 **실행** 을 선택합니다.
+7. **초기 동기화를 위한 마스터** 필드에서 **금융 및 운영 앱** 을 선택한 다음 **실행** 을 선택합니다.
  
  ![원장 맵 동기화.](media/DW6.png)
  

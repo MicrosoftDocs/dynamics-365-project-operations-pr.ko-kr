@@ -2,16 +2,16 @@
 title: 프로젝트 송장 제안서 초안에 대한 올바른 회계
 description: 이 항목에서는 송장 제안서 초안에서 회계 관련 정보를 조정하는 방법을 설명합니다.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999324"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575082"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>프로젝트 송장 제안서 초안에 대한 올바른 회계
 
@@ -27,12 +27,21 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="adjust-financial-dimensions"></a>재무 차원 조정
 
+### <a name="header-dimensions"></a>헤더 차원
+
+기본적으로 송장 재무 차원은 송장이 발행되는 미청구 프로젝트 트랜잭션 레코드에서 파생됩니다. 그러나 시스템 설정을 통해 프로젝트 송장 제안 헤더의 재무 차원을 사용하여 고객 잔액을 게시할 수 있습니다. 이 기능을 활성화하려면 **프로젝트 관리 및 회계 매개 변수** 페이지의 **재무** 탭에서 **미수금에 대한 프로젝트 차원 업데이트 허용** 을 선택합니다.
+
+송장이 전기되기 전에 송장 헤더의 재무 차원을 편집할 수 있습니다. **프로젝트 송장 제안** 페이지에서 **헤더** 보기로 전환한 다음 **재무 차원** 탭에서 값을 편집합니다.
+
+**헤더** 보기는 시스템 관리자가 **기능 관리** 작업 공간에서 **헤더 및 라인 보기와 함께 프로젝트 송장 제안 및 송장 일지 양식 사용** 기능을 활성화한 후에만 사용할 수 있습니다. 이 기능을 사용하려면 Finance 업데이트 10.0.25 이상이 필요합니다.
+
+### <a name="line-dimensions"></a>라인 차원
+
 재무 차원은 프로젝트 송장 제안 라인에서 직접 편집할 수 없습니다. 대신 다음 단계에 따라 프로젝트 송장 제안서의 재무 차원을 조정합니다.
 
 1. 프로젝트 송장 제안서에서 **모두 삭제** 를 선택하여 프로젝트 송장 제안 라인을 제거합니다.
 
-    > [!NOTE]
-    > **모두 삭제** 버튼은 시스템 관리자가 **기능 관리** 작업 공간에서 **자원 기반/비 재고 시나리오에 대한 Project Operations 사용 시 송장 제안 라인 삭제** 기능을 활성화한 후에만 사용할 수 있습니다. .
+    **모두 삭제** 버튼은 시스템 관리자가 **기능 관리** 작업 공간에서 **자원 기반/비 재고 시나리오에 대한 Project Operations 사용 시 송장 제안 라인 삭제** 기능을 활성화한 후에만 사용할 수 있습니다. .
 
 2. 재무 차원 조정:
 

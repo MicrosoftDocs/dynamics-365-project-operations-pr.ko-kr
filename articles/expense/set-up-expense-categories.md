@@ -4,14 +4,14 @@ description: 이 항목은 경비 보고서에 대한 경비 범주 및 공유 �
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 925c0894616df587b8a749bc00ea52ed06672827
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993114"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577014"
 ---
 # <a name="set-up-expense-categories"></a>경비 범주 설정
 

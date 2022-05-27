@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943031"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579820"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 12월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -20,7 +20,7 @@ ms.locfileid: "7943031"
 
 이 항목은 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
 
-- Dataverse 환경 버전 4.27.0.195, 4.27.0.242의 Project Operations
+- Dataverse 환경 버전 4.27.0.195, 4.27.0.242, 4.27.0.244의 Project Operations
 - Dynamics 365 Finance 환경 버전 10.0.23의 프로젝트 관리 및 회계
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
@@ -48,7 +48,7 @@ ms.locfileid: "7943031"
 | 시간 및 경비 | 2468188 | **Annotation** 엔터티의 **notetext** 속성에서 로그 텍스트가 최대 길이를 초과하는 문제를 수정했습니다. |
 | 청구 및 가격 책정 | 2488698 | 환경 설정에 재무에서 채워진 원장 엔터티 레코드가 누락된 경우 발생하는 오류 메시지가 업데이트되었습니다. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance의 프로젝트 관리 및 회계
 
 | **기능 영역** | **참조 번호** | **품질 업데이트** |
 | --- | --- | --- |

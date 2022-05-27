@@ -4,14 +4,14 @@ description: 이 항목은 Dynamics 365 Project Operations를 제거하는 방�
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783651"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575864"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>Dynamics 365 Project Operations 제거 
 
@@ -27,7 +27,7 @@ Dynamics 365 Project Operations를 제거하려면 관리자 역할을 할당 �
 
     | 단계 | 솔루션 이름                                    | 노트                                                                                         |
     |------|----------------------------------------------------|----------------------------------------------------------------------------------------------|
-    | 6 | msdyn_ProjectServiceUpgrade_managed.cab            | 찾을 수 없는 경우 이 솔루션을 건너뜁니다.                                                            |
+    | 1 | msdyn_ProjectServiceUpgrade_managed.cab            | 찾을 수 없는 경우 이 솔루션을 건너뜁니다.                                                            |
     | 2 | ProjectOperations_Anchor                           | 찾을 수 없는 경우 이 솔루션을 건너뜁니다.                                                            |
     | 3 | Dynamics365ProjectOperationsDualWriteEntityMaps    | 찾을 수 없는 경우 이 솔루션을 건너뜁니다.                                                            |
     | 4 | Dynamics365ProjectOperationsDualWrite              | 찾을 수 없는 경우 이 솔루션을 건너뜁니다.                                                            |
@@ -35,8 +35,8 @@ Dynamics 365 Project Operations를 제거하려면 관리자 역할을 할당 �
     | 6 | ProjectServiceCore_Patch                           | 추가 메모가 없습니다.                                                                         |
     | 7 | ProjectServiceCore                                 | 추가 메모가 없습니다.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | 찾을 수 없는 경우 이 솔루션을 건너뜁니다.                                                            |
-    | 9 | FieldServiceCommon                                 | Dynamics 365 Finance 또는 Dynamics 365 Supply Chain Management에 이중 쓰기가 필요합니다.   |
-    | 10 | msdyn_AssetCommon                                  | Dynamics 365 Finance 또는 Dynamics 365 Supply Chain Management에 이중 쓰기가 필요합니다.   |
+    | 9 | FieldServiceCommon                                 | 이중 쓰기에 필요(Dynamics 365 Finance 또는 Dynamics 365 Supply Chain Management 포함).   |
+    | 10 | msdyn_AssetCommon                                  | 이중 쓰기에 필요(Dynamics 365 Finance 또는 Dynamics 365 Supply Chain Management 포함).   |
     | 11 | msdyn_TESA_Anchor                                  | Dynamics 365 Field Service에 필요합니다.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Dynamics 365 Field Service에 필요합니다.                                                     |
     | 13 | msdyn_TESA                                         | Dynamics 365 Field Service에 필요합니다.                                                     |

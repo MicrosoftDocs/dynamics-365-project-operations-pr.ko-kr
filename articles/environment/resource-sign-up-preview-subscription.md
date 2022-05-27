@@ -4,20 +4,20 @@ description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Pr
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323424"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575818"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>리소스/비 재고 시나리오에 대한 Project Operations 미리 보기 구독에 등록
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 이 항목에서는 평가판을 구독하고 리소스/비재고 기반 시나리오를 위한 Project Operations 환경을 배포하는 방법을 설명합니다.
 
@@ -40,7 +40,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
   확인 제안이 성공적으로 회수되었음을 확인하는 메시지가 표시됩니다.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance 평가판 미리 보기
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance 미리 보기 평가판
 
 [Dynamics 365 for Finance 미리 보기 평가판](https://aka.ms/trypoche)으로 이동하고 제안의 이전 섹션의 단계를 반복하고 클라우드 호스팅 환경에 가입합니다.  
 

@@ -4,20 +4,20 @@ description: Office 그룹을 사용하면 Common Data Service 내에서 다른 
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76a5b94780c4467c5e423bb6048e91d9efcde6d6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003149"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574484"
 ---
 # <a name="collaboration-with-office-groups"></a>Office 그룹과 공동 작업
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Office 그룹을 사용하면 Common Data Service에서 다른 팀 구성원과 프로젝트를 공유할 수 있습니다. 그룹에 사용자를 추가하면 프로젝트 소유권이 그룹으로 이전됩니다. 모든 사용자는 프로젝트에 대한 편집 권한을 갖습니다. 관리자가 권한을 부여한 경우 사용자는 프로젝트를 볼 수도 있습니다. 이러한 사용자는 그룹에 표시되지 않습니다.
 

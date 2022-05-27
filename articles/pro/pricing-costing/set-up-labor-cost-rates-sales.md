@@ -4,14 +4,14 @@ description: 이 항목은 Project Operations에서 인력 비용 요금을 설�
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 01e3b41ca5c8fcc9146186873e0f44daad020c6c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006119"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575680"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>인력 비용 요금 설정 - 라이트
 

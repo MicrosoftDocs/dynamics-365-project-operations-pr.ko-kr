@@ -3,16 +3,15 @@ title: 리소스/비 재고 기반 시나리오에 대한 Project Operations 배
 description: 이 항목은 배포 유형, 리소스/비 재고 기반 시나리오의 Project Operations에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009719"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575129"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>리소스/비 재고 기반 시나리오에 대한 Project Operations 배포 개요
 
@@ -32,7 +31,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 - 프로젝트 수익 인식
 - Power Platform을 통한 확장성
 
-이 배포 유형은 Dynamics 365 Finance 및 Dynamics 365 Supply Chain Management 응용 프로그램에서 제공하는 기능에 대한 확장을 제공합니다.
+이 배포 유형은 Dynamics 365 Finance 및 Dynamics 365 Supply Chain Management 애플리케이션에서 제공하는 기능의 확장을 제공합니다.
 
 이 배포는 Project Operations가 다음 요구 사항을 포함하는 전체 프로젝트 수명 주기를 사용하는 것으로 예상되므로 선택해야 합니다.
 

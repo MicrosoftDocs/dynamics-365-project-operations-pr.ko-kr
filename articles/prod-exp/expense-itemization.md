@@ -4,14 +4,14 @@ description: 이 토픽에서는 재창조된 경비 작업 공간을 사용하�
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: b2077b77af036ce64aad203f52b03cacca8c4099
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 34b11c6bd8be729957973a60fccccc2dd32c2669
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944127"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574530"
 ---
 # <a name="expense-itemization"></a>경비 항목화
 
