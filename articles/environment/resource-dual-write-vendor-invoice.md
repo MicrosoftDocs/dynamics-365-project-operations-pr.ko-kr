@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986499"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591183"
 ---
 # <a name="vendor-invoice-integration"></a>공급업체 송장 통합
 
@@ -34,7 +34,7 @@ Project Operations에서 프로젝트 관련 공급업체 송장은 특별 전�
      > [!NOTE]
      > Dataverse의 공급업체 송장 세부 정보는 편집할 수 없습니다.
 
-세금 보조 원장, 공급업체 보조 원장 및 기타 재무 전기는 공급업체 송장이 전기될 때 Dynamics 365 Finance에 해당하는 대로 기록됩니다.
+세금 보조원장, 공급업체 보조원장 및 기타 재무 전기는 공급업체 송장이 게시될 때 Dynamics 365 Finance에 해당하는 것으로 기록됩니다.
 
 ![공급업체 송장 통합.](media/DW7VendorInvoice.png)
 

@@ -4,14 +4,14 @@ description: 이 항목은 Microsoft Dynamics Project Operations에서 리소스
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc9505543f461bb0e275a4dec462675c5e3848b7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994824"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588560"
 ---
 # <a name="resource-management-key-concepts"></a>리소스 관리 주요 개념
 

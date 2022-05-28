@@ -4,14 +4,14 @@ description: 이 토픽에서는 프로젝트 리소스 요구 사항에 인력�
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d645dee741a45dcb0219e4e4f58a329b7b873e10
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903473"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587836"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>계약 근로자와 하도급 계약 용량을 표시하도록 일정 게시판 구성 
 

@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992754"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592654"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>리소스/생산 기반 시나리오에 대한 Project Operations, 2021년 1월의 새로운 기능 또는 변경된 기능
 
@@ -142,7 +142,7 @@ _**적용 대상:** 리소스/생산 기반 시나리오에 대한 Project Opera
 | 이동 및 경비                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | Project Operations의 Dataverse에서 회사 간 작업이 있는 시간을 만들거나 승인할 수 없습니다.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>규제 업데이트
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+금융 및 운영 앱의 규정 업데이트에 대한 자세한 내용은 [규정 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

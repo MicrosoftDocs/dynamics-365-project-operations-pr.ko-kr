@@ -4,14 +4,14 @@ description: 이 항목은 일반 리소스 요건을 위해 명명된 리소스
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92255564e2a1ffa4077ded9b3cf5216dedba0913
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008279"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588606"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>일반 리소스 요구 사항 충족
 

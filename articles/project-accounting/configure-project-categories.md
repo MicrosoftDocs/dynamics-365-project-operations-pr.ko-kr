@@ -4,14 +4,14 @@ description: 이 항목에서는 프로젝트 범주 설정에 대한 정보를 
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997119"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591550"
 ---
 # <a name="configure-project-categories"></a>프로젝트 범주 구성
 
@@ -35,7 +35,7 @@ Project Operations는 프로젝트의 수익과 경비를 분류하는 강력한
 
 ## <a name="shared-categories"></a>공유 범주
 
-Dynamics 365는 공유 범주 개념을 사용하여 Dynamics 365 Finance, Dynamics 365 Supply Chain 및 Dynamics 365 Project Operations와 같은 다양한 응용 프로그램에서 비용을 분류합니다. 생성된 각 트랜잭션 범주에 대해 Project Operations는 시간, 경비, 요금 및 품목의 네 가지 관련 공유 범주를 자동으로 생성합니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **공유 범주** 로 이동하여 공유 범주를 검토하고 조정할 수 있습니다.
+Dynamics 365는 공유 범주 개념을 사용하여 Dynamics 365 Finance, Dynamics 365 Supply Chain 및 Dynamics 365 Project Operations와 같은 다양한 애플리케이션에서 비용을 분류합니다. 생성된 각 트랜잭션 범주에 대해 Project Operations는 시간, 경비, 요금 및 품목의 네 가지 관련 공유 범주를 자동으로 생성합니다. **프로젝트 관리 및 회계** \> **설정** \> **범주** \> **공유 범주** 로 이동하여 공유 범주를 검토하고 조정할 수 있습니다.
 
 ## <a name="project-categories"></a>프로젝트 범주
 

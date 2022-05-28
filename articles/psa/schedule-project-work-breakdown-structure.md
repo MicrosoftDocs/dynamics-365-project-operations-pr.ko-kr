@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996804"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587364"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>작업 분할 구조로 프로젝트 일정 짜기(Project Service)
 
@@ -63,7 +64,7 @@ ms.locfileid: "6996804"
 ## <a name="task-types"></a>작업 유형  
 작업 분할 구조 생성 시 다음 유형의 업무를 사용합니다.  
 
-| | | 
+| 작업 | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **프로젝트의 루트 노드** | 프로젝트에 대한 최상위 요약 업무 다른 모든 프로젝트 업무가 그 아래 생성됩니다. 루트 작업의 이름은 프로젝트 이름입니다. 루트 노드의 업무량, 날짜, 기간은 그 아래 계층의 값을 바탕으로 합니다. 루트 노드를 삭제하거나 루트 노드의 속성을 편집할 수 없습니다. | 
 | **요약 또는 컨테이너 업무** | 요약 업무는 그 아래에 하위 작업이 있는 업무입니다. 요약 업무는 작업량 또는 비용이 없습니다. 작업량과 비용은 하위 업무의 롤업입니다. 요약 업무의 이름을 변경할 수 있지만 업무량, 날짜, 기간은 자동으로 계산되므로 바꿀 수 없습니다. 요약 업무를 삭제하면 해당 업무와 하위 업무가 모두 삭제됩니다.|  

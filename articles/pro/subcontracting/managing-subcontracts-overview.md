@@ -3,15 +3,15 @@ title: Project Operations에서 하도급 관리
 description: 이 항목에서는 프로젝트 기반 조직에서 일반적으로 종단 간 하도급 관리 프로세스에 대한 개요를 제공합니다.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323604"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593022"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations에서 하도급 관리
 
@@ -46,7 +46,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 하도급 계약 내용이 **수량 기반** 이면 시간, 경비 또는 자재에 대한 하도급 계약 내용에서 구매하는 수량은 모든 프로젝트에서 사용할 수 있습니다.
 
-하도급 계약 내용이 **작업 기반** 이면 하도급 계약 내용은 프로젝트 계획에서 노드로 표시되는 작업 본문에 매핑됩니다. 하도급 계약 내용의 값은 해당 작업을 제공하는 데 필요한 모든 구성 요소의 합계입니다. 이는 하도급 계약 내용 세부 정보로 모델링되며 시간, 경비 또는 자재 모음이 될 수 있습니다. 작업 기반 하도급 계약 내용의 경우 하도급 계약 내용도 단일 프로젝트 전용입니다.
+하도급 계약 내용이 **작업 기반** 이면 하도급 계약 내용은 프로젝트 계획에서 노드로 표시되는 작업 본문에 매핑됩니다. 하도급 계약 내용의 값은 해당 작업을 제공하는 데 필요한 모든 구성 요소의 합계입니다. 이는 하도급 계약 내용 세부 정보로 모델링되며 시간, 경비 또는 자재 모음이 될 수 있습니다. 작업 기반 하도급 계약 내용의 경우 하도급 계약 내용도 단일 프로젝트 전용입니다. 이러한 유형의 하도급 계약은 현재 Project Operations에서 지원되지 않습니다.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

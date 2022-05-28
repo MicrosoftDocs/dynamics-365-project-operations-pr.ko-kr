@@ -4,14 +4,14 @@ description: 이 항목은 Project Operations 라이트 배포 - 견적 송장 �
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991539"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588008"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>미리 보기 구독 신청 - 라이트 
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008144"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589112"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 4월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -42,13 +42,13 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | **엔터티 맵** | **업데이트된 버전** | **댓글** |
 | --- | --- | --- |
 | Project Operations 통합 실제(msdyn\_actuals) | 1.0.0.14 | 재료 프로젝트 실제 데이터를 동기화하도록 맵이 수정되었습니다. |
-| 경비 추정용 Project Operations 통합 엔터티(msdyn\_estimateslines) | 1.0.0.2 | 작업 기반 청구 지원을 위해 프로젝트 계약 내용 동기화가 Finance and Operations 앱에 추가되었습니다. |
-| 시간 추정용 Project Operations 통합 엔터티(msdyn\_resourceassignments) | 1.0.0.5 | 작업 기반 청구 지원을 위해 프로젝트 계약 내용 동기화가 Finance and Operations 앱에 추가되었습니다. |
-| 재료 추정을 위한 Project Operations 통합 테이블(msdyn\_estimatelines) | 1.0.0.0 | Dataverse에서 Finance and Operations 앱으로 재료 견적을 동기화하는 새로운 테이블 맵. |
-| Project Operations 통합 프로젝트 공급업체 송장 내보내기 엔터티(msdyn\_projectvendorinvoices) | 1.0.0.0 | Finance and Operations 앱에서 Dataverse로 공급업체 송장 헤더를 동기화하는 새 테이블 맵. |
-| Project Operations 통합 프로젝트 공급업체 송장 라인 내보내기 엔터티(msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Finance and Operations 앱에서 Dataverse로 공급업체 송장 라인을 동기화하는 새 테이블 맵. |
+| 경비 추정용 Project Operations 통합 엔터티(msdyn\_estimateslines) | 1.0.0.2 | 작업 기반 청구 지원을 위해 금융 및 운영 앱에 프로젝트 계약 내용 동기화를 추가했습니다. |
+| 시간 추정용 Project Operations 통합 엔터티(msdyn\_resourceassignments) | 1.0.0.5 | 작업 기반 청구 지원을 위해 금융 및 운영 앱에 프로젝트 계약 내용 동기화를 추가했습니다. |
+| 재료 추정을 위한 Project Operations 통합 테이블(msdyn\_estimatelines) | 1.0.0.0 | Dataverse에서 금융 및 운영 앱으로 자재 견적을 동기화하는 새로운 테이블 맵. |
+| Project Operations 통합 프로젝트 공급업체 송장 내보내기 엔터티(msdyn\_projectvendorinvoices) | 1.0.0.0 | 금융 및 운영 앱의 공급업체 송장 헤더를 Dataverse로 동기화하는 새로운 테이블 맵입니다. |
+| Project Operations 통합 프로젝트 공급업체 송장 라인 내보내기 엔터티(msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 금융 및 운영 앱의 공급업체 송장 라인을 Dataverse로 동기화하는 새로운 테이블 맵입니다. |
 
-Project Operations Dataverse 솔루션 및 Finance and Operations 솔루션 버전을 업데이트할 때 항상 환경에서 맵의 최신 버전을 실행하고 모든 관련 테이블 맵을 활성화해야 합니다. 맵의 최신 버전이 활성화되지 않은 경우 특정 기능이 제대로 작동하지 않을 수 있습니다. **이중 쓰기** 페이지의 **버전** 열에서 맵의 활성 버전을 볼 수 있습니다. **테이블 맵 버전** 을 선택하고 최신 버전을 선택한 다음 선택한 버전을 저장하여 새 버전의 맵을 활성화할 수 있습니다. 기본 테이블 맵을 사용자 정의한 경우 변경 사항을 다시 적용합니다. 자세한 내용은 [응용 프로그램 수명 주기 관리](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)를 참조하십시오.
+항상 사용자 환경에서 최신 버전의 맵을 실행하고 Project Operations Dataverse 솔루션 및 Finance and Operations 솔루션 버전을 업데이트할 때 모든 관련 테이블 맵을 활성화해야 합니다. 맵의 최신 버전이 활성화되지 않은 경우 특정 기능이 제대로 작동하지 않을 수 있습니다. **이중 쓰기** 페이지의 **버전** 열에서 맵의 활성 버전을 볼 수 있습니다. **테이블 맵 버전** 을 선택하고 최신 버전을 선택한 다음 선택한 버전을 저장하여 새 버전의 맵을 활성화할 수 있습니다. 기본 테이블 맵을 사용자 정의한 경우 변경 사항을 다시 적용합니다. 자세한 내용은 [응용 프로그램 수명 주기 관리](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)를 참조하십시오.
 
 맵을 시작할 때 문제가 발생하면 이중 쓰기 문제 해결 가이드의 [맵에서 표 열 누락 문제](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) 섹션의 지침을 따르십시오.
 
@@ -79,7 +79,7 @@ Project Operations Dataverse 솔루션 및 Finance and Operations 솔루션 버�
 | 시간 및 경비 | 2204377 | 시간 입력 중 **주 복사** 를 선택하면 복사된 작업표가 자동으로 표시되어야 합니다. |
 | 시간 및 경비 | 2209059 | Dynamics 365 Field Service 시간 항목에 대한 **상태** 필드를 편집할 수 있습니다. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계 개요
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance의 프로젝트 관리 및 회계
 
 | **기능 영역** | **참조 번호** | **품질 업데이트** |
 | --- | --- | --- |

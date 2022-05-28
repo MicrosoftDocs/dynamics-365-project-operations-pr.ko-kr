@@ -2,16 +2,16 @@
 title: 프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행
 description: 이 항목은 프로젝트 일정 API를 사용하기 위한 정보 및 샘플을 제공합니다.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487693"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592056"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행
 
@@ -58,12 +58,12 @@ OperationSet은 일정에 영향을 미치는 여러 요청을 트랜잭션 내�
 
 | 예약 엔터티 | 만들기 | 엽데이트 | Delete | 중요 사항 |
 | --- | --- | --- | --- | --- |
-프로젝트 작업 | 네 | 네 | 네 | 없음 |
-| 프로젝트 작업 종속성 | 네 | 네 | | 프로젝트 작업 종속성 레코드는 업데이트되지 않습니다. 대신 이전 레코드를 삭제하고 새 레코드를 만들 수 있습니다. |
+프로젝트 작업 | 네 | 네 | 네 | **Progress**, **EffortCompleted** 및 **EffortRemaining** 필드는 Project for the Web에서 편집할 수 있지만 Project Operations에서는 편집할 수 없습니다.  |
+| 프로젝트 작업 종속성 | 네 |  | 네 | 프로젝트 작업 종속성 레코드는 업데이트되지 않습니다. 대신 이전 레코드를 삭제하고 새 레코드를 만들 수 있습니다. |
 | 리소스 할당 | 네 | 네 | | **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** 및 **PlannedWork** 필드를 사용한 작업은 지원되지 않습니다. 리소스 할당 레코드는 업데이트되지 않습니다. 대신 이전 레코드를 삭제하고 새 레코드를 만들 수 있습니다. |
-| 프로젝트 버킷 | 해당 없음 | 해당 없음 | 해당 없음 | 기본 버킷은 **CreateProjectV1** API를 사용하여 생성됩니다. |
+| 프로젝트 버킷 | 네 | 네 | 네 | 기본 버킷은 **CreateProjectV1** API를 사용하여 생성됩니다. 프로젝트 버킷 생성 및 삭제에 대한 지원이 업데이트 릴리스 16에 추가되었습니다. |
 | 프로젝트 팀원 | 네 | 네 | 네 | 생성 작업의 경우 **CreateTeamMemberV1** API를 사용합니다. |
-| Project | 네 | 네 | 해당 없음 | **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** 및 **Duration** 필드를 사용한 작업은 지원되지 않습니다. |
+| Project | 네 | 네 |  | **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** 및 **Duration** 필드를 사용한 작업은 지원되지 않습니다. |
 
 이러한 API는 사용자 지정 필드를 포함하는 엔터티 개체를 사용하여 호출할 수 있습니다.
 
@@ -75,192 +75,203 @@ ID 속성은 선택 사항입니다. 제공되는 경우 시스템은 이를 사
 
 ### <a name="project-task"></a>프로젝트 작업
 
-| **논리적 이름**                       | **생성 가능** | **편집 가능**     |
+| 논리적 이름                           | 생성 가능     | 편집 가능         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | 아니요             | 아니요               |
-| msdyn_actualcost_base                  | 아니요             | 아니요               |
-| msdyn_actualend                        | 아니요             | 아니요               |
-| msdyn_actualsales                      | 아니요             | 아니요               |
-| msdyn_actualsales_base                 | 아니요             | 아니요               |
-| msdyn_actualstart                      | 아니요             | 아니요               |
-| msdyn_costatcompleteestimate           | 아니요             | 아니요               |
-| msdyn_costatcompleteestimate_base      | 아니요             | 아니요               |
-| msdyn_costconsumptionpercentage        | 아니요             | 아니요               |
-| msdyn_effortcompleted                  | 아니요             | 아니요               |
-| msdyn_effortestimateatcomplete         | 아니요             | 아니요               |
-| msdyn_iscritical                       | 아니요             | 아니요               |
-| msdyn_iscriticalname                   | 아니요             | 아니요               |
-| msdyn_ismanual                         | 아니요             | 아니요               |
-| msdyn_ismanualname                     | 아니요             | 아니요               |
-| msdyn_ismilestone                      | 아니요             | 아니요               |
-| msdyn_ismilestonename                  | 아니요             | 아니요               |
-| msdyn_LinkStatus                       | 아니요             | 아니요               |
-| msdyn_linkstatusname                   | 아니요             | 아니요               |
-| msdyn_msprojectclientid                | 아니요             | 아니요               |
-| msdyn_plannedcost                      | 아니요             | 아니요               |
-| msdyn_plannedcost_base                 | 아니요             | 아니요               |
-| msdyn_plannedsales                     | 아니요             | 아니요               |
-| msdyn_plannedsales_base                | 아니요             | 아니요               |
-| msdyn_pluginprocessingdata             | 아니요             | 아니요               |
-| msdyn_progress                         | 아니요             | 아니요(P4W의 경우 예) |
-| msdyn_remainingcost                    | 아니요             | 아니요               |
-| msdyn_remainingcost_base               | 아니요             | 아니요               |
-| msdyn_remainingsales                   | 아니요             | 아니요               |
-| msdyn_remainingsales_base              | 아니요             | 아니요               |
-| msdyn_requestedhours                   | 아니요             | 아니요               |
-| msdyn_resourcecategory                 | 아니요             | 아니요               |
-| msdyn_resourcecategoryname             | 아니요             | 아니요               |
-| msdyn_resourceorganizationalunitid     | 아니요             | 아니요               |
-| msdyn_resourceorganizationalunitidname | 아니요             | 아니요               |
-| msdyn_salesconsumptionpercentage       | 아니요             | 아니요               |
-| msdyn_salesestimateatcomplete          | 아니요             | 아니요               |
-| msdyn_salesestimateatcomplete_base     | 아니요             | 아니요               |
-| msdyn_salesvariance                    | 아니요             | 아니요               |
-| msdyn_salesvariance_base               | 아니요             | 아니요               |
-| msdyn_scheduleddurationminutes         | 아니요             | 아니요               |
-| msdyn_scheduledend                     | 아니요             | 아니요               |
-| msdyn_scheduledstart                   | 아니요             | 아니요               |
-| msdyn_schedulevariance                 | 아니요             | 아니요               |
-| msdyn_skipupdateestimateline           | 아니요             | 아니요               |
-| msdyn_skipupdateestimatelinename       | 아니요             | 아니요               |
-| msdyn_summary                          | 아니요             | 아니요               |
-| msdyn_varianceofcost                   | 아니요             | 아니요               |
-| msdyn_varianceofcost_base              | 아니요             | 아니요               |
+| msdyn_actualcost                       | 없음             | 없음               |
+| msdyn_actualcost_base                  | 없음             | 없음               |
+| msdyn_actualend                        | 없음             | 없음               |
+| msdyn_actualsales                      | 없음             | 없음               |
+| msdyn_actualsales_base                 | 없음             | 없음               |
+| msdyn_actualstart                      | 없음             | 없음               |
+| msdyn_costatcompleteestimate           | 없음             | 없음               |
+| msdyn_costatcompleteestimate_base      | 없음             | 없음               |
+| msdyn_costconsumptionpercentage        | 없음             | 없음               |
+| msdyn_effortcompleted                  | 아니요(프로젝트의 경우 예)             | 아니요(프로젝트의 경우 예)               |
+| msdyn_effortremaining                  | 아니요(프로젝트의 경우 예)              | 아니요(프로젝트의 경우 예)                |
+| msdyn_effortestimateatcomplete         | 없음             | 없음               |
+| msdyn_iscritical                       | 없음             | 없음               |
+| msdyn_iscriticalname                   | 없음             | 없음               |
+| msdyn_ismanual                         | 없음             | 없음               |
+| msdyn_ismanualname                     | 없음             | 없음               |
+| msdyn_ismilestone                      | 없음             | 없음               |
+| msdyn_ismilestonename                  | 없음             | 없음               |
+| msdyn_LinkStatus                       | 없음             | 없음               |
+| msdyn_linkstatusname                   | 없음             | 없음               |
+| msdyn_msprojectclientid                | 없음             | 없음               |
+| msdyn_plannedcost                      | 없음             | 없음               |
+| msdyn_plannedcost_base                 | 없음             | 없음               |
+| msdyn_plannedsales                     | 없음             | 없음               |
+| msdyn_plannedsales_base                | 없음             | 없음               |
+| msdyn_pluginprocessingdata             | 없음             | 없음               |
+| msdyn_progress                         | 아니요(프로젝트의 경우 예)             | 아니요(프로젝트의 경우 예) |
+| msdyn_remainingcost                    | 없음             | 없음               |
+| msdyn_remainingcost_base               | 없음             | 없음               |
+| msdyn_remainingsales                   | 없음             | 없음               |
+| msdyn_remainingsales_base              | 없음             | 없음               |
+| msdyn_requestedhours                   | 없음             | 없음               |
+| msdyn_resourcecategory                 | 없음             | 없음               |
+| msdyn_resourcecategoryname             | 없음             | 없음               |
+| msdyn_resourceorganizationalunitid     | 없음             | 없음               |
+| msdyn_resourceorganizationalunitidname | 없음             | 없음               |
+| msdyn_salesconsumptionpercentage       | 없음             | 없음               |
+| msdyn_salesestimateatcomplete          | 없음             | 없음               |
+| msdyn_salesestimateatcomplete_base     | 없음             | 없음               |
+| msdyn_salesvariance                    | 없음             | 없음               |
+| msdyn_salesvariance_base               | 없음             | 없음               |
+| msdyn_scheduleddurationminutes         | 없음             | 없음               |
+| msdyn_scheduledend                     | 없음             | 없음               |
+| msdyn_scheduledstart                   | 없음             | 없음               |
+| msdyn_schedulevariance                 | 없음             | 없음               |
+| msdyn_skipupdateestimateline           | 없음             | 없음               |
+| msdyn_skipupdateestimatelinename       | 없음             | 없음               |
+| msdyn_summary                          | 없음             | 없음               |
+| msdyn_varianceofcost                   | 없음             | 없음               |
+| msdyn_varianceofcost_base              | 없음             | 없음               |
 
 ### <a name="project-task-dependency"></a>프로젝트 작업 종속성
 
-| **논리적 이름**              | **생성 가능** | **편집 가능** |
+| 논리적 이름                  | 생성 가능     | 편집 가능     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | 아니요             | 아니요           |
-| msdyn_linktypename            | 아니요             | 아니요           |
-| msdyn_predecessortask         | 예            | 아니요           |
-| msdyn_predecessortaskname     | 예            | 아니요           |
-| msdyn_project                 | 예            | 아니요           |
-| msdyn_projectname             | 예            | 아니요           |
-| msdyn_projecttaskdependencyid | 예            | 아니요           |
-| msdyn_successortask           | 예            | 아니요           |
-| msdyn_successortaskname       | 예            | 아니요           |
+| msdyn_linktype                | 없음             | 없음           |
+| msdyn_linktypename            | 없음             | 없음           |
+| msdyn_predecessortask         | 네            | 없음           |
+| msdyn_predecessortaskname     | 네            | 없음           |
+| msdyn_project                 | 네            | 없음           |
+| msdyn_projectname             | 네            | 없음           |
+| msdyn_projecttaskdependencyid | 네            | 없음           |
+| msdyn_successortask           | 네            | 없음           |
+| msdyn_successortaskname       | 네            | 없음           |
 
 ### <a name="resource-assignment"></a>리소스 할당
 
-| **논리적 이름**             | **생성 가능** | **편집 가능** |
+| 논리적 이름                 | 생성 가능     | 편집 가능     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | 예            | 아니요           |
-| msdyn_bookableresourceidname | 예            | 아니요           |
-| msdyn_bookingstatusid        | 아니요             | 아니요           |
-| msdyn_bookingstatusidname    | 아니요             | 아니요           |
-| msdyn_committype             | 아니요             | 아니요           |
-| msdyn_committypename         | 아니요             | 아니요           |
-| msdyn_effort                 | 아니요             | 아니요           |
-| msdyn_effortcompleted        | 아니요             | 아니요           |
-| msdyn_effortremaining        | 아니요             | 아니요           |
-| msdyn_finish                 | 아니요             | 아니요           |
-| msdyn_plannedcost            | 아니요             | 아니요           |
-| msdyn_plannedcost_base       | 아니요             | 아니요           |
-| msdyn_plannedcostcontour     | 아니요             | 아니요           |
-| msdyn_plannedsales           | 아니요             | 아니요           |
-| msdyn_plannedsales_base      | 아니요             | 아니요           |
-| msdyn_plannedsalescontour    | 아니요             | 아니요           |
-| msdyn_plannedwork            | 아니요             | 아니요           |
-| msdyn_projectid              | 예            | 아니요           |
-| msdyn_projectidname          | 아니요             | 아니요           |
-| msdyn_projectteamid          | 아니요             | 아니요           |
-| msdyn_projectteamidname      | 아니요             | 아니요           |
-| msdyn_start                  | 아니요             | 아니요           |
-| msdyn_taskid                 | 아니요             | 아니요           |
-| msdyn_taskidname             | 아니요             | 아니요           |
-| msdyn_userresourceid         | 아니요             | 아니요           |
+| msdyn_bookableresourceid     | 네            | 없음           |
+| msdyn_bookableresourceidname | 네            | 없음           |
+| msdyn_bookingstatusid        | 없음             | 없음           |
+| msdyn_bookingstatusidname    | 없음             | 없음           |
+| msdyn_committype             | 없음             | 없음           |
+| msdyn_committypename         | 없음             | 없음           |
+| msdyn_effort                 | 없음             | 없음           |
+| msdyn_effortcompleted        | 없음             | 없음           |
+| msdyn_effortremaining        | 없음             | 없음           |
+| msdyn_finish                 | 없음             | 없음           |
+| msdyn_plannedcost            | 없음             | 없음           |
+| msdyn_plannedcost_base       | 없음             | 없음           |
+| msdyn_plannedcostcontour     | 없음             | 없음           |
+| msdyn_plannedsales           | 없음             | 없음           |
+| msdyn_plannedsales_base      | 없음             | 없음           |
+| msdyn_plannedsalescontour    | 없음             | 없음           |
+| msdyn_plannedwork            | 없음             | 없음           |
+| msdyn_projectid              | 네            | 없음           |
+| msdyn_projectidname          | 없음             | 없음           |
+| msdyn_projectteamid          | 없음             | 없음           |
+| msdyn_projectteamidname      | 없음             | 없음           |
+| msdyn_start                  | 없음             | 없음           |
+| msdyn_taskid                 | 없음             | 없음           |
+| msdyn_taskidname             | 없음             | 없음           |
+| msdyn_userresourceid         | 없음             | 없음           |
 
 ### <a name="project-team-member"></a>프로젝트 팀원
 
-| **논리적 이름**                                 | **생성 가능** | **편집 가능** |
+| 논리적 이름                                     | 생성 가능     | 편집 가능     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | 아니요             | 아니요           |
-| msdyn_creategenericteammemberwithrequirementname | 아니요             | 아니요           |
-| msdyn_deletestatus                               | 아니요             | 아니요           |
-| msdyn_deletestatusname                           | 아니요             | 아니요           |
-| msdyn_effort                                     | 아니요             | 아니요           |
-| msdyn_effortcompleted                            | 아니요             | 아니요           |
-| msdyn_effortremaining                            | 아니요             | 아니요           |
-| msdyn_finish                                     | 아니요             | 아니요           |
-| msdyn_hardbookedhours                            | 아니요             | 아니요           |
-| msdyn_hours                                      | 아니요             | 아니요           |
-| msdyn_markedfordeletiontimer                     | 아니요             | 아니요           |
-| msdyn_markedfordeletiontimestamp                 | 아니요             | 아니요           |
-| msdyn_msprojectclientid                          | 아니요             | 아니요           |
-| msdyn_percentage                                 | 아니요             | 아니요           |
-| msdyn_requiredhours                              | 아니요             | 아니요           |
-| msdyn_softbookedhours                            | 아니요             | 아니요           |
-| msdyn_start                                      | 아니요             | 아니요           |
+| msdyn_calendarid                                 | 없음             | 없음           |
+| msdyn_creategenericteammemberwithrequirementname | 없음             | 없음           |
+| msdyn_deletestatus                               | 없음             | 없음           |
+| msdyn_deletestatusname                           | 없음             | 없음           |
+| msdyn_effort                                     | 없음             | 없음           |
+| msdyn_effortcompleted                            | 없음             | 없음           |
+| msdyn_effortremaining                            | 없음             | 없음           |
+| msdyn_finish                                     | 없음             | 없음           |
+| msdyn_hardbookedhours                            | 없음             | 없음           |
+| msdyn_hours                                      | 없음             | 없음           |
+| msdyn_markedfordeletiontimer                     | 없음             | 없음           |
+| msdyn_markedfordeletiontimestamp                 | 없음             | 없음           |
+| msdyn_msprojectclientid                          | 없음             | 없음           |
+| msdyn_percentage                                 | 없음             | 없음           |
+| msdyn_requiredhours                              | 없음             | 없음           |
+| msdyn_softbookedhours                            | 없음             | 없음           |
+| msdyn_start                                      | 없음             | 없음           |
 
 ### <a name="project"></a>Project
 
-| **논리적 이름**                       | **생성 가능** | **편집 가능** |
+| 논리적 이름                           | 생성 가능     | 편집 가능     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | 아니요             | 아니요           |
-| msdyn_actualexpensecost_base           | 아니요             | 아니요           |
-| msdyn_actuallaborcost                  | 아니요             | 아니요           |
-| msdyn_actuallaborcost_base             | 아니요             | 아니요           |
-| msdyn_actualsales                      | 아니요             | 아니요           |
-| msdyn_actualsales_base                 | 아니요             | 아니요           |
-| msdyn_contractlineproject              | 예            | 아니요           |
-| msdyn_contractorganizationalunitid     | 예            | 아니요           |
-| msdyn_contractorganizationalunitidname | 예            | 아니요           |
-| msdyn_costconsumption                  | 아니요             | 아니요           |
-| msdyn_costestimateatcomplete           | 아니요             | 아니요           |
-| msdyn_costestimateatcomplete_base      | 아니요             | 아니요           |
-| msdyn_costvariance                     | 아니요             | 아니요           |
-| msdyn_costvariance_base                | 아니요             | 아니요           |
-| msdyn_duration                         | 아니요             | 아니요           |
-| msdyn_effort                           | 아니요             | 아니요           |
-| msdyn_effortcompleted                  | 아니요             | 아니요           |
-| msdyn_effortestimateatcompleteeac      | 아니요             | 아니요           |
-| msdyn_effortremaining                  | 아니요             | 아니요           |
-| msdyn_finish                           | 예            | 예          |
-| msdyn_globalrevisiontoken              | 아니요             | 아니요           |
-| msdyn_islinkedtomsprojectclient        | 아니요             | 아니요           |
-| msdyn_islinkedtomsprojectclientname    | 아니요             | 아니요           |
-| msdyn_linkeddocumenturl                | 아니요             | 아니요           |
-| msdyn_msprojectdocument                | 아니요             | 아니요           |
-| msdyn_msprojectdocumentname            | 아니요             | 아니요           |
-| msdyn_plannedexpensecost               | 아니요             | 아니요           |
-| msdyn_plannedexpensecost_base          | 아니요             | 아니요           |
-| msdyn_plannedlaborcost                 | 아니요             | 아니요           |
-| msdyn_plannedlaborcost_base            | 아니요             | 아니요           |
-| msdyn_plannedsales                     | 아니요             | 아니요           |
-| msdyn_plannedsales_base                | 아니요             | 아니요           |
-| msdyn_progress                         | 아니요             | 아니요           |
-| msdyn_remainingcost                    | 아니요             | 아니요           |
-| msdyn_remainingcost_base               | 아니요             | 아니요           |
-| msdyn_remainingsales                   | 아니요             | 아니요           |
-| msdyn_remainingsales_base              | 아니요             | 아니요           |
-| msdyn_replaylogheader                  | 아니요             | 아니요           |
-| msdyn_salesconsumption                 | 아니요             | 아니요           |
-| msdyn_salesestimateatcompleteeac       | 아니요             | 아니요           |
-| msdyn_salesestimateatcompleteeac_base  | 아니요             | 아니요           |
-| msdyn_salesvariance                    | 아니요             | 아니요           |
-| msdyn_salesvariance_base               | 아니요             | 아니요           |
-| msdyn_scheduleperformance              | 아니요             | 아니요           |
-| msdyn_scheduleperformancename          | 아니요             | 아니요           |
-| msdyn_schedulevariance                 | 아니요             | 아니요           |
-| msdyn_taskearlieststart                | 아니요             | 아니요           |
-| msdyn_teamsize                         | 아니요             | 아니요           |
-| msdyn_teamsize_date                    | 아니요             | 아니요           |
-| msdyn_teamsize_state                   | 아니요             | 아니요           |
-| msdyn_totalactualcost                  | 아니요             | 아니요           |
-| msdyn_totalactualcost_base             | 아니요             | 아니요           |
-| msdyn_totalplannedcost                 | 아니요             | 아니요           |
-| msdyn_totalplannedcost_base            | 아니요             | 아니요           |
+| msdyn_actualexpensecost                | 없음             | 없음           |
+| msdyn_actualexpensecost_base           | 없음             | 없음           |
+| msdyn_actuallaborcost                  | 없음             | 없음           |
+| msdyn_actuallaborcost_base             | 없음             | 없음           |
+| msdyn_actualsales                      | 없음             | 없음           |
+| msdyn_actualsales_base                 | 없음             | 없음           |
+| msdyn_contractlineproject              | 네            | 없음           |
+| msdyn_contractorganizationalunitid     | 네            | 없음           |
+| msdyn_contractorganizationalunitidname | 네            | 없음           |
+| msdyn_costconsumption                  | 없음             | 없음           |
+| msdyn_costestimateatcomplete           | 없음             | 없음           |
+| msdyn_costestimateatcomplete_base      | 없음             | 없음           |
+| msdyn_costvariance                     | 없음             | 없음           |
+| msdyn_costvariance_base                | 없음             | 없음           |
+| msdyn_duration                         | 없음             | 없음           |
+| msdyn_effort                           | 없음             | 없음           |
+| msdyn_effortcompleted                  | 없음             | 없음           |
+| msdyn_effortestimateatcompleteeac      | 없음             | 없음           |
+| msdyn_effortremaining                  | 없음             | 없음           |
+| msdyn_finish                           | 네            | 네          |
+| msdyn_globalrevisiontoken              | 없음             | 없음           |
+| msdyn_islinkedtomsprojectclient        | 없음             | 없음           |
+| msdyn_islinkedtomsprojectclientname    | 없음             | 없음           |
+| msdyn_linkeddocumenturl                | 없음             | 없음           |
+| msdyn_msprojectdocument                | 없음             | 없음           |
+| msdyn_msprojectdocumentname            | 없음             | 없음           |
+| msdyn_plannedexpensecost               | 없음             | 없음           |
+| msdyn_plannedexpensecost_base          | 없음             | 없음           |
+| msdyn_plannedlaborcost                 | 없음             | 없음           |
+| msdyn_plannedlaborcost_base            | 없음             | 없음           |
+| msdyn_plannedsales                     | 없음             | 없음           |
+| msdyn_plannedsales_base                | 없음             | 없음           |
+| msdyn_progress                         | 없음             | 없음           |
+| msdyn_remainingcost                    | 없음             | 없음           |
+| msdyn_remainingcost_base               | 없음             | 없음           |
+| msdyn_remainingsales                   | 없음             | 없음           |
+| msdyn_remainingsales_base              | 없음             | 없음           |
+| msdyn_replaylogheader                  | 없음             | 없음           |
+| msdyn_salesconsumption                 | 없음             | 없음           |
+| msdyn_salesestimateatcompleteeac       | 없음             | 없음           |
+| msdyn_salesestimateatcompleteeac_base  | 없음             | 없음           |
+| msdyn_salesvariance                    | 없음             | 없음           |
+| msdyn_salesvariance_base               | 없음             | 없음           |
+| msdyn_scheduleperformance              | 없음             | 없음           |
+| msdyn_scheduleperformancename          | 없음             | 없음           |
+| msdyn_schedulevariance                 | 없음             | 없음           |
+| msdyn_taskearlieststart                | 없음             | 없음           |
+| msdyn_teamsize                         | 없음             | 없음           |
+| msdyn_teamsize_date                    | 없음             | 없음           |
+| msdyn_teamsize_state                   | 없음             | 없음           |
+| msdyn_totalactualcost                  | 없음             | 없음           |
+| msdyn_totalactualcost_base             | 없음             | 없음           |
+| msdyn_totalplannedcost                 | 없음             | 없음           |
+| msdyn_totalplannedcost_base            | 없음             | 없음           |
 
+### <a name="project-bucket"></a>프로젝트 버킷
+
+| 논리적 이름          | 생성 가능      | 편집 가능     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | 네             | 없음           |
+| msdyn_name            | 네             | 네          |
+| msdyn_project         | 네             | 없음           |
+| msdyn_projectbucketid | 네             | 없음           |
 
 ## <a name="limitations-and-known-issues"></a>제한 사항 및 알려진 문제
 다음은 제한 사항 및 알려진 문제 목록입니다.
 
 - 프로젝트 일정 API는 **Microsoft Project 라이선스가 있는 사용자** 만 사용할 수 있습니다. 다음 사용자는 사용할 수 없습니다.
+
     - 응용 프로그램 사용자
     - 시스템 사용자
     - 통합 사용자
     - 필요한 라이선스가 없는 다른 사용자
+
 - 각 **OperationSet** 는 최대 100개의 작업만 가질 수 있습니다.
 - 각 사용자는 최대 10개의 열린 **OperationSet** 만 가질수 있습니다.
 - Project Operations는 현재 프로젝트에서 최대 500개의 총 작업을 지원합니다.
@@ -269,8 +280,8 @@ ID 속성은 선택 사항입니다. 제공되는 경우 시스템은 이를 사
 
 ## <a name="error-handling"></a>오류 처리
 
-   - 작업 세트에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **작업 세트** 로 이동합니다.
-   - 프로젝트 일정 서비스에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **PSS 오류 로그** 로 이동합니다.
+- 작업 세트에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **작업 세트** 로 이동합니다.
+- 프로젝트 일정 서비스에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **PSS 오류 로그** 로 이동합니다.
 
 ## <a name="sample-scenario"></a>샘플 시나리오
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

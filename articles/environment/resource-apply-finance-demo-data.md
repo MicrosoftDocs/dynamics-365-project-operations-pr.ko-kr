@@ -4,14 +4,14 @@ description: 이 항목에서는 Project Operations의 데모 데이터를 Dynam
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009674"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588974"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Finance Cloud 호스팅 환경에 데모 데이터 적용
 

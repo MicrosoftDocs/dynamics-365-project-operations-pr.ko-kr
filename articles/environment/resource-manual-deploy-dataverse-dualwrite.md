@@ -4,14 +4,14 @@ description: 이 항목에서는 이중 쓰기를 지원하도록 Project Operat
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986454"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591228"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>이중 쓰기를 지원하는 Project Operations Dataverse 앱 수동 배포
 
@@ -37,7 +37,7 @@ Microsoft Dynamics LCS(Lifecycle Services)를 통해 배포하는 동안 이 항
 3. 환경 유형을 선택합니다. 평가판 제안에 가입한 경우 **평가판(구독 기반)** 을 선택합니다.
 4. 배포 지역을 확인합니다.
 5. **이 환경에 대한 데이터베이스 만들기** 옵션을 활성화합니다. 
-6. 언어를 확인한 다음 통화가 사용자의 Finance and Operations 앱 통화와 일치하는지 확인합니다.
+6. 언어를 확인한 다음 통화가 금융 및 운영 앱의 통화와 일치하는지 확인합니다.
 7. **Dynamics 365 앱** 옵션을 활성화하고 **이 앱 자동 배포** 필드가 **없음** 으로 설정되어 있는지 확인합니다.
 8. 보안 그룹이 필요한 경우 보안 그룹을 추가합니다.
 9. **저장** 을 선택하여 환경을 만듭니다.
@@ -62,4 +62,4 @@ Project Operations를 설치하기 전에 이전 절차를 완료한 경우에�
 
 ## <a name="link-your-environments"></a><a name="link"></a>환경을 연결
 
-Dataverse 환경이 배포된 후 Finance and Operations 앱에서 링크를 설정할 수 있습니다. [이중 쓰기 마법사를 사용하여 환경 연결](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment)의 단계를 따릅니다.
+Dataverse 환경이 배포되면 금융 및 운영 앱에서 링크를 설정할 수 있습니다. [이중 쓰기 마법사를 사용하여 환경 연결](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment)의 단계를 따릅니다.

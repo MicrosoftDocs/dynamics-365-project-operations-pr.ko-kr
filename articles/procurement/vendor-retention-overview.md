@@ -3,16 +3,16 @@ title: 공급업체 재방문 주기 개요
 description: 이 항목은 공급업체 유지 기능에 대한 개요를 제공합니다.
 author: sigitac
 ms.date: 10/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5f89904af5fb00eac46de834a438f412b371e74e
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: f9e4a1e63e47524bb622771f645c04e61c279496
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594605"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588468"
 ---
 # <a name="vendor-retention-overview"></a>공급업체 재방문 주기 개요
 
