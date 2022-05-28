@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992349"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599738"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>작업 세분화 구조를 위한 업그레이드 고려 사항
 

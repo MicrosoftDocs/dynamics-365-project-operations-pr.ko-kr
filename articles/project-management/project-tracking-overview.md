@@ -2,17 +2,16 @@
 title: 프로젝트 작업량 추적
 description: 이 항목은 프로젝트 노력 및 작업 진행 상황을 추적하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993969"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593804"
 ---
 # <a name="project-effort-tracking"></a>프로젝트 작업량 추적
 
@@ -46,7 +45,8 @@ Project Operations는 작업에 대한 작업량 차이를 보여 줍니다. EAC
 - 리프 노드 작업에 이르기까지 각 개별 작업에 대한 새 EAC가 계산됩니다. 
 - 리프 노드까지 영향을 받는 하위 작업에는 EAC 값에 따라 남은 작업량 및 진행률이 다시 계산됩니다. 이렇게 하면 작업의 작업량 차이에 대해 새 추정이 생성됩니다. 
 - 루트 노드까지의 요약 작업의 EAC가 다시 계산됩니다.
-
+- 요약 작업에 대한 승인된 작업량은 모든 하위 작업에 대한 승인된 작업량과 요약 작업에 대한 승인된 작업량의 합계입니다.
+- 요약 작업의 남은 작업량은 모든 하위 작업의 남은 작업량에서 요약 작업에 대한 승인된 작업량을 뺀 값입니다.
 
 ## <a name="project-status-summary"></a>프로젝트 상태 요약
 

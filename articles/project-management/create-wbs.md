@@ -4,14 +4,14 @@ description: 이 토픽은 새 스케줄링 인터페이스의 기본 제어를 
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928623"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597806"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>작업 분할 구조(WBS) 만들기
 
@@ -124,7 +124,7 @@ Project Operations에서 작업 분할 구조를 사용하는 경우 다음 제�
 |----------------------------------------------------|----------------------|
 | 프로젝트의 최대 총 작업                  | 500                  |
 | 프로젝트의 최대 총 기간               | 3650일(10년) |
-| 프로젝트의 최대 총 리소스              | 150                  |
+| 프로젝트의 최대 총 리소스              | 300                  |
 | 프로젝트에 대한 최대 총 링크(후속자만 해당) | 600                  |
 | 프로젝트의 최대 총 사용자 지정 필드          | 10                   |
 | 작업당 최대 체크리스트 항목                   | 20                   |

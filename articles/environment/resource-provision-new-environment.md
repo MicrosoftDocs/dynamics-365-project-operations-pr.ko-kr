@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928669"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594862"
 ---
 # <a name="provision-a-new-environment"></a>새 환경 프로비전
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 이 토픽은 리소스/비 재고 기반 시나리오를 위한 새 Dynamics 365 Project Operations 환경을 프로비전하는 방법에 대한 정보를 제공합니다.
 
@@ -34,7 +34,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations 환경 프로비전
 
-1. 새로운 Dynamics 365 Finance [데모 환경](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) 또는 [샌드박스/프로덕션 환경](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure)을 엽니다. 
+1. 새 Dynamics 365 Finance[데모 환경](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) 또는 [샌드박스/프로덕션 환경](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) 배포를 엽니다. 
 2. **환경 프로비전** 마법사를 안내합니다. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Project Operations에는 애플리케이션 버전이 **10.0.13(10.0.569.20009)*
 
     ![솔루션 적용.](./media/13ApplySolutions.png)
 
-5. 두 솔루션 **Dynamics 365 Finance and Operations 이중 쓰기 엔터티 맵** 과 **Dynamics 365 Project Operations 이중 쓰기 엔터티 맵** 을 모두 선택한 다음 **적용** 을 선택합니다.
+5. 두 솔루션 **Dynamics 365 Finance and Operations 이중 쓰기 엔터티 맵** 과 **Dynamics 365 Project Operations 이중 쓰기 엔터티 맵** 을 모두 선택하고 **적용** 을 선택합니다.
 
     ![솔루션 확인.](./media/14ConfirmSolutions.png)
 

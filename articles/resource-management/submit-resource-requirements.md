@@ -4,14 +4,14 @@ description: 생성된 리소스 요건을 리소스 요청으로 제출할 수 
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: dedde7778cc726d3f06aefc0243edfe130e6d0b58773e0bb8e87cfcb13f1cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994734"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598680"
 ---
 # <a name="submit-a-resource-request"></a>리소스 요청 제출
 

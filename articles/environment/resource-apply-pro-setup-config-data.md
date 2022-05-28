@@ -4,27 +4,27 @@ description: 이 항목은 Project Operations에서 구성 데이터를 설정�
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986634"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594724"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Common Data Service에서 구성 데이터 설정 및 적용 
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>필수 조건
 
 Common Data Service(CDS)에서 데이터 구성을 시작하기 전에 다음 전제 조건이 충족되어야 합니다.
 
-1.  CDS 환경 및 Project Operations을 위한 Dynamics 365 Finance 환경을 프로비저닝합니다.
-2.  Dynamics 365 Finance의 법인 정보는 CDS 환경에 공유됩니다. 즉 CDS의 **회사** 법인에는 다음과 같은 회사 기록이 있습니다.
+1.  Project Operations를 위해 CDS 환경 및 Dynamics 365 Finance 환경을 프로비저닝합니다.
+2.  Dynamics 365 Finance의 법인 정보는 CDS 환경과 공유됩니다. 즉 CDS의 **회사** 법인에는 다음과 같은 회사 기록이 있습니다.
   - THPM
   - USPM
   - GBPM
@@ -132,7 +132,7 @@ Common Data Service(CDS)에서 데이터 구성을 시작하기 전에 다음 �
 12. 다음 필드를 업데이트합니다.
 
  - **기본 회사**: USPM
- - **기본 조직 단위**:Contoso Robotics Global
+ - **기본 조직 구성 단위**: Contoso Robotics Global
  - **송장 빈도**: 일곱째 날과 마지막 날
  - **근무 시간 템플릿**: 생성한 템플릿으로 변경합니다.
 

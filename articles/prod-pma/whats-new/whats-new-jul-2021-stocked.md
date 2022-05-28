@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992709"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597070"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>리소스/생산 기반 시나리오에 대한 2021년 7월 Project Operations의 새로운 기능 또는 변경된 기능
 
@@ -64,7 +64,7 @@ _**적용 대상:** 재고/생산 기반 시나리오에 대한 Project Operatio
 | 이동 및 경비                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | 워크플로를 찾을 수 없는 경우 **경비 문서 상태 재설정** 도구는 경비 보고서 상태를 **초안** 으로 재설정해야 합니다. 
 
 ### <a name="regulatory-updates"></a>규제 업데이트
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. 또한 LCS(Lifecycle Services)에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+금융 및 운영 앱의 규정 업데이트에 대한 자세한 내용은 [규정 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. 또한 LCS(Lifecycle Services)에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

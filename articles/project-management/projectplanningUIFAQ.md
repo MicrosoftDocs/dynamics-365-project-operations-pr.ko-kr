@@ -2,17 +2,17 @@
 title: 작업 그리드에서 작업 문제 해결
 description: 이 토픽은 작업 그리드에서 작업할 때 필요한 문제 해결 정보를 제공합니다.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547207"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596426"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>작업 그리드에서 작업 문제 해결 
 
@@ -70,6 +70,9 @@ Project Operations를 위해서는 프로젝트 매개 변수가 PEX 끝점을 �
       | Project Operations                   | 유형=2             |
 
 4. **프로젝트 매개 변수** 페이지에서 필드를 제거합니다.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>완화 3: project.microsoft.com에 로그인
+Microsoft Edge 브라우저에서 새 탭을 열고 project.microsoft.com으로 이동한 다음 Project Operations에 액세스하는 데 사용하는 사용자 역할을 사용하여 로그인합니다.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>문제: 프로젝트가 로드되지 않고 UI가 스피너에서 멈춤
 

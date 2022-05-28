@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995634"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600060"
 ---
 # <a name="proforma-invoices"></a>견적 송장
 
@@ -82,6 +82,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 - 수량 및 청구 유형을 편집하고 조정합니다.
 
 송장을 확인하려면 **확인** 을 선택합니다. 확인 작업은 단방향 작업입니다. **확인** 을 선택하면 시스템에서 송장을 읽기 전용으로 만들고 각 송장 라인에 대한 각 송장 라인 세부 정보에서 청구된 영업 실제 정보를 만듭니다. 송장 라인 세부 정보가 청구되지 않은 실제 영업을 참조하는 경우 시스템은 청구되지 않은 실제 영업도 반대로 합니다. (시간 또는 경비 항목에서 만든 모든 송장 라인 세부 정보 실제 청구되지 않은 판매를 참조합니다.) 총원장 통합 시스템은 이 반전을 사용하여 회계 목적으로 진행 중인 WIP(프로젝트 작업)를 되돌릴 수 있습니다.
+
+> [!NOTE]
+> 확인된 견적 송장 및 송장 라인 및 송장 라인 세부 정보와 같은 관련 레코드는 편집하거나 삭제할 수 없습니다. 
 
 ### <a name="correct-a-confirmed-invoice"></a>확인된 송장 수정
 

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798048"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596288"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>OCR을 사용하여 영수증 캡처
 
@@ -52,7 +52,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="installation"></a>설치
 
-이러한 고급 경비 기능을 사용하려면 Microsoft Dynamics 365 Finance용 경비 관리 서비스 추가 기능을 설치하고 인스턴스에서 기능을 켭니다. Microsoft Dynamics Lifecycle Services(LCS)의 프로젝트에서 추가 기능에 액세스할 수 있습니다.
+이러한 고급 경비 기능을 사용하려면 Microsoft Dynamics 365 Finance용 경비 관리 서비스 추가 기능을 설치하고 인스턴스에서 기능을 켜십시오. Microsoft Dynamics Lifecycle Services(LCS)의 프로젝트에서 추가 기능에 액세스할 수 있습니다.
 
 1. LCS에 로그인하고 원하는 환경을 엽니다.
 2. **전체 세부 사항** 으로 이동합니다.

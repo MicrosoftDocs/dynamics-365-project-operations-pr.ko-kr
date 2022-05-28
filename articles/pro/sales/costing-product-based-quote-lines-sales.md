@@ -4,14 +4,14 @@ description: 이 항목에서는 제품 기반 견적 라인에 원가를 적용
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33cfd42a61b368dc2d2d7f18bfaccf3a221a38fe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001889"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598315"
 ---
 # <a name="costing-product-based-quote-lines"></a>원가 계산 제품 기반 견적 라인
 

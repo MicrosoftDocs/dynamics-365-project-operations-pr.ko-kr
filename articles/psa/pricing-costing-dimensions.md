@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998469"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593620"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>가격 및 원가 차원 홈 페이지
 
@@ -66,16 +67,16 @@ PSA는 기본 가격 차원 집합으로 배송됩니다. 이러한 것을 **Pro
 
 | 역할        | 조직 단위    |단위      |가격      |통화  |
 | ------------|-------------|----------|----------:|----------|
-| 개발자   | Contoso US  |시간 | 200|USD     |
-| 개발자   | Contoso India |시간|   112|USD     |
+| 개발자   | Contoso US  |Hour | 200|USD     |
+| 개발자   | Contoso India |Hour|   112|USD     |
 
 
 **샘플 원가 요율**
 
 | 급여대     | 조직 단위    |단위      |가격      |통화  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |시간 | 145|USD     |
-| My company_Band2 | Contoso India |시간|   67|USD     |
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

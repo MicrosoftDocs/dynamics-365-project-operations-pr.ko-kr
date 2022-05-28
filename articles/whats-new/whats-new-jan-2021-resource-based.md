@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008099"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599554"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 1월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -43,7 +43,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | **프로젝트 계획 및 추적** | 2090202 | 더 이상 사용되지 않는 비즈니스 규칙을 **더 이상 사용되지 않음** 으로 표시했습니다. |
 | **시간 및 경비** | 2091249 | 사용자가 제출되거나 승인된 시간 항목에 대한 작업을 변경할 수 없도록 제어가 강화되었습니다. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계 개요
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance의 프로젝트 관리 및 회계
 
 | **기능 영역** | **참조 번호** | **품질 업데이트** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="regulatory-updates"></a>규제 업데이트
 
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+금융 및 운영 앱의 규정 업데이트에 대한 자세한 내용은 [규정 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

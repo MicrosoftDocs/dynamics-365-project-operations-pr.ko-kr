@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753300"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598496"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 10월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -49,7 +49,7 @@ ms.locfileid: "7753300"
 | 청구 및 가격 책정 | 2338357 | 자재 사용 로그의 통화는 프로젝트가 선택될 때 프로젝트의 통화에서 기본적으로 설정되어야 합니다. |
 | 시간 및 경비 | 2414777 | 경비 또는 시간 입력에 둘 이상의 관련 프로젝트 승인이 있는 경우 승인을 취소할 수 있어야 합니다. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance의 프로젝트 관리 및 회계
 
 | 기능 영역 | 참조 번호 | 품질 업데이트 |
 | --- | --- | --- |
