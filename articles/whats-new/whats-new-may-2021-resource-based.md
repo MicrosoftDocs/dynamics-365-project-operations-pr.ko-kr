@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994689"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723776"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 5월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -21,7 +21,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 이 항목은 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
 
 - Dynamics 365 Dataverse 환경 버전 4.10.0.186의 Project Operations
-- Finance and Operations 앱 환경 버전 10.0.18의 프로젝트 관리 및 회계
+- 금융 및 운영 앱 환경 버전 10.0.18의 프로젝트 관리 및 회계
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
 
@@ -41,9 +41,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | Project Operations 통합 프로젝트 공급업체 송장 라인 내보내기 엔터티(msdyn\_projectvendorinvoicelines) | 1.0.0.1 | 품질 업데이트 |
 | 프로젝트 V2 (msdyn\_projects) | 1.0.0.2 | 품질 업데이트 |
 
-Project Operations Dataverse 솔루션 및 Finance and Operations 앱 솔루션 버전을 업데이트할 때 환경에서 맵의 최신 버전을 실행하고 모든 관련 테이블 맵을 활성화합니다. 맵의 최신 버전이 활성화되지 않은 경우 특정 기능이 제대로 작동하지 않을 수 있습니다. **이중 쓰기** 페이지의 **버전** 열에서 맵의 활성 버전을 볼 수 있습니다. 새 버전의 맵을 활성화하려면 **테이블 맵 버전** 을 선택하고 최신 버전을 선택한 다음 선택한 버전을 저장합니다. 기본 테이블 맵을 사용자 정의한 경우 변경 사항을 다시 적용합니다. 자세한 내용은 [응용 프로그램 수명 주기 관리](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md)를 참조하십시오.
+항상 사용자 환경에서 최신 버전의 맵을 실행하고 Project Operations Dataverse 솔루션 및 금융 및 운영 앱 솔루션 버전을 업데이트할 때 모든 관련 테이블 맵을 활성화하십시오. 맵의 최신 버전이 활성화되지 않은 경우 특정 기능이 제대로 작동하지 않을 수 있습니다. **이중 쓰기** 페이지의 **버전** 열에서 맵의 활성 버전을 볼 수 있습니다. 새 버전의 맵을 활성화하려면 **테이블 맵 버전** 을 선택하고 최신 버전을 선택한 다음 선택한 버전을 저장합니다. 기본 테이블 맵을 사용자 정의한 경우 변경 사항을 다시 적용합니다. 자세한 내용은 [응용 프로그램 수명 주기 관리](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)를 참조하십시오.
 
-맵을 시작할 때 문제가 발생하면 이중 쓰기 문제 해결 가이드의 [맵에서 표 열 누락 문제](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) 섹션의 지침을 따르십시오.
+맵을 시작할 때 문제가 발생하면 이중 쓰기 문제 해결 가이드의 [맵에서 표 열 누락 문제](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) 섹션의 지침을 따르십시오.
 
 ## <a name="quality-updates"></a>품질 업데이트
 
@@ -67,7 +67,7 @@ Project Operations Dataverse 솔루션 및 Finance and Operations 앱 솔루션 
 | 시간 항목 | 2202476 | **시간 항목** 페이지는 이제 반응 그리드 제어를 사용하고 그리드 정렬 불량과 같은 문제를 수정합니다. |
 | 시간 항목 | 2223377 | 사용성과의 혼동을 피하기 위해 **예약 가능한 리소스** 페이지의 **관련 항목** 섹션에서 시간 항목이 숨겨집니다. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계 개요
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance의 프로젝트 관리 및 회계
 
 | 기능 영역 | 참조 번호 | 품질 업데이트 |
 | --- | --- | --- |

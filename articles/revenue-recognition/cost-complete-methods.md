@@ -4,14 +4,14 @@ description: 이 토픽은 프로젝트 완료 비용을 계산하는 데 사용
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997974"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601670"
 ---
 # <a name="cost-to-complete-methods"></a>방법을 완료하는 데 드는 비용
 

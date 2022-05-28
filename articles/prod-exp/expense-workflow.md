@@ -1,6 +1,6 @@
 ---
 title: 경비 관리 워크플로
-description: 이 항목은 경비 관리에서 경비 보고서에 대한 검토 프로세스를 설정하기 위해 Microsoft Dynamics 365 Finance에서 워크플로 시스템을 사용하는 방법을 설명합니다.
+description: 이 항목에서는 Microsoft Dynamics 365 Finance의 워크플로 시스템을 사용하여 경비 관리에서 경비 보고서에 대한 검토 프로세스를 설정하는 방법에 대해 설명합니다.
 author: ShylaThompson
 ms.date: 09/13/2017
 ms.topic: article
@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c2a2cae435342139f32d1bb5d38d68acd920453f5e6f6551e1f6d57967d8053
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3eb4d57194ce2dd7f80d75c2c765f1cfa48b0348
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001304"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684282"
 ---
 # <a name="expense-management-workflow"></a>경비 관리 워크플로
 

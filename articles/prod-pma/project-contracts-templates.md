@@ -1,34 +1,33 @@
 ---
 title: Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화
-description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
+description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001079"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684650"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
+
+이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 
 > [!NOTE] 
 > Enterprise 버전 7.3.0을 사용하는 경우 KB 4074835를 설치해야 합니다.
@@ -112,24 +111,24 @@ Project Service Automation과 Finance 통합 솔루션이 적용되면 업그레
 - 프로젝트 계약 및 프로젝트의 **SourceDataID** 는 다른 값으로 업데이트하거나 매핑에서 제거할 수 있습니다. 기본 템플릿 값은 **Project Service Automation** 입니다.
 - **PaymentTerms** 매핑은 Finance의 유효한 지불 조건을 반영하도록 업데이트해야 합니다. 프로젝트 작업에서 매핑을 제거할 수도 있습니다. 기본값 맵에는 데모 데이터에 대한 기본값이 있습니다. 다음 표에는 Project Service Automation의 값이 나와 있습니다.
 
-    | 값 | 설명   |
+    | 값 | Description   |
     |-------|---------------|
-    | 1     | 30일        |
+    | 6     | 30일        |
     | 2     | 2% 10일, 30일 |
     | 3     | 45일        |
     | 4     | 60일        |
 
-## <a name="power-query"></a>파워 쿼리
+## <a name="power-query"></a>Power Query
 
-다음 조건이 충족되는 경우 Excel용 Microsoft 파워 쿼리를 사용하여 데이터를 필터링합니다.
+다음 조건이 충족되는 경우 Excel용 Microsoft Power Query를 사용하여 데이터를 필터링합니다.
 
 - Dynamics 365 Sales에 판매 주문이 있습니다.
 - Project Service Automation에 여러 조직 단위가 있으며 이러한 조직 단위는 Finance의 여러 법인에 매핑됩니다.
 
-파워 쿼리를 사용해야 하는 경우 다음 지침을 따르십시오.
+Power Query를 사용해야 하는 경우 다음 지침을 따르십시오.
 
 - 프로젝트 및 계약(PSA에서 Fin 및 Ops까지) 템플릿에는 **작업 항목(msdyn\_ordertype = 192350001)** 유형의 판매 주문만 포함하는 기본 필터가 있습니다. 이 필터는 Finance에서 판매 주문에 대해 프로젝트 계약이 생성되지 않도록 보장합니다. 고유한 템플릿을 만드는 경우 이 필터를 추가해야 합니다.
-- 통합 연결 집합의 법인에 동기화되어야 하는 계약 조직만 포함하는 파워 쿼리 필터를 만듭니다. 예를 들어 계약 조직 단위가 Contoso US인 프로젝트 계약은 USSI 법인에 동기화되어야 하지만 계약 조직 단위가 Contoso Global인 프로젝트 계약은 USMF 법인과 동기화되어야 합니다. 이 필터를 작업 매핑에 추가하지 않으면 모든 프로젝트 계약이 계약 조직 단위에 관계없이 연결 집합에 대해 정의된 법인에 동기화됩니다.
+- 통합 연결 집합의 법인과 동기화해야 하는 계약 조직만 포함하는 Power Query 필터를 만듭니다. 예를 들어 Contoso US의 계약 조직 구성 단위와 보유한 프로젝트 계약은 USSI 법인과 동기화되어야 하지만 Contoso Global의 계약 조직 구성 단위와 보유한 프로젝트 계약은 USMF 법인과 동기화되어야 합니다. 이 필터를 작업 매핑에 추가하지 않으면 모든 프로젝트 계약이 계약 조직 단위에 관계없이 연결 집합에 대해 정의된 법인에 동기화됩니다.
 
 ## <a name="template-mapping-in-data-integration"></a>데이터 통합의 템플릿 매핑
 

@@ -1,24 +1,23 @@
 ---
 title: 경비 영수증 처리
-description: 이 항목은 영수증에 대한 광학 문자 인식(OCR) 처리에 대한 정보를 제공합니다. 이 기능은 Microsoft Dynamics 365 Finance에서 경비 보고서를 작성할 때 사용자 경험을 개선하도록 설계되었습니다.
+description: 이 항목은 영수증에 대한 광학 문자 인식(OCR) 처리에 대한 정보를 제공합니다. 이 기능은 Microsoft Dynamics 365 Finance에서 경비 보고서를 생성할 때 사용자 경험을 개선하도록 설계되었습니다.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001394"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684328"
 ---
 # <a name="expense-receipt-processing"></a>경비 영수증 처리
 
@@ -51,7 +50,7 @@ ms.locfileid: "7001394"
 
 이 기능은 경비 경험을 단순화하기 위해 **재구상된 경비 보고서** 와 함께 사용됩니다. 이 기능은 Sandbox 및 Production인 Tier 2+ 환경에서만 사용할 수 있습니다.
 
-이러한 고급 경비 기능을 사용하려면 Microsoft Dynamics 365 Finance용 경비 관리 서비스 추가 기능을 설치하고 인스턴스에서 기능을 켭니다. Microsoft Dynamics Lifecycle Services(LCS)의 프로젝트에서 추가 기능에 액세스할 수 있습니다.
+이러한 고급 경비 기능을 사용하려면 Microsoft Dynamics 365 Finance용 경비 관리 서비스 추가 기능을 설치하고 인스턴스에서 기능을 켜십시오. Microsoft Dynamics Lifecycle Services(LCS)의 프로젝트에서 추가 기능에 액세스할 수 있습니다.
 
 1. LCS에 로그인하고 원하는 환경을 엽니다.
 2. **전체 세부 사항** 으로 이동합니다.

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993879"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8728012"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Project Service 추가 기능을 사용하여 Microsoft Project의 작업 계획
 
@@ -40,7 +41,7 @@ ms.locfileid: "6993879"
 ## <a name="download-and-install-the-add-in"></a>추가 기능 다운로드 및 설치  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 로그인 정보를 준비합니다. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]에서 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]로 연결하기 위해 이 정보가 필요합니다.  
 
-1.  다운로드 센터에서 지원되는 Project Service 버전 [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) 또는 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956)를 위한 추가 기능을 다운로드할 수 있습니다.  
+1.  다운로드 센터에서 지원되는 Project Service 버전 [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) 또는 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956)를 위한 추가 기능을 다운로드할 수 있습니다.  
 
 2.  다운로드 링크를 선택합니다.  
 

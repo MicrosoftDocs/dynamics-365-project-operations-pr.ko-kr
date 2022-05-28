@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007334"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684880"
 ---
 # <a name="project-resourcing-home-page"></a>프로젝트 리소싱 홈 페이지
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007334"
 
 이 항목은 프로젝트 리소싱에 대한 정보를 제공합니다.
 
-프로젝트 계획 단계에서 프로젝트 관리자와 리소스 관리자가 겪는 한 가지 과제는 리소스 할당으로, 프로젝트에서 작업할 올바른 리소스를 결정하고 예약해야 합니다. Dynamics 365 Finance에서는 프로젝트에 대한 리소스 기능을 사용하면 특정 참여 또는 참여의 일부를 위해 예약할 수 있는 임시 리소스로 처리되는 역할을 정의할 수 있습니다. 이러한 유형의 리소싱을 통해 프로젝트 관리자와 리소스 관리자는 다음 작업을 완료할 수 있습니다.
+프로젝트 계획 단계에서 프로젝트 관리자와 리소스 관리자가 겪는 한 가지 과제는 리소스 할당으로, 프로젝트에서 작업할 올바른 리소스를 결정하고 예약해야 합니다. Dynamics 365 Finance에서 프로젝트에 대한 자원 조달 기능을 사용하면 특정 계약이나 계약의 일부를 위해 예약할 수 있는 임시 리소스로 처리되는 역할을 정의할 수 있습니다. 이러한 유형의 리소싱을 통해 프로젝트 관리자와 리소스 관리자는 다음 작업을 완료할 수 있습니다.
 
 - 리소스를 쉽게 일치시킬 수 있도록 필요한 역량이 있는 역할을 정의합니다.
 - 역할을 사용하여 예약된 리소스를 기반으로 하는 초기 참여 일정을 정의합니다.

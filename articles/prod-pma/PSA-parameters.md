@@ -1,32 +1,31 @@
 ---
 title: Project Service Automation 통합 매개 변수
-description: 이 항목은 Microsoft Dynamics 365 for Project Service Automation을 Microsoft Dynamics 365 Finance와 통합할 때 기본 데이터를 입력하는 방법을 구성하는 방법을 설명합니다.
+description: 이 항목에서는 Microsoft Dynamics 365 for Project Service Automation을 Microsoft Dynamics 365 Finance와 통합할 때 기본 데이터가 입력되는 방식을 구성하는 방법에 대해 설명합니다.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005849"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683684"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 통합 매개 변수
 
 [!include[banner](../includes/banner.md)]
 
-**Project Service Automation 통합 매개 변수** 페이지에서 Dynamics 365 Project Service Automation을 Dynamics 365 Finance와 통합할 때 기본 데이터를 입력하는 방법을 구성할 수 있습니다. Project Service Automation에서 Finance로 프로젝트를 성공적으로 동기화하려면 다음 필드를 설정해야 합니다.
+**Project Service Automation 통합 매개 변수** 페이지에서 Dynamics 365 Project Service Automation을 Dynamics 365 Finance와 통합할 때 기본 데이터가 입력되는 방식을 구성할 수 있습니다. Project Service Automation에서 Finance로 프로젝트를 성공적으로 동기화하려면 다음 필드를 설정해야 합니다.
 
 **Project Service Automation 통합 매개 변수** 페이지를 열려면 **프로젝트 관리 및 회계** \> **설정** \> **Dynamics 365 for Project Service Automation 통합 매개 변수** 로 이동합니다. 
 

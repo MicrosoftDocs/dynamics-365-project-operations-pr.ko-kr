@@ -1,25 +1,24 @@
 ---
 title: 회사 간 경비
 description: 이 토픽은 회사 간 비용을 사용하여 작업이 수행된 법인에 근로자 비용을 할당하는 방법에 대한 정보를 제공합니다.
-author: Surya Vaidyanathan
+author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6788a590879bd839ebb9dedc45895dc047cc9f15
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001214"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684242"
 ---
 # <a name="intercompany-expenses"></a>회사 간 경비
 

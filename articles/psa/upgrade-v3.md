@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000089"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601762"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>업그레이드 고려 사항 - PSA 버전 2.x 또는 1.x에서 버전 3
 
@@ -89,7 +90,7 @@ Project Service Automation 버전 3에서는 예약 가능한 리소스를 작�
 
 ![통합 테스트 작업 조직 할당.](media/org-unit-generate-team-10.png)
 
-프로젝트에 대한 팀을 생성할 때 작업의 다른 조직 구성 단위로 인해 두 개의 일반 팀 구성원이 만들어집니다. 기술 컨설턴트 1은Contoso India 작업을 할당하고 기술 컨설턴트 2는 Contoso US 작업을 해야합니다.  
+프로젝트에 대한 팀을 생성할 때 작업의 다른 조직 구성 단위로 인해 두 개의 일반 팀 구성원이 만들어집니다. 기술 컨설턴트 1은 Contoso India 작업을 할당하고 기술 컨설턴트 2는 Contoso US 작업을 해야합니다.  
 
 ![생성된 일반 팀 구성원.](media/org-unit-assignments-multiple-resources-11.png)
 

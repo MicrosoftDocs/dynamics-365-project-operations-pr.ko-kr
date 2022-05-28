@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005309"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727966"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Project Service Automation 추가 기능을 사용하여 Microsoft Project의 작업 계획
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005309"
 ## <a name="download-and-install-the-add-in"></a>추가 기능 다운로드 및 설치  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 로그인 정보를 준비합니다. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]에서 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]로 연결하기 위해 이 정보가 필요합니다.  
 
-1.  다운로드 센터에서 지원되는 Project Service 버전 [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) 또는 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956)를 위한 추가 기능을 다운로드할 수 있습니다.  
+1.  다운로드 센터에서 지원되는 Project Service 버전 [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) 또는 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956)를 위한 추가 기능을 다운로드할 수 있습니다.  
 
 2.  다운로드 링크를 클릭합니다.  
 
@@ -87,9 +88,8 @@ ms.locfileid: "7005309"
 
 프로젝트는 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]으로 가져옵니다. 가격 산정 및 팀 생성 프로세스가 적용됩니다. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]에서 프로젝트를 열어 팀, 프로젝트 추정, 작업 분할 구조가 생성된 것을 확인합니다. 다음 표에서는 결과를 찾을 수 있는 위치를 보여 줍니다.
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | 세부 사항 |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt 차트**   | [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **작업 분할 구조 화면** 으로 가져옵니다. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **리소스 시트** |   [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **프로젝트 팀 구성원** 화면으로 가져옵니다.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **사용 용도**    |    [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **프로젝트 추정** 화면으로 가져옵니다.     |

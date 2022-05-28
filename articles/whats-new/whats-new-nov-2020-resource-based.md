@@ -4,14 +4,14 @@ description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Pr
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007964"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600382"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020년 11월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -42,7 +42,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 시간 및 빠른 경비 입력 | 2059859          | 경비 항목을 생성할 때 예기치 않은 팝업이 열립니다.                                                                                                                         |
 | 기타                        | 2044181          | (구매 주문서 제거) msdyn_ProjectServiceCore_Patch 및 msdyn Project 서비스 핵심 솔루션을 제거하려고 하면 "레코드를 사용할 수 없습니다"라는 오류가 발생합니다.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계 개요
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance의 프로젝트 관리 및 회계
 
 | 기능 영역        | 참조 번호 | 품질 업데이트                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 프로젝트 회계  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | 이 기능을 활성화하면 CDS 통합 없이는 여러 계약 내용이 불가능합니다.                                                                                   |
 
 ### <a name="regulatory-updates"></a>규제 업데이트
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+금융 및 운영 앱의 규정 업데이트에 대한 자세한 내용은 [규정 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. LCS에 로그인하고 문제 검색 도구를 사용하여 계획된 규제 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가, 기능 유형 및 릴리스별로 검색할 수 있습니다.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

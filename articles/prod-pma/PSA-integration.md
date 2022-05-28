@@ -1,33 +1,31 @@
 ---
 title: Project Service Automation 개요
-description: 이 항목은 Dynamics 365 Project Service Automation과 Dynamics 365 Finance 통합 솔루션에 대한 정보를 제공합니다.
+description: 이 항목에서는 Dynamics 365 Finance 통합 솔루션에 Dynamics 365 Project Service Automation에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005894"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685524"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 개요
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 기능을 사용하여 Common Data Service를 통해 Dynamics 365 Finance 및 Dynamics 365 Project Service Automation의 인스턴스간에 데이터를 동기화합니다. 데이터 통합 기능과 함께 사용할 수 있는 통합 템플릿을 사용하면 프로젝트, 프로젝트 계약, 프로젝트 계약 내용, 프로젝트 계약 내용 중요 시점, 프로젝트 작업, 경비 트랜잭션 범주, 시간 추정치 및 Project Service Automation에서 Finance에 이르는 경비 추정치의 흐름을 사용할 수 있습니다.
+
+Project Service Automation to Finance 통합 솔루션은 데이터 통합 기능을 사용하여 Common Data Service를 통해 Dynamics 365 Finance 및 Dynamics 365 Project Service Automation 인스턴스 간에 데이터를 동기화합니다. 데이터 통합 기능과 함께 사용할 수 있는 통합 템플릿을 사용하면 프로젝트, 프로젝트 계약, 프로젝트 계약 내용, 프로젝트 계약 내용 중요 시점, 프로젝트 작업, 경비 트랜잭션 범주, 시간 추정치 및 Project Service Automation에서 Finance에 이르는 경비 추정치의 흐름을 사용할 수 있습니다.
 
 > [!NOTE]
 > - 버전 7.3.0을 사용하는 경우 KB 4074835를 설치해야 합니다. 그런 다음 고정 가격 프로젝트를 통합할 수 있습니다.

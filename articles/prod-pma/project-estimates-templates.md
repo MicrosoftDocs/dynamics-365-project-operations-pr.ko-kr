@@ -1,32 +1,31 @@
 ---
-title: Project Service Automation에서 Finance and Operations로 직접 프로젝트 추정치 동기화
-description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 시간 견적 및 프로젝트 경비 추정치를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
+title: Project Service Automation에서 Finance and Operations로 직접 프로젝트 추산 동기화
+description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 시간 추산 및 프로젝트 경비 추산을 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988209"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684604"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation에서 Finance and Operations로 직접 프로젝트 추정치 동기화
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation에서 Finance and Operations로 직접 프로젝트 추산 동기화
 
 [!include[banner](../includes/banner.md)]
 
-이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 시간 견적 및 프로젝트 경비 추정치를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
+이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 시간 추산 및 프로젝트 경비 추산을 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 
 > [!NOTE]
 > - 프로젝트 작업 통합, 경비 트랜잭션 범주, 시간 추정, 경비 추정 및 기능 잠금은 버전 8.0에서 사용할 수 있습니다.
@@ -68,9 +67,9 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 프로젝트 시간 추정치를 동기화하기 전에 프로젝트, 프로젝트 작업 및 프로젝트 경비 트랜잭션 범주를 동기화해야 합니다.
 
-### <a name="power-query"></a>파워 쿼리
+### <a name="power-query"></a>Power Query
 
-프로젝트 시간 예상 템플릿에서 Microsoft Excel용 파워 쿼리를 사용하여 다음 작업을 완료해야 합니다.
+프로젝트 시간 예상 템플릿에서 Excel용 Microsoft Power Query를 사용하여 다음 작업을 완료해야 합니다.
 
 - 통합이 새 시간 예측을 생성할 때 사용할 기본 예측 모델 ID를 설정합니다.
 - 시간 예측으로의 통합에 실패할 작업에서 리소스 별 레코드를 필터링합니다.
@@ -81,7 +80,7 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 템플릿에서 기본 예측 모델 ID를 업데이트하려면 **매핑** 화살표를 클릭하여 매핑을 엽니다. 그런 다음 **고급 쿼리 및 필터링** 링크를 선택합니다.
 
 - 기본 프로젝트 시간 추정치(PSA에서 Fin 및 Ops까지) 템플릿을 사용하는 경우 **적용 단계** 목록에서 **삽입된 조건** 을 선택합니다. **함수** 항목에서 **O\_forecast** 를 통합과 함께 사용해야 하는 예측 모델 ID의 이름으로 바꿉니다. 기본 템플릿에는 데모 데이터의 예측 모델 ID가 있습니다.
-- 새 템플릿을 만드는 경우 이 열을 추가해야 합니다. 파워 쿼리에서 **조건 열 추가** 를 클릭하고 새 열의 이름(예: **ModelID**)을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 프로젝트 작업이 null이 아닌 경우 \<enter the forecast model ID\>, 그렇지 않으면 null입니다.
+- 새 템플릿을 만드는 경우 이 열을 추가해야 합니다. Power Query에서 **조건부 열 추가** 를 선택하고 **ModelID** 와 같은 새 열의 이름을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 프로젝트 작업이 null이 아닌 경우 \<enter the forecast model ID\>, 그렇지 않으면 null입니다.
 
 #### <a name="filter-out-resource-specific-records"></a>리소스별 레코드 필터링
 
@@ -124,9 +123,9 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 프로젝트 경비 추정치를 동기화하기 전에 프로젝트, 프로젝트 작업 및 프로젝트 경비 트랜잭션 범주를 동기화해야 합니다.
 
-### <a name="power-query"></a>파워 쿼리
+### <a name="power-query"></a>Power Query
 
-프로젝트 경비 추정치 템플릿에서 파워 쿼리를 사용하여 다음 작업을 완료해야 합니다.
+프로젝트 경비 예상 템플릿에서 Power Query를 사용하여 다음 작업을 완료해야 합니다.
 
 - 경비 추정 라인 레코드만 포함하도록 필터링합니다.
 - 통합이 새 시간 예측을 생성할 때 사용할 기본 예측 모델 ID를 설정합니다.
@@ -141,8 +140,8 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 템플릿에서 기본 예측 모델 ID를 업데이트하려면 **경비 추정** 작업을 선택한 다음 **매핑** 화살표를 클릭하여 매핑을 엽니다. **고급 쿼리 및 필터링** 링크를 선택합니다.
 
-- 기본 프로젝트 경비 추정치(PSA에서 Fin 및 Ops까지) 템플릿을 사용하는 경우 파워 쿼리의 **적용 단계** 섹션에서 첫 번째 **삽입된 조건** 을 선택합니다. **함수** 항목에서 **O\_forecast** 를 통합과 함께 사용해야 하는 예측 모델 ID의 이름으로 바꿉니다. 기본 템플릿에는 데모 데이터의 예측 모델 ID가 있습니다.
-- 새 템플릿을 만드는 경우 이 열을 추가해야 합니다. 파워 쿼리에서 **조건 열 추가** 를 클릭하고 새 열의 이름(예: **ModelID**)을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 추정 라인 ID가 null이 아닌 경우 \<enter the forecast model ID\>, 그렇지 않으면 null입니다.
+- 기본 프로젝트 경비 추산(PSA에서 Fin 및 Ops로) 템플릿을 사용하는 경우 Power Query의 **적용 단계** 섹션에서 첫 번째 **삽입된 조건** 을 선택합니다. **함수** 항목에서 **O\_forecast** 를 통합과 함께 사용해야 하는 예측 모델 ID의 이름으로 바꿉니다. 기본 템플릿에는 데모 데이터의 예측 모델 ID가 있습니다.
+- 새 템플릿을 만드는 경우 이 열을 추가해야 합니다. Power Query에서 **조건부 열 추가** 를 선택하고 **ModelID** 와 같은 새 열의 이름을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 추정 라인 ID가 null이 아닌 경우 \<enter the forecast model ID\>, 그렇지 않으면 null입니다.
 
 #### <a name="transform-the-billing-types"></a>청구 유형을 변환합니다
 

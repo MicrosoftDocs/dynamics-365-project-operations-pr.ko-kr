@@ -1,6 +1,6 @@
 ---
 title: 경비 정책 설정
-description: 작업자가 Microsoft Dynamics 365 Finance에서 경비 보고서 및 출장 요청을 입력하고 제출할 때 따라야 하는 경비 정책을 설정할 수 있습니다.
+description: 직원이 Microsoft Dynamics 365 Finance에서 경비 보고서 및 출장 요청을 입력하고 제출할 때 따라야 하는 경비 정책을 설정할 수 있습니다.
 author: suvaidya
 ms.date: 05/20/2020
 ms.topic: article
@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 050e19016edac53ef22764d227d4ef96d89ba298287b10416febbb55bb00973a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3dc5d1768b57baa68f134af318dd9d2d7cdd756
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005939"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684742"
 ---
 # <a name="set-up-expense-policies"></a>경비 정책 설정
 

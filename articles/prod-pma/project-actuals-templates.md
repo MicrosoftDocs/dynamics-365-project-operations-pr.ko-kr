@@ -1,32 +1,31 @@
 ---
-title: Finance and Operations에 전기를 위해 Project Service Automation에서 프로젝트 통합 저널로 프로젝트 실제 데이터를 직접 동기화
-description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Finance and Operations로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
+title: Finance and Operations에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제를 동기화합니다.
+description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Finance and Operations로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988119"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683546"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations에 전기를 위해 Project Service Automation에서 프로젝트 통합 저널로 프로젝트 실제 데이터를 직접 동기화
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제를 동기화합니다.
 
 [!include[banner](../includes/banner.md)]
 
-이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업을 설명합니다.
+이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 
 템플릿은 Project Service Automation의 트랜잭션을 Finance의 준비 테이블로 동기화합니다. 동기화가 완료되면 준비 테이블의 데이터를 통합 저널로 **반드시** 가져와야 합니다.
 
@@ -42,7 +41,7 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 다음 그림은 Project Service Automation과 Finance 간에 데이터가 동기화되는 방식을 보여줍니다.
 
-[![Project Service Automation과 Finance and Operations 통합을 위한 데이터 흐름.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Finance and Operations와 Project Service Automation 통합을 위한 데이터 흐름.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation의 프로젝트 실제
 
@@ -73,9 +72,9 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 실제 동기화가 발생하기 전에 Project Service Automation 통합 매개 변수를 구성하고 프로젝트, 프로젝트 작업 및 프로젝트 경비 트랜잭션 범주를 동기화해야 합니다.
 
-### <a name="power-query"></a>파워 쿼리
+### <a name="power-query"></a>Power Query
 
-프로젝트 실제 템플릿에서 Microsoft Excel용 파워 쿼리를 사용하여 다음 작업을 완료해야 합니다.
+프로젝트 실제 템플릿에서 Excel용 Microsoft Power Query를 사용하여 다음 작업을 완료해야 합니다.
 
 - Project Service Automation의 트랜잭션 유형을 Finance의 올바른 트랜잭션 유형으로 변환합니다. 이 변환은 프로젝트 실제(PSA에서 Fin 및 Ops로) 템플릿에 이미 정의되어 있습니다.
 - Project Service Automation의 청구 유형을 Finance의 올바른 청구 유형으로 변환합니다. 이 변환은 프로젝트 실제(PSA에서 Fin 및 Ops로) 템플릿에 이미 정의되어 있습니다. 그런 다음 청구 유형은 **Project Service Automation 통합 매개 변수** 페이지의 구성에 따라 라인 속성에 매핑됩니다.
@@ -84,9 +83,9 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 - 회사 간 시간 또는 회사 간 경비 실제가 Finance에 동기화되지 않는 경우 템플릿에서 마지막으로 삽입된 조건부 열을 삭제해야 합니다. 그렇지 않으면 통합 오류가 발생하거나 잘못된 실제 트랜잭션을 Finance로 가져올 수 있습니다.
 
 #### <a name="contract-organizational-unit"></a>연락처 조직 구성 단위
-템플릿에서 삽입된 조건부 열을 업데이트하려면 **매핑** 화살표를 클릭하여 매핑을 엽니다. **고급 쿼리 및 필터링** 링크를 선택하여 파워 쿼리를 엽니다.
+템플릿에서 삽입된 조건부 열을 업데이트하려면 **매핑** 화살표를 클릭하여 매핑을 엽니다. **고급 쿼리 및 필터링** 링크를 선택하여 Power Query를 엽니다.
 
-- 기본 프로젝트 실제(PSA에서 Fin 및 Ops까지) 템플릿을 사용하는 경우 파워 쿼리의 **적용 단계** 섹션에서 마지막 **삽입된 조건** 을 선택합니다. **함수** 항목에서 **USSI** 를 통합과 함께 사용해야 하는 법인의 이름으로 바꿉니다. 필요에 따라 추가 조건을 **함수** 항목에 추가하고 **USMF** 의 **else** 조건을 올바른 법인으로 업데이트합니다.
+- 기본 프로젝트 실제(PSA에서 Fin 및 Ops로) 템플릿을 사용하는 경우 Power Query의 **적용 단계** 섹션에서 마지막 **삽입된 조건** 을 선택합니다. **함수** 항목에서 **USSI** 를 통합과 함께 사용해야 하는 법인의 이름으로 바꿉니다. 필요에 따라 추가 조건을 **함수** 항목에 추가하고 **USMF** 의 **else** 조건을 올바른 법인으로 업데이트합니다.
 - 새 템플릿을 만드는 경우 회사 간 시간 및 경비를 지원하기 위해 열을 추가해야 합니다. **조건 열 추가** 를 선택하고 열의 이름(예: **LegalEntity**)을 입력합니다. 열에 대한 조건을 입력합니다. 여기서 **msdyn\_contractorganizationalunitid.msdyn\_name** 이 \<organizational unit\>인 경우 \<enter the legal entity\>, 그렇지 않으면 null입니다.
 
 ### <a name="template-mapping-in-data-integration"></a>데이터 통합의 템플릿 매핑
@@ -124,9 +123,9 @@ Project Service Automation에서 Finance로 실제 데이터를 동기화한 후
 
 프로젝트 실제는 Project Service Automation에서 관리되며 Finance에서 프로젝트 통합 저널과 동기화됩니다. 실제 값이 Finance에 전기된 후 Finance의 바우처 번호로 Project Service Automation에서 업데이트됩니다. Finance에 판매세가 추가된 경우 Project Service Automation에서 새 실제 세금이 생성됩니다.
 
-### <a name="power-query"></a>파워 쿼리
+### <a name="power-query"></a>Power Query
 
-프로젝트 실제 업데이트 템플릿에서 파워 쿼리를 사용하여 다음 작업을 완료해야 합니다.
+프로젝트 실제 업데이트 템플릿에서 Power Query를 사용하여 다음 작업을 완료해야 합니다.
 
 - Finance의 트랜잭션 유형을 Project Service Automation의 올바른 트랜잭션 유형으로 변환합니다. 이 변환은 프로젝트 실제 업데이트(Ops에서 PSA로) 템플릿에 이미 정의되어 있습니다.
 - Finance의 청구 유형을 Project Service Automation의 올바른 청구 유형으로 변환합니다. 이 변환은 프로젝트 실제 업데이트(Ops에서 PSA로) 템플릿에 이미 정의되어 있습니다.

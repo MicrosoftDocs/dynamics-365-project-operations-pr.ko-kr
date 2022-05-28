@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001034"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683500"
 ---
 # <a name="project-contracts"></a>프로젝트 계약
 
@@ -45,7 +44,7 @@ ms.locfileid: "7001034"
 -   도로 프로젝트는 두 지자체에서 공동 자금을 지원합니다.
 -   다리 프로젝트는 정부 보조금과 민간 기업이 자금을 지원합니다.
 
-Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 청구를 여러 고객, 보조금 또는 조직간에 분할할 수 있습니다. 
+Dynamics 365 Finance에서 단일 거래 또는 전체 프로젝트에 대한 청구를 여러 고객, 보조금 또는 조직 간에 분할할 수 있습니다. 
 
 여러 자금 제공자를 보유한 프로젝트에서 고급 자금 조달 프로젝트의 자금 조달에 기여하는 모든 당사자를 자금 출처라고 합니다. 고객, 조직 또는 보조금이 자금 조달 출처로 정의된 후 하나 이상의 자금 조달 규칙에 할당될 수 있습니다. 자금 조달 규칙에는 프로젝트의 다양한 자금 출처에 비용을 할당하는 방법을 결정하는 기준이 포함됩니다. 
 

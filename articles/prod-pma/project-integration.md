@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988029"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684984"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 통합
 
@@ -40,7 +39,7 @@ Microsoft Project Client와의 통합을 활성화하려면 Microsoft Dynamics 3
 •   메시지가 표시되면 **열기** 를 클릭한 다음 **실행** 을 클릭합니다.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Microsoft Project Client에서 기존 초안 작업 분할 구조를 열고 편집합니다.
-Dynamics 365 Finance의 프로젝트에서 작업 분할 구조가 이미 생성된 경우 작업 분할 구조가 초안 상태인 경우 Microsoft Project Client 응용 프로그램에서 작업 분할 구조를 열 수 있습니다. **프로젝트** 페이지에서 열려면 **계획** 탭에서 **Microsoft Project에서 열기** 링크를 클릭합니다. 이 페이지는 **Microsoft Dynamics 365** 탭에서 **열기** 를 클릭하여 Microsoft Project Client 애플리케이션 내에서 열 수도 있습니다. 목록에서 **법인** 과 **계획** 을 선택합니다.
+Dynamics 365 Finance의 프로젝트에 작업 분할 구조가 이미 생성된 경우 작업 분할 구조가 초안 상태인 경우 Microsoft Project Client 애플리케이션에서 작업 분할 구조를 열 수 있습니다. **프로젝트** 페이지에서 열려면 **계획** 탭에서 **Microsoft Project에서 열기** 링크를 클릭합니다. 이 페이지는 **Microsoft Dynamics 365** 탭에서 **열기** 를 클릭하여 Microsoft Project Client 애플리케이션 내에서 열 수도 있습니다. 목록에서 **법인** 과 **계획** 을 선택합니다.
 
 > [!NOTE]
 > Internet Explorer를 브라우저로 사용하는 경우 **저장** 을 클릭하여 파일을 다운로드한 위치에서 수동으로 엽니다. 또는 **저장 후 열기** 를 클릭하여 Microsoft Project Client에서 파일을 엽니다. 저장할 때 파일 이름을 바꾸지 마십시오.

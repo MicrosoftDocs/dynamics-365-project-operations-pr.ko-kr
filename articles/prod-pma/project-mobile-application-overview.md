@@ -3,25 +3,23 @@ title: 프로젝트 모바일 애플리케이션 개요
 description: 이 항목은 Microsoft Dynamics 365 Project Timesheet, 프로젝트 시간 항목 및 모바일 장치에서 사용할 수 있는 내 작업 표/작업 표의 프로젝트 시간 관련 애플리케이션에 대한 일반 정보를 제공합니다.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005669"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685416"
 ---
 # <a name="project-mobile-applications-overview"></a>프로젝트 모바일 애플리케이션 개요
 
@@ -31,7 +29,7 @@ ms.locfileid: "7005669"
 
 ## <a name="project-timesheet-mobile-app"></a>프로젝트 작업 표 모바일 앱
 
-Dynamics 365 프로젝트 작업 표 모바일 앱을 사용하면 사용자가 모바일 장치에서 프로젝트에 대한 작업 표를 제출하고 승인할 수 있습니다. 이 모바일 앱은 Dynamics 365 Finance의 프로젝트 관리 및 회계 영역의 작업 표 기능을 표시합니다. 사용자 생산성과 효율성을 개선하고 프로젝트 작업 표를 적시에 입력하고 승인하는 데 도움이 됩니다.
+Dynamics 365 프로젝트 작업 표 모바일 앱을 사용하면 사용자가 모바일 장치에서 프로젝트에 대한 작업 표를 제출하고 승인할 수 있습니다. 이 모바일 앱은 Dynamics 365 Finance의 프로젝트 관리 및 회계 영역에서 작업표 기능을 표시합니다. 사용자 생산성과 효율성을 개선하고 프로젝트 작업 표를 적시에 입력하고 승인하는 데 도움이 됩니다.
 
 ## <a name="project-time-entry-workspace"></a>프로젝트 시간 항목 작업 영역
 
@@ -39,7 +37,7 @@ Dynamics 365 프로젝트 작업 표 모바일 앱을 사용하면 사용자가 
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>내 작업 표/내 검토용 작업 표
 
-내 작업 표(모바일에 최적화됨) 및 내 검토용 작업 표(모바일에 최적화됨)는 직원이 모바일 장치에서 프로젝트 작업 표를 만들고 제출하고 승인할 수 있는 솔루션을 구성합니다. 작업자는 애플리케이션의 URL을 통해 Finance 기능에 액세스할 수 있습니다. 이 솔루션은 Finance and Operations 모바일 애플리케이션에는 필요하지 않습니다.
+내 작업 표(모바일에 최적화됨) 및 내 검토용 작업 표(모바일에 최적화됨)는 직원이 모바일 장치에서 프로젝트 작업 표를 만들고 제출하고 승인할 수 있는 솔루션을 구성합니다. 작업자는 애플리케이션의 URL을 통해 Finance 기능에 액세스할 수 있습니다. 이 솔루션에는 Finance and Operations 모바일 애플리케이션이 필요하지 않습니다.
 
 ## <a name="for-more-information"></a>자세한 정보
 

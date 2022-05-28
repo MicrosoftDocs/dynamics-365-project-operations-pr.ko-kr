@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997209"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683195"
 ---
 # <a name="project-timesheet-mobile-application"></a>프로젝트 작업 표 모바일 애플리케이션
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997209"
 
 ## <a name="overview"></a>개요
 
-Microsoft Dynamics 365 Project Timesheet 모바일 앱을 사용하면 사용자가 모바일 장치(iPhone 또는 Android)에서 프로젝트에 대한 작업 표를 제출하고 승인할 수 있습니다. 이 모바일 앱은 Dynamics 365 Finance의 프로젝트 관리 및 회계 영역에 있는 작업 표 기능을 표시하여, 사용자 생산성과 효율성을 개선하고 프로젝트 작업 표를 적시에 입력하고 승인할 수 있도록 합니다.
+Microsoft Dynamics 365 Project Timesheet 모바일 앱을 사용하면 사용자가 모바일 장치(iPhone 또는 Android)에서 프로젝트에 대한 작업 표를 제출하고 승인할 수 있습니다. 이 모바일 앱은 Dynamics 365 Finance의 프로젝트 관리 및 회계 영역에 있는 작업표 기능을 표시하여 사용자 생산성과 효율성을 개선하고 프로젝트 작업표를 적시에 입력하고 승인할 수 있도록 합니다.
 
 ## <a name="download-and-install-the-mobile-app"></a>모바일 앱을 다운로드하여 설치합니다.
 

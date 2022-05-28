@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323919"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723684"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>새로운 기능 2021 웨이브 2 조기 액세스 - Project Operations 라이트 배포
 
@@ -26,7 +26,7 @@ _적용 대상: 라이트 배포 - 견적 송장 거래_
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
 
-[하도급 계약 관리](../subcontracting/subcontracting_EA_scope.md) - 이 기능은 프로젝트 작업의 모든 측면에 대한 더 나은 가시성과 제어를 제공합니다. 하도급 계약 관리 프리뷰에는 다음 기능이 포함됩니다.
+[하도급 계약 관리](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - 이 기능은 프로젝트 작업의 모든 측면에 대한 더 나은 가시성과 제어를 제공합니다. 하도급 계약 관리 프리뷰에는 다음 기능이 포함됩니다.
 
   - 프로젝트 관리자는 공급업체와 하도급 계약을 생성할 수 있습니다. 기본적으로 공급업체 레코드에 첨부된 가격표가 하도급 계약에 사용됩니다. 공급업체 거래처의 관계 유형은 **공급업체** 또는 **공급자** 입니다.
   - 프로젝트 관리자는 모든 구매를 하도급 계약의 항목으로 항목화할 수 있습니다. 하도급 계약 라인은 시간, 경비 또는 제품에 대한 것일 수 있습니다. 하도급 계약 라인의 트랜잭션 클래스에 따라 해당 라인이 결정됩니다.
