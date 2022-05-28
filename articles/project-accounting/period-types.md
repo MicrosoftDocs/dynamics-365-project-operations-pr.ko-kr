@@ -4,14 +4,14 @@ description: 이 토픽은 수익 추정을 위해 기간 유형을 설정하는
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998784"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580464"
 ---
 # <a name="period-types"></a>기간 유형
 
@@ -22,7 +22,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 ## <a name="create-and-work-with-period-types"></a>기간 유형 만들기 및 작업
 기간 유형을 작성하고 작업하려면 다음 단계를 완료하십시오.
 
-1. Dynamics 365 Finance 환경에서 **프로젝트 관리 및 회계** > **설정** > **추정** > **기간 유형** 으로 이동합니다.
+1. Dynamics 365 Finance 환경에서 **프로젝트 관리 및 회계** > **설정** > **견적** > **기간 유형** 으로 이동합니다.
 2. **새로 만들기** 를 선택하여 새 기간 유형을 만듭니다. 이름과 설명을 입력합니다.
 3. **빈도** 필드에서 값을 선택합니다.
 

@@ -4,14 +4,14 @@ description: 이 토픽은 리소스/비 재고 기반 시나리오에 대해 Pr
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989919"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585616"
 ---
 # <a name="manage-project-invoice-proposals"></a>프로젝트 송장 제안서 관리
 
@@ -22,7 +22,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
   - 프로젝트 관리자는 Microsoft Dataverse에서 견적 송장을 확인합니다.
   - 견적 송장에 포함된 모든 시간 및 자재 미 청구 판매 트랜잭션은 Dynamics 365 **Project Operations 통합** 분개장을 사용하여 전기됩니다.
 
-다음 단계를 사용하여 Dynamics 365 Finance에서 프로젝트 송장 제안서를 완료하십시오.
+다음 단계를 사용하여 Dynamics 365 Finance에서 프로젝트 송장 제안을 완료합니다.
 
 1. 시간 및 자재 트랜잭션에 대한 청구 정보를 검토하고 **Project Operations 통합** 분개장을 전기합니다.
 2. 고정 가격 청구 중요 시점에 대한 청구 정보를 검토합니다.

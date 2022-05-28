@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547162"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582902"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021년 9월의 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547162"
 이 항목은 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
 
    - Microsoft Dataverse 환경 버전 4.14.0.99의 Project Operations.
-   - Dynamics 365 Finance 환경 버전 10.0.20의 프로젝트 관리 및 회계
+   - Dynamics 365 Finance 환경 버전 10.0.20의 프로젝트 관리 및 회계.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 이중 쓰기 맵 업데이트
 
@@ -45,7 +45,7 @@ ms.locfileid: "7547162"
 | 청구 및 가격 책정 | 2385802 | 프로젝트 합계를 새로 고칠 때 음수 실제 시간으로 발생하는 오류가 수정되었습니다. |
 | 청구 및 가격 책정 | 2389675 | 견적 송장 확인 동작이 개선되었습니다. 장기 실행 작업 엔터티는 회계 확인 결과를 작성하는 데 필요한 활동을 고려해야 합니다. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 프로젝트 관리 및 회계 개요
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance의 프로젝트 관리 및 회계
 
 | 기능 영역 | 참조 번호 | 품질 업데이트 |
 | --- | --- | --- |

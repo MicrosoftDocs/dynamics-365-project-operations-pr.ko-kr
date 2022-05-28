@@ -4,20 +4,20 @@ description: 이 항목은 프로젝트 계약의 주요 개념에 대한 정보
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991449"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580602"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>프로젝트 계약에 고유한 개념
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 이 토픽은 Dynamics 365 Project Operations에서 프로젝트 계약 사용을 시작하기 전에 알아야 할 주요 개념을 제공합니다.
 

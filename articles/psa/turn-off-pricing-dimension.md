@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006794"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581706"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>가격 책정 차원 끄기
 
@@ -39,8 +40,8 @@ ms.locfileid: "7006794"
 
 | 표준 직함         | 조직 단위    |단위   |가격  |통화  |
 | -----------------------|-------------|-------|-------|----------|
-| 시스템 엔지니어|Contoso US|시간| 100|USD|
-| 선임 시스템 엔지니어|Contoso US|시간| 150| USD|
+| 시스템 엔지니어|Contoso US|Hour| 100|USD|
+| 선임 시스템 엔지니어|Contoso US|Hour| 150| USD|
 
 
 가격 책정 차원으로서의 **표준 직함** 을 끄고 Project Service 가격 책정 엔진이 가격을 검색하면 입력 컨텍스트에서 **조직 단위** 값만 사용됩니다. 입력 컨텍스트의 **조직 단위** 가 "Contoso US"인 경우 두 행이 모두 일치하므로 결과가 결정적이지 않습니다. 이 시나리오를 피하기 위해 **역할 가격** 레코드를 만들 때 Project Service는 차원의 조합이 고유한지 확인합니다. **역할 가격** 레코드를 만든 후 차원을 해제하면 이 제약 조건을 위반할 수 있습니다. 따라서 차원을 끄기 전에, 해당 차원 값이 채워진 모든 **역할 가격** 및 **역할 가격 마크업** 행을 삭제할 것이 요구됩니다.

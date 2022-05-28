@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815851"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582028"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>2021년 9월 리소스/생산 기반 시나리오에 대한 Project Operations의 새로운 기능 또는 변경된 기능
 
@@ -91,6 +91,6 @@ _**적용 대상:** 재고/생산 기반 시나리오에 대한 Project Operatio
 
 ## <a name="regulatory-updates"></a>규제 업데이트
 
-Finance and Operations 앱의 규제 업데이트에 대한 정보는 [규제 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. Microsoft Dynamics LCS(Lifecycle Services)에 로그인하고 문제 검색 도구를 사용하여 계획된 규정 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가 또는 지역, 기능 유형 및 릴리스별로 검색할 수 있습니다.
+금융 및 운영 앱의 규정 업데이트에 대한 자세한 내용은 [규정 업데이트](/dynamics365/finance/localizations/regulatory-updates)를 참조하십시오. Microsoft Dynamics LCS(Lifecycle Services)에 로그인하고 문제 검색 도구를 사용하여 계획된 규정 업데이트를 볼 수도 있습니다. 문제 검색을 사용하면 국가 또는 지역, 기능 유형 및 릴리스별로 검색할 수 있습니다.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

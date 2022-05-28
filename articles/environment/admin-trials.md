@@ -2,22 +2,22 @@
 title: Project Operations 평가판 등록
 description: 이 주제는 Dynamics 365 Project Operations 평가판을 배포하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901625"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584282"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations 평가판 등록 
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오를 위한 Project Operations, 라이트 배포 - 견적 송장 처리 및 재고/생산 기반 시나리오를 위한 Project Operations_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 이 항목에서는 프리뷰 파트너 제안을 구독하고 Dynamics 365 Project Operations 환경을 배포하는 방법을 설명합니다.
 
@@ -36,7 +36,6 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오를 위한 Project O
 | 제안 사용                    | 테넌트당 1회                          |
 | 제안 기간               | 30일                             |
 | 테넌트당 사용       | 6                                            |
-| 사용자 수              | 25                                           |
 | 확장명                    | 연장 1회, 30일               |
 | 평가판 환경 수 | 3                                            |
 
@@ -87,7 +86,7 @@ Dynamics 365 Project Operations의 평가판을 배포하기 위해 다음과 �
  
   프로비저닝이 완료되면 환경 상태는 **준비** 입니다. 환경 프로비저닝에는 데모 데이터 배포가 포함됩니다.
  
-4.  해당 Microsoft Dataverse URL 및 Finance and Operations 앱 URL을 선택하여 배포의 유효성을 확인합니다.
+4.  해당 Microsoft Dataverse URL 및 금융 및 운영 앱 URL을 선택하여 배포의 유효성을 확인합니다.
 
 ## <a name="configuring-dual-write"></a>이중 쓰기 구성
 - 이중 쓰기에 대한 보안 역할을 구성하려면 [Dataverse의 Project Operations에 대한 보안 설정 업데이트](resource-provision-new-environment.md)를 참조하십시오.
@@ -117,7 +116,7 @@ Dynamics 365 Project Operations의 평가판을 배포하기 위해 다음과 �
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>내 Finance and Operations 앱 환경에 ALM 또는 ELM이 필요하면 어떻게 합니까?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>금융 및 운영 앱 환경에 ALM 또는 ELM이 필요한 경우 어떻게 합니까?
 
 - 전체 환경 수명 주기 관리 기능이 필요한 파트너는 [파트너 샌드박스 라이선스 요청](https://experience.dynamics.com/requestlicense)을 참조하여 새 파트너 제안을 검토합니다. 
 - 내부 사용권에 대한 자세한 정보를 원하는 파트너는 [내부 사용권 클라우드 및 소프트웨어 혜택(microsoft.com)](https://partner.microsoft.com/membership/internal-use-software)을 참조하십시오.

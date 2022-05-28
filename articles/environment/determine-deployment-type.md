@@ -4,14 +4,14 @@ description: 이 항목에서는 회사에 적합한 Project Operations 배포 �
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994644"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584144"
 ---
 # <a name="determine-your-deployment-type"></a>배포 유형 결정
 
@@ -42,7 +42,7 @@ Project Operations는 요구 사항에 맞는 여러 배포 옵션을 지원합�
 - [리소스/비 재고 시나리오에 대한 Project Operations](#integrated)
 - [리소스/생산 주문 시나리오에 대한 Project Operations](#pma)
 
-Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재고/생산 주문 시나리오와 비재고/리소스 기반 시나리오를 지원합니다. 예를 들어 Contoso는 미국 제조 시설에서 재고/생산 주문 기능을 사용할 수 있습니다 (법인 = Contoso Manufacturing United States). Contoso는 영국의 Contoso Robotics Arms 서비스 시설에서 비 재고/리소스 기반 기능을 사용할 수 있습니다(법인 = Contoso Robotics United Kingdom).
+Project Operations는 법인 수준 구성을 통해 동일한 환경에서 재고/생산 주문 시나리오와 비재고/리소스 기반 시나리오를 지원합니다. 예를 들어 Contoso는 미국 제조 시설(법인 = Contoso Manufacturing United States)에서 재고/생산 주문 기능을 사용할 수 있습니다. Contoso는 영국의 Contoso Robotics Arms 서비스 시설(법인 = Contoso Robotics United Kingdom)에서 비 재고/리소스 기반 기능을 사용할 수 있습니다.
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>라이트 배포 - 견적 송장 거래
 

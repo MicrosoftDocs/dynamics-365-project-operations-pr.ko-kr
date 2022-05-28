@@ -4,14 +4,14 @@ description: 이 항목에서는 Project Operations 환경을 위해 LCS에서 �
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 842ccaeed53f8829b7520a420972c2e31ebf4821
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989964"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584190"
 ---
 # <a name="start-a-new-lcs-project"></a>새 LCS 프로젝트 시작
 
@@ -27,7 +27,7 @@ LCS(Lifecycle Services)를 사용하여 Dynamics 365 Project Operations 환경�
   ![LCS 프로젝트 유형 선택.](./media/create-lcs-1.png)
 
 5. 프로젝트의 이름을 지정합니다. 
-6. **Finance and Operations** 를 제품 이름으로 선택하고 산업 및 방법론을 선택합니다. 
+6. **Finance and Operations** 를 제품명으로 선택하고 업종과 방법론을 선택합니다. 
 7. **만들기** 를 선택합니다.
 
 ![LCS 프로젝트를 만듭니다.](./media/create-lcs-2.png)

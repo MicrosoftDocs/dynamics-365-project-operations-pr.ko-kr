@@ -4,26 +4,26 @@ description: 이 항목은 Project Operations에서 프로젝트 계액의 주�
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986949"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582948"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>프로젝트 기반 계약에 고유한 개념
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 이 토픽은 Dynamics 365 Project Operations에서 프로젝트 계약 사용을 시작하기 전에 알아야 할 주요 개념을 제공합니다.
 
 ## <a name="owning-company"></a>담당 회사
 
-담당 회사는 Dynamics 365 Finance의 Project Operations를 위한 **프로젝트 관리 및 회계** 모듈의 법인입니다. 담당 회사는 거래에서 발생하는 비용과 수익을 설명하는 법인을 나타냅니다.
+소유 회사는 Dynamics 365 Finance의 Project Operations를 위한 **프로젝트 관리 및 회계** 모듈의 법인입니다. 담당 회사는 거래에서 발생하는 비용과 수익을 설명하는 법인을 나타냅니다.
 
 ## <a name="contracting-unit"></a>계약 단위
 

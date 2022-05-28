@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004769"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581108"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>견적, 가격 책정 및 대금 청구 홈 페이지
 

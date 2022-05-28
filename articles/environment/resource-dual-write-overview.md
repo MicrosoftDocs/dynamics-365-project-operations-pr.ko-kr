@@ -3,23 +3,22 @@ title: Project Operations 이중 쓰기 통합
 description: 이 항목은 Project Operations 이중 쓰기 통합에 대한 개요를 제공합니다.
 author: sigitac
 ms.date: 04/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007919"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582764"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations 이중 쓰기 통합 개요
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-Project Operations는 [이중 쓰기 기능](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page)을 사용하여 Microsoft Dataverse 및 Dynamics 365 Finance를 통해 데이터를 동기화합니다.
+Project Operations는 [이중 쓰기 기능](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page)을 사용하여 Microsoft Dataverse 및 Dynamics 365 Finance에서 데이터를 동기화합니다.
 
 다음 그림은 Dataverse와 Finance 간의 통합의 일부로 데이터가 동기화되는 방식을 보여줍니다.
 

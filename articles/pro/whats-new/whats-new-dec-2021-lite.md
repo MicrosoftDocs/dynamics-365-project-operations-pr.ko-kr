@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0432e2d4970c352e91cca589987bbdace57c6eaf
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942985"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585386"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>2021년 12월의 새로운 기능 - Project Operations Lite 배포
 
@@ -20,7 +20,7 @@ _적용 대상: 라이트 배포 - 견적 송장 거래_
 
 이 항목은 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
 
-- Dataverse 환경 버전 4.27.0.195, 4.27.0.242의 Project Operations
+- Dataverse 환경 버전 4.27.0.195, 4.27.0.242, 4.27.0.244의 Project Operations
 
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
