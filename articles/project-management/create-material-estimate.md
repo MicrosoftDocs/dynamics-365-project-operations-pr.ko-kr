@@ -4,20 +4,20 @@ description: 이 항목은 프로젝트 기반 재료 정의 또는 추정에 �
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992619"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737310"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>프로젝트의 재료에 대한 재무 추정
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-Dynamics 365 Project Operations를 사용하면 프로젝트 관리자는 각 프로젝트 또는 작업에 대한 프로젝트 기반 재료 비용을 정의할 수 있습니다. 각 재료 추정은 특정 프로젝트 작업과 연관될 수 있습니다. 경비는 조직 수준에서 정의되는 다양한 경비 범주로 분류됩니다. 각 경비 범주에 대한 가격 및 비용은 가격 목록에서 정의됩니다. 
+Dynamics 365 Project Operations를 사용하면 프로젝트 관리자는 각 프로젝트 또는 작업에 대한 프로젝트 기반 재료 비용을 정의할 수 있습니다. 각 재료 추정은 특정 프로젝트 작업과 연관될 수 있습니다. 프로젝트에 사용되는 재료는 직접 입력 제품 또는 제품 카탈로그의 제품이 될 수 있습니다. 제품과 단위의 각 조합에 대해 판매용 프로젝트 가격표와 비용용 프로젝트 가격표에서 가격을 정의할 수 있습니다.  
 
 프로젝트 재료 추정을 보거나 추가하거나 삭제하려면 다음 단계를 완료하십시오.
 
