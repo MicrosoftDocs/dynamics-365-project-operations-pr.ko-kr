@@ -1,17 +1,17 @@
 ---
 title: 견적 - 주요 개념 - 라이트
-description: 이 항목은 Project Operations의 프로젝트 견적 사용에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 프로젝트 견적을 사용하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6cc1b38644557370d2447b65d2bba2925dc134a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916986"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>프로젝트 견적에 고유한 개념
 

@@ -1,17 +1,17 @@
 ---
 title: 프로젝트의 경비에 대한 재무 추정
-description: 이 항목은 프로젝트 기반 경비 정의 또는 추정에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 기반 경비를 정의하거나 추정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925701"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>프로젝트의 경비에 대한 재무 추정
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_

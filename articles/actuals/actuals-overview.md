@@ -1,6 +1,6 @@
 ---
-title: 실제
-description: 이 토픽은 Microsoft Dynamics 365 Project Operations에서 실제 값으로 작업하는 방법에 대한 정보를 제공합니다.
+title: 실제 값
+description: 이 문서는 Microsoft Dynamics 365 Project Operations에서 실제 값으로 작업하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924806"
 ---
 # <a name="actuals"></a>실제 값
 
@@ -33,7 +33,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오를 위한 Project O
 
 Project Operations는 프로젝트 참여 수명 주기 동안 발생한 금융 거래를 실제 거래로 기록합니다. 수명 주기의 다양한 이벤트에서 실제 생성은 프로젝트 계약이 시간 및 자재 청구 모델을 사용하는지 아니면 고정 가격 청구 모델을 사용하는지, 그리고 사전 판매 단계에 있는지 아니면 내부 프로젝트인지에 따라 다릅니다.
 
-다음 항목에서는 다양한 변형에 대한 다양한 이벤트에서 실제 테이블에 미치는 영향에 대해 설명합니다.
+다음 문서에서는 다양한 변형에 대한 다양한 이벤트에서 실제 테이블에 미치는 영향에 대해 설명합니다.
 
 - [시간 및 자재 계약의 실제 값 영향](ActualsonTM.md)
 - [고정 가격 계약의 실제 값 영향](ActualonFP.md)

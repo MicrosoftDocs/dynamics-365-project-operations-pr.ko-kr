@@ -1,6 +1,6 @@
 ---
 title: 업그레이드 고려 사항 - Microsoft Dynamics 365 Project Service Automation 버전 2.x 또는 1.x에서 버전 3으로 업그레이드
-description: 이 항목은 Project Service Automation 버전 2.x 또는 1.x에서 버전 3으로 업그레이드할 때 고려해야 할 사항에 대한 정보를 제공합니다.
+description: 이 문서는 Project Service Automation 버전 2.x 또는 1.x에서 버전 3으로 업그레이드할 때 고려해야 할 사항에 대한 정보를 제공합니다.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918918"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>업그레이드 고려 사항 - PSA 버전 2.x 또는 1.x에서 버전 3
 
@@ -40,7 +40,7 @@ Project Service Automation 버전 2 및 버전 1에서 작업 할당은 **작업
 
 Project Service Automation 버전 3에서는 예약 가능한 리소스를 작업에 할당하는 기본 스키마가 변경되었습니다. 라인 작업이 더 이상 사용되지 않았으며 **작업 엔터티** 의 작업과 **리소스 할당** 엔터티의 팀 구성원 간에 직접 1:1 관계가 있습니다. 이제 프로젝트 팀 구성원에게 할당된 작업이 리소스 할당 엔터티에 직접 저장됩니다.  
 
-이러한 변경 사항은 프로젝트 팀의 명명된 예약 가능 리소스 및 일반 리소스에 대한 리소스 할당이 있는 기존 프로젝트의 업그레이드에 영향을 미칩니다. 이 주제는 버전 3으로 업그레이드할 때 프로젝트에 대해 고려해야 할 사항을 제공합니다. 
+이러한 변경 사항은 프로젝트 팀의 명명된 예약 가능 리소스 및 일반 리소스에 대한 리소스 할당이 있는 기존 프로젝트의 업그레이드에 영향을 미칩니다. 이 문서는 버전 3으로 업그레이드할 때 프로젝트에 대해 고려해야 할 사항을 제공합니다. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>명명된 리소스에 할당된 작업
 기본 작업 엔터티를 사용하여 버전 2 및 버전 1의 작업을 통해 팀 구성원은 기본 정의된 역할 이외의 역할을 묘사할 수 있었습니다. 예를 들어 기본적으로 프로그램 관리자의 역할을 할당 받은 박지민 씨는 개발자 역할을 수행하는 작업에 할당될 수 있습니다. 버전 3에서 명명된 팀 멤버의 역할은 항상 기본값이므로 박지민 씨가 할당된 모든 작업은 프로그램 관리자의 기본 역할을 사용합니다.

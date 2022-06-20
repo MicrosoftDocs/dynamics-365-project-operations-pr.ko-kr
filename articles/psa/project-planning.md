@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 기획 홈페이지
-description: 이 항목은 프로젝트 기획에 대한 정보를 제공합니다.
+description: 이 문서는 프로젝트 기획에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919102"
 ---
 # <a name="project-planning-home-page"></a>프로젝트 기획 홈페이지
 
@@ -43,7 +43,7 @@ PSA의 프로젝트 관리 도구를 사용하면 프로젝트를 쉽게 실행�
 - 파이프라인에 있는 프로젝트를 위한 리소스 요건을 예측합니다.
 - 진행 상황과 비용 소비를 추적하여 프로젝트를 성공적으로 인도합니다.
 
-다음 항목은 PSA에서 지원되는 도구를 사용하여 프로젝트 관리자가 작업을 예측하고 프로젝트 비용을 예측하며 리소스 요건을 예측하는 데 도움이 되는 정보를 제공합니다:
+다음 문서는 PSA에서 지원되는 도구를 사용하여 프로젝트 관리자가 작업을 예측하고 프로젝트 비용을 예측하며 리소스 요건을 예측하는 데 도움이 되는 정보를 제공합니다:
 
 - [일정 작성](project-creating.md)
 - [프로젝트 원가와 수익 추산](project-estimating.md)

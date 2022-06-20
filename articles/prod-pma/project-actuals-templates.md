@@ -1,6 +1,6 @@
 ---
 title: Finance and Operations에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제를 동기화합니다.
-description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Finance and Operations로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Service Automation에서 Finance and Operations로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929498"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제를 동기화합니다.
 
 [!include[banner](../includes/banner.md)]
 
-이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+이 문서에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 
 템플릿은 Project Service Automation의 트랜잭션을 Finance의 준비 테이블로 동기화합니다. 동기화가 완료되면 준비 테이블의 데이터를 통합 저널로 **반드시** 가져와야 합니다.
 

@@ -1,24 +1,24 @@
 ---
 title: 공급업체 재방문 주기 설정
-description: 이 항목에서는 공급업체 보존을 설정하는 방법을 설명합니다.
+description: 이 문서에서는 공급업체 보존을 설정하는 방법을 설명합니다.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929774"
 ---
 # <a name="set-up-vendor-retention"></a>공급업체 재방문 주기 설정
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목에서는 공급업체 보존을 설정하는 방법에 대한 정보를 제공합니다.
+이 문서에서는 공급업체 보존을 설정하는 방법에 대한 정보를 제공합니다.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>총계정원장에서 공급업체 유지 계정 설정
 

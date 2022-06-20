@@ -1,17 +1,17 @@
 ---
 title: 데모 설정 및 구성 데이터 적용 - 라이트
-description: 이 항목은 Project Operations에 대해 데모 설정 및 구성 데이터를 적용하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에 대한 데모 설정 및 구성 데이터를 적용하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922322"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operations의 데모 설정 및 구성 데이터 적용 - 라이트 
 

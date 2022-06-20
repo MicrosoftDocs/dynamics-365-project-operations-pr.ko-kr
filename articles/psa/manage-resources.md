@@ -1,6 +1,6 @@
 ---
 title: 리소스 관리
-description: 이 항목은 리소스를 관리할 수 있는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스를 관리할 수 있는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5788a457c888bd2ab945fa52df82157a7c17d56b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5709f7f179b14606690549c77ede7ba03b77e1b1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920436"
 ---
 # <a name="manage-resources"></a>리소스 관리
 

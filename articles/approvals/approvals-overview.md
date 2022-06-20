@@ -1,17 +1,17 @@
 ---
 title: 승인 개요
-description: 이 항목은 Project Operations에서 승인 작업에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 승인 작업에 대한 정보를 제공합니다.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 735cd820011a4badb83dbf6540ffe9c49f960ca1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b5c93dc948992505054ef7b17579aafcdf8f8d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924714"
 ---
 # <a name="approvals-overview"></a>승인 개요
 

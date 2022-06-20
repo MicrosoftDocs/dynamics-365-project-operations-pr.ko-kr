@@ -1,6 +1,6 @@
 ---
 title: 청구 가능한 리소스 활용도 보기
-description: 이 항목은 리소스 활용도 보기에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스 활용도 보기에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0f6240a3337eb78496570ddfabc85d431e61d640
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 57203ecff99ab4434dacdded04245435d31bc8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921862"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>청구 가능한 리소스 활용도 보기
 

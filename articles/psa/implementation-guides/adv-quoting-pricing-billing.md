@@ -1,6 +1,6 @@
 ---
 title: 고급 견적, 가격 책정 및 대금 청구
-description: 이 항목은 Project Service Automation에서 견적, 대금 청구 및 가격 책정에 대한 정보를 제공합니다.
+description: 이 문서는 Project Service Automation에서 견적, 대금 청구 및 가격 책정에 대한 정보를 제공합니다.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921816"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>고급 견적, 가격 책정 및 대금 청구 가이드
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579360"
 
 올바른 리소스를 적시에 찾아, 프로젝트에 해당 리소스를 예약하고, 리소스를 활용하는 능력은 조직이 수익 목표와 고객 만족 목표를 달성하는 데 도움이 됩니다. 
 
-이 항목에 이전에 있었던 PDF 링크가 제거되었으며 콘텐츠가 다음 항목으로 이동되었습니다:
+이 문서에 이전에 있었던 PDF 링크가 제거되었으며 콘텐츠가 다음 문서로 이동되었습니다:
 
 - [견적, 가격 책정 및 대금 청구](../quote-bill-price.md)
 - [영업 프로세스](../basic-sales-process.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8579360"
 - [실제값 기록](../advanced-actuals.md)
 
 > [!NOTE]
-> 향후 설명서 업데이트에서 이 항목은 제거될 것입니다. 
+> 향후 설명서 업데이트에서 이 문서는 제거될 것입니다. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

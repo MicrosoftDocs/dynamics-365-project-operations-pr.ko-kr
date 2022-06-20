@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 기반 견적 라인에서 여러 고객 관리 - 라이트
-description: 이 항목은 프로젝트 기반 견적 라인에서 여러 고객을 관리하는 방법을 설명합니다.
+description: 이 문서에서는 프로젝트 기반 견적 라인에서 여러 고객을 관리하는 방법을 설명합니다.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a6247c572284a5832cf2953578c98f6454e39dda
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575634"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927796"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>프로젝트 기반 견적 라인에서 여러 고객 관리 - 라이트
 

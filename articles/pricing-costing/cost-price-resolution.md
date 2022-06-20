@@ -1,17 +1,17 @@
 ---
 title: 추정 및 실제 원가 해결
-description: 이 항목은 추정 및 실제의 원가를 확인하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 추정 및 실제에 대한 원가가 해결되는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 04/09/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7395a1845f4a895efbabda36ba3b2a2f3c1eea52
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587916"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919976"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>추정 및 실제 원가 해결
 

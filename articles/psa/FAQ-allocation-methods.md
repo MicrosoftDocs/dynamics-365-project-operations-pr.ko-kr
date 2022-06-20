@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation의 예약 할당 방법
-description: 이 항목은 할당을 예약할 수 있는 다양한 방법에 대한 정보를 제공합니다.
+description: 이 문서는 할당을 예약할 수 있는 다양한 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929176"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation의 예약 할당 방법
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-팀원을 **팀** 탭의 프로젝트에 직접 추가하거나 스케줄 게시판의 프로젝트나 요건에 대한 리소스를 예약하는 경우에는 몇 가지 다른 예약 할당 방법을 사용할 수 있습니다. 이 항목은 각 방법의 작동 방식 및 리소스 초과 예약으로 이어질 수 있는 방법을 설명합니다.
+팀원을 **팀** 탭의 프로젝트에 직접 추가하거나 스케줄 게시판의 프로젝트나 요건에 대한 리소스를 예약하는 경우에는 몇 가지 다른 예약 할당 방법을 사용할 수 있습니다. 이 문서는 각 방법의 작동 방식 및 리소스 초과 예약으로 이어질 수 있는 방법을 설명합니다.
 
 ## <a name="full-capacity"></a>전체 생산 능력 
 전체 능력 방법은 지정한 종료 날짜에서 시작 날짜까지 리소스의 전체 능력을 예약합니다. 예컨대, 리소스에 1일 8시간, 일주일에 5일을 설정하는 달력이 있는 경우 5 근무일을 포함하는 시작 및 종료 날짜를 설정하면 리소스가 40시간 동안 예약됩니다. 예약은 리소스의 남은 능력에 관계 없이 이루어집니다. 리소스가 해당 기간 동안 다른 프로젝트에 이미 예약된 경우, 40시간이 추가 시간으로 예약되어 초과 예약을 초래할 수 있습니다.

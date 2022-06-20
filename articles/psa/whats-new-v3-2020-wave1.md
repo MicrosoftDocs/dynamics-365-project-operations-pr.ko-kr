@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 버전 3.x 웨이브 1 2020의 새로운 내용 또는 변경 내용
-description: 이 항목에서는 Project Service Automation 버전 3 웨이브 1 2020의 새로운 사항과 변경된 내용에 대한 정보를 제공합니다.
+description: 이 문서는 Project Service Automation 버전 3 웨이브 1 2020에서 새로운 내용과 변경된 내용에 대한 정보를 제공합니다.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928624"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Project Service Automation 버전 3 웨이브 1 2020의 새로운 내용 또는 변경 내용
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-이 항목에서는 PSA(Project Service Automation) 버전 3.x wave 1 2020의 최신 릴리스로 이동할 때 주요 업그레이드 고려 사항을 강조합니다.
+이 문서에서는 PSA(Project Service Automation) 버전 3.x 웨이브 1 2020의 최신 릴리스로 이동할 때 주요 업그레이드 고려 사항을 강조합니다.
 
 ## <a name="time-entry"></a>시간 항목
 더 많은 고객 시나리오로 시간 항목을 확장할 수 있는 기능을 제공하기 위해 시간 항목 경험이 확장되었습니다. 여기에는 필드 스키마 이름 **시간 항목 설정** 을 기반으로 **시간 원본** 으로 표시되는 특정 동작을 유도하는 항목 유형을 추가하는 기능이 포함됩니다. 이 기능을 지원하기 위해 시간, 비용, 상태 및 승인(TESA)이라는 새로운 솔루션이 추가되었습니다.

@@ -1,18 +1,18 @@
 ---
 title: 프로젝트 구매 주문 및 보류 중인 공급업체 송장과 함께 조달 범주 사용
-description: 이 항목에서는 프로젝트 구매 주문 및 보류 중인 공급업체 송장과 함께 사용할 수 있는 조달 범주를 구성하는 방법을 설명합니다.
+description: 이 문서에서는 프로젝트 구매 주문 및 보류 중인 공급업체 송장과 함께 사용할 수 있는 조달 범주를 구성하는 방법을 설명합니다.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927428"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>프로젝트 구매 주문 및 보류 중인 공급업체 송장과 함께 조달 범주 사용
 
@@ -47,7 +47,7 @@ Microsoft Dynamics 365 Project Operations 비재고/리소스 기반 시나리�
 
 1. **조달 및 소싱 \> 조달 범주** 로 이동합니다.
 1. **범주 계층 구조 편집** 을 선택합니다.
-1. 원하는 범주 계층 구조 노드를 선택한 다음 **프로젝트 범주 할당** 탭의 **시간**, 경비 또는 **품목 프로젝트** 범주(즉, **기본 시간** 또는 **기본 경비** 범주)와 노드를 연결합니다.
+1. 원하는 범주 계층 구조 노드를 선택한 다음 **프로젝트 범주 할당** 탭의 **시간**, **경비** 또는 **품목 프로젝트** 범주(즉, **기본 시간** 또는 **기본 경비** 범주)와 노드를 연결합니다.
 1. **저장** 을 선택합니다.
 1. 창을 닫습니다.
 

@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 견적 관리
-description: 이 항목은 프로젝트 견적에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 견적에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911650"
 ---
 # <a name="manage-project-quotes"></a>프로젝트 견적 관리
 

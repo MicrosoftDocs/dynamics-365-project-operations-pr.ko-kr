@@ -1,6 +1,6 @@
 ---
 title: 위임 관리
-description: 이 항목은 경비 대리인이 다른 직원에 대한 경비 보고서를 만들고 관리할 수 있는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 경비 대리인이 다른 직원의 경비 보고서를 만들고 관리하는 방법에 대한 정보를 제공합니다.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c2bb7ea9d93d7b60e639f2fe6dd37c466737157b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2796aca572eb0a239b6a23ef735e87a8aa46fbbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934604"
 ---
 # <a name="manage-delegation"></a>위임 관리
 경비 대리인은 다른 직원에 대한 경비 보고서를 만들고 관리할 수 있습니다.

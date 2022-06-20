@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 계약에 대한 여러 고객 관리 - 라이트
-description: 이 항목은 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 015e407b1b9e464edec1e57ce6b5132f21f5ae6d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917213"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>프로젝트 계약에 대한 여러 고객 관리 - 라이트
 

@@ -1,6 +1,6 @@
 ---
 title: 리소스 요청 제출
-description: 이 항목은 프로젝트 리소스에 대한 요청을 제출하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 리소스에 대한 요청을 제출하는 방법에 대한 정보를 제공합니다.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d22f52771f55a551416d1ba2f7105d59d7b912f0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c446dc0f99a5b9c9cdf3698cdf774cfd1e5d4d6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928854"
 ---
 # <a name="submitting-a-resource-request"></a>리소스 요청 제출
 

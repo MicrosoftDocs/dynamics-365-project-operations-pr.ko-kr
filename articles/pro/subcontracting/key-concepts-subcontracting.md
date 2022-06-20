@@ -1,17 +1,17 @@
 ---
 title: 하도급의 핵심 개념
-description: 이 항목에서는 Microsoft Dynamics 365 Project Operations의 하도급 계약에 적용되는 몇 가지 주요 개념을 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations의 하도급에 적용되는 몇 가지 주요 개념을 설명합니다.
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927704"
 ---
 # <a name="key-concepts-in-subcontracting"></a>하도급의 핵심 개념
 
@@ -19,7 +19,7 @@ ms.locfileid: "8578119"
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-이 항목에서는 Microsoft Dynamics 365 Project Operations에서 하도급 계약 기능을 사용하기 전에 알아야 할 몇 가지 주요 개념을 설명합니다.
+이 문서에서는 Microsoft Dynamics 365 Project Operations에서 하도급 기능을 사용하기 시작하기 전에 알아야 할 몇 가지 주요 개념을 설명합니다.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>하도급 계약 단위
 

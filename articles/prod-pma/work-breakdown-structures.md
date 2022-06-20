@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920666"
 ---
 # <a name="work-breakdown-structures-overview"></a>작업 분할 구조 개요
 
@@ -35,7 +35,7 @@ WBS의 세부 수준은 추정에 필요한 정확도 수준과 이러한 추정
 
 반대로 미디어 및 광고, 소프트웨어 및 IT 인프라와 같은 산업의 프로젝트는 일종의 프로젝트인 경향이 있으며 생산성은 작업을 수행하는 개인의 경험과 역량에 상대적입니다. 따라서 이러한 산업은 WBS를 사용하여 프로젝트의 진행 상황을 자세히 추적하지 않고 프로젝트 규모의 근사치를 얻습니다. 
 
-WBS 구축은 일반적으로 오랜 기간에 걸쳐 수행되는 집약적인 프로세스이며 다양한 사람들의 협업과 정보가 필요합니다. 이 항목은 WBS 향상 기능을 사용하여 견적 및 추적 요구 사항을 충족하는 방법을 설명합니다.
+WBS 구축은 일반적으로 오랜 기간에 걸쳐 수행되는 집약적인 프로세스이며 다양한 사람들의 협업과 정보가 필요합니다. 이 문서에서는 WBS 개선 사항을 사용하여 견적 및 추적 요구 사항을 충족하는 방법에 대해 설명합니다.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS를 만들기 위한 필수 구성 요소
 WBS를 만들려면 작업 일정을 만들고 작업 비용을 추정할 수 있어야 합니다.
@@ -166,7 +166,7 @@ Finance에는 프로젝트의 WBS에 대한 세 가지 보기, 즉 계획 보기
 
 ### <a name="planning-view"></a>계획 보기
 
-계획 보기에는 일정 및 비용 정보의 계획 또는 기준 추정치가 표시됩니다. 프로젝트 WBS의 버전 및 기준선을 추적하는 기능은 없지만 이 보기의 값은 기준선 버전을 나타내기 위한 것입니다. 이 항목의 일정 추정 및 비용 예상 섹션에서는 이 보기와 WBS를 만드는 데 사용되는 방법을 설명합니다.
+계획 보기에는 일정 및 비용 정보의 계획 또는 기준 추정치가 표시됩니다. 프로젝트 WBS의 버전 및 기준선을 추적하는 기능은 없지만 이 보기의 값은 기준선 버전을 나타내기 위한 것입니다. 이 문서의 일정 추정 및 비용 추정 섹션에서는 이 보기와 WBS를 만드는 데 사용되는 방법에 대해 설명합니다.
 
 ### <a name="effort-tracking-view"></a>작업량 추적 보기
 

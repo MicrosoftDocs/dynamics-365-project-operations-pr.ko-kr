@@ -1,17 +1,17 @@
 ---
 title: 트랜잭션 범주를 가격 책정 차원으로 사용
-description: 이 토픽은 트랜잭션 범주 필드를 가격 책정 차원으로 사용하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 거래 범주 필드를 가격 측정 기준으로 사용하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911702"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>트랜잭션 범주를 가격 책정 차원으로 사용
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591136"
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 
-이 토픽은 **트랜잭션 범주** 필드를 가격 책정 차원으로 사용하는 방법을 설명합니다. 
+이 도움말에서는 **거래 범주** 필드를 가격 측정 기준으로 사용하는 방법을 설명합니다. 
 
-## <a name="prerequisites"></a>필수 구성 요소
-이 토픽의 절차를 완료하기 전에 조직에 대한 새로운 가격 책정 차원 솔루션이 있어야 합니다. 아직 생성하지 않은 경우 [가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기](create-custom-fields-entities-pricing-dimensions.md)를 참조하십시오.
+## <a name="prerequisites"></a>전제 조건
+이 문서의 절차를 완료하기 전에 조직에 대한 새로운 가격 책정 차원 솔루션이 있어야 합니다. 아직 생성하지 않은 경우 [가격 책정 차원으로 사용자 지정 필드 및 엔터티 만들기](create-custom-fields-entities-pricing-dimensions.md)를 참조하십시오.
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>양식 및 보기에 트랜잭션 범주 필드 추가
 **트랜잭션 범주** 필드가 가격 책정 차원 솔루션에 표시되도록 하려면 모든 양식 및 보기에 엔터티로 필드를 추가해야 합니다.

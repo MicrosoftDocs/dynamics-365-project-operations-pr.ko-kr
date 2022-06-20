@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 모바일 애플리케이션 개요
-description: 이 항목은 Microsoft Dynamics 365 Project Timesheet, 프로젝트 시간 항목 및 모바일 장치에서 사용할 수 있는 내 작업 표/작업 표의 프로젝트 시간 관련 애플리케이션에 대한 일반 정보를 제공합니다.
+description: 이 문서에서는 모바일 장치에서 사용할 수 있는 Microsoft Dynamics 365 Project Timesheet, 프로젝트 시간 입력 및 내 작업표/작업표에 대한 프로젝트 시간 관련 애플리케이션에 대한 일반 정보를 제공합니다.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922874"
 ---
 # <a name="project-mobile-applications-overview"></a>프로젝트 모바일 애플리케이션 개요
 

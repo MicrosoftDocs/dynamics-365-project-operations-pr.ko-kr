@@ -1,17 +1,17 @@
 ---
 title: 예약 및 할당 비교
-description: 이 항목은 리소스 예약과 리소스 할당 간의 차이점에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스 예약과 리소스 할당 간의 차이점에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: b06555ec48e50f88c11872336539ca88c5cef34a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3410a45ce8401905dc162db66b0975e4aa3350dc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918596"
 ---
 # <a name="bookings-vs-assignments"></a>예약 및 할당 비교
 

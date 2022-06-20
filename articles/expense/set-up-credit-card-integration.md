@@ -1,6 +1,6 @@
 ---
 title: 신용 카드 통합 설정
-description: 이 항목은 경비 관련 신용 카드 트랜잭션을 처리하는 방법을 설명합니다.
+description: 이 문서에서는 비용 관련 신용 카드 거래를 처리하는 방법에 대해 설명합니다.
 author: suvaidya
 ms.date: 11/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4d32754548af67bdd5b9f7345f6363bd6193b36d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924503"
 ---
 # <a name="set-up-credit-card-integration"></a>신용 카드 통합 설정
 

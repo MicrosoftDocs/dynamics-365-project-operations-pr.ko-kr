@@ -1,17 +1,17 @@
 ---
 title: 트랜잭션 연결 - 서로 다른 트랜잭션 유형의 실제 연결
-description: 이 항목에서는 수익성, 청구 백로그, 청구 대 미청구 수익 계산을 추적하는 데 도움이 되도록 다양한 유형의 실제를 연결하는 데 트랜잭션 연결을 사용하는 방법을 설명합니다.
+description: 이 문서에서는 수익성, 청구 백로그, 청구 대 미청구 수익 계산을 추적하는 데 도움이 되도록 다양한 유형의 실제를 연결하는 데 트랜잭션 연결을 사용하는 방법을 설명합니다.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926094"
 ---
 # <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>트랜잭션 연결 - 서로 다른 트랜잭션 유형의 실제 연결
 

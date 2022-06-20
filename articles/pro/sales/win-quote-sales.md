@@ -1,18 +1,18 @@
 ---
 title: 견적 닫기 - 라이트
-description: 이 항목은 Project Operations의 견적 종료에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 견적을 닫는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bde4794c19dd69b6dd77abf5483c674cd7503d23
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916940"
 ---
 # <a name="close-a-quote---lite"></a>견적 닫기 - 라이트
 

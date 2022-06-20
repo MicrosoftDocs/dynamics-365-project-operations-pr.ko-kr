@@ -1,17 +1,17 @@
 ---
 title: Project Operations 평가판 등록
-description: 이 주제는 Dynamics 365 Project Operations 평가판을 배포하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Dynamics 365 Project Operations의 평가판 버전을 배포하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584282"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959485"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations 평가판 등록 
 
@@ -19,9 +19,9 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오를 위한 Project O
 
 
 
-이 항목에서는 프리뷰 파트너 제안을 구독하고 Dynamics 365 Project Operations 환경을 배포하는 방법을 설명합니다.
+이 문서에서는 미리 보기 파트너 제안을 구독하고 Dynamics 365 Project Operations 환경을 배포하는 방법을 설명합니다.
 
-새로운 Project Operations 평가판을 사용하면 최상의 배포 접근 방식을 권장하는 설문지를 작성하여 지원되는 세 가지 배포 시나리오 중 하나를 자동으로 배포할 수 있습니다. 이 항목은 다음 방법에 대한 정보를 제공합니다.
+새로운 Project Operations 평가판을 사용하면 최상의 배포 접근 방식을 권장하는 설문지를 작성하여 지원되는 세 가지 배포 시나리오 중 하나를 자동으로 배포할 수 있습니다. 이 문서는 다음을 수행하는 방법에 대한 정보를 제공합니다.
 
 - 평가판 사용.
 - 프로비저닝을 시작.
@@ -89,7 +89,8 @@ Dynamics 365 Project Operations의 평가판을 배포하기 위해 다음과 �
 4.  해당 Microsoft Dataverse URL 및 금융 및 운영 앱 URL을 선택하여 배포의 유효성을 확인합니다.
 
 ## <a name="configuring-dual-write"></a>이중 쓰기 구성
-- 이중 쓰기에 대한 보안 역할을 구성하려면 [Dataverse의 Project Operations에 대한 보안 설정 업데이트](resource-provision-new-environment.md)를 참조하십시오.
+- 이중 쓰기에 대한 보안 역할을 구성하려면 [Dataverse의 Project Operations에 대한 보안 설정 업데이트](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse)를 참조하십시오.
+- 이중 쓰기 구성에 액세스하려면 Finance and Operations 인스턴스로 이동한 다음 **데이터 관리** > **이중 쓰기** 로 이동합니다.
 - 이중 쓰기 맵을 구성하려면 [Project Operations 이중 쓰기 맵 실행](resource-provision-new-environment.md#run-project-operations-dual-write-maps)을 참조하십시오.
 
 ## <a name="assign-licenses"></a>라이선스 할당

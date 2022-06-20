@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화
-description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 62a24f3af823d474cbb4d63f8d079c708256a75e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933868"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화 
 
@@ -27,7 +27,7 @@ ms.locfileid: "8684650"
 
 
 
-이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+이 문서에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 계약 및 프로젝트를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 
 > [!NOTE] 
 > Enterprise 버전 7.3.0을 사용하는 경우 KB 4074835를 설치해야 합니다.

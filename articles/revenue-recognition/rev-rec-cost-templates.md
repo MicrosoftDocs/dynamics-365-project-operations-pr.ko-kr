@@ -1,24 +1,24 @@
 ---
 title: 비용 템플릿 설정
-description: 이 토픽은 Project Operations에서 비용 템플릿을 만들고 사용하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 비용 템플릿을 만들고 사용하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918412"
 ---
 # <a name="set-up-cost-templates"></a>비용 템플릿 설정
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
 
-이 토픽은 Project Operations에서 비용 템플릿을 만들고 사용하는 방법에 대한 정보를 제공합니다. 비용 템플릿은 다음을 결정합니다.
+이 문서에서는 Project Operations에서 비용 템플릿을 만들고 사용하는 방법에 대한 정보를 제공합니다. 비용 템플릿은 다음을 결정합니다.
 
 - 프로젝트 완료 계산의 백분율에 포함될 예측 및 실제 트랜잭션에 대한 프로젝트 범주입니다. 그런 다음 완료율 값을 사용하여 인식되는 수익의 양을 계산합니다.
 - 완료율이 자동으로 계산되는 경우 수정할 수 있는지 여부입니다.

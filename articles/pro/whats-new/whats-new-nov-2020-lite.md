@@ -1,17 +1,17 @@
 ---
 title: 새로운 기능 2020년 11월 - Project Operations 라이트 배포 - 견적 송장 거래
-description: 이 항목에서는 Project Operations 라이트 배포의 2020년 11월 릴리스에서 사용 가능한 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations Lite 배포의 2020년 11월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3a7d63e746edf73873840aee2f095192364cb286
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dfa39c702446fb47359fac442bde52f0e2ab9cf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913858"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>새로운 기능 2020년 11월 - Project Operations 라이트 배포 - 견적 송장 거래
 

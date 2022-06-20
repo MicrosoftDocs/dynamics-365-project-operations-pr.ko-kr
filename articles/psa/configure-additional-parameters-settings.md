@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919240"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>추가 파라미터 구성(Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592332"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-이전 토픽에서 항목을 구성하고 나면 프로젝트에 사용할 추가 프로젝트 파라미터를 설정해야 합니다. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]를 처음 설치하면 파라미터 설정을 만들어 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]가 작동하기 위해 필요한 모든 레코드를 먼저 만들어야 합니다. 이제 다시 앞으로 돌아가 해당 설정에 대한 추가 필드를 구성해야 합니다.  
+이전 문서에서 항목을 구성하고 나면 프로젝트에 사용할 추가 프로젝트 매개 변수를 설정해야 합니다. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]를 처음 설치하면 파라미터 설정을 만들어 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]가 작동하기 위해 필요한 모든 레코드를 먼저 만들어야 합니다. 이제 다시 앞으로 돌아가 해당 설정에 대한 추가 필드를 구성해야 합니다.  
   
  다음과 같은 설정을 구성해야 합니다.  
   

@@ -1,6 +1,6 @@
 ---
-title: 추산
-description: 이 주제는 Dynamics 365 Project Service Automation에서의 추산에 대한 정보를 제공합니다.
+title: 추정
+description: 이 문서에서는 Dynamics 365 Project Service Automation에서의 추정에 대한 정보를 제공합니다.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,14 +17,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 978af25fb89feb61e3c6fcfeafa212db034ff5cb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fdd8fa033131500956249b1bdabc135b5057bbc1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920528"
 ---
-# <a name="estimates"></a>추산
+# <a name="estimates"></a>추정
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

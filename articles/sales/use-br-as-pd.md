@@ -1,26 +1,26 @@
 ---
 title: 가격 책정 차원으로 예약 가능한 리소스 사용
-description: 이 항목은 예약 가능한 리소스를 가격 책정 차원으로 사용하는 방법에 대한 정보를 제공합니다.
+description: 이 문서는 예약 가능한 리소스를 가격 책정 차원으로 사용하는 방법에 대한 정보를 제공합니다.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914824"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>가격 책정 차원으로 예약 가능한 리소스 사용
 
  _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_ 
 
-이 항목은 예약 가능한 리소스를 가격 책정 차원으로 사용하는 방법에 대한 정보를 제공합니다. 예약 가능한 각 리소스에 특정 가격 또는 비용 요율이 있어야 하도록 가격 책정 전략이 설정된 경우 예약 가능한 리소스를 가격 책정 차원으로 사용하십시오.
+이 문서는 예약 가능한 리소스를 가격 책정 차원으로 사용하는 방법에 대한 정보를 제공합니다. 예약 가능한 각 리소스에 특정 가격 또는 비용 요율이 있어야 하도록 가격 책정 전략이 설정된 경우 예약 가능한 리소스를 가격 책정 차원으로 사용하십시오.
 
-## <a name="prerequisites"></a>필수 구성 요소
-이 토픽의 절차를 완료하기 전에 조직에 대한 새로운 가격 책정 차원 솔루션이 있어야 합니다. 아직 생성하지 않은 경우 [사용자 지정 필드 및 엔터티 만들기](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md)를 참조하십시오.
+## <a name="prerequisites"></a>전제 조건
+이 문서의 절차를 완료하기 전에 조직에 대한 새로운 가격 책정 차원 솔루션이 있어야 합니다. 아직 생성하지 않은 경우 [사용자 지정 필드 및 엔터티 만들기](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md)를 참조하십시오.
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>양식 및 보기에 예약 가능한 리소스 필드 추가
 **예약 가능한 리소스** 필드가 가격 책정 차원 솔루션에 표시되도록 하려면 모든 양식 및 보기에 엔터티로 필드를 추가해야 합니다.

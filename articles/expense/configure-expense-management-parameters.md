@@ -1,23 +1,23 @@
 ---
 title: 경비 관리 매개 변수 구성
-description: 이 항목은 경비 관리의 일반 동작을 제어하는 매개 변수를 설명합니다.
+description: 이 문서에서는 경비 관리의 일반적인 동작을 제어하는 매개 변수에 대해 설명합니다.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6432e119f38071b028c013561bab99820778a11d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931476"
 ---
 # <a name="configure-expense-management-parameters"></a>경비 관리 매개 변수 구성
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목은 경비 관리의 일반 동작을 제어하는 매개 변수를 설명합니다.
+이 문서에서는 경비 관리의 일반적인 동작을 제어하는 매개 변수에 대해 설명합니다.
 
 ## <a name="general"></a>일반
 

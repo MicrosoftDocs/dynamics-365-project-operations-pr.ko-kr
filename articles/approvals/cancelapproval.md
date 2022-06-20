@@ -1,17 +1,17 @@
 ---
 title: 이전에 승인된 항목의 승인 취소
-description: 이 항목에서는 프로젝트 관리자가 이전에 승인된 시간, 비용 또는 자재 사용 항목의 승인을 취소할 수 있는 방법을 설명합니다.
+description: 이 문서에서는 프로젝트 관리자가 이전에 승인된 시간, 비용 또는 자재 사용 항목의 승인을 취소할 수 있는 방법을 설명합니다.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 03d4511e85e9fc8d596b269274c4a7e10016244c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 08c2248a5fcfc9b7569871a76bc09234ffd172c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930464"
 ---
 # <a name="cancel-the-approval-of-previously-approved-entries"></a>이전에 승인된 항목의 승인 취소
 

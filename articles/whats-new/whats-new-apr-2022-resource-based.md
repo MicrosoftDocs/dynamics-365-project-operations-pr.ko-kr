@@ -1,24 +1,24 @@
 ---
 title: 2022년 4월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-description: 이 항목에서는 리소스/비재고 기반 시나리오에 대한 Microsoft Dynamics 365 Project Operations의 2022년 4월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스/비재고 기반 시나리오에 대한 Microsoft Dynamics 365 Project Operations의 2022년 4월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912386"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022년 4월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목은 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
+이 문서는 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
 
 - Dataverse 환경 버전 4.41.0.45의 Project Operations
 - Dynamics 365 Finance 환경 버전 10.0.26의 프로젝트 관리 및 회계

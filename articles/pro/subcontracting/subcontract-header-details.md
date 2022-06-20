@@ -1,17 +1,17 @@
 ---
 title: 하도급 계약에 대한 헤더 세부 사항
-description: 이 항목에서는 Project Operations의 하도급 계약 헤더에 제공되는 기능에 대해 설명합니다.
+description: 이 문서에서는 Project Operations의 하도급 계약 헤더에 제공되는 기능에 대해 설명합니다.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914180"
 ---
 # <a name="header-details-for-subcontracts"></a>하도급 계약에 대한 헤더 세부 사항
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598174"
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-이 항목에서는 Dynamics 365 Project Operations의 하도급 계약 헤더에 제공되는 기능에 대해 설명합니다.
+이 문서에서는 Dynamics 365 Project Operations의 하도급 계약 헤더에 제공되는 기능에 대해 설명합니다.
 
 프로젝트 관리자는 프로젝트를 계획하고 실행할 때 하청업체를 고용하고 공급업체로부터 제품과 서비스를 구매할 수 있습니다. 프로젝트 관리자는 제품이나 서비스를 구매해야 하는 경우 Project Operations에서 하도급 계약을 생성할 수 있습니다.
 

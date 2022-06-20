@@ -1,17 +1,17 @@
 ---
 title: 내부 프로젝트에 대한 회계 구성
-description: 이 항목은 Project Operations의 내부 프로젝트에 대한 회계 절차를 설정하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 내부 프로젝트에 대한 회계 관행을 설정하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9da72d8dbf720e380a49a1010caca472ee024783
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7fc2b7247da699a194688b18aa0a695b06cc44c6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919470"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>내부 프로젝트에 대한 회계 구성
 

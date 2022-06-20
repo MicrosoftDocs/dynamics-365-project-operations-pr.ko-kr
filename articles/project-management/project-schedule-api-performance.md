@@ -1,28 +1,28 @@
 ---
 title: 프로젝트 일정 API 성능
-description: 이 항목은 프로젝트 일정 API의 성능 벤치마크에 대한 정보를 제공하고 최적의 사용을 위한 모범 사례를 식별합니다.
+description: 이 문서는 프로젝트 일정 API의 성능 벤치마크에 대한 정보를 제공하고 최적의 사용을 위한 모범 사례를 식별합니다.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911190"
 ---
 # <a name="project-schedule-api-performance"></a>프로젝트 일정 API 성능
 
 _**적용 대상:** 리소스/비재고 기반 시나리오를 위한 Project Operations, 라이트 배포 - 견적 송장 발행 처리, Project for the Web_
 
-이 항목에서는 프로젝트 일정 API(응용 프로그래밍 인터페이스)의 성능 벤치마크에 대한 정보를 제공하고 사용 최적화를 위한 모범 사례를 식별합니다.
+이 문서에서는 프로젝트 일정 API(응용 프로그래밍 인터페이스)의 성능 벤치마크에 대한 정보를 제공하고 사용 최적화를 위한 모범 사례를 식별합니다.
 
 ## <a name="project-scheduling-service"></a>프로젝트 일정 서비스
 프로젝트 일정 서비스는 Microsoft Azure에서 실행되는 다중 테넌트 서비스입니다. 사용자가 프로젝트에서 작업할 때 빠르고 유연한 경험을 제공하여 상호 작용을 개선하도록 설계되었습니다. 이러한 개선은 변경 요청을 수락하고 처리한 다음 즉시 결과를 반환함으로써 달성됩니다. 서비스는 Dataverse에 비동기적으로 지속되며 사용자가 다른 작업을 수행하는 것을 차단하지 않습니다.
 
-프로젝트 일정 API는 프로젝트 일정 서비스에 의존하여 이 토픽 뒷부분에 자세히 설명된 요청을 실행합니다.
+프로젝트 일정 API는 프로젝트 일정 서비스에 의존하여 이 문서 뒷부분에 자세히 설명된 요청을 실행합니다.
 
 프로젝트 일정 API는 다음 WBS(작업 분할 구조) 엔터티와 함께 작동하도록 설계되었습니다.
 

@@ -1,17 +1,17 @@
 ---
 title: Project Operations의 공급업체 및 구매 가격표 관리
-description: 이 항목에서는 하도급을 위한 공급업체 데이터와 구매 가격표를 만들고 유지 관리하는 데 도움이 되는 정보를 제공합니다.
+description: 이 문서에서는 하도급을 위한 공급업체 데이터와 구매 가격표를 만들고 유지 관리하는 데 도움이 되는 정보를 제공합니다.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9c76d5ca45e03167f0ccfd2c1c7013f91fef0f86
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6840ffcbc510fe6385dd3fdaf881e9700c4fdd18
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914134"
 ---
 # <a name="vendor-and-purchase-price-list-management-in-project-operations"></a>Project Operations의 공급업체 및 구매 가격표 관리
 

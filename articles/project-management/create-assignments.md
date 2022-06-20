@@ -1,24 +1,24 @@
 ---
 title: 리소스 할당 만들기
-description: 이 항목은 일반 및 명명된 리소스 할당 만들기에 대한 정보를 제공합니다.
+description: 이 문서에서는 일반 및 명명된 리소스 할당을 만드는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933500"
 ---
 # <a name="create-resource-assignments"></a>리소스 할당 만들기
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 
-리소스 할당은 프로젝트 팀 구성원을 리프 노드 작업에 직접 연결하는 것입니다. 이 항목은 리소스를 할당하는 다른 방법에 대한 정보를 제공합니다.
+리소스 할당은 프로젝트 팀 구성원을 리프 노드 작업에 직접 연결하는 것입니다. 이 문서는 리소스를 할당하는 다양한 방법에 대한 정보를 제공합니다.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>작업 할당을 통한 일반 팀원 생성
 

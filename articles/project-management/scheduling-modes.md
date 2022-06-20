@@ -1,17 +1,17 @@
 ---
 title: 예약 모드
-description: 이 주제는 예약 모드에 대한 정보를 제공합니다.
+description: 이 문서는 예약 모드에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923656"
 ---
 # <a name="scheduling-modes"></a>예약 모드
 
@@ -38,7 +38,7 @@ Project Operations에서 사용할 수 있는 세 가지 예약 모드가 있습
 | 고정된 작업량 작업    | 기간이 다시 계산됩니다. | 단위가 다시 계산됩니다.    | 기간이 다시 계산됩니다. |
 | 고정된 기간 작업  | 작업량이 다시 계산됩니다.   | 작업량이 다시 계산됩니다.    | 단위가 다시 계산됩니다.   |
 
-주어진 모드의 의미에 대한 자세한 정보는 [보다 정확한 예약을 위해 작업 유형 변경](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72)을 참조하십시오. 항목에서 용어 **작업** 대신 **작업량** 이 사용됩니다.
+주어진 모드의 의미에 대한 자세한 정보는 [보다 정확한 예약을 위해 작업 유형 변경](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72)을 참조하십시오. 이 문서에서는 용어 **작업** 이 **노력** 대신 사용됩니다.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>조직의 예약 모드 변경
 

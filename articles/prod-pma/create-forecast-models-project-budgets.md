@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 예산에 대한 예측 모델 만들기
-description: 이 항목은 남은 예산에 대한 예측 모델을 만드는 방법을 설명합니다.
+description: 이 문서에서는 남은 예산에 대한 예측 모델을 만드는 방법을 설명합니다.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916710"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>프로젝트 예산에 대한 예측 모델 만들기 
 
 [!include [banner](../includes/banner.md)]
 
-이 항목은 남은 예산에 대한 예측 모델을 만드는 방법을 설명합니다. 예산 통제가 적용되는 프로젝트는 원래 예산과 잔여 예산의 두 가지 유형을 사용합니다. 프로젝트 예산을 생성할 때 **예측 모델** 페이지에서 생성된 원래 및 잔여 예산 예측 모델을 지정해야 합니다. 프로젝트 예산을 약정하면 지정된 모델을 기반으로 하는 프로젝트 예산이 생성됩니다.
+이 문서에서는 남은 예산에 대한 예측 모델을 만드는 방법을 설명합니다. 예산 통제가 적용되는 프로젝트는 원래 예산과 잔여 예산의 두 가지 유형을 사용합니다. 프로젝트 예산을 생성할 때 **예측 모델** 페이지에서 생성된 원래 및 잔여 예산 예측 모델을 지정해야 합니다. 프로젝트 예산을 약정하면 지정된 모델을 기반으로 하는 프로젝트 예산이 생성됩니다.
 
 > [!NOTE]
 > 예산 통제에 사용되는 예측 모델은 하위 모델을 갖거나 하위 모델로 사용할 수 없습니다.

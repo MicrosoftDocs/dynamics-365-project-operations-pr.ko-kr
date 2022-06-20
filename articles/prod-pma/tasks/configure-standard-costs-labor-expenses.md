@@ -1,6 +1,6 @@
 ---
 title: 인건비 및 비용에 대한 표준 비용 구성
-description: 이 항목은 프로젝트의 인건비 및 비용에 대한 표준 비용을 설정하는 방법을 설명합니다.
+description: 이 문서에서는 프로젝트의 인건비 및 경비에 대한 표준 비용을 설정하는 방법에 대해 설명합니다.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919518"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>인건비 및 비용에 대한 표준 비용 구성
 
 [!include [banner](../../includes/banner.md)]
 
-이 항목은 프로젝트의 인건비 및 비용에 대한 표준 비용을 설정하는 방법을 설명합니다. 이 작업은 USSI 데이터 집합을 사용합니다.
+이 문서에서는 프로젝트의 인건비 및 경비에 대한 표준 비용을 설정하는 방법에 대해 설명합니다. 이 작업은 USSI 데이터 집합을 사용합니다.
 
 1. 탐색 창에서 **모듈 > 프로젝트 관리 및 회계 > 설정 > 가격 > 원가(시간)** 로 이동합니다.
 2. **새로 만들기** 를 선택합니다.

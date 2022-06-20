@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 계약 - 주요 개념
-description: 이 항목은 Project Operations에서 프로젝트 계액의 주요 개념에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 프로젝트 계약의 주요 개념에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926232"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>프로젝트 기반 계약에 고유한 개념
 
@@ -19,7 +19,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 
 
-이 토픽은 Dynamics 365 Project Operations에서 프로젝트 계약 사용을 시작하기 전에 알아야 할 주요 개념을 제공합니다.
+이 문서에서는 Dynamics 365 Project Operations에서 프로젝트 계약을 사용하기 시작하기 전에 알아야 할 주요 개념을 제공합니다.
 
 ## <a name="owning-company"></a>담당 회사
 

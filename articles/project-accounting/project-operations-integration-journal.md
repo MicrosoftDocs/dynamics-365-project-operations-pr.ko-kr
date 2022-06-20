@@ -1,17 +1,17 @@
 ---
 title: Project Operations의 통합 분개장
-description: 이 항목은 Project Operations에서 통합 분개장 작업에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 통합 분개장 작업에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923886"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations의 통합 분개장
 

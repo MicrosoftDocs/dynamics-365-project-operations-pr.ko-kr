@@ -1,17 +1,17 @@
 ---
 title: 재료에 대한 비용 및 판매율 설정
-description: 이 항목은 프로젝트에 사용된 재료의 비용 및 판매율을 설정하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트에 사용되는 자재의 비용 및 판매율을 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0a7d84c2dcaa228e06add2f3cb06a530b29e0e35
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911788"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>재료에 대한 비용 및 판매율 설정
 

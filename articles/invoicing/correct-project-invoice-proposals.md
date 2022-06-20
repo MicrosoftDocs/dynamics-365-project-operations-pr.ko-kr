@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 송장 제안서 초안에 대한 올바른 회계
-description: 이 항목에서는 송장 제안서 초안에서 회계 관련 정보를 조정하는 방법을 설명합니다.
+description: 이 문서에서는 송장 제안서 초안에서 회계 관련 정보를 조정하는 방법에 대해 설명합니다.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575082"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921218"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>프로젝트 송장 제안서 초안에 대한 올바른 회계
 
@@ -19,7 +19,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 프로젝트 송장의 *운영 세부 정보* 는 견적 송장에서 프로젝트 관리자가 유지 관리합니다. 이러한 세부 정보에는 송장을 발행해야 하는 시간, 경비, 재료 또는 이정표, 요율, 선지급 및 유지 금액의 적용에 대한 결정이 포함됩니다. 원래 견적 송장을 확인한 후 [수정 견적 송장](../proforma-invoicing/corrective-invoices.md)을 만들고 확인하여 운영 세부정보를 조정할 수 있습니다.
 
-프로젝트 송장의 *회계 세부 정보* 는 고객 대면 송장 문서에서 관리됩니다. 이러한 세부 정보에는 송장에 적용되는 판매세 계산 및 재무 차원이 포함됩니다. 이 항목에서는 초안 프로젝트 송장 제안서에서 이러한 회계 세부 정보를 조정하는 방법에 대한 세부 정보를 제공합니다.
+프로젝트 송장의 *회계 세부 정보* 는 고객 대면 송장 문서에서 관리됩니다. 이러한 세부 정보에는 송장에 적용되는 판매세 계산 및 재무 차원이 포함됩니다. 이 문서에서는 프로젝트 송장 제안서 초안에서 이러한 회계 세부 정보를 조정하는 방법에 대해 자세히 설명합니다.
 
 ## <a name="adjust-sales-tax"></a>판매세 조정
 

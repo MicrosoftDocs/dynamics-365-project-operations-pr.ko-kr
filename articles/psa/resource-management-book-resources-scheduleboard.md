@@ -1,6 +1,6 @@
 ---
 title: 스케줄 게시판을 사용하여 프로젝트 리소스를 예약
-description: 이 항목은 리소스를 예약하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스를 예약하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 01b6b5f5c688ee4e1a1f0da52b39532d06e5362a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2c2b1c122992e2fab971d0da3638f25c6c3fcc21
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913444"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>스케줄 게시판을 사용하여 프로젝트 리소스를 예약
 

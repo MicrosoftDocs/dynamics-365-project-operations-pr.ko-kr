@@ -1,18 +1,18 @@
 ---
 title: 보류 중인 공급업체 송장을 사용하여 재고가 없는 자재 또는 조달 범주 구매
-description: 이 항목에서는 보류 중인 공급업체 송장을 기록하는 방법을 설명합니다.
+description: 이 문서에서는 보류 중인 공급업체 송장을 기록하는 방법에 대해 설명합니다.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922000"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>보류 중인 공급업체 송장을 사용하여 재고가 없는 자재 또는 조달 범주 구매
 
@@ -23,7 +23,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 예를 들어 Contoso Robotics US는 장비 갱신 프로젝트를 수행하고 있으며 소프트웨어 라이선스가 필요합니다. 이러한 라이선스는 타사 공급업체에서 조달합니다.  Dynamics 365 Finance를 사용하여 미지급금 사무원은 보류 중인 공급업체 송장 문서를 기록하고 라이선스 비용을 장비 갱신 프로젝트에 직접 반영합니다. 
 
 > [!IMPORTANT]
-> 이 항목에 설명된 기능을 사용하기 전에 필요한 구성을 검토하고 적용하십시오. 자세한 내용은 [비재고 자재 및 보류 중인 공급업체 송장 활성화](configure-materials-nonstocked.md) 및 [프로젝트 구매 주문 및 보류 중인 공급업체 송장에 조달 범주 사용](configure-procurement-categories.md)을 참조하십시오.
+> 이 문서에 설명된 기능을 사용하기 전에 필요한 구성을 검토하고 적용하십시오. 자세한 내용은 [비재고 자재 및 보류 중인 공급업체 송장 활성화](configure-materials-nonstocked.md) 및 [프로젝트 구매 주문 및 보류 중인 공급업체 송장에 조달 범주 사용](configure-procurement-categories.md)을 참조하십시오.
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>프로젝트 관련 보류 중인 공급업체 송장 전기 
 

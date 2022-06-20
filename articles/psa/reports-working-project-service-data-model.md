@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 데이터 모델 작업
-description: 이 항목은 데이터 모델로 작업하는 방법에 대한 정보를 제공합니다.
+description: 이 문서는 데이터 모델로 작업하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587548"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926692"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation 데이터 모델 작업
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587548"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation은 다른 앱 엔터티를 확장하고 Common Data Service 데이터 모델에서 자체 엔터티를 소개합니다. 이 주제는 일반적인 PSA 보고 시나리오에서 발생할 엔터티 중 일부에 대해 설명합니다.
+Dynamics 365 Project Service Automation은 다른 앱 엔터티를 확장하고 Common Data Service 데이터 모델에서 자체 엔터티를 소개합니다. 이 문서는 일반적인 PSA 보고 시나리오에서 발생할 엔터티 중 일부에 대해 설명합니다.
 
 ## <a name="reporting-on-opportunities"></a>영업 기회 보고
 

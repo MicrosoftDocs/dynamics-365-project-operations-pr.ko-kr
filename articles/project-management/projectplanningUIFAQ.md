@@ -1,25 +1,25 @@
 ---
 title: 작업 그리드에서 작업 문제 해결
-description: 이 토픽은 작업 그리드에서 작업할 때 필요한 문제 해결 정보를 제공합니다.
+description: 이 문서에서는 작업 그리드에서 작업할 때 필요한 문제 해결 정보를 제공합니다.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911052"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>작업 그리드에서 작업 문제 해결 
 
 
 _**적용 대상:** 리소스/비재고 기반 시나리오를 위한 Project Operations, 라이트 배포 - 견적 송장 발행 처리, Project for the Web_
 
-Dynamics 365 Project Operations에서 활용하는 작업 그리드는 Microsoft Dataverse 내의 호스팅된 iframe입니다. 이 사용의 결과로 인증 및 권한 부여가 올바르게 작동하도록 하려면 특정 요구 사항을 충족해야 합니다. 이 항목에서는 작업 분할 구조(WBS)에서 그리드를 렌더링하거나 작업을 관리하는 기능에 영향을 미칠 수 있는 일반적인 문제를 간략하게 설명합니다.
+Dynamics 365 Project Operations에서 활용하는 작업 그리드는 Microsoft Dataverse 내의 호스팅된 iframe입니다. 이 사용의 결과로 인증 및 권한 부여가 올바르게 작동하도록 하려면 특정 요구 사항을 충족해야 합니다. 이 문서에서는 작업 분할 구조(WBS)에서 그리드를 렌더링하거나 작업을 관리하는 기능에 영향을 미칠 수 있는 일반적인 문제를 간략하게 설명합니다.
 
 일반적인 문제는 다음과 같습니다.
 

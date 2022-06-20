@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 관리 개요
-description: 이 항목은 Dynamics 365 Project Operations에서 프로젝트 관리에 대한 정보를 제공합니다.
+description: 이 문서에서는 Dynamics 365 Project Operations에서 프로젝트 관리 설정에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2e23c6d5290a89fe599273a985962477215bf00b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e2784020cdf20e47cc8d3b14be03f93e250e5da2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925634"
 ---
 # <a name="project-management-overview"></a>프로젝트 관리 개요
 

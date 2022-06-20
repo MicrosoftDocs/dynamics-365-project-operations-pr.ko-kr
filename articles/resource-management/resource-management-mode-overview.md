@@ -1,17 +1,17 @@
 ---
 title: 리소스 관리 모드 개요
-description: 이 항목은 Dynamics 365 Project Operations에서 리소스 관리 기능에 대한 정보를 제공합니다.
+description: 이 문서에서는 Dynamics 365 Project Operations의 리소스 관리 기능에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928440"
 ---
 # <a name="resource-management-modes-overview"></a>리소스 관리 모드 개요
 
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations는 전체 예약 흐름을 실행하기 위해 �
 
 ![하이브리드 모드.](./media/resource-management-hybrid.png)
 
-지원되는 중앙 모드 프로세스 외에도 다음 항목을 참조하여 하이브리드 모드에서 지원되는 다른 모든 예약 흐름을 관리합니다.
+지원되는 중앙 모드 프로세스 외에도 하이브리드 모드에서 지원되는 다른 모든 예약 흐름을 관리하려면 다음 문서를 참조하십시오.
 
 프로젝트에 리소스를 직접 예약
 - [프로젝트 팀에 지정된 예약 가능한 리소스 예약 및 작업 배정](/dynamics365/project-service/assign-named-bookable-resource)

@@ -1,17 +1,17 @@
 ---
 title: 하도급 계약 내용 리소스
-description: 이 항목에서는 시간에 대한 특정 하도급 계약 내용에 대해 공급업체에서 제공하는 전용 리소스를 지정하는 방법을 설명합니다.
+description: 이 문서에서는 특정 하도급 계약 내용에 대해 공급업체에서 제공하는 전용 리소스를 지정하는 방법에 대해 설명합니다.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96bce2d6797c124331ce0174b16804ff8dfec993
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84fbbd6e1a82db2b2d998b5f41579396df884ec3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924162"
 ---
 # <a name="subcontract-line-resources"></a>하도급 계약 내용 리소스
 

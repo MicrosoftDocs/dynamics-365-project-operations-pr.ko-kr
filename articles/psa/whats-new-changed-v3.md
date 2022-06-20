@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 버전 3의 새로운 내용 또는 변경 내용
-description: 이 항목에서는 Project Service Automation 버전 3의 새로운 사항과 변경된 내용에 대한 정보를 제공합니다.
+description: 이 문서는 Project Service Automation 버전 3에서 새로운 내용과 변경된 내용에 대한 정보를 제공합니다.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926600"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation 버전 3의 새로운 내용 또는 변경 내용
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581660"
 
 
 
-이 항목은 버전 2 또는 버전 1과 버전 3 사이의 Project Service Automation의 UI(사용자 인터페이스), 기능 및 용어에 대한 변경 사항 정보를 제공합니다.
+이 문서는 버전 2 또는 버전 1과 버전 3 사이의 Project Service Automation의 UI(사용자 인터페이스), 기능 및 용어에 대한 변경 사항 정보를 제공합니다.
 
 ## <a name="project-scheduling"></a>프로젝트 일정
 이전 버전에서 WBS(작업 분할 구조)로 알려진 프로젝트 일정은 일정으로 이름이 바뀌었으며 **일정** 탭을 클릭하여 액세스합니다. 
@@ -150,7 +150,7 @@ Project Service Automation 버전 3에서는 일반 리소스에 팀 생성 기�
 이 섹션에서는 Project Service Automation 버전 3의 시간, 경비 및 승인의 변경에 대한 정보를 제공합니다. Dynamics 365 Project Service Automation 솔루션의 일부로 통합 인터페이스 프레임워크를 활용하기 위해 **시간 항목** 기능이 새로 고쳐졌습니다. 이를 통해 반응형 디자인을 따르는 일관되고 균일한 사용자 인터페이스를 제공하여 모든 화면 크기 또는 장치에서 최적의 보기를 제공합니다. 
 
 ### <a name="landing-page"></a>랜딩 페이지
-확장 불가능한 사용자 지정 시간 항목 환경은 버전 3에서 더 이상 사용되지 않습니다. 대신 확장 가능하고 접근 가능한 네이티브 표 환경이 있습니다. 왼쪽의 사이트맵을 사용하여 시간 항목 기능에 액세스할 수 있습니다. 이 변경으로, 더 이상 한 번에 일주일 동안 시간을 입력할 수 없습니다. 대신 표에서 매일 시간 항목을 만들어야 합니다. 몇 시간 항목을 만든 후 사용자는 이 주제의 후반부에 설명된 **복사** 함수를 사용하여 시간 항목을 대량으로 만들 수 있습니다. 
+확장 불가능한 사용자 지정 시간 항목 환경은 버전 3에서 더 이상 사용되지 않습니다. 대신 확장 가능하고 접근 가능한 네이티브 표 환경이 있습니다. 왼쪽의 사이트맵을 사용하여 시간 항목 기능에 액세스할 수 있습니다. 이 변경으로, 더 이상 한 번에 일주일 동안 시간을 입력할 수 없습니다. 대신 표에서 매일 시간 항목을 만들어야 합니다. 몇 시간 항목을 만든 후 사용자는 이 문서의 후반부에 설명된 **복사** 함수를 사용하여 시간 항목을 대량으로 만들 수 있습니다. 
 
 ![시간 항목 방문 페이지.](media/time-entry-landing-page-07.png)
  

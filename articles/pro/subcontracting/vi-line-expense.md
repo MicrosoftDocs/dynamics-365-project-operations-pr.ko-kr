@@ -1,17 +1,17 @@
 ---
 title: 경비 범주의 공급업체 송장 라인
-description: 이 항목에서는 경비 범주에 대한 공급업체 송장 라인을 기록하는 방법을 설명합니다.
+description: 이 문서에서는 경비 범주에 대한 공급업체 송장 라인을 기록하는 방법을 설명합니다.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 209460680c9e5c2e39f98ba5c48aa18992775db1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3ffad20b53344221ead9b6850ecdc1efd48d5b13
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925894"
 ---
 # <a name="vendor-invoice-lines-for-expense-categories"></a>경비 범주의 공급업체 송장 라인
 

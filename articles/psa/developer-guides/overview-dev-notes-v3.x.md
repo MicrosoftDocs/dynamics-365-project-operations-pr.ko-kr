@@ -1,6 +1,6 @@
 ---
 title: 개발 홈 페이지 (Project Service Automation 3.x)
-description: 이 항목은 Dynamics 365 Project Service Automation (PSA) 버전 3.x를 위한 개발 정보를 제공하는 항목에 대한 링크를 제공합니다.
+description: 이 문서는 Dynamics 365 Project Service Automation (PSA) 버전 3.x를 위한 개발 정보를 제공하는 문서에 대한 링크를 제공합니다.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5cf7d738d5a7f6fb5d79849bdaf54831414de6de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928992"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>개발 홈 페이지 (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x는 새로운 기능, 새로운 플랫폼 기능 구현 및 다양한 영역의 기존 기능 개선을 제공합니다. 다음 항목은 PSA의 최신 버전에서 변경된 사항에 대한 자세한 정보를 제공합니다.
+Dynamics 365 Project Service Automation 3.x는 새로운 기능, 새로운 플랫폼 기능 구현 및 다양한 영역의 기존 기능 개선을 제공합니다. 다음 문서는 PSA의 최신 버전에서 변경된 사항에 대한 자세한 정보를 제공합니다.
 
 - [엔터티, 컨트롤 및 사용자 인터페이스 변경 (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [시간 및 경비 변경 (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

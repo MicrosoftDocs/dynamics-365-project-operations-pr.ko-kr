@@ -1,17 +1,17 @@
 ---
 title: 승인된 실제 값이 있는 공급업체 송장 확인
-description: 이 항목에서는 Microsoft Dynamics 365 Project Operations를 통해 프로젝트 관리자가 계약자가 작업을 수행하고 기록된 시간과 프로젝트 팀 구성원이 사용한 비용 및 자재로 승인된 실제 금액으로 공급업체 송장을 확인할 수 있는 방법에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations를 통해 프로젝트 관리자가 계약자가 작업을 수행하고 기록된 시간과 프로젝트 팀 구성원이 사용한 비용 및 자재로 승인된 실제 금액으로 공급업체 송장을 확인할 수 있는 방법에 대해 설명합니다.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914226"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>승인된 실제 값이 있는 공급업체 송장 확인
 

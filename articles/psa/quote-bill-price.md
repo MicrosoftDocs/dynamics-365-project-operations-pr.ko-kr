@@ -1,6 +1,6 @@
 ---
 title: 견적, 가격 책정 및 대금 청구 홈 페이지
-description: 이 항목은 견적, 가격 책정 및 대금 청구에 대한 정보를 제공합니다.
+description: 이 문서는 견적, 가격 책정 및 대금 청구에 대한 정보를 제공합니다.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926738"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>견적, 가격 책정 및 대금 청구 홈 페이지
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581108"
 
 견적, 가격 책정 및 대금 청구는 소규모 및 대규모 조직에서 모두 사용하는 기능입니다. 이러한 기능이 애플리케이션에서 작동하는 방식을 이해하면 조직에서 구성을 보다 쉽게 맞춤화할 수 있습니다.
 
-다음 항목들은 PSA에서의 견적, 가격 책정 및 대금 청구 기능에 대한 자세한 정보를 제공합니다:
+다음 문서들은 PSA에서의 견적, 가격 책정 및 대금 청구 기능에 대한 자세한 정보를 제공합니다:
 
 - [영업 프로세스](basic-sales-process.md)
 - [견적 행](basic-quote-lines.md)

@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 추정 및 실제에 대한 판매 가격 해결
-description: 이 항목은 프로젝트 견적 및 실제에 대한 판매 가격 해결에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 견적 및 실제 판매 가격을 해결하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8aa731d48a3ce39dfbf4fc1e5934b0844caf2953
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9a6a19a866ab3218f2a0fa297b5f6a00ed809d2f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917492"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>프로젝트 추정 및 실제에 대한 판매 가격 해결
 

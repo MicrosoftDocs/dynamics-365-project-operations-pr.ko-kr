@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 리소싱 홈 페이지
-description: 이 항목은 프로젝트 리소싱에 대한 정보를 제공합니다.
+description: 이 문서는 프로젝트 리소싱에 대한 정보를 제공합니다.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924024"
 ---
 # <a name="project-resourcing-home-page"></a>프로젝트 리소싱 홈 페이지
 
 [!include [banner](../includes/banner.md)]
 
-이 항목은 프로젝트 리소싱에 대한 정보를 제공합니다.
+이 문서는 프로젝트 리소싱에 대한 정보를 제공합니다.
 
 프로젝트 계획 단계에서 프로젝트 관리자와 리소스 관리자가 겪는 한 가지 과제는 리소스 할당으로, 프로젝트에서 작업할 올바른 리소스를 결정하고 예약해야 합니다. Dynamics 365 Finance에서 프로젝트에 대한 자원 조달 기능을 사용하면 특정 계약이나 계약의 일부를 위해 예약할 수 있는 임시 리소스로 처리되는 역할을 정의할 수 있습니다. 이러한 유형의 리소싱을 통해 프로젝트 관리자와 리소스 관리자는 다음 작업을 완료할 수 있습니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "8684880"
 
 프로젝트 계획이 진행됨에 따라 계획된 리소스는 인력이 있는 리소스로 대체될 수 있습니다. 프로젝트 관리자는 모든 프로젝트 단계에서 다시 돌아가 리소스 예약을 업데이트할 수도 있습니다.
 
-다음 항목은 리소스 조달 프로젝트에서 작업할 때 완료해야 하는 작업에 대한 정보를 제공합니다.
+다음 문서는 리소싱 프로젝트에서 작업할 때 완료해야 하는 작업에 대한 정보를 제공합니다.
 
 - [프로젝트 리소스 설정](set-up-project-resources.md)
 - [리소스 역량 관리](manage-resource-competencies.md)

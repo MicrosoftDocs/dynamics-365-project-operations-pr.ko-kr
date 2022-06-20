@@ -1,6 +1,6 @@
 ---
 title: VAT 복구
-description: 이 항목은 부가가치세(VAT) 트랜잭션에 대해 환불을 복구하는 방법을 설명합니다.
+description: 이 문서에서는 부가가치세(VAT) 거래에 대한 환불을 복구하는 방법을 설명합니다.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ab390e399e0c709cd72219f0a1d85116b33b84e
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a5798c11b4f7a9e49318cdab097746f21c2e81e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934098"
 ---
 # <a name="vat-recovery"></a>VAT 복구 
 

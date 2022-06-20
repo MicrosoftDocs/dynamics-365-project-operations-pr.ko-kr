@@ -1,6 +1,6 @@
 ---
 title: 고급 조직 구성 단위
-description: 이 항목은 Dynamics 365 Project Service Automation의 조직 구성 단위에 대한 정보를 제공합니다.
+description: 이 문서는 Dynamics 365 Project Service Automation의 조직 구성 단위에 대한 정보를 제공합니다.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd9de490b7d6d847e3226b371e06ac671a7836a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589434"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927106"
 ---
 # <a name="about-organizational-units"></a>조직 구성 단위 정보 
 

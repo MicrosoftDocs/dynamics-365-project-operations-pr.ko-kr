@@ -1,17 +1,17 @@
 ---
 title: 전환 시 완전히 청구된 청구 마일스톤 마이그레이션
-description: 이 항목에서는 개시 날짜 이전에 열린 프로젝트 계약에 대해 고객에게 청구된 고정 가격 청구 마일스톤을 마이그레이션하는 방법을 설명합니다.
+description: 이 문서에서는 개시 날짜 이전에 열린 프로젝트 계약에 대해 고객에게 청구된 고정 가격 청구 마일스톤을 마이그레이션하는 방법을 설명합니다.
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ccdba864a68521024b2c479c12cf5cea616c5bbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912248"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>전환 시 완전히 청구된 청구 마일스톤 마이그레이션
 

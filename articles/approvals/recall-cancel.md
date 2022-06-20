@@ -1,17 +1,17 @@
 ---
 title: 이전에 승인된 항목 철회
-description: 이 항목에서는 프로젝트 팀 구성원이 이전에 제출 및 승인된 시간, 비용 및 자재 사용 기록의 철회를 요청할 수 있는 방법과 프로젝트 관리자가 회수 요청을 승인하거나 거부할 수 있는 방법을 설명합니다.
+description: 이 문서에서는 프로젝트 팀 구성원이 이전에 제출 및 승인된 시간, 비용 및 자재 사용 기록의 철회를 요청할 수 있는 방법과 프로젝트 관리자가 회수 요청을 승인하거나 거부할 수 있는 방법을 설명합니다.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930372"
 ---
 # <a name="recall-previously-approved-entries"></a>이전에 승인된 항목 철회
 

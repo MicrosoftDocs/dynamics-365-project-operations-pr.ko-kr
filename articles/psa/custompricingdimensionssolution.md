@@ -1,6 +1,6 @@
 ---
 title: 가격 책정 차원에 대한 맞춤 솔루션 만들기
-description: 이 항목은 맞춤 가격 책정 측정 기준을 만들 때 맞춤 솔루션을 만드는 방법을 설명합니다.
+description: 이 문서에서는 사용자 지정 가격 측정 기준을 만들 때 사용자 지정 솔루션을 만드는 방법을 설명합니다.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7a15c5fc45ada4394dcb8e3dc2b477cb2a0bb8c6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0df6728634b169c8a1a128aba1555d79fee5719f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929038"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>가격 책정 차원에 대한 맞춤 솔루션 만들기
 

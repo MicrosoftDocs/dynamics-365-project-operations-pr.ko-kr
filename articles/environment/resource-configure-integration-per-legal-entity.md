@@ -1,23 +1,23 @@
 ---
 title: 법인별 프로젝트 Project Operations 통합 구성
-description: 이 항목은 Project Operations에서 법인에 의한 통합 설정에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations의 법인별 통합 설정에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914686"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>법인별 프로젝트 Project Operations 통합 구성 
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 토픽은 법인 당 Dynamics 365 Project Operations 구성에 필요한 단계를 안내합니다.
+이 문서에서는 법인별 Dynamics 365 Project Operations을 구성하는 데 필요한 단계를 안내합니다.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dynamics 365 Finance에서 기능 키 활성화
 

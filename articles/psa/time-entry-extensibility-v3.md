@@ -1,6 +1,6 @@
 ---
-title: 주별 시간 항목 맞춤화
-description: 이 주제는 조직의 방법을 지원하는 사용자 지정 비즈니스 규칙을 구현하는 방법에 대한 정보를 제공합니다.
+title: 주간 시간 항목 사용자 지정
+description: 이 문서는 조직의 방법을 지원하는 사용자 지정 비즈니스 규칙을 구현하는 방법에 대한 정보를 제공합니다.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918964"
 ---
 # <a name="customize-weekly-time-entry"></a>주간 시간 항목 사용자 지정 
 
@@ -46,9 +46,9 @@ Microsoft Dynamics 365 Project Service Automation 버전 3.3에서 Microsoft는 
 - 그런 다음
 - 항목 상태
 
-**크기** 섹션에서는 인라인 편집이 허용되지 않습니다. 이 섹션은 사용자 지정 필드를 주간 시간 항목 표에 추가할 수 있는 보기에 의해 뒷받침됩니다. 사용자 지정 필드를 추가하는 방법에 대한 자세한 내용은 이 주제의 "확장성" 섹션을 참조하십시오.
+**크기** 섹션에서는 인라인 편집이 허용되지 않습니다. 이 섹션은 사용자 지정 필드를 주간 시간 항목 표에 추가할 수 있는 보기에 의해 뒷받침됩니다. 사용자 지정 필드를 추가하는 방법에 대한 자세한 내용은 이 문서의 "확장성" 섹션을 참조하십시오.
 
-### <a name="duration"></a>기간
+### <a name="duration"></a>길이
 기간 섹션은 요일을 열 머리글로 표시합니다. 이 섹션에서는 인라인 편집을 할 수 있습니다. 적절한 크기가 있는 시간 입력 행이 만들어지면 사용자는 해당 크기에 소요된 시간을 인라인으로 빠르게 입력할 수 있습니다.
 
 ## <a name="create-a-new-time-entry"></a>새 시간 항목 만들기

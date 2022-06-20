@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 시간 항목 모바일 작업 영역
-description: 이 주제는 프로젝트 시간 항목 모바일 작업 영역에 대한 정보를 제공합니다. 이 작업 영역을 통해 사용자는 모바일 장치를 사용하여 프로젝트를 입력하고 시간을 절약할 수 있습니다.
+description: 이 문서에서는 프로젝트 시간 입력 모바일 작업 공간에 대한 정보를 제공합니다. 이 작업 영역을 통해 사용자는 모바일 장치를 사용하여 프로젝트를 입력하고 시간을 절약할 수 있습니다.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919547"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>프로젝트 시간 항목 모바일 작업 영역
 
 [!include [banner](../includes/banner.md)]
 
-이 주제는 **프로젝트 시간 항목** 모바일 작업 영역에 대한 정보를 제공합니다. 이 작업 영역을 통해 사용자는 모바일 장치를 사용하여 프로젝트를 입력하고 시간을 절약할 수 있습니다.
+이 문서에서는 **프로젝트 시간 입력** 모바일 작업 공간에 대한 정보를 제공합니다. 이 작업 영역을 통해 사용자는 모바일 장치를 사용하여 프로젝트를 입력하고 시간을 절약할 수 있습니다.
 
 이 모바일 작업 영역은 Dynamics 365 Unified Ops 모바일 앱과 함께 사용하기 위한 것입니다. 
 

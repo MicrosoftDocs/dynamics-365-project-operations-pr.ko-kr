@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
-description: 이 항목은 Project Operations의 계약 내용에 청구 가능 구성 요스를 추가하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations의 계약 내용에 청구 가능한 구성 요소를 추가하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c02228c5b75afdc825ffbf0ada9ca57001a173ac
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922966"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
 

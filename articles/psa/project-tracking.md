@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 진행률 및 비용 소비율
-description: 이 주제는 프로젝트 진행 상황과 비용 소비 추적에 대한 정보를 제공합니다.
+description: 이 문서는 프로젝트 진행 상황과 비용 소비 추적에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921770"
 ---
 # <a name="project-progress-and-cost-consumption"></a>프로젝트 진행률 및 비용 소비율
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575266"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-일정에 대한 진행 상황을 추적할 필요성은 업계에 따라 다릅니다. 일부 산업은 세분화된 수준에서 추적하는 반면 다른 산업은 더 높은 수준에서 추적합니다. 이 주제는 조직의 요구 사항을 충족하기 위해 예약하는 방법을 보여 줍니다.
+일정에 대한 진행 상황을 추적할 필요성은 업계에 따라 다릅니다. 일부 산업은 세분화된 수준에서 추적하는 반면 다른 산업은 더 높은 수준에서 추적합니다. 이 문서는 조직의 요구 사항을 충족하기 위해 예약하는 방법을 보여 줍니다.
 
 ## <a name="effort-tracking-view"></a>작업량 추적 보기
 

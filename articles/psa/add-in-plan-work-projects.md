@@ -1,6 +1,6 @@
 ---
 title: Project Service 추가 기능을 사용하여 Microsoft Project의 작업 계획
-description: 이 항목은 Microsoft Project Service를 위한 Microsoft Project 추가 기능을 사용하는 방법에 대한 정보를 제공합니다.
+description: 이 문서ㄴ,ㄴ Microsoft Project Service를 위한 Microsoft Project 추가 기능을 사용하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: 779d83a896dd7d92c6584e6f1c57b1ea567e9051
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911006"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Project Service 추가 기능을 사용하여 Microsoft Project의 작업 계획
 

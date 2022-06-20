@@ -1,6 +1,6 @@
 ---
 title: 시간 및 자재 프로젝트에 대한 프로젝트 판매 주문
-description: 이 항목은 시간 및 자재 프로젝트에 대한 프로젝트 기반 판매 주문을 생성하는 방법을 설명합니다.
+description: 이 문서에서는 시간 및 자재 프로젝트에 대한 프로젝트 기반 판매 주문을 생성하는 방법에 대해 설명합니다.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933822"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>시간 및 자재 프로젝트에 대한 프로젝트 판매 주문
 
 [!include[banner](../includes/banner.md)]
 
-이 항목은 프로젝트에 대한 판매 주문을 생성하는 방법을 설명합니다. 판매 주문은 **시간 및 재료** 유형의 프로젝트에 대해서만 생성할 수 있습니다.
+이 문서에서는 프로젝트에 대한 판매 주문을 생성하는 방법을 설명합니다. 판매 주문은 **시간 및 재료** 유형의 프로젝트에 대해서만 생성할 수 있습니다.
 
 시간 및 자재 프로젝트에 프로젝트 계약의 여러 자금 출처가 있는 경우 **프로젝트 관리 및 회계 매개 변수** 페이지의 **자금 출처가 여러 개인 프로젝트에 대한 판매 주문 허용** 매개 변수를 활성화해야 합니다. 
 

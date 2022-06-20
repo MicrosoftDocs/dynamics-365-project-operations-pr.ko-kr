@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 리소싱 홈 페이지
-description: 이 항목은 Dynamics 365용 Project Service Automation(PSA)에서 리소스 관리 능력에 대한 정보를 제공합니다.
+description: 이 문서는 Dynamics 365용 Project Service Automation(PSA)에서 리소스 관리 능력에 대한 정보를 제공합니다.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925266"
 ---
 # <a name="resourcing-projects-home-page"></a>프로젝트 리소싱 홈 페이지
 
@@ -46,7 +46,7 @@ ms.locfileid: "8599830"
 - 기능과 숙련도 리포지토리를 유지합니다.
 
 
-PSA에서 일반 또는 명명된 리소스 팀으로 프로젝트를 충원할 수 있습니다. 다양한 방법을 사용하여 팀원을 추가 및 할당하고 예약 및 할당을 관리할 수 있습니다. 자세한 내용은 다음 항목을 참조하십시오.
+PSA에서 일반 또는 명명된 리소스 팀으로 프로젝트를 충원할 수 있습니다. 다양한 방법을 사용하여 팀원을 추가 및 할당하고 예약 및 할당을 관리할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
 
 - [프로젝트 팀에 지정된 예약 가능한 리소스 예약 및 과업 할당](assign-named-bookable-resource.md)
 - [작업에 일반 예약 가능한 리소스 할당 및 리소스 요건 생성](assign-generic-bookable-resource.md)

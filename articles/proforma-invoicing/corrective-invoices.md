@@ -1,17 +1,17 @@
 ---
 title: 수정 프로젝트 기반 송장
-description: 이 항목은 Project Operations에서 수정 프로젝트 기반 송장을 만들고 확인하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 수정 프로젝트 기반 송장을 만들고 확인하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 71bf10518c22ce2ad6aa43b710c68d0d46f93e77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eecaf3dedeab5ff72d12808eb3144f9161313009
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931108"
 ---
 # <a name="corrective-project-based-invoices"></a>수정 프로젝트 기반 송장
 

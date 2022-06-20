@@ -1,6 +1,6 @@
 ---
 title: 견적 - 주요 개념
-description: 이 항목은 Project Operations에서 사용할 수 있는 프로젝트 견적 및 판매 견적에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 사용할 수 있는 프로젝트 견적 및 판매 견적에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912524"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>프로젝트 기반 견적에 고유한 개념
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations에는 견적, 프로젝트 및 영업의 두 가
 - **필드 및 개념**: 영업 견적에는 프로젝트 견적에 포함된 일부 필드 및 개념을 포함하지 않습니다. 필드에는 **계약 단위**, **거래처 관리자** 및 **청구할 연락처 이름** 이 포함됩니다.  
 - **유형**: 영업 견적 및 프로젝트 견적은 **유형** 이라는 옵션 집합 기반 필드로 식별됩니다. 영업 견적의 경우, 이 필드에는 **항목 기반** 값이 있습니다. 프로젝트 견적의 경우, **작업 기반** 값이 있습니다.
 
-이 항목은 프로젝트 견적의 세부 정보에 초점을 맞춥니다.
+이 문서는 프로젝트 견적의 세부 정보에 초점을 맞춥니다.
 
 Project Operations의 프로젝트 견적에는 여러 라인 항목 또는 견적 라인이 있을 수 있습니다. 실제로 프로젝트 견적에는 라인 항목에 대한 두 개의 그리드가 있습니다. 하나의 그리드는 상세한 예상을 허용하는 프로젝트 기반 라인입니다. 다른 그리드는 간단한 단가 및 수량 기반 접근 방식을 사용하는 제품 기반 라인에 대한 것입니다.
 

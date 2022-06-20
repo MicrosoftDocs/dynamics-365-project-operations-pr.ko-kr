@@ -1,23 +1,23 @@
 ---
 title: 방법을 완료하는 데 드는 비용
-description: 이 토픽은 프로젝트 완료 비용을 계산하는 데 사용되는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 완료 비용을 계산하는 데 사용되는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920298"
 ---
 # <a name="cost-to-complete-methods"></a>방법을 완료하는 데 드는 비용
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 토픽은 프로젝트 완료 비용을 계산하는 데 사용되는 방법에 대한 정보를 제공합니다. 프로젝트 완료 비용을 계산하는 데 사용할 수 있는 여러 가지 방법이 있습니다. 
+이 문서에서는 프로젝트 완료 비용을 계산하는 데 사용되는 방법에 대한 정보를 제공합니다. 프로젝트 완료 비용을 계산하는 데 사용할 수 있는 여러 가지 방법이 있습니다. 
 
 프로젝트에 대한 견적을 생성할 때 **추정 만들기** 페이지에서 **방법을 완료하는 데 드는 비용** 필드에서 다음 비용 중 하나를 선택하여 방법을 완료할 수 있습니다.
 

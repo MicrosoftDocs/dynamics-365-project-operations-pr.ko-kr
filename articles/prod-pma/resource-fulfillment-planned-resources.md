@@ -1,6 +1,6 @@
 ---
 title: 계획된 리소스에 대한 리소스 이행
-description: 이 항목은 프로젝트의 계획된 리소스에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트에 대해 계획된 리소스에 대한 정보를 제공합니다.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8cb43e59f9377e9b6678db37d6d4c9e62fd4078
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 4bcd9a9b1ca5614134197ddac100fe2131c03034
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932166"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>계획된 리소스에 대한 리소스 이행
 

@@ -1,6 +1,6 @@
 ---
 title: 보고 홈 페이지
-description: 이 주제는 Dynamics 365 Project Service Automation에서의 보고에 대한 정보를 제공합니다.
+description: 이 문서는 Dynamics 365 Project Service Automation에서의 보고에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921678"
 ---
 # <a name="reporting-home-page"></a>보고 홈 페이지
 
@@ -47,7 +47,7 @@ Microsoft Dynamics 365 Project Service Automation을 사용하여 프로젝트 �
 
 
 ## <a name="additional-resources"></a>추가 리소스
-PSA에서의 보고에 대한 자세한 설명은 다음 항목들을 참조하십시오:
+PSA에서의 보고에 대한 자세한 설명은 다음 문서들을 참조하십시오:
 
 - [Project Service 데이터 모델 작업](reports-working-project-service-data-model.md)
 - [대시보드](reports-dashboards.md)

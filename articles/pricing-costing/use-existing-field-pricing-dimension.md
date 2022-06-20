@@ -1,6 +1,6 @@
 ---
 title: 가격 책정 차원의 Project Operations 필드
-description: 이 토픽은 필드를 Dynamics 365 Project Operations의 가격 책정 차원으로 사용하는 정보를 제공합니다.
+description: 이 문서에서는 Dynamics 365 Project Operations의 가격 차원으로 필드를 사용하는 정보를 제공합니다.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a68bfe5a61f032f28f69c1aaed29f12cbea285d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: baf2145d4df23893953a099ca3837160fa8ac764
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932810"
 ---
 # <a name="project-operations-fields-as-pricing-dimensions"></a>가격 책정 차원의 Project Operations 필드
 

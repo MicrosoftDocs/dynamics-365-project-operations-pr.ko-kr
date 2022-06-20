@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 예약
-description: 이 항목은 프로젝트에 리소스를 예약하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트에 리소스를 예약하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dca9d722eae595af7a81c2b4684729d7658ed012
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928532"
 ---
 # <a name="book-to-a-project"></a>프로젝트 예약
 

@@ -1,6 +1,6 @@
 ---
 title: 가격 설정 및 트랜잭션 엔터티에 사용자 지정 필드 추가
-description: 이 주제는 가격 설정 및 트랜잭션 엔터티에 사용자 지정 필드를 추가하는 것에 대한 정보를 제공합니다.
+description: 이 문서는 가격 설정 및 트랜잭션 엔터티에 사용자 지정 필드를 추가하는 것에 대한 정보를 제공합니다.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920482"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>가격 설정 및 트랜잭션 엔터티에 사용자 지정 필드 추가 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-이 주제는 [사용자 지정 필드 및 엔터티 만들기](create-custom-fields-entities.md)에서 절차를 완료했다고 가정합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 항목으로 돌아오십시오. 
+이 문서는 [사용자 지정 필드 및 엔터티 만들기](create-custom-fields-entities.md) 문서에서 절차를 완료했다고 가정합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 문서로 돌아오십시오. 
 
-이 주제는 절차에서 엔터티 및 양식 및 뷰와 같은 사용자 인터페이스(UI) 요소에 필요한 사용자 지정 필드 참조를 추가하는 방법을 보여 줍니다.
+이 문서는 절차에서 엔터티 및 양식 및 뷰와 같은 사용자 인터페이스(UI) 요소에 필요한 사용자 지정 필드 참조를 추가하는 방법을 보여 줍니다.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>사용자 지정 가격 책정 차원 필드 추가 
 사용자 지정 필드 및 엔터티를 만든 후 다음 단계는 참조 필드를 만들어 사용자 지정 엔터티 또는 옵션 집합을 인식 하는 가격 설정 및 트랜잭션 엔터티를 확인하는 것입니다. 가격 책정 차원 목록에 옵션 집합 차원 또는 엔터티 차원 또는 둘 다를 포함하는지 여부에 따라 **옵션 세트 기반 사용자 지정 가격 책정 차원** 또는 **엔터티 기반 사용자 지정 가격 측정 차원** 또는 둘 다를 포함합니다.

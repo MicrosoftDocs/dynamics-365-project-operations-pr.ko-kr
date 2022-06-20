@@ -1,6 +1,6 @@
 ---
 title: 가격 책정 차원으로 예약 가능한 리소스 사용
-description: 이 항목은 예약 가능한 리소스를 가격 책정 차원으로 사용하는 것에 대한 정보를 제공합니다.
+description: 이 문서는 예약 가능한 리소스를 가격 책정 차원으로 사용하는 것에 대한 정보를 제공합니다.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916112"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>가격 책정 차원으로 예약 가능한 리소스 사용
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-이 항목은 예약 가능한 리소스를 가격 책정 차원으로 사용하는 것에 대한 정보를 제공합니다. 시작하기 전에 가격 책정 차원 솔루션을 아직 만들지 않은 경우 새 솔루션을 만들어야 합니다. 가격 차원 솔루션이 이미 있는 경우 해당 솔루션을 변경할 수 있습니다. 조직에 대한 새 가격 책정 차원 솔루션을 만들지 않은 경우 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md) 항목의 절차를 완료하십시오.
+이 문서는 예약 가능한 리소스를 가격 책정 차원으로 사용하는 것에 대한 정보를 제공합니다. 시작하기 전에 가격 책정 차원 솔루션을 아직 만들지 않은 경우 새 솔루션을 만들어야 합니다. 가격 차원 솔루션이 이미 있는 경우 해당 솔루션을 변경할 수 있습니다. 조직에 대한 새 가격 책정 차원 솔루션을 만들지 않은 경우 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md) 문서의 절차를 완료하십시오.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>양식 및 보기에 예약 가능한 리소스 추가
 가격 책정 차원 솔루션의 UI에 필드를 표시하려면 주요 Project Service 엔터티의 모든 양식 및 보기를 살펴보고 이러한 필드를 해당 엔터티의 양식 및 보기에 추가해야 합니다.

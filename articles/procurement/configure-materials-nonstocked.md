@@ -1,18 +1,18 @@
 ---
 title: 비 재고 재료 및 보류 중인 공급업체 송장 구성
-description: 이 항목은 비 재고 재료 및 보류 중인 공급업체 송장을 활성화하는 방법을 설명합니다.
+description: 이 문서에서는 재고가 없는 자재 및 보류 중인 공급업체 송장을 활성화하는 방법에 대해 설명합니다.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913766"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>비 재고 재료 및 보류 중인 공급업체 송장 구성
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>비 재고 재료 및 공급업체 송장 통합을 위한 이중 쓰기 맵 실행
 
-이 섹션에서는 비 재고 재료 및 공급업체 송장에 필요한 특정 맵에 대한 정보를 제공합니다. [새로운 환경 제공](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) 항목에 나열된 전제 조건 맵이 사용자 환경에서 실행 중인지 확인하십시오.
+이 섹션에서는 비 재고 재료 및 공급업체 송장에 필요한 특정 맵에 대한 정보를 제공합니다. [새 환경 프로비저닝](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) 문서에 나열된 필수 구성 요소 맵이 사용자 환경에서 실행되고 있는지 확인합니다.
 
 1. Lifecycle Services(LCS)로 이동하고 LCS 프로젝트로 이동한 다음 **환경 세부 정보** 페이지로 이동합니다.
 2. **Common Data Service 환경 정보** 섹션에서 **앱용 CDS 링크** 를 선택합니다. 링크를 선택하면 매핑의 엔터티 목록으로 리디렉션됩니다.

@@ -1,17 +1,17 @@
 ---
 title: 추정 및 실제에 대한 판매 가격 해결
-description: 이 항목은 추정 및 실제 판매율을 확인하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 견적 및 실제 판매율을 해결하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 697d5e330fec1874e8cb59fb86dd688637860346
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911834"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>추정 및 실제에 대한 판매 가격 해결
 

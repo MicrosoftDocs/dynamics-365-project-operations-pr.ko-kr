@@ -1,6 +1,6 @@
 ---
 title: 가격 및 원가 차원 홈 페이지
-description: 이 항목은 가격 차원에 대한 개요를 제공합니다.
+description: 이 문서는 가격 차원에 대한 개요를 제공합니다.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593620"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925450"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>가격 및 원가 차원 홈 페이지
 
@@ -47,7 +47,7 @@ PSA는 기본 가격 차원 집합으로 배송됩니다. 이러한 것을 **Pro
 > [!IMPORTANT]
 > PSA 버전 3 이전에 역할 및 조직 단위의 즉시 사용 필드가 가격 차원으로 사용된 경우 관찰 가능한 변경 사항이 없습니다. 평소와 같이 Project Service를 계속 사용할 수 있습니다. 
 
-추가 속성을 사용하는 리소스에 대한 가격 또는 원가가 필요한 경우 맞춤화된 필드, 엔터티 및 차원을 만들 수 있습니다. 자세한 내용은 다음 항목을 참조하지만 아래 나열된 순서대로 절차를 완료해야 합니다:
+추가 속성을 사용하는 리소스에 대한 가격 또는 원가가 필요한 경우 맞춤화된 필드, 엔터티 및 차원을 만들 수 있습니다. 자세한 내용은 다음 문서를 참조하지만 아래 나열된 순서대로 절차를 완료해야 합니다:
 
 - [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md)
 - [가격 설정 및 처리 엔터티에 맞춤 필드 추가](field-references.md)

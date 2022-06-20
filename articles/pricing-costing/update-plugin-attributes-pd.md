@@ -1,33 +1,33 @@
 ---
 title: 새 가격 책정 차원을 포함하도록 플러그인 특성 업데이트
-description: 이 주제는 가격 책정 차원에 대한 플러그인 특성을 업데이트하는 방법에 대한 정보를 제공합니다.
+description: 이 문서는 가격 책정 차원에 대한 플러그인 속성을 업데이트하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575036"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920022"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>새 가격 책정 차원을 포함하도록 플러그인 특성 업데이트
 
-이 주제는 가격 책정 차원에 대한 플러그인 특성을 업데이트하는 방법에 대한 정보를 제공합니다.
+이 문서는 가격 책정 차원에 대한 플러그인 속성을 업데이트하는 방법에 대한 정보를 제공합니다.
 
 > [!NOTE]
-> 이 토픽은 Dynamics 365 Project Operations의 견적 및 계약 기능에만 적용됩니다.
+> 이 문서는 Dynamics 365 Project Operations의 견적 및 계약 기능에만 적용됩니다.
 
-## <a name="prerequisites"></a>필수 구성 요소
-이 토픽의 단계를 완료하기 전에 다음 토픽의 절차를 완료해야 합니다.
+## <a name="prerequisites"></a>전제 조건
+이 문서의 단계를 완료하기 전에 다음 문서의 절차를 완료해야 합니다.
 
   - [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities-pricing-dimensions.md) 
   - [가격 설정 및 거래 엔터티에 사용자 지정 필드 추가](add-custom-fields-price-setup-transactional-entities.md)
   - [가격 책정 차원의 사용자 지정 필드 설정](set-up-custom-fields-pricing-dimensions.md). 
   
-이러한 절차를 완료하지 않은 경우 완료한 다음 이 항목으로 돌아오십시오.
+해당 절차를 완료하지 않은 경우 완료한 다음 이 문서로 돌아오십시오.
 
 ## <a name="register-a-plug-in"></a>플러그 인 등록
 견적 라인 세부 정보가 생성되면 프로젝트 견적 라인의 **견적 라인** 페이지에서 시스템은 두 개의 견적 라인을 생성합니다. 한 라인은 견적의 비용 측면이고 다른 라인은 판매 측면입니다. 프로젝트 계약 행에도 마찬가지입니다.

@@ -1,22 +1,22 @@
 ---
 title: 2021년 2월의 새로운 기능 - Project Operations 라이트 배포
-description: 이 항목은 Project Operations 라이트 배포의 2021년 2월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations Lite 배포의 2021년 2월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574622"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914042"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>2021년 2월의 새로운 기능 - Project Operations 라이트 배포
 
-이 항목은 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
+이 문서는 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
 
   - Dataverse 환경 버전 4.7.0.95의 Project Operations
 

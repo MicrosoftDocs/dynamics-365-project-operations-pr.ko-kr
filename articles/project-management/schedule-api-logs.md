@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 일정 로그
-description: 이 항목은 프로젝트 일정 로그를 사용하여 프로젝트 일정 서비스 및 프로젝트 일정 API와 관련된 오류를 추적하는 데 도움이 되는 정보와 샘플을 제공합니다.
+description: 이 문서에서는 프로젝트 일정 로그를 사용하여 프로젝트 일정 서비스 및 프로젝트 일정 API와 관련된 오류를 추적하는 데 도움이 되는 정보와 샘플을 제공합니다.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923703"
 ---
 # <a name="project-scheduling-logs"></a>프로젝트 일정 로그
 

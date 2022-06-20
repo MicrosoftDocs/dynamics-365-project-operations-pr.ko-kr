@@ -1,6 +1,6 @@
 ---
 title: Finance and Operations 및 Project Service Automation 간에 프로젝트 비용 범주 동기화
-description: 이 항목에서는 Microsoft Dynamics 365 Finance와 Dynamics 365 Project Service Automation 간에 프로젝트 경비 범주를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Finance와 Dynamics 365 Project Service Automation 간에 프로젝트 경비 범주를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927244"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Finance and Operations 및 Project Service Automation 간에 프로젝트 비용 범주 동기화
 
 [!include[banner](../includes/banner.md)]
 
-이 항목에서는 Dynamics 365 Finance와 Dynamics 365 Project Service Automation 간에 프로젝트 경비 범주를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+이 문서에서는 Dynamics 365 Finance와 Dynamics 365 Project Service Automation 간에 프로젝트 경비 범주를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 
 > [!NOTE]
 > - 프로젝트 작업 통합, 경비 트랜잭션 범주, 시간 추정, 경비 추정 및 기능 잠금은 버전 8.0에서 사용할 수 있습니다.

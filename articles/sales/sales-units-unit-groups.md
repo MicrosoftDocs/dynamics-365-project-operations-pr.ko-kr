@@ -1,6 +1,6 @@
 ---
 title: 단위 및 단위 그룹
-description: 이 토픽은 Dynamics 365 Project Operations에서 단위 및 단위 그룹을 생성하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Dynamics 365 Project Operations에서 장치 및 장치 그룹을 만드는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921448"
 ---
 # <a name="units-and-unit-groups"></a>단위 및 단위 그룹
 
@@ -28,7 +28,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 단위는 제품 또는 서비스를 판매하는 수량 또는 규격입니다. 예를 들어, 정원 소모품을 판매하는 경우 씨앗을 패킷, 박스 또는 팔레트 단위로 판매할 수 있습니다. 단위 그룹은 일한 여러 단위의 모음입니다.
 
-이 항목의 단계를 완료하려면 시스템 관리자 또는 Sales Professional 관리자 역할에 할당되었거나 동등한 권한이 있는지 확인하십시오.
+이 문서의 단계를 완료하려면 시스템 관리자 또는 영업 전문가 관리자 역할에 할당되었거나 이에 상응하는 권한이 있는지 확인하십시오.
 
 ## <a name="create-a-unit-group"></a>단위 그룹 만들기
 

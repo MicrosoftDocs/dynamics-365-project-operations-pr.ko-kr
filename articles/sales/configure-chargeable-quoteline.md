@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 기반 견적 라인의 청구 가능 구성 요소 구성
-description: 이 토픽은 프로젝트 기반 견적 라인의 포함, 청구 가능 및 청구 불가능 구성 요소에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 기반 견적 라인에 포함된, 청구 가능한 구성요소 및 청구 불가능한 구성요소에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 025a04fa63bfdb53aaababcd964a5dcb92c0a3a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff409132ef9103641578f9c94f8ea1ff56738a71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915560"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>프로젝트 기반 견적 라인의 청구 가능 구성 요소 구성
 

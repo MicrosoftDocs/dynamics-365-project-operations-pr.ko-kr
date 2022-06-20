@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 계획 및 추적
-description: 이 항목은 Project Service Automation에서 계획 및 추적에 대한 정보의 링크를 제공합니다.
+description: 이 문서는 Project Service Automation에서 계획 및 추적에 대한 정보의 링크를 제공합니다.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933270"
 ---
 # <a name="project-planning-and-tracking"></a>프로젝트 계획 및 추적
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589894"
 
 Project Service 애플리케이션은 서비스 조직이 기회를 식별하고, 입찰을 제출하고, 계약 합의에 도달하고, 리소스를 관리하고, 시간 및 경비를 추적하고, 고객에게 청구서를 발행하고, 프로젝트를 적시에 예산 내에서 인도하는 데 도움이 됩니다. 
 
-이 항목에 이전에 있었던 PDF 링크가 제거되었으며 콘텐츠가 다음 항목으로 이동되었습니다:
+이 문서에 이전에 있었던 PDF 링크가 제거되었으며 콘텐츠가 다음 문서로 이동되었습니다:
 
 - [프로젝트 스케줄](../project-creating.md)
 - [프로젝트 원가 및 수익](../project-estimating.md)
@@ -43,7 +43,7 @@ Project Service 애플리케이션은 서비스 조직이 기회를 식별하고
 - [프로젝트 설정](../project-settings.md)
 
 > [!NOTE]
-> 향후 설명서 업데이트에서 이 항목은 제거될 것입니다. 
+> 향후 설명서 업데이트에서 이 문서는 제거될 것입니다. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

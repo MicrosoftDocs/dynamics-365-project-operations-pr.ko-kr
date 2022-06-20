@@ -1,6 +1,6 @@
 ---
 title: 가격 책정 차원의 사용자 지정 필드 설정
-description: 이 항목은 사용자 지정 필드를 사용하여 가격 책정 차원 설정 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 사용자 정의 필드를 사용하여 가격 측정 기준을 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917584"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>가격 책정 차원의 사용자 지정 필드 설정
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-시작하기 전에 이 항목은 귀하가 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities-pricing-dimensions.md) 및 [가격 설정 및 트랜잭션 엔터티에 필수 맞춤 필드 추가](add-custom-fields-price-setup-transactional-entities.md) 항목의 절차를 완료했다고 간주합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 항목으로 돌아오십시오. 
+시작하기 전에 이 문서는 귀하가 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities-pricing-dimensions.md) 및 [가격 설정 및 트랜잭션 엔터티에 필요한 맞춤 필드 추가](add-custom-fields-price-setup-transactional-entities.md) 문서의 절차를 완료했다고 간주합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 문서로 돌아오십시오. 
 
-이 항목은 맞춤 가격 책정 차원 설정에 대한 정보를 제공합니다. **매개 변수** 페이지의 **금액 기반 가격 책정 차원** 탭에는 가격 책정 차원 엔터티의 레코드가 표시됩니다. 기본적으로 이 탭의 그리드에는 두 개의 행이 있습니다.
+이 문서는 맞춤 가격 책정 차원 설정에 대한 정보를 제공합니다. **매개 변수** 페이지의 **금액 기반 가격 책정 차원** 탭에는 가격 책정 차원 엔터티의 레코드가 표시됩니다. 기본적으로 이 탭의 그리드에는 두 개의 행이 있습니다.
 
 - **msdyn_resourcecategory** (역할)
 - **msdyn_OrganizationalUnit** (조직 단위)

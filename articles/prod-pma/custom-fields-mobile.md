@@ -1,6 +1,6 @@
 ---
 title: iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
-description: 이 항목은 확장을 사용하여 사용자 지정 필드를 구현하기 위한 공통 패턴을 제공합니다.
+description: 이 문서에서는 확장을 사용하여 사용자 정의 필드를 구현하는 일반적인 패턴을 제공합니다.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913720"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
 
 [!include [banner](../includes/banner.md)]
 
-이 항목은 확장을 사용하여 사용자 지정 필드를 구현하기 위한 공통 패턴을 제공합니다. 다음 주제를 다룹니다.
+이 문서에서는 확장을 사용하여 사용자 정의 필드를 구현하는 일반적인 패턴을 제공합니다. 다음 문서에서 다룹니다.
 
 - 사용자 지정 필드 프레임워크가 지원하는 다양한 데이터 유형
 - 작업 표 항목에 읽기 전용 또는 편집 가능한 필드를 표시하고 사용자가 제공한 값을 다시 데이터베이스에 저장하는 방법
@@ -35,7 +35,7 @@ ms.locfileid: "8682764"
 
 ## <a name="audience"></a>대상
 
-이 항목은 사용자 지정 필드를 Apple iOS 및 Google Android에서 사용할 수 있는 Microsoft Dynamics 365 Project Timesheet 모바일 애플리케이션에 통합하는 개발자를 위한 것입니다. 독자가 X++ 개발 및 프로젝트 타임시트 기능에 익숙하다고 가정합니다.
+이 문서는 Apple iOS 및 Google Android에서 사용할 수 있는 Microsoft Dynamics 365 Project Timesheet 모바일 애플리케이션에 사용자 정의 필드를 통합하는 개발자를 대상으로 합니다. 독자가 X++ 개발 및 프로젝트 타임시트 기능에 익숙하다고 가정합니다.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>데이터 계약 – TSTimesheetCustomField X++ 클래스
 
@@ -64,7 +64,7 @@ ms.locfileid: "8682764"
 
 - **TSTimesheetCustomField** 개체에 **stringOptions** 속성이 제공되는 경우 이러한 목록 요소는 사용자가 옵션 단추(라디오 단추)를 사용하여 선택할 수 있는 유일한 값입니다.
 
-    이 경우 문자열 필드는 사용자 입력을 위한 열거형 값 역할을 할 수 있습니다. 값을 열거형으로 데이터베이스에 저장하려면 명령 체인을 사용하여 데이터베이스에 저장하기 전에 문자열 값을 다시 열거형 값에 수동으로 매핑합니다(예를 보려면 이 항목 뒷부분의 "TSTimesheetEntryService 클래스에서 명령 체인을 사용하여 앱의 작업 표 항목을 다시 데이터베이스에 저장" 섹션 참조).
+    이 경우 문자열 필드는 사용자 입력을 위한 열거형 값 역할을 할 수 있습니다. 값을 열거형으로 데이터베이스에 저장하려면 명령 체인을 사용하여 데이터베이스에 저장하기 전에 문자열 값을 열거형 값에 다시 매핑합니다("TSTimesheetEntryService 클래스에서 명령 체인을 사용하여 작업표 항목 저장" 참조). 앱을 데이터베이스로 되돌리기" 섹션의 예를 보려면 이 문서 뒷부분에 나와 있습니다.
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ ms.locfileid: "8682764"
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (문자열 목록)
 
-이 속성은 **fieldBaseType** 이 **String** 으로 설정된 경우에만 적용됩니다. **stringOptions** 이 설정된 경우 옵션 단추(라디오 단추)를 통해 선택할 수 있는 문자열 값은 목록의 문자열로 지정됩니다. 문자열이 제공되지 않으면 문자열 필드에 자유 텍스트 항목이 허용됩니다(예를 보려면 이 항목 뒷부분의 "TSTimesheetEntryService 클래스에서 명령 체인을 사용하여 앱의 작업 표 항목을 데이터베이스에 다시 저장" 섹션 참조).
+이 속성은 **fieldBaseType** 이 **String** 으로 설정된 경우에만 적용됩니다. **stringOptions** 이 설정된 경우 옵션 단추(라디오 단추)를 통해 선택할 수 있는 문자열 값은 목록의 문자열로 지정됩니다. 문자열이 제공되지 않으면 문자열 필드에 자유 텍스트 입력이 허용됩니다(예를 보려면 이 문서 뒷부분의 "TSTimesheetEntryService 클래스의 명령 체인을 사용하여 앱의 작업표 항목을 데이터베이스에 다시 저장" 섹션 참조).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

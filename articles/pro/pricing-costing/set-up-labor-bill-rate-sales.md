@@ -1,17 +1,17 @@
 ---
 title: 인력 청구 요금 설정 - 라이트
-description: 이 항목은 Project Operations에서 인력 청구 요금 설정에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 인건비 청구 요율 설정에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3bce867df2e01178876a891e267676036ac8bd7c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 443132797f20c961b42ed20340e74f420965526f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599370"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917446"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>인력 청구 요금 설정 - 라이트
 

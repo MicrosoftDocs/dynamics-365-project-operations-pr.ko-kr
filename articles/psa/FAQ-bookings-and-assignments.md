@@ -1,6 +1,6 @@
 ---
 title: 리소스 예약과 과업 할당과의 관계
-description: 이 항목은 명명된 리소스를 관리하는 방법, 리소스 예약 및 작업 할당과 서로와의 관계에 대한 정보를 제공합니다.
+description: 이 문서에서는 명명된 리소스를 관리하는 방법, 리소스 예약 및 작업 할당과 서로와의 관계에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 953d7ca1995eae823fd29d0a9e85ff6a2a2eb59b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd8f028a9f4056a646f5001ee8c91191c71140af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910960"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>리소스 예약과 과업 할당과의 관계
 

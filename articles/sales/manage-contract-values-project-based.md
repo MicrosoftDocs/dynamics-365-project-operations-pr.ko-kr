@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 기반 계약 내용으로 작업
-description: 이 항목은 프로젝트 기반 계약 내용에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 기반 계약 내용에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f67c0447c0b2a23d6f7d03dfc5ac7800943bbf36
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 055c34c96eec0f4eee1b8e17d989d22c4752787d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931982"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>프로젝트 기반 계약 내용으로 작업
 

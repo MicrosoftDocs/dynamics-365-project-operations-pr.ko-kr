@@ -1,6 +1,6 @@
 ---
 title: 홈 페이지 업그레이드
-description: 이 항목은 Dynamics 365 Project Service Automation에서 새 기능 및 변경된 기능에 대한 중요한 정보와 최신 버전으로 업그레이드하는 프로세스를 확인할 수 있는 위치를 보여줍니다.
+description: 이 문서는 Dynamics 365 Project Service Automation에서 새 기능 및 변경된 기능에 대한 중요한 정보와 최신 버전으로 업그레이드하는 프로세스를 확인할 수 있는 위치를 보여줍니다.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926646"
 ---
 # <a name="upgrade-home-page"></a>홈 페이지 업그레이드
 
@@ -48,14 +48,14 @@ ms.locfileid: "8591397"
 업그레이드 프로세스를 시작하기 전에 다음 과업을 완료하는 것이 좋습니다:
 
 - 식별된 인스턴스에 Dynamics 365 Field Service 및 Project Service Automation이 설치되어 있는지 확인합니다. 두 솔루션이 모두 설치된 경우, 인스턴스의 정기적인 사용을 다시 시작하기 전에 둘 다 업그레이드하도록 계획해야 합니다.
-- 다음 항목을 주의 깊게 검토하십시오. 버전들 사이의 변경 사항에 대한 인식과 이해는 업그레이드 프로세스에 도움이 됩니다. 이러한 항목들은 PSA의 주요 변경 사항에 대한 정보와 버전 3.x로의 업그레이드 계획에 대한 고려 사항 및 권장 사항을 제공합니다.
+- 다음 문서를 주의 깊게 검토하십시오. 버전들 사이의 변경 사항에 대한 인식과 이해는 업그레이드 프로세스에 도움이 됩니다. 이러한 문서들은 PSA의 주요 변경 사항에 대한 정보와 버전 3.x로의 업그레이드 계획에 대한 고려 사항 및 권장 사항을 제공합니다.
 
     - [Project Service Automation 버전 3의 새로운 내용 또는 변경 내용](whats-new-changed-v3.md)
     - [업그레이드 고려 사항 - Project Service Automation 버전 2.x 또는 1.x에서 버전 3](upgrade-v3.md)
 
 - 생산 인스턴스를 업그레이드하기 전에 샌드박스 인스턴스를 업그레이드하여 구현의 변경 사항을 평가하십시오.
 
-앞에서 언급한 항목을 검토하고 PSA 버전 3.x 또는 UCI 기반 버전으로 업그레이드할 준비가 된 후 관리 센터에서 업그레이드를 사용할 수 있도록 Microsoft 지원팀에 요청을 제출하십시오. 요청에서 인스턴스의 세부 정보를 제공합니다.
+앞에서 언급한 문서를 검토하고 PSA 버전 3.x 또는 UCI 기반 버전으로 업그레이드할 준비가 된 후 관리 센터에서 업그레이드를 사용할 수 있도록 Microsoft 지원팀에 요청을 제출하십시오. 요청에서 인스턴스의 세부 정보를 제공합니다.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>새로 만든 인스턴스에서 PSA의 이전 버전(PSA 버전 2.x)
 

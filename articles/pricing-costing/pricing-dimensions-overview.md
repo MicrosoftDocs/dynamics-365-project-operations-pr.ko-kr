@@ -1,18 +1,18 @@
 ---
 title: 가격 책정 차원 개요
-description: 이 토픽은 Dynamics 365 Project Operations의 가격 책정 차원에 대한 정보를 제공합니다.
+description: 이 문서는 Dynamics 365 Project Operations의 가격 책정 차원에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918044"
 ---
 # <a name="pricing-dimensions-overview"></a>가격 책정 차원 개요
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations는 기본 가격 책정 차원 집합으로 배�
 
 !["매출액에 해당"이 강조 표시된 Project Service 파라미터의 스크린샷.](media/PS-OOB-parameters.png)
 
-추가 속성을 사용하는 리소스에 대한 가격 또는 원가가 필요한 경우 맞춤화된 필드, 엔터티 및 차원을 만들 수 있습니다. 자세한 내용은 다음 항목을 참조하십시오. 
+추가 속성을 사용하는 리소스에 대한 가격 또는 원가가 필요한 경우 맞춤화된 필드, 엔터티 및 차원을 만들 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오. 
   
   > [!NOTE]
   > 절차는 나열된 순서대로 완료해야 합니다.

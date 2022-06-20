@@ -1,6 +1,6 @@
 ---
 title: 맞춤 필드 및 엔터티 만들기
-description: 이 항목은 Power Apps 플랫폼의 자체 솔루션에서 옵션 집합 및 엔터티를 만드는 방법을 설명합니다.
+description: 이 문서는 Power Apps 플랫폼의 자체 솔루션에서 옵션 집합 및 엔터티를 만드는 방법을 설명합니다.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926922"
 ---
 # <a name="create-custom-fields-and-entities"></a>맞춤 필드 및 엔터티 만들기 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Power Apps플랫폼에서 맞춤 옵션 집합 또는 엔터티를 만들려는 경우 언제든지 다음 단계를 완료하십시오.  
-이 주제의 절차는 Project Service Automation(PSA)의 웹 인터페이스를 사용하여 완료해야 합니다.
+이 문서의 절차는 Project Service Automation(PSA)의 웹 인터페이스를 사용하여 완료해야 합니다.
 
 > [!IMPORTANT]
 > 별도의 솔루션에서 모든 맞춤 가격 책정 차원을 변경하는 것이 좋습니다. 이 중요한 모범 사례는 나중에 필요에 따라 변경 내용을 업데이트하거나 제거할 수 있는 유연성을 제공하고, 작업을 다시 사용하는 데 도움이 되며, 이러한 변경 내용을 다른 인스턴스로 쉽게 나를 수 있도록 합니다. 요구되는 모든 변경을 한 후, 이 솔루션을 **관리형 솔루션** 으로 내보내고 다른 인스턴스로 가져와 가격 책정 설정을 다시 사용하십시오.

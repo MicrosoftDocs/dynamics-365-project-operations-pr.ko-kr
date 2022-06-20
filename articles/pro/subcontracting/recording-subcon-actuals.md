@@ -1,17 +1,17 @@
 ---
 title: 하도급 계약 구성 요소에 대한 시간, 경비, 재료 사용량 기록
-description: 이 토픽에서는 하도급 계약 구성 요소의 프로젝트에 기록된 시간, 비용 및 재료 사용량을 Microsoft Dynamics 365 Project Operations에서 추적하는 방법에 대해 설명합니다.
+description: 이 문서에서는 하도급 계약 구성 요소의 프로젝트에 기록된 시간, 비용 및 재료 사용량을 Microsoft Dynamics 365 Project Operations에서 추적하는 방법에 대해 설명합니다.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927658"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>하도급 계약 구성 요소에 대한 프로젝트의 시간, 경비, 재료 사용량 기록
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599232"
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-이 토픽에서는 하도급 계약 구성 요소의 프로젝트에 기록된 시간, 비용 및 재료 사용량을 Microsoft Dynamics 365 Project Operations에서 추적하는 방법에 대해 설명합니다.
+이 문서에서는 하도급 계약 구성 요소의 프로젝트에 기록된 시간, 비용 및 재료 사용량을 Microsoft Dynamics 365 Project Operations에서 추적하는 방법에 대해 설명합니다.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>프로젝트의 하청업체 시간 비용 계산
 Project Operations에서 계약 작업자는 직원과 유사한 방식으로 프로젝트에 시간을 기록할 수 있습니다. 프로젝트 및/또는 프로젝트 작업에 시간을 입력할 때 계약 작업자는 특정 하도급 계약 및 하도급 계약 내용을 선택할 수 있습니다.

@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 업데이트 릴리스 34, V3의 새로운 기능 또는 변경된 기능
-description: 이 항목에는 Project Service Automation 업데이트 릴리스 34, V3에서 사용할 수 있는 기능 및 수정 사항이 나열되어 있습니다.
+description: 이 문서에는 Project Service Automation 업데이트 릴리스 34, V3에서 사용할 수 있는 기능과 수정 사항이 나와 있습니다.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/05/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7a4feaeebf8fa2ef3447dc6dfc3d0903266f3b2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e47a5442f285952c165a2d30e337a362a6b065dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588698"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928670"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>Project Service Automation 업데이트 릴리스 34, V3의 새로운 기능 또는 변경된 기능
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588698"
 
 Microsoft Dynamics 365 Project Service Automation 앱에 대한 최신 업데이트를 발표하게 되어 기쁘게 생각합니다. 이 릴리스에는 품질, 성능 및 유용성에 대한 몇 가지 중요한 개선 사항이 포함되어 있습니다. Dynamics 365 9.x와 호환됩니다. 이 릴리스로 업데이트하려면 Dynamics 365 온라인 솔루션 페이지의 관리 센터를 방문하여 업데이트를 설치하십시오. 자세한 내용은 [선호 솔루션의 설치, 업데이트 또는 제거](/power-platform/admin/install-remove-preferred-solution)를 참조하세요.
 
-이 항목에는 Project Service Automation V3, 업데이트 릴리스 34에서 새로 추가되거나 변경된 기능 및 수정 사항이 나열되어 있습니다. 이 버전의 빌드 번호는 V3.10.55.38이며 일반적으로 2021년 7월 자체 업데이트를 통해 제공됩니다.
+이 문서에는 Project Service Automation V3, 업데이트 릴리스 34의 새로운 기능과 수정 사항이 나와 있습니다. 이 버전의 빌드 번호는 V3.10.55.38이며 일반적으로 2021년 7월 자체 업데이트를 통해 제공됩니다.
 
 ## <a name="update-release-34"></a>업데이트 릴리스 34
 

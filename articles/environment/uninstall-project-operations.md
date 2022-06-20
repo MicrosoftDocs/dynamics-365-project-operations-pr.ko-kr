@@ -1,17 +1,17 @@
 ---
 title: Dynamics 365 Project Operations 제거
-description: 이 항목은 Dynamics 365 Project Operations를 제거하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Dynamics 365 Project Operations를 제거하는 방법에 대한 정보를 제공합니다.
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 33a505594d6db47b4f8a0c8a630a0836f424e7d5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911972"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>Dynamics 365 Project Operations 제거 
 

@@ -1,23 +1,23 @@
 ---
 title: LCS 프로젝트에 Azure 구독 추가
-description: 이 항목은 Azure 구독을 LCS 프로젝트에 연결하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Azure 구독을 LCS 프로젝트에 연결하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912156"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS 프로젝트에 Azure 구독 추가
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-클라우드 호스팅 환경은 기존 Azure 구독을 사용하여 배포해야 합니다. 이 항목은 기존 Azure 구독을 LCS 프로젝트에 연결하는 방법을 설명합니다. 
+클라우드 호스팅 환경은 기존 Azure 구독을 사용하여 배포해야 합니다. 이 문서에서는 기존 Azure 구독을 LCS 프로젝트에 연결하는 방법을 설명합니다. 
 
 ## <a name="grant-admin-consent"></a>관리자 동의 부여
 
@@ -59,7 +59,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 2. Azure 구독 ID를 입력합니다. Azure 구독 ID는 [Azure 포털](https://ms.portal.azure.com/)의 **설정** 아래 화면 왼쪽 하단에 있습니다.
 3. **Azure Resource Manager를 사용하도록 구성** 필드에서 **예** 를 선택합니다.
 4. Azure의 구독 AAD 테넌트 도메인이 사용 중인 도메인 소유 Azure 구독과 일치하는지 확인하고 **다음** 을 선택합니다.
-5. **Microsoft Azure 설정** 화면에서 **다음** 을 선택하여 확인합니다. 이 화면에 오류가 표시되면 이 항목의 [Azure 구독에 대한 Dynamics 배포 서비스 액세스 제공](#provide) 섹션으로 돌아가서 모든 단계를 완료했는지 확인하십시오.
+5. **Microsoft Azure 설정** 화면에서 **다음** 을 선택하여 확인합니다. 이 화면에 오류가 표시되면 이 문서의 [Azure 구독에 대한 Dynamics Deployment Services 액세스 제공](#provide) 섹션으로 돌아가 모든 단계를 완료했는지 확인하십시오.
 6. 컴퓨터의 로컬 폴더에 Azure 관리 인증서를 다운로드합니다. 구독을 선택하고 **설정** > **관리 인증서** 로 이동하여 Azure 구독 관리자에게 인증서를 Azure 관리 포털에 업로드하도록 요청합니다. 이 인증서를 사용하면 LCS가 사용자를 대신하여 Azure와 통신할 수 있습니다. 사용자에게 구독에 대한 액세스 권한이 있는 경우 이 단계를 건너뛸 수 있습니다.
 7. **다음** 을 선택합니다.
 8. 배포할 Azure 지역을 선택하고 이 시스템을 사용하려는 위치와 가까운 데이터 센터를 선택합니다.

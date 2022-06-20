@@ -1,6 +1,6 @@
 ---
 title: 엔터티, 컨트롤 및 사용자 인터페이스 변경 (Project Service Automation 3.x)
-description: 이 항목은 Microsoft Dynamics Project Service Automation 3.x의 솔루션 변경에 대해 설명합니다.
+description: 이 문서는 Microsoft Dynamics Project Service Automation 3.x의 솔루션 변경에 대해 설명합니다.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926876"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>엔터티, 컨트롤 및 사용자 인터페이스 변경 (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Microsoft Dynamics Project Service Automation (PSA) 3.x가 릴리스되면서 엔터티, 컨트롤, 뷰 및 사용자 인터페이스가 많이 변경되었습니다. 이 주제는 그러한 중요 변경 사항에 대한 정보를 제공합니다.
+Microsoft Dynamics Project Service Automation (PSA) 3.x가 릴리스되면서 엔터티, 컨트롤, 뷰 및 사용자 인터페이스가 많이 변경되었습니다. 이 문서는 그러한 중요 변경 사항에 대한 정보를 제공합니다.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>판매 문서, 판매 문서 행, 판매 문서 행 내역 엔터티에 대한 상위-하위 관계
 버전 3.0 이전에 릴리스된 버전의 Dynamics 365 Project Service Automation(PSA)에서는 판매 문서, 판매 문서 행, 판매 문서 행 내역 엔터티들 사이의 관계 중 일부는 관련 엔터티의 GUID의 문자열 표현을 보유할 문자열 필드를 통해 구현되었습니다. 이는 그러한 관계가 일반적 Dynamics CRM 엔티티 관계와 유사하게 기능하도록 하기 위해 그리고 문자열 필드가 조회 필드처럼 기능하도록 하기 위해 해당 솔루션의 서버측 및 클라이언트측에 상당한 맞춤 코드를 요구한 플랫폼 제한 때문이었습니다.

@@ -1,17 +1,17 @@
 ---
 title: 보유자 일정 설정
-description: 이 항목은 Project Operations에서 보유자 일정을 설정하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 보유자 일정을 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1c48f04aa47d50c9f3ab46031ef0d6cd68619d5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 077961d2f649754149315438252970609c246555
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927750"
 ---
 # <a name="set-up-a-retainer-schedule"></a>보유자 일정 설정
 

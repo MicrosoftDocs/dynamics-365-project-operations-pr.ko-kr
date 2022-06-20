@@ -1,6 +1,6 @@
 ---
 title: 기술 및 숙련도 정의
-description: 이 항목은 리소스를 평가하기 위해 숙련도 모델을 설정하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스를 평가하기 위해 숙련도 모델을 설정하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e825d80bb8ac342b269783747a9a0c0f540d349f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 707a88b2f72c7324a6954a2e0cdce995b012ff48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915470"
 ---
 # <a name="define-skills-and-proficiencies"></a>기술 및 숙련도 정의
 

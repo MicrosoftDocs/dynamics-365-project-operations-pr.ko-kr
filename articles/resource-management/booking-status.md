@@ -1,17 +1,17 @@
 ---
 title: 예약 상태
-description: 이 토픽은 Project Operations에 대한 예약 상태를 설정하는 방법에 대한 정보 링크를 제공합니다.
+description: 이 문서에서는 Project Operations에 대한 예약 상태를 설정하는 방법에 대한 정보에 대한 링크를 제공합니다.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: b894c55d7e47031ddf77000c954cd8c1769cb1ca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d58bf32d9bff3958dfe2345dcced1f3d54956a8e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581476"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918642"
 ---
 # <a name="booking-statuses"></a>예약 상태
 

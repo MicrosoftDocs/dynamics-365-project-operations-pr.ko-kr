@@ -1,24 +1,24 @@
 ---
 title: 2022년 5월의 새로운 기능 - Project Operations 라이트 배포
-description: 이 항목에서는 Microsoft Dynamics 365 Project Operations Lite 배포의 2022년 5월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations Lite 배포의 2022년 5월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a2684d51e643d37c90d2c03ee7a0c2a6ead18682
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: dd7f03068473ee09608945876047710fa44e914a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934144"
 ---
 # <a name="whats-new-may-2022---project-operations-lite-deployment"></a>2022년 5월의 새로운 기능 - Project Operations 라이트 배포
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-이 항목은 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
+이 문서는 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
 
 - Dataverse 환경 버전 4.42.0.70의 Project Operations
 

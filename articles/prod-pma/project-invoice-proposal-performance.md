@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 송장 제안서 성능
-description: 이 항목은 프로젝트 송장 제안의 성능 향상에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 송장 제안의 성능 향상에 대한 정보를 제공합니다.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e707b0d9b379df59726271b5a0441ac04e269b9a
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 70069778b7d4326cb23d6bb36e2c78a33da12573
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927198"
 ---
 # <a name="project-invoice-proposal-performance"></a>프로젝트 송장 제안서 성능
 

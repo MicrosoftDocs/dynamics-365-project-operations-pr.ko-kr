@@ -1,6 +1,6 @@
 ---
 title: 내부 프로젝트에 대한 실제 영향
-description: 이 항목에서는 Microsoft Dynamics 365 Project Operations의 내부 프로젝트에 대한 다양한 이벤트에서 실제 테이블에 미치는 영향에 대한 정보를 제공합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations의 내부 프로젝트에 대한 다양한 이벤트에서 실제 테이블에 미치는 영향에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 66a9ac4d2f56ae95313ed6731c3e51926105cff7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: de05714c079fe121ef68e28b1acb82c24bce095e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921356"
 ---
 # <a name="actuals-impact-for-an-internal-project"></a>내부 프로젝트에 대한 실제 영향
 

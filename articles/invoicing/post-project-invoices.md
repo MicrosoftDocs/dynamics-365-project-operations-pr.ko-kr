@@ -1,17 +1,17 @@
 ---
 title: 송장 처리 개요
-description: 이 토픽은 리소스/비 재고 기반 시나리오에 대해 Project Operations에서 송장 발부 프로세스 개요를 제공합니다.
+description: 이 문서에서는 리소스/비 재고 기반 시나리오에 대한 Project Operations의 송장 프로세스 개요를 제공합니다.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b285a88be14a5972e9a4604713d7d35a3a442b6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923104"
 ---
 # <a name="invoicing-process-overview"></a>송장 처리 개요
 

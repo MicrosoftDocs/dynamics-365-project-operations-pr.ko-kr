@@ -1,24 +1,24 @@
 ---
 title: 프로젝트 추정 및 실제 통합
-description: 이 항목은 프로젝트 추정 및 실제를 위한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 견적 및 실제를 위한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577198"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914594"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>프로젝트 추정 및 실제 통합
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목은 프로젝트 추정 및 실제를 위한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
+이 문서에서는 프로젝트 견적 및 실제를 위한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
 
 ## <a name="project-estimates"></a>프로젝트 추정
 

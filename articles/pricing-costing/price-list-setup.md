@@ -1,17 +1,17 @@
 ---
 title: 가격표 설정
-description: 이 항목은 비용 및 판매 가격표를 설정하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 비용 및 판매 가격표를 설정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 77809f63230530e2e6553b76e56d37249b060ab9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6d96f4a5a8d97e86bbd00413e21f69255a48c5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917676"
 ---
 # <a name="set-up-price-lists"></a>가격표 설정
 

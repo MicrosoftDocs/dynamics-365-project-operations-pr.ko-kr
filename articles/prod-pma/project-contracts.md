@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 계약
-description: 이 항목은 다양한 유형의 프로젝트 및 자금 출처에 대해 생성할 수 있는 프로젝트 계약의 예와 계약 및 송장 프로젝트 고객을 관리하는 방법을 제공합니다.
+description: 이 문서는 다양한 유형의 프로젝트 및 자금 출처에 대해 생성할 수 있는 프로젝트 계약의 예와 계약 및 송장 프로젝트 고객을 관리하는 방법을 제공합니다.
 author: Yowelle
 ms.date: 11/03/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 14ff17bb070a44d8f3962e08f67d4c95bd8a26f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919654"
 ---
 # <a name="project-contracts"></a>프로젝트 계약
 

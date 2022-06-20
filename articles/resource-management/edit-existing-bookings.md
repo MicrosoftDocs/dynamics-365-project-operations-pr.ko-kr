@@ -1,24 +1,24 @@
 ---
 title: 예약 편집
-description: 이 토픽은 예약을 업데이트하고 변경하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 예약을 업데이트하고 변경하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915238"
 ---
 # <a name="edit-bookings"></a>예약 편집
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 
-기존 예약을 업데이트해야 하는 프로젝트에 변경 사항이 발생하는 경우 여러 가지 방법으로 변경할 수 있습니다. 이 토픽은 예약을 업데이트하고 변경하는 방법을 설명합니다.
+기존 예약을 업데이트해야 하는 프로젝트에 변경 사항이 발생하는 경우 여러 가지 방법으로 변경할 수 있습니다. 이 문서에서는 예약을 업데이트하고 변경하는 방법을 설명합니다.
 
 ## <a name="resource-reconciliation"></a>리소스 조정
 

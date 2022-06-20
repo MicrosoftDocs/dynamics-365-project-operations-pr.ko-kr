@@ -1,17 +1,17 @@
 ---
 title: 계약 근로자와 하도급 계약 용량을 표시하도록 일정 게시판 구성
-description: 이 토픽에서는 프로젝트 리소스 요구 사항에 인력을 배치할 때 하도급 계약 리소스 용량을 표시하도록 Microsoft Dynamics 365 Project Operations의 일정 게시판을 구성하는 방법에 대해 설명합니다.
+description: 이 문서에서는 프로젝트 리소스 요구 사항에 인력을 배치할 때 하도급 계약 리소스 용량을 표시하도록 Microsoft Dynamics 365 Project Operations의 일정 게시판을 구성하는 방법에 대해 설명합니다.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919838"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>계약 근로자와 하도급 계약 용량을 표시하도록 일정 게시판 구성 
 

@@ -1,6 +1,6 @@
 ---
 title: Project Operations의 비즈니스 거래
-description: 이 항목에서는 Microsoft Dynamics 365 Project Operations의 비즈니스 트랜잭션 개념에 대한 개요를 제공합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations의 비즈니스 트랜잭션 개념에 대한 개요를 제공합니다.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923288"
 ---
 # <a name="business-transactions-in-project-operations"></a>Project Operations의 비즈니스 거래
 

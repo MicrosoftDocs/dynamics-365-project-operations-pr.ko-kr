@@ -1,17 +1,17 @@
 ---
 title: 경비 관리의 VAT 회수
-description: 이 항목은 적격 부가가치세(VAT) 트랜잭션에 대해 환불을 받는 방법을 설명합니다.
+description: 이 문서에서는 적격 부가가치세(VAT) 거래에 대해 환불을 받는 방법을 설명합니다.
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1df921bbef4c11c7e07ed38775644117215a50fb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927934"
 ---
 # <a name="vat-recovery-in-expense-management"></a>경비 관리의 VAT 회수
 

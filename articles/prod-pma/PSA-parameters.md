@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 통합 매개 변수
-description: 이 항목에서는 Microsoft Dynamics 365 for Project Service Automation을 Microsoft Dynamics 365 Finance와 통합할 때 기본 데이터가 입력되는 방식을 구성하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 for Project Service Automation을 Microsoft Dynamics 365 Finance와 통합할 때 기본 데이터가 입력되는 방식을 구성하는 방법에 대해 설명합니다.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a4abeb2960981196ed1d7c453e7daa0558e326ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932304"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 통합 매개 변수
 

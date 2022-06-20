@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 공급업체 송장 확인
-description: 이 항목에서는 Microsoft Dynamics 365 Project Operations에서 프로젝트 공급업체 송장을 확인하는 방법과 프로젝트 공급업체 송장 확인의 재정적 영향에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations에서 프로젝트 공급업체 송장을 확인하는 방법과 프로젝트 공급업체 송장 확인의 재정적 영향에 대해 설명합니다.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c248b3baec6d3f14a020e4fa93f3dad50c65b263
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 092b3cd5981f7d9bb8767c7a2acb2f4952801d06
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932442"
 ---
 # <a name="confirm-a-project-vendor-invoice"></a>프로젝트 공급업체 송장 확인
 

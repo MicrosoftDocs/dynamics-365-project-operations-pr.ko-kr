@@ -1,6 +1,6 @@
 ---
 title: 예약 할당 방법
-description: 이 항목은 프로젝트 운영에서 예약 할당 방법이 작동하는 방식에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations에서 예약 할당 방법이 작동하는 방식에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912754"
 ---
 # <a name="booking-allocation-methods"></a>예약 할당 방법
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-팀원을 **팀** 탭의 프로젝트에 직접 추가하거나 스케줄 게시판의 프로젝트나 요건에 대한 리소스를 예약하는 경우에는 몇 가지 다른 예약 할당 방법을 사용할 수 있습니다. 이 항목은 각 방법의 작동 방식 및 리소스 초과 예약으로 이어질 수 있는 방법을 설명합니다.
+팀원을 **팀** 탭의 프로젝트에 직접 추가하거나 스케줄 게시판의 프로젝트나 요건에 대한 리소스를 예약하는 경우에는 몇 가지 다른 예약 할당 방법을 사용할 수 있습니다. 이 문서는 각 방법의 작동 방식 및 리소스 초과 예약으로 이어질 수 있는 방법을 설명합니다.
 
 ## <a name="booking-allocation-methods"></a>예약 할당 방법
 

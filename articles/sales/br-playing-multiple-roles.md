@@ -1,17 +1,17 @@
 ---
 title: 예약 가능한 리소스가 프로젝트에서 여러 역할을 수행할 때 프로젝트 판매 및 비용을 추정합니다.
-description: 이 토픽에서는 가격 책정 측정 기준을 사용하여 프로젝트에서 여러 역할을 수행하는 리소스의 가격 책정 및 예상 비용을 지원하는 방법을 설명합니다.
+description: 이 문서에서는 가격 책정 차원을 사용하여 프로젝트에서 여러 역할을 수행하는 리소스에 대한 가격 책정 및 비용 추정치를 지원하는 방법에 대해 설명합니다.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589158"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923472"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>예약 가능한 리소스가 프로젝트에서 여러 역할을 수행할 때 프로젝트 판매 및 비용을 추정합니다. 
 

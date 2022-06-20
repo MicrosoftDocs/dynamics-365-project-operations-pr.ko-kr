@@ -1,23 +1,23 @@
 ---
 title: 프로젝트 작업량 추적
-description: 이 항목은 프로젝트 노력 및 작업 진행 상황을 추적하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 노력과 작업 진행 상황을 추적하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929268"
 ---
 # <a name="project-effort-tracking"></a>프로젝트 작업량 추적
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-일정에 대한 진행 상황을 추적할 필요성은 업계에 따라 다릅니다. 일부 산업은 세분화된 수준에서 추적하는 반면 다른 산업은 더 높은 수준에서 추적합니다. 이 주제는 조직의 요구 사항을 충족하기 위해 예약하는 방법을 보여 줍니다.
+일정에 대한 진행 상황을 추적할 필요성은 업계에 따라 다릅니다. 일부 산업은 세분화된 수준에서 추적하는 반면 다른 산업은 더 높은 수준에서 추적합니다. 이 문서는 조직의 요구 사항을 충족하기 위해 예약하는 방법을 보여 줍니다.
 
 ## <a name="effort-tracking-view"></a>작업량 추적 보기
 

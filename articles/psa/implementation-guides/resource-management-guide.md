@@ -1,6 +1,6 @@
 ---
 title: 리소스 관리 가이드
-description: 이 항목은 Project Service Automation에서 리소스 관리 정보에 대한 링크를 제공합니다.
+description: 이 문서에서는 Project Service Automation에서 리소스 관리 정보에 대한 링크를 제공합니다.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910785"
 ---
 # <a name="resource-management-guide"></a>리소스 관리 가이드
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595460"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-이 항목에 이전에 있었던 PDF 링크가 제거되었으며 콘텐츠가 다음 항목으로 이동되었습니다:
+이 문서에 이전에 있었던 PDF 링크가 제거되었으며 콘텐츠가 다음 문서로 이동되었습니다:
 
 - [리소스 관리 홈 페이지](../resource-management-home-page.md)
 - [주요 개념](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ ms.locfileid: "8595460"
 - [리소스 관리 FAQ](../resource-management-faq.md)
 
 > [!NOTE]
-> 향후 설명서 업데이트에서 이 항목은 제거될 것입니다. 
+> 향후 설명서 업데이트에서 이 문서는 제거될 것입니다. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: 재구상된 경비 보고서(비디오 포함)
-description: 이 항목은 경비 보고서 입력을 위해 재설계되고 재구상된 경험을 설명합니다.
+description: 이 문서에서는 경비 보고서 입력을 위해 새롭게 디자인되고 재구성된 경험에 대해 설명합니다.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930280"
 ---
 # <a name="expense-reports-reimagined"></a>재구상된 경비 보고서
 

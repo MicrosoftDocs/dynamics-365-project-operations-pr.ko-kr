@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 기반 계약 내용에서 여러 고객 관리
-description: 이 항목은 여러 고객을 포함하는 계약 내용 및 계약 작업에 대한 정보를 제공합니다.
+description: 이 문서에서는 여러 고객이 포함된 계약 및 계약 작업에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f1efa9e5b5ad432e1564fb3d8db0405134a4dc73
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0e0652d4b9cdb0489d4f191ef0f3b251e39262f5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914870"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>프로젝트 기반 계약 내용에서 여러 고객 관리
 

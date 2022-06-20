@@ -1,18 +1,18 @@
 ---
 title: 공급업체 송장 통합
-description: 이 항목은 Project Operations의 공급업체 송장 통합에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations의 공급업체 송장 통합에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912064"
 ---
 # <a name="vendor-invoice-integration"></a>공급업체 송장 통합
 
@@ -21,7 +21,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 Dynamics 365 Project Operations의 프로젝트 관련 조달은 **지급 계정** > **송장** > **보류 중인 공급업체 송장** 으로 이동하고 보류 중인 공급업체 송장 문서를 사용하여 기록할 수 있습니다. 자세한 내용은 [보류 중인 공급업체 송장을 사용하여 비 재고 재료 구매](../procurement/pending-vendor-invoices.md)를 참조하십시오.
 
 > [!IMPORTANT]
-> 이 항목에 설명된 기능을 사용하기 전에 필요한 구성을 검토하고 적용하십시오. 자세한 내용은 [비 재고 재료 및 보류 중인 공급업체 송장 활성화](../procurement/configure-materials-nonstocked.md)를 참조하십시오.
+> 이 문서에 설명된 기능을 사용하기 전에 필요한 구성을 검토하고 적용하십시오. 자세한 내용은 [비 재고 재료 및 보류 중인 공급업체 송장 활성화](../procurement/configure-materials-nonstocked.md)를 참조하십시오.
 
 Project Operations에서 프로젝트 관련 공급업체 송장은 특별 전기 규칙을 사용하여 전기됩니다.
 

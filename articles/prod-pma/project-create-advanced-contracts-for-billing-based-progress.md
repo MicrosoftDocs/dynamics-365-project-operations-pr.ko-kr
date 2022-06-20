@@ -1,6 +1,6 @@
 ---
 title: 진행 상황에 따라 청구를 위한 고급 계약 만들기
-description: 이 항목은 완료된 작업의 백분율을 기준으로 고객에 대한 송장을 생성할 수 있도록 프로젝트 계약을 작성하는 방법을 설명합니다.
+description: 이 문서에서는 완료된 작업의 백분율을 기준으로 고객을 위한 송장을 생성할 수 있도록 프로젝트 계약을 생성하는 방법을 설명합니다.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913674"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>진행 상황에 따라 청구를 위한 고급 계약 만들기
 [!include [banner](../includes/banner.md)]
 
-이 항목은 완료된 작업의 백분율을 기준으로 고객에 대한 송장을 생성할 수 있도록 프로젝트 계약을 작성하는 방법을 설명합니다. 프로젝트에 대해 설정한 작업의 예산 범주에 대해 송장 금액이 자동으로 계산됩니다. 송장 시기는 고객과 프로젝트 계약을 협상할 때 설정됩니다.
+이 문서에서는 완료된 작업의 백분율을 기준으로 고객을 위한 송장을 생성할 수 있도록 프로젝트 계약을 생성하는 방법을 설명합니다. 프로젝트에 대해 설정한 작업의 예산 범주에 대해 송장 금액이 자동으로 계산됩니다. 송장 시기는 고객과 프로젝트 계약을 협상할 때 설정됩니다.
 
-이 항목의 절차를 사용하여 프로젝트에 대해 설정한 작업의 예산 범주에 대한 송장 금액을 계산하는 계약, 관련 프로젝트 및 청구 규칙을 설정합니다.
+이 문서의 절차를 사용하여 프로젝트에 대해 설정한 작업의 예산 범주에 대한 송장 금액을 계산하는 계약, 연결된 프로젝트 및 청구 규칙을 설정합니다.
 
 계약 및 프로젝트를 생성한 후 프로젝트의 세부 정보를 설정할 수 있습니다. 예를 들어 활동을 정의하고 작업자를 프로젝트에 할당할 수 있습니다.
 

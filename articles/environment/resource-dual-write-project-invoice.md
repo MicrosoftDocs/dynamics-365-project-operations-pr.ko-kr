@@ -1,22 +1,22 @@
 ---
 title: 프로젝트 송장 통합
-description: 이 항목에서는 고객 송장에 대한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
+description: 이 문서에서는 고객 송장 발행을 위한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912110"
 ---
 # <a name="project-invoice-integration"></a>프로젝트 송장 통합
 
-이 항목에서는 고객 송장에 대한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
+이 문서에서는 고객 송장 발행을 위한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
 
 Project Operations에서 프로젝트 관리자는 프로젝트 청구 백로그를 관리하고 Microsoft Dataverse에서 고객에 대한 견적 송장을 생성합니다. 이 견적 송장을 기반으로 수취 계정 담당자 또는 프로젝트 회계사가 고객 대면 송장을 생성합니다. 이중 쓰기 통합을 통해 견적 송장 세부 정보가 금융 및 운영 앱과 동기화됩니다. 고객 대면 송장이 전기된 후 시스템은 Dataverse의 관련 프로젝트 실적을 회계 세부 사항으로 업데이트합니다. 다음 그래픽은 이 통합에 대한 개략적인 개념적 개요를 제공합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: 새 가격 책정 차원을 포함하도록 플러그인 속성 업데이트
-description: 이 주제는 가격 책정 차원에 대한 플러그인 속성 업데이트에 대한 정보를 제공합니다.
+description: 이 문서는 가격 책정 차원에 대한 플러그인 속성 업데이트에 대한 정보를 제공합니다.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913214"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>새 가격 책정 차원을 포함하도록 플러그인 속성 업데이트
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Project Service Automation(PSA)의 견적 및 계약 기능을 사용하지 않는 경우에는 이 주제를 건너뛸 수 있습니다.
+> Project Service Automation(PSA)의 견적 및 계약 기능을 사용하지 않는 경우에는 이 문서를 건너뛸 수 있습니다.
 
-이 항목은 귀하가 본 주제의 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md), [가격 설정 및 트랜잭션 엔터티에 맞춤 필드 추가](field-references.md), 및 [가격 책정 차원으로 맞춤 필드 설정](set-up-pricing-dimensions.md) 항목의 절차를 완료했다고 간주합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 항목으로 돌아오십시오.
+이 문서 귀하가 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md), [가격 설정 및 트랜잭션 엔터티에 맞춤 필드 추가](field-references.md), 및 [가격 책정 차원으로 맞춤 필드 설정](set-up-pricing-dimensions.md) 문서의 절차를 완료했다고 간주합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 문서로 돌아오십시오.
 
 프로젝트 견적 행을 위한 **견적 행** 페이지에 견적 행 내역이 생성되면 시스템은 배경에 두 개의 추산 행(하나는 추산 값의 원가측, 하나는 매출액측)을 만듭니다. 프로젝트 계약 행에도 마찬가지입니다.
 

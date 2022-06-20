@@ -1,6 +1,6 @@
 ---
 title: 계약의 사전 판매 단계에서 실제 영향
-description: 이 항목에서는 계약이 Microsoft Dynamics 365 Project Operations의 사전 판매 단계에 있는 동안 다양한 이벤트에서 실제 테이블에 미치는 영향에 대한 정보를 제공합니다.
+description: 이 문서에서는 계약이 Microsoft Dynamics 365 Project Operations의 사전 판매 단계에 있는 동안 다양한 이벤트에서 실제 테이블에 미치는 영향에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad62639b345d5519b103d4bde3fbb033b9a7a519
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d03d6ac2154806189d0d9d0b232bb317f51071ba
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922368"
 ---
 # <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>계약의 사전 판매 단계에서 실제 영향
 

@@ -1,17 +1,17 @@
 ---
 title: 영업 기회 헤더/요약
-description: 이 항목은 프로젝트 기반 거래 및 프로젝트 기반 영업 기회 라인에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 기반 거래 및 프로젝트 기반 영업 기회 라인에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 12173a832c4ed91b72bc398a97c770e551d5e0f5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 376d963cd45d3a71311118c799ac6764285add87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928138"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>프로젝트 기반 영업 기회에 대한 헤더 세부 사항
 

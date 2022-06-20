@@ -1,24 +1,24 @@
 ---
 title: 2021년 8월의 새로운 기능 - Project Operations 라이트 배포
-description: 이 항목은 Project Operations 라이트 배포의 2021년 8월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations Lite 배포의 2021년 8월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922046"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>2021년 8월의 새로운 기능 - Project Operations 라이트 배포
 
 _적용 대상: 라이트 배포 - 견적 송장 거래_
 
-이 항목은 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
+이 문서는 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
 
   - Dataverse 환경 버전 4.13.0.152의 Project Operations
 

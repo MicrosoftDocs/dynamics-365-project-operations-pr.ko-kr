@@ -1,6 +1,6 @@
 ---
 title: 경비 보고서의 개인 경비
-description: 이 항목은 Microsoft Dynamics 365 Finance에서 작업자의 개인 경비를 처리하는 두 가지 방법을 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Finance에서 작업자의 개인 경비를 처리하는 두 가지 방법을 설명합니다.
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c3c382f822673baccee526569402f3ecb400491
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7e83e5b14d91f1d11e1d2caf97207cc8279cdb87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925818"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>경비 보고서의 개인 경비
 

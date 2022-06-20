@@ -1,17 +1,17 @@
 ---
 title: 계약 근로자 및 하도급 계약 용량으로 프로젝트 인력 배치
-description: 이 토픽에서는 Microsoft Dynamics 365 Project Operations에서 계약 작업자 또는 하도급 계약 용량을 사용하여 프로젝트 요구 사항에 인력을 배치하는 방법을 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations에서 계약 작업자 또는 하도급 계약 용량을 사용하여 프로젝트 요구 사항에 인력을 배치하는 방법을 설명합니다.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574650"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922092"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>계약 근로자 및 하도급 계약 용량으로 프로젝트 인력 배치
 

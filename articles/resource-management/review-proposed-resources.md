@@ -1,6 +1,6 @@
 ---
 title: 제안된 리소스 검토
-description: 이 항목은 프로젝트 리소스를 제안하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 리소스를 제안하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d2ab3ba9e5b18a2b42acaa2dc51ad94b8189274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924852"
 ---
 # <a name="review-proposed-resources"></a>제안된 리소스 검토
 

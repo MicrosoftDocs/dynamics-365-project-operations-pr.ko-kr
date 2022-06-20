@@ -1,23 +1,23 @@
 ---
 title: 프로젝트 계약 설정 - 라이트
-description: 이 항목은 계약 내용에 영향을 미치는 필드에 대한 정보와 모든 라인 항목에 요약되는 계약에 대한 정보를 제공합니다.
+description: 이 문서에서는 계약 내용에 영향을 미치는 필드에 대한 정보와 모든 라인 항목에 걸쳐 요약되는 계약에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917078"
 ---
 # <a name="header-details-for-project-contracts"></a>프로젝트 계약에 대한 헤더 세부 사항
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-이 항목은 모든 계약 내용에 영향을 미치는 설정을 포함하여 전체 프로젝트 계약에 적용되는 필드에 대한 정보를 제공합니다. 프로젝트 계약의 KPI를 구동하기 위해 모든 라인 항목에서 요약된 계약에 대한 정보도 포함됩니다.
+이 문서에서는 모든 계약 내용에 영향을 미치는 설정을 포함하여 전체 프로젝트 계약에 적용되는 필드에 대한 정보를 제공합니다. 프로젝트 계약의 KPI를 구동하기 위해 모든 라인 항목에서 요약된 계약에 대한 정보도 포함됩니다.
 
 다음 표에는 Dynamics 365 Project Operations에 고유한 프로젝트 계약의 필드가 나열되어 있습니다. 또는 Dynamics 365 Sales에서 판매 주문의 동작에 몇 가지 중요한 변경 사항이 있습니다.
 

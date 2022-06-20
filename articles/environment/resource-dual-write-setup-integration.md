@@ -1,24 +1,24 @@
 ---
 title: Project Operations 설정 및 구성 데이터 통합
-description: 이 항목은 Project Operations 이중 쓰기 맵 설정 및 구성에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations 이중 쓰기 맵 설정 및 구성에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914548"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations 설정 및 구성 데이터 통합
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목은 설정 및 구성 엔터티를 위한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
+이 문서에서는 설정 및 구성 엔터티에 대한 Project Operations 이중 쓰기 통합에 대한 정보를 제공합니다.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>프로젝트 계약, 계약 내용 및 프로젝트
 

@@ -1,6 +1,6 @@
 ---
 title: 가격 설정 및 거래 엔터티에 필요한 사용자 지정 필드 추가
-description: 이 항목은 엔터티와 양식 및 보기에 필수 사용자 정의 필드 참조를 추가하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 엔터티와 양식 및 보기에 필수 사용자 지정 필드 참조를 추가하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926048"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>가격 설정 및 거래 엔터티에 필요한 사용자 지정 필드 추가
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-이 항목은 [가격 책정 차원으로 사용할 사용자 지정 필드 및 엔터티 만들기](create-custom-fields-entities-pricing-dimensions.md)에서 절차를 완료했다고 가정합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 항목으로 돌아오십시오. 
+이 문서에서는 [가격 측정 기준으로 사용할 사용자 정의 필드 및 엔터티 만들기](create-custom-fields-entities-pricing-dimensions.md) 문서의 절차를 완료했다고 가정합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 문서로 돌아오십시오. 
 
-이 주제는 절차에서 엔터티 및 양식 및 뷰와 같은 사용자 인터페이스(UI) 요소에 필요한 사용자 지정 필드 참조를 추가하는 방법을 보여 줍니다.
+이 문서는 절차에서 엔터티 및 양식 및 뷰와 같은 사용자 인터페이스(UI) 요소에 필요한 사용자 지정 필드 참조를 추가하는 방법을 보여 줍니다.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>사용자 지정 가격 책정 차원 필드 추가 
 사용자 지정 필드 및 엔터티를 만든 후 다음 단계는 참조 필드를 만들어 사용자 지정 엔터티 또는 옵션 집합을 인식 하는 가격 설정 및 트랜잭션 엔터티를 확인하는 것입니다. 가격 책정 차원 목록에 옵션 집합 차원 또는 엔터티 차원 또는 둘 다를 포함하는지 여부에 따라 **옵션 세트 기반 사용자 지정 가격 책정 차원** 또는 **엔터티 기반 사용자 지정 가격 측정 차원** 또는 둘 다를 포함합니다.

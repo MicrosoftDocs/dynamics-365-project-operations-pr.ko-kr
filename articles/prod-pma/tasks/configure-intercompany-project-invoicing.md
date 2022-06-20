@@ -1,6 +1,6 @@
 ---
 title: 회사 간 프로젝트 송장 구성
-description: 이 항목은 조직의 두 회사 간에 프로젝트 송장을 설정하는 방법을 보여줍니다.
+description: 이 문서에서는 조직의 두 회사 간에 프로젝트 인보이스 발행을 설정하는 방법을 보여줍니다.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916618"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>회사 간 프로젝트 송장 구성
 
 [!include [banner](../../includes/banner.md)]
 
-이 항목은 조직의 두 회사 간에 프로젝트 송장을 설정하는 방법을 보여줍니다. 이 작업은 USSI 데이터 집합을 사용합니다.
+이 문서에서는 조직의 두 회사 간에 프로젝트 인보이스 발행을 설정하는 방법을 보여줍니다. 이 작업은 USSI 데이터 집합을 사용합니다.
 
 1. 탐색 창에서 **모듈 > 지급 계정 > 공급업체 > 모든 공급업체** 로 이동합니다.
 2. **모든 공급업체** 목록에서 원하는 레코드를 찾아 선택합니다.

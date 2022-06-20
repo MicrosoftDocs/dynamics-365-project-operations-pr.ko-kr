@@ -1,17 +1,17 @@
 ---
 title: 최신 승인을 위한 업그레이드 고려 사항
-description: 이 항목에서는 관리자가 최신 승인 기능을 활성화할 때 고려해야 할 사항을 다룹니다.
+description: 이 문서에서는 관리자가 최신 승인 기능을 활성화할 때 고려해야 할 사항을 다룹니다.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931752"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>최신 승인을 위한 업그레이드 고려 사항 
 

@@ -1,17 +1,17 @@
 ---
 title: 리소스/비 재고 시나리오에 대한 Project Operations 미리 보기 구독에 등록
-description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Project Operations를 구독하고 배포하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스/비재고 기반 시나리오에 대해 Project Operations를 구독하고 배포하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920114"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>리소스/비 재고 시나리오에 대한 Project Operations 미리 보기 구독에 등록
 
@@ -19,7 +19,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 
 
-이 항목에서는 평가판을 구독하고 리소스/비재고 기반 시나리오를 위한 Project Operations 환경을 배포하는 방법을 설명합니다.
+이 문서에서는 평가판을 구독하고 리소스/비재고 기반 시나리오를 위해 Project Operations 환경을 배포하는 방법을 설명합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 - 미리 보기를 배포하는 사용자는 Azure 테넌트 전역 관리자 권한이 있어야 합니다. 첫 번째 제안 사용 중에 테넌트를 만들 수 있습니다. 
@@ -60,19 +60,19 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="start-a-new-project-in-lcs"></a>LCS에서 새 프로젝트 시작
 
-항목 [LCS에서 새 프로젝트 시작](create-lcs-project.md)에 설명된 대로 새 LCS 프로젝트를 만듭니다.
+[LCS에서 새 프로젝트 시작](create-lcs-project.md) 문서에 설명된 대로 새 LCS 프로젝트를 만듭니다.
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS 프로젝트에 Azure 구독 추가
 
-이 작업을 완료하려면 항목 [LCS 프로젝트에 Azure 구독 추가](resource-add-azure-subscription-lcs-project.md)의 단계를 따릅니다.
+이 작업을 완료하려면 [LCS 프로젝트에 Azure 구독 추가](resource-add-azure-subscription-lcs-project.md) 문서의 단계를 따르십시오.
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>리소스/비 재고 시나리오를 위한 Project Operations과 함께 Finance 데모 환경 배포
 
-항목 [새로운 환경 프로비전](resource-provision-new-environment.md)의 안내를 따라 배포를 완료합니다. 미리 보기를 위한 [데모 환경](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) 배포 유형을 사용합니다. 
+[새 환경 프로비저닝](resource-provision-new-environment.md) 문서의 지침에 따라 배포를 완료합니다. 미리 보기를 위한 [데모 환경](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) 배포 유형을 사용합니다. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS 설정 및 구성 데이터 설치
 
-항목 [Common Data Service에서 구성 데이터 설정 및 적용](resource-apply-pro-setup-config-data.md)에 설명된 대로 CDS 설정 및 구성 데이터를 설치합니다.
+[Common Data Service의 구성 데이터 설정 및 적용](resource-apply-pro-setup-config-data.md) 문서에 설명된 대로 CDS 설정 및 구성 데이터를 설치합니다.
 Finance 데모 환경이 배포되고 데모 데이터가 준비된 후에만 이 단계를 완료하십시오.
 
 

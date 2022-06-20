@@ -1,17 +1,17 @@
 ---
 title: 시간 항목 UI 동작
-description: 이 항목은 시간 항목의 UI 동작에 대한 정보를 제공합니다.
+description: 이 문서에서는 시간 입력에 대한 UI의 동작에 대한 정보를 제공합니다.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5b7bd3e9145673268907e749decdd728dcfb533f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b39f182901681875eb90f17d9421bcad63762f54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918182"
 ---
 # <a name="time-entry-ui-behavior"></a>시간 항목 UI 동작
 

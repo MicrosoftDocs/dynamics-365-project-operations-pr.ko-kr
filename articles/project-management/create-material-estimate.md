@@ -1,17 +1,17 @@
 ---
 title: 프로젝트의 재료에 대한 재무 추정
-description: 이 항목은 프로젝트 기반 재료 정의 또는 추정에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 기반 자료를 정의하거나 추정하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
-ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
+ms.openlocfilehash: eb33c8e2ead2a558bf53256095645011212ff343
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925710"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>프로젝트의 재료에 대한 재무 추정
 

@@ -1,6 +1,6 @@
 ---
 title: 품목 요구 사항에서 구매 주문에 대한 품목 수신
-description: 이 항목은 품목 요구 사항에서 구매 주문서의 항목을 수신하는 방법을 설명합니다.
+description: 이 문서에서는 항목 요구 사항에서 구매 주문의 항목을 받는 방법에 대해 설명합니다.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929544"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>품목 요구 사항에서 구매 주문에 대한 품목 수신
 
 [!include [banner](../../includes/banner.md)]
 
-이 항목은 품목 요구 사항에서 구매 주문서의 항목을 수신하는 방법을 설명합니다.
+이 문서에서는 항목 요구 사항에서 구매 주문의 항목을 받는 방법에 대해 설명합니다.
 
 품목 거래 대신 품목 소요량을 사용하면 품목이 실제로 사용되기 직전에 납품을 계획하고 구매 주문을 생성하고 거래 계약 프레임워크에 품목을 포함하고 생산 계획에 품목 소요량을 포함할 수 있습니다. 
 

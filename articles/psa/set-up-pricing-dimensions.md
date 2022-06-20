@@ -1,6 +1,6 @@
 ---
 title: 가격 책정 차원의 사용자 지정 필드 설정
-description: 이 항목은 맞춤 가격 책정 차원 설정에 대한 정보를 제공합니다.
+description: 이 문서는 맞춤 가격 책정 차원 설정에 대한 정보를 제공합니다.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922605"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>가격 책정 차원의 사용자 지정 필드 설정 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-시작하기 전에 이 항목은 귀하가 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md) 및 [가격 설정 및 트랜잭션 엔터티에 맞춤 필드 추가](field-references.md) 항목의 절차를 완료했다고 간주합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 항목으로 돌아오십시오. 
+시작하기 전에 이 문서는 귀하가 [맞춤 필드 및 엔터티 만들기](create-custom-fields-entities.md) 및 [가격 설정 및 트랜잭션 엔터티에 맞춤 필드 추가](field-references.md) 문서의 절차를 완료했다고 간주합니다. 이러한 절차를 완료하지 않은 경우 돌아가서 완료한 다음 이 문서로 돌아오십시오. 
 
-이 항목은 맞춤 가격 책정 차원 설정에 대한 정보를 제공합니다. Project Service 웹 인터페이스에서 **파라미터** 페이지의 **금액 기반 가격 책정 차원** 탭은 가격 책정 차원 엔터티의 레코드를 보여줌을 인식하십시오. 기본적으로 Project Service 설치는 이 탭의 그리드에 2개의 행을 만듭니다:
+이 문서는 맞춤 가격 책정 차원 설정에 대한 정보를 제공합니다. Project Service 웹 인터페이스에서 **파라미터** 페이지의 **금액 기반 가격 책정 차원** 탭은 가격 책정 차원 엔터티의 레코드를 보여줌을 인식하십시오. 기본적으로 Project Service 설치는 이 탭의 그리드에 2개의 행을 만듭니다:
 
 - **msdyn_resourcecategory** (역할)
 - **msdyn_OrganizationalUnit** (조직 단위)

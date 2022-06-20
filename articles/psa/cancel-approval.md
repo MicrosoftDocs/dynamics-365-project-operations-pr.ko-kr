@@ -1,6 +1,6 @@
 ---
 title: 이전에 승인된 시간 및 경비 항목 취소
-description: 이 주제는 승인된 프로젝트 시간 및 경비 처리를 취소하는 방법에 대한 정보를 제공합니다.
+description: 이 문서는 승인된 프로젝트 시간 및 경비 처리를 취소하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9e3bc94b626b88a2167e3a61472b768e2fb5c731
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 840f163ee9bf1fc98f140efdcc0d37a5424ddb8f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933316"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>이전에 승인된 시간 또는 경비 항목 취소
 

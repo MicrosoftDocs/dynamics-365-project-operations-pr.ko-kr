@@ -1,17 +1,17 @@
 ---
 title: 사용자 인터페이스 탐색
-description: 이 항목은 Dynamics 365 Project operations에서 프로젝트 관리에 대한 정보를 제공합니다.
+description: 이 문서에서는 Dynamics 365 Project Operations의 프로젝트 관리에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: de9d0477954da664b71020ef4dfae81a14b999c6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1db62cd8538444552a1296c6f10b651c9dbd34ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923794"
 ---
 # <a name="navigating-the-user-interface"></a>사용자 인터페이스 탐색
 

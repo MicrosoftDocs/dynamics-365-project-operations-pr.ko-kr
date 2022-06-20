@@ -1,25 +1,25 @@
 ---
 title: 이중 쓰기를 지원하는 Project Operations Dataverse 앱 수동 배포
-description: 이 항목에서는 이중 쓰기를 지원하도록 Project Operations Dataverse 앱을 수동으로 배포하는 방법을 설명합니다.
+description: 이 문서에서는 이중 쓰기를 지원하도록 Project Operations Dataverse 앱을 수동으로 배포하는 방법을 설명합니다.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912018"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>이중 쓰기를 지원하는 Project Operations Dataverse 앱 수동 배포
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목에서는 이중 쓰기를 지원하도록 Microsoft Dataverse에 Microsoft Dynamics 365 Project Operations을 수동으로 배포하는 방법을 설명합니다. Project Operations는 환경의 구성을 감지하고 전제 조건이 충족되는 경우 이중 쓰기에 대한 추가 지원을 추가합니다.
+이 문서에서는 이중 쓰기를 지원하도록 Microsoft Dataverse에 Microsoft Dynamics 365 Project Operations를 수동으로 배포하는 방법을 설명합니다. Project Operations는 환경의 구성을 감지하고 전제 조건이 충족되는 경우 이중 쓰기에 대한 추가 지원을 추가합니다.
 
-Microsoft Dynamics LCS(Lifecycle Services)를 통해 배포하는 동안 이 항목의 지침을 따랐다면 Microsoft Power Platform 통합(이전에는 Common Data Service 환경이라고 함) 배포를 건너뛸 수 있습니다.
+Microsoft Dynamics LCS(Lifecycle Services)를 통해 배포하는 동안 이 문서의 지침을 따랐다면 Microsoft Power Platform 통합(이전에는 Common Data Service 환경으로 알려짐) 배포를 건너뛸 수 있습니다.
 
 이중 쓰기를 지원하도록 Dataverse에 Project Operations를 배포하는 프로세스는 네 가지 주요 단계로 이루어집니다.
 

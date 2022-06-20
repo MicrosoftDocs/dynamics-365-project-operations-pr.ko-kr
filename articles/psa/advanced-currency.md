@@ -1,6 +1,6 @@
 ---
 title: 다통화 시나리오 (버전 3.x)
-description: 이 항목은 다통화 시나리오에 대한 정보를 제공합니다.
+description: 이 문서는 다통화 시나리오에 대한 정보를 제공합니다.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c302526991f8887395c11fb6c07dd29f5e6f65d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925496"
 ---
 # <a name="multiple-currency-scenarios"></a>다통화 시나리오
 

@@ -1,18 +1,18 @@
 ---
 title: 새 환경 프로비전
-description: 이 항목은 새 Project Operations 환경을 프로비전하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 새 Project Operations 환경을 프로비저닝하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931614"
 ---
 # <a name="provision-a-new-environment"></a>새 환경 프로비전
 
@@ -20,7 +20,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 
 
-이 토픽은 리소스/비 재고 기반 시나리오를 위한 새 Dynamics 365 Project Operations 환경을 프로비전하는 방법에 대한 정보를 제공합니다.
+이 문서에서는 리소스/비재고 기반 시나리오에 대해 새로운 Dynamics 365 Project Operations 환경을 프로비저닝하는 방법에 대한 정보를 제공합니다.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>LCS 프로젝트에서 Project Operations 자동화 프로비전 활성화
 

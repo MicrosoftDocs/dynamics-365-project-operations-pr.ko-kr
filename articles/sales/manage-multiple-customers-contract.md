@@ -1,21 +1,21 @@
 ---
 title: 프로젝트 계약에 대한 여러 고객 관리
-description: 이 토픽에서는 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928348"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>프로젝트 계약에 대한 여러 고객 관리
 
-이 토픽에서는 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다. 거래 자금 조달을 위해 여러 고객에 대한 계약이 필요한 경우 프로젝트 계약을 사용할 수 있습니다. **프로젝트 계약** 페이지의 **요약** 탭에는 거래의 기본 고객에 대한 정보가 포함됩니다. 거래에 참여하는 다른 고객은 **고객** 탭에 추가할 수 있습니다.
+이 문서에서는 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다. 거래 자금 조달을 위해 여러 고객에 대한 계약이 필요한 경우 프로젝트 계약을 사용할 수 있습니다. **프로젝트 계약** 페이지의 **요약** 탭에는 거래의 기본 고객에 대한 정보가 포함됩니다. 거래에 참여하는 다른 고객은 **고객** 탭에 추가할 수 있습니다.
 
 프로젝트 계약의 **고객** 탭에 있는 모든 계약 고객은 프로젝트 계약에 대해 생성된 신규 프로젝트 기반 계약 내용의 계약 내용 고객으로 기본값이 지정됩니다. 기존 프로젝트 기반 계약 내용은 나중에 생성되는 새 계약 고객 레코드를 상속하지 않습니다.
 

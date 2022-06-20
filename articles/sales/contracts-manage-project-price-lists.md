@@ -1,17 +1,17 @@
 ---
 title: 프로젝트 계약에 대한 프로젝트 가격표 관리
-description: 이 항목은 프로젝트 계약의 프로젝트 가격표 관리에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트 계약에서 프로젝트 가격 목록을 관리하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2ad0e260fde65cf3eb32539fbcdb7101796cb53b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 23b9e6f9bc3e4bc3fb03de62064644dd58da34c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926186"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>프로젝트 계약에 대한 프로젝트 가격표 관리
 

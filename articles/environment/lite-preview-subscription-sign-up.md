@@ -1,21 +1,21 @@
 ---
 title: 미리 보기 구독 신청 - 라이트
-description: 이 항목은 Project Operations 라이트 배포 - 견적 송장 거래를 구독하고 배포하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations Lite 배포를 구독하고 배포하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921264"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>미리 보기 구독 신청 - 라이트 
 
-이 항목에서는 평가판을 구독하고 Dynamics 365 Project Operations 라이트 배포를 배포하는 방법에 대해 설명합니다.
+이 문서에서는 평가판을 구독하고 Dynamics 365 Project Operations 라이트 배포를 배포하는 방법에 대해 설명합니다.
 
 > [!NOTE]
 > 이 프로세스는 Project Operations의 향후 릴리스에서 변경됩니다.
@@ -50,7 +50,7 @@ ms.locfileid: "8588008"
 
 ## <a name="create-a-new-dataverse-environment"></a>새 Dataverse 환경 만들기
 
-1. 항목 [Dataverse 배포 모델](lite-deployment.md)의 지침에 따라 새 Project Operations Dataverse 배포 환경을 프로비전합니다. 환경 유형을 선택할 때 **평가판(구독 기반)** 을 사용해야 합니다.
+1. [Dataverse 배포 모델](lite-deployment.md) 문서의 지침에 따라 새 Project Operations Dataverse 배포 환경을 프로비저닝합니다. 환경 유형을 선택할 때 **평가판(구독 기반)** 을 사용해야 합니다.
 
   ![새 환경.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8588008"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS 구성 설치 및 데모 데이터 설정
 
-항목 [데모 설정 및 구성 데이터 적용](lite-apply-demo-setup-config-data.md)의 지침에 따라 CDS 구성을 설치하고 데모 데이터를 설정합니다.
+[데모 설정 및 구성 데이터 적용](lite-apply-demo-setup-config-data.md) 문서의 지침에 따라 CDS 구성을 설치하고 데모 데이터를 설정합니다.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 추정 제거
-description: 이 항목은 완료된 후 프로젝트 추정을 제거하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 완료된 후 프로젝트 견적을 제거하는 방법에 대한 정보를 제공합니다.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 267b5ffab7ef3a6776c31100deea81fb523752b6
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: de54659f9e69daf1566f86bec16436c19eeacf49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932212"
 ---
 # <a name="eliminate-a-project-estimate"></a>프로젝트 추정 제거
 

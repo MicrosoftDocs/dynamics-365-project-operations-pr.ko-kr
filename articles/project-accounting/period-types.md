@@ -1,23 +1,23 @@
 ---
 title: 기간 유형
-description: 이 토픽은 수익 추정을 위해 기간 유형을 설정하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 수익 추정을 위한 기간 유형을 설정하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930970"
 ---
 # <a name="period-types"></a>기간 유형
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-기간 유형은 프로젝트 수익이 추정되는 빈도를 정의합니다. 이 토픽은 수익 추정을 위해 기간 유형을 설정하는 방법에 대한 정보를 제공합니다. 
+기간 유형은 프로젝트 수익이 추정되는 빈도를 정의합니다. 이 문서에서는 수익 추정을 위한 기간 유형을 설정하는 방법에 대한 정보를 제공합니다. 
 
 ## <a name="create-and-work-with-period-types"></a>기간 유형 만들기 및 작업
 기간 유형을 작성하고 작업하려면 다음 단계를 완료하십시오.

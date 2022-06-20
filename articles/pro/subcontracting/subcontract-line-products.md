@@ -1,17 +1,17 @@
 ---
 title: 제품의 하도급 계약 내용
-description: 이 항목에서는 제품에 대한 하도급 계약 내용을 기록하고 다양한 필드를 사용하여 공급업체로부터 제품 구매를 기록하는 방법을 설명합니다.
+description: 이 문서에서는 제품에 대한 하도급 계약 내용을 기록하고 다양한 필드를 사용하여 공급업체로부터 제품 구매를 기록하는 방법을 설명합니다.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 71e4a48c3d29d7ea5b015f6c6797da60001fccff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff9636f86102fa671a443d7646614070b3e2ee79
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579081"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934374"
 ---
 # <a name="subcontract-lines-for-products"></a>제품의 하도급 계약 내용
 

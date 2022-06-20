@@ -1,6 +1,6 @@
 ---
 title: 작업 세분화 구조를 위한 업그레이드 고려 사항
-description: 이 항목은 작업 세분화 구조를 Project Service Automation 2.x에서 3.x로 업그레이드하는 방법을 설명합니다.
+description: 이 문서는 작업 세분화 구조를 Project Service Automation 2.x에서 3.x로 업그레이드하는 방법을 설명합니다.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599738"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913122"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>작업 세분화 구조를 위한 업그레이드 고려 사항
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-이 항목은 작업 세분화 구조를 Project Service Automation 2.x에서 3.x로 업그레이드하는 방법을 설명합니다. 이 항목은 Project Service Automation(PSA)에서 성공적인 업그레이드를 위해 요구되는 건전한 프로젝트의 상태를 정의합니다. 업그레이드를 실패하게 만드는 일반적인 차단 조건에 대한 정보도 있습니다. 프로젝트 스케줄 내에서 프로젝트 과업 및 그 기능을 정의하는 데 대한 자세한 설명은 [프로젝트 스케줄](project-creating.md)을 참조하십시오.
+이 문서는 작업 세분화 구조를 Project Service Automation 2.x에서 3.x로 업그레이드하는 방법을 설명합니다. 이 문서는 Project Service Automation(PSA)에서 성공적인 업그레이드를 위해 요구되는 건전한 프로젝트의 상태를 정의합니다. 업그레이드를 실패하게 만드는 일반적인 차단 조건에 대한 정보도 있습니다. 프로젝트 스케줄 내에서 프로젝트 과업 및 그 기능을 정의하는 데 대한 자세한 설명은 [프로젝트 스케줄](project-creating.md)을 참조하십시오.
 
 ## <a name="key-entities"></a>주요 엔터티
 리소스가 이미 로드된 정확한 작업 세분화 구조의 경우 다음 엔터티가 요구됩니다:

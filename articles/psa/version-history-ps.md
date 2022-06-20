@@ -1,6 +1,6 @@
 ---
 title: Project Service 3.x 릴리스 일정 업데이트
-description: 이항목은 Dynamics 365 Project Service Automation의 사용 가능 및 향후 릴리스에 대한 정보를 제공합니다.
+description: 이 문서에서는 Dynamics 365 Project Service Automation의 사용 가능한 릴리스 및 향후 릴리스에 대한 정보를 제공합니다.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732894"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959460"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 릴리스 일정 업데이트
 
@@ -37,7 +37,7 @@ ms.locfileid: "8732894"
 
 | 해결 방법  | 최신 버전 |
 |-------|----|
-| Project Service Automation    | 3.10.74.200 |
+| Project Service Automation    | 3.10.75.142 |
 | Project Service Automation 데스크톱 추가 기능                | 3.60          |
 
 Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamics 365 릴리스 계획](/dynamics365/release-plans/)을 참조하십시오. 
@@ -45,30 +45,30 @@ Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamic
 | 스테이션  | 영역 | 현재 버전 | 다음 버전 |  예약된 날짜
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>스테이션 1</strong> | |  |  | |
-| | <i>최초 릴리스</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 5월 27일
+| | <i>최초 릴리스</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 1일
 |<strong>스테이션 2</strong> | |  |  | |
-| | <i>남아메리카</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
-| | <i>캐나다</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
-| | <i>인도</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
-| | <i>프랑스</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
-| | <i>남아프리카 공화국</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
-| | <i>독일</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
-| | <i>스위스</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
-| | <i>대한민국</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
-| | <i>노르웨이</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 2022년 6월 3일
+| | <i>남아메리카</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>캐나다</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>인도</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>프랑스</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>남아프리카 공화국</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>독일</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>스위스</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>대한민국</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>노르웨이</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
 |<strong>스테이션 3</strong> | |  |  | |
-| | <i>일본</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 5월 13일
-| | <i>아시아 태평양</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 5월 13일
-| | <i>영국</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 5월 13일
-| | <i>오세아니아</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 5월 13일
-| | <i>아랍에미리트연합국</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 5월 13일
+| | <i>일본</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
+| | <i>아시아 태평양</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
+| | <i>영국</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
+| | <i>오세아니아</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
+| | <i>아랍에미리트연합국</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
 |<strong>스테이션 4</strong> | |  |  | |
-| | <i>유럽</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 5월 20일
+| | <i>유럽</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022년 6월 17일
 |<strong>스테이션 5</strong> | |  |  | |
-| | <i>북아메리카</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 5월 29일
+| | <i>북아메리카</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022년 6월 24일
 |<strong>스테이션 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 5월 29일
-| | <i>전용 규모 그룹</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 2022년 6월 3일
+| | <i>Government Community Cloud</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022년 6월 24일
+| | <i>전용 규모 그룹</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022년 7월 1일
 
 
 

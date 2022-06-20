@@ -1,17 +1,17 @@
 ---
 title: 견적 프로젝트 송장 확인
-description: 이 항목은 Project Operations의 견적 프로젝트 송장 확인에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations의 견적 프로젝트 송장 확인에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 276f54936ad9fd72fdc7e85196b43463572e6d3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 101e4564fcf57cbbfc713773ed760291b9d28410
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922230"
 ---
 # <a name="confirm-a-proforma-project-invoice"></a>견적 프로젝트 송장 확인 
 

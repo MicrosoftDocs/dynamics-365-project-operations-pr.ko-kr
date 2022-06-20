@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation에서 Finance and Operations로 직접 프로젝트 추산 동기화
-description: 이 항목에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 시간 추산 및 프로젝트 경비 추산을 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 시간 추산 및 프로젝트 경비 추산을 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920850"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation에서 Finance and Operations로 직접 프로젝트 추산 동기화
 
 [!include[banner](../includes/banner.md)]
 
-이 항목에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 시간 추산 및 프로젝트 경비 추산을 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+이 문서에서는 Dynamics 365 Project Service Automation에서 Dynamics 365 Finance로 직접 프로젝트 시간 추산 및 프로젝트 경비 추산을 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 
 > [!NOTE]
 > - 프로젝트 작업 통합, 경비 트랜잭션 범주, 시간 추정, 경비 추정 및 기능 잠금은 버전 8.0에서 사용할 수 있습니다.

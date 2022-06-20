@@ -1,6 +1,6 @@
 ---
 title: 일비 경비
-description: 이 항목은 일비 경비로 작업하는 방법에 대한 정보를 제공합니다.
+description: 이 문서는 일비 경비로 작업하는 방법에 대한 정보를 제공합니다.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596058"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923196"
 ---
 # <a name="per-diem-expenses"></a>일비 경비
 
 > [!IMPORTANT] 
-> 이 항목에서 설명하는 기능은 미리 보기 릴리스의 일부로 대상 사용자에게 제공됩니다.
+> 이 문서에서 설명하는 기능은 미리 보기 릴리스의 일부로 대상 사용자에게 제공됩니다.
 
 일비 지급은 회사가 직원이 출근하는 동안 발생하는 숙박(호텔), 식사 및 부대 비용에 대해 직원에게 미리 정해진 고정된 일일 수당입니다. 회사는 실제 여비를 지급하지 않고 직원들에게 이 수당을 지급합니다. 직원들은 팁, 룸 서비스, 세탁 또는 중요한 비즈니스 회의를 위한 드라이 클리닝 서비스를 충당하기 위해 **부수적/기타** 일비 수당을 사용할 수 있습니다. 일비 요율은 고용주가 숙박과 식사를 합한 비용을 상환할지 아니면 식사 및 부대 비용만 상환할지에 따라 달라질 수 있습니다.
 

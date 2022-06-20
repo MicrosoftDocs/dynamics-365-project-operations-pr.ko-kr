@@ -1,23 +1,23 @@
 ---
 title: 여러 자금 출처가 있는 프로젝트 계약에 대한 품목 요구 사항
-description: 이 항목은 여러 자금 출처에서 품목 요구 사항을 구성하고 사용하는 방법에 대한 정보를 제공합니다.
+description: 이 문서는 여러 자금 출처에서 품목 요구 사항을 구성하고 사용하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931200"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>여러 자금 출처가 있는 프로젝트 계약에 대한 품목 요구 사항
 
 _**적용 대상:** 리소스/생산 기반 시나리오에 대한 Project Operations_
 
-프로젝트 기반 결과물에 대한 일부 계약 합의에는 여러 자금 출처가 필요할 수 있습니다. 이 항목에서는 프로젝트 또는 프로젝트 계약에 여러 출처가 필요한 경우 원하는 자금 출처를 선택하고 구성하는 방법을 설명합니다.
+프로젝트 기반 결과물에 대한 일부 계약 합의에는 여러 자금 출처가 필요할 수 있습니다. 이 문서에서는 프로젝트 또는 프로젝트 계약에 여러 출처가 필요한 경우 원하는 자금 출처를 선택하고 구성하는 방법을 설명합니다.
 
 ## <a name="terminology"></a>용어
 

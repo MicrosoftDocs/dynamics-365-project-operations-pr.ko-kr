@@ -1,24 +1,24 @@
 ---
 title: 새로운 기능 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 2021년 7월 Project Operations에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2021년 7월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c004a6adc265f8f02fc557700d9b88a174c221c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931706"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>새로운 기능 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
 *적용 대상: 리소스/비 재고 기반 시나리오에 대한 Project Operations*
 
-이 항목은 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
+이 문서는 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
 
    - Microsoft Dataverse 환경 버전 4.12.0.148 또는 4.12.0.152의 Project Operations.
    - Dynamics 365 Finance 환경 버전 10.0.20의 프로젝트 관리 및 회계.

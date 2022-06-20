@@ -1,17 +1,17 @@
 ---
 title: 리소스 사용률 개요
-description: 이 항목은 Project Operations에서 리소스 활용도에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations의 리소스 활용에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e24bbb33cdf34426d4e7fff21b68fcaea2fcef5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5fbba4c9feaf3b26fba3423e160b09c58e049c70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918504"
 ---
 # <a name="resource-utilization-overview"></a>리소스 사용률 개요
 

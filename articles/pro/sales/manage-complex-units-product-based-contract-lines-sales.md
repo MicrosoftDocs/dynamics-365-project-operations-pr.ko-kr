@@ -1,17 +1,17 @@
 ---
 title: 제품 기반 계약 내용의 복잡한 단위 관리 - 라이트
-description: 이 항목은 구독 기반 제품 영업 지원에 대한 정보를 제공합니다.
+description: 이 문서에서는 구독 기반 제품의 판매 지원에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 214593c5b3fbfc5194031af3d3bef59d01750099
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f48ac31778e34ace79dbce74cff752343484e5a5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919930"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>제품 기반 계약 내용의 복잡한 단위 관리 - 라이트
 

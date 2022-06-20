@@ -1,6 +1,6 @@
 ---
 title: 리소스 관리 변경 (Project Service Automation 3.x)
-description: 이 항목은 리소스 관리 영역의 변경에 대한 정보를 제공합니다.
+description: 이 문서는 리소스 관리 영역의 변경에 대한 정보를 제공합니다.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916020"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>리소스 관리 변경 (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-이 주제의 섹션들은 Dynamics 365 Project Service Automation 버전 3.x의 리소스 관리 영역에 대한 변경에 대한 정보를 제공합니다.
+이 문서의 섹션들은 Dynamics 365 Project Service Automation 버전 3.x의 리소스 관리 영역에 대한 변경에 대한 정보를 제공합니다.
 
 ## <a name="project-estimates"></a>프로젝트 추산
 

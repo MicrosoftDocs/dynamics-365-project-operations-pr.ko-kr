@@ -1,17 +1,17 @@
 ---
 title: 공급업체 송장에 대한 헤더 세부정보
-description: 이 항목에서는 Microsoft Dynamics 365 Project Operations의 공급업체 송장 헤더에 제공되는 기능을 설명합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations의 공급업체 송장 헤더에 제공되는 기능을 설명합니다.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929866"
 ---
 # <a name="header-details-for-vendor-invoices"></a>공급업체 송장에 대한 헤더 세부정보
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575588"
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-이 항목에서는 Microsoft Dynamics 365 Project Operations의 공급업체 송장 헤더에 제공되는 기능을 설명합니다.
+이 문서에서는 Microsoft Dynamics 365 Project Operations의 공급업체 송장 헤더에 제공되는 기능을 설명합니다.
 
 프로젝트 관리자는 프로젝트를 계획하고 실행할 때 하청업체를 고용하고 공급업체로부터 제품과 서비스를 구매할 수 있습니다. 프로젝트 실행 중 공급업체와의 하도급 계약을 통해 조달되는 서비스, 자재 및 경비 범주에서 비용이 발생합니다. 공급업체는 공급업체 송장을 생성하여 이러한 비용을 프로젝트에 송장 발부합니다.
 

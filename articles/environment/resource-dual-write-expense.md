@@ -1,24 +1,24 @@
 ---
 title: 경비 관리 통합
-description: 이 항목에서는 이중 쓰기를 사용하여 Project Operations에서 경비 보고서 통합에 대한 정보를 제공합니다.
+description: 이 문서에서는 이중 쓰기를 사용하는 Project Operations의 경비 보고서 통합에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924622"
 ---
 # <a name="expense-management-integration"></a>경비 관리 통합
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목에서는 이중 쓰기를 사용하여 Project Operations [전체 경비 배포](../expense/expense-overview.md)에서 경비 보고서 통합에 대한 정보를 제공합니다.
+이 문서에서는 이중 쓰기를 사용하는 Project Operations [전체 경비 배포](../expense/expense-overview.md)의 경비 보고서 통합에 대한 정보를 제공합니다.
 
 ## <a name="expense-categories"></a>경비 범주
 

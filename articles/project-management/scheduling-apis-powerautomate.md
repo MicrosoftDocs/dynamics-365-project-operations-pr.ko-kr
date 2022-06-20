@@ -1,25 +1,25 @@
 ---
 title: Power Automate와 함께 프로젝트 일정 API 사용
-description: 이 항목은 프로젝트 일정 API(애플리케이션 인터페이스)를 사용하는 샘플 흐름을 제공합니다.
+description: 이 문서는 프로젝트 일정 API(애플리케이션 인터페이스)를 사용하는 샘플 흐름을 제공합니다.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916342"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Power Automate와 함께 프로젝트 일정 API 사용
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-이 항목에서는 Microsoft Power Automate를 사용하여 전체 프로젝트 계획을 만드는 방법, 작업 집합을 만드는 방법 및 엔터티를 업데이트하는 방법을 보여주는 샘플 흐름에 대해 설명합니다. 이 예는 프로젝트, 프로젝트 팀 구성원, 작업 집합, 프로젝트 작업 및 리소스 할당을 생성하는 방법을 보여줍니다. 이 항목에서는 엔터티를 업데이트하고 작업 집합을 실행하는 방법도 설명합니다.
+이 문서에서는 Microsoft Power Automate를 사용하여 전체 프로젝트 계획을 만드는 방법, 작업 집합을 만드는 방법 및 엔터티를 업데이트하는 방법을 보여주는 샘플 흐름에 대해 설명합니다. 이 예는 프로젝트, 프로젝트 팀 구성원, 작업 집합, 프로젝트 작업 및 리소스 할당을 생성하는 방법을 보여줍니다. 이 문서에서는 엔터티를 업데이트하고 작업 집합을 실행하는 방법도 설명합니다.
 
-다음은 이 항목 샘플 흐름에 설명된 단계의 전체 목록입니다.
+다음은 이 문서 샘플 흐름에 설명된 단계의 전체 목록입니다.
 
 1. [PowerApps 트리거 만들기](#1)
 2. [프로젝트 만들기](#2)
@@ -40,7 +40,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="assumptions"></a>가정
 
-이 항목에서는 Dataverse 플랫폼, 클라우드 흐름 및 프로젝트 일정 API(응용 프로그래밍 인터페이스)에 대한 기본 지식이 있다고 가정합니다. 자세한 내용은 이 항목의 뒷부분에 나오는 [참조](#references) 섹션을 참조하십시오.
+이 문서에서는 Dataverse 플랫폼, 클라우드 흐름 및 프로젝트 일정 API(응용 프로그래밍 인터페이스)에 대한 기본 지식이 있다고 가정합니다. 자세한 내용은 이 문서의 뒷부분에 나오는 [참조](#references) 섹션을 참조하십시오.
 
 ## <a name="create-a-flow"></a>흐름 만들기
 
@@ -65,7 +65,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 1. **솔루션** 페이지에서 생성한 솔루션을 선택한 다음 **새로 만들기** 를 선택합니다.
 2. 왼쪽 창에서 **클라우드 흐름** \> **자동화** \> **클라우드 흐름** \> **인스턴트** 를 선택합니다.
 3. **흐름 이름** 필드에서 **API 데모 흐름 예약** 을 입력합니다.
-4. **이 흐름을 트리거하는 방법 선택** 목록에서 **Power Apps** 를 선택합니다. Power Apps 트리거를 만들 때 논리는 작성자에게 달려 있습니다. 이 항목에서는 테스트 목적으로 입력 매개 변수를 비워 둡니다.
+4. **이 흐름을 트리거하는 방법 선택** 목록에서 **Power Apps** 를 선택합니다. Power Apps 트리거를 만들 때 논리는 작성자에게 달려 있습니다. 이 문서에서는 테스트 목적으로 입력 매개 변수를 비워 둡니다.
 5. **만들기** 를 선택합니다.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>2단계: 프로젝트 만들기

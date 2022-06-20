@@ -1,6 +1,6 @@
 ---
 title: 프로젝트 및 프로젝트 계약에 대한 청구서 백로그 검토
-description: 이 항목은 시간, 비용 및 제품 백로그를 검토하는 방법과 청구서를 사용할 준비가 된 것으로 표시하는 방법에 대한 정보를 제공합니다.
+description: 이 문서는 시간, 비용 및 제품 백로그를 검토하는 방법과 청구서를 사용할 준비가 된 것으로 표시하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928900"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>프로젝트 및 프로젝트 계약에 대한 청구서 백로그 검토
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600566"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-청구서를 생성 및 처리하도록 트랜잭션이 준비되면 트랜잭션이 **청구서 발행 준비** 로 표시되어야 합니다. 이 항목은 만들 수 있는 트랜잭션의 타입을 설명합니다.
+청구서를 생성 및 처리하도록 트랜잭션이 준비되면 트랜잭션이 **청구서 발행 준비** 로 표시되어야 합니다. 이 문서는 만들 수 있는 트랜잭션의 타입을 설명합니다.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>시간 및 자재 대금 청구 백로그 검토
 

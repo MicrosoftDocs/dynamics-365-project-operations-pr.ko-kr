@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation에서 송장 발부
-description: 이 주제는 송장 발부에 대한 정보를 제공합니다.
+description: 이 문서는 송장 발부에 대한 정보를 제공합니다.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926830"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation에서 송장 발부
 
@@ -94,7 +94,7 @@ PSA는 다음과 같은 이유로 고객 관련 송장을 생성하도록 설계
 송장을 만들기 위한 일괄 처리 작업은 되풀이 작업입니다. 이 일괄 처리 프로세스가 여러 번 실행되는 경우 작업의 여러 인스턴스가 만들어지고 오류가 발생합니다. 따라서 일괄 처리 프로세스를 한 번만 시작해야 하며 실행이 중지된 경우에만 다시 시작해야 합니다.
 
 > [!NOTE]
-> Project Service Automation의 일괄 송장 발행은 송장 일정으로 구성된 프로젝트 계약 내용에 대해서만 실행됩니다. 고정 가격 청구 방법이 있는 계약 내용에는 이정표가 구성되어 있어야 합니다. 시간 및 자재 청구 방법이 있는 프로젝트 계약 내용에는 날짜 기반 송장 일정을 설정해야 합니다. 견적 라인을 기반으로 하는 프로젝트의 컨텍스트에서 송장 발행 빈도를 설정하는 방법에 대한 정보는 토픽, [견적 및 견적 라인](basic-quote-lines.md#invoice-schedule)에 제공됩니다. 프로젝트 기반 계약 내용에도 동일하게 적용됩니다.      
+> Project Service Automation의 일괄 송장 발행은 송장 일정으로 구성된 프로젝트 계약 내용에 대해서만 실행됩니다. 고정 가격 청구 방법이 있는 계약 내용에는 이정표가 구성되어 있어야 합니다. 시간 및 자재 청구 방법이 있는 프로젝트 계약 내용에는 날짜 기반 송장 일정을 설정해야 합니다. 견적 라인을 기반으로 하는 프로젝트 컨텍스트에서 송장 발행 빈도를 설정하는 방법에 대한 정보는 [견적 및 견적 라인](basic-quote-lines.md#invoice-schedule) 문서에 나와 있습니다. 프로젝트 기반 계약 내용에도 동일하게 적용됩니다.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>초안 PSA 송장 편집
 

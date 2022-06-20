@@ -1,17 +1,17 @@
 ---
 title: 시간 항목 연장
-description: 이 항목은 개발자가 시간 입력 제어를 확장할 수 있는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 개발자가 시간 입력 제어를 확장할 수 있는 방법에 대한 정보를 제공합니다.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914778"
 ---
 # <a name="extending-time-entries"></a>시간 항목 연장
 

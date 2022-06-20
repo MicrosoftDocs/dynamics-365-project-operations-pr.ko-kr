@@ -1,24 +1,24 @@
 ---
 title: 2022년 3월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-description: 이 항목에서는 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2022년 3월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2022년 3월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910914"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022년 3월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
 *적용 대상: 리소스/비 재고 기반 시나리오에 대한 Project Operations*
 
-이 항목은 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
+이 문서는 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
 
 - Dataverse 환경 버전 4.30.0.99의 Project Operations
 - Dynamics 365 Finance 환경 버전 10.0.25의 프로젝트 관리 및 회계
@@ -91,11 +91,11 @@ ms.locfileid: "8600750"
 
 ## <a name="removed-and-deprecated-features"></a>제거되었고 사용되지 않는 기능
 
-[Project Operations에서 제거되거나 더 이상 사용되지 않는 기능](removed-depreciated-features-project.md) 항목에서는 Dynamics 365 Project Operations의 제거되었거나 더 이상 사용되지 않는 기능을 설명합니다.
+[Project Operations에서 제거되거나 더 이상 사용되지 않는 기능](removed-depreciated-features-project.md) 문서에서는 Dynamics 365 Project Operations의 제거되었거나 더 이상 사용되지 않는 기능을 설명합니다.
 
 - 제거된 기능은 더 이상 제품에서 사용할 수 없습니다.
 - 더 이상 사용되지 않는 기능은 현재 개발 중이 아니며 향후 업데이트에서 제거될 수 있습니다.
 
-사용 중단 발표는 제품에서 기능이 제거되기 12개월 전에 [Project Operations에서 제거되거나 더 이상 사용되지 않는 기능](removed-depreciated-features-project.md) 항목에 표시됩니다.
+사용 중단 발표는 제품에서 기능이 제거되기 12개월 전에 [Project Operations에서 제거되거나 더 이상 사용되지 않는 기능](removed-depreciated-features-project.md) 문서에 표시됩니다.
 
 컴파일 시간에만 영향을 미치지만 샌드박스 및 프로덕션 환경과 바이너리 호환되는 주요 변경 사항의 경우 사용 중단 시간은 12개월 미만입니다. 일반적으로 이러한 변경 사항은 컴파일러에 대해 수행해야 하는 기능 업데이트입니다.

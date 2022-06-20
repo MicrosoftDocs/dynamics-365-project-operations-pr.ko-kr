@@ -1,24 +1,24 @@
 ---
 title: Dynamics 365 Project Operations에서 제거되었거나 사용되지 않는 기능
-description: 이 토픽에서는 Dynamics 365 Project Operations에서 제거되었거나 제거 예정인 기능에 대해 설명합니다.
+description: 이 문서에서는 Dynamics 365 Project Operations에서 제거되었거나 제거 예정인 기능에 대해 설명합니다.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921494"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Dynamics 365 Project Operations에서 제거되었거나 사용되지 않는 기능
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오를 위한 Project Operations, 라이트 배포 - 견적 송장 처리 및 재고/생산 기반 시나리오를 위한 Project Operations_
 
-이 토픽에서는 Dynamics 365 Project Operations에서 제거되었거나 제거 예정인 기능에 대해 설명합니다.
+이 문서에서는 Dynamics 365 Project Operations에서 제거되었거나 제거 예정인 기능에 대해 설명합니다.
 
 - *제거된* 기능은 더 이상 제품에서 사용할 수 없습니다.
 - *사용되지 않는* 기능은 활성 개발 상태가 아니며 향후 업데이트에서 제거될 수 있습니다.

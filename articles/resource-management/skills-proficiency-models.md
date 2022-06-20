@@ -1,17 +1,17 @@
 ---
 title: 기술 및 인증
-description: 이 항목은 리소스에 기술 및 인증 특성을 추가하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스에 기술 및 인증 특성을 추가하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918367"
 ---
 # <a name="skills-and-certifications"></a>기술 및 인증
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_

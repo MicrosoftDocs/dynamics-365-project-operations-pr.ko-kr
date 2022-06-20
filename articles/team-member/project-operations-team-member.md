@@ -1,6 +1,6 @@
 ---
 title: Project Operations 팀 구성원 앱
-description: 이 항목에서는 Microsoft Dynamics 365 Project Operations의 Project Operations 팀 구성원 앱에 대한 정보를 제공합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Operations의 Project Operations 팀 구성원 앱에 대한 정보를 제공합니다.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: stsporen
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d87d532d114b7c6055f3cbe5d5ec70b3e7bc643f
-ms.sourcegitcommit: 4524cbab47ceb54dce62e055b0e05956216a14cb
+ms.openlocfilehash: 90ea1d13e263934c6dafb5c7f81699a021683ce6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918228"
 ---
 # <a name="project-operations-team-member-app"></a>Project Operations 팀 구성원 앱
 

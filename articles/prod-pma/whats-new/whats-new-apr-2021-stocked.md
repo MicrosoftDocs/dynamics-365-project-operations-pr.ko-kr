@@ -1,24 +1,24 @@
 ---
 title: 리소스/생산 기반 시나리오에 대한 2021년 4월 Project Operations의 새로운 기능 또는 변경된 기능
-description: 이 항목은 리소스/생산 기반 시나리오에 대한 Project Operations의 2021년 4월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 재고/생산 기반 시나리오에 대한 Project Operations의 2021년 4월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916480"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>리소스/생산 기반 시나리오에 대한 2021년 4월 Project Operations의 새로운 기능 또는 변경된 기능
 
 _**적용 대상:** 리소스/생산 기반 시나리오에 대한 Project Operations_
 
-이 항목은 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
+이 문서는 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
 
 - Dynamics 365 Finance 환경 버전 10.0.18의 프로젝트 관리 및 회계
  

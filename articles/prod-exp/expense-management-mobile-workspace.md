@@ -1,6 +1,6 @@
 ---
 title: 경비 관리 모바일 작업 영역
-description: 이 주제는 경비 관리 모바일 작업 영역에 대한 정보를 제공합니다. 이 작업 영역에서는 사용자가 영수증을 캡처하고 업로드할 수 있으므로 나중에 경비 보고서에 첨부할 수 있습니다. 또한 사용자는 첨부된 영수증을 사용하여 비용 라인을 신속하게 생성하고 비용 보고서를 생성 및 관리할 수 있습니다.
+description: 이 문서에서는 경비 관리 모바일 작업 공간에 대한 정보를 제공합니다. 이 작업 영역에서는 사용자가 영수증을 캡처하고 업로드할 수 있으므로 나중에 경비 보고서에 첨부할 수 있습니다. 또한 사용자는 첨부된 영수증을 사용하여 비용 라인을 신속하게 생성하고 비용 보고서를 생성 및 관리할 수 있습니다.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920896"
 ---
 # <a name="expense-management-mobile-workspace"></a>경비 관리 모바일 작업 영역
 
-이 주제는 **경비 관리** 모바일 작업 영역에 대한 정보를 제공합니다. 이 작업 영역에서는 사용자가 영수증을 캡처하고 업로드할 수 있으므로 나중에 경비 보고서에 첨부할 수 있습니다. 또한 사용자는 첨부된 영수증을 사용하여 비용 라인을 신속하게 생성하고 비용 보고서를 생성 및 관리할 수 있습니다. 또한 승인자는 **경비 관리** 모바일 작업 영역을 사용하여 할당된 경비 보고서를 보고 해당 경비 보고서를 승인하거나 거부할 수 있습니다.
+이 문서에서는 **경비 관리** 모바일 작업 공간에 대한 정보를 제공합니다. 이 작업 영역에서는 사용자가 영수증을 캡처하고 업로드할 수 있으므로 나중에 경비 보고서에 첨부할 수 있습니다. 또한 사용자는 첨부된 영수증을 사용하여 비용 라인을 신속하게 생성하고 비용 보고서를 생성 및 관리할 수 있습니다. 또한 승인자는 **경비 관리** 모바일 작업 영역을 사용하여 할당된 경비 보고서를 보고 해당 경비 보고서를 승인하거나 거부할 수 있습니다.
 
 
 이 모바일 작업 영역은 Dynamics 365 Unified Ops 모바일 앱과 함께 사용하기 위한 것입니다.

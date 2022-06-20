@@ -1,6 +1,6 @@
 ---
 title: 리소스 관리 홈 페이지
-description: 이 항목은 리소스를 관리하는 방법에 대한 정보를 제공합니다.
+description: 이 문서는 리소스를 관리하는 방법에 대한 정보를 제공합니다.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913260"
 ---
 # <a name="resource-management-home-page"></a>리소스 관리 홈 페이지
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578762"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-리소스는 서비스 기반 조직의 가장 중요한 자산입니다. 필요할 때 올바른 리소스를 찾아 예약하고, 리소스를 활용하는 능력은 조직이 수익 목표와 고객 만족 목표를 달성하는 데 도움이 됩니다. 다음 항목들은 Dynamics 365 Project Service Automation의 리소스 관리 기능에 중점을 두고 있습니다:
+리소스는 서비스 기반 조직의 가장 중요한 자산입니다. 필요할 때 올바른 리소스를 찾아 예약하고, 리소스를 활용하는 능력은 조직이 수익 목표와 고객 만족 목표를 달성하는 데 도움이 됩니다. 다음 문서들은 Dynamics 365 Project Service Automation의 리소스 관리 기능에 중점을 두고 있습니다:
 
 - [리소스 관리](manage-resources.md)
 - [주요 개념](reports-key-concepts.md)

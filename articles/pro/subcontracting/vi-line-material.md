@@ -1,17 +1,17 @@
 ---
 title: 제품에 대한 공급업체 송장 라인
-description: 이 항목에서는 제품에 대한 공급업체 송장 라인을 기록하고 다른 필드를 사용하여 공급업체로부터 제품 구매를 기록하는 방법을 설명합니다.
+description: 이 문서에서는 제품에 대한 공급업체 송장 라인을 기록하고 다른 필드를 사용하여 공급업체로부터 제품 구매를 기록하는 방법을 설명합니다.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af078cd4392f8353b509db2dc48dc5237b8ee275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931384"
 ---
 # <a name="vendor-invoice-lines-for-products"></a>제품에 대한 공급업체 송장 라인
 

@@ -1,23 +1,23 @@
 ---
 title: 2020년 11월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-description: 이 항목은 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2020년 11월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스/비 재고 기반 시나리오에 대한 Project Operations의 2020년 11월 릴리스에서 사용할 수 있는 품질 업데이트에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923426"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020년 11월 새로운 내용 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-이 항목은 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
+이 문서는 다음 Dynamics 365 Project Operations 구성 요소 및 버전에 적용됩니다.
 
 - CDS 환경 버전 4.4.0.70의 Project Operations
 - Dynamics 365 Finance 환경 버전 10.0.14의 프로젝트 관리 및 회계

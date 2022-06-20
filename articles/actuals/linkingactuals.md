@@ -1,18 +1,18 @@
 ---
 title: 트랜잭션 출처 - 실제를 출처에 연결
-description: 이 항목에서는 트랜잭션 출처의 개념이 실제를 시간 입력, 비용 입력 또는 자재 사용 로그와 같은 원본 소스 레코드에 연결하는 데 사용되는 방법을 설명합니다.
+description: 이 문서에서는 트랜잭션 출처의 개념이 실제를 시간 입력, 비용 입력 또는 자재 사용 로그와 같은 원본 소스 레코드에 연결하는 데 사용되는 방법을 설명합니다.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f1beff392ddd449a930d38016ca6083fea97953b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921310"
 ---
 # <a name="transaction-origins---link-actuals-to-their-source"></a>트랜잭션 출처 - 실제를 출처에 연결
 

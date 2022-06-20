@@ -1,23 +1,23 @@
 ---
 title: 수익 인식 개요
-description: 이 토픽은 Project Operations에서 수익 인식에 대한 정보를 제공합니다.
+description: 이 문서에서는 Project Operations의 수익 인식에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926278"
 ---
 # <a name="revenue-recognition-overview"></a>수익 인식 개요
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-Dynamics 365 Project Operations에서 수익 인식 원칙은 프로젝트 또는 프로젝트 일부에 대해 선택한 청구 방법에 따라 다릅니다. 이 토픽은 Project Operations에서 수익 인식에 대한 정보를 제공합니다.
+Dynamics 365 Project Operations에서 수익 인식 원칙은 프로젝트 또는 프로젝트 일부에 대해 선택한 청구 방법에 따라 다릅니다. 이 문서에서는 Project Operations의 수익 인식에 대한 정보를 제공합니다.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>시간 및 자재 청구 방법을 사용하여 계산된 트랜잭션
 

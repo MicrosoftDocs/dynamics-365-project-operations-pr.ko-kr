@@ -1,23 +1,23 @@
 ---
 title: 수익 추정치 관리
-description: 이 토픽은 프로젝트의 수익 추정치로 작업하는 방법에 대한 정보를 제공합니다.
+description: 이 문서에서는 프로젝트의 예상 수익으로 작업하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928486"
 ---
 # <a name="manage-revenue-estimates"></a>수익 추정치 관리
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-수익 추정치를 생성, 계산, 전기, 반전 또는 제거할 수 있습니다. 수동으로 또는 정기적인 프로세스를 사용하여 이 작업을 수행할 수 있습니다. 이 토픽은 프로젝트의 수익 추정치로 작업하는 방법에 대한 정보를 제공합니다.
+수익 추정치를 생성, 계산, 전기, 반전 또는 제거할 수 있습니다. 수동으로 또는 정기적인 프로세스를 사용하여 이 작업을 수행할 수 있습니다. 이 문서에서는 프로젝트의 예상 수익으로 작업하는 방법에 대한 정보를 제공합니다.
 
 ### <a name="manage-revenue-estimates-manually"></a>수동으로 수익 추정치 관리
 

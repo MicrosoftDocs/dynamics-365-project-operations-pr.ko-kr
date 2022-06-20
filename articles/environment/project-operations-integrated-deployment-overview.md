@@ -1,17 +1,17 @@
 ---
 title: 리소스/비 재고 기반 시나리오에 대한 Project Operations 배포 개요
-description: 이 항목은 배포 유형, 리소스/비 재고 기반 시나리오의 Project Operations에 대한 정보를 제공합니다.
+description: 이 문서에서는 리소스/비 재고 기반 시나리오의 배포 유형인 Project Operations에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 217a3ae39289b9b06bf2e06ae39810fe4f2fc52b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931568"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>리소스/비 재고 기반 시나리오에 대한 Project Operations 배포 개요
 
