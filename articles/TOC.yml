@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: 새로운 기능
       items:
-        - name: 2022년 5월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: 2022년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: 2022년 3월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: 2022년 2월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: 2021년 12월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 2021년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 2021년 10월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 2021년 9월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 2021년 8월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: 2021년 6월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 2021년 5월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: 2021년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: 2021년 3월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: 2021년 2월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: 2021년 1월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: 2020년 12월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: 2020년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: 2022년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 보관
+          items:
+            - name: 2022년 6월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: 2022년 5월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: 2022년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: 2022년 3월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: 2022년 2월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: 2021년 12월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: 2021년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: 2021년 10월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: 2021년 9월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: 2021년 8월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: 2021년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: 2021년 6월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: 2021년 5월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: 2021년 4월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: 2021년 3월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: 2021년 2월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: 2021년 1월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: 2020년 12월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: 2020년 11월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: 프로젝트 영업 프로세스
       items:
         - name: 프로젝트 영업 프로세스 개요
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: 실제 개요
           href: actuals/actuals-overview.md
+        - name: 시간 및 자재 계약의 실제 값 영향
+          href: actuals/ActualsonTM.md
+        - name: 고정 가격 계약의 실제 값 영향
+          href: actuals/ActualonFP.md
+        - name: 계약의 사전 판매 단계에서 실제 값 영향
+          href: actuals/ActualonPreSales.md
+        - name: 내부 프로젝트에 대한 실제 값 영향
+          href: actuals/ActualonInternal.md
         - name: 거래 출처 - 출처에 실제 연결
           href: actuals/linkingactuals.md
         - name: 거래 연결 - 서로 다른 거래 유형의 실제 연결
@@ -513,9 +527,11 @@
             - name: 견적 프로젝트 기반 송장 확인
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: 수정 프로젝트 기반 송장 만들기
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: 프로젝트 기반 송장 자동화 구성
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: 수정 프로젝트 기반 송장
+              href: proforma-invoicing/corrective-invoices.md
         - name: 고객 송장 작성
           items:
             - name: 프로젝트 송장 제안서 관리
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: 새로운 기능
       items:
-        - name: 2021 웨이브 2 조기 액세스의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: 2022년 5월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: 2022년 4월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: 2022년 3월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: 2022년 2월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: 2021년 12월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: 2021년 11월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: 2021년 10월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: 2021년 9월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: 2021년 8월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: 2021년 7월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: 2021년 6월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: 2021년 5월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: 2021년 4월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: 2021년 3월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: 2021년 2월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: 2021년 1월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: 2020년 12월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: 2020년 11월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: 2022년 7월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: 보관
+          items:
+            - name: 2022년 6월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: 2021 웨이브 2 조기 액세스의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: 2022년 5월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: 2022년 4월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: 2022년 3월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: 2022년 2월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: 2021년 12월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: 2021년 11월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: 2021년 10월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: 2021년 9월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: 2021년 8월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: 2021년 7월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: 2021년 6월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: 2021년 5월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: 2021년 4월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: 2021년 3월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: 2021년 2월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: 2021년 1월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: 2020년 12월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: 2020년 11월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: 프로젝트 영업 프로세스
       items:
         - name: 프로젝트 영업 프로세스 개요
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: 리소스/생산 기반 시나리오에 대한 Project Operations
   items:
+    - name: 시작
+      items:
+        - name: 데이터 통합 구성
+          items:
+            - name: Project Service Automation 개요
+              href: prod-pma/PSA-integration.md
+            - name: Project Service Automation 통합 매개 변수
+              href: prod-pma/PSA-parameters.md
+            - name: Project Service Automation에서 Finance로 직접 프로젝트 계약 및 프로젝트 동기화
+              href: prod-pma/project-contracts-templates.md
+            - name: 금융 및 운영에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제 값 동기화
+              href: prod-pma/project-actuals-templates.md
+            - name: Project Service Automation에서 금융 및 운영으로 직접 프로젝트 추정 동기화
+              href: prod-pma/project-estimates-templates.md
+            - name: 금융 및 운영과 Project Service Automation 간에 프로젝트 경비 범주 동기화
+              href: prod-pma/project-categories-templates.md
+            - name: Project Service Automation에서 금융 및 운영으로 직접 프로젝트 작업 동기화
+              href: prod-pma/project-tasks-template.md
+        - name: 환경 배포
+          items:
+            - name: Finance 환경에서 Project Operations 업데이트
+              href: whats-new/ur5-nonstocked-installation.md
     - name: 새로운 기능
       items:
-        - name: 새로운 기능 2021년 10월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 새로운 기능 2021년 9월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: 새로운 기능 2021년 7월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: 새로운 기능 2021년 5월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: 새로운 기능 2021년 4월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: 새로운 기능 2021년 3월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: 새로운 기능 2021년 1월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: 새로운 기능 2020년 12월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: 새로운 기능 2020년 11월 - 리소스/생산 기반 시나리오에 대한 Project Operations
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: 새로운 기능 2022년 7월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: 보관
+          items:
+            - name: 새로운 기능 2022년 6월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: 새로운 기능 2021년 10월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: 새로운 기능 2021년 9월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: 새로운 기능 2021년 7월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: 새로운 기능 2021년 5월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: 새로운 기능 2021년 4월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: 새로운 기능 2021년 3월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: 새로운 기능 2021년 1월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: 새로운 기능 2020년 12월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: 새로운 기능 2020년 11월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: 리소스/생산 기반 시나리오에 대한 Project Operations 배포 개요
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: 프로젝트 관리 및 회계 개요
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: 프로젝트 시간 항목 모바일 작업 영역
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Project 작업표 모바일 앱
+        - name: Project Timesheet 모바일 앱
           href: prod-pma/project-timesheet.md
-        - name: 모바일 장치의 프로젝트 작업 표
+        - name: 모바일 장치의 Project Timesheet
           href: prod-pma/mobile-timesheets.md
+        - name: 프로젝트 스테이지 이름 변경 또는 수정
+          href: prod-pma/tasks/rename-project.md
         - name: Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현
           href: prod-pma/custom-fields-mobile.md
     - name: 리소스 관리
@@ -1150,6 +1202,8 @@
       items:
         - name: 프로젝트 예측 및 예산
           href: prod-pma/project-forecasts-budgets.md
+        - name: 기간에 걸쳐 프로젝트 예산 또는 예산 개정 할당
+          href: prod-pma/tasks/allocate-project.md
         - name: 프로젝트 예산에 대한 예측 모델 만들기
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: 회계 연도 끝에서 프로젝트 예산 이전
@@ -1246,6 +1300,10 @@
       items:
         - name: 프로젝트 추정 제거
           href: prod-pma/eliminate-project-estimate.md
+    - name: 공공 부문
+      items:
+        - name: 연방지원금 지출계획 조회
+          href: prod-pma/project-sefa-inquiry.md
 - name: 경비 관리
   items:
     - name: 경비 관리 개요
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: 위임 관리
           href: expense/manage-delegation.md
+        - name: 경비 관리 구성
+          href: prod-exp/plan-expense-management.md
         - name: 경비 관리 매개 변수 구성
           href: expense/configure-expense-management-parameters.md
         - name: 신용 카드 통합 설정
@@ -1278,10 +1338,14 @@
       items:
         - name: 경비 보고서에 배포
           href: expense/distributions-expense-report.md
+        - name: 신용 카드 트랜잭션 가져오기 및 유지
+          href: prod-exp/import-credit-card.md
     - name: 경비 보고서 승인
       items:
         - name: 경비 보고서 및 여러 승인자
           href: expense/expense-reports-multiple-approvers.md
+        - name: 경비 위임 관리
+          href: prod-exp/manage-expense-delegation.md
     - name: 경비 보고서 게시
       href: expense/posting-expense-reports.md
     - name: 여행 요청
@@ -1296,6 +1360,8 @@
       items:
         - name: VAT 복구
           href: expense/vat-recovery.md
+        - name: 총계정 원장 또는 조달 및 소싱에서 경비 보고서 보기
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1304,6 +1370,8 @@
       items:
         - name: Project Service 3.x 릴리스 일정 업데이트
           href: psa/version-history-ps.md
+        - name: '업데이트 릴리스 44, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-44.md
         - name: '업데이트 릴리스 43, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur43.md
         - name: '업데이트 릴리스 42, V3의 새로운 내용 또는 변경된 내용'
@@ -1361,6 +1429,8 @@
         - name: '업데이트 릴리스 23, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-23.md
         - name: '업데이트 릴리스 22, V3의 새로운 내용 또는 변경된 내용'
+          href: psa/whats-new-ur-22.md
+        - name: '업데이트 릴리스 21, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-21.md
         - name: '업데이트 릴리스 20, V3의 새로운 내용 또는 변경된 내용'
           href: psa/whats-new-ur-20.md
