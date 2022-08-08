@@ -2,24 +2,24 @@
 title: 작업 그리드에서 작업 문제 해결
 description: 이 문서에서는 작업 그리드에서 작업할 때 필요한 문제 해결 정보를 제공합니다.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911052"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188240"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>작업 그리드에서 작업 문제 해결 
 
 
 _**적용 대상:** 리소스/비재고 기반 시나리오를 위한 Project Operations, 라이트 배포 - 견적 송장 발행 처리, Project for the Web_
 
-Dynamics 365 Project Operations에서 활용하는 작업 그리드는 Microsoft Dataverse 내의 호스팅된 iframe입니다. 이 사용의 결과로 인증 및 권한 부여가 올바르게 작동하도록 하려면 특정 요구 사항을 충족해야 합니다. 이 문서에서는 작업 분할 구조(WBS)에서 그리드를 렌더링하거나 작업을 관리하는 기능에 영향을 미칠 수 있는 일반적인 문제를 간략하게 설명합니다.
+Dynamics 365 Project Operations에서 사용하는 작업 그리드는 Microsoft Dataverse 내의 호스팅된 iframe입니다. 이 사용의 결과로 인증 및 권한 부여가 올바르게 작동하도록 하려면 특정 요구 사항을 충족해야 합니다. 이 문서에서는 작업 분할 구조(WBS)에서 그리드를 렌더링하거나 작업을 관리하는 기능에 영향을 미칠 수 있는 일반적인 문제를 간략하게 설명합니다.
 
 일반적인 문제는 다음과 같습니다.
 
@@ -72,7 +72,10 @@ Project Operations를 위해서는 프로젝트 매개 변수가 PEX 끝점을 �
 4. **프로젝트 매개 변수** 페이지에서 필드를 제거합니다.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>완화 3: project.microsoft.com에 로그인
-Microsoft Edge 브라우저에서 새 탭을 열고 project.microsoft.com으로 이동한 다음 Project Operations에 액세스하는 데 사용하는 사용자 역할을 사용하여 로그인합니다.
+
+브라우저에서 새 탭을 열고 project.microsoft.com으로 이동한 다음 Project Operations에 액세스하는 데 사용하는 사용자 역할로 로그인합니다. 브라우저에서 한 명의 사용자만 Microsoft 제품에 로그인하는 것이 중요합니다. "login.microsoftonline.com이 연결을 거부했습니다." 오류 메시지는 다음 그림과 같이 둘 이상의 사용자가 로그인할 때 가장 자주 발생합니다.
+
+![두 명의 사용자가 로그인되어 있음을 보여주는 계정 로그인 페이지를 선택합니다.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>문제: 프로젝트가 로드되지 않고 UI가 스피너에서 멈춤
 

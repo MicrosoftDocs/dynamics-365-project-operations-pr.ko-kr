@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927428"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028618"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>프로젝트 구매 주문 및 보류 중인 공급업체 송장과 함께 조달 범주 사용
 
@@ -25,7 +25,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 Microsoft Dynamics 365 Project Operations 비재고/리소스 기반 시나리오에 대한 프로젝트 구매 주문과 함께 조달 범주를 사용하려면 다음 버전이 필요합니다.
 
 - Project Operations Dataverse 솔루션 버전 4.41.0.45 이상
-- Finance and Operations 환경 버전 10.0.26 이상
+- 금융 및 운영 환경 버전 10.0.26 이상
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>조달 범주 지원을 위한 이중 쓰기 맵 실행
 

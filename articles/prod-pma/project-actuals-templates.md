@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제를 동기화합니다.
-description: 이 문서에서는 Microsoft Dynamics 365 Project Service Automation에서 Finance and Operations로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
+title: 금융 및 운영에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제를 동기화합니다.
+description: 이 문서에서는 Microsoft Dynamics 365 Project Service Automation에서 금융 및 운영으로 직접 프로젝트 실제를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929498"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028986"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제를 동기화합니다.
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>금융 및 운영에 게시하기 위해 Project Service Automation에서 프로젝트 통합 분개장으로 직접 프로젝트 실제를 동기화합니다.
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Project Service Automation에서 Finance 통합 솔루션은 데이터 통합 �
 
 다음 그림은 Project Service Automation과 Finance 간에 데이터가 동기화되는 방식을 보여줍니다.
 
-[![Finance and Operations와 Project Service Automation 통합을 위한 데이터 흐름.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![금융 및 운영과 Project Service Automation 통합을 위한 데이터 흐름.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation의 프로젝트 실제
 

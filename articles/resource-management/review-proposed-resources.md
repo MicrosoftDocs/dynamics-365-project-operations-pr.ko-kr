@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924852"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183983"
 ---
 # <a name="review-proposed-resources"></a>제안된 리소스 검토
 
@@ -40,8 +40,8 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
     다음과 같은 상태 업데이트가 발생합니다:
 
     - **일정 도우미** 페이지에서 상태 표시등이 업데이트되어 예약이 확정 예약이 아닌 제안된 상태임을 나타냅니다.
-    - 리소스 요청에서 상태가 **검토 필요** 로 변경됩니다.
-    - 프로젝트의 **팀** 탭에서 일반 팀원의 **요청 상태** 값이 **검토 필요** 로 변경됩니다.
+    - 리소스 요청에서 요청 검토자는 상태를 **검토 필요** 로 변경해야 합니다.
+    - 프로젝트의 **팀** 탭에서 일반 팀원의 **요청 상태** 값이 **검토 필요** 로 자동으로 변경됩니다.
 
 프로젝트 관리자는 제안을 수락하거나 거부할 수 있습니다.
 

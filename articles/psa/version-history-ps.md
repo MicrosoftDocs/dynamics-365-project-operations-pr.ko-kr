@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
+ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959460"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "9190675"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 릴리스 일정 업데이트
 
@@ -37,7 +37,7 @@ ms.locfileid: "8959460"
 
 | 해결 방법  | 최신 버전 |
 |-------|----|
-| Project Service Automation    | 3.10.75.142 |
+| Project Service Automation    | 3.10.76.168 |
 | Project Service Automation 데스크톱 추가 기능                | 3.60          |
 
 Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamics 365 릴리스 계획](/dynamics365/release-plans/)을 참조하십시오. 
@@ -45,30 +45,30 @@ Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamic
 | 스테이션  | 영역 | 현재 버전 | 다음 버전 |  예약된 날짜
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>스테이션 1</strong> | |  |  | |
-| | <i>최초 릴리스</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 1일
+| | <i>최초 릴리스</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 8월 26일
 |<strong>스테이션 2</strong> | |  |  | |
-| | <i>남아메리카</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
-| | <i>캐나다</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
-| | <i>인도</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
-| | <i>프랑스</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
-| | <i>남아프리카 공화국</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
-| | <i>독일</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
-| | <i>스위스</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
-| | <i>대한민국</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
-| | <i>노르웨이</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 8일
+| | <i>남아메리카</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
+| | <i>캐나다</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
+| | <i>인도</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
+| | <i>프랑스</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
+| | <i>남아프리카 공화국</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
+| | <i>독일</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
+| | <i>스위스</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
+| | <i>대한민국</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
+| | <i>노르웨이</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 2일
 |<strong>스테이션 3</strong> | |  |  | |
-| | <i>일본</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
-| | <i>아시아 태평양</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
-| | <i>영국</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
-| | <i>오세아니아</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
-| | <i>아랍에미리트연합국</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 2022년 7월 15일
+| | <i>일본</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 9일
+| | <i>아시아 태평양</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 9일
+| | <i>영국</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 9일
+| | <i>오세아니아</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 9일
+| | <i>아랍에미리트연합국</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 9일
 |<strong>스테이션 4</strong> | |  |  | |
-| | <i>유럽</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022년 6월 17일
+| | <i>유럽</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022년 7월 29일
 |<strong>스테이션 5</strong> | |  |  | |
-| | <i>북아메리카</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022년 6월 24일
+| | <i>북아메리카</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022년 8월 5일
 |<strong>스테이션 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022년 6월 24일
-| | <i>전용 규모 그룹</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 2022년 7월 1일
+| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022년 8월 3일
+| | <i>전용 규모 그룹</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022년 8월 5일
 
 
 

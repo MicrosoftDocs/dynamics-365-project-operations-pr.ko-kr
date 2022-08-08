@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930142"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064286"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>마일리지 비율 계층을 사용하여 마일리지 설정
 
@@ -50,5 +50,15 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 기능을 활성화한 후 마일리지 등급을 재설정하여 **수량** 필드의 값을 올바르게 반영합니다. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>회계 연도 기능으로 마일리지 합계 계산 활성화
+
+**회계연도로 마일리지 합계 계산** 기능을 사용하면 달력 연도 대신 회계 연도별로 마일리지 합계 계산을 수행하는 경비 관리 매개 변수의 새로운 설정을 사용할 수 있습니다. 이 기능을 사용하려면 다음 단계를 완료하십시오.
+
+1. **작업 영역** > **기능 관리** 로 이동합니다.
+1. 목록에서 **회계연도로 마일리지 합계 계산** 을 찾아 선택한 다음 **지금 활성화** 를 선택합니다.
+1. **경비 관리** > **설정** > **일반** > **경비 관리 매개 변수** 로 이동합니다.
+1. **경비 관리 매개 변수** 페이지에서 **마일리지 합계에 회계 연도 사용** 을 찾아 활성화합니다.
+
+**마일리지 합계에 회계 연도 사용** 을 활성화하면 마일리지 합계가 회계 연도로 계산됩니다.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

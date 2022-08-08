@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959442"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031201"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>2022년 6월의 새로운 기능 - Project Operations 라이트 배포
 
@@ -20,7 +20,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 이 문서는 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
 
-- Dataverse 환경 버전 4.43.0.77의 Project Operations
+- Dataverse 환경 버전 4.43.0.77 또는 4.43.0.119의 Project Operations.
 
 ## <a name="quality-updates"></a>품질 업데이트
 

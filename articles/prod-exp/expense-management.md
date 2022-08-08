@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934052"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029354"
 ---
 # <a name="expense-management-overview"></a>경비 관리 개요
 
@@ -43,7 +43,7 @@ ms.locfileid: "8934052"
 
 ### <a name="blogs"></a>블로그
 
-[Microsoft Dynamics 365 블로그](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 및 [Microsoft Dynamics 365 Finance and Operations - 재무 블로그](https://community.dynamics.com/365/financeandoperations/b/financials)에서 의견, 뉴스 및 기타 정보를 찾을 수 있습니다.
+[Microsoft Dynamics 365 블로그](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 및 [Microsoft Dynamics 365 Finance - 재무 블로그 ](https://community.dynamics.com/365/financeandoperations/b/financials)에서 의견, 뉴스 및 기타 정보를 찾을 수 있습니다.
 
 [Microsoft Dynamics 운영 파트너 커뮤니티 블로그](https://community.dynamics.com/partner/b/operationspartnercommunityblog)는 Microsoft Dynamics 파트너에게 MBS 운영의 새롭고 트렌드한 것이 무엇인지 배울 수 있는 단일 리소스를 제공합니다.
 

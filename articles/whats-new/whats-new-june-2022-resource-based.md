@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fde1f0be42eecfc5ee809cb9b2191d3aeae57131
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 32bc7793c5a0ee8c04272d3ffcbd290b39fce4cc
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959467"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031339"
 ---
 # <a name="whats-new-june-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>새로운 기능 2022년 6월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -20,7 +20,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 이 문서는 다음 구성 요소 및 Microsoft Dynamics 365 Project Operations 버전에 적용됩니다.
 
-- Dataverse 환경 버전 4.43.0.77의 Project Operations
+- Dataverse 환경 버전 4.43.0.77 또는 4.43.0.119의 Project Operations.
 - Dynamics 365 Finance 환경 버전 10.0.27의 프로젝트 관리 및 회계
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 이중 쓰기 맵 업데이트

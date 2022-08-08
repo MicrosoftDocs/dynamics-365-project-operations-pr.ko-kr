@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931200"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028496"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>여러 자금 출처가 있는 프로젝트 계약에 대한 품목 요구 사항
 
@@ -33,7 +33,7 @@ Contoso는 두 고객인 Adatum US 및 Adatum Corporate와 장비 갱신 계약�
 
 ### <a name="prerequisites"></a>전제 조건
 
-- 여러 송장 계정이 있는 품목 요구 사항을 사용하는 데 Microsoft Dynamics 365 Finance and Operations **버전 10.0.27 이상** 이 필요합니다.
+- 여러 송장 계정이 있는 품목 요구 사항을 사용하는 데 Microsoft Dynamics 365 Finance **버전 10.0.27 이상** 이 필요합니다.
 - 시스템 관리자는 **기능 관리** 작업 영역에서 **Project Operations 재고/프로덕션 기반 시나리오에 대한 여러 자금 출처의 품목 요구 사항 허용** 기능을 활성화해야 합니다.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>송장 계정 기본값 설정 규칙 설정

@@ -2,7 +2,7 @@
 title: 프로젝트 작업 표 모바일 애플리케이션
 description: 이 기사는 Microsoft Dynamics 365 Project Timesheet 모바일 애플리케이션에 대한 정보를 제공합니다. 프로젝트 작업 표 모바일 앱을 사용하면 사용자가 모바일 장치에서 프로젝트에 대한 작업 표를 제출하고 승인할 수 있습니다.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923978"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110983"
 ---
 # <a name="project-timesheet-mobile-application"></a>프로젝트 작업 표 모바일 애플리케이션
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923978"
 
 ## <a name="overview"></a>개요
 
-Microsoft Dynamics 365 Project Timesheet 모바일 앱을 사용하면 사용자가 모바일 장치(iPhone 또는 Android)에서 프로젝트에 대한 작업 표를 제출하고 승인할 수 있습니다. 이 모바일 앱은 Dynamics 365 Finance의 프로젝트 관리 및 회계 영역에 있는 작업표 기능을 표시하여 사용자 생산성과 효율성을 개선하고 프로젝트 작업표를 적시에 입력하고 승인할 수 있도록 합니다.
+Microsoft Dynamics 365 Project Timesheet 모바일 앱을 사용하면 사용자가 모바일 장치(iPhone 또는 Android)에서 프로젝트에 대한 작업 표를 제출하고 승인할 수 있습니다. 이 모바일 앱은 Dynamics 365 Finance의 프로젝트 관리 및 회계 영역에 있는 작업표 기능을 표시합니다. 사용자 생산성과 효율성을 개선하고 프로젝트 작업 표를 적시에 입력하고 승인할 수 있습니다.
 
 ## <a name="download-and-install-the-mobile-app"></a>모바일 앱을 다운로드하여 설치합니다.
 
@@ -38,6 +38,19 @@ Microsoft Dynamics 365 Project Timesheet 모바일 앱을 사용하면 사용자
 
 Finance에서 프로젝트 작업 표 모바일 앱을 활성화해야 합니다. 기능을 활성화하려면 **프로젝트 관리 및 회계 매개 변수 \> 작업표** 로 이동하고 **Microsoft Dynamics 365 Project Timesheet 활성화** 매개 변수를 선택합니다.
 
+### <a name="resolve-sign-in-issues"></a>로그인 문제 해결
+
+**문제:** 프로젝트 작업 표 모바일 앱에 로그인하는 동안 사용자는 "해당 테넌트의 '2bc50526-cdc3-4e36-a970-c284c34cbd6e' 응용 프로그램에 액세스할 수 없음" 이라는 오류 메시지를 받습니다.
+
+**문제:** 프로젝트 작업표 모바일 앱에 로그인하는 동안 사용자는 다음 예 중 하나와 유사한 오류를 수신합니다.
+
+- "AADSTS50020: ID 공급자 'https://sts.windows.net/[앱 id]'의 사용자 계정 '[사용자 이름]'이 '[테넌트 id]' 테넌트에 존재하지 않으며 해당 테넌트의 '[앱 id]' 애플리케이션에 액세스할 수 없습니다."
+- "선택된 사용자 계정은 '[테넌트 id]' 테넌트에 없으며 해당 테넌트의 '[앱 id]' 응용 프로그램에 액세스할 수 없습니다"
+
+**설명:** 이러한 문제는 2022년 5월에 Azure Active Directory(Azure AD)으로 변경되었으며 외부 사용자와 관련된 변경으로 인해 발생합니다. 이 변경 사항은 금융 및 운영 앱에 적용되지 않았기 때문에 플랫폼 또는 애플리케이션의 모든 버전에서 고객에게 영향을 미칠 수 있습니다.
+
+**수정:** 모든 외부 사용자는 Azure AD를 통해 테넌트에 초대되어야 합니다. 자세한 내용은 [Azure Active Directory B2B 공동 작업으로 사용자 초대](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration)를 참조하십시오.
+
 ## <a name="sign-in-to-the-app"></a>앱에 로그인
 
 1.  모바일 장치에서 앱을 시작합니다.
@@ -46,7 +59,7 @@ Finance에서 프로젝트 작업 표 모바일 앱을 활성화해야 합니다
 
 3.  처음 로그인하면 사용자 이름과 암호를 입력하라는 메시지가 표시됩니다. 자격 증명을 입력합니다.
 
-4.  기본 회사에 로그인됩니다.
+4. 기본 회사에 로그인됩니다.
 
 ## <a name="submit-a-project-timesheet"></a>프로젝트 작업 표 제출
 

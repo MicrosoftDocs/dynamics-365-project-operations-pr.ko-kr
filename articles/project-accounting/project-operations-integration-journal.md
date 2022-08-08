@@ -2,22 +2,22 @@
 title: Project Operations의 통합 분개장
 description: 이 문서에서는 Project Operations에서 통합 분개장 작업에 대한 정보를 제공합니다.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923886"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106283"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations의 통합 분개장
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-시간 및 경비 항목은 프로젝트에 대해 완료된 작업의 운영 보기를 나타내는 **실제** 트랜잭션을 생성합니다. Dynamics 365 Project Operations는 회계사에게 트랜잭션을 검토하고 필요에 따라 회계 특성을 조정할 수 있는 도구를 제공합니다. 검토 및 조정이 완료되면 트랜잭션이 프로젝트 보조 원장 및 총계정 원장에 전기됩니다. 회계사는 **프로젝트 운영 통합** 분개장(**Dynamics 365 Finance** > **프로젝트 관리 및 회계** > **분개장** > **Project Operations 통합** 분개장을 사용하여 이러한 활동을 수행할 수 있습니다.
+시간, 경비, 요금 및 재료 항목은 프로젝트에 대해 완료된 작업의 운영 보기를 나타내는 **실제** 트랜잭션을 생성합니다. Dynamics 365 Project Operations는 회계사에게 트랜잭션을 검토하고 필요에 따라 회계 특성을 조정할 수 있는 도구를 제공합니다. 검토 및 조정이 완료되면 트랜잭션이 프로젝트 보조 원장 및 총계정 원장에 전기됩니다. 회계사는 **프로젝트 운영 통합** 분개장(**Dynamics 365 Finance** > **프로젝트 관리 및 회계** > **분개장** > **Project Operations 통합** 분개장을 사용하여 이러한 활동을 수행할 수 있습니다.
 
 ![통합 분개장 흐름.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Project Operations 통합 분개장 항목에서 다음 회계 속성만 업데�
 - **청구 판매세 그룹** 및 **청구 항목 판매세 그룹**
 - **재무 차원**(**금액 분배** 작업 사용)
 
-통합 분개장 항목을 삭제할 수 있지만 전기되지 않은 항목은 **준비에서 가져오기** 주기적 프로세스를 다시 실행한 후 분개장에 다시 삽입됩니다.
+통합 분개장 항목을 삭제할 수 있습니다. 그러나 전기되지 않은 항목은 **준비에서 가져오기** 주기적 프로세스를 다시 실행한 후 분개장에 다시 삽입됩니다.
+
+### <a name="post-the-project-operations-integration-journal"></a>Project Operations 통합 분개장 전기
 
 통합 분개장을 전기하면 프로젝트 보조 원장 및 총계정 원장 트랜잭션이 생성됩니다. 이들은 다운스트림 고객 송장 발행, 수익 인식 및 재무 보고에 사용됩니다.
 
+선택한 Project Operations 통합 분개장은 Project Operations 통합 분개장 페이지의 **게시** 를 사용하여 게시할 수 있습니다. 모든 분개장은 **Periodics** > **Project Operations 통합** > **Project Operations 통합 분개장 게시** 에서 프로세스를 실행하여 자동으로 게시할 수 있습니다.
+
+게시는 대화식으로 또는 일괄적으로 수행할 수 있습니다. 100개 이상의 라인이 있는 모든 분개장은 일괄적으로 자동 게시됩니다. 라인이 많은 분개장이 일괄적으로 게시될 때 더 나은 성능을 위해 **기능 관리** 작업 영역에서 **여러 배치 작업을 사용하는 Project Operations 통합 분개장 게시** 기능을 활성화합니다. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>게시 오류가 있는 모든 라인을 새 분개장으로 이전
+
+> [!NOTE]
+> 이 기능을 사용하려면 **기능 관리** 작업 영역에서 **게시 오류가 있는 모든 라인을 새 Project Operations 통합 분개장으로 이전** 기능을 활성화합니다.
+
+Project Operations 통합 분개장에 게시하는 동안 시스템은 분개장의 모든 라인의 유효성을 검사합니다. 시스템은 오류가 없는 모든 라인을 게시하고 게시 오류가 있는 모든 라인에 대해 새 분개장을 생성합니다. 게시 오류 라인이 있는 분개장을 검토하려면 **프로젝트 관리 및 회계** > **분개장** > **Project Operations 통합 분개장** 으로 이동한 다음 **원본 분개장** 필드를 사용하여 분개장을 필터링합니다.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

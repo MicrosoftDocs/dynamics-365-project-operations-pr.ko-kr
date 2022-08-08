@@ -6,16 +6,16 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929958"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023621"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>프로젝트 견적에 대한 프로젝트 가격표 관리 
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재고 기반 시나리오를 위한 Project Operations_
 
 프로젝트 견적은 여러 날짜의 유효 판매 가격표를 지원하도록 설계되었습니다. Dynamics 365 Project Operations에서 **프로젝트 가격표** 라는 새 관련 엔티티가 추가됩니다. 이 엔터티는 프로젝트 견적과 일대 다 관계를 갖습니다.
 

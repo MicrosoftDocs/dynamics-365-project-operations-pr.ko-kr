@@ -1,5 +1,5 @@
 ---
-title: Finance and Operations 및 Project Service Automation 간에 프로젝트 비용 범주 동기화
+title: 금융 및 운영 및 Project Service Automation 간에 프로젝트 비용 범주 동기화
 description: 이 문서에서는 Microsoft Dynamics 365 Finance와 Dynamics 365 Project Service Automation 간에 프로젝트 경비 범주를 동기화하는 데 사용되는 템플릿 및 기본 작업에 대해 설명합니다.
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8eba7defb93bd880db4b0e8fe425d07312cf5cb9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927244"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028940"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Finance and Operations 및 Project Service Automation 간에 프로젝트 비용 범주 동기화
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>금융 및 운영 및 Project Service Automation 간에 프로젝트 비용 범주 동기화
 
 [!include[banner](../includes/banner.md)]
 

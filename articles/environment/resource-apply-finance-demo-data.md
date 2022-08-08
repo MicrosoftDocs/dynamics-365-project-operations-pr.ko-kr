@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924668"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029905"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Finance Cloud 호스팅 환경에 데모 데이터 적용
 
@@ -76,7 +76,7 @@ AXDB 복원이 성공했다는 확인 메시지가 표시됩니다. 이 확인�
 
 18. 원격 데스크톱 세션을 닫고 LCS **환경 세부 정보** 페이지를 사용하여 환경에 로그인하여 예상대로 작동하는지 확인합니다.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![금융 및 운영.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

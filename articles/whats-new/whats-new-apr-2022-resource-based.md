@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912386"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110892"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022년 4월 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -25,7 +25,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
 
-조달 범주는 프로젝트 구매 주문 및 보류 중인 공급업체 송장에 사용할 수 있습니다. 자세한 내용은 [프로젝트 구매 주문 및 보류 중인 공급업체 송장에 조달 범주 사용](configure-procurement-categories.md)을 참조하십시오.
+조달 범주는 프로젝트 구매 주문 및 보류 중인 공급업체 송장에 사용할 수 있습니다. 자세한 내용은 [프로젝트 구매 주문 및 보류 중인 공급업체 송장에 조달 범주 사용](../procurement/configure-procurement-categories.md)을 참조하십시오.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 이중 쓰기 맵 업데이트
 

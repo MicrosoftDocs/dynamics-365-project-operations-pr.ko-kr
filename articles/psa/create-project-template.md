@@ -4,7 +4,7 @@ description: 프로젝트 템플릿을 만드는 방법(Project Service)
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599002"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177434"
 ---
 # <a name="create-a-project-template-project-service"></a>프로젝트 템플릿 만들기(Project Service)
 
@@ -40,7 +40,14 @@ ms.locfileid: "8599002"
 - **프로젝트 추정**: 템플릿에서 프로젝트 예상은 프로젝트에서와 동일한 방식으로 작동합니다. 단, 비용 및 판매 가격의 기본 가격표는 항상 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 파라미터에서 정의된 기본 비용 및 판매 가격표입니다. 나머지 기능은 프로젝트에서와 같습니다.  
   
 - **프로젝트 팀 구성**: 프로젝트 템플릿에 대한 프로젝트 팀을 구성하는 경우 템플릿의 명명된 리소스를 예약할 수 없습니다. 작업 분할 구조에서 **프로젝트 팀 생성** 을 사용하여 일반 리소스의 집합을 생성할 수 있습니다. 일반 리소스에 대해 필요한 기술 및 숙련도를 지정할 수도 있습니다. 프로젝트 템플릿에서 예약 가능한 자원으로 일반 자원을 대체할 수 없습니다.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>기존 프로젝트에서 새 프로젝트 템플릿 만들기
+다음과 같은 방법으로 프로젝트에서 프로젝트 템플릿을 만들 수 있습니다.
+
+- **작업 분할 구조**: 프로젝트에서 파생된 템플릿의 작업 분할 구조는 모든 작업 및 종속성을 복사합니다. 생성된 할당은 프로젝트 템플릿이 생성될 때 프로젝트 팀에 추가되는 일반 팀원을 기반으로 합니다.
+- **프로젝트 추정**: 기존 프로젝트에서 프로젝트 템플릿을 생성하면 원본 프로젝트의 추정이 프로젝트 템플릿에 복사됩니다.
+- **프로젝트 팀 구성원**: 기존 프로젝트에서 템플릿을 만들 때 모든 명명된 팀 구성원이 조직의 일반 리소스로 대체됩니다. 모든 직위 이름 및 역할이 유지됩니다.
+
 ## <a name="create-a-project-from-a-template"></a>템플릿에서 프로젝트 만들기  
  다음과 같은 방법으로 템플릿에서 프로젝트를 만들 수 있습니다.  
   

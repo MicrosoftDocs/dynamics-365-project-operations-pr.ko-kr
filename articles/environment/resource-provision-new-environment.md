@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931614"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028526"
 ---
 # <a name="provision-a-new-environment"></a>새 환경 프로비전
 
@@ -117,7 +117,7 @@ Project Operations에는 애플리케이션 버전이 **10.0.13(10.0.569.20009)*
 
     ![솔루션 적용.](./media/13ApplySolutions.png)
 
-5. 두 솔루션 **Dynamics 365 Finance and Operations 이중 쓰기 엔터티 맵** 과 **Dynamics 365 Project Operations 이중 쓰기 엔터티 맵** 을 모두 선택하고 **적용** 을 선택합니다.
+5. 두 솔루션 **Dynamics 365 Finance 이중 쓰기 엔터티 맵** 과 **Dynamics 365 Project Operations 이중 쓰기 엔터티 맵** 을 모두 선택하고 **적용** 을 선택합니다.
 
     ![솔루션 확인.](./media/14ConfirmSolutions.png)
 

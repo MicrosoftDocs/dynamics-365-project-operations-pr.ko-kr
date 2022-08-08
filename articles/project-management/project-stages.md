@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911144"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177388"
 ---
 # <a name="project-stages"></a>프로젝트 스테이지
 
@@ -47,7 +47,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 
 ## <a name="plan"></a>계획
 
-프로젝트와 연계된 견적을 따서 프로젝트가 **계약** 단계로 이동한 경우, 프로젝트 단계는 **계획** 으로 업데이트됩니다. 프로젝트가 **계획** 단계에 있는 동안 **프로젝트 엔터티** 페이지는 계약 내역을 표시합니다.
+프로젝트와 연계된 견적을 따서 프로젝트가 **계약** 단계로 이동한 경우, 프로젝트 단계는 **계획** 으로 업데이트됩니다. 프로젝트가 **플랜** 단계에 있는 동안 **프로젝트 엔터티** 페이지의 **판매** 탭은 계약 내역을 표시합니다.
 
 ## <a name="deliver"></a>인도
 

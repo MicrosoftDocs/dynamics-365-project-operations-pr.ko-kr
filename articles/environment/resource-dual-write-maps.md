@@ -2,16 +2,16 @@
 title: Project Operations 이중 쓰기 맵 버전
 description: 이 문서에서는 Dynamics 365 Project Operations에 필요한 이중 쓰기 맵 목록을 제공합니다.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959449"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112437"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 이중 쓰기 맵 버전
 
@@ -46,7 +46,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 프로젝트 계약 헤더(판매 주문) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. ||
 | 프로젝트 계약 내용(salesorderdetails) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. ||
 | 프로젝트 자금 출처(msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. ||
-| 재료 추정을 위한 Project Operations 통합 테이블(msdyn\_estimatelines) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. ||
+| 재료 추정을 위한 Project Operations 통합 표(msdyn\_estimatelines) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. ||
 | 프로젝트 송장 제안서 V2(송장) | 1.0.0.3 | 프로비저닝에는 필요하지 않습니다. ||
 | Project Operations 통합 실제(msdyn_actuals) | 1.0.0.14 | 프로비저닝에는 필요하지 않습니다. ||
 | Project Operations 통합 계약 내용 이정표(msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 프로비저닝에는 필요하지 않습니다. ||

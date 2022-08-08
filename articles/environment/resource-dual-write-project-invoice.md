@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61f16ebdbabd6545c09d8d7bd82d99b85dc09975
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912110"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029032"
 ---
 # <a name="project-invoice-integration"></a>프로젝트 송장 통합
 
@@ -24,6 +24,6 @@ Project Operations에서 프로젝트 관리자는 프로젝트 청구 백로그
 
 프로젝트 관리자가 Dataverse에서 견적 송장을 확인한 후 견적 송장 헤더 정보는 이중 쓰기 테이블 맵인 **프로젝트 송장 제안 V2(송장)** 를 사용하여 금융 및 운영 앱과 동기화됩니다. 이것은 Dataverse에서 금융 및 운영 앱으로의 단방향 통합입니다. 금융 및 운영 앱에서 직접 프로젝트 송장 제안을 생성하거나 삭제하는 것은 지원되지 않습니다.
 
-Dataverse의 송장 확인은 비즈니스 로직을 트리거하여 **실제** 엔터티에 청구 관련 레코드를 생성합니다. 이러한 레코드는 이중 쓰기 테이블 맵인 **Project Operations 통합 실제 값(msdyn\_actuals)** 을 사용하여 Finance and Operations에 동기화됩니다. 자세한 내용은 [프로젝트 추정 및 실제](resource-dual-write-estimates-actuals.md)를 참조하십시오. 
+Dataverse의 송장 확인은 비즈니스 로직을 트리거하여 **실제** 엔터티에 청구 관련 레코드를 생성합니다. 이러한 레코드는 이중 쓰기 테이블 맵인 **Project Operations 통합 실제 값(msdyn\_actuals)** 을 사용하여 금융 및 운영에 동기화됩니다. 자세한 내용은 [프로젝트 추정 및 실제](resource-dual-write-estimates-actuals.md)를 참조하십시오. 
 
 프로젝트 송장 제안 라인은 주기적인 프로세스인 **준비에서 가져오기** 에 의해 생성됩니다. 이 프로세스는 **실제 준비** 테이블의 청구된 판매 실제 세부 정보를 기반으로 합니다. 자세한 내용은 [프로젝트 송장 제안 관리](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals)를 참조하십시오. 
