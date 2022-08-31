@@ -1,17 +1,17 @@
 ---
-title: Common Data Service에서 구성 데이터 설정 및 적용
+title: Microsoft Dataverse에서 구성 데이터 설정 및 적용
 description: 이 문서에서는 Project Operations에서 구성 데이터를 설정하고 적용하는 방법에 대한 정보를 제공합니다.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928026"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230246"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Common Data Service에서 구성 데이터 설정 및 적용 
 
@@ -19,12 +19,12 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>전제 조건
 
-Common Data Service(CDS)에서 데이터 구성을 시작하기 전에 다음 전제 조건이 충족되어야 합니다.
+Microsoft Dataverse에서 데이터 구성을 시작하기 전에 다음 전제 조건이 충족되어야 합니다.
 
-1.  Project Operations를 위해 CDS 환경 및 Dynamics 365 Finance 환경을 프로비저닝합니다.
-2.  Dynamics 365 Finance의 법인 정보는 CDS 환경과 공유됩니다. 즉 CDS의 **회사** 법인에는 다음과 같은 회사 기록이 있습니다.
+1.  Project Operations를 위해 Dataverse 환경 및 Dynamics 365 Finance 환경을 프로비저닝합니다.
+2.  Dynamics 365 Finance의 법인 정보는 Dataverse 환경과 공유됩니다. 즉 Dataverse의 **회사** 엔터티에는 다음과 같은 회사 기록이 있습니다.
   - THPM
   - USPM
   - GBPM

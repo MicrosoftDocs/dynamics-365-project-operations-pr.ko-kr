@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
-ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
+ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "9190675"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295840"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 릴리스 일정 업데이트
 
@@ -63,12 +63,12 @@ Project Service의 업데이트에 대한 자세한 내용을 보려면 [Dynamic
 | | <i>오세아니아</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 9일
 | | <i>아랍에미리트연합국</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 9일
 |<strong>스테이션 4</strong> | |  |  | |
-| | <i>유럽</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022년 7월 29일
+| | <i>유럽</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 16일
 |<strong>스테이션 5</strong> | |  |  | |
-| | <i>북아메리카</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022년 8월 5일
+| | <i>북아메리카</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 23일
 |<strong>스테이션 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022년 8월 3일
-| | <i>전용 규모 그룹</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 2022년 8월 5일
+| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 21일
+| | <i>전용 규모 그룹</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022년 9월 30일
 
 
 

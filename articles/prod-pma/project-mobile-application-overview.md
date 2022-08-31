@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028894"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316996"
 ---
 # <a name="project-mobile-applications-overview"></a>프로젝트 모바일 애플리케이션 개요
 
@@ -42,9 +42,8 @@ Dynamics 365 프로젝트 작업 표 모바일 앱을 사용하면 사용자가 
 ## <a name="for-more-information"></a>자세한 정보
 
 - [프로젝트 작업 표 모바일 애플리케이션](project-timesheet.md)
-- [프로젝트 시간 항목]( project-time-entry-mobile-workspace.md)
+- [프로젝트 시간 항목](project-time-entry-mobile-workspace.md)
 - [모바일 장치의 프로젝트 작업 표](Mobile-timesheets.md)
 - [iOS 및 Android의 Microsoft Dynamics 365 Project Timesheet 모바일 앱에 대한 사용자 지정 필드 구현](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

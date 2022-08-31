@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959478"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316950"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>2022년 6월 리소스/생산 기반 시나리오에 대한 Project Operations의 새로운 기능 또는 변경된 기능
 
@@ -24,7 +24,7 @@ _**적용 대상:** 재고/생산 기반 시나리오에 대한 Project Operatio
 
 ## <a name="features-included-in-this-release"></a>이 릴리스에 포함된 기능
 
-여러 자금 출처가 있는 프로젝트 계약에 사용할 수 있는 항목 요구 사항. 자세한 내용은 [여러 자금 출처가 있는 프로젝트 계약에 대한 항목 요구 사항](/multiple-funding-sources-item-req.md)을 참조하십시오.
+여러 자금 출처가 있는 프로젝트 계약에 사용할 수 있는 항목 요구 사항. 자세한 내용은 [여러 자금 출처가 있는 프로젝트 계약에 대한 항목 요구 사항](../multiple-funding-sources-item-req.md)을 참조하십시오.
 
 ## <a name="quality-updates"></a>품질 업데이트
 

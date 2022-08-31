@@ -6,16 +6,14 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0b02a8aa0fce7bcb52374c0755d4bb85db16dad3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921034"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261849"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>경비 범주의 하도급 계약 내용
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 

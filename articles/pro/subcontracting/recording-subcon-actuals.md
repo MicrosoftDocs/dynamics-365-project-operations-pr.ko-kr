@@ -6,16 +6,14 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927658"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261145"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>하도급 계약 구성 요소에 대한 프로젝트의 시간, 경비, 재료 사용량 기록
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
