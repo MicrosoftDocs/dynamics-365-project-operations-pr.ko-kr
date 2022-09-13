@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183915"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403960"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>새로운 기능 2022년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -45,6 +45,12 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 청구 및 가격 책정 | 2675880 | 프로젝트가 작업 기반이 아닌 계약 내용에 연결되지 않도록 합니다. |
 | 청구 및 가격 책정 | 2664396 | 견적 가격표가 견적 없이 저장되는 경우 견적을 비워 둘 수 없다는 오류가 있어야 합니다. |
 | 청구 및 가격 책정 | 2184019 | 지원 계약 또는 견적이 없는 프로젝트의 경우 **작업 기반 청구** 탭이 표시되지 않아야 합니다. |
+| 시간 및 경비 | 2754459 | 반복 예약 클라우드 흐름이 비활성화되면 배너를 표시하고 비동기 처리를 우회합니다. |
+| 청구 및 가격 책정 | 2724391 | 프로젝트 계약 분할 청구 규칙에 고객 값이 누락된 경우 잘못된 예외가 발생합니다. |
+| 청구 및 가격 책정 | 2708638 | 자재 사용량 및 자재 사용 승인에서 그리드 검색을 사용하여 검색하는 동안 레코드를 찾을 수 없습니다.|
+| 청구 및 가격 책정 | 2686977 | 송장 생성 중 송장 라인에 대한 유효성 검사를 방지합니다. |
+| 청구 및 가격 책정 | 2683032 | 청구 가능한 역할 및 범주 복사는 5000개 레코드를 초과하지 않습니다.|
+| 청구 및 가격 책정 | 2673363 | 프로젝트의 비용 소비 %는 프로젝트에 대한 노력 및 비용 추정치와 실제 수치가 모두 있는 경우 손상됩니다. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Finance의 프로젝트 관리 및 회계
 

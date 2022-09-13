@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922322"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409999"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operations의 데모 설정 및 구성 데이터 적용 - 라이트 
 
@@ -19,12 +19,12 @@ _**Lite 배포 - 견적 송장 거래_
 
 
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>전제 조건
 
-구성을 시작하기 전에 Dynamics 365 Project Operations용으로 프로비저닝된 Common Data Service(CDS) 환경이 있어야 합니다.
+구성을 시작하기 전에 Dynamics 365 Project Operations용으로 프로비저닝된 Dataverse 환경이 있어야 합니다.
 
 
-## <a name="instructions"></a>설명
+## <a name="instructions"></a>지침
 
 1. [마스터 데이터 패키지](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip)를 다운로드합니다. 
 2. 폴더 *ProjOpsSampleSetupData - CE only CMT* 로 이동하고 실행 파일 *DataMigrationUtility* 를 실행합니다.

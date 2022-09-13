@@ -1,19 +1,19 @@
 ---
-title: 프로젝트 계약 복사 - 라이트
+title: 프로젝트 계약 복사
 description: 이 문서에서는 Project Operations에서 프로젝트 계약 복사에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a1846af677f7cea3ec22fdba4408f2bbd7db8a3c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8fa17bbd5738e4bc6330c728a3418a2be6828eef
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932626"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410067"
 ---
-# <a name="copy-project-contracts---lite"></a>프로젝트 계약 복사 - 라이트
+# <a name="copy-project-contracts"></a>프로젝트 계약 복사
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
