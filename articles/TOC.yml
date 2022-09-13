@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: 프로젝트 견적 복사
               href: sales/lose-quote.md
+            - name: 프로젝트 견적 활성화 및 수정
+              href: sales/activation-and-revision.md
             - name: 프로젝트 견적 닫기
               href: sales/win-quote.md
         - name: 프로젝트 계약 관리
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: 프로젝트 기반 계약 내용에 송장 일정 만들기
                   href: sales/invoice-schedules-contract-line.md
+            - name: 프로젝트 기반 계약 복사
+              href: sales/copy-project-based-contracts-sales.md
             - name: 프로젝트 계약 확인
               href: pro/sales/confirm-contract-sales.md
             - name: 선불금 및 보유자
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 프로젝트 판매 가격표 재정의
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 추정 및 실제 원가 해결
+            - name: 추정 및 실제 원가 결정
               href: pricing-costing/cost-price-resolution.md
-            - name: 추정 및 실제에 대한 판매 가격 해결
+            - name: 추정 및 실제에 대한 판매 가격 결정
               href: pricing-costing/sales-price-resolution.md
             - name: 가격표 복사
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: 프로젝트 기반 견적 복사
               href: sales/lose-quote.md
+            - name: 프로젝트 견적 활성화 및 수정
+              href: sales/activation-and-revision.md
             - name: 프로젝트 기반 견적 닫기
               href: pro/sales/win-quote-sales.md
         - name: 프로젝트 기반 계약 관리
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 프로젝트 판매 가격표 재정의
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 프로젝트 추정 및 실제에서 원가 해결
+            - name: 프로젝트 추정 및 실제에서 원가 결정
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: 프로젝트 추정 및 실제에 대한 판매 가격 해결
+            - name: 프로젝트 추정 및 실제에 대한 판매 가격 결정
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: 가격표 복사
               href: pricing-costing/copy-price-lists.md
