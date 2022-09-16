@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 프로젝트 판매 가격표 재정의
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 가격표의 특정 가격에 대한 유효 일자 재정의 설정
+              href: pricing-costing/dateffective_price_overrides.md
             - name: 추정 및 실제 원가 결정
               href: pricing-costing/cost-price-resolution.md
             - name: 추정 및 실제에 대한 판매 가격 결정
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: 프로젝트 구매 주문을 사용하여 프로젝트에 대한 상품 및 서비스 주문
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Dataverse의 하도급 계약에 대한 공급업체 송장
+          items:
+            - name: 공급업체 송장 만들기
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: 승인된 실제가 있는 공급업체 송장 확인
+              href: pro/subcontracting/VI-Verification.md
+            - name: 프로젝트 공급업체 송장 확인
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: 공급업체 재방문 주기
           items:
             - name: 공급업체 재방문 주기 개요
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 프로젝트 판매 가격표 재정의
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 가격표의 특정 가격에 대한 유효 일자 재정의 설정
+              href: pricing-costing/dateffective_price_overrides.md
             - name: 프로젝트 추정 및 실제에서 원가 결정
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: 프로젝트 추정 및 실제에 대한 판매 가격 결정
