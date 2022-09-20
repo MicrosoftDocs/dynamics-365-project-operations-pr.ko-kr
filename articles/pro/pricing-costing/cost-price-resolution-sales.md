@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410158"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475240"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>프로젝트 추정 및 실제 원가율 결정
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-추정 및 실제 원가표 및 원가율을 결정하기 위해 시스템은 관련 프로젝트의 **날짜**, **통화** 및 **계약 단위** 필드의 정보를 사용합니다.
+Microsoft Dynamics 365 Project Operations에서 추정 및 실제 원가율을 결정하기 위해 시스템은 먼저 들어오는 추정 또는 실제 컨텍스트의 날짜와 통화를 사용하여 원가표를 결정합니다. 특히 실제 컨텍스트에서 시스템은 **거래 날짜** 필드를 사용하여 적용 가능한 가격표를 결정합니다. 유입 견적 또는 실제의 **거래 날짜** 값은 가격표의 **적용 시작(시간대 독립)** 및 **적용 종료(시간대 독립)** 값과 비교됩니다. 원가표가 결정되면 시스템은 원가율을 결정합니다. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>시간에 대한 추정 및 실제 컨텍스트에서 원가율 결정
 

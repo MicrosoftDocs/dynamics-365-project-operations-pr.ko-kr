@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925358"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459935"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Project Service Automation에서 Project Operations로의 기능 변경 사항
 
 Dynamics 365 Project Service Automation에서 Dynamics 365 Project Operations Lite로의 업그레이드는 3단계로 제공됩니다. 이 문서는 업그레이드가 완료될 때 예상할 수 있는 주요 변경 사항에 대한 정보를 제공합니다.
 
-| 업그레이드 전달 | 1단계 <br>(2022년 1월) | 2단계 <br>(2022년 4월 웨이브) | 3단계  |
+| 업그레이드 전달 | 1단계 <br>(2022년 1월) | 2단계 <br>(2022년 11월) | 3단계  |
 |------------------|------------------------|---------------------------|---------------------------|
 | 프로젝트의 작업 분할 구조(WBS)에 대한 종속성 없음. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS는 현재 지원되는 Project Operations 제한에 포함됩니다. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |

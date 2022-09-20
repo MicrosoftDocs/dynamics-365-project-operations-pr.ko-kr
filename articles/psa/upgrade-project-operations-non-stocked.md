@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230260"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446044"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation에서 Project Operations로 업그레이드
 
@@ -29,7 +29,7 @@ Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Project Ope
 
 업그레이드 제공 프로그램은 세 단계로 나뉩니다.
 
-| 업그레이드 전달 | 1단계(2022년 1월) | 2단계(2022년 4월 웨이브) | 3단계  |
+| 업그레이드 전달 | 1단계(2022년 1월) | 2단계(2022년 11월) | 3단계(2023년 4월 Wave)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | 프로젝트의 작업 분할 구조(WBS)에 대한 종속성 없음 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 현재 지원되는 Project Operations 한도 내 WBS | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Project Ope
 
 업그레이드 프로세스의 일부로 관리자가 오류를 보다 쉽게 진단할 수 있도록 사이트 맵에 업그레이드 로그를 추가했습니다. 새 인터페이스 외에도 업그레이드 후 데이터 무결성을 보장하기 위해 새 유효성 검사 규칙이 추가됩니다. 다음 유효성 검사가 업그레이드 프로세스에 추가됩니다.
 
-| 유효성 검사 | 1단계(2022년 1월) | 2단계(2022년 4월 웨이브) | 3단계  |
+| 유효성 검사 | 1단계(2022년 1월) | 2단계(2022년 11월) | 3단계  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS는 일반적인 데이터 무결성 위반(예: 동일한 상위 작업과 연결되지만 상위 프로젝트가 다른 리소스 할당)에 대해 검증됩니다. | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS는 [Project for the Web의 알려진 제한 사항](/project-for-the-web/project-for-the-web-limits-and-boundaries)에 대한 유효성을 검증합니다. | | :heavy_check_mark: | :heavy_check_mark: |

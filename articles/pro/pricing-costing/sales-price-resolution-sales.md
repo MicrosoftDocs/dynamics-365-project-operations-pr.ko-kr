@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410127"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475193"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>프로젝트 추정 및 실제에 대한 판매 가격 결정
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-Microsoft Dynamics 365 Project Operations에서 추정 및 실제 판매 가격을 결정하기 위해 시스템은 먼저 들어오는 추정 또는 실제 컨텍스트의 날짜와 통화를 사용하여 판매 가격표를 결정합니다. 특히 실제 컨텍스트에서 시스템은 **거래 날짜** 필드를 사용하여 적용 가능한 가격표를 결정합니다. 판매 가격표가 결정된 후 시스템은 판매 또는 청구율을 결정합니다.
+Microsoft Dynamics 365 Project Operations에서 추정 및 실제 판매 가격을 결정하기 위해 시스템은 먼저 들어오는 추정 또는 실제 컨텍스트의 날짜와 통화를 사용하여 판매 가격표를 결정합니다. 특히 실제 컨텍스트에서 시스템은 **거래 날짜** 필드를 사용하여 적용 가능한 가격표를 결정합니다. 유입 견적 또는 실제의 **거래 날짜** 값은 가격표의 **적용 시작(시간대 독립)** 및 **적용 종료(시간대 독립)** 값과 비교됩니다. 판매 가격표가 결정된 후 시스템은 판매 또는 청구율을 결정합니다.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>시간에 대한 실제 및 추정 라인의 판매율 결정
 
