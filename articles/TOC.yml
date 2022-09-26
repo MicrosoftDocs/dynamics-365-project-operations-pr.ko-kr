@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: 이전에 승인된 항목 리콜
           href: approvals/recall-cancel.md
+        - name: 보안 및 승인
+          href: approvals/approvals-security.md
         - name: 개발자 노트
           items:
             - name: 승인을 위한 개발자 노트
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: 공급업체 재방문 주기 설정
               href: procurement/set-up-vendor-retention.md
+            - name: 결제 시 지불
+              href: procurement/Pay-when-paid.md
     - name: 송장 발행
       items:
         - name: 송장 처리 개요
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: 이전에 승인된 항목 리콜
           href: approvals/recall-cancel.md
+        - name: 보안 및 승인
+          href: approvals/approvals-security.md
         - name: 개발자 노트
           items:
             - name: 승인을 위한 개발자 노트
