@@ -2,20 +2,20 @@
 title: 하도급 계약 내용 리소스
 description: 이 문서에서는 특정 하도급 계약 내용에 대해 공급업체에서 제공하는 전용 리소스를 지정하는 방법에 대해 설명합니다.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261473"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522381"
 ---
 # <a name="subcontract-line-resources"></a>하도급 계약 내용 리소스
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 Dynamics 365 Project Operations에서 공급업체는 시간에 대한 하도급 계약 내용에서 구매 중인 리소스 용량을 공급하는 데 사용할 리소스를 지정할 수 있습니다.
 

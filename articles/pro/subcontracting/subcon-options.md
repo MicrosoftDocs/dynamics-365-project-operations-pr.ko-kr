@@ -2,20 +2,20 @@
 title: 프로젝트 팀 구성원 하도급 계약 옵션
 description: 이 문서에서는 Microsoft Dynamics 365 Project Operations의 프로젝트 팀 구성원을 위한 하도급 옵션에 대해 설명합니다.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261615"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522287"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>프로젝트 팀 구성원 하도급 계약 옵션
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 Microsoft Dynamics 365 Project Operations에서 한 명 이상의 프로젝트 팀 구성원이 사용할 수 있는 하도급 옵션을 평가할 수 있습니다. 사용 가능한 하도급 옵션을 통해 다음을 수행할 수 있습니다.
 

@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230324"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541133"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 
-
-## <a name="scheduling-entities"></a>예약 엔터티
+**예약 엔터티**
 
 프로젝트 일정 API는 **일정 엔터티** 를 사용하여 생성, 업데이트 및 삭제 작업을 수행하는 기능을 제공합니다. 이러한 엔터티는 웹용 프로젝트에서 예약 엔진을 통해 관리됩니다. **예약 엔터티** 를 사용한 생성, 업데이트 및 삭제 작업은 이전 Dynamics 365 Project Operations 릴리스에서 제한되었습니다.
 
 다음 표는 프로젝트 일정 엔터티의 전체 목록을 제공합니다.
 
-| 엔터티 이름  | 엔터티 논리적 이름 |
-| --- | --- |
-| Project | msdyn_project |
-| 프로젝트 작업  | msdyn_projecttask  |
-| 프로젝트 작업 종속성  | msdyn_projecttaskdependency  |
-| 리소스 할당 | msdyn_resourceassignment |
-| 프로젝트 버킷  | msdyn_projectbucket |
-| 프로젝트 팀 구성원 | msdyn_projectteam |
+| **엔터티 이름**         | **엔터티 논리적 이름**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| 프로젝트 작업            | msdyn_projecttask           |
+| 프로젝트 작업 종속성 | msdyn_projecttaskdependency |
+| 리소스 할당     | msdyn_resourceassignment    |
+| 프로젝트 버킷          | msdyn_projectbucket         |
+| 프로젝트 팀 구성원     | msdyn_projectteam           |
+| 프로젝트 검사 목록      | msdyn_projectchecklist      |
+| 프로젝트 레이블           | msdyn_projectlabel          |
+| 레이블을 지정할 프로젝트 작업   | msdyn_projecttasktolabel    |
+| 프로젝트 스프린트          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet은 일정에 영향을 미치는 여러 요청을 트랜잭션 내에서 처리해야 할 때 사용할 수 있는 작업 단위 패턴입니다.
 
-## <a name="project-schedule-apis"></a>프로젝트 일정 API
+**프로젝트 일정 API**
 
 다음은 현재 프로젝트 일정 API 목록입니다.
 
-- **msdyn_CreateProjectV1**: 이 API를 사용하여 프로젝트를 생성할 수 있습니다. 프로젝트 및 기본 프로젝트 버킷이 즉시 생성됩니다.
-- **msdyn_CreateTeamMemberV1**: 이 API를 사용하여 프로젝트 팀 구성원을 만들 수 있습니다. 팀 구성원 레코드가 즉시 생성됩니다.
-- **msdyn_CreateOperationSetV1**: 이 API는 트랜잭션 내에서 수행해야 하는 여러 요청을 예약하는 데 사용할 수 있습니다.
-- **msdyn_PssCreateV1**: 이 API는 엔터티를 만드는 데 사용할 수 있습니다. 엔터티는 만들기 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다.
-- **msdyn_PssUpdateV1**: 이 API는 엔터티를 업데이트하는 데 사용할 수 있습니다. 엔터티는 업데이트 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다.
-- **msdyn_PssDeleteV1**: 이 API는 엔터티를 삭제하는 데 사용할 수 있습니다. 엔터티는 삭제 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다.
-- **msdyn_ExecuteOperationSetV1**: 이 API는 지정된 작업 집합 내에서 모든 작업을 실행하는 데 사용됩니다.
+| **API**                                 | Description                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | 이 API는 프로젝트를 생성하는 데 사용됩니다. 프로젝트 및 기본 프로젝트 버킷이 즉시 생성됩니다.                         |
+| **msdyn_CreateTeamMemberV1**            | 이 API는 프로젝트 팀원을 생성하는 데 사용됩니다. 팀 구성원 레코드가 즉시 생성됩니다.                                  |
+| **msdyn_CreateOperationSetV1**          | 이 API는 트랜잭션 내에서 수행되어야 하는 여러 요청을 예약하는 데 사용됩니다.                                        |
+| **msdyn_PssCreateV1**                   | 이 API는 엔터티를 생성하는 데 사용됩니다. 엔터티는 만들기 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다. |
+| **msdyn_PssUpdateV1**                   | 이 API는 엔터티를 업데이트하는 데 사용됩니다. 엔터티는 업데이트 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다  |
+| **msdyn_PssDeleteV1**                   | 이 API는 엔터티를 삭제하는 데 사용됩니다. 엔터티는 삭제 작업을 지원하는 프로젝트 일정 엔터티 중 하나일 수 있습니다. |
+| **msdyn_ExecuteOperationSetV1**         | 이 API는 지정된 작업 집합 내에서 모든 작업을 실행하는 데 사용됩니다.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | 이 API는 자원 할당 계획 작업 윤곽선을 업데이트하는 데 사용됩니다.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>OperationSet와 함께 프로젝트 일정 API 사용
+
+
+**OperationSet와 함께 프로젝트 일정 API 사용**
 
 **CreateProjectV1** 및 **CreateTeamMemberV1** 이 모두 있는 레코드가 즉시 생성되기 때문에 이러한 API는 **OperationSet** 에서 직접 사용할 수 없습니다. 그러나 API를 사용하여 필요한 레코드를 만들고 **OperationSet** 을 만든 다음 **OperationSet** 에서 이러한 미리 만들어진 레코드를 사용할 수 있습니다.
 
-## <a name="supported-operations"></a>지원되는 작업
+**지원되는 작업**
 
-| 예약 엔터티 | 만들기 | 엽데이트 | Delete | 중요 사항 |
-| --- | --- | --- | --- | --- |
-프로젝트 작업 | 네 | 네 | 네 | **Progress**, **EffortCompleted** 및 **EffortRemaining** 필드는 Project for the Web에서 편집할 수 있지만 Project Operations에서는 편집할 수 없습니다.  |
-| 프로젝트 작업 종속성 | 네 |  | 네 | 프로젝트 작업 종속성 레코드는 업데이트되지 않습니다. 대신 이전 레코드를 삭제하고 새 레코드를 만들 수 있습니다. |
-| 리소스 할당 | 네 | 네 | | **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** 및 **PlannedWork** 필드를 사용한 작업은 지원되지 않습니다. 리소스 할당 레코드는 업데이트되지 않습니다. 대신 이전 레코드를 삭제하고 새 레코드를 만들 수 있습니다. |
-| 프로젝트 버킷 | 네 | 네 | 네 | 기본 버킷은 **CreateProjectV1** API를 사용하여 생성됩니다. 프로젝트 버킷 생성 및 삭제에 대한 지원이 업데이트 릴리스 16에 추가되었습니다. |
-| 프로젝트 팀원 | 네 | 네 | 네 | 생성 작업의 경우 **CreateTeamMemberV1** API를 사용합니다. |
-| Project | 네 | 네 |  | **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** 및 **Duration** 필드를 사용한 작업은 지원되지 않습니다. |
+| **예약 엔터티**   | **만들기** | **Update** | **Delete** | **중요 사항**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 프로젝트 작업            | 네        | 네        | 네        | **Progress**, **EffortCompleted** 및 **EffortRemaining** 필드는 Project for the Web에서 편집할 수 있지만 Project Operations에서는 편집할 수 없습니다.                                                                                                                                                                                             |
+| 프로젝트 작업 종속성 | 네        | 없음         | 네        | 프로젝트 작업 종속성 레코드는 업데이트되지 않습니다. 대신 이전 레코드를 삭제하고 새 레코드를 만들 수 있습니다.                                                                                                                                                                                                                                 |
+| 리소스 할당     | 네        | 네\*      | 네        | **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** 및 **PlannedWork** 필드를 사용한 작업은 지원되지 않습니다. 리소스 할당 레코드는 업데이트되지 않습니다. 대신 이전 레코드를 삭제하고 새 레코드를 만들 수 있습니다. 자원 할당 윤곽선을 업데이트하기 위해 별도의 API가 제공되었습니다. |
+| 프로젝트 버킷          | 네        | 네        | 네        | 기본 버킷은 **CreateProjectV1** API를 사용하여 생성됩니다. 프로젝트 버킷 생성 및 삭제에 대한 지원이 업데이트 릴리스 16에 추가되었습니다.                                                                                                                                                                                                   |
+| 프로젝트 팀원     | 네        | 네        | 네        | 생성 작업의 경우 **CreateTeamMemberV1** API를 사용합니다.                                                                                                                                                                                                                                                                                           |
+| Project                 | 네        | 네        |            | **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** 및 **Duration** 필드를 사용한 작업은 지원되지 않습니다.                                                                                       |
+| 프로젝트 검사 목록      | 네        | 네        | 네        |                                                                                                                                                                                                                                                                                                                                                         |
+| 프로젝트 레이블           | 없음         | 네        | 없음         | 레이블 이름은 변경할 수 있습니다. 이 기능은 Project for the Web에서만 사용할 수 있습니다                                                                                                                                                                                                                                                                      |
+| 레이블을 지정할 프로젝트 작업   | 네        | 없음         | 네        | 이 기능은 Project for the Web에서만 사용할 수 있습니다                                                                                                                                                                                                                                                                                                  |
+| 프로젝트 스프린트          | 네        | 네        | 네        | **시작** 필드의 날짜는 **완료** 필드보다 이전이어야 합니다. 동일한 프로젝트의 스프린트는 서로 겹칠 수 없습니다. 이 기능은 Project for the Web에서만 사용할 수 있습니다                                                                                                                                                                    |
 
-이러한 API는 사용자 지정 필드를 포함하는 엔터티 개체를 사용하여 호출할 수 있습니다.
+
+
 
 ID 속성은 선택 사항입니다. 제공되는 경우 시스템은 이를 사용하려고 시도하고 사용할 수 없는 경우 예외를 발생시킵니다. 제공되지 않으면 시스템에서 생성합니다.
 
-## <a name="restricted-fields"></a>제한된 필드
+**제한 사항 및 알려진 문제**
 
-다음 표는 **생성** 및 **편집** 에서 제한되는 필드를 정의합니다.
-
-### <a name="project-task"></a>프로젝트 작업
-
-| 논리적 이름                           | 생성 가능     | 편집 가능         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | 없음             | 없음               |
-| msdyn_actualcost_base                  | 없음             | 없음               |
-| msdyn_actualend                        | 없음             | 없음               |
-| msdyn_actualsales                      | 없음             | 없음               |
-| msdyn_actualsales_base                 | 없음             | 없음               |
-| msdyn_actualstart                      | 없음             | 없음               |
-| msdyn_costatcompleteestimate           | 없음             | 없음               |
-| msdyn_costatcompleteestimate_base      | 없음             | 없음               |
-| msdyn_costconsumptionpercentage        | 없음             | 없음               |
-| msdyn_effortcompleted                  | 아니요(프로젝트의 경우 예)             | 아니요(프로젝트의 경우 예)               |
-| msdyn_effortremaining                  | 아니요(프로젝트의 경우 예)              | 아니요(프로젝트의 경우 예)                |
-| msdyn_effortestimateatcomplete         | 없음             | 없음               |
-| msdyn_iscritical                       | 없음             | 없음               |
-| msdyn_iscriticalname                   | 없음             | 없음               |
-| msdyn_ismanual                         | 없음             | 없음               |
-| msdyn_ismanualname                     | 없음             | 없음               |
-| msdyn_ismilestone                      | 없음             | 없음               |
-| msdyn_ismilestonename                  | 없음             | 없음               |
-| msdyn_LinkStatus                       | 없음             | 없음               |
-| msdyn_linkstatusname                   | 없음             | 없음               |
-| msdyn_msprojectclientid                | 없음             | 없음               |
-| msdyn_plannedcost                      | 없음             | 없음               |
-| msdyn_plannedcost_base                 | 없음             | 없음               |
-| msdyn_plannedsales                     | 없음             | 없음               |
-| msdyn_plannedsales_base                | 없음             | 없음               |
-| msdyn_pluginprocessingdata             | 없음             | 없음               |
-| msdyn_progress                         | 아니요(프로젝트의 경우 예)             | 아니요(프로젝트의 경우 예) |
-| msdyn_remainingcost                    | 없음             | 없음               |
-| msdyn_remainingcost_base               | 없음             | 없음               |
-| msdyn_remainingsales                   | 없음             | 없음               |
-| msdyn_remainingsales_base              | 없음             | 없음               |
-| msdyn_requestedhours                   | 없음             | 없음               |
-| msdyn_resourcecategory                 | 없음             | 없음               |
-| msdyn_resourcecategoryname             | 없음             | 없음               |
-| msdyn_resourceorganizationalunitid     | 없음             | 없음               |
-| msdyn_resourceorganizationalunitidname | 없음             | 없음               |
-| msdyn_salesconsumptionpercentage       | 없음             | 없음               |
-| msdyn_salesestimateatcomplete          | 없음             | 없음               |
-| msdyn_salesestimateatcomplete_base     | 없음             | 없음               |
-| msdyn_salesvariance                    | 없음             | 없음               |
-| msdyn_salesvariance_base               | 없음             | 없음               |
-| msdyn_scheduleddurationminutes         | 없음             | 없음               |
-| msdyn_scheduledend                     | 없음             | 없음               |
-| msdyn_scheduledstart                   | 없음             | 없음               |
-| msdyn_schedulevariance                 | 없음             | 없음               |
-| msdyn_skipupdateestimateline           | 없음             | 없음               |
-| msdyn_skipupdateestimatelinename       | 없음             | 없음               |
-| msdyn_summary                          | 없음             | 없음               |
-| msdyn_varianceofcost                   | 없음             | 없음               |
-| msdyn_varianceofcost_base              | 없음             | 없음               |
-
-### <a name="project-task-dependency"></a>프로젝트 작업 종속성
-
-| 논리적 이름                  | 생성 가능     | 편집 가능     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | 없음             | 없음           |
-| msdyn_linktypename            | 없음             | 없음           |
-| msdyn_predecessortask         | 네            | 없음           |
-| msdyn_predecessortaskname     | 네            | 없음           |
-| msdyn_project                 | 네            | 없음           |
-| msdyn_projectname             | 네            | 없음           |
-| msdyn_projecttaskdependencyid | 네            | 없음           |
-| msdyn_successortask           | 네            | 없음           |
-| msdyn_successortaskname       | 네            | 없음           |
-
-### <a name="resource-assignment"></a>리소스 할당
-
-| 논리적 이름                 | 생성 가능     | 편집 가능     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | 네            | 없음           |
-| msdyn_bookableresourceidname | 네            | 없음           |
-| msdyn_bookingstatusid        | 없음             | 없음           |
-| msdyn_bookingstatusidname    | 없음             | 없음           |
-| msdyn_committype             | 없음             | 없음           |
-| msdyn_committypename         | 없음             | 없음           |
-| msdyn_effort                 | 없음             | 없음           |
-| msdyn_effortcompleted        | 없음             | 없음           |
-| msdyn_effortremaining        | 없음             | 없음           |
-| msdyn_finish                 | 없음             | 없음           |
-| msdyn_plannedcost            | 없음             | 없음           |
-| msdyn_plannedcost_base       | 없음             | 없음           |
-| msdyn_plannedcostcontour     | 없음             | 없음           |
-| msdyn_plannedsales           | 없음             | 없음           |
-| msdyn_plannedsales_base      | 없음             | 없음           |
-| msdyn_plannedsalescontour    | 없음             | 없음           |
-| msdyn_plannedwork            | 없음             | 없음           |
-| msdyn_projectid              | 네            | 없음           |
-| msdyn_projectidname          | 없음             | 없음           |
-| msdyn_projectteamid          | 없음             | 없음           |
-| msdyn_projectteamidname      | 없음             | 없음           |
-| msdyn_start                  | 없음             | 없음           |
-| msdyn_taskid                 | 없음             | 없음           |
-| msdyn_taskidname             | 없음             | 없음           |
-| msdyn_userresourceid         | 없음             | 없음           |
-
-### <a name="project-team-member"></a>프로젝트 팀원
-
-| 논리적 이름                                     | 생성 가능     | 편집 가능     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | 없음             | 없음           |
-| msdyn_creategenericteammemberwithrequirementname | 없음             | 없음           |
-| msdyn_deletestatus                               | 없음             | 없음           |
-| msdyn_deletestatusname                           | 없음             | 없음           |
-| msdyn_effort                                     | 없음             | 없음           |
-| msdyn_effortcompleted                            | 없음             | 없음           |
-| msdyn_effortremaining                            | 없음             | 없음           |
-| msdyn_finish                                     | 없음             | 없음           |
-| msdyn_hardbookedhours                            | 없음             | 없음           |
-| msdyn_hours                                      | 없음             | 없음           |
-| msdyn_markedfordeletiontimer                     | 없음             | 없음           |
-| msdyn_markedfordeletiontimestamp                 | 없음             | 없음           |
-| msdyn_msprojectclientid                          | 없음             | 없음           |
-| msdyn_percentage                                 | 없음             | 없음           |
-| msdyn_requiredhours                              | 없음             | 없음           |
-| msdyn_softbookedhours                            | 없음             | 없음           |
-| msdyn_start                                      | 없음             | 없음           |
-
-### <a name="project"></a>Project
-
-| 논리적 이름                           | 생성 가능     | 편집 가능     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | 없음             | 없음           |
-| msdyn_actualexpensecost_base           | 없음             | 없음           |
-| msdyn_actuallaborcost                  | 없음             | 없음           |
-| msdyn_actuallaborcost_base             | 없음             | 없음           |
-| msdyn_actualsales                      | 없음             | 없음           |
-| msdyn_actualsales_base                 | 없음             | 없음           |
-| msdyn_contractlineproject              | 네            | 없음           |
-| msdyn_contractorganizationalunitid     | 네            | 없음           |
-| msdyn_contractorganizationalunitidname | 네            | 없음           |
-| msdyn_costconsumption                  | 없음             | 없음           |
-| msdyn_costestimateatcomplete           | 없음             | 없음           |
-| msdyn_costestimateatcomplete_base      | 없음             | 없음           |
-| msdyn_costvariance                     | 없음             | 없음           |
-| msdyn_costvariance_base                | 없음             | 없음           |
-| msdyn_duration                         | 없음             | 없음           |
-| msdyn_effort                           | 없음             | 없음           |
-| msdyn_effortcompleted                  | 없음             | 없음           |
-| msdyn_effortestimateatcompleteeac      | 없음             | 없음           |
-| msdyn_effortremaining                  | 없음             | 없음           |
-| msdyn_finish                           | 네            | 네          |
-| msdyn_globalrevisiontoken              | 없음             | 없음           |
-| msdyn_islinkedtomsprojectclient        | 없음             | 없음           |
-| msdyn_islinkedtomsprojectclientname    | 없음             | 없음           |
-| msdyn_linkeddocumenturl                | 없음             | 없음           |
-| msdyn_msprojectdocument                | 없음             | 없음           |
-| msdyn_msprojectdocumentname            | 없음             | 없음           |
-| msdyn_plannedexpensecost               | 없음             | 없음           |
-| msdyn_plannedexpensecost_base          | 없음             | 없음           |
-| msdyn_plannedlaborcost                 | 없음             | 없음           |
-| msdyn_plannedlaborcost_base            | 없음             | 없음           |
-| msdyn_plannedsales                     | 없음             | 없음           |
-| msdyn_plannedsales_base                | 없음             | 없음           |
-| msdyn_progress                         | 없음             | 없음           |
-| msdyn_remainingcost                    | 없음             | 없음           |
-| msdyn_remainingcost_base               | 없음             | 없음           |
-| msdyn_remainingsales                   | 없음             | 없음           |
-| msdyn_remainingsales_base              | 없음             | 없음           |
-| msdyn_replaylogheader                  | 없음             | 없음           |
-| msdyn_salesconsumption                 | 없음             | 없음           |
-| msdyn_salesestimateatcompleteeac       | 없음             | 없음           |
-| msdyn_salesestimateatcompleteeac_base  | 없음             | 없음           |
-| msdyn_salesvariance                    | 없음             | 없음           |
-| msdyn_salesvariance_base               | 없음             | 없음           |
-| msdyn_scheduleperformance              | 없음             | 없음           |
-| msdyn_scheduleperformancename          | 없음             | 없음           |
-| msdyn_schedulevariance                 | 없음             | 없음           |
-| msdyn_taskearlieststart                | 없음             | 없음           |
-| msdyn_teamsize                         | 없음             | 없음           |
-| msdyn_teamsize_date                    | 없음             | 없음           |
-| msdyn_teamsize_state                   | 없음             | 없음           |
-| msdyn_totalactualcost                  | 없음             | 없음           |
-| msdyn_totalactualcost_base             | 없음             | 없음           |
-| msdyn_totalplannedcost                 | 없음             | 없음           |
-| msdyn_totalplannedcost_base            | 없음             | 없음           |
-
-### <a name="project-bucket"></a>프로젝트 버킷
-
-| 논리적 이름          | 생성 가능      | 편집 가능     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | 네             | 없음           |
-| msdyn_name            | 네             | 네          |
-| msdyn_project         | 네             | 없음           |
-| msdyn_projectbucketid | 네             | 없음           |
-
-## <a name="limitations-and-known-issues"></a>제한 사항 및 알려진 문제
 다음은 제한 사항 및 알려진 문제 목록입니다.
 
-- 프로젝트 일정 API는 **Microsoft Project 라이선스가 있는 사용자** 만 사용할 수 있습니다. 다음 사용자는 사용할 수 없습니다.
+-   프로젝트 일정 API는 **Microsoft Project 라이선스가 있는 사용자** 만 사용할 수 있습니다. 다음 사용자는 사용할 수 없습니다.
+    -   응용 프로그램 사용자
+    -   시스템 사용자
+    -   통합 사용자
+    -   필요한 라이선스가 없는 다른 사용자
+-   각 **OperationSet** 는 최대 100개의 작업만 가질 수 있습니다.
+-   각 사용자는 최대 10개의 열린 **OperationSet** 만 가질수 있습니다.
+-   Project Operations는 현재 프로젝트에서 최대 500개의 총 작업을 지원합니다.
+-   각 업데이트 리소스 할당 윤곽선 작업은 단일 작업으로 계산됩니다.
+-   업데이트된 등고선의 각 목록에는 최대 100개의 타임 슬라이스가 포함될 수 있습니다.
+-   **OperationSet** 실패 상태 및 실패 로그는 현재 사용할 수 없습니다.
+-   프로젝트당 최대 400개의 스프린트가 있습니다.
+-   [프로젝트 및 작업에 대한 한도 및 경계](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   레이블은 현재 Project for the Web에서만 사용할 수 있습니다.
 
-    - 응용 프로그램 사용자
-    - 시스템 사용자
-    - 통합 사용자
-    - 필요한 라이선스가 없는 다른 사용자
+**오류 처리**
 
-- 각 **OperationSet** 는 최대 100개의 작업만 가질 수 있습니다.
-- 각 사용자는 최대 10개의 열린 **OperationSet** 만 가질수 있습니다.
-- Project Operations는 현재 프로젝트에서 최대 500개의 총 작업을 지원합니다.
-- **OperationSet** 실패 상태 및 실패 로그는 현재 사용할 수 없습니다.
-- [프로젝트 및 작업에 대한 제한 및 경계](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   작업 세트에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **작업 세트** 로 이동합니다.
+-   프로젝트 일정 서비스에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **PSS 오류 로그** 로 이동합니다.
 
-## <a name="error-handling"></a>오류 처리
+**리소스 할당 윤곽선 편집**
 
-- 작업 세트에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **작업 세트** 로 이동합니다.
-- 프로젝트 일정 서비스에서 생성된 오류를 검토하려면 **설정** \> **일정 통합** \> **PSS 오류 로그** 로 이동합니다.
+엔터티를 업데이트하는 다른 모든 프로젝트 일정 API와 달리 자원 할당 윤곽 API는 단일 엔터티 msydn_resourceassignment에서 단일 필드 msdyn_plannedwork에 대한 업데이트를 단독으로 담당합니다.
 
-## <a name="sample-scenario"></a>샘플 시나리오
+주어진 일정 모드는 다음과 같습니다.
+
+-   **고정 단위**
+-   프로젝트 일정은 월, 화, 목, 금요일 태평양 표준시 9-5시(수요일 휴무)
+-   리소스 캘린더는 태평양 표준시 월~금 9-1시
+
+이 할당은 1주일 동안 하루 4시간입니다. 리소스 일정이 9-1 태평양 표준시 또는 하루 4시간이기 때문입니다.
+
+| &nbsp;     | 작업 | 시작 날짜 | 종료 날짜  | 수량 | 2022년 6월 13일 | 2022년 6월 14일 | 2022년 6월 15일 | 2022년 6월 16일 | 2022년 6월 17일 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1시 작업자 |  T1  | 2022년 6월 13일  | 2022년 6월 17일 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+예를 들어, 작업자가 이번 주에 매일 3시간만 일하고 다른 작업에는 1시간을 허용하도록 하려는 경우입니다.
+
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours 샘플 페이로드 선택:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+컨투어 일정 API 업데이트가 실행된 후의 할당입니다.
+
+| &nbsp;     | 작업 | 시작 날짜 | 종료 날짜  | 수량 | 2022년 6월 13일 | 2022년 6월 14일 | 2022년 6월 15일 | 2022년 6월 16일 | 2022년 6월 17일 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1시 작업자 | T1   | 2022년 6월 13일  | 2022년 6월 17일 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**샘플 시나리오**
 
 이 시나리오에서는 프로젝트, 팀 구성원, 4개의 작업 및 2개의 리소스 할당을 만듭니다. 다음으로 하나의 작업을 업데이트하고, 프로젝트를 업데이트하고, 하나의 작업을 삭제하고, 하나의 리소스 할당을 삭제하고, 작업 종속성을 만듭니다.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>추가 샘플
+** 추가 샘플
 
 ```csharp
 #region Call actions --- Sample code ----

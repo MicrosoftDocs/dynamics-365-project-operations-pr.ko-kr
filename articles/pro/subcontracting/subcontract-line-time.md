@@ -2,20 +2,20 @@
 title: 시간의 하도급 계약 내용
 description: 이 문서에서는 시간에 대한 하도급 계약 내용을 기록하고 공급업체에서 시간을 구매하는 방법을 설명합니다.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261991"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522241"
 ---
 # <a name="subcontract-lines-for-time"></a>시간의 하도급 계약 내용
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 Dynamics 365 Project Operations의 하도급 계약은 시간에 대한 하도급 계약 내용을 가질 수 있습니다. 시간에 대한 하도급 계약 내용을 통해 프로젝트 관리자는 공급업체 리소스 시간을 구매하여 프로젝트 작업 및 리소스 요구 사항에 인력을 배치할 수 있습니다.
 

@@ -2,20 +2,20 @@
 title: 하도급 계약 내용 마일스톤
 description: 이 문서에서는 공급업체와의 하도급 계약에 대한 마일스톤 기반 송장 일정을 만들고 유지 관리하는 방법에 대해 설명합니다.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261802"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522473"
 ---
 # <a name="subcontract-line-milestones"></a>하도급 계약 내용 마일스톤
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 Dynamics 365 Project Operations에서 고정 가격 청구 방법을 사용하는 하도급 계약 내용은 공급업체와의 마일스톤 기반 송장 일정을 지정할 수 있습니다.
 

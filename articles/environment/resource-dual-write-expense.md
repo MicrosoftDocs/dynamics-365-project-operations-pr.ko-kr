@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029217"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528001"
 ---
 # <a name="expense-management-integration"></a>경비 관리 통합
 
@@ -34,7 +34,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 
 ## <a name="expense-reports"></a>경비 보고서
 
-경비 보고서는 금융 및 운영 앱에서 생성 및 승인됩니다. 자세한 내용은 [Dynamics 365 Project Operations 에서 경비 보고서 작성 및 처리](/learn/modules/create-process-expense-reports/)를 참조하십시오. 프로젝트 관리자가 경비 보고서를 승인하면 총계정 원장에 전기됩니다. Project Operations에서 프로젝트 관련 경비 보고서 라인은 특별 전기 규칙을 사용하여 전기됩니다.
+경비 보고서는 금융 및 운영 앱에서 생성 및 승인됩니다. 자세한 내용은 [Dynamics 365 Project Operations 에서 경비 보고서 작성 및 처리](/training/modules/create-process-expense-reports/)를 참조하십시오. 프로젝트 관리자가 경비 보고서를 승인하면 총계정 원장에 전기됩니다. Project Operations에서 프로젝트 관련 경비 보고서 라인은 특별 전기 규칙을 사용하여 전기됩니다.
 
   - 프로젝트 관련 원가(불 공제 세금 포함)는 총계정 원장의 프로젝트 원가 계정에 즉시 전기되지 않고 대신 비용 통합 계정에 전기됩니다. 이 계정은 **프로젝트 관리 및 회계** > **설정** > **프로젝트 관리 및 회계 매개변수**, **Dynamics 365 Customer engagement의 Project Operations** 탭에서 구성됩니다.
   - 이중 쓰기는 **Project Operations 통합 프로젝트 경비 내보내기 엔터티(msdyn\_expenses)** 테이블 맵을 사용하여 Dataverse에 동기화됩니다.

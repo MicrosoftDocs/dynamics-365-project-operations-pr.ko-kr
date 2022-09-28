@@ -2,21 +2,21 @@
 title: Project Operations에서 하도급 관리
 description: 이 문서에서는 일반적으로 프로젝트 기반 조직에서 종단 간 하도급 관리 프로세스에 대한 개요를 제공합니다.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 09/14/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b2e4518f77b2099f9818ea56623be9efb20b01f4
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261216"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522334"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations에서 하도급 관리
 
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 이 문서에서는 프로젝트 기반 조직에서 종단 간 하도급 관리 프로세스에 대한 개요를 제공합니다. 서비스에 대한 하도급 계약은 일반적으로 다음 다이어그램에 표시된 비즈니스 프로세스 흐름를 따릅니다.
 

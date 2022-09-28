@@ -1,8 +1,8 @@
 ---
 title: 경비 보고서 게시
 description: 이 문서에서는 경비 보고서를 게시하는 방법에 대해 설명합니다.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934512"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524878"
 ---
 # <a name="post-expense-reports"></a>경비 보고서 게시
 
@@ -30,5 +30,15 @@ ms.locfileid: "8934512"
 
 동시에 목록의 모든 경비 보고서를 전기할 수도 있습니다. 모든 경비 보고서를 선택한 다음 **전기** 를 선택합니다.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>현금 결제 방법에 대해 공급업체 통화로 경비 부채를 전기할 수 있는 기능 활성화
+
+**현금 결제 방법에 대해 공급업체 통화로 경비 부채를 전기할 수 있는 기능** 을 사용하면 현금 결제 방법에 대해 공급업체 통화로 경비 보고서를 전기할 수 있습니다.
+
+현재는 현금 경비를 제출하면 경비 보고서가 회계 통화로 전기됩니다. 거래 통화, 회계 통화 및 공급 업체 통화 간의 금액 변환으로 인해 경비의 거래 날짜와 실제 지불 날짜의 환율이 다른 경우 잘못된 금액이 공급 업체에 지급됩니다.
+
+이 기능을 사용하면 경비 보고서가 전기될 때 공급업체 잔액이 공급업체 통화로 기록됩니다.
+
+1. **작업 영역** \> **기능 관리** 로 이동합니다.
+2. 목록에서 **현금 결제 방법에 대해 공급업체 통화로 경비 부채를 전기할 수 있는 기능** 을 찾아 선택한 다음 **지금 활성화** 를 선택합니다.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: 하도급 계약 리소스 할당 비용 추정
 description: 이 문서에서는 Microsoft Dynamics 365 Project Operations가 하도급 계약 리소스 할당의 비용 추정치를 계산하는 방법에 대해 설명합니다.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262068"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522664"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>하도급 계약 리소스 할당 비용 추정
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 하도급 계약 프로젝트 팀 구성원의 작업 할당은 관련 팀 구성원 레코드의 하도급 계약에 첨부된 **구매** 가격표를 사용하여 비용이 계산됩니다. 이는 프로젝트의 계약 단위에 첨부된 **비용** 가격표를 사용하여 직원 리소스의 작업 배정 비용을 계산하는 직원 리소스 배정 비용을 계산하는 방법과 다릅니다. 
 

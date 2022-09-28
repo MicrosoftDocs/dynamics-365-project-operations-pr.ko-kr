@@ -2,20 +2,20 @@
 title: 예약 가능한 리소스로서의 하청업체 설정
 description: 이 문서에서는 시스템의 사용자 및 연락처에서 생성된 하청업체 리소스를 설정하고 유지 관리하여 Microsoft Dynamics 365 Project Operations의 하청업체와 연결할 수 있도록 하는 방법에 대해 설명합니다.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261332"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522710"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>예약 가능한 리소스로서의 하청업체 설정
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
 Microsoft Dynamics 365 Project Operations에서 하청업체를 예약 가능한 리소스로 설정하려면 다음 단계를 따르십시오.
 

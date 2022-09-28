@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918090"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524925"
 ---
 # <a name="approval-sets"></a>승인 집합
 
@@ -45,14 +45,9 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
 ## <a name="configure-approval-sets"></a>승인 집합 구성
 
 ### <a name="enable-the-approval-sets-feature"></a>승인 집합 기능 활성화
-승인 집합 기능을 활성화하기 전에 현재 처리 중인 승인이 없는지 확인하십시오.
+승인 집합 기능을 활성화하기 전에 현재 처리 중인 승인이 없는지 확인하십시오. 이 기능을 활성화한 후에는 비활성화할 수 없습니다.
 
 - **프로젝트 매개 변수** 페이지로 이동하고 **기능 제어** > **최신 승인 활성화** 를 선택합니다.
-
-### <a name="turn-off-the-approval-sets-feature"></a>승인 집합 기능 끄기
-승인 집합 기능을 끄기 전에 현재 처리 중인 승인이 없는지 확인하십시오.
-
-- **프로젝트 매개 변수** 페이지로 이동하고 **기능 제어** > **최신 승인 비활성화** 를 선택합니다.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>비동기 임계값 구성 
 승인 집합이 생성될 때 승인을 위해 선택한 레코드 수가 표시된 임계값을 초과하면 처리가 백그라운드로 이동합니다. **비동기 임계값** 필드를 사용하여 승인 처리를 동기 또는 비동기적으로 실행해야 하는 시기를 구성합니다. 다음 값 중 하나를 선택하십시오.
