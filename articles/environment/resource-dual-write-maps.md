@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112437"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621090"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 이중 쓰기 맵 버전
 
@@ -48,14 +48,14 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 프로젝트 자금 출처(msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. ||
 | 재료 추정을 위한 Project Operations 통합 표(msdyn\_estimatelines) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. ||
 | 프로젝트 송장 제안서 V2(송장) | 1.0.0.3 | 프로비저닝에는 필요하지 않습니다. ||
-| Project Operations 통합 실제(msdyn_actuals) | 1.0.0.14 | 프로비저닝에는 필요하지 않습니다. ||
+| Project Operations 통합 실제(msdyn_actuals) | 1.0.0.15 | 프로비저닝에는 필요하지 않습니다. |10.0.29 이상|
 | Project Operations 통합 계약 내용 이정표(msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 프로비저닝에는 필요하지 않습니다. ||
 | 경비 추정을 위한 Project Operations 통합 엔터티(msdyn_estimatelines) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. ||
 | 시간 추정용 Project Operations 통합 엔터티(msdyn_resourceassignments) | 1.0.0.5 | 프로비저닝에는 필요하지 않습니다. ||
 | Project Operations 통합 프로젝트 경비 범주 내보내기 엔터티(msdyn_expensecategories) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. ||
 | Project Operations 통합 프로젝트 경비 내보내기 엔터티(msdyn_expenses) | 1.0.0.3 | 프로비저닝에는 필요하지 않습니다. ||
-| Project Operations 통합 프로젝트 공급업체 송장 내보내기 엔터티(msdyn_projectvendorinvoices) | 1.0.0.1 | 프로비저닝에는 필요하지 않습니다. |10.0.26 이상|
-| Project Operations 통합 프로젝트 공급업체 송장 라인 내보내기 엔터티(msdyn_projectvendorinvoicelines) | 1.0.0.4 | 프로비저닝에는 필요하지 않습니다. | 10.0.26 이상 |
+| Project Operations 통합 프로젝트 공급업체 송장 내보내기 엔터티(msdyn_projectvendorinvoices) | 1.0.0.2 | 프로비저닝에는 필요하지 않습니다. |10.0.29 이상|
+| Project Operations 통합 프로젝트 공급업체 송장 라인 내보내기 엔터티(msdyn_projectvendorinvoicelines) | 1.0.0.5 | 프로비저닝에는 필요하지 않습니다. | 10.0.29 이상 |
 | 모든 회사에 대한 프로젝트 리소스 역할(bookableresourcecategories) | 1.0.0.1 | 프로비저닝 중에 Dynamics 365 Dataverse 환경에 채워진 프로젝트 관리자 및 팀 구성원 리소스 역할을 동기화하려면 테이블 맵에 대한 초기 동기화가 필요합니다. Dataverse는 초기 동기화의 주요 소스입니다. ||
 | 프로젝트 작업(msdyn_projecttasks) | 1.0.0.4 | 프로비저닝에는 필요하지 않습니다. ||
 | 프로젝트 트랜잭션 범주(msdyn_transactioncategories) | 1.0.0.0 | 프로비저닝에는 필요하지 않습니다. ||

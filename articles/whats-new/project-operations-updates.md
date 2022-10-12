@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409944"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622029"
 ---
 # <a name="project-operations-updates"></a>Project Operations 업데이트
 
@@ -47,24 +47,24 @@ Dataverse 환경의 Project Operations에 대한 업데이트는 매월 제공�
 | 스테이션 | 지역 | 현재 버전 번호 | 라이트 배포를 위한 자동 업데이트 | 리소스/비 재고 배포를 위한 자동 업데이트 | 다음 버전 번호 | 일반적으로 사용 가능한 다음 버전 |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 스테이션 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 최초 릴리스         |  4.45.0.53      | 완료됨           | 완료됨            | TBD                 | 2022년 9월 9일      |
+|   &nbsp;  | 최초 릴리스         |  4.46.0.60      | 완료됨           | 완료됨            | TBD                 | 2022년 10월 07일      |
 | 스테이션 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 남아메리카         |  4.45.0.53      | 완료됨           | 완료됨            | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 캐나다                |  4.45.0.53      | 완료됨           | 완료됨            | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 인도                 |  4.45.0.53      | 완료됨           | 완료됨            | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 프랑스                |  4.45.0.53      | 완료됨           | 완료됨            | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 남아프리카 공화국          |  4.45.0.53      | 완료됨           | 완료됨            | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 스위스           |  4.45.0.53      | 완료됨           | 완료됨            | TBD                 | 2022년 9월 9일       |
+|   &nbsp;  | 남아메리카         |  4.46.0.60      | 완료됨           | 완료됨            | TBD                 | 2022년 10월 14일       |
+|   &nbsp;  | 캐나다                |  4.46.0.60      | 완료됨           | 완료됨            | TBD                 | 2022년 10월 14일       |
+|   &nbsp;  | 인도                 |  4.46.0.60      | 완료됨           | 완료됨            | TBD                 | 2022년 10월 14일       |
+|   &nbsp;  | 프랑스                |  4.46.0.60      | 완료됨           | 완료됨            | TBD                 | 2022년 10월 14일       |
+|   &nbsp;  | 남아프리카 공화국          |  4.46.0.60      | 완료됨           | 완료됨            | TBD                 | 2022년 10월 14일       |
+|   &nbsp;  | 스위스           |  4.46.0.60      | 완료됨           | 완료됨            | TBD                 | 2022년 10월 14일       |
 | 스테이션 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 일본                 |  4.45.0.53      | 완료됨      | 완료됨       | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 아시아 태평양          |  4.45.0.53      | 완료됨      | 완료됨       | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 영국         |  4.45.0.53      | 완료됨      | 완료됨       | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 오세아니아               |  4.45.0.53      | 완료됨      | 완료됨       | TBD                 | 2022년 9월 9일       |
-|   &nbsp;  | 아랍에미리트연합국  |  4.45.0.53      | 완료됨      | 완료됨       | TBD                 | 2022년 9월 9일       |
+|   &nbsp;  | 일본                 |  4.46.0.60      | 완료됨      | 완료됨       | TBD                 | 2022년 10월 21일       |
+|   &nbsp;  | 아시아 태평양          |  4.46.0.60      | 완료됨      | 완료됨       | TBD                 | 2022년 10월 21일       |
+|   &nbsp;  | 영국         |  4.46.0.60      | 완료됨      | 완료됨       | TBD                 | 2022년 10월 21일       |
+|   &nbsp;  | 오세아니아               |  4.46.0.60      | 완료됨      | 완료됨       | TBD                 | 2022년 10월 21일       |
+|   &nbsp;  | 아랍에미리트연합국  |  4.46.0.60      | 완료됨      | 완료됨       | TBD                 | 2022년 10월 21일       |
 | 스테이션 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 유럽                |  4.45.0.53      | 완료됨           | 완료됨            | TBD           | 2022년 9월 16일       |
+|   &nbsp;  | 유럽                |  4.46.0.60      | 완료됨           | 완료됨            | TBD           | 2022년 10월 28일       |
 | 스테이션 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 북아메리카         |  4.45.0.53      | 완료됨           | 완료됨            | TBD           | 2022년 9월 16일       |
+|   &nbsp;  | 북아메리카         |  4.46.0.60      | 완료됨           | 완료됨            | TBD           | 2022년 11월 04일       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>금융 및 운영 앱 환경의 프로젝트 관리 및 회계에 대한 릴리스 일정
 
