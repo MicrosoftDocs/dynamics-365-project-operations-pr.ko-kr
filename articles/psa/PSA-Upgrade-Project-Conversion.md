@@ -1,9 +1,9 @@
 ---
-title: Project Service Automation에서 Project Operations로의 기능 변경 사항
+title: Project Service Automation에서 Project Operations로의 프로젝트 일정 전환 프로세스
 description: 이 문서에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Project Operations로 변경된 기능에 대한 개요를 제공합니다.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621235"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642577"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Project Service Automation에서 Project Operations로의 기능 변경 사항
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Project Service Automation에서 Project Operations로의 프로젝트 일정 전환 프로세스
 
 프로젝트가 Microsoft Dynamics 365 Project Service Automation 3.X에서 Dynamics 365 Project Operations Lite로 성공적으로 업그레이드된 후에는 작업 표 WBS(작업 분할 구조)에서 프로젝트 작업을 편집할 수 없습니다. 고객은 작업과 관련된 모든 세부 정보를 제공하기 위해 새 필드가 추가된 추적 그리드에서 WBS를 검토할 수 있습니다. WBS에 대한 편집이 필요한 프로젝트의 경우 적격한 프로젝트를 새로운 Project for the web 일정 환경으로 선택적으로 변환할 수 있습니다.
 

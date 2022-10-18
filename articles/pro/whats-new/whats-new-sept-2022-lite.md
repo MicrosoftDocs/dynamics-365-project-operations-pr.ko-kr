@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621287"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634861"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>2022년 9월의 새로운 기능 - Project Operations Lite 배포
 
@@ -30,6 +30,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 | 청구 및 가격 책정 | **표준 시간대에 구애 받지 않는 가격 기본값 설정**<br>Project Operations는 모든 프로젝트 실제에 대한 표준 시간대에 구애 받지 않는 날짜 개념을 도입했습니다. 새로운 필드인 **거래 날짜** 는 이제 분개장 항목과 실제에서 사용할 수 있으며 거래가 발생한 날짜를 저장하는 데 사용되지만 해당 날짜를 협정 세계시로 변환하지 않습니다. 이 날짜는 가격 기본값 설정 및 송장 생성과 같은 다운스트림 프로세스에 사용됩니다. | <p>[프로젝트 기반 추정 및 실제 원가율 결정](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[프로젝트 기반 추정 및 실제에 대한 판매 가격 결정](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | 청구 및 가격 책정 | **Project Operations에서 가격 조정 적용 날짜 재정의**<br>가격 조정 적용 날짜는 가격표의 특정 가격을 무시하거나 변경할 수 있는 방법을 제공합니다. | [가격 조정 적용 날짜](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | 시간 및 경비 | **전역 승인자**<br>이 기능을 사용하면 프로젝트 또는 프로젝트의 팀 구성원 상태에 관계없이 ISV(독립 소프트웨어 공급업체) 및 중앙 집중식 승인이 가능합니다. | [보안 및 승인](/dynamics365/project-operations/approvals/approvals-security) |
+|프로젝트 계획 및 추적|**프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행** </br> </br>리소스 할당 윤곽 편집 API를 사용하면 개발자가 더 세분화된 시간 단계적 노력 계획을 위해 지원되는 모든 날짜 범위에서 작업 담당자의 노력을 프로그래밍 방식으로 지정할 수 있습니다.|[프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>품질 업데이트
 

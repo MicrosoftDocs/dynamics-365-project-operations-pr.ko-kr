@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621286"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634814"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022년 9월의 새로운 기능 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
 
@@ -35,6 +35,7 @@ _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project O
 | 경비 관리 | **공급업체 통화로 경비 부채를 전기할 수 있는 기능**<br>이 기능을 사용하면 현금 결제 방법에 대한 공급업체 통화로 경비 보고서를 전기할 수 있습니다. | [공급업체 통화로 경비 부채를 전기할 수 있는 기능](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | 프로젝트 조달 | **공급업체 지불시 결제**<br>이 기능을 사용하면 PWP(지불시 결제) 기능을 Project Operations 비 재고 환경에서 사용할 수 있습니다. 이를 통해 고객으로부터 결제를 받을 때까지 보유 기간에 따라 공급업체 결제를 차단/유보할 수 있습니다. | [공급업체 지불시 결제](/dynamics365/project-operations/procurement/pay-when-paid) |
 | 프로젝트 조달 | **프로젝트 구매 요청**<br>이 기능을 사용하면 Dynamics 365 Customer Engagement 통합의 Project Operations가 활성화된 법인에서 프로젝트 관련 구매 주문을 생성할 수 있습니다. 프로젝트 구매 주문을 사용하여 조달 부서 가상 사용자별로 프로젝트에 대해 재고가 없는 자재 조달을 기록할 수 있습니다. 프로젝트 구매 주문은 Dataverse에 동기화되지 않습니다. 그러나 가상 엔터티를 사용하여 프로젝트 관리자 정보에 대한 Dataverse의 프로젝트 구매 주문 라인을 표시할 수 있습니다. 프로젝트 관련 공급업체 송장 비용은 Dataverse의 실제 프로젝트 엔터티와 통합됩니다. 프로젝트 비용은 Project Operations 통합 분개장을 사용하여 프로젝트 보조원장에 기록됩니다. | |
+|프로젝트 계획 및 추적|**프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행** </br> </br>리소스 할당 윤곽 편집 API를 사용하면 개발자가 더 세분화된 시간 단계적 노력 계획을 위해 지원되는 모든 날짜 범위에서 작업 담당자의 노력을 프로그래밍 방식으로 지정할 수 있습니다.|[프로젝트 일정 API를 사용하여 일정 엔터티로 작업 수행](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 이중 쓰기 맵 업데이트
 

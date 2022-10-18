@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932074"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655197"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>작업 분할 구조(WBS) 만들기
 
@@ -112,6 +112,18 @@ ms.locfileid: "8932074"
 Project Operations에서 일정을 사용하여 작업 간에 선행 관계를 만들 수 있습니다. **선행자** 필드는 작업이 종속된 작업을 나타내기 위해 하나 이상의 값을 사용합니다. 선행 값이 작업에 할당될 때 모든 선행 작업이 완료되어야 해당 작업을 시작할 수 있습니다. 종속성으로 인해 작업의 계획된 시작 날짜는 선행 작업 완료 날짜로 재설정됩니다.
 
 작업 모드는 선행/종속 작업의 시작 및 종료 날짜에 대한 업데이트에는 영향을 주지 않습니다.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>작업에 대한 기간, 리소스 일정 및 프로젝트 일정의 영향 이해
+작업 기간은 작업 시작 날짜의 시작 시간과 작업 완료 날짜의 종료 시간 사이의 작업 시간으로 정의됩니다.   Project for the Web은 기간 측정 단위를 다음과 같이 정의합니다.
+
+| **기간 측정값** | **수량**|
+|----------------------------------------------------|----------------------|
+| 일별 시간 | 8 |
+| 주별 시간 |  40 |
+| 월별 일수 |  20 |
+
+할당되지 않은 작업은 프로젝트의 일정을 사용하여 예약됩니다. 그러나 초기 리소스 할당 시 작업 일정이 업데이트되어 리소스의 일정을 따릅니다. 할당된 작업에 대한 후속 변경은 프로젝트의 [예약 모드](scheduling-modes.md)에 의해 관리됩니다. 일정이 작업에 미치는 영향에 대해 자세히 알아보려면 [Project for the Web의 리소스 일정](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) 및 [작업 시작 시간 및 프로젝트!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)를 참조하세요
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>내게 필요한 옵션 및 바로 가기 키
 
