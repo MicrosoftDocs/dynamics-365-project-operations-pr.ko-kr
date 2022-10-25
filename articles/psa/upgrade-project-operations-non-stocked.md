@@ -3,7 +3,7 @@ title: Project Service Automation에서 Project Operations로 업그레이드
 description: 이 문서에서는 Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Project Operations로 업그레이드하는 프로세스에 대한 개요를 제공합니다.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446044"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686984"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation에서 Project Operations로 업그레이드
 
-Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Project Operations로 업그레이드를 위한 3단계 중 첫 번째 단계를 발표하게 된 것을 기쁘게 생각합니다. 이 문서는 이 흥미진진한 여정을 시작하는 고객을 위한 개요를 제공합니다. 향후 문서에는 개발자 고려 사항 및 기능 향상에 대한 세부 정보가 포함됩니다. Project Operations로의 업그레이드를 준비하는 데 도움이 되는 지침을 제공할 뿐만 아니라 업그레이드 후 기대할 수 있는 사항도 설명합니다.
+Microsoft Dynamics 365 Project Service Automation에서 Microsoft Dynamics 365 Project Operations로 업그레이드를 위한 3단계 중 두 번째 단계를 발표하게 된 것을 기쁘게 생각합니다. 이 문서는 이 흥미진진한 여정을 시작하는 고객을 위한 개요를 제공합니다. 
 
 업그레이드 제공 프로그램은 세 단계로 나뉩니다.
 
@@ -46,24 +46,31 @@ Microsoft Dynamics 365 Project Service Automation에서 Dynamics 365 Project Ope
 | WBS는 Project Desktop Client의 알려진 제한 사항에 대한 유효성을 검증합니다. | |  | :heavy_check_mark: |
 | 예약 가능한 리소스 및 프로젝트 캘린더는 일반적으로 호환되지 않는 캘린더 규칙 예외에 대해 평가됩니다. | | :heavy_check_mark: | :heavy_check_mark: |
 
-2단계에서 Project Operations로 업그레이드하는 고객은 기존 프로젝트를 프로젝트 계획을 위한 읽기 전용 환경으로 업그레이드하게 됩니다. 이 읽기 전용 환경에서는 전체 WBS가 추적 그리드에 표시됩니다. WBS를 편집하기 위해 프로젝트 관리자는 기본 **프로젝트** 페이지에서 **변환** 을 선택할 수 있습니다. 그러면 백그라운드 프로세스가 프로젝트를 업데이트하여 Project for the Web의 새 프로젝트 일정 환경을 지원합니다. 이 단계는 [Project for the Web의 알려진 제한 사항](/project-for-the-web/project-for-the-web-limits-and-boundaries)에 맞는 프로젝트가 있는 고객에게 적합합니다.
+2단계에서 Project Operations로 업그레이드하는 고객은 기존 프로젝트를 프로젝트 계획을 위한 읽기 전용 환경으로 업그레이드하게 됩니다. 이 읽기 전용 환경에서는 전체 WBS가 추적 그리드에 표시됩니다. WBS를 편집하기 위해 프로젝트 관리자는 프로젝트의 메인 페이지에서 [**변환**](/PSA-Upgrade-Project-Conversion.md)을 선택할 수 있습니다. 그러면 백그라운드 프로세스가 프로젝트를 업데이트하여 Project for the Web의 새 프로젝트 일정 환경을 지원합니다. 이 단계는 [Project for the Web의 알려진 제한 사항](/project-for-the-web/project-for-the-web-limits-and-boundaries)에 맞는 프로젝트가 있는 고객에게 적합합니다.
 
 3단계에서는 해당 응용 프로그램에서 프로젝트를 계속 편집하려는 고객을 위해 Project Desktop Client에 대한 지원이 추가됩니다. 그러나 기존 프로젝트가 새 Project for the Web 환경으로 변환되는 경우 변환된 각 프로젝트에 대해 추가 기능에 대한 액세스가 비활성화됩니다.
 
-## <a name="prerequisites"></a>필수 항목
+## <a name="prerequisites"></a>전제 조건
 
-1단계 업그레이드 자격을 얻으려면 고객은 다음 기준을 충족해야 합니다.
+1단계 업그레이드 자격을 얻으려면 다음 기준을 충족해야 합니다.
 
 - 대상 환경은 **msdyn_projecttask** 엔터티의 레코드를 포함하지 않아야 합니다.
-- 유효한 Project Operations 라이선스는 고객의 모든 활성 사용자에게 할당되어야 합니다. 
-- 고객은 프로덕션 데이터와 일치하는 대표 데이터 세트가 있는 하나 이상의 비프로덕션 환경에서 업그레이드 프로세스를 검증해야 합니다.
-- 대상 환경은 Project Service Automation 업데이트 릴리스 41 (3.10.62.162) 이상으로 업데이트해야 합니다.
+- 유효한 Project Operations 라이선스는 모든 활성 사용자에게 할당되어야 합니다. 
+- 프로덕션 환경과 일치하는 대표 데이터 세트가 포함된 하나 이상의 비프로덕션 환경에서 업그레이드 프로세스를 검증해야 합니다.
+- 대상 환경은 Project Service Automation 업데이트 릴리스 37 (V3.10.58.120) 이상으로 업데이트해야 합니다.
 
-2단계 및 3단계의 전제 조건은 일반 공급 날짜가 가까워지면 업데이트됩니다.
+2단계 업그레이드 자격을 얻으려면 다음 기준을 충족해야 합니다.
+
+- 유효한 Project Operations 라이선스는 모든 활성 사용자에게 할당되어야 합니다. 
+- 프로덕션 환경과 일치하는 대표 데이터 세트가 포함된 하나 이상의 비프로덕션 환경에서 업그레이드 프로세스를 검증해야 합니다.
+- 대상 환경은 Project Service Automation 업데이트 릴리스 37 (V3.10.58.120) 이상으로 업데이트해야 합니다.
+- 작업이 포함된 환경(msdyn_projecttask)은 프로젝트당 총 작업 수가 500개 이하인 경우에만 지원됩니다.
+
+3단계의 전제 조건은 일반 공급 날짜가 가까워지면 업데이트됩니다.
 
 ## <a name="licensing"></a>라이선싱
 
-Project Service Automation에 대한 활성 라이선스가 있는 경우 Project Service Automation 등의 모든 기능이 포함된 Project Operations를 설치하고 사용할 수 있습니다. 이러한 방식으로 프로덕션에서 Project Service Automation을 계속 사용하면서 Project Operations의 기능을 테스트할 수 있습니다. Project Service Automation 라이선스가 만료되면 Project Operations로 전환해야 합니다. 이 전환을 계획할 때 Project Operations 라이선스에 Project Service Automation 라이선스가 포함되어 있지 않다는 사실을 고려해야 합니다.
+Project Service Automation에 대한 활성 라이선스가 있는 경우 Project Service Automation 등의 모든 기능이 포함된 Project Operations를 설치하고 사용할 수 있습니다. 그런 다음 프로덕션에서 Project Service Automation을 계속 사용하면서 별도의 환경에서 Project Operations의 기능을 테스트할 수 있습니다. Project Service Automation 라이선스가 만료되면 Project Operations로 전환해야 합니다. 이 전환을 계획할 때 Project Operations 라이선스에 Project Service Automation 라이선스가 포함되어 있지 않다는 사실을 고려해야 합니다.
 
 ## <a name="testing-and-refactoring-customizations"></a>사용자 정의 테스트 및 리팩토링
 
@@ -87,14 +94,23 @@ Project Operations를 완전히 가져오기 위해 사용자 지정을 업데�
 
     업그레이드가 완료되면 환경에 Project Operations가 설치되어 있고 Project Service Automation이 설치되지 않은 것으로 표시되어야 합니다.
 
-    > [!NOTE]
-    > 환경의 데이터 양에 따라 업그레이드에 몇 시간이 걸릴 수 있습니다. 업그레이드를 관리하는 핵심 팀은 그에 따라 계획을 세우고 업무 시간 외 시간에 업그레이드를 실행해야 합니다. 경우에 따라 데이터 볼륨이 크면 주말에 업그레이드를 실행해야 합니다. 스케줄링에 대한 결정은 낮은 환경에서의 테스트 결과를 기반으로 해야 합니다.
+    환경의 데이터 양에 따라 업그레이드에 몇 시간이 걸릴 수 있습니다. 업그레이드를 관리하는 핵심 팀은 그에 따라 계획을 세우고 업무 시간 외 시간에 업그레이드를 실행해야 합니다. 경우에 따라 데이터 볼륨이 크면 주말에 업그레이드를 실행해야 합니다. 스케줄링에 대한 결정은 낮은 환경에서의 테스트 결과를 기반으로 해야 합니다.
 
 3. 사용자 정의 솔루션을 적절하게 업그레이드하십시오. 이 시점에서 이 문서의 [사용자 지정 테스트 및 리팩토링](#testing-and-refactoring-customizations) 섹션에서 사용자 지정에 대한 변경 사항을 배포합니다.
 4. **설정** \> **솔루션** 으로 이동하고 **Project Operations에서 사용되지 않는 구성 요소** 솔루션을 제거하도록 선택합니다.
 
     이 솔루션은 업그레이드 중에 존재하는 기존 데이터 모델 및 구성 요소를 보유하는 임시 솔루션입니다. 이 솔루션을 제거하면 더 이상 사용되지 않는 모든 필드와 구성 요소가 제거됩니다. 이러한 방식으로 인터페이스를 단순화하고 통합 및 확장을 더 쉽게 만들 수 있습니다.
     
+### <a name="upgrade-to-project-operations-lite"></a>Project Operations 라이트로 업그레이드
+
+다음 단계에서는 업그레이드 프로세스 및 관련 오류 로깅에 대해 설명합니다.
+
+1. **PSA 버전 확인:** Project Operations를 설치하려면 V3.10.58.120 이상이 있어야 합니다.
+1. **사전 유효성 검사:** 관리자가 업그레이드를 시작하면 시스템은 Project Operations 솔루션의 핵심인 각 엔터티에 대해 사전 유효성 검사 작업을 실행합니다. 이 단계에서는 모든 엔터티 참조가 유효한지 확인하고 WBS와 관련된 데이터가 Project for the Web의 게시된 제한 내에 있는지 확인합니다.
+1. **메타데이터 업그레이드:** 사전 유효성 검사에 성공하면 시스템에서 스키마 변경을 시작하고 더 이상 사용되지 않는 구성 요소 솔루션을 생성합니다. 사용자 지정에 필요한 모든 리팩토링을 완료한 후 더 이상 사용되지 않는 이 솔루션을 제거할 수 있습니다. 이 단계는 업그레이드 프로세스 중 가장 긴 부분이며 완료하는 데 최대 4시간이 걸릴 수 있습니다.
+1. **데이터 업그레이드:** 메타데이터 업그레이드 단계에서 필요한 모든 스키마 변경이 완료된 후 데이터가 새 스키마로 마이그레이션되고 필요한 기본값 설정 및 재계산이 완료됩니다.
+1. **프로젝트 일정 엔진 업데이트:** 데이터 업그레이드에 성공하면 메인 페이지의 **일정** 탭에 **작업** 이라는 레이블이 다시 지정됩니다. 사용자가 업그레이드 후 이 탭을 선택하면 WBS의 읽기 전용 버전을 보기 위해 추적 그리드로 이동하게 됩니다. WBS를 편집하려면 일정 [변환 프로세스](/PSA-Upgrade-Project-Conversion.md)를 시작해야 합니다. 기존 WBS가 없는 모든 프로젝트는 변환 없이 새 일정 설정 환경을 직접 사용할 수 있습니다.
+ 
 ### <a name="validate-common-scenarios"></a>일반적인 시나리오 유효성 검사
 
 특정 사용자 지정을 확인할 때 애플리케이션에서 지원되는 비즈니스 프로세스도 검토하는 것이 좋습니다. 이러한 비즈니스 프로세스에는 견적 및 계약과 같은 판매 엔터티 생성, WBS 및 실제 승인을 포함하는 프로젝트 생성이 포함되지만 이에 국한되지 않습니다.
@@ -107,7 +123,7 @@ Project Operations를 완전히 가져오기 위해 사용자 지정을 업데�
 
 Project Operations의 프로젝트 계획 기능은 더 이상 클라이언트 측 논리와 서버 측 논리의 조합에 의존하지 않습니다. 대신 Project Operations는 Project for the Web을 일정 엔진으로 사용합니다. 일정 기능의 이러한 변경으로 인해 Board 및 Gantt 보기, 리소스 기반 계획, [작업 체크리스트 항목](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) 및 프로젝트 일정 모드와 같은 몇 가지 새로운 기능이 가능해졌습니다. 새로운 예약 기능은 새로운 [API(응용 프로그래밍 인터페이스)](../project-management/schedule-api-preview.md)의 풍부한 집합에서도 지원됩니다. 이러한 API는 WBS에서 엔터티를 생성, 업데이트 또는 삭제하기 위한 프로그래밍 방식 작업이 일정의 계산된 필드를 손상시키지 않도록 하기 위한 것입니다.
 
-## <a name="billing-and-pricing"></a>청구 및 가격 책정
+### <a name="billing-and-pricing"></a>청구 및 가격 책정
 
 Project Operations에 대한 지속적인 투자의 일환으로 청구 및 가격 책정에서 몇 가지 새로운 기능을 사용할 수 있습니다. 다음 몇 가지 예를 참조하십시오.
 
@@ -116,6 +132,10 @@ Project Operations에 대한 지속적인 투자의 일환으로 청구 및 가�
 - [선급금 및 보유자 기반 계약](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [초과하지 않는 상태 및 유효성 검사 계약](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - 작업 기반 청구
+
+### <a name="resource-management"></a>리소스 관리
+
+Project Operations는 Universal Resource Scheduling(URS) 보드 및 일정 도우미에 대한 선택적 지원을 제공합니다. 이 새로운 환경은 2023년 4월 웨이브에서 필수가 됩니다.
 
 ## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
@@ -136,5 +156,4 @@ Project Operations에 대한 지속적인 투자의 일환으로 청구 및 가�
 - 새 환경 프로비전.
 - Project Service Automation이 없는 판매 조직에 Project Operations를 별도로 배포합니다.
 
-> [!NOTE]
-> Project Service Automation이 조직에 설치되었지만 사용되지 않은 경우 제거할 수 있습니다. Project Service Automation을 완전히 제거한 후 동일한 조직에 Project Operations를 설치할 수 있습니다.
+Project Service Automation이 조직에 설치되었지만 사용되지 않은 경우 제거할 수 있습니다. Project Service Automation을 완전히 제거한 후 동일한 조직에 Project Operations를 설치할 수 있습니다.
