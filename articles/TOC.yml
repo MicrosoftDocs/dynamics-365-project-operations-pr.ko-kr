@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: 프로젝트 스테이지 비즈니스 프로세스 흐름을 사용자 지정하려면 어떻게 해야 합니까?
               href: psa/FAQ-customize-bpf.md
-            - name: 작업 분할 구조를 위한 업그레이드 고려 사항
-              href: psa/upgrade-considerations-tasks.md
         - name: 백서
           href: psa/white-papers.md
         - name: 관리자 가이드
