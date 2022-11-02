@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686984"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709453"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation에서 Project Operations로 업그레이드
 
@@ -70,7 +70,7 @@ Microsoft Dynamics 365 Project Service Automation에서 Microsoft Dynamics 365 P
 
 ## <a name="licensing"></a>라이선싱
 
-Project Service Automation에 대한 활성 라이선스가 있는 경우 Project Service Automation 등의 모든 기능이 포함된 Project Operations를 설치하고 사용할 수 있습니다. 그런 다음 프로덕션에서 Project Service Automation을 계속 사용하면서 별도의 환경에서 Project Operations의 기능을 테스트할 수 있습니다. Project Service Automation 라이선스가 만료되면 Project Operations로 전환해야 합니다. 이 전환을 계획할 때 Project Operations 라이선스에 Project Service Automation 라이선스가 포함되어 있지 않다는 사실을 고려해야 합니다.
+Project Service Automation에 대한 활성 라이선스가 있는 경우 Project Service Automation 등의 모든 기능이 포함된 Project Operations를 설치하고 사용할 수 있습니다. 이러한 방식으로 프로덕션에서 Project Service Automation을 계속 사용하면서 Project Operations의 기능을 테스트할 수 있습니다. Project Service Automation 라이선스가 만료되면 Project Operations로 전환해야 합니다. 이 전환을 계획할 때 Project Operations 라이선스에 Project Service Automation 라이선스가 포함되어 있지 않다는 사실을 고려해야 합니다. Project Service Automation을 배포한 시나리오가 있고 Project Operations로 이전할 계획인 동안 PSA에 대한 라이선스를 계속 사용하거나 늘려야 하는 고객은 Project Operations에서 구매한 라이선스를 기반으로 임시 PSA 라이선스를 요청할 수 있습니다. 하나의 Project Operations 라이선스에 대해 하나의 Project Service Automation 라이선스가 발급됩니다. aka.ms/ineedpsa 링크를 사용하여 임시 PSA 라이선스를 요청할 수 있습니다
 
 ## <a name="testing-and-refactoring-customizations"></a>사용자 정의 테스트 및 리팩토링
 
