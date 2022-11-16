@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709453"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736675"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation에서 Project Operations로 업그레이드
 
@@ -97,7 +97,7 @@ Project Operations를 완전히 가져오기 위해 사용자 지정을 업데�
     환경의 데이터 양에 따라 업그레이드에 몇 시간이 걸릴 수 있습니다. 업그레이드를 관리하는 핵심 팀은 그에 따라 계획을 세우고 업무 시간 외 시간에 업그레이드를 실행해야 합니다. 경우에 따라 데이터 볼륨이 크면 주말에 업그레이드를 실행해야 합니다. 스케줄링에 대한 결정은 낮은 환경에서의 테스트 결과를 기반으로 해야 합니다.
 
 3. 사용자 정의 솔루션을 적절하게 업그레이드하십시오. 이 시점에서 이 문서의 [사용자 지정 테스트 및 리팩토링](#testing-and-refactoring-customizations) 섹션에서 사용자 지정에 대한 변경 사항을 배포합니다.
-4. **설정** \> **솔루션** 으로 이동하고 **Project Operations에서 사용되지 않는 구성 요소** 솔루션을 제거하도록 선택합니다.
+4. **make.powerapps.com** 으로 이동하여 포털 오른쪽 상단의 드롭다운에서 환경을 선택하고 왼쪽 메뉴에서 **솔루션** 을 선택한 다음 **Project Operations 더 이상 사용되지 않는 구성 요소** 솔루션을 선택하고 **제거** 합니다.
 
     이 솔루션은 업그레이드 중에 존재하는 기존 데이터 모델 및 구성 요소를 보유하는 임시 솔루션입니다. 이 솔루션을 제거하면 더 이상 사용되지 않는 모든 필드와 구성 요소가 제거됩니다. 이러한 방식으로 인터페이스를 단순화하고 통합 및 확장을 더 쉽게 만들 수 있습니다.
     
