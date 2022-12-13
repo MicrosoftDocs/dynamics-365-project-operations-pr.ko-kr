@@ -62,11 +62,15 @@
           href: environment/uninstall-project-operations.md
     - name: 새로운 기능
       items:
-        - name: 2022년 9월 - 리소스/비재고 기반 시나리오에 대한 Project Operations
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: 2022년 11월 - 리소스/비재고 기반 시나리오에 대한 Project Operations
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: 보관
           items:
-            - name: 2022년 8월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
+            - name: 2022년 10월 - 리소스/비재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: 2022년 9월 - 리소스/비재고 기반 시나리오에 대한 Project Operations
+              href: whats-new/whats-new-sept-2022-resource-based.md
+            - name: 2022년 8월 - 리소스/비재고 기반 시나리오에 대한 Project Operations
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: 2022년 7월 - 리소스/비 재고 기반 시나리오에 대한 Project Operations
               href: whats-new/whats-new-july-2022-resource-based.md
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: 조직 구성 단위
               href: sales/OrgUnits.md
-        - name: 프로젝트 잠재 고객 관리
+        - name: 프로젝트 기반 잠재 고객 관리
           href: sales/manage-leads.md
-        - name: 프로젝트 영업 기회 관리
+        - name: 프로젝트 기반 영업 기회 관리
           items:
             - name: 프로젝트 영업 기회 관리 개요
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: 프로젝트 기반 영업 기회 라인
               href: sales/project-based-lines.md
-            - name: 영업 기회에서 프로젝트 견적 작성
+            - name: 프로젝트 영업 기회에서 견적 작성
               href: sales/link-quotes-opportunities.md
-            - name: 프로젝트 기반 영업 기회 복사
+            - name: 프로젝트 영업 기회 복사
               href: sales/copy-project-based-opportunity.md
             - name: 프로젝트 영업 기회 닫기
               href: sales/close-opportunity.md
-        - name: 프로젝트 견적 관리
+        - name: 프로젝트 기반 견적 관리
           items:
             - name: 프로젝트 견적 관리 개요
               href: pro/sales/manage-quotes-sales.md
@@ -146,60 +150,58 @@
               href: sales/quotes-key-concepts.md
             - name: 프로젝트 기반 견적에 대한 헤더 세부 사항
               href: sales/quote-values-budget-limits-contract.md
-            - name: 프로젝트 견적에 대한 여러 고객 관리
+            - name: 프로젝트 기반 견적에서 여러 고객 관리
               href: sales/manage-multiple-customers-quote.md
-            - name: 견적에 대한 프로젝트 가격표 관리
+            - name: 프로젝트 견적에 대한 프로젝트 가격표
               href: pro/sales/manage-project-price-lists-sales.md
             - name: 프로젝트 기반 견적 라인
               items:
-                - name: 프로젝트 기반 견적 라인 개요
+                - name: 프로젝트 견적 라인 개요
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: 프로젝트 기반 견적 라인에서 여러 고객 관리
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: 프로젝트 및 작업을 프로젝트 기반 견적 라인에 매핑
+                - name: 프로젝트 및 작업을 프로젝트 견적 라인에 매핑
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: 프로젝트 견적 라인에 대한 청구 가능 구성 요소 구성
+                - name: 프로젝트 견적 라인에 청구 가능한 구성 요소 구성
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: 프로젝트 견적 라인의 청구 가능 구성 요소 구성
-                  href: sales/configure-chargeable-quoteline.md
                 - name: 프로젝트 견적 라인 추정
-                  href: sales/create-estimate-quote-line.md
-                - name: 프로젝트에서 프로젝트 기반 견적 라인으로 추정 가져오기
-                  href: sales/import-estimate-quote-line.md
-                - name: 프로젝트 기반 견적 라인의 송장 일정
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: 프로젝트에서 프로젝트 견적 내용으로 추정치 가져오기
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: 프로젝트 견적 라인의 송장 일정
                   href: sales/invoice-schedule-quote-line.md
             - name: 프로젝트 견적 복사
               href: sales/lose-quote.md
             - name: 프로젝트 견적 활성화 및 수정
               href: sales/activation-and-revision.md
-            - name: 프로젝트 견적 닫기
+            - name: 프로젝트 기반 견적 닫기
               href: sales/win-quote.md
-        - name: 프로젝트 계약 관리
+        - name: 프로젝트 기반 계약 관리
           items:
-            - name: 프로젝트 계약 관리 개요
+            - name: 프로젝트 계약 관리
               href: pro/sales/manage-contracts-sales.md
             - name: 프로젝트 기반 계약에 고유한 개념
               href: sales/contracts-key-concepts.md
             - name: 프로젝트 기반 계약에 대한 헤더 세부 사항
               href: sales/project-contract-settings.md
-            - name: 프로젝트 계약에 대한 프로젝트 가격표 관리
+            - name: 프로젝트 기반 계약에 대한 프로젝트 가격표 관리
               href: sales/contracts-manage-project-price-lists.md
-            - name: 프로젝트 계약에 대한 여러 고객 관리
+            - name: 프로젝트 기반 계약에서 여러 고객 관리
               href: sales/manage-multiple-customers-contract.md
             - name: 프로젝트 기반 계약 내용
               items:
-                - name: 프로젝트 기반 계약 내용 개요
+                - name: 프로젝트 계약 내용 개요
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: 프로젝트 기반 계약 내용에서 여러 고객 관리
                   href: sales/manage-multiple-customers-contract-line.md
                 - name: 프로젝트 및 작업을 프로젝트 계약 내용에 매핑
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: 프로젝트 계약 내용에 대해 청구 가능 구성 요소 구성
+                - name: 프로젝트 계약 내용의 청구 가능 구성 요소 구성
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: 프로젝트 계약 내용 추정
+                - name: 프로젝트 기반 계약 내용 추정
                   href: sales/create-estimate-contract-line.md
-                - name: 프로젝트에서 프로젝트 기반 계약 내용으로 추정 가져오기
-                  href: sales/import-estimate-project-contract-line.md
+                - name: 프로젝트에서 프로젝트 계약 내용으로 추정치 가져오기
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
                 - name: 프로젝트 기반 계약 내용에 송장 일정 만들기
                   href: sales/invoice-schedules-contract-line.md
             - name: 프로젝트 기반 계약 복사
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: 선불금 및 보유자
               items:
-                - name: 선급금 및 보유자 기반 계약
+                - name: 선급금 및 보유자 기반 프로젝트 계약
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: '보유자 일정 설정 '
+                - name: 보유자 일정 설정
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: 계약에 대한 임시 선불금 생성
+                - name: 프로젝트 계약에 대한 임시 선불금 생성
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 가격 책정 및 원가 계산
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: 종료된 프로젝트에 대한 입력을 방지하기 위해 프로젝트 상태 동기화
           href: advanced-configuration/sync-project-status.md
+        - name: 원가율에서 판매가를 계산하기 위한 통화 환산 설정
+          href: advanced-configuration/currencyconversion.md
     - name: 업그레이드
       items:
         - name: 최신 승인을 위한 업그레이드 고려 사항
@@ -662,9 +666,9 @@
       items:
         - name: 라이트 배포 개요
           href: pro/project-operations-overview-lite.md
-        - name: 미리 보기 구독 신청 - 라이트
+        - name: 프리뷰 구독 신청 - 라이트
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations 배포 - 라이트
+        - name: Project Operations 배포 라이트
           href: environment/lite-deployment.md
         - name: 데모 설정 및 구성 데이터 적용 - 라이트
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: 새로운 기능
       items:
-        - name: 2022년 9월의 새로운 기능 - 라이트 배포
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: 2022년 11월의 새로운 기능 - 라이트 배포
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: 보관
           items:
+            - name: 2022년 10월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: 2022년 9월의 새로운 기능 - 라이트 배포
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: 2022년 8월의 새로운 기능 - 라이트 배포
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: 2022년 7월의 새로운 기능 - 라이트 배포
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: 프로젝트 영업 기회에서 견적 작성
               href: sales/link-quotes-opportunities.md
-            - name: 프로젝트 기반 영업 기회 복사
+            - name: 프로젝트 영업 기회 복사
               href: sales/copy-project-based-opportunity.md
             - name: 프로젝트 영업 기회 닫기
               href: sales/close-opportunity.md
-        - name: 프로젝트 기반 견적 관리
+        - name: 프로젝트 견적 관리
           items:
-            - name: 프로젝트 기반 견적 개요
+            - name: 프로젝트 견적 개요
               href: pro/sales/manage-quotes-sales.md
             - name: 프로젝트 견적에 고유한 개념
               href: pro/sales/quotes-key-concepts-sales.md
             - name: 프로젝트 견적에 대한 헤더 세부 사항
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: 프로젝트 견적의 여러 고객
+            - name: 프로젝트 견적에 대한 여러 고객 관리
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: 프로젝트 견적에 대한 프로젝트 가격표
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: 제품 기반 견적 라인의 복잡한 단위 관리
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: 프로젝트 기반 견적 라인
+            - name: 프로젝트 견적 라인
               items:
-                - name: 프로젝트 기반 견적 라인 개요
+                - name: 프로젝트 견적 라인 개요
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: 여러 고객 관리
+                - name: 프로젝트 견적 라인에서 여러 고객 관리
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: 프로젝트 및 작업 매핑
+                - name: 프로젝트 및 작업을 프로젝트 견적 라인에 매핑
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: 청구 가능한 구성 요소 구성
+                - name: 프로젝트 견적 라인에 청구 가능한 구성 요소 구성
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: 프로젝트 기반 견적 라인 추정
+                - name: 프로젝트 견적 라인 추정
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: 프로젝트에서 평가 가져오기
+                - name: 프로젝트에서 프로젝트 견적 내용으로 추정치 가져오기
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: 송장 일정 관리
+                - name: 프로젝트 견적 라인의 송장 일정
                   href: sales/invoice-schedule-quote-line.md
-            - name: 프로젝트 기반 견적 복사
+            - name: 프로젝트 견적 복사
               href: sales/lose-quote.md
             - name: 프로젝트 견적 활성화 및 수정
               href: sales/activation-and-revision.md
-            - name: 프로젝트 기반 견적 닫기
+            - name: 프로젝트 견적 닫기
               href: pro/sales/win-quote-sales.md
-        - name: 프로젝트 기반 계약 관리
+        - name: 프로젝트 계약 관리
           items:
-            - name: 프로젝트 기반 계약 개요
+            - name: 프로젝트 계약 개요
               href: pro/sales/manage-contracts-sales.md
             - name: 프로젝트 계약에 고유한 개념
               href: pro/sales/contracts-key-concepts-sales.md
             - name: 프로젝트 계약에 대한 헤더 세부 사항
               href: pro/sales/project-contract-settings-sales.md
-            - name: 프로젝트 계약에 대한 여러 고객
+            - name: 프로젝트 계약에 대한 여러 고객 관리
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: 프로젝트 계약에 대한 프로젝트 가격표
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: 제품 기반 계약 내용의 복잡한 단위 관리
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: 프로젝트 기반 계약 내용
+            - name: 프로젝트 계약 내용
               items:
-                - name: 프로젝트 기반 계약 내용 개요
+                - name: 프로젝트 계약 내용 개요
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: 여러 계약 고객 관리
+                - name: 프로젝트 계약에 대한 여러 고객 관리
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: 프로젝트 및 작업을 프로젝트 계약 내용에 매핑
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: 프로젝트 계약 내용에 청구 가능 구성 요소 구성
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: 프로젝트 기반 계약 내용 추정
+                - name: 프로젝트 계약 내용 추정
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: 프로젝트에서 프로젝트 계약 내용으로 추정치 가져오기
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: 프로젝트 계약 내용에서 송장 일정 관리
+                - name: 프로젝트 계약 내용에서 송장 일정 생성
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: 프로젝트 계약 복사
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: 선불금 및 보유자
               items:
-                - name: 선불금 및 보유자 기반 계약 - 라이트
+                - name: 선급금 및 보유자 기반 계약
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: 보유자 일정 설정 - 라이트
+                - name: 보유자 일정 설정보유자 일정 설정
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: 계약에 대한 임시 선불금 생성 - 라이트
+                - name: 프로젝트 계약에 대한 임시 선불금 생성
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 가격 책정 및 원가 계산
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: 새로운 기능
       items:
-        - name: 새로운 기능 2022년 9월 - 리소스/생산 기반 시나리오를 위한 Project Operations
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: 새로운 기능 2022년 10월 - 리소스/생산 기반 시나리오에 대한 Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: 보관
           items:
+            - name: 새로운 기능 2022년 9월 - 리소스/생산 기반 시나리오를 위한 Project Operations
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: 새로운 기능 2022년 7월 - 리소스/생산 기반 시나리오에 대한 Project Operations
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 새로운 기능 2022년 6월 - 리소스/생산 기반 시나리오에 대한 Project Operations
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: 리소스/생산 기반 시나리오에 대한 Project Operations 배포 개요
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: 프로젝트 관리 및 회계 개요
-      href: prod-pma/overview-project-management-accounting.md
+    - name: 프로젝트 회계
+      items:
+        - name: 프로젝트 관리 및 회계 개요
+          href: prod-pma/overview-project-management-accounting.md
+        - name: 프로젝트 조정
+          href: project-accounting/project-adjustments.md
     - name: 프로젝트 영업 프로세스
       items:
         - name: 프로젝트 견적
