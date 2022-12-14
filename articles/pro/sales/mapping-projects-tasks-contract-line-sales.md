@@ -1,23 +1,23 @@
 ---
-title: 프로젝트 및 작업을 프로젝트 기반 계약에 매핑 - 라이트
+title: 프로젝트 및 작업을 프로젝트 계약 내용에 매핑
 description: 이 문서에서는 계약 내용에 프로젝트 및 작업을 추가 및 제거하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932534"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825067"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>프로젝트 및 작업을 프로젝트 기반 계약 라인에 매핑 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>프로젝트 및 작업을 프로젝트 계약 내용에 매핑 
 
 _**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재고 기반 시나리오를 위한 Project Operations_
 
-프로젝트 기반 계약 내용에서 프로젝트의 특정 작업을 계약 내용에 매핑할 수 있습니다.
+프로젝트 계약 내용에서 프로젝트의 특정 작업을 계약 내용에 매핑할 수 있습니다.
 
 특정 작업을 계약 내용에 매핑할 때 청구 방법, 청구 가능성 옵션, 초과 안 함 한도 및 계약 내용에 정의된 고객은 해당 특정 작업에만 적용됩니다.
 
@@ -25,7 +25,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재�
 
 프로젝트 작업 분할 구조(WBS)의 다른 모든 단계는 시간 및 재료 기반 계약 내용과 연관될 수 있습니다.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>프로젝트 기반 계약 내용에 작업 연결
+## <a name="associate-tasks-to-project-contract-lines"></a>프로젝트 계약 내용에 작업 연결
 
 작업은 **계약 내용** 페이지의 **청구 가능한 작업** 탭 또는 **프로젝트** 페이지의 **작업 청구** 탭에서 계약 내용에 연관될 수 있습니다.
 

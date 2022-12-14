@@ -1,17 +1,17 @@
 ---
-title: 프로젝트 견적 설정
+title: 프로젝트 기반 견적에 대한 헤더 세부 사항
 description: 이 문서에서는 프로젝트 견적에 적용되고 영향을 미치는 정보 및 설정에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 661dd40edeea890ad684b801bcc99ce2c242bb9b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f7e2b625476508d781b9f3f2440cde1f7374372c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931936"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825246"
 ---
 # <a name="header-details-for-project-based-quotes"></a>프로젝트 기반 견적에 대한 헤더 세부 사항
 

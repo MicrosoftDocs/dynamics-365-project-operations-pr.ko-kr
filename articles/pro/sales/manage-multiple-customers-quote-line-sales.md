@@ -1,23 +1,23 @@
 ---
-title: 프로젝트 기반 견적 라인에서 여러 고객 관리 - 라이트
-description: 이 문서에서는 프로젝트 기반 견적 라인에서 여러 고객을 관리하는 방법을 설명합니다.
+title: 프로젝트 견적 라인에서 여러 고객 관리
+description: 이 문서에서는 프로젝트 견적 라인에서 여러 고객을 관리하는 방법을 설명합니다.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927796"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824447"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>프로젝트 기반 견적 라인에서 여러 고객 관리 - 라이트
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>프로젝트 견적 라인에서 여러 고객 관리
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-프로젝트 기반 견적 라인은 각 견적 라인에 비용을 지불하는 고객 목록이 있는 시나리오를 지원합니다. 프로젝트 기반 견적 라인의 이 고객 목록은 견적의 고객 목록과 동일할 수 있습니다. 고객 목록을 다르게 변경할 수도 있습니다. 프로젝트 견적이 성공할 때 최종 프로젝트 계약을 생성하기 위해 프로젝트 기반 견적 라인의 고객 목록이 해당 프로젝트 기반 계약 내용에 복사됩니다. 프로젝트 기반 견적의 고객은 프로젝트 계약에 복사됩니다.
+프로젝트 견적 라인은 각 견적 라인에 비용을 지불하는 고객 목록이 있는 시나리오를 지원합니다. 프로젝트 기반 견적 라인의 이 고객 목록은 견적의 고객 목록과 동일할 수 있습니다. 고객 목록을 다르게 변경할 수도 있습니다. 프로젝트 견적이 성공할 때 최종 프로젝트 계약을 생성하기 위해 프로젝트 기반 견적 라인의 고객 목록이 해당 프로젝트 기반 계약 내용에 복사됩니다. 프로젝트 기반 견적의 고객은 프로젝트 계약에 복사됩니다.
 
 최종 프로젝트 계약에 대해 송장을 발행할 때 프로젝트 기반 계약 내용의 고객 목록이 프로젝트 계약의 목록보다 우선합니다. 프로젝트 계약의 고객 목록은 신규 프로젝트 계약 내용의 기본값을 설정하는 데만 사용됩니다.
 

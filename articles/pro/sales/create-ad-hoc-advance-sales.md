@@ -1,19 +1,19 @@
 ---
-title: 계약에 대한 임시 선불금 생성
+title: 프로젝트 계약에 임시 선불금 만들기
 description: 이 문서에서는 필요에 따라 계약에 대한 선지급을 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922184"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824860"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>계약에 대한 임시 선불금 생성
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>프로젝트 계약에 임시 선불금 만들기
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 

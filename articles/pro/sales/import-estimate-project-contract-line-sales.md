@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 기반 계약 내용으로 추정치 가져오기 - 라이트
+title: 프로젝트에서 프로젝트 계약 내용으로 추정치 가져오기
 description: 이 문서에서는 프로젝트에서 계약 내용으로 재무 추정치를 가져오는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924208"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824683"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>프로젝트 기반 계약 내용으로 추정치 가져오기 - 라이트
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>프로젝트에서 프로젝트 계약 내용으로 추정치 가져오기
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상:** Lite 배포 - 견적 송장 처리, 리소스/비재고 기반 시나리오에 대한 Project Operations_ _
 
 Dynamics 365 Project Operations에서는 프로젝트에서 프로젝트 기반 계약 내용으로 추정을 가져올 수 있습니다.
 

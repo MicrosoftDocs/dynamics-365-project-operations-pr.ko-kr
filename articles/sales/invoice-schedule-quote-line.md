@@ -1,27 +1,27 @@
 ---
-title: 프로젝트 기반 견적 라인의 송장 일정
+title: 프로젝트 견적 라인의 송장 일정
 description: 이 문서에서는 견적 라인의 송장 일정 및 이정표 생성에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918320"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825762"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>프로젝트 기반 견적 라인의 송장 일정
+# <a name="invoice-schedules-on-project-quote-lines"></a>프로젝트 견적 라인의 송장 일정
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-프로젝트 기반 견적 라인은 송장 일정을 표현하는 기능을 제공합니다. 견적 라인에 연결되어 있을 때 애플리케이션이 프로젝트 송장 발행을 지원하지 않기 때문에 견적 단계에서 선택 사항입니다. 송장 발행은 견적을 받은 후에만 허용됩니다. 견적 단계 중에 송장 일정을 생성할 때의 유일한 다운스트림 영향은 이 송장 일정이 프로젝트 기반 계약 라인에 복사된다는 것입니다. 견적 단계에서 송장 일정을 생성하지 않으면 프로젝트 기반 계약 라인에서 생성할 수 있습니다.
+프로젝트 견적 라인은 송장 일정을 표현하는 기능을 제공합니다. 견적 라인에 연결되어 있을 때 애플리케이션이 프로젝트 송장 발행을 지원하지 않기 때문에 견적 단계에서 선택 사항입니다. 송장 발행은 견적을 받은 후에만 허용됩니다. 견적 단계 중에 송장 일정을 생성할 때의 유일한 다운스트림 영향은 이 송장 일정이 프로젝트 기반 계약 라인에 복사된다는 것입니다. 견적 단계에서 송장 일정을 생성하지 않으면 프로젝트 기반 계약 라인에서 생성할 수 있습니다.
 
 전반적으로 송장 일정의 목적은 프로젝트 기반 계약 라인에 대한 송장 초안을 자동으로 생성할 수 있도록 하는 것입니다. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>프로젝트 기반 견적 라인에 대한 시간 및 자재 송장 일정 생성
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>프로젝트 견적 라인에 대한 시간 및 자재 송장 일정 생성
 
 프로젝트 기반 견적 라인에 대한 청구 방법이 시간 및 자재인 경우 시스템은 날짜 기반 송장 일정을 생성합니다. 날짜 기반 송장 일정을 자동으로 생성하려면 다음 단계를 완료하십시오.
 
@@ -36,7 +36,7 @@ _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project 
     - **트랜잭션 마감일** 은 **송장 실행 날짜** 의 전날로 설정됩니다.
     - **실행 상태** 는 **실행되지 않음** 으로 자동 설정됩니다. 자동 송장 생성 작업이 특정 송장 실행 날짜에 실행되면 이 필드를 **성공적으로 실행** 또는 **실행 실패** 중 하나로 업데이트합니다.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>프로젝트 기반 견적 라인에 대한 고정 가격 송장 일정 생성
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>프로젝트 견적 라인에 대한 고정 가격 송장 일정 생성
 
 프로젝트 기반 견적 라인에 **고정** 결제 방법이 있으면 시스템은 중요 시점 기반 송장 일정을 생성합니다. 달력 기간 동안 균등하게 분배되는 고정 중요 시점의 고정 집합에 대해 이 일정을 자동으로 생성하려면 다음 단계를 완료하십시오.
 

@@ -1,23 +1,23 @@
 ---
-title: 프로젝트 견적에 대한 여러 고객 관리
+title: 프로젝트 기반 견적에서 여러 고객 관리
 description: 이 문서에서는 프로젝트 자금을 조달할 여러 고객과 관련된 견적 작업에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928210"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825157"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>프로젝트 견적에 대한 여러 고객 관리
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>프로젝트 기반 견적에서 여러 고객 관리
 
-_**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
+_**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-프로젝트 견적은 제안서에 거래 자금을 조달할 여러 고객이 포함되는 시나리오를 지원합니다. 견적의 **요약** 탭에는 거래의 기본 고객을 식별하는 **잠재 고객** 필드가 있습니다. 거래에 대한 다른 고객은 프로젝트 견적의 **고객** 탭에서 설정할 수 있습니다.
+프로젝트 기반 견적은 제안서에 거래 자금을 조달할 여러 고객이 포함되는 시나리오를 지원합니다. 견적의 **요약** 탭에는 거래의 기본 고객을 식별하는 **잠재 고객** 필드가 있습니다. 거래에 대한 다른 고객은 프로젝트 견적의 **고객** 탭에서 설정할 수 있습니다.
 
 프로젝트 견적의 **고객** 탭에 있는 모든 견적 고객은 견적에 대해 작성된 **새로운** 프로젝트 기반 견적 라인의 견적 라인 고객으로 기본적으로 지정됩니다. 기존 프로젝트 기반 견적 라인은 그 이후에 생성된 새 견적 고객 레코드를 상속하지 않습니다.
 

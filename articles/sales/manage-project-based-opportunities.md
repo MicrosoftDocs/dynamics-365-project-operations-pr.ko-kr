@@ -1,19 +1,19 @@
 ---
-title: 프로젝트 기반 영업 기회 관리
+title: 프로젝트 영업 기회 관리
 description: 이 문서에서는 프로젝트와 관련된 영업 기회로 작업하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 56eba38476dd5b49f0043eee5d411d51f9bf56b8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933224"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825340"
 ---
-# <a name="manage-project-based-opportunities"></a>프로젝트 기반 영업 기회 관리
+# <a name="manage-project-opportunities"></a>프로젝트 영업 기회 관리
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 

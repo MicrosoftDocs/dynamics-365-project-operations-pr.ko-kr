@@ -1,23 +1,23 @@
 ---
-title: 견적 닫기
+title: 프로젝트 기반 견적 닫기
 description: 이 문서에서는 Project Operations에서 견적을 닫는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931890"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824226"
 ---
-# <a name="close-a-quote"></a>견적 닫기
+# <a name="close-project-based-quotes"></a>프로젝트 기반 견적 닫기
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
-프로젝트 견적은 성공 또는 실패로 마감될 수 있습니다. Microsoft Dynamics 365 Project Operations에서는 기능 활성화 및 수정 작업이 지원되지 않기 때문에 초안 견적을 마감할 수 있습니다.
+프로젝트 견적은 **성공** 또는 **실패** 로 마감될 수 있습니다. 
 
 ## <a name="close-a-quote-as-won"></a>견적을 성공으로 종료
 

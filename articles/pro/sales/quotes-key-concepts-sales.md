@@ -1,17 +1,17 @@
 ---
-title: 견적 - 주요 개념 - 라이트
+title: 프로젝트 견적에 고유한 개념
 description: 이 문서에서는 Project Operations에서 프로젝트 견적을 사용하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916986"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825902"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>프로젝트 견적에 고유한 개념
 
@@ -82,9 +82,13 @@ Project Operations는 네 가지 유형의 트랜잭션 클래스를 지원합�
 
 Project Operations 견적은 Dynamics 365 Sales 견적을 기반으로 합니다. 그러나 알아야 할 기능에는 몇 가지 중요한 차이점이 있습니다.
 
-- **수정** 및 **활성화** 작업은 지원되지 않습니다.
+
 - Project Operations 견적에는 두 가지 유형의 라인이 있습니다. 하나는 프로젝트용이고 다른 하나는 제품용입니다.
 - Project Operations 견적에는 고유한 양식 및 UI 요소, 비즈니스 규칙, 플러그인의 비즈니스 논리, 판매 견적에서 고유하게 만드는 클라이언트 측 스크립트가 있습니다.
+- 판매 견적을 사용하면 판매 견적에 여러 주문을 첨부할 수 있습니다. Project Operations에서는 하나의 프로젝트 계약만 프로젝트 견적에 첨부할 수 있습니다.
+- 판매 견적을 받으면 관련 영업 기회가 열려 있을 수 있습니다. 프로젝트 견적을 따낸 후에 관련 영업 기회가 닫힙니다.
+- 판매 견적에는 프로젝트 견적에 포함된 일부 필드와 개념이 포함되지 않습니다. 필드에는 **계약 단위**, **거래처 관리자** 및 **청구할 연락처 이름** 이 포함됩니다.  
+- **유형**: 영업 견적 및 프로젝트 견적은 **유형** 이라는 옵션 집합 기반 필드로 식별됩니다. 영업 견적의 경우, 이 필드에는 **항목 기반** 값이 있습니다. 프로젝트 견적의 경우, **작업 기반** 값이 있습니다.
 
 이러한 이유로 판매 견적과 Project Operations 견적을 서로 바꿔서 사용하지 않는 것이 좋습니다.
 

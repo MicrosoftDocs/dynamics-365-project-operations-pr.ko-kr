@@ -1,19 +1,19 @@
 ---
-title: 제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리 - 라이트
+title: 제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리
 description: 이 문서에서는 제품 기반 견적 라인의 복잡한 단위 관리에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 88173468cd2e898331c4aa0a398792d9a0f3df10
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50151e9a34e8608c98e406a30131c1efc4bf2f11
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929912"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825480"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리 - 라이트
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>제품 기반 견적 라인에 대한 사용자별, 월별 등 복잡한 단위 관리
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 

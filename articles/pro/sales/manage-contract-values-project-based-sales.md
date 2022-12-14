@@ -1,19 +1,19 @@
 ---
-title: 프로젝트 기반 계약 내용 개요
-description: 이 문서에서는 프로젝트 기반 계약 내용 작업에 대한 정보를 제공합니다.
+title: 프로젝트 계약 내용 개요
+description: 이 문서에서는 Project Operations에서 프로젝트 계약 내용 작업에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931430"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824635"
 ---
-# <a name="project-based-contract-lines-overview"></a>프로젝트 기반 계약 내용 개요
+# <a name="project-contract-lines-overview"></a>프로젝트 계약 내용 개요
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 

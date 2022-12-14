@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911650"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826090"
 ---
 # <a name="manage-project-quotes"></a>프로젝트 견적 관리
 
@@ -23,7 +23,7 @@ Dynamics 365 Project Operations에서 프로젝트 견적은 프로젝트 작업
   - 각 상위 수준 구성 요소 또는 견적 라인에 대한 작업을 식별하고 추정하는 견적 라인 세부 정보입니다. 작업의 일정 또는 날짜 추정과 재정적 측면은 해당 견적 라인에 연결됩니다.
   - 계약 모델 및 청구 가능 구성 요소는 각 견적 라인에 대해 설정됩니다. 이 설정은 각 견적 라인과 전체 견적에 대한 수익, 지출 및 수익성의 범위를 추정하는 데 도움이 됩니다.
 
-## <a name="view-all-project-based-quotes"></a>모든 프로젝트 기반 견적 보기
+## <a name="view-all-project-quotes"></a>모든 프로젝트 견적 보기
 
 모든 프로젝트 견적 목록은 **견적** 목록 페이지에서 볼 수 있습니다. 
 

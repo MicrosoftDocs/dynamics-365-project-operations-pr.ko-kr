@@ -1,19 +1,19 @@
 ---
-title: 프로젝트 계약 내용 추정
+title: 프로젝트 기반 계약 내용 추정
 description: 이 문서는 프로젝트 계약 내용의 추정에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 553f7e4a9e9f57732267a48da2b299c1751b0c0e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 633ad3130a28d75ad10b81e03a883e0a732b1ba8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932028"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825205"
 ---
-# <a name="estimate-a-project-contract-line"></a>프로젝트 계약 내용 추정
+# <a name="estimate-a-project-based-contract-line"></a>프로젝트 기반 계약 내용 추정
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_ 
 

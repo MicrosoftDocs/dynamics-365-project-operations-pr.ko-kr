@@ -1,32 +1,32 @@
 ---
-title: 프로젝트 기반 계약 내용 추정 - 라이트
+title: 프로젝트 계약 내용 추정
 description: 이 문서에서는 프로젝트 기반 계약 내용 추정에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914410"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824776"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>프로젝트 기반 계약 내용 추정 - 라이트
+# <a name="estimate-a-project-contract-line"></a>프로젝트 계약 내용 추정
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
-Dynamics 365 Project Operations에서 프로젝트 기반 계약 내용에는 계약 내용을 제공하는 데 관련된 작업의 비용 및 잠재적 수익을 추정하는 데 도움이 되는 세부 정보가 있습니다.
+Dynamics 365 Project Operations에서 프로젝트 계약 내용에는 계약 내용을 제공하는 데 관련된 작업의 비용 및 잠재적 수익을 추정하는 데 도움이 되는 세부 정보가 있습니다.
 
-프로젝트 기반 계약 내용을 추정하려면 프로젝트 기반 **계약 내용** 의 **계약 내용 세부 정보** 탭으로 이동합니다.  프로젝트 기반 계약 내용에 대한 견적을 생성하는 방법에는 두 가지가 있습니다.
+프로젝트 계약 내용을 추정하려면 프로젝트 기반 **계약 내용** 의 **계약 내용 세부 정보** 탭으로 이동합니다.  프로젝트 기반 계약 내용에 대한 견적을 생성하는 방법에는 두 가지가 있습니다.
 
    - 계약 내용 세부 정보를 수동으로 추가하여 계약 내용에서 직접 견적을 생성합니다.
    - 프로젝트 및 프로젝트 계획을 생성한 다음 프로젝트 및 작업을 프로젝트의 계약 내용에 연결합니다. 이를 통해 계약 내용에 포함된 구성 요소를 기준으로 프로젝트 계획 추정을 계약 내용으로 가져올 수 있습니다.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>프로젝트 기반 계약 내용에서 직접 추정 만들기
 
-프로젝트 기반 계약 내용에서 직접 추정치를 만들려면 다음 단계를 따르십시오.
+프로젝트 계약 내용에서 직접 추정치를 만들려면 다음 단계를 따르세요.
 
 1. 계약 내용으로 이동하여 **계약 내용 세부 정보** 탭을 선택합니다. 이 탭에서 생성한 내용은 요약되고 이 **계약 내용** 에 대해 **약정된 값** 으로 표시됩니다. 
 2. **계약 내용 세부 정보** 하위 표에서 **새 계약 내용 세부 정보** 를 선택합니다. 빨리 만들기 슬라이더가 열립니다. 다음 필드는 **계약 내용 세부 정보** 페이지에서 사용할 수 있습니다.

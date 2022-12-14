@@ -1,23 +1,23 @@
 ---
-title: 프로젝트 및 작업을 프로젝트 기반 견적 라인에 매핑
-description: 이 문서에서는 프로젝트 및 작업을 프로젝트 기반 작업 행에 매핑하는 방법에 대한 정보를 제공합니다.
+title: 프로젝트 및 작업을 프로젝트 견적 라인에 매핑
+description: 이 문서에서는 프로젝트 및 작업을 프로젝트 견적 라인에 매핑하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917170"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824355"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>프로젝트 및 작업을 프로젝트 기반 견적 라인에 매핑
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>프로젝트 및 작업을 프로젝트 견적 라인에 매핑
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 
-프로젝트 기반 견적 라인에서 견적 라인에 이미 연결된 프로젝트의 특정 작업을 매핑할 수 있습니다.
+프로젝트 견적 라인에서 견적 라인에 이미 연결된 프로젝트의 특정 작업을 매핑할 수 있습니다.
 
 작업을 견적 라인에 매핑하면 견적 라인에 정의한 다음 항목이 해당 작업에만 적용됩니다.
 

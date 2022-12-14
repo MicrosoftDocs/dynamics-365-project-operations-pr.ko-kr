@@ -1,31 +1,29 @@
 ---
-title: 잠재 고객 관리
+title: 프로젝트 기반 잠재 고객 관리
 description: 이 문서에서는 프로젝트 기반 잠재 고객 관리에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920206"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825808"
 ---
-# <a name="manage-leads"></a>잠재 고객 관리
+# <a name="manage-project-based-leads"></a>프로젝트 기반 잠재 고객 관리
 
 _**적용 대상:** 리소스/비 재고 기반 시나리오에 대한 Project Operations_
 
 프로젝트 기반 잠재 고객은 Project Operations에서 관리하고 검증할 수 있습니다. 잠재 고객 관리 프로세스에는 작업 기반 잠재 고객을 생성하고 해당 잠재 고객을 검증하는 것이 포함됩니다. 
 
-## <a name="project-sales-leads"></a>프로젝트 잠재 고객
-
 **영업** 섹션의 왼쪽 탐색 창에서 **잠재 고객** 목록 페이지를 열어 시스템의 모든 잠재 고객 레코드 목록을 봅니다. 표시된 잠재 고객 목록은 Dynamics 365 Sales 또는 Dynamics 365 Field Service 응용 프로그램도 있는 경우 생성할 수 있는 작업 기반 및 기타 유형의 잠재 고객입니다.
 
 **유형** 값에 필터를 만들어 프로젝트 기반 잠재 고객만 표시하도록 필터링된 보기를 만들 수 있습니다. 예를 들어 작업 기반 잠재 고객만 표시하도록 선택할 수 있습니다.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>프로젝트 기반 거래를 위한 새로운 잠재 고객 생성
+## <a name="create-a-new-project-based-lead"></a>새 프로젝트 기반 잠재 고객 만들기 
 
 프로젝트 기반 잠재 고객이 자격을 갖추면 영업 기회와 거래처가 생성됩니다. 프로젝트 기반 영업 기회는 영업 기회 단계에서 영업 추구 활동의 시작점입니다. 프로젝트 기반 영업 기회에는 프로젝트 작업을 판매하는 데 필요한 고유한 기능이 있습니다. 이러한 기능은 다음과 같습니다.
 

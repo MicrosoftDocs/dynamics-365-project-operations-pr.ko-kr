@@ -1,21 +1,21 @@
 ---
-title: 프로젝트 기반 견적 라인 추정
-description: 이 문서에서는 프로젝트 기반 견적 라인에 견적을 생성하는 방법에 대한 정보를 제공합니다.
+title: 프로젝트 견적 라인 추정
+description: 이 문서에서는 프로젝트 견적 라인에 견적을 생성하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914364"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825996"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>프로젝트 기반 견적 라인 추정
+# <a name="estimate-a-project-quote-line"></a>프로젝트 견적 라인 추정
 
-_**적용 대상:** 라이트 배포 - 견적 송장 거래_
+_**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재고 기반 시나리오를 위한 Project Operations_
 
 프로젝트 기반 견적 라인에는 견적 라인을 전달하는 데 관련된 작업의 비용 및 잠재적 수익을 추정하는 데 도움이되는 세부 정보가 있습니다.
 
@@ -24,7 +24,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 - 견적 라인 세부 정보를 사용하여 견적 라인에서 직접 추정치를 수동으로 생성합니다. 
 - 프로젝트 및 프로젝트 계획을 생성한 다음 프로젝트의 프로젝트 및 작업을 견적 라인에 연결합니다. 제공한 정보를 기반으로 프로젝트 계획의 추정치를 견적 라인으로 가져오는 프로세스가 활성화됩니다.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>프로젝트 기반 견적 라인에서 직접 추정치 만들기
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>프로젝트 견적 라인에서 직접 추정치 만들기
 
 프로젝트 기반 견적 라인에 대한 추정치를 생성하려면 **견적 라인 세부 정보** 탭을 선택합니다. 이 탭에서 생성하는 라인 항목은이 견적 라인에 대한 견적 값을 요약합니다. 
 
@@ -68,8 +68,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 수익성 계산은 비용 및 판매에 대한 견적 라인 세부 정보의 금액을 환경의 기본 통화로 변환하여 견적에 대한 전체 예상 마진을 보고합니다.
 
-> [!참고
-> > 날짜 유효 환율이 없기 때문에 통화 반올림 오류 및 변경된 마진이 발생할 수 있습니다. 이러한 계산은 근사치이며 더 높은 반올림 정밀도와 환율에 대한 날짜 유효성 인식이 필요한 실제 법정 또는 기타 보고가 아니므로 프로젝트 계약에만 사용하십시오.
+> [!참고: 날짜 유효 환율이 없기 때문에 통화 반올림 오류 및 변경된 마진이 발생할 수 있습니다. 이러한 계산은 근사치이며 더 높은 반올림 정밀도와 환율에 대한 날짜 유효성 인식이 필요한 실제 법정 또는 기타 보고가 아니므로 프로젝트 계약에만 사용하십시오.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

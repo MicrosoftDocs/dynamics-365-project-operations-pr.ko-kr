@@ -1,5 +1,5 @@
 ---
-title: 견적 닫기 - 라이트
+title: 프로젝트 견적 닫기
 description: 이 문서에서는 Project Operations에서 견적을 닫는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916940"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826184"
 ---
-# <a name="close-a-quote---lite"></a>견적 닫기 - 라이트
+# <a name="close-project-quotes"></a>프로젝트 견적 닫기
 
 _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
@@ -30,7 +30,7 @@ _**적용 대상:** 라이트 배포 - 견적 송장 거래_
 
 초안 견적에 첨부되어 있는 동안 프로젝트의 시간에 대한 실제가 있는 경우 시간 또는 경비의 비용만 기록됩니다. 견적이 성공으로 종료된 후 응용 프로그램은 이전 실제 비용을 되돌리고 새로운 실제 비용을 다시 생성하여 비용을 리팩토링합니다. 응용 프로그램은 연관된 프로젝트 계약 내용의 청구 방법을 기반으로 이러한 실제 비용을 처리합니다. 실제 원가가 시간 및 재료 계약 내용을 참조하는 경우 견적이 마감되고 프로젝트 계약이 생성될 때 해당 미청구 판매 실제가 생성됩니다. 실제 원가가 고정 가격 계약 내용을 참조하는 경우 응용 프로그램은 프로젝트 계약 고객에 대한 분할 청구 규칙을 기반으로 하는 실제 원가 재처리를 중지합니다.
 
-## <a name="closing-a-quote-as-lost"></a>견적을 실패로 종료:
+## <a name="closing-a-quote-as-lost"></a>견적을 실패로 종료
 
 프로젝트 견적을 실패로 마감하면 상태는 마감으로 설정되고 상태 설명은 실패가 됩니다. 견적을 종료하면 프로젝트 견적이 읽기 전용이 됩니다. 종료된 견적은 다시 열 수 없으므로 견적을 종료하기 전에 확인 대화 상자에서 변경 사항을 확인합니다.
 

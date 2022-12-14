@@ -1,19 +1,19 @@
 ---
-title: 프로젝트 계약에 대한 여러 고객 관리
-description: 이 문서에서는 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
+title: 프로젝트 기반 계약에서 여러 고객 관리
+description: 이 문서에서는 프로젝트 기반 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928348"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825387"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>프로젝트 계약에 대한 여러 고객 관리
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>프로젝트 기반 계약에서 여러 고객 관리
 
 이 문서에서는 프로젝트 계약에서 여러 고객을 관리하는 방법에 대한 정보를 제공합니다. 거래 자금 조달을 위해 여러 고객에 대한 계약이 필요한 경우 프로젝트 계약을 사용할 수 있습니다. **프로젝트 계약** 페이지의 **요약** 탭에는 거래의 기본 고객에 대한 정보가 포함됩니다. 거래에 참여하는 다른 고객은 **고객** 탭에 추가할 수 있습니다.
 

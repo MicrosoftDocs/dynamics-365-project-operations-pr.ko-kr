@@ -1,19 +1,19 @@
 ---
-title: 영업 기회 종료
+title: 프로젝트 영업 기회 닫기
 description: 이 문서에서는 프로젝트 영업 기회 마감에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 72789d2d3fa6f362a5ccd8a4dae7bbcf1c735ea3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 21366e3371efb958055ac961a8ec88602d847446
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920252"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826043"
 ---
-# <a name="close-an-opportunity"></a>영업 기회 종료
+# <a name="close-a-project-opportunity"></a>프로젝트 영업 기회 닫기 
 
 _**적용 대상 :** 리소스/비 재고 기반 시나리오를 위한 Project Operations, Lite 배포 - 견적 송장 처리_
 

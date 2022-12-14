@@ -1,19 +1,19 @@
 ---
-title: 프로젝트 기반 견적 라인 개요
+title: 프로젝트 견적 라인 개요
 description: 이 문서에서는 프로젝트 작업에 프로젝트 기반 견적 라인을 사용하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934466"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825667"
 ---
-# <a name="project-based-quote-lines-overview"></a>프로젝트 기반 견적 라인 개요 
+# <a name="project-quote-lines-overview"></a>프로젝트 견적 라인 개요 
 
 _**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재고 기반 시나리오를 위한 Project Operations_
 

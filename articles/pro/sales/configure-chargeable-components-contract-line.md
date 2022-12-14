@@ -1,23 +1,23 @@
 ---
-title: 프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
+title: 프로젝트 계약 내용에 청구 가능 구성 요소 구성
 description: 이 문서에서는 Project Operations의 계약 내용에 청구 가능한 구성 요소를 추가하는 방법에 대한 정보를 제공합니다.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922966"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825573"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>프로젝트 기반 계약 내용의 청구 가능 구성 요소 구성
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>프로젝트 계약 내용에 청구 가능 구성 요소 구성
 
 _**적용 대상:** 라이트 배포 - 견적 송장 처리, 리소스/비 재고 기반 시나리오를 위한 Project Operations_
 
-프로젝트 기반 계약 내용에는 *포함* 구성 요소 및 *청구 가능* 구성 요소가 있습니다.
+프로젝트 계약 내용에는 *포함* 구성 요소 및 *청구 가능* 구성 요소가 있습니다.
 
 포함 구성 요소는 다음과 같은 구성 요소입니다.
 
