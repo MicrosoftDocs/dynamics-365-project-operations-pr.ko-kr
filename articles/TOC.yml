@@ -846,7 +846,7 @@
               items:
                 - name: 선급금 및 보유자 기반 계약
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: 보유자 일정 설정보유자 일정 설정
+                - name: 보유자 일정 설정
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: 프로젝트 계약에 대한 임시 선불금 생성
                   href: pro/sales/create-ad-hoc-advance-sales.md
